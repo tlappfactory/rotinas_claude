@@ -1,0 +1,44 @@
+{
+  "date": "2026-05-07",
+  "sources": {
+    "trt17": {
+      "status": "no_pdf"
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 89,
+      "total_atos_detectados": 1,
+      "matched_atos": 0
+    },
+    "tst": {
+      "status": "no_pdf"
+    }
+  },
+  "total_matched": 0,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": []
+}

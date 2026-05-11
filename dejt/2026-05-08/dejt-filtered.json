@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-08",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 224,
+      "total_atos_detectados": 1,
+      "matched_atos": 1
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 100,
+      "total_atos_detectados": 1,
+      "matched_atos": 1
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "[caderno inteiro — sem cabeçalhos detectados]",
+      "text_resumo": "                                                       Caderno Administrativo\n                                                    Tribunal Superior do Trabalho\n\n                           DIÁRIO ELETRÔNICO DA JUSTIÇA DO TRABALHO\n    PODER JUDICIÁRIO                               REPÚBLICA FEDERATIVA DO BRASIL\n\n\n       Nº4467/2026                           Data da disponibilização: Sexta-feira, 08 de Maio de 2026.\n\n\n\n                      Tribunal Superior do Trabalho\n\n\n               Ministro Luiz Philippe Vieira de Mello Filho\n                                                                           Setor de Administração Federal Sul (SAFS) Quadra 8 - Lote 1,\n                               Presidente\n                                                                                      Zona Cívico-Administrativa, Brasília/DF\n                                                                                                 CEP: 70070943\n              Ministro Guilherme Augusto Caputo Bastos\n                            Vice-Presidente\n                                                                                              Telefone(s) : (61) 3043-4300\n\n                 Ministro Jo",
+      "strong_keywords": [
+        "aposentadoria",
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "[caderno inteiro — sem cabeçalhos detectados]",
+      "text_resumo": "                                                     Caderno Administrativo\n                                           Tribunal Regional do Trabalho da 17ª Região\n\n                           DIÁRIO ELETRÔNICO DA JUSTIÇA DO TRABALHO\n    PODER JUDICIÁRIO                                REPÚBLICA FEDERATIVA DO BRASIL\n\n\n       Nº4467/2026                           Data da disponibilização: Sexta-feira, 08 de Maio de 2026.\n\n\n\n             Tribunal Regional do Trabalho da 17ª Região\n                                                                              Av. Nossa Senhora dos Navegantes, 1245, Enseada do Suá,\n                   Alzenir Bollesi de Plá Loeffler                                                   Vitória/ES\n              Desembargadora Presidente e Corregedora                                             CEP: 29050912\n\n\n               Marise Medeiros Cavalcanti Chamberlain                                           Telefone(s) : (27) 3321-2400\n                  Desembargadora Vice-Presidente\n\n\n\n\n                                                SECRETARIA GERAL DA PRESIDÊNCIA\n                                                                Ato\n                                 ",
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    }
+  ]
+}
