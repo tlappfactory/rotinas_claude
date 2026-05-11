@@ -4,8 +4,18 @@
     "trt17": {
       "status": "ok",
       "pdf_size_kb": 224,
-      "total_atos_detectados": 1,
-      "matched_atos": 1
+      "pdf_text_chars": 26519,
+      "total_atos_detectados": 7,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 37/2026",
+        "ATO TRT 17ª PRESI Nº 36/2026",
+        "Ato SECOR N° 24/2026",
+        "ATO PRESI SECOR Nº 24/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 140/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 141/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 139/2026"
+      ]
     },
     "csjt": {
       "status": "no_pdf"
@@ -13,11 +23,22 @@
     "tst": {
       "status": "ok",
       "pdf_size_kb": 100,
-      "total_atos_detectados": 1,
-      "matched_atos": 1
+      "pdf_text_chars": 17282,
+      "total_atos_detectados": 8,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO GDGSET.GP Nº 241, DE 7 DE MAIO DE 2026",
+        "ATO GDGSET.GP.Nº 245, DE 8 DE MAIO DE 2026",
+        "ATO GDGSET.GP.N.º 242, DE 7 DE MAIO DE 2026",
+        "ATO GDGSET.GP.Nº 244, DE 7 DE MAIO DE 2026",
+        "ATO GDGSET.GP.N.º 248, DE 8 DE MAIO DE 2026",
+        "ATO SEGJUD.GP N.º 243, DE 7 DE MAIO DE 2026.",
+        "ATO SEGJUD.GP N.º 249, DE 8 DE MAIO DE 2026.",
+        "Ato TST.GP nº 823, de 5 de dezembro de 2025, referendado pela Resolução Administ"
+      ]
     }
   },
-  "total_matched": 2,
+  "total_matched": 4,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -45,22 +66,10 @@
   ],
   "articles": [
     {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "[caderno inteiro — sem cabeçalhos detectados]",
-      "text_resumo": "                                                       Caderno Administrativo\n                                                    Tribunal Superior do Trabalho\n\n                           DIÁRIO ELETRÔNICO DA JUSTIÇA DO TRABALHO\n    PODER JUDICIÁRIO                               REPÚBLICA FEDERATIVA DO BRASIL\n\n\n       Nº4467/2026                           Data da disponibilização: Sexta-feira, 08 de Maio de 2026.\n\n\n\n                      Tribunal Superior do Trabalho\n\n\n               Ministro Luiz Philippe Vieira de Mello Filho\n                                                                           Setor de Administração Federal Sul (SAFS) Quadra 8 - Lote 1,\n                               Presidente\n                                                                                      Zona Cívico-Administrativa, Brasília/DF\n                                                                                                 CEP: 70070943\n              Ministro Guilherme Augusto Caputo Bastos\n                            Vice-Presidente\n                                                                                              Telefone(s) : (61) 3043-4300\n\n                 Ministro Jo",
-      "strong_keywords": [
-        "aposentadoria",
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 20
-    },
-    {
       "source": "trt17",
       "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "[caderno inteiro — sem cabeçalhos detectados]",
-      "text_resumo": "                                                     Caderno Administrativo\n                                           Tribunal Regional do Trabalho da 17ª Região\n\n                           DIÁRIO ELETRÔNICO DA JUSTIÇA DO TRABALHO\n    PODER JUDICIÁRIO                                REPÚBLICA FEDERATIVA DO BRASIL\n\n\n       Nº4467/2026                           Data da disponibilização: Sexta-feira, 08 de Maio de 2026.\n\n\n\n             Tribunal Regional do Trabalho da 17ª Região\n                                                                              Av. Nossa Senhora dos Navegantes, 1245, Enseada do Suá,\n                   Alzenir Bollesi de Plá Loeffler                                                   Vitória/ES\n              Desembargadora Presidente e Corregedora                                             CEP: 29050912\n\n\n               Marise Medeiros Cavalcanti Chamberlain                                           Telefone(s) : (27) 3321-2400\n                  Desembargadora Vice-Presidente\n\n\n\n\n                                                SECRETARIA GERAL DA PRESIDÊNCIA\n                                                                Ato\n                                 ",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 139/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 139/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000796-54.2017.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                       DISPENSAR\n\n\n\n  Simone Olinda de Castro, Analista Judiciária, área Judiciária, da função comissionada de Assistente - FC-03, do (a) Coordenadoria de\n  Gerenciamento de Precedentes e Ações Coletivas - COGEPAC.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 237608\n\f   4467/2026                                         ",
       "strong_keywords": [
         "cessao_remocao_permuta"
       ],
@@ -68,6 +77,39 @@
         "substituicao_fc_cc"
       ],
       "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR Nº 24/2026",
+      "text_resumo": "ATO PRESI SECOR Nº 24/2026\n\n\n\n            A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª REGIÃO, no uso de\n  suas atribuições legais e regimentais\n\n\n\n          CONSIDERANDO que o teor da mensagem eletrônica encaminhada pela Juíza Substituta Alda Pereira dos Santos Botelho à\n  Corregedoria Regional em 27/04/2026, resolve\n\n\n\n                                                                        DESIGNAR\n\n\n\n\n  ROSALY STANGE AZEVEDO, Juíza Substituta, para auxiliar na 2ª Vara do Trabalho de Vitória no dia 14/05/2026, sem prejuízo das designações\n  anteriores.\n\n\n\n       Publique-se.\n\n\n\n\n                                                            Alzenir Bollesi de Plá Loeffler\n                                                       Desembargadora-Presidente e Corregedora\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 08/05/2026,\n                         às 14:06, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                 ",
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO SEGJUD.GP N.º 243, DE 7 DE MAIO DE 2026.",
+      "text_resumo": "ATO SEGJUD.GP N.º 243, DE 7 DE MAIO DE 2026.\n\n\n  Divulga os órgãos judicantes integrados pela Ex.ma Ministra Margareth Rodrigues Costa.\n\n\n  O\n  PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso das atribuições legais e regimentais, ad referendum do Órgão Especial,\n\n  considerando a posse da Ex.ma Sr.ª Margareth Rodrigues Costa no cargo de Ministra do Tribunal Superior do Trabalho, ocorrida nesta data, na\n  vaga decorrente da aposentadoria do Ex.mo Ministro Aloysio Silva Corrêa da Veiga,\n\n  RESOLVE\n\n  Art. 1º\n  A Ex.ma Ministra Margareth Rodrigues Costa integrará, a partir de 8 de maio de 2026:\n\n  I - a 7ª Turma, na cadeira na qual atuava o Ex.mo Desembargador convocado José Pedro de Camargo Rodrigues de Souza;\n\n  II - a Subseção I da Seção Especializada em Dissídios Individuais, na cadeira ocupada pela Ex.ma Ministra Dora Maria da Costa até 8 de outubro\n  de 2025.\n  Art. 2º\n  No Tribunal Pleno, a Ex.ma Ministra Margareth Rodrigues Costa ocupará a cadeira anteriormente ocupada pelo Ex.mo Ministro Aloysio Silva\n  Corrêa da Veiga.\n  Art. 3º\n  Este Ato entra em vigor nesta data.\n\n  Publique-se.\n\n\n\n                                                           LUIZ PHILIPPE VIEIRA DE MELL",
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO SEGJUD.GP N.º 249, DE 8 DE MAIO DE 2026.",
+      "text_resumo": "ATO SEGJUD.GP N.º 249, DE 8 DE MAIO DE 2026.\n                                                                                    Divulga a\n                                                                                    composição do Tribunal Superior do Trabalho e de seus Órgãos\n                                                                                    Judicantes.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 237615\n\f                                          4467/2026                                                   Tribunal Superior do Trabalho\n                                          Data da Disponibilização: Sexta-feira, 08 de Maio de 2026\n\n\n\n\n                          O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO\n    , no uso da atribuição prevista no artigo 41, inciso VII, do Regimento Interno do Tribunal Superior do Trabalho,\n                        considerando a remoção do Exmo. Ministro Lelio Bentes Corrêa da 3ª Turma para a 2ª Turma, na cadeira anteriormente\n    ocupada pela Exma. Ministra Maria Helena Mallmann, com efeitos a contar de 4\n     de maio de 2026, nos termos do Ato SEGJUD.GP nº 196, de 16 de abril de 2026, referendado pela Resolução Admini",
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
     }
   ]
 }

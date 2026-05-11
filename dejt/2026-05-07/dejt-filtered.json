@@ -7,8 +7,12 @@
     "csjt": {
       "status": "ok",
       "pdf_size_kb": 89,
+      "pdf_text_chars": 5162,
       "total_atos_detectados": 1,
-      "matched_atos": 0
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CSJT.GP.SG N.º 46, de 6 DE MAIO DE 2026."
+      ]
     },
     "tst": {
       "status": "no_pdf"
