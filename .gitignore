@@ -1,0 +1,24 @@
+# Segredos — NUNCA commitar
+.env
+.env.*
+!.env.example
+
+# Artefatos brutos do INLabs (grandes, não versionados; apenas o JSON filtrado vai pro repo)
+dou/*/*.zip
+dou/*/extracted/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
