@@ -1,4 +1,4 @@
-name: fetch-dou-diario
+name: fetch-dou-dejt-diario
 
 on:
   schedule:
@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-dou
+  group: fetch-dou-dejt
   cancel-in-progress: false
 
 jobs:
@@ -34,8 +34,11 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install deps
-        run: pip install -r requirements.txt
+      - name: Install deps (Python + poppler para PDF)
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
 
       - name: Fetch INLabs (DOU XML)
         env:
@@ -49,18 +52,26 @@ jobs:
             python scripts/fetch_inlabs.py --catchup "${{ inputs.catchup || '7' }}"
           fi
 
-      - name: Parse e filtrar
+      - name: Parse DOU
         run: python scripts/parse_dou.py --force
 
-      - name: Commit dos JSONs filtrados
+      - name: Fetch DEJT (PDFs TRT-17 / CSJT / TST)
+        run: |
+          mkdir -p dejt
+          python scripts/fetch_dejt.py
+
+      - name: Parse DEJT
+        run: python scripts/parse_dejt.py --force
+
+      - name: Commit JSONs filtrados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'dou/*/inlabs-filtered.json'
+          git add 'dou/*/inlabs-filtered.json' 'dejt/*/dejt-filtered.json'
           if git diff --staged --quiet; then
             echo "Nenhuma novidade a commitar."
           else
-            git commit -m "DOU filtrado — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "DOU+DEJT filtrados — $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
 
@@ -69,5 +80,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fetch-log-${{ github.run_id }}
-          path: logs/fetch_inlabs.log
+          path: logs/
           retention-days: 14

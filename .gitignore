@@ -7,6 +7,10 @@
 dou/*/*.zip
 dou/*/extracted/
 
+# Artefatos brutos do DEJT (PDFs grandes; apenas o JSON filtrado vai pro repo)
+dejt/*/*.pdf
+.tmp_dejt/
+
 # Logs
 logs/
 
