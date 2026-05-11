@@ -37,20 +37,20 @@ SOURCE_TO_ORGAO = {
     "tst":   "Tribunal Superior do Trabalho",
 }
 
-# Padrões de cabeçalho de ato (início de linha)
+# Padrões de cabeçalho de ato (início de linha). Aceita siglas/unidades arbitrárias
+# entre o tipo e o número (ex.: "PORTARIA PRESI Nº 139", "ATO PRESI SECOR nº 44").
 ATO_HEADER_RE = re.compile(
     r"^[ \t]*(?P<header>"
-    r"PORTARIA\s+(?:GP|DGP|PRES|SEGECOP|SEINFO|COREP|CGEST)?\s*N[°º]?\s*\d+"
-    r"|PORTARIA\s+CONJUNTA\s+N[°º]?\s*\d+"
-    r"|ATO\s+(?:DA\s+PRESID[EÊ]NCIA\s+)?N[°º]?\s*\d+"
-    r"|ATO\s+CONJUNTO\s+N[°º]?\s*\d+"
-    r"|RESOLU[CÇ][AÃ]O\s+(?:ADMINISTRATIVA\s+)?N[°º]?\s*\d+"
-    r"|PROVIMENTO\s+N[°º]?\s*\d+"
-    r"|EDITAL\s+N[°º]?\s*\d+"
-    r"|INSTRU[CÇ][AÃ]O\s+NORMATIVA\s+N[°º]?\s*\d+"
-    r"|ORDEM\s+DE\s+SERVI[CÇ]O\s+N[°º]?\s*\d+"
-    r"|DESPACHO\s+N[°º]?\s*\d+"
-    r"|DECIS[AÃ]O\s+N[°º]?\s*\d+"
+    r"(?:PORTARIA(?:\s+CONJUNTA)?"
+    r"|ATO(?:\s+CONJUNTO|\s+DA\s+PRESID[EÊ]NCIA|\s+DELIBERATIVO|\s+DECLARAT[OÓ]RIO)?"
+    r"|RESOLU[CÇ][AÃ]O(?:\s+ADMINISTRATIVA|\s+CONJUNTA)?"
+    r"|PROVIMENTO|EDITAL|DESPACHO|DECIS[AÃ]O"
+    r"|INSTRU[CÇ][AÃ]O\s+NORMATIVA|ORDEM\s+DE\s+SERVI[CÇ]O"
+    r"|RECOMENDA[CÇ][AÃ]O|CONVOCA[CÇ][AÃ]O|EXTRATO"
+    r")"
+    r"\b[^\n]{0,250}"
+    r"(?:N[°º.]?\s*\d|DE\s+\d{1,2}\s+DE\s+[A-ZÇ]+\s+DE\s+\d{4})"
+    r"[^\n]*"
     r")",
     re.IGNORECASE | re.MULTILINE,
 )
@@ -88,20 +88,23 @@ def process_pdf(pdf_path: Path, source_label: str) -> dict:
     text = pdf_to_text(pdf_path)
     if not text:
         return {"source": source_label, "status": "empty_or_no_pdftotext",
-                "total_atos": 0, "matched_atos": 0, "articles": []}
+                "total_atos": 0, "matched_atos": 0, "articles": [],
+                "headers_sample": [], "pdf_text_chars": 0}
 
     orgao_canonico = SOURCE_TO_ORGAO.get(source_label, source_label)
     atos = split_into_atos(text)
+
+    # Sample dos cabeçalhos detectados (primeiros 80 chars) para diagnóstico
+    headers_sample = [a["identifica"][:80] for a in atos[:30] if a.get("identifica")]
 
     matched = []
     for a in atos:
         text_norm = normalize(a["text"])
         strong_hits = match_patterns(text_norm, STRONG_KEYWORDS)
         weak_hits = match_patterns(text_norm, WEAK_KEYWORDS)
-        # Inclusão: precisa de pelo menos uma strong OU duas weak distintas
         if not strong_hits and len(weak_hits) < 2:
             continue
-        score = 10 + 5 * len(strong_hits) + 1 * len(weak_hits)  # base 10 por ser DEJT
+        score = 10 + 5 * len(strong_hits) + 1 * len(weak_hits)
         matched.append({
             "source": source_label,
             "orgao": orgao_canonico,
@@ -116,8 +119,10 @@ def process_pdf(pdf_path: Path, source_label: str) -> dict:
         "source": source_label,
         "orgao": orgao_canonico,
         "pdf_size_kb": pdf_path.stat().st_size // 1024,
+        "pdf_text_chars": len(text),
         "total_atos_detectados": len(atos),
         "matched_atos": len(matched),
+        "headers_sample": headers_sample,
         "articles": matched,
     }
 
@@ -138,8 +143,10 @@ def process_date_dir(date_dir: Path, force: bool) -> dict:
         sources[label] = {
             "status": "ok",
             "pdf_size_kb": result["pdf_size_kb"],
+            "pdf_text_chars": result["pdf_text_chars"],
             "total_atos_detectados": result["total_atos_detectados"],
             "matched_atos": result["matched_atos"],
+            "headers_sample": result["headers_sample"],
         }
         all_articles.extend(result["articles"])
 
