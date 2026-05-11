@@ -2,8 +2,21 @@
 """
 parse_dou.py — filtra os XMLs do DOU baixados pelo fetch_inlabs.py por temas SGP/TRT-17.
 
+Critérios de inclusão (combinados em OR):
+  (a) Órgão EMISSOR (campo `OrgaoDouSec`/`artCategory` do XML) é um dos PRIORITY_ORGAOS_EMISSOR.
+  (b) Texto da matéria contém pelo menos uma STRONG_KEYWORD (regex com fronteira de palavra).
+
+Filtros negativos:
+  - "17ª região" combinada com "CREF/CONFEF/Conselho Regional de Educação Física"
+    → não é TRT-17.
+
+Score heurístico:
+  - +10 por órgão emissor prioritário
+  - +5 por keyword forte
+  - +1 por keyword fraca
+
 Lê:    <DOU_ROOT>/<YYYY-MM-DD>/extracted/*.xml
-Grava: <DOU_ROOT>/<YYYY-MM-DD>/inlabs-filtered.json
+Grava: <DOU_ROOT>/<YYYY-MM-DD>/inlabs-filtered.json (ordenado por score desc)
 """
 import argparse
 import html
@@ -19,55 +32,94 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 DOU_ROOT = Path(os.environ.get("DOU_ROOT", REPO_ROOT / "dou"))
 
-KEYWORDS: dict[str, list[str]] = {
-    "aposentadoria": ["aposentadoria", "aposenta", "aposentado", "aposentada"],
-    "pensao": ["pensão", "pensao", "pensionista"],
-    "abono_permanencia": ["abono de permanência", "abono de permanencia"],
-    "reversao": ["reversão", "reversao"],
-    "averbacao_tempo": ["averbação de tempo", "averbacao de tempo", "contagem de tempo", "tempo de contribuição"],
-    "acumulacao_cargos": ["acumulação de cargos", "acumulacao de cargos", "acúmulo de cargos", "acumulo de cargos"],
-    "teto_remuneratorio": ["teto remuneratório", "teto remuneratorio", "subteto", "art. 37, xi"],
-    "isencao_ir": ["isenção de imposto de renda", "isencao de imposto de renda", "isenção do ir", "moléstia grave", "molestia grave"],
-    "quintos_anuenios_ats": ["quintos", "anuênios", "anuenios", "adicional por tempo de serviço", "ats"],
-    "ajuda_custo": ["ajuda de custo", "indenização de transporte", "indenizacao de transporte"],
-    "cessao_redistribuicao": ["cessão", "cessao ", "redistribuição", "redistribuicao", "remoção", "remocao ", "permuta"],
-    "substituicao_fc_cc": ["substituição", "substituicao", "função comissionada", "funcao comissionada", "cargo em comissão", "cargo em comissao", " fc-", " cc-"],
-    "insalubridade_periculosidade": ["insalubridade", "periculosidade", "adicional ocupacional"],
-    "licencas_gerais": ["licença para capacitação", "licença para tratar de interesses particulares", "licença-prêmio",
-                        "licença premio", "licença atividade política", "licença mandato classista", "licença gestante",
-                        "licença paternidade", "licença adotante", "licença cônjuge", "licença conjuge", "recondução",
-                        "reconducao"],
-    "licenca_saude": ["licença para tratamento de saúde", "licenca para tratamento de saude", "licença por motivo de doença",
-                      "licenca por motivo de doenca", "pessoa da família", "pessoa da familia"],
-    "folha_esocial": ["folha de pagamento", "esocial", "consignações", "consignacoes", "consignação", "consignacao"],
-    "funpresp": ["funpresp", "funpresp-jud", "previdência complementar", "previdencia complementar"],
-    "auxilios": ["auxílio-alimentação", "auxilio-alimentacao", "auxílio pré-escolar", "auxilio pre-escolar",
-                 "auxílio-saúde", "auxilio-saude", "auxílio-transporte", "auxilio-transporte", "auxílio-funeral",
-                 "auxilio-funeral", "auxílio-natalidade", "auxilio-natalidade"],
-    "competencias_capacitacao": ["gestão por competências", "gestao por competencias", "plano de capacitação",
-                                 "plano de capacitacao", "avaliação de desempenho", "avaliacao de desempenho",
-                                 "ensino a distância", "ena", "enajud"],
-    "teletrabalho_jornada": ["teletrabalho", "trabalho remoto", "jornada de trabalho", "condição especial de trabalho",
-                             "condicao especial de trabalho", "banco de horas"],
-    "estagio_aprendizagem": ["estágio", "estagio", "aprendizagem", "menor aprendiz"],
+# Keywords FORTES — quase sempre sinalizam tema de pessoal/previdência/remuneração.
+# Padrões regex aplicados sobre texto normalizado (sem acento, lowercase).
+STRONG_KEYWORDS: dict[str, list[str]] = {
+    "aposentadoria": [r"\baposentadoria\b", r"\baposentadorias\b", r"\baposentado\b",
+                      r"\baposentada\b", r"\baposentados\b", r"\baposentadas\b"],
+    "pensao": [r"\bpensao\b", r"\bpensoes\b", r"\bpensionista\b", r"\bpensionistas\b",
+               r"\bpensao por morte\b"],
+    "abono_permanencia": [r"\babono de permanencia\b"],
+    "reversao_aposentado": [r"\breversao de aposentado\b", r"\breversao a atividade\b"],
+    "averbacao_tempo": [r"\baverbacao de tempo\b", r"\bcontagem de tempo\b",
+                        r"\btempo de contribuicao\b", r"\btempo ficto\b"],
+    "acumulacao_cargos": [r"\bacumulacao de cargos\b", r"\bacumulo de cargos\b",
+                          r"\bacumulacao licita\b"],
+    "teto_remuneratorio": [r"\bteto remuneratorio\b", r"\bsubteto\b",
+                           r"\bart\.?\s*37,?\s*xi\b", r"\bteto constitucional\b"],
+    "isencao_ir": [r"\bisencao de imposto de renda\b", r"\bisencao do imposto de renda\b",
+                   r"\bisencao do ir\b", r"\bmolestia grave\b"],
+    "quintos_anuenios_ats": [r"\bquintos\b", r"\banuenios\b",
+                             r"\badicional por tempo de servico\b", r"\bvpni\b",
+                             r"\bvantagem pessoal nominalmente identificada\b"],
+    "funpresp": [r"\bfunpresp\b", r"\bfunpresp-jud\b", r"\bprevidencia complementar\b"],
+    "auxilios_pessoal": [r"\bauxilio-alimentacao\b", r"\bauxilio alimentacao\b",
+                         r"\bauxilio pre-escolar\b", r"\bauxilio-saude\b",
+                         r"\bauxilio saude\b", r"\bauxilio-transporte\b",
+                         r"\bauxilio transporte\b", r"\bauxilio-funeral\b",
+                         r"\bauxilio-natalidade\b"],
+    "licenca_saude": [r"\blicenca para tratamento de saude\b",
+                      r"\blicenca por motivo de doenca em pessoa da familia\b",
+                      r"\bpessoa da familia\b"],
+    "licencas_servidor": [r"\blicenca para capacitacao\b",
+                          r"\blicenca para tratar de interesses particulares\b",
+                          r"\blicenca-premio\b", r"\blicenca premio\b",
+                          r"\blicenca por atividade politica\b",
+                          r"\blicenca para mandato classista\b",
+                          r"\bmandato classista\b", r"\breconducao\b"],
+    "ajuda_custo_transporte": [r"\bajuda de custo\b", r"\bindenizacao de transporte\b"],
+    "insalubridade_periculosidade": [r"\badicional de insalubridade\b",
+                                     r"\badicional de periculosidade\b",
+                                     r"\binsalubridade\b", r"\bpericulosidade\b"],
+    "cessao_remocao_permuta": [r"\bcessao\b", r"\bcessoes\b", r"\bredistribuicao\b",
+                                r"\bremocao\b", r"\bpermuta\b"],
 }
 
-PRIORITY_ORGAOS: list[str] = [
-    "csjt", "tst", "tribunal superior do trabalho",
-    "cnj", "conselho nacional de justiça", "conselho nacional de justica",
-    "tcu", "tribunal de contas da união", "tribunal de contas da uniao",
+# Keywords FRACAS — só ajudam na classificação; sozinhas NÃO bastam para incluir
+# (precisam vir junto com órgão emissor prioritário).
+WEAK_KEYWORDS: dict[str, list[str]] = {
+    "substituicao_fc_cc": [r"\bsubstituicao\b", r"\bsubstituir\b", r"\bsubstituido\b",
+                           r"\bfuncao comissionada\b", r"\bcargo em comissao\b",
+                           r"\bcj-\d", r"\bfc-\d", r"\bcc-\d", r"\bfc \d", r"\bcc \d"],
+    "competencias_capacitacao": [r"\bgestao por competencias\b", r"\bplano de capacitacao\b",
+                                 r"\bavaliacao de desempenho\b", r"\benap\b", r"\benajud\b"],
+    "teletrabalho_jornada": [r"\bteletrabalho\b", r"\btrabalho remoto\b",
+                             r"\bjornada de trabalho\b",
+                             r"\bcondicao especial de trabalho\b", r"\bbanco de horas\b"],
+    "estagio_aprendizagem": [r"\bestagio\b", r"\bestagiario\b", r"\baprendizagem\b",
+                             r"\bmenor aprendiz\b"],
+    "folha_esocial": [r"\bfolha de pagamento\b", r"\besocial\b", r"\bconsignacoes\b",
+                      r"\bconsignacao\b"],
+}
+
+# Órgãos prioritários — match contra `orgao_xml` + `artCategory` (NÃO no texto inteiro).
+# Padrões substring sobre orgao normalizado.
+PRIORITY_ORGAOS_EMISSOR: list[str] = [
+    "csjt", "conselho superior da justica do trabalho",
+    "tst", "tribunal superior do trabalho",
+    "cnj", "conselho nacional de justica",
+    "tcu", "tribunal de contas da uniao",
     "stf", "supremo tribunal federal",
-    "stj", "superior tribunal de justiça", "superior tribunal de justica",
-    "trt da 17", "trt 17", "trt-17", "17ª região", "17a regiao",
-    "ministério da gestão", "ministerio da gestao", "mgi/sgp",
-    "secretaria de gestão e desempenho de pessoal", "secretaria de gestao e desempenho de pessoal", "sgdp",
-    "funpresp-jud", "previc",
-    "receita federal",
+    "stj", "superior tribunal de justica",
+    "trt da 17", "tribunal regional do trabalho da 17",
+    "secretaria de gestao e desempenho de pessoal", "sgdp", "decipex", "cgben",
+    "ministerio da gestao",  # MGI — entra sempre que combinado com strong keyword
+]
+
+# Padrões que indicam que "17ª região" / "17a regiao" NÃO se refere ao TRT-17.
+NEGATIVE_PATTERNS_NOT_TRT17: list[str] = [
+    "cref", "confef", "conselho regional de educacao fisica",
+    "conselho regional de medicina", "crm",
+    "conselho regional de farmacia", "crf",
+    "conselho regional de odontologia",
+    "conselho regional de psicologia",
+    "ordem dos advogados",
+    "conselho federal de educacao fisica",
 ]
 
 
 def normalize(text: str) -> str:
-    text = unicodedata.normalize("NFKD", text)
+    text = unicodedata.normalize("NFKD", text or "")
     text = "".join(c for c in text if not unicodedata.combining(c))
     return text.lower()
 
@@ -87,7 +139,7 @@ def extract_field(root: ET.Element, *tags: str) -> str:
     return ""
 
 
-def article_text(root: ET.Element) -> str:
+def article_full_text(root: ET.Element) -> str:
     parts = []
     for el in root.iter():
         if el.text:
@@ -97,18 +149,26 @@ def article_text(root: ET.Element) -> str:
     return strip_html(" ".join(parts))
 
 
-def match_keywords(haystack_norm: str) -> list[str]:
+def match_patterns(text_norm: str, patterns_dict: dict[str, list[str]]) -> list[str]:
     hits = []
-    for tag, terms in KEYWORDS.items():
-        for t in terms:
-            if normalize(t) in haystack_norm:
+    for tag, patterns in patterns_dict.items():
+        for p in patterns:
+            if re.search(p, text_norm):
                 hits.append(tag)
                 break
     return hits
 
 
-def match_orgaos(haystack_norm: str) -> list[str]:
-    return [o for o in PRIORITY_ORGAOS if normalize(o) in haystack_norm]
+def match_orgao_emissor(orgao_norm: str, full_text_norm: str) -> list[str]:
+    """Match priority orgaos against orgao field (cabeçalho hierárquico do DOU).
+    Aplica filtro negativo TRT-17 vs CREF/CONFEF/etc."""
+    hits = [o for o in PRIORITY_ORGAOS_EMISSOR if o in orgao_norm]
+    # Filtro negativo: se "17" e há indicação de Conselho Regional, remove o TRT-17
+    if any("17" in h for h in hits):
+        if any(neg in orgao_norm or neg in full_text_norm
+               for neg in NEGATIVE_PATTERNS_NOT_TRT17):
+            hits = [h for h in hits if "17" not in h]
+    return hits
 
 
 def parse_xml_file(path: Path) -> dict | None:
@@ -143,15 +203,22 @@ def parse_xml_file(path: Path) -> dict | None:
     art_id = attrs.get("id") or ""
     name_slug = attrs.get("name") or ""
 
+    # Texto completo (para casamento de keywords)
     full_text = " ".join(filter(None, [identifica, ementa, titulo, subtitulo, orgao_xml,
-                                       assina, cargo, texto, art_type, art_category,
-                                       article_text(root)]))
-    hay = normalize(full_text)
+                                       assina, cargo, texto, article_full_text(root)]))
+    text_norm = normalize(full_text)
+    # Cabeçalho hierárquico do órgão emissor (NÃO texto completo)
+    orgao_norm = normalize(orgao_xml + " " + art_category)
 
-    kw_hits = match_keywords(hay)
-    orgao_hits = match_orgaos(hay)
-    if not kw_hits and not orgao_hits:
+    orgao_hits = match_orgao_emissor(orgao_norm, text_norm)
+    strong_hits = match_patterns(text_norm, STRONG_KEYWORDS)
+    weak_hits = match_patterns(text_norm, WEAK_KEYWORDS)
+
+    # Critério de inclusão: órgão emissor prioritário OU keyword forte
+    if not orgao_hits and not strong_hits:
         return None
+
+    score = 10 * len(orgao_hits) + 5 * len(strong_hits) + 1 * len(weak_hits)
 
     url = ""
     if name_slug and id_oficio:
@@ -170,14 +237,16 @@ def parse_xml_file(path: Path) -> dict | None:
         "ementa": ementa or titulo,
         "titulo": titulo,
         "subtitulo": subtitulo,
-        "texto_resumo": (strip_html(texto) or article_text(root))[:600],
+        "texto_resumo": (strip_html(texto) or article_full_text(root))[:600],
         "assina": assina,
         "cargo": cargo,
         "page": number_page,
         "edition": edition,
         "url": url,
-        "keywords_matched": sorted(set(kw_hits)),
-        "orgaos_matched": sorted(set(orgao_hits)),
+        "orgao_emissor_hits": orgao_hits,
+        "strong_keywords": sorted(set(strong_hits)),
+        "weak_keywords": sorted(set(weak_hits)),
+        "score": score,
         "xml_file": path.name,
     }
 
@@ -205,18 +274,21 @@ def process_date(day_dir: Path, force: bool) -> dict:
             continue
         matches.append(result)
 
-    matches.sort(key=lambda m: (m.get("section", ""), m.get("art_type", ""), m.get("identifica", "")))
+    matches.sort(key=lambda m: (-m["score"], m.get("section", ""),
+                                m.get("art_type", ""), m.get("identifica", "")))
 
     payload = {
         "date": day_dir.name,
         "total_xml_files": len(xmls),
         "matched_articles": len(matches),
         "parse_errors": parse_errors,
-        "keywords_dictionary": list(KEYWORDS.keys()),
-        "priority_orgaos": PRIORITY_ORGAOS,
+        "strong_keyword_tags": list(STRONG_KEYWORDS.keys()),
+        "weak_keyword_tags": list(WEAK_KEYWORDS.keys()),
+        "priority_orgaos": PRIORITY_ORGAOS_EMISSOR,
         "articles": matches,
     }
-    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
+                        encoding="utf-8")
     return {"date": day_dir.name, "status": "ok", "matches": len(matches),
             "total": len(xmls), "errors": len(parse_errors)}
 
@@ -224,7 +296,8 @@ def process_date(day_dir: Path, force: bool) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("date", nargs="?", help="Data YYYY-MM-DD; se omitida, processa todas.")
-    ap.add_argument("--force", action="store_true", help="Reprocessa mesmo se JSON já existe.")
+    ap.add_argument("--force", action="store_true",
+                    help="Reprocessa mesmo se JSON já existe.")
     args = ap.parse_args()
 
     if args.date:
