@@ -2,8 +2,10 @@ name: fetch-dou-dejt-diario
 
 on:
   schedule:
-    # 11:00 UTC = 08:00 Brasília (DOU já circulou); dias úteis (seg-sex).
-    - cron: "0 11 * * 1-5"
+    # 09:00 UTC = 06:00 Brasília (antes da sessão Claude das 07h); dias úteis.
+    # Se o INLabs ainda não tiver publicado o DOU do dia, o catch-up de 7 dias
+    # do run seguinte recupera. DEJT (diario.jt.jus.br) já está disponível.
+    - cron: "0 9 * * 1-5"
   workflow_dispatch:
     inputs:
       data:

@@ -34,7 +34,7 @@ O sandbox onde o Claude executa bloqueia, por allowlist de egresso, todos os por
 
 ## Operação diária
 
-- O cron dispara seg-sex às 11h UTC (08h Brasília); o DOU já circulou.
+- O cron dispara seg-sex às 09h UTC (06h Brasília), antes da sessão Claude das 07h.
 - O job: faz catch-up de 7 dias para trás (para apanhar publicações ausentes), filtra por temas/órgãos SGP e commita apenas os JSONs em `dou/<DATA>/inlabs-filtered.json`.
 - Os ZIPs e XMLs brutos NÃO são commitados (ficam só no runner) — repo permanece pequeno.
 
