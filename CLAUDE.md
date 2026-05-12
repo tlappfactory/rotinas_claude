@@ -46,14 +46,23 @@ NUNCA acessar, processar ou citar dados pessoais identificáveis, processos sigi
 
 Produzir o rascunho do **Boletim Normativo COLEP** e salvá-lo como rascunho no Gmail conectado, endereçado a `leonardo.donato@trt17.jus.br`.
 
-### Fontes a consultar (WebSearch)
+### Fontes a consultar
 
-1. **DEJT — caderno administrativo**: `DEJT caderno administrativo TRT 17 [DATA]` e `DEJT TST atos portarias [DATA]`
-2. **DOU Seções 1 e 2**: `Diário Oficial União seção 1 servidor público federal [DATA]` e `DOU seção 2 magistrado servidor [DATA]`
-3. **CNJ**: `site:atos.cnj.jus.br resolução [ANO] gestão de pessoas` e `CNJ recomendação servidor judiciário [DATA RECENTE]`
-4. **CSJT**: `site:csjt.jus.br ato resolução [DATA RECENTE]`
-5. **TCU**: `TCU acórdão TRT 17 [ANO]`, `TCU acórdão TRT-17 17ª Região aposentadoria pensão`, `TCU acórdão servidor público acumulação de cargos teto remuneratório [ANO]`
-6. **STF/STJ (últimos 7 dias, efeito vinculante)**: `STF repercussão geral servidor público [ANO] tema` e `STJ recurso repetitivo servidor público judiciário [ANO]`
+**Fontes primárias estruturadas (lidas dos JSONs do bridge, sem WebSearch):**
+
+1. **DOU Seções 1, 2, 1E, 2E** — `/home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json`
+2. **DEJT cadernos administrativos TRT-17, CSJT, TST** — `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
+3. **TCU acórdãos** — `/home/user/rotinas_claude/tcu/<YYYY-MM-DD>/tcu-filtered.json`
+
+**Cobertura via DOU Seção 1 (não precisa de fetch dedicado):**
+
+- **CNJ** — Resoluções, Recomendações e Instruções Normativas do CNJ são publicadas obrigatoriamente no DOU Seção 1 e capturadas pelo INLabs. Filtrar itens com `orgao_emissor_hits` contendo `"conselho nacional de justica"` ou `"cnj"`.
+- **CSJT** — Atos do CSJT também aparecem no DOU além do DEJT.
+
+**Fontes a complementar via WebSearch (só jurisprudência de impacto vinculante):**
+
+4. **STF — repercussão geral** (últimos 7 dias): `STF repercussão geral servidor público [ANO] tema`, `STF teto remuneratório [ANO]`, `STF aposentadoria magistrado servidor [ANO]`
+5. **STJ — recursos repetitivos** (últimos 7 dias): `STJ recurso repetitivo servidor público judiciário [ANO]`, `STJ tese vinculante aposentadoria pensão [ANO]`
 
 ### Temas-filtro relevantes para a SGP/TRT-17
 
@@ -153,48 +162,49 @@ A chefia da COLEP confirmou que os **nomes próprios** publicados no DO2 (aposen
 - O rascunho fica salvo na conta Gmail autenticada no conector — confirmar em *Settings → Connectors → Gmail* do Claude qual é o endereço vinculado.
 
 ### Cobertura real das fontes (CRÍTICO)
-Testes em 11/05/2026 confirmaram que o `WebFetch` retorna **HTTP 403 Forbidden** para os portais oficiais e agregadores abaixo. Quando há rota alternativa (INLabs, busca indexada), está sinalizada.
+Testes em 11/05/2026 confirmaram que o `WebFetch` direto retorna **HTTP 403 Forbidden** para os portais oficiais abaixo. A rotina contorna isso via bridge no GitHub Actions (runners têm internet livre).
 
 | Fonte | WebFetch direto | Rota alternativa |
 |---|---|---|
-| `www.in.gov.br` (DOU Seções 1 e 2) | 403 | ✅ **INLabs autenticado** via bridge GH Actions |
-| `diario.jt.jus.br` (DEJT cadernos administrativos) | 403 | ✅ **PDFs `Diario_A_17/CSJT/TST.pdf`** via bridge GH Actions |
-| `dejt.jt.jus.br` (sistema de pesquisa por data) | 403 + exige POST | ❌ não usado — `diario.jt.jus.br` resolve |
-| `atos.cnj.jus.br` | 403 | ❌ apenas WebSearch (cobertura indireta) |
-| `www.csjt.jus.br` | 403 | ✅ Caderno administrativo CSJT via `Diario_A_CSJT.pdf` |
-| `www.trt17.jus.br` | 403 | ❌ apenas WebSearch (atos publicados só no portal) |
-| `juslaboris.tst.jus.br` | 403 | ✅ Caderno administrativo TST via `Diario_A_TST.pdf` |
-| `www.jusbrasil.com.br/diarios/DOU/...` | 403 | ❌ |
-| `www.escavador.com/diarios/DOU` | 403 | ❌ |
-| `web.archive.org` | bloqueado pelo Claude | ❌ |
+| `www.in.gov.br` (DOU Seções 1 e 2) | 403 | ✅ **INLabs autenticado** via bridge (`scripts/fetch_inlabs.py`) |
+| `diario.jt.jus.br` (DEJT cadernos administrativos) | 403 | ✅ **PDFs `Diario_A_17/CSJT/TST.pdf`** via bridge (`scripts/fetch_dejt.py`) |
+| TCU jurisprudência | n/a | ✅ **API JSON** `dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos` via bridge (`scripts/fetch_tcu.py`) |
+| `atos.cnj.jus.br` (atos normativos CNJ) | 403 | ✅ **DOU Seção 1** (resoluções, recomendações, instruções normativas do CNJ são publicadas obrigatoriamente no DOU/S1 — capturadas pelo pipeline INLabs) |
+| `dejt.jt.jus.br` (pesquisa por data) | 403 + exige POST | ❌ não usado — `diario.jt.jus.br` resolve a edição corrente |
+| `www.trt17.jus.br` (portal institucional) | 403 | n/a — **fora do escopo da automação** (a COLEP é interna ao TRT-17 e tem acesso direto a esses atos; a cobertura útil de atos do TRT-17 vem do DEJT Caderno Administrativo) |
+| STF/STJ jurisprudência vinculante | 403 (portais) | ✅ cobertura indexada via WebSearch (Conjur, sítios oficiais) |
 
-**O que a rotina hoje consegue capturar confiavelmente:**
-- ✅ DOU Seções 1, 2, 1E, 2E do dia e dos 7 dias anteriores (via INLabs).
-- ✅ DEJT cadernos administrativos TRT-17, CSJT e TST (via `diario.jt.jus.br/cadernos/Diario_A_*.pdf` — atos da Presidência, designações, portarias internas).
-- ✅ STF/STJ/TCU/CNJ via cobertura de imprensa indexada (Conjur, notícias dos tribunais).
-
-**O que a rotina ainda NÃO consegue capturar de forma confiável:**
-- ❌ Atos do TRT-17 publicados apenas no portal institucional (fora do DEJT).
-- ❌ Atos do CNJ no `atos.cnj.jus.br` sem cobertura externa.
+**Fontes 100% cobertas pela rotina:**
+- ✅ DOU Seções 1, 2, 1E, 2E do dia e dos 7 dias anteriores (INLabs).
+- ✅ DEJT cadernos administrativos TRT-17, CSJT e TST (`diario.jt.jus.br`). Quando o CSJT não publica em determinada data, é resultado legítimo (caderno esparso, só sai quando há ato) — não erro de fonte.
+- ✅ TCU — acórdãos via API JSON dos dados abertos, filtrados por palavras-chave SGP.
+- ✅ Atos normativos do CNJ relevantes à SGP — chegam via DOU Seção 1 (Resoluções, Recomendações, Instruções Normativas). Atos administrativos internos do CNJ (portarias de nomeação) não impactam o TRT-17.
+- ✅ STF/STJ — teses vinculantes via cobertura de imprensa.
 
 ### Limitação importante do DEJT: catch-up retroativo
 
-As URLs `diario.jt.jus.br/cadernos/Diario_A_*.pdf` servem apenas a **última edição publicada**. Se o workflow do GitHub Actions falhar em um dia útil, esse caderno se perde — não há como recuperar versões anteriores por essa rota. O cron diário 11h UTC (seg-sex) mitiga isso, mas falhas em feriado/sexta-feira podem causar gaps. Catch-up de DEJT só seria possível com acesso ao sistema de pesquisa do `dejt.jt.jus.br`, que exige POST e está fora do escopo atual.
+As URLs `diario.jt.jus.br/cadernos/Diario_A_*.pdf` servem apenas a **última edição publicada**. Se o workflow do GitHub Actions falhar em um dia útil, esse caderno se perde — não há como recuperar versões anteriores por essa rota. O cron diário 09h UTC (seg-sex) mitiga isso, mas falhas em feriado/sexta-feira podem causar gaps. Catch-up de DEJT só seria possível com acesso ao sistema de pesquisa do `dejt.jt.jus.br`, que exige POST e está fora do escopo atual.
+
+### Pipeline TCU — dados abertos
+
+O TCU disponibiliza acórdãos via API JSON: `https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos`. A Action diária consulta a API filtrando pelos termos SGP (acumulação de cargos, teto, aposentadoria servidor, abono permanência, TRT-17, etc.) e commita `tcu/<YYYY-MM-DD>/tcu-filtered.json` no repo. O Claude lê esse JSON ao montar o boletim e marca matérias com possível reflexo para a SGP em "EM MONITORAMENTO".
 
 ### Regras revisadas de transparência
 
-1. **Não escrever "Sem novidades em [FONTE]"** quando a fonte é DOU, DEJT, CSJT ou portal oficial do TRT-17. A redação correta é:
-   > "Edição de [DATA] não acessível pela ferramenta automatizada (HTTP 403). Necessária conferência manual em [URL canônica]."
+1. **"Sem novidades em [FONTE]"** só é válido depois que a fonte foi efetivamente consultada (status `ok` nos JSONs do bridge). Se o JSON traz `status: no_pdf` em uma fonte do DEJT (ex.: CSJT), significa que aquele órgão não publicou caderno na data — relato correto: "CSJT sem publicação no Caderno Administrativo nesta data". **Não** confundir com falha de acesso.
 
-2. **Distinguir claramente** entre fontes onde a busca foi efetiva (STF/STJ/TCU/CNJ via cobertura de imprensa) e fontes onde houve falha de acesso (DOU/DEJT/CSJT/TRT-17 portais oficiais).
+2. **Falha real de acesso** (HTTP 4xx/5xx, timeout, parser quebrado) tem que aparecer em campo `status` distinto e ser sinalizada no boletim como "Edição não acessível pela ferramenta automatizada — conferência manual em [URL canônica]".
 
-3. **Toda execução deve incluir** uma seção "FONTES PRIMÁRIAS NÃO ACESSÍVEIS — CONFERÊNCIA MANUAL OBRIGATÓRIA" no boletim, listando explicitamente o que precisa ser verificado pela equipe humana.
+3. **Toda execução** mantém uma seção "FONTES PRIMÁRIAS NÃO ACESSÍVEIS — CONFERÊNCIA MANUAL" no boletim **apenas quando** houver falha real (não para ausência legítima de publicação).
 
-### Caminhos para superar a limitação (a definir com a equipe)
+### Operação diária do Claude — leitura completa dos JSONs
 
-- **INLabs DOU API** (`https://inlabs.in.gov.br/`) — API oficial do DOU com cadastro gratuito. Exigiria um servidor MCP customizado para ler os ZIPs diários.
-- **PJe / DEJT API interna** — uso interno do TRT-17 via credencial institucional; viabilizaria varredura real do caderno administrativo.
-- **Push DEJT do CSJT** — assinatura institucional para receber por e-mail os cadernos publicados.
-- **MCP server dedicado** — implementação ad hoc, hospedada na infraestrutura do TRT-17, com user-agent autorizado e tratamento LGPD.
+```bash
+# Sincroniza com o último estado pushed pelo GitHub Actions
+git -C /home/user/rotinas_claude pull --ff-only
 
-Enquanto essas vias não forem implementadas, a Routine COLEP-01 deve ser tratada como **complemento de imprensa especializada**, não como substituto da leitura humana das fontes primárias.
+# Lê os 3 JSONs filtrados da data alvo (mais recente disponível)
+cat /home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json
+cat /home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json
+cat /home/user/rotinas_claude/tcu/<YYYY-MM-DD>/tcu-filtered.json
+```

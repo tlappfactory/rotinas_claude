@@ -127,17 +127,61 @@ def process_pdf(pdf_path: Path, source_label: str) -> dict:
     }
 
 
-def process_date_dir(date_dir: Path, force: bool) -> dict:
+def load_last_fetch_status() -> dict:
+    """Carrega o resumo do último fetch (escrito por fetch_dejt.py).
+    Permite distinguir 'sem PDF na pasta' por causa de no_publication vs http_xxx."""
+    last_fetch_path = DEJT_ROOT / "_last_fetch.json"
+    if not last_fetch_path.exists():
+        return {}
+    try:
+        return json.loads(last_fetch_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def process_date_dir(date_dir: Path, force: bool, last_fetch: dict) -> dict:
     out_path = date_dir / "dejt-filtered.json"
     if out_path.exists() and not force:
         return {"date": date_dir.name, "status": "already_parsed"}
+
+    by_label = last_fetch.get("by_label", {}) if last_fetch else {}
 
     sources = {}
     all_articles = []
     for label in SOURCE_TO_ORGAO:
         pdf = date_dir / f"{label}.pdf"
         if not pdf.exists():
-            sources[label] = {"status": "no_pdf"}
+            fetch_info = by_label.get(label, {})
+            fetch_status = fetch_info.get("status")
+            if fetch_status == "no_publication":
+                sources[label] = {
+                    "status": "no_publication",
+                    "explanation": (f"{SOURCE_TO_ORGAO[label]} não publicou caderno "
+                                    f"administrativo nesta data (resposta HTTP "
+                                    f"{fetch_info.get('http_status')} com "
+                                    f"{fetch_info.get('size_bytes')} bytes, "
+                                    f"content-type {fetch_info.get('content_type') or '?'})."),
+                    "fetch_run_utc": last_fetch.get("run_utc"),
+                }
+            elif fetch_status and fetch_status.startswith("http_"):
+                sources[label] = {
+                    "status": "fetch_failed",
+                    "http_status": fetch_status,
+                    "explanation": f"Falha de acesso à URL do {SOURCE_TO_ORGAO[label]} "
+                                   f"({fetch_status}). Conferência manual necessária.",
+                    "fetch_run_utc": last_fetch.get("run_utc"),
+                }
+            elif fetch_status in ("network_error", "pdf_corrupt"):
+                sources[label] = {
+                    "status": "fetch_failed",
+                    "reason": fetch_status,
+                    "detail": fetch_info.get("detail", ""),
+                    "explanation": f"Falha técnica baixando {SOURCE_TO_ORGAO[label]} "
+                                   f"({fetch_status}). Conferência manual necessária.",
+                    "fetch_run_utc": last_fetch.get("run_utc"),
+                }
+            else:
+                sources[label] = {"status": "no_pdf"}
             continue
         result = process_pdf(pdf, label)
         sources[label] = {
@@ -182,8 +226,9 @@ def main() -> None:
     if not date_dirs or not date_dirs[0].exists():
         sys.exit(f"Nenhum diretório de data encontrado em {DEJT_ROOT}.")
 
+    last_fetch = load_last_fetch_status()
     for d in date_dirs:
-        result = process_date_dir(d, args.force)
+        result = process_date_dir(d, args.force, last_fetch)
         print(json.dumps(result, ensure_ascii=False))
 
 

@@ -129,15 +129,37 @@ def detect_pub_date(text: str) -> date | None:
 
 
 def fetch_one(label: str, url: str) -> dict:
+    """Baixa um caderno do DEJT.
+
+    Status retornados (consumidos pelo parse_dejt.py para distinguir
+    "ausência legítima de publicação" de "falha de acesso"):
+      ok                  — PDF baixado com sucesso.
+      duplicate           — PDF idêntico já existe em <data>/.
+      no_publication      — servidor retornou objeto válido mas vazio/placeholder
+                            (HTTP 200 + tamanho < THRESHOLD_BYTES OU content-type
+                            não-PDF). Significa que o órgão NÃO publicou caderno
+                            naquele dia — comportamento legítimo, sobretudo para
+                            o CSJT (caderno esparso).
+      http_<code>         — HTTP != 200. Falha real do servidor (404 transitório,
+                            5xx etc.).
+      network_error       — exceção na requisição (timeout, DNS, TLS).
+      pdf_corrupt         — pdftotext não conseguiu extrair texto (PDF baixado
+                            mas inválido).
+    """
     log(f"Baixando {label}: {url}")
     try:
         r = requests.get(url, headers=HEADERS, timeout=180, stream=True)
     except Exception as e:
         log(f"  ERRO de rede: {e}")
-        return {"label": label, "status": "network_error"}
+        return {"label": label, "status": "network_error", "detail": str(e)}
     if r.status_code != 200:
         log(f"  HTTP {r.status_code}")
         return {"label": label, "status": f"http_{r.status_code}"}
+
+    content_type = (r.headers.get("Content-Type") or "").lower()
+    content_length_header = r.headers.get("Content-Length")
+    log(f"  Content-Type: {content_type or '(ausente)'}; "
+        f"Content-Length: {content_length_header or '(ausente)'}")
 
     tmp_dir = REPO_ROOT / ".tmp_dejt"
     tmp_dir.mkdir(parents=True, exist_ok=True)
@@ -146,14 +168,44 @@ def fetch_one(label: str, url: str) -> dict:
         for chunk in r.iter_content(chunk_size=64 * 1024):
             fh.write(chunk)
     size = tmp.stat().st_size
-    log(f"  baixado: {size // 1024} KB")
+    log(f"  baixado: {size} bytes ({size // 1024} KB)")
 
-    if size < 1024:
-        log("  AVISO: arquivo muito pequeno (provável bloqueio/erro do servidor).")
+    # Threshold: PDFs reais do DEJT têm pelo menos algumas dezenas de KB.
+    # Abaixo disso, é placeholder/erro silencioso ou caderno sem matéria.
+    THRESHOLD_BYTES = 8 * 1024
+    is_pdf_content_type = "pdf" in content_type
+    looks_like_pdf = False
+    try:
+        with tmp.open("rb") as fh:
+            magic = fh.read(5)
+        looks_like_pdf = magic.startswith(b"%PDF-")
+    except Exception:
+        pass
+
+    if size < THRESHOLD_BYTES or (not is_pdf_content_type and not looks_like_pdf):
+        log(f"  → no_publication (size={size}, ct={content_type or '?'}, "
+            f"magic_pdf={looks_like_pdf})")
         tmp.unlink()
-        return {"label": label, "status": "too_small"}
+        return {
+            "label": label,
+            "status": "no_publication",
+            "http_status": r.status_code,
+            "content_type": content_type,
+            "size_bytes": size,
+            "magic_is_pdf": looks_like_pdf,
+        }
 
     text = pdftotext_first_pages(tmp, pages=2)
+    if not text.strip():
+        log("  → pdf_corrupt (pdftotext não extraiu texto)")
+        tmp.unlink()
+        return {
+            "label": label,
+            "status": "pdf_corrupt",
+            "size_bytes": size,
+            "content_type": content_type,
+        }
+
     pub_date = detect_pub_date(text)
     if not pub_date:
         log("  AVISO: data não detectada no PDF; usando data corrente como fallback.")
@@ -172,16 +224,29 @@ def fetch_one(label: str, url: str) -> dict:
     tmp.replace(target)
     log(f"  salvo: {target.relative_to(REPO_ROOT)}")
     return {"label": label, "status": "ok", "date": pub_date.isoformat(),
-            "path": str(target.relative_to(REPO_ROOT)), "size": size}
+            "path": str(target.relative_to(REPO_ROOT)), "size_bytes": size}
 
 
 def main() -> None:
+    import json
+    from datetime import datetime, timezone
+
     DEJT_ROOT.mkdir(parents=True, exist_ok=True)
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    run_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     results = [fetch_one(label, url) for label, url in SOURCES.items()]
     log("\nResumo:")
     for r in results:
         log(f"  {r['label']}: {r['status']} {r.get('date','')}")
+
+    # Persiste o resultado do run para o parse_dejt.py interpretar status
+    # (no_publication vs http_xxx vs pdf_corrupt) ao montar dejt-filtered.json.
+    last_fetch = {
+        "run_utc": run_iso,
+        "by_label": {r["label"]: r for r in results},
+    }
+    (DEJT_ROOT / "_last_fetch.json").write_text(
+        json.dumps(last_fetch, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
