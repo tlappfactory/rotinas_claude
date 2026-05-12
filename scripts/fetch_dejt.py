@@ -70,16 +70,55 @@ def pdftotext_first_pages(pdf: Path, pages: int = 2) -> str:
 
 
 def detect_pub_date(text: str) -> date | None:
-    """Detecta a data de publicação. Procura "DD de MES de AAAA" e "DD/MM/AAAA"."""
+    """Detecta a data de publicação do caderno DEJT.
+
+    Estratégia em camadas (a primeira que casar vence):
+      1. Cabeçalho oficial "Data da Disponibilização: <dia>, DD de MÊS de AAAA"
+         que o DEJT estampa no topo de cada caderno.
+      2. Variantes próximas ("Disponibilizado em ...", "Disponibilização em ...").
+      3. Fallback antigo: primeiro "DD de MÊS de AAAA" / "DD/MM/AAAA" do PDF
+         (sujeito ao bug histórico de capturar a data interna de um ato em
+         vez da data do caderno; mantido só como último recurso).
+    """
     norm = normalize(text)
-    m = re.search(r"(\d{1,2})\s*de\s*([a-z]+)\s*de\s*(20\d{2})", norm)
-    if m:
-        d, mes, y = int(m.group(1)), m.group(2), int(m.group(3))
-        if mes in MESES:
+
+    header_patterns = (
+        r"data\s+da\s+disponibiliza[c]?ao\s*[:\-]?\s*"
+        r"(?:[a-z\-]+\s*[,\-]?\s*)?"
+        r"(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(20\d{2})",
+        r"disponibiliza[c]?ao\s+em\s*[:\-]?\s*"
+        r"(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(20\d{2})",
+        r"disponibilizado\s+em\s*[:\-]?\s*"
+        r"(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(20\d{2})",
+    )
+    for pat in header_patterns:
+        m = re.search(pat, norm)
+        if m and m.group(2) in MESES:
             try:
-                return date(y, MESES[mes], d)
+                return date(int(m.group(3)), MESES[m.group(2)], int(m.group(1)))
             except ValueError:
-                pass
+                continue
+
+    header_numeric = re.search(
+        r"data\s+da\s+disponibiliza[c]?ao\s*[:\-]?\s*"
+        r"(?:[a-z\-]+\s*[,\-]?\s*)?"
+        r"(\d{1,2})/(\d{1,2})/(20\d{2})",
+        norm,
+    )
+    if header_numeric:
+        try:
+            return date(int(header_numeric.group(3)),
+                        int(header_numeric.group(2)),
+                        int(header_numeric.group(1)))
+        except ValueError:
+            pass
+
+    m = re.search(r"(\d{1,2})\s*de\s*([a-z]+)\s*de\s*(20\d{2})", norm)
+    if m and m.group(2) in MESES:
+        try:
+            return date(int(m.group(3)), MESES[m.group(2)], int(m.group(1)))
+        except ValueError:
+            pass
     m = re.search(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", text)
     if m:
         try:
