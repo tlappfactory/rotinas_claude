@@ -1,0 +1,26 @@
+{
+  "run_utc": "2026-05-13T11:29:36Z",
+  "by_label": {
+    "trt17": {
+      "label": "trt17",
+      "status": "ok",
+      "date": "2026-05-12",
+      "path": "dejt/2026-05-12/trt17.pdf",
+      "size_bytes": 117160
+    },
+    "csjt": {
+      "label": "csjt",
+      "status": "ok",
+      "date": "2026-05-12",
+      "path": "dejt/2026-05-12/csjt.pdf",
+      "size_bytes": 91890
+    },
+    "tst": {
+      "label": "tst",
+      "status": "ok",
+      "date": "2026-05-12",
+      "path": "dejt/2026-05-12/tst.pdf",
+      "size_bytes": 205178
+    }
+  }
+}
