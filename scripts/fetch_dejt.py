@@ -3,18 +3,31 @@
 fetch_dejt.py — baixa os cadernos administrativos do DEJT (TRT-17, CSJT, TST).
 
 URLs públicas servem APENAS a última edição (sem catch-up retroativo). O script
-detecta a data interna do PDF e arquiva por data; se a mesma data já foi capturada,
-não sobrescreve.
+detecta a data de DISPONIBILIZAÇÃO interna do PDF, calcula a data de PUBLICAÇÃO
+(art. 4º, §3º da Lei 11.419/2006 — primeiro dia útil seguinte à disponibilização)
+e arquiva por data de PUBLICAÇÃO em <DEJT_ROOT>/<YYYY-MM-DD>/.
+
+Convenção: a chave de pasta é a data de publicação (= dia em que a edição
+"circula" e em que os prazos começam a correr), não a data de disponibilização
+estampada no cabeçalho do PDF. Ex.: disponibilizado em 12/05 às 19h ⇒ publicado
+em 13/05 ⇒ pasta dejt/2026-05-13/. Isso evita a confusão histórica em que a
+chefia esperava ver "DEJT de 13/05" na pasta dejt/2026-05-12/.
+
+Validação de freshness (opcional): se a env var DEJT_EXPECTED_PUBLICATION_DATE
+estiver definida (YYYY-MM-DD) e a publicação detectada for ANTERIOR à esperada,
+o caderno é marcado como `pdf_stale` em vez de `ok` — sinal para re-tentar mais
+tarde ou alertar.
 
 Uso:
     python3 scripts/fetch_dejt.py
+    DEJT_EXPECTED_PUBLICATION_DATE=2026-05-14 python3 scripts/fetch_dejt.py
 """
 import os
 import re
 import subprocess
 import sys
 import unicodedata
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import requests
@@ -23,6 +36,12 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 DEJT_ROOT = Path(os.environ.get("DEJT_ROOT", REPO_ROOT / "dejt"))
 LOG_PATH = Path(os.environ.get("FETCH_DEJT_LOG", REPO_ROOT / "logs" / "fetch_dejt.log"))
+
+EXPECTED_PUB_RAW = (os.environ.get("DEJT_EXPECTED_PUBLICATION_DATE") or "").strip()
+try:
+    EXPECTED_PUB: date | None = date.fromisoformat(EXPECTED_PUB_RAW) if EXPECTED_PUB_RAW else None
+except ValueError:
+    EXPECTED_PUB = None
 
 SOURCES: dict[str, str] = {
     "trt17": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
@@ -56,6 +75,20 @@ def normalize(text: str) -> str:
     return "".join(c for c in text if not unicodedata.combining(c)).lower()
 
 
+def next_business_day(d: date) -> date:
+    """Próximo dia útil após `d`, pulando sábado e domingo.
+
+    Feriados nacionais/locais não são considerados nesta versão — em véspera de
+    feriado, a publicação real pode ser empurrada mais um dia útil. Quando isso
+    ocorrer, a validação `DEJT_EXPECTED_PUBLICATION_DATE` marca como `pdf_stale`
+    e o próximo run corrige.
+    """
+    nxt = d + timedelta(days=1)
+    while nxt.weekday() >= 5:  # 5 = sábado, 6 = domingo
+        nxt += timedelta(days=1)
+    return nxt
+
+
 def pdftotext_first_pages(pdf: Path, pages: int = 2) -> str:
     try:
         r = subprocess.run(["pdftotext", "-l", str(pages), "-layout", str(pdf), "-"],
@@ -69,8 +102,13 @@ def pdftotext_first_pages(pdf: Path, pages: int = 2) -> str:
         return ""
 
 
-def detect_pub_date(text: str) -> date | None:
-    """Detecta a data de publicação do caderno DEJT.
+def detect_disponibilizacao_date(text: str) -> date | None:
+    """Detecta a data de DISPONIBILIZAÇÃO do caderno DEJT (cabeçalho).
+
+    Atenção: o DEJT distingue *disponibilização* (entrega no portal, ~19h do dia
+    anterior) e *publicação* (primeiro dia útil seguinte, em que os prazos
+    começam a correr — Lei 11.419/2006, art. 4º, §3º). Esta função extrai a
+    primeira; a publicação é calculada por `next_business_day` no chamador.
 
     Estratégia em camadas (a primeira que casar vence):
       1. Cabeçalho oficial "Data da Disponibilização: <dia>, DD de MÊS de AAAA"
@@ -134,7 +172,11 @@ def fetch_one(label: str, url: str) -> dict:
     Status retornados (consumidos pelo parse_dejt.py para distinguir
     "ausência legítima de publicação" de "falha de acesso"):
       ok                  — PDF baixado com sucesso.
-      duplicate           — PDF idêntico já existe em <data>/.
+      duplicate           — PDF idêntico já existe em <publicacao>/.
+      pdf_stale           — PDF baixado mas a publicação detectada é ANTERIOR à
+                            esperada (DEJT_EXPECTED_PUBLICATION_DATE). Sinal de
+                            que a edição do dia ainda não entrou no ar — re-tentar
+                            mais tarde.
       no_publication      — servidor retornou objeto válido mas vazio/placeholder
                             (HTTP 200 + tamanho < THRESHOLD_BYTES OU content-type
                             não-PDF). Significa que o órgão NÃO publicou caderno
@@ -206,24 +248,41 @@ def fetch_one(label: str, url: str) -> dict:
             "content_type": content_type,
         }
 
-    pub_date = detect_pub_date(text)
-    if not pub_date:
-        log("  AVISO: data não detectada no PDF; usando data corrente como fallback.")
-        pub_date = date.today()
-    log(f"  data detectada: {pub_date.isoformat()}")
+    disp_date = detect_disponibilizacao_date(text)
+    if not disp_date:
+        log("  AVISO: data de disponibilização não detectada no PDF; "
+            "usando data corrente como fallback.")
+        disp_date = date.today()
+    publ_date = next_business_day(disp_date)
+    log(f"  disponibilizado em: {disp_date.isoformat()} "
+        f"→ publicado em: {publ_date.isoformat()}")
 
-    target_dir = DEJT_ROOT / pub_date.isoformat()
+    base_record = {
+        "label": label,
+        "disponibilizacao": disp_date.isoformat(),
+        "publicacao": publ_date.isoformat(),
+        "date": publ_date.isoformat(),  # retrocompat: clientes antigos leem "date"
+    }
+
+    if EXPECTED_PUB and publ_date < EXPECTED_PUB:
+        log(f"  → pdf_stale (publicação {publ_date} < esperada {EXPECTED_PUB})")
+        tmp.unlink()
+        return {**base_record, "status": "pdf_stale",
+                "expected_publicacao": EXPECTED_PUB.isoformat(),
+                "size_bytes": size, "content_type": content_type}
+
+    target_dir = DEJT_ROOT / publ_date.isoformat()
     target_dir.mkdir(parents=True, exist_ok=True)
     target = target_dir / f"{label}.pdf"
 
     if target.exists() and target.stat().st_size == size:
         log(f"  já existe: {target.relative_to(REPO_ROOT)} (mesmo tamanho — skip)")
         tmp.unlink()
-        return {"label": label, "status": "duplicate", "date": pub_date.isoformat()}
+        return {**base_record, "status": "duplicate"}
 
     tmp.replace(target)
     log(f"  salvo: {target.relative_to(REPO_ROOT)}")
-    return {"label": label, "status": "ok", "date": pub_date.isoformat(),
+    return {**base_record, "status": "ok",
             "path": str(target.relative_to(REPO_ROOT)), "size_bytes": size}
 
 
@@ -240,9 +299,11 @@ def main() -> None:
         log(f"  {r['label']}: {r['status']} {r.get('date','')}")
 
     # Persiste o resultado do run para o parse_dejt.py interpretar status
-    # (no_publication vs http_xxx vs pdf_corrupt) ao montar dejt-filtered.json.
+    # (no_publication vs http_xxx vs pdf_corrupt vs pdf_stale) ao montar
+    # dejt-filtered.json.
     last_fetch = {
         "run_utc": run_iso,
+        "expected_publicacao": EXPECTED_PUB.isoformat() if EXPECTED_PUB else None,
         "by_label": {r["label"]: r for r in results},
     }
     (DEJT_ROOT / "_last_fetch.json").write_text(

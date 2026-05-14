@@ -185,6 +185,14 @@ Testes em 11/05/2026 confirmaram que o `WebFetch` direto retorna **HTTP 403 Forb
 
 As URLs `diario.jt.jus.br/cadernos/Diario_A_*.pdf` servem apenas a **última edição publicada**. Se o workflow do GitHub Actions falhar em um dia útil, esse caderno se perde — não há como recuperar versões anteriores por essa rota. O cron diário 09h UTC (seg-sex) mitiga isso, mas falhas em feriado/sexta-feira podem causar gaps. Catch-up de DEJT só seria possível com acesso ao sistema de pesquisa do `dejt.jt.jus.br`, que exige POST e está fora do escopo atual.
 
+### Convenção de data do DEJT: PUBLICAÇÃO, não disponibilização
+
+O DEJT distingue *disponibilização* (entrega no portal, normalmente às 19h Brasília do dia D-1) e *publicação* (primeiro dia útil seguinte à disponibilização — Lei 11.419/2006, art. 4º, §3º). É a data de **publicação** que vincula prazos processuais e é assim que a chefia raciocina ("DEJT de hoje" = edição que circula hoje).
+
+A pasta `dejt/<YYYY-MM-DD>/` usa a **data de publicação**. Ex.: edição disponibilizada em 12/05 às 19h ⇒ publicada em 13/05 ⇒ arquivada em `dejt/2026-05-13/`. O JSON `_last_fetch.json` e o `dejt-filtered.json` trazem ambos os campos (`disponibilizacao` e `publicacao`) para rastreabilidade.
+
+Status novo: **`pdf_stale`** indica que o PDF baixado tem publicação anterior à esperada (edição do dia ainda não no ar). O workflow define a publicação esperada automaticamente (= data UTC do run) e instrui o script via `DEJT_EXPECTED_PUBLICATION_DATE`. Em caso de `pdf_stale`, o caderno **não** é arquivado e a re-tentativa deve ocorrer em janela mais tarde no dia.
+
 ### Pipeline TCU — dados abertos
 
 O TCU disponibiliza acórdãos via API JSON: `https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos`. A Action diária consulta a API filtrando pelos termos SGP (acumulação de cargos, teto, aposentadoria servidor, abono permanência, TRT-17, etc.) e commita `tcu/<YYYY-MM-DD>/tcu-filtered.json` no repo. O Claude lê esse JSON ao montar o boletim e marca matérias com possível reflexo para a SGP em "EM MONITORAMENTO".
