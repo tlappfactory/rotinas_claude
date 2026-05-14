@@ -58,8 +58,23 @@ jobs:
         run: python scripts/parse_dou.py --force
 
       - name: Fetch DEJT (PDFs TRT-17 / CSJT / TST)
+        env:
+          # Convenção: o DEJT é disponibilizado às 19h Brasília do dia D-1 e
+          # considerado PUBLICADO no primeiro dia útil seguinte (Lei 11.419/2006,
+          # art. 4º, §3º). O cron das 09 UTC roda na manhã do dia útil de
+          # publicação, então a publicação esperada é "hoje" (data UTC, o runner
+          # do GitHub está em UTC; em casos extremos pré-dawn Brasília isso pode
+          # divergir, mas o cron das 09 UTC garante alinhamento).
+          # Se a publicação detectada for anterior à esperada, o script marca
+          # `pdf_stale` em vez de `ok` — sinal para re-tentar mais tarde.
+          DEJT_EXPECTED_PUBLICATION_DATE: ${{ inputs.data || '' }}
         run: |
           mkdir -p dejt
+          # Sem `inputs.data` (cron diário), assume publicação esperada = hoje.
+          if [ -z "$DEJT_EXPECTED_PUBLICATION_DATE" ]; then
+            export DEJT_EXPECTED_PUBLICATION_DATE="$(date -u +%Y-%m-%d)"
+          fi
+          echo "Publicação esperada: $DEJT_EXPECTED_PUBLICATION_DATE"
           python scripts/fetch_dejt.py
 
       - name: Parse DEJT
