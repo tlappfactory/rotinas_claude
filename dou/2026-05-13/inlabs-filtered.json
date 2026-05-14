@@ -1,7 +1,7 @@
 {
   "date": "2026-05-13",
-  "total_xml_files": 1242,
-  "matched_articles": 221,
+  "total_xml_files": 1249,
+  "matched_articles": 222,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -4207,6 +4207,31 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260513_23930153.xml"
+    },
+    {
+      "id": "49288281",
+      "section": "DO1E",
+      "pub_date": "13/05/2026",
+      "art_type": "Circular",
+      "art_category": "Ministério da Fazenda/Caixa Econômica Federal/Diretoria Fundos de Governo",
+      "identifica": "CIRCULAR Nº 1.114, DE 12 DE MAIO DE 2026",
+      "orgao": "",
+      "ementa": "Divulga o cronograma de disponibilização de serviços ao trabalhador necessários à operacionalização do uso do FGTS no âmbito do Novo Desenrola Brasil, Medida Provisória 1.355, de 04 de maio de 2026; Publica o Manual de Orientação às Instituições Financeiras - Saque Extraordinário do FGTS no âmbito do Programa Novo Desenrola Brasil, instituído pela Medida Provisória nº 1.355, de 04 de maio de 2026;",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "CIRCULAR Nº 1.114, DE 12 DE MAIO DE 2026 Divulga o cronograma de disponibilização de serviços ao trabalhador necessários à operacionalização do uso do FGTS no âmbito do Novo Desenrola Brasil, Medida Provisória 1.355, de 04 de maio de 2026; Publica o Manual de Orientação às Instituições Financeiras - Saque Extraordinário do FGTS no âmbito do Programa Novo Desenrola Brasil, instituído pela Medida Provisória nº 1.355, de 04 de maio de 2026; A Caixa Econômica Federal, na qualidade de Agente Operador do Fundo de Garantia do Tempo de Serviço FGTS, no uso das atribuições que lhe são conferidas pelo a",
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "88-B",
+      "url": "https://www.in.gov.br/web/dou/-/1305_CX_DEFUS_CIRCULAR-11750064",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "601_20260513_23935114.xml"
     },
     {
       "id": "49260292",

@@ -2,42 +2,16 @@
   "date": "2026-05-12",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 114,
-      "pdf_text_chars": 15614,
-      "total_atos_detectados": 3,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 38/2026",
-        "ATO TRT 17ª PRESI Nº 40/2026",
-        "ATO TRT 17ª PRESI Nº 39/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 89,
-      "pdf_text_chars": 5854,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG N.º 48, DE 11 DE MAIO DE 2026.",
-        "ATO CSJT.GP.SG N.º 42, DE 30 DE ABRIL DE 2026. * (Republicação)"
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 200,
-      "pdf_text_chars": 6860,
-      "total_atos_detectados": 3,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 261, DE 12 DE MAIO DE 2026",
-        "ATO TST.GP N° 260, DE 08 DE MAIO DE 2026",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.920, DE 8 DE MAIO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -63,17 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO TRT 17ª PRESI Nº 38/2026",
-      "text_resumo": "ATO TRT 17ª PRESI Nº 38/2026\n\n\n                                                  Altera o ATO TRT 17ª PRESI Nº 04/2024, que trata dos colegiados temáticos do Tribunal Regional\n                                                  do Trabalho da 17ª Região.\n\n\n\n                 A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições\n  legais e regimentais,\n\n                  CONSIDERANDO o disposto no inciso III do artigo 15 do Regimento Interno deste Tribunal;\n\n                CONSIDERANDO o ATO TRT 17ª PRESI Nº 03/2024, que institui os Colegiados Temáticos do Tribunal Regional do Trabalho da\n  17ª Região, em atendimento e conformidade com a Resolução CSJT Nº 325/2022;\n\n                 CONSIDERANDO o ATO TRT 17ª PRESI Nº 04/2024, que designou os membros integrantes dos colegiados temáticos do Tribunal\n  Regional do Trabalho da 17ª região, em conformidade com a Resolução CSJT Nº 325/2022, Resolução Administrativa Nº 165/2023, ATO TRT 17ª\n  PRESI Nº 88/2023 e ATO TRT 17ª PRESI Nº 03/2024;\n\n                CONSIDERANDO o Despacho PRESI/SEGEP N° 493/2026, nos autos do SEI n° 0001008-07.2019.5.17.0500, que determina a\n  recondução de mandato do",
-      "strong_keywords": [
-        "licencas_servidor"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
