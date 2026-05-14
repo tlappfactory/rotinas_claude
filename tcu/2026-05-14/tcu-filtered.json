@@ -1,13 +1,13 @@
 {
-  "run_utc": "2026-05-14T11:15:23Z",
+  "run_utc": "2026-05-14T15:51:06Z",
   "lookback_days": 14,
   "cutoff_date": "2026-04-30",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
-  "pages_fetched": 3,
-  "items_seen": 1500,
-  "min_date_seen": "2026-04-08",
+  "pages_fetched": 4,
+  "items_seen": 1999,
+  "min_date_seen": "2026-03-31",
   "max_date_seen": "2026-05-13",
-  "total_matched": 59,
+  "total_matched": 66,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2751369",
@@ -344,6 +344,132 @@
       "strong_keywords": [
         "aposentadoria",
         "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764192",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2200",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2200/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764192%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764193",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2199",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2199/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764193%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764194",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2198",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2198/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764194%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764197",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2197",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2197/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764197%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764196",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2196",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2196/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764196%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764195",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2195",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "12/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2195/2026 ATA 14/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764195%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
       ],
       "weak_keywords": [],
       "trt17_hits": [],
@@ -1220,6 +1346,26 @@
       "urlArquivoPDF": null,
       "strong_keywords": [
         "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766214",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "1223",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "13/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 1223/2026 ATA 16/2026 - PLENÁRIO",
+      "sumario": "REFERENDO DE MEDIDA CAUTELAR. CONTRATAÇÃO DE SERVIÇOS DE LIMPEZA PREDIAL E MANUTENÇÃO DE JARDINS E ÁREAS VERDES, COM FORNECIMENTO DE MÃO DE OBRA, MATERIAIS, INSUMOS E EQUIPAMENTOS. NÃO INCLUSÃO, NA PROPOSTA, DE ADICIONAIS DE INSALUBRIDADE E DE PERICULOSIDADE. AJUSTES POSTERIORES SEM EVIDÊNCIA DA CORRETA INTERNALIZAÇÃO DOS ENCARGOS TRABALHISTAS. DISTORÇÕES RELEVANTES NA FREQUÊNCIA DE LIMPEZA DE ESQUADRIAS. ALTERAÇÃO DE ÁREAS. DESCLASSIFICAÇÃO MASSIVA DE LICITANTES PELO MESMO FUNDAMENTO PROCEDIMENTAL. CONTRATO DE ELEVADA MATERIALIDADE E LONGA DURAÇÃO. INDÍCIOS DE COMPROMETIMENTO DOS PRINCÍPIOS DE VINCULAÇÃO AO EDITAL E DE JULGAMENTO OBJETIVO DAS PROPOSTAS, ASSIM COMO DE RESTRIÇÃO À COMPETITIVIDADE. SUSPENSÃO CAUTELAR DOS ATOS SUBSEQUENTES AO RESULTADO CLASSIFICATÓRIO. OITIVA. DILIGÊNCIA. RATIFICAÇÃO DA CAUTELAR.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766214%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "insalubridade_periculosidade"
       ],
       "weak_keywords": [],
       "trt17_hits": [],
