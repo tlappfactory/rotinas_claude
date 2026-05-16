@@ -96,6 +96,15 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
 - Se nenhuma seção tiver itens, ainda assim criar e enviar o rascunho — manter a previsibilidade do Boletim.
 
+### Linguagem da minuta — boletim limpo
+
+O e-mail é dirigido às chefias e servidores da SGP, não a equipe técnica. **Não incluir na minuta termos técnicos de informática nem detalhes do encanamento da automação.** O boletim deve ser limpo.
+
+- Evitar no corpo do e-mail: "JSON", "bridge", "pipeline", "WebSearch", "API", "INLabs", "runner", "workflow", "commit", contagem de arquivos processados (ex.: "168 atos de 1.094 arquivos") e similares.
+- Referir-se sempre às fontes pelo nome institucional: "DOU Seção 1", "DEJT Caderno Administrativo TRT-17", "acórdãos do TCU", "jurisprudência do STF", etc.
+- No aviso metodológico, quando a edição do dia ainda não estiver disponível, dizer apenas "a edição de [DATA] das fontes oficiais ainda não estava disponível" — sem mencionar o mecanismo de coleta.
+- Esses detalhes técnicos podem (e devem) aparecer apenas no relatório final ao operador da rotina, nunca na minuta destinada às unidades.
+
 ## Pipeline INLabs (DOU) — bridge via GitHub Actions
 
 A partir de 11/05/2026, a Routine COLEP-01 consome o DOU via **bridge no GitHub**: o sandbox onde o Claude executa não tem egresso para `inlabs.in.gov.br`, mas tem para `github.com`. Um repositório privado (`tlappfactory/rotinas_claude`) hospeda scripts que rodam em GitHub Actions a cada dia útil, baixam o DOU via INLabs e commitam o JSON filtrado de volta no repo. O Claude faz `git pull` e lê o JSON.
