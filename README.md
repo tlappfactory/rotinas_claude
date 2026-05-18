@@ -14,7 +14,7 @@ O sandbox onde o Claude executa bloqueia, por allowlist de egresso, todos os por
 │   ├── fetch_inlabs.py   # autentica no INLabs e baixa ZIPs DO1/DO2/DO1E/DO2E
 │   └── parse_dou.py      # filtra XMLs por temas SGP/TRT-17 → JSON
 ├── .github/workflows/
-│   └── fetch-dou.yml     # cron diário (08h Brasília, seg-sex) + dispatch manual
+│   └── fetch-dou.yml     # cron seg-sex + sábado (09h UTC) + dispatch manual
 ├── dou/                  # JSONs filtrados (ZIPs e XMLs ficam fora do git via .gitignore)
 │   └── <YYYY-MM-DD>/inlabs-filtered.json
 ├── requirements.txt
@@ -30,11 +30,34 @@ O sandbox onde o Claude executa bloqueia, por allowlist de egresso, todos os por
 
 2. **Permissão de write para o workflow** — *Settings → Actions → General → Workflow permissions → "Read and write permissions"*. Necessário para que o bot commite os JSONs filtrados.
 
-3. **Testar manualmente** — *Actions → fetch-dou-diario → Run workflow → Run* (deixe `data` vazio para hoje + catch-up). Verificar se a execução conclui sem erro e se um commit `DOU filtrado — …` aparece no repo.
+3. **Testar manualmente** — *Actions → fetch-dou-dejt-tcu-diario → Run workflow → Run* (deixe `data` vazio para hoje + catch-up). Verificar se a execução conclui sem erro e se um commit `DOU+DEJT+TCU filtrados — …` aparece no repo.
+
+## Disparo automático do bridge pela rotina (opcional)
+
+Ao montar o boletim, a Routine COLEP-01 executa `scripts/ensure_bridge_data.sh`: se faltarem os JSONs do dia, ela dispara este workflow via `workflow_dispatch` e aguarda — em vez de cair silenciosamente para a edição anterior (ver `CLAUDE.md`, seção "Garantia de dados frescos do dia").
+
+Para o disparo automático funcionar, a sessão Claude precisa de um token GitHub na variável de ambiente `BRIDGE_DISPATCH_TOKEN` (ou `GH_TOKEN`). **Sem token a rotina não trava**: o script sai com código `10` e o boletim escala o aviso, mantendo o disparo manual como alternativa.
+
+1. **Gerar o token** — fine-grained PAT em <https://github.com/settings/personal-access-tokens/new>:
+   - *Only select repositories* → apenas `tlappfactory/rotinas_claude`.
+   - Permissão: **Actions — Read and write** (apenas; `Metadata` entra automaticamente). **Não** conceder `Contents` nem `Workflows` — o script só dispara o workflow, não dá push.
+   - Definir expiração e rotacionar periodicamente.
+
+2. **Cadastrar a variável** — no Claude Code on the web: ícone de nuvem → editar o ambiente que executa a rotina → campo *Variáveis de ambiente* (formato `.env`), acrescentar uma linha, **sem aspas**:
+   ```
+   BRIDGE_DISPATCH_TOKEN=github_pat_...
+   ```
+   Atenção: variáveis de ambiente são visíveis a qualquer sessão do ambiente — não há cofre de secrets. Prefira um ambiente dedicado à rotina; se usar o ambiente compartilhado, mantenha o token com o escopo mínimo acima para conter o risco.
+
+3. **Verificar** — numa sessão nova, após salvar:
+   ```bash
+   echo "${BRIDGE_DISPATCH_TOKEN:+definido}"      # deve imprimir: definido
+   bash scripts/ensure_bridge_data.sh 2099-01-01  # data sem JSON → deve disparar o workflow
+   ```
 
 ## Operação diária
 
-- O cron dispara seg-sex às 09h UTC (06h Brasília), antes da sessão Claude das 07h.
+- O cron dispara seg-sex às 09h UTC (06h Brasília), antes da sessão Claude das 07h. Há também um run aos sábados (09h UTC) que captura a edição do DEJT cuja publicação cai na segunda-feira (disponibilizada sexta ~19h).
 - O job: faz catch-up de 7 dias para trás (para apanhar publicações ausentes), filtra por temas/órgãos SGP e commita apenas os JSONs em `dou/<DATA>/inlabs-filtered.json`.
 - Os ZIPs e XMLs brutos NÃO são commitados (ficam só no runner) — repo permanece pequeno.
 
