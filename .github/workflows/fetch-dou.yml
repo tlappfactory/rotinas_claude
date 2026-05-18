@@ -6,6 +6,12 @@ on:
     # Se o INLabs ainda não tiver publicado o DOU do dia, o catch-up de 7 dias
     # do run seguinte recupera. DEJT (diario.jt.jus.br) já está disponível.
     - cron: "0 9 * * 1-5"
+    # Execução de sábado: o DEJT disponibilizado sexta ~19h tem publicação na
+    # segunda-feira (Lei 11.419/2006, art. 4º, §3º). Sem este run, essa edição
+    # só seria capturada pelo cron de segunda 09 UTC — janela apertada e sem
+    # margem antes do boletim das 07h. O run de sábado a deixa commitada no
+    # bridge com o fim de semana inteiro de folga.
+    - cron: "0 9 * * 6"
   workflow_dispatch:
     inputs:
       data:
@@ -67,6 +73,10 @@ jobs:
           # divergir, mas o cron das 09 UTC garante alinhamento).
           # Se a publicação detectada for anterior à esperada, o script marca
           # `pdf_stale` em vez de `ok` — sinal para re-tentar mais tarde.
+          # No run de sábado a publicação esperada é a data do sábado: a edição
+          # de sexta tem publicação na segunda (futura), nunca anterior, então
+          # nunca é falsamente marcada `pdf_stale`; é arquivada como `ok` na
+          # pasta da sua data de publicação real (segunda-feira).
           DEJT_EXPECTED_PUBLICATION_DATE: ${{ inputs.data || '' }}
         run: |
           mkdir -p dejt
