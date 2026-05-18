@@ -14,17 +14,25 @@ Passos obrigatórios na ordem:
      git clone https://github.com/tlappfactory/rotinas_claude /home/user/rotinas_claude
    fi
    ```
-2. **Localizar os JSONs do dia (ou os mais recentes disponíveis):**
+2. **Garantir os dados do dia no bridge** (disparar e aguardar, se necessário):
+   ```bash
+   bash /home/user/rotinas_claude/scripts/ensure_bridge_data.sh
+   ```
+   Se faltarem os JSONs da data-alvo, o script dispara o workflow do bridge
+   (`workflow_dispatch`) e aguarda os dados chegarem. **Não** pular direto para
+   a edição anterior sem antes executar este passo. O tratamento de cada código
+   de saída está em "Garantia de dados frescos do dia (dispatch automático)".
+3. **Localizar os JSONs do dia (ou os mais recentes disponíveis):**
    - `/home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json`
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
-3. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
-4. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
-5. **Gerar o rascunho HTML** via `mcp__Gmail__create_draft` usando o template `/home/user/rotinas_claude/colep-boletim-template.html` com placeholders preenchidos.
-6. **Reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, ID do draft criado, fontes que falharam (se houver).
+4. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
+5. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
+6. **Gerar o rascunho HTML** via `mcp__Gmail__create_draft` usando o template `/home/user/rotinas_claude/colep-boletim-template.html` com placeholders preenchidos.
+7. **Reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, ID do draft criado, fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
 - Não pedir confirmação intermediária. Não fazer perguntas ao usuário, exceto se houver falha bloqueante (Gmail desautenticado, repo inacessível, etc.).
-- Se a data corrente não tiver JSON ainda (workflow ainda não rodou ou falhou), usar o JSON mais recente disponível e declarar isso explicitamente no aviso metodológico do boletim.
+- Se a data corrente não tiver JSON ainda, **não** cair silenciosamente para a edição anterior: o passo 2 (`scripts/ensure_bridge_data.sh`) dispara o bridge e aguarda. O JSON mais recente disponível só é usado como fallback quando o dispatch não é possível ou estoura o tempo-limite — e, nesse caso, com escalonamento visível conforme "Garantia de dados frescos do dia (dispatch automático)", sempre declarando a situação no aviso metodológico do boletim.
 - Se `git pull` falhar (rede, autenticação), continuar com os dados locais já presentes e sinalizar no boletim.
 - Se nenhum dos JSONs estiver acessível, ainda assim produzir o rascunho com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
 
@@ -149,7 +157,21 @@ Após ler o JSON, triar pelos critérios usuais (Alto/Médio/Informativo + Unida
 ### Quando o workflow falha (catch-up manual)
 
 Se a execução agendada do GitHub Actions falhou e algum dia ficou sem JSON, qualquer pessoa com acesso pode disparar manualmente:
-- *Actions → fetch-dou-diario → Run workflow → Run* (com a data específica ou em branco para catch-up de 7 dias).
+- *Actions → fetch-dou-dejt-tcu-diario → Run workflow → Run* (com a data específica ou em branco para catch-up de 7 dias).
+
+### Garantia de dados frescos do dia (dispatch automático)
+
+O passo 2 do pipeline executa `scripts/ensure_bridge_data.sh`. Ele verifica se existem os JSONs do DOU e do DEJT para a data-alvo e, **se faltarem, dispara o workflow do bridge via `workflow_dispatch` e aguarda** (poll de até 20 min, sincronizando o repo) — em vez de a rotina cair silenciosamente para a edição anterior.
+
+**Pré-requisito:** um token com permissão `actions: write` (fine-grained PAT: *Actions — Read and write* no repositório) exposto à sessão Claude na variável de ambiente `BRIDGE_DISPATCH_TOKEN` (ou `GH_TOKEN`). Sem token, o disparo não acontece e o script sai com código `10`.
+
+**Tratamento dos códigos de saída do script:**
+
+- **`0`** — dados da data-alvo presentes (já existiam ou chegaram após o dispatch). Seguir o pipeline normalmente.
+- **`10`** — dados ausentes e o dispatch não pôde ser feito (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
+- **`11`** — o dispatch foi feito mas os dados não chegaram dentro do tempo-limite. Mesmo tratamento do `10` (boletim com a edição mais recente + escalonamento explícito), informando que o disparo foi realizado e provavelmente ainda estava em curso.
+
+O fallback para a edição anterior continua existindo — mas deixou de ser silencioso: só ocorre após uma tentativa de dispatch e sempre acompanhado de escalonamento visível, na minuta e no relatório ao operador.
 
 Os ZIPs e XMLs brutos ficam apenas no runner (não vão para o repo, por `.gitignore`); só o `inlabs-filtered.json` é versionado.
 
