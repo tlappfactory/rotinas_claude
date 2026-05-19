@@ -1,14 +1,29 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "sources": {
     "trt17": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 100,
+      "pdf_text_chars": 6701,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "Ato SECOR N° 23/2026",
+        "ATO PRESI SECOR N° 23/2026"
+      ]
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 86,
+      "pdf_text_chars": 3031,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 280, DE 15 DE MAIO DE 2026"
+      ]
     }
   },
   "total_matched": 0,
