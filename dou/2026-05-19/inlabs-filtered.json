@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
-  "total_xml_files": 1081,
-  "matched_articles": 142,
+  "total_xml_files": 1095,
+  "matched_articles": 143,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2704,6 +2704,31 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260519_23948883.xml"
+    },
+    {
+      "id": "49391926",
+      "section": "DO1E",
+      "pub_date": "19/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério de Minas e Energia/Gabinete do Ministro",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ENSAIOS PREVISTOS: Apresentam-se nas Tabelas 1 e 2 uma síntese dos ensaios mecânicos e físico-químicos previstos no presente Plano de Testes. Tabela 1. Ensaios Mecânicos previstos durante a Fase 1 e Fase 2 do plano de testes. Ensaios Mecânicos Tipo Nº de Motores Ensaios Rodoviário Pesado 5 Pesados com diferentes tecnologias (Proconve P2 a P8) · Consumo · Compatibilidade química de materiais (elastômeros, mangueiras, plásticos e metais dos diversos componentes em contato com o diesel B) · Partida a frio · Emissões (para veículos P5 e superiores) · Desempenho em bancada · Dirigibilidade · Anális",
+      "assina": "",
+      "cargo": "",
+      "page": "3",
+      "edition": "92-D",
+      "url": "https://www.in.gov.br/web/dou/-/PORT NORM 133_002-11763180",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "603_20260519_23956477-2.xml"
     },
     {
       "id": "49361467",
