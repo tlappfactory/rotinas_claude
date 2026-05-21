@@ -2,30 +2,13 @@
   "date": "2026-05-20",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 108,
-      "pdf_text_chars": 28543,
-      "total_atos_detectados": 4,
-      "matched_atos": 0,
-      "headers_sample": [
-        "EDITAL Nº 01/2026 – MUNICÍPIO DE MUQUI/ES",
-        "EDITAL Nº 01/2026 – MUNICÍPIO DE MUQUI/ES",
-        "EDITAL Nº 02/2026 – MUNICÍPIO DE ALTO RIO NOVO/ES",
-        "EDITAL Nº 02/2026 – MUNICÍPIO DE ALTO RIO NOVO/ES"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 93,
-      "pdf_text_chars": 9317,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO SEGJUD.GP N.º 283, DE 19 DE MAIO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
   "total_matched": 0,

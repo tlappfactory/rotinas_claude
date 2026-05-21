@@ -1,7 +1,7 @@
 {
   "date": "2026-05-20",
-  "total_xml_files": 1094,
-  "matched_articles": 197,
+  "total_xml_files": 1113,
+  "matched_articles": 213,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -1728,6 +1728,222 @@
       "xml_file": "529_20260520_23952553.xml"
     },
     {
+      "id": "49410032",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ANEXO IX: FUNDAÇÃO BIBLIOTECA NACIONAL - FBN TIPO DE CONCORRÊNCIA - AMPLA CONCORRÊNCIA Bloco Temático Cargo/Especialidade Nome Classificação CPF B5-03-A Analista de Administração II GHIANLLUCA BARBOSA DOS SANTOS 1 *** . 752 . 234 - ** B5-03-A Analista de Administração II MARCELLA SANTOS SARTO 2 *** . 368 . 928 - ** TIPO DE CONCORRÊNCIA - PESSOA NEGRA Bloco Temático Cargo/Especialidade Nome Classificação CPF B5-03-A Analista de Administração II SUELLEM DE MOURA ANTUNES 1 *** . 935 . 237 - ** ANEXO X: FUNDAÇÃO ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA - ENAP TIPO DE CONCORRÊNCIA - AMPLA CONCORRÊN",
+      "assina": "",
+      "cargo": "",
+      "page": "36",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960767-7.xml"
+    },
+    {
+      "id": "49410014",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "PORTARIA DE PESSOAL DGP/SSC/MGI Nº 5.525, DE 19 DE MAIO DE 2026 (*)",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DE PESSOAL DGP/SSC/MGI Nº 5.525, DE 19 DE MAIO DE 2026 (*) A DIRETORA DE GESTÃO DE PESSOAS DA SECRETARIA DE SERVIÇOS COMPARTILHADOS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições conferidas pelo art. 60, inciso II, Anexo I do Decreto nº 12.904, de 27 de março de 2026, publicado no Diário Oficial da União (DOU) de 30 de março de 2026, com fundamento no art. 9º, Inciso I, e no art. 10 da Lei nº 8.112, de 11 de dezembro de 1990, e, ainda, tendo em vista o disposto na Portaria MGI nº 3.356, de 17 de abril de 2026, publicada no DOU em 22 de abril de 2026",
+      "assina": "",
+      "cargo": "",
+      "page": "25",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960767-1.xml"
+    },
+    {
+      "id": "49409647",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***306598** BRENDA DE SOUZA FERREIRA PN Brasília - DF MPOR B5-10-A Analista Técnico-Administrativo ***920058** BRENDA GUEDES BARBOSA PN Brasília - DF CADE B5-10-A Analista Técnico-Administrativo ***589636** BRENDA MENDES PEREIRA DE ASSUNCAO PN Brasília - DF MPS B5-10-A Analista Técnico-Administrativo ***550016** BRENDA THAYNARA RODRIGUES DE ALMEIDA AC Brasília - DF MDA B5-10-A Analista Técnico-Administrativo ***448818** BRENDO LACERDA DIAS AC Brasília - DF MF B5-10-A Analista Técnico-Administrativo ***904086** BRISA LOYOLA SANTOS PI Vitória - ES MS B5-10",
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-2.xml"
+    },
+    {
+      "id": "49409650",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***841640** DENISE MONTEIRO DA LUZ FREIRE PN Brasília - DF MDA B5-10-A Analista Técnico-Administrativo ***172138** DENISE VALERIA NASCIMENTO RODRIGUES AC Brasília - DF SGA B5-10-A Analista Técnico-Administrativo ***298020** DENISY REGES SAMPAIO PI Fortaleza - CE DNOCS B5-10-A Analista Técnico-Administrativo ***890869** DENIZE APARECIDA ALVES DINIZ AC São José dos Campos - SP ITA B5-10-A Analista Técnico-Administrativo ***734625** DHAFFANY CELESTINA OLIVEIRA SANTOS AC Brasília - DF IN B5-10-A Analista Técnico-Administrativo ***551687** DIAN SOUZA GARCIA A",
+      "assina": "",
+      "cargo": "",
+      "page": "6",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-3.xml"
+    },
+    {
+      "id": "49409653",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***343482** GEORGE ADRIANO PEREIRA DA SILVA PCD Natal - RN DNOCS B5-10-A Analista Técnico-Administrativo ***512583** GEORGE WAGNER DE FREITAS SETUBAL AC Brasília - DF MS B5-10-A Analista Técnico-Administrativo ***775739** GEOVANA OLIVEIRA MACHADO PQ Brasília - DF MDA B5-10-A Analista Técnico-Administrativo ***769138** GEOVANNA DA SILVA SAMPAIO PCD São José dos Campos - SP ITA B5-10-A Analista Técnico-Administrativo ***795283** GERSIANE DA SILVA GOMES PN Teresina - PI MS B5-10-A Analista Técnico-Administrativo ***901947** GERSON BATISTA DA COSTA NETO AC N",
+      "assina": "",
+      "cargo": "",
+      "page": "9",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-4.xml"
+    },
+    {
+      "id": "49409659",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***841615** LETICIA TORRES ARAUJO DE MEDEIROS AC Brasília - DF MIR B5-10-A Analista Técnico-Administrativo ***154903** LEYA LIMA FONTENELE MELO AC Brasília - DF MEMP B5-10-A Analista Técnico-Administrativo ***859945** LEYLIA KATHARINNE FERNANDES ARAUJO PN Recife - PE SUDENE B5-10-A Analista Técnico-Administrativo ***293052** LIDIANE ALVES DE SÁ TORRES AC Brasília - DF MAPA B5-10-A Analista Técnico-Administrativo ***751076** LIDIANE BEATRIZ SOUZA SILVA PN Brasília - DF CADE B5-10-A Analista Técnico-Administrativo ***732564** LILIAN SILVEIRA DE PAULA MILAG",
+      "assina": "",
+      "cargo": "",
+      "page": "15",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-6.xml"
+    },
+    {
+      "id": "49409662",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***382007** MARIANA TRAVERSO DA CONCEICAO AC Brasília - DF MDHC B5-10-A Analista Técnico-Administrativo ***148042** MARIANA VELOSO CALDAS DE VASCONCELOS ARAUJO AC Brasília - DF MDS B5-10-A Analista Técnico-Administrativo ***079801** MARIANA VIEIRA DE SOUZA AC Brasília - DF ANPD B5-10-A Analista Técnico-Administrativo ***181337** MARIANE SILVA DE CASTRO AC Brasília - DF SGA B5-10-A Analista Técnico-Administrativo ***841260** MARILENE LISBOA XAVIER PQ Brasília - DF MME B5-10-A Analista Técnico-Administrativo ***706449** MARILIA BEZERRA TENORIO CAVALCANTI A",
+      "assina": "",
+      "cargo": "",
+      "page": "17",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-7.xml"
+    },
+    {
+      "id": "49409668",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***171006** VICTOR FELIX GLANSIMANN PN Brasília - DF MF B5-10-A Analista Técnico-Administrativo ***551510** VICTOR HUGO DA SILVA ALVES AC Brasília - DF MDA B5-10-A Analista Técnico-Administrativo ***497310** VICTOR LUIZ DE OLIVEIRA FREITAS AC Brasília - DF ANPD B5-10-A Analista Técnico-Administrativo ***440447** VICTOR RODRIGUES DE FARIAS AC Brasília - DF MDS B5-10-A Analista Técnico-Administrativo ***745714** VICTORIA DIAS DE LIMA AC Brasília - DF MIDR / Defesa Civil B5-10-A Analista Técnico-Administrativo ***724527** VINICIUS ANTUNES AGUIAR PINTO PCD B",
+      "assina": "",
+      "cargo": "",
+      "page": "22",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11,
+      "xml_file": "604_20260520_23960656-9.xml"
+    },
+    {
       "id": "49389255",
       "section": "DO1",
       "pub_date": "20/05/2026",
@@ -3419,6 +3635,206 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "529_20260520_23957314.xml"
+    },
+    {
+      "id": "49410017",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo RICARDO DE OLIVEIRA RODRIGUES 110 *** . 150 . 771 - ** B5-10-A Analista Técnico-Administrativo RAFAEL VERONEZ DAMINELLO 111 *** . 008 . 838 - ** B5-10-A Analista Técnico-Administrativo ANA LECTICIA FELIX ANGELOTTI 112 *** . 420 . 477 - ** B5-10-A Analista Técnico-Administrativo RODRIGO GRANJA ALENCAR 113 *** . 396 . 924 - ** B5-10-A Analista Técnico-Administrativo LAISA MEL DE MOURA OLIVEIRA 114 *** . 047 . 542 - ** B5-10-A Analista Técnico-Administrativo Gilvan Daniel Gomes de Lima 115 *** . 657 . 673 - ** B5-10-A Analista Técnico-Administrativo MATHEUS",
+      "assina": "",
+      "cargo": "",
+      "page": "27",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960767-2.xml"
+    },
+    {
+      "id": "49410020",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo DAVI REIS MOTT 310 *** . 914 . 441 - ** B5-10-A Analista Técnico-Administrativo RAQUEL DA SILVA SIQUEIRA 311 *** . 959 . 571 - ** B5-10-A Analista Técnico-Administrativo ZANDER LESSA GUEIROS 312 *** . 296 . 607 - ** B5-10-A Analista Técnico-Administrativo JEFAINE DOS SANTOS OLIVEIRA VIANA 313 *** . 548 . 751 - ** B5-10-A Analista Técnico-Administrativo BERNARDO MOTA LOPES 314 *** . 875 . 021 - ** B5-10-A Analista Técnico-Administrativo PAOLA TEOTONIO CAVALCANTI DE ARRUDA 315 *** . 251 . 764 - ** B5-10-A Analista Técnico-Administrativo GABRIELA PAULA SILV",
+      "assina": "",
+      "cargo": "",
+      "page": "29",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960767-3.xml"
+    },
+    {
+      "id": "49410023",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo LEONARDO AUGUSTO XAVIER CAMPOS 510 *** . 006 . 267 - ** B5-10-A Analista Técnico-Administrativo ANA PRISCILA DA SILVA 511 *** . 449 . 661 - ** B5-10-A Analista Técnico-Administrativo RODRIGO GABRIEL TORRES 512 *** . 932 . 287 - ** B5-10-A Analista Técnico-Administrativo JOAO OTAVIO SCARANO ALCANTARA 513 *** . 336 . 754 - ** B5-10-A Analista Técnico-Administrativo ALANA BARBARA NERY DE SENA BRITO 514 *** . 648 . 345 - ** B5-10-A Analista Técnico-Administrativo RAFAEL PASSOS LISBOA 515 *** . 057 . 035 - ** B5-10-A Analista Técnico-Administrativo Igor Toste",
+      "assina": "",
+      "cargo": "",
+      "page": "31",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960767-4.xml"
+    },
+    {
+      "id": "49410026",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo DAVID PAIXAO COSTA 57 *** . 625 . 825 - ** B5-10-A Analista Técnico-Administrativo LUANA SANTOS BRAVIN 58 *** . 870 . 697 - ** B5-10-A Analista Técnico-Administrativo ANTONIO EDSON TEDGUE ALVES JUNIOR 59 *** . 760 . 125 - ** B5-10-A Analista Técnico-Administrativo FERNANDA MACHADO DE LIMA MENESES 60 *** . 987 . 013 - ** B5-10-A Analista Técnico-Administrativo STEFANY UMBELINA ALVES CARAIBAS 61 *** . 564 . 441 - ** B5-10-A Analista Técnico-Administrativo ELIANE CRISTINA SILVA DE OLIVEIRA 62 *** . 222 . 585 - ** B5-10-A Analista Técnico-Administrativo CRIS",
+      "assina": "",
+      "cargo": "",
+      "page": "33",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960767-5.xml"
+    },
+    {
+      "id": "49410029",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados/Diretoria de Gestão de Pessoas",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "TIPO DE CONCORRÊNCIA - PESSOA QUILOMBOLA Bloco Temático Cargo/Especialidade Nome Classificação CPF B5-10-A Analista Técnico-Administrativo RENATA COSTA SANTOS 1 *** . 721 . 954 - ** B5-10-A Analista Técnico-Administrativo THAIS SILVA SANTOS 2 *** . 385 . 495 - ** B5-10-A Analista Técnico-Administrativo NINA AARTS DE FARIAS 3 *** . 448 . 462 - ** B5-10-A Analista Técnico-Administrativo VALDENICE RODRIGUES NETO 4 *** . 693 . 391 - ** B5-10-A Analista Técnico-Administrativo JONATHAN CIRO FERREIRA RIBEIRO 5 *** . 574 . 723 - ** B5-10-A Analista Técnico-Administrativo JEMIMA ROSA DOS SANTOS SILVA 6",
+      "assina": "",
+      "cargo": "",
+      "page": "34",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DGP.rtf.-11764604",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960767-6.xml"
+    },
+    {
+      "id": "49409656",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***883810** JOAO GABRIEL ALMEIDA VIEIRA DA CUNHA PCD Brasília - DF ANPD B5-10-A Analista Técnico-Administrativo ***967220** JOAO LUCAS MARTINS DE ANDRADE AC Macapá - AP MTE B5-10-A Analista Técnico-Administrativo ***543** JOAO MARCIO FERNANDES MENDONCA PCD São Luís - MA MS B5-10-A Analista Técnico-Administrativo ***336754** JOAO OTAVIO SCARANO ALCANTARA AC Brasília - DF MIDR / Defesa Civil B5-10-A Analista Técnico-Administrativo ***957221** JOAO PAULO BORGES TAVEIRA PN Brasília - DF MD B5-10-A Analista Técnico-Administrativo ***472211** JOAO PAULO FIGUEI",
+      "assina": "",
+      "cargo": "",
+      "page": "12",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960656-5.xml"
+    },
+    {
+      "id": "49409665",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "B5-10-A Analista Técnico-Administrativo ***113891** RENATO OLIVEIRA CLASTES PN Brasília - DF MDS B5-10-A Analista Técnico-Administrativo ***771** RICARDO DE OLIVEIRA RODRIGUES AC Brasília - DF SGA B5-10-A Analista Técnico-Administrativo ***612020** RICARDO ELIAS DOS SANTOS SCHOLZ AC Brasília - DF MDS B5-10-A Analista Técnico-Administrativo ***541787** RICARDO PEREIRA DE ALBUQUERQUE AC Brasília - DF MDA B5-10-A Analista Técnico-Administrativo ***069796** ROBERTA DIAS FERNANDES AC Brasília - DF CADE B5-10-A Analista Técnico-Administrativo ***132463** ROBERTA FROEDE LADEIRO AC Brasília - DF MS B5",
+      "assina": "",
+      "cargo": "",
+      "page": "20",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960656-8.xml"
+    },
+    {
+      "id": "49409644",
+      "section": "DO2E",
+      "pub_date": "20/05/2026",
+      "art_type": "Retificação",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 5.459, DE 18 DE MAIO DE 2026 (*)",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 5.459, DE 18 DE MAIO DE 2026 (*) A DIRETORA DE CARREIRAS TRANSVERSAIS DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, considerando a competência prevista no inciso IX do parágrafo único do art. 15 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, tendo em vista o disposto no art. 23 da Lei nº 15.367, de 30 de março de 2026, e o que consta no Processo nº 19975.008872/2026-74, resolve: Art. 1º Efetivar o exercício dos ocupantes do cargo de Analista Técnico Executivo, do Quadro de Pessoal desta Pasta, nas respectivas e",
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "93-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal DICAT-SE-MGI-11764519",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "604_20260520_23960656-1.xml"
     },
     {
       "id": "49388926",
