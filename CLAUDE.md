@@ -236,6 +236,32 @@ O TCU disponibiliza acórdãos via API JSON: `https://dados-abertos.apps.tcu.gov
 
 3. **Toda execução** mantém uma seção "FONTES PRIMÁRIAS NÃO ACESSÍVEIS — CONFERÊNCIA MANUAL" no boletim **apenas quando** houver falha real (não para ausência legítima de publicação).
 
+### Convenção de linguagem por fonte na minuta (anti-ambiguidade)
+
+Cada fonte primária consultada na edição utilizada deve aparecer no boletim com um status que distingue quatro cenários — **proibido o atalho genérico "sem novidades pertinentes" sempre que existirem atos detectados na fonte**, mesmo que nenhum tenha vínculo com a SGP/COLEP. Convenções obrigatórias:
+
+- **`status: ok` + `matched_atos > 0`** → listar os atos pertinentes na seção correspondente (Alto/Médio/Informativo/Monitoramento).
+- **`status: ok` + `matched_atos = 0` + `total_atos_detectados > 0`** → redigir literalmente "DEJT [caderno] publicação `YYYY-MM-DD`: N atos detectados, nenhum pertinente à SGP/COLEP segundo o filtro temático (matéria jurisdicional / editais municipais / [outra natureza, extraída de `headers_sample`])". **Não** usar "sem novidades pertinentes" aqui — o leitor precisa saber que a edição foi consultada e que os atos existem, ainda que fora do escopo SGP.
+- **`status: ok` + `total_atos_detectados = 0`** → "DEJT [caderno] publicação `YYYY-MM-DD`: edição publicada, sem atos administrativos no caderno". Só nesta hipótese cabe o atalho "sem novidades nesta edição".
+- **`status: no_pdf`** → "DEJT [caderno]: sem publicação no Caderno Administrativo na edição utilizada (situação legítima, não erro de coleta)".
+- **`status: pdf_stale` OU ausência do JSON da publicação esperada** → declarar EXPLICITAMENTE "DEJT [caderno] publicação `YYYY-MM-DD`: edição não consultada pela rotina automatizada — conferência manual em `diario.jt.jus.br`".
+
+A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
+
+### Aviso metodológico em fallback (códigos 10 e 11)
+
+Quando o pipeline cai para edição anterior (`ensure_bridge_data.sh` retorna `10` ou `11`), o aviso metodológico do boletim **deve** aparecer em destaque visual (caixa de borda vermelha no HTML; bloco "AVISO METODOLÓGICO (DESTAQUE)" no plain-text) e enumerar três pontos obrigatórios:
+
+1. **Edição efetivamente utilizada** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`, conforme `_last_fetch.json`); TCU sessões até `YYYY-MM-DD` (campo `max_date_seen` do JSON do TCU).
+2. **Edição não consultada nesta execução** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU acórdãos da sessão posterior a `max_date_seen` da edição utilizada.
+3. **Alerta específico sobre o DEJT** — frase canônica: "Em razão da convenção de publicação do DEJT (Lei 11.419/2006, art. 4º, §3º), a edição **disponibilizada em `DD/MM`** corresponde à **publicação em `DD+1/MM`**. Atos administrativos da SGP eventualmente publicados na edição não consultada (publicação `YYYY-MM-DD`) podem não estar refletidos neste boletim e requerem conferência humana posterior em `diario.jt.jus.br`."
+
+Modelo canônico do bloco (substituir as datas conforme o caso):
+
+> ⚠ **Aviso metodológico (em destaque):** a edição de `YYYY-MM-DD` das fontes oficiais ainda não estava disponível no fechamento desta rotina. Este boletim utiliza a edição mais recente consolidada — DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU sessões até `YYYY-MM-DD`. **Edições não consultadas:** DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`). Em razão da convenção do DEJT (Lei 11.419/2006), a edição disponibilizada em `DD/MM` = publicação `DD+1/MM`: atos administrativos da SGP publicados nessa edição podem não estar refletidos e requerem conferência humana posterior.
+
+No relatório final ao operador (fora da minuta), informar adicionalmente o `EXIT_CODE` recebido (`10` = sem token / sem `gh`/`curl`; `11` = dispatch feito, timeout) e a ação manual recomendada (re-disparo do workflow do bridge para a data-alvo).
+
 ### Operação diária do Claude — leitura completa dos JSONs
 
 ```bash
