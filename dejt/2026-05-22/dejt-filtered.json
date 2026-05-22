@@ -1,14 +1,28 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "sources": {
     "trt17": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 95,
+      "pdf_text_chars": 5246,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 43/2026"
+      ]
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 88,
+      "pdf_text_chars": 4347,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO SEGJUD.GP Nº 285, DE 21 DE MAIO DE 2026."
+      ]
     }
   },
   "total_matched": 0,
