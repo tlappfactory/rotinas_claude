@@ -32,6 +32,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 DOU_ROOT = Path(os.environ.get("DOU_ROOT", REPO_ROOT / "dou"))
 
+# Limite do trecho de texto do ato gravado no JSON. Acima disso, a flag
+# `texto_truncated` sinaliza ao consumidor (Routine COLEP-01) que cabe revisão
+# humana do texto integral antes da redação da ementa.
+TEXTO_RESUMO_MAX_CHARS = 6000
+
 # Keywords FORTES — quase sempre sinalizam tema de pessoal/previdência/remuneração.
 # Padrões regex aplicados sobre texto normalizado (sem acento, lowercase).
 STRONG_KEYWORDS: dict[str, list[str]] = {
@@ -226,6 +231,7 @@ def parse_xml_file(path: Path) -> dict | None:
     elif name_slug:
         url = f"https://www.in.gov.br/web/dou/-/{name_slug}"
 
+    texto_full = strip_html(texto) or article_full_text(root)
     return {
         "id": art_id,
         "section": pub_name,
@@ -237,7 +243,8 @@ def parse_xml_file(path: Path) -> dict | None:
         "ementa": ementa or titulo,
         "titulo": titulo,
         "subtitulo": subtitulo,
-        "texto_resumo": (strip_html(texto) or article_full_text(root))[:600],
+        "texto_resumo": texto_full[:TEXTO_RESUMO_MAX_CHARS],
+        "texto_truncated": len(texto_full) > TEXTO_RESUMO_MAX_CHARS,
         "assina": assina,
         "cargo": cargo,
         "page": number_page,

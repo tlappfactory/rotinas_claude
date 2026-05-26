@@ -149,7 +149,8 @@ O JSON traz `articles[]` com cada ato pertinente:
 - `keywords_matched` (tags temáticas do filtro)
 - `orgaos_matched` (órgãos prioritários detectados)
 - `url` (link aproximado no in.gov.br para conferência humana)
-- `texto_resumo` (até 600 chars do corpo)
+- `texto_resumo` (até 6000 chars do corpo)
+- `texto_truncated` (bool — `true` indica que o texto original era maior que o limite; ao montar a minuta, marcar o item com `[carece de leitura humana do texto integral]` na ementa derivada e recomendar conferência direta na fonte). O mesmo vale para o campo `text_truncated` nos artigos do `dejt-filtered.json`.
 - `assina`/`cargo` (autoridade signatária)
 
 Após ler o JSON, triar pelos critérios usuais (Alto/Médio/Informativo + Unidade + Ação) e completar o boletim com WebSearch nas demais fontes (STF/STJ/TCU/CNJ).

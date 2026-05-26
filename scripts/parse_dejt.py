@@ -68,19 +68,25 @@ def pdf_to_text(pdf_path: Path) -> str:
         return ""
 
 
+ATO_TEXT_MAX_CHARS = 6000
+
+
 def split_into_atos(text: str) -> list[dict]:
     """Particiona o texto em atos baseando-se em cabeçalhos típicos."""
     matches = list(ATO_HEADER_RE.finditer(text))
     if not matches:
         return [{"identifica": "[caderno inteiro — sem cabeçalhos detectados]",
-                 "text": text}]
+                 "text": text[:ATO_TEXT_MAX_CHARS],
+                 "original_len": len(text)}]
     atos = []
     for i, m in enumerate(matches):
         start = m.start()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
         chunk = text[start:end].strip()
         first_line = chunk.split("\n", 1)[0].strip()[:250]
-        atos.append({"identifica": first_line, "text": chunk[:6000]})
+        atos.append({"identifica": first_line,
+                     "text": chunk[:ATO_TEXT_MAX_CHARS],
+                     "original_len": len(chunk)})
     return atos
 
 
@@ -109,7 +115,8 @@ def process_pdf(pdf_path: Path, source_label: str) -> dict:
             "source": source_label,
             "orgao": orgao_canonico,
             "identifica": a["identifica"],
-            "text_resumo": a["text"][:1200],
+            "text_resumo": a["text"],
+            "text_truncated": a.get("original_len", len(a["text"])) > len(a["text"]),
             "strong_keywords": sorted(set(strong_hits)),
             "weak_keywords": sorted(set(weak_hits)),
             "score": score,
