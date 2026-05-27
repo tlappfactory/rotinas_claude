@@ -2,16 +2,18 @@ name: fetch-dou-dejt-tcu-diario
 
 on:
   schedule:
-    # 09:00 UTC = 06:00 Brasília (antes da sessão Claude das 07h); dias úteis.
-    # Se o INLabs ainda não tiver publicado o DOU do dia, o catch-up de 7 dias
-    # do run seguinte recupera. DEJT (diario.jt.jus.br) já está disponível.
-    - cron: "0 9 * * 1-5"
+    # 13:00 UTC = 10:00 Brasília (antes da sessão Claude das 11h30); dias úteis.
+    # Janela escolhida porque (a) o INLabs já tem o pacote do DOU consolidado às
+    # 10h BRT — versões mais cedo costumam retornar 404/parcial; (b) o DEJT do
+    # dia tem publicação válida (disponibilizado na véspera às 19h BRT); (c)
+    # ainda dá ~2h de folga até o expediente da COLEP começar (12h BRT).
+    - cron: "0 13 * * 1-5"
     # Execução de sábado: o DEJT disponibilizado sexta ~19h tem publicação na
     # segunda-feira (Lei 11.419/2006, art. 4º, §3º). Sem este run, essa edição
-    # só seria capturada pelo cron de segunda 09 UTC — janela apertada e sem
-    # margem antes do boletim das 07h. O run de sábado a deixa commitada no
-    # bridge com o fim de semana inteiro de folga.
-    - cron: "0 9 * * 6"
+    # só seria capturada pelo cron de segunda 13 UTC — janela apertada antes do
+    # boletim das 11h30. O run de sábado a deixa commitada no bridge com o fim
+    # de semana inteiro de folga.
+    - cron: "0 13 * * 6"
   workflow_dispatch:
     inputs:
       data:
@@ -98,6 +100,7 @@ jobs:
 
       - name: Commit JSONs filtrados
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 'dou/*/inlabs-filtered.json' \
@@ -105,10 +108,22 @@ jobs:
                   'tcu/*/tcu-filtered.json'
           if git diff --staged --quiet; then
             echo "Nenhuma novidade a commitar."
-          else
-            git commit -m "DOU+DEJT+TCU filtrados — $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "DOU+DEJT+TCU filtrados — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Push com tolerância a corrida (humano commitando no main entre o
+          # checkout e o push). Tenta rebase em cima de origin/main e re-push.
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then
+              echo "push ok na tentativa $attempt"
+              exit 0
+            fi
+            echo "push falhou na tentativa $attempt; tentando rebase em origin/main"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; sleep $((attempt*5)); }
+          done
+          echo "ERRO: 4 tentativas de push falharam." >&2
+          exit 1
 
       - name: Upload de log (artefato)
         if: always()

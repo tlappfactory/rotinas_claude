@@ -2,7 +2,7 @@
 
 ## EXECUÇÃO AUTÔNOMA (sessão diária agendada)
 
-Esta rotina é disparada automaticamente todo dia útil pela manhã pela plataforma Claude.ai. Quando uma sessão se inicia neste diretório, **executar o pipeline ponta-a-ponta imediatamente, sem pedir confirmação ao usuário e sem aguardar comando do tipo "boletim de hoje"**. A presença desta CLAUDE.md já constitui a instrução de execução.
+Esta rotina é disparada automaticamente todo dia útil pela plataforma Claude.ai por volta das **11h30 BRT (14h30 UTC)** — antes do início do expediente da COLEP às 12h BRT. Quando uma sessão se inicia neste diretório, **executar o pipeline ponta-a-ponta imediatamente, sem pedir confirmação ao usuário e sem aguardar comando do tipo "boletim de hoje"**. A presença desta CLAUDE.md já constitui a instrução de execução.
 
 Passos obrigatórios na ordem:
 
@@ -129,7 +129,7 @@ INLabs (in.gov.br) ──auth──> GitHub Actions runner ──parse──> co
 
 - **URL:** https://github.com/tlappfactory/rotinas_claude (privado)
 - **Local no sandbox:** `/home/user/rotinas_claude/` (cloned)
-- **Cron do workflow:** seg-sex às 09h UTC (06h Brasília), antes da sessão Claude diária das 07h; `workflow_dispatch` para execução manual.
+- **Cron do workflow:** seg-sex às 13h UTC (10h Brasília) + sábado às 13h UTC; rodada antes da sessão Claude das 11h30 BRT (14h30 UTC), com ~2h de folga até o expediente da COLEP às 12h BRT. `workflow_dispatch` para execução manual. A janela das 10h BRT foi escolhida porque (a) o INLabs já tem o pacote do DOU consolidado nesse horário — runs anteriores às 9h BRT costumam falhar no fetch porque a edição ainda não está fechada; (b) a publicação do DEJT do dia já é válida (disponibilizado na véspera às 19h BRT).
 - **Secrets exigidos no GitHub:** `INLABS_EMAIL`, `INLABS_PASSWORD` (em Settings → Secrets and variables → Actions).
 - **Permissões:** Settings → Actions → General → "Read and write permissions" (para o bot commitar JSONs).
 
