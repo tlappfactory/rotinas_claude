@@ -2,32 +2,16 @@
   "date": "2026-05-27",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 120,
-      "pdf_text_chars": 13445,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 44/2026",
-        "Portaria PRESI/SEGEP N° 3/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 95,
-      "pdf_text_chars": 8019,
-      "total_atos_detectados": 2,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO GDGSET.GP N° 290, DE 25 DE MAIO DE 2026",
-        "EDITAL Nº 1513956, de 26 de maio de 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -53,18 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "EDITAL Nº 1513956, de 26 de maio de 2026",
-      "text_resumo": "EDITAL Nº 1513956, de 26 de maio de 2026\n\n                            O MINISTRO PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais, torna\n                            pública a relação das Desembargadoras e dos Desembargadores inscritos(as) para concorrer ao cargo de Ministro do\n                            Tribunal Superior do Trabalho, em vaga destinada a membro de Tribunal Regional do Trabalho oriundo da magistratura\n                            de carreira, em decorrência da aposentadoria da Excelentíssima Senhora Ministra Dora Maria da Costa:\n\n\n\n                            - FERNANDO DE JESUS DE CASTRO LOBATO JUNIOR – Desembargador do Tribunal Regional do Trabalho da 8ª\n                            Região;\n\n                            - MARIA DE NAZARÉ MEDEIROS ROCHA – Desembargadora do Tribunal Regional do Trabalho da 8ª Região;\n\n                            - JASIEL IVO – Desembargador do Tribunal Regional do Trabalho da 19ª Região;\n\n                            - HOMERO BATISTA MATEUS DA SILVA – Desembargador do Tribunal Regional do Trabalho da 2ª Região;\n\n                            - ADRIANA GOULART DE SENA ORSINI – Desembargadora do Tribunal Regional do Trabalho da 3ª Região;\n\n                            - ADENIR ALVES DA SILVA CARRUESCO – Desembargadora do Tribunal Regional do Trabalho da 23ª Região;\n\n\n\nCódigo para aferir autenticidade deste caderno: 238137\n\f   4479/2026                                                        Tribunal Superior do Trabalho                                                2\n   Data da Disponibilização: Terça-feira, 26 de Maio de 2026\n\n\n\n                               - CÉLIO HORST WALDRAFF – Desembargador do Tribunal Regional do Trabalho da 9ª Região;\n\n                               - JOÃO CARLOS RIBEIRO DE SOUZA – Desembargador do Tribunal Regional do Trabalho da 23ª Região;\n\n                               - GRIJALBO FERNANDES COUTINHO – Desembargador do Tribunal Regional do Trabalho da 10ª Região;\n\n                               - FRANCISCO FERREIRA JORGE NETO – Desembargador do Tribunal Regional do Trabalho da 2ª Região;\n\n                               - SERGIO TORRES TEIXEIRA – Desembargador do Tribunal Regional do Trabalho da 6ª Região;\n\n                               - HERMINEGILDA LEITE MACHADO – Desembargadora do Tribunal Regional do Trabalho da 13ª Região;\n\n                               - MARCELO AUGUSTO SOUTO DE OLIVEIRA – Desembargador do Tribunal Regional do Trabalho da 1ª Região;\n\n                               - LUIZ ALBERTO DE VARGAS – Desembargador do Tribunal Regional do Trabalho da 4ª Região.\n\n\n\n                                                       Informo, ainda, que a escolha dos integrantes da lista tríplice será realizada em sessão do\n                               Tribunal Pleno designada para o dia 27 de maio de 2026, às 16h30.\n\n                                                               Publique-se.\n\n                                                               Brasília, 26 de maio de 2026.\n\n\n\n\n                                                                   VIEIRA DE MELLO FILHO\n                                                      Ministro Presidente do Tribunal Superior do Trabalho\n\n\n\n\n           Secretaria do Tribunal Pleno, do Órgão Especial e da Seção Especializada em Dissídios Coletivos\n                                                         Ato\n                                                      Ato_Pres\n                                                       Edital\n                                                                                  EDITAL\n\n\n\n  A Secretária-Geral Judiciária, por determinação do Exmo.Ministro Luiz Philippe Vieira de Mello Filho, Presidente do Tribunal Superior do Trabalho,\n  comunica que a 7ª Sessão Extraordinária do Tribunal Pleno, anteriormente designada para realizar-se no dia 27 de maio de 2026, às 17h30,\n  teve o seu horário de início alterado para as 16h30.\n\n\n\n  Brasília, 20 de maio de 2026.\n\n\n\n\n                                                               VANESSA TORRES SOARES CHAGAS\n                                                                    Secretária-Geral Judiciária\n\n\n\n\n                                                                                  ÍNDICE\n\n\n   Presidência                                                                1\n    Ato                                                                       1\n     Ato_Pres                                                                 1                Edital                                            1\n   Secretaria-Geral Judiciária                                                1\n    Edital                                                                    1\n\nCódigo para aferir autenticidade deste caderno: 238137\n\f   4479/2026                                                   Tribunal Superior do Trabalho   3\n   Data da Disponibilização: Terça-feira, 26 de Maio de 2026\n\n\n\n   Secretaria do Tribunal Pleno, do Órgão                             2\n   Especial e da Seção Especializada em\n   Dissídios Coletivos\n    Ato                                                               2\n     Ato_Pres                                                         2\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238137",
-      "text_truncated": false,
-      "strong_keywords": [
-        "aposentadoria"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }

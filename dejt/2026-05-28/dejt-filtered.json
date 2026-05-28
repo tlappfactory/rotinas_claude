@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-28",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 293,
+      "pdf_text_chars": 64329,
+      "total_atos_detectados": 7,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 45/2026",
+        "Portaria CNJ Presidência nº 176, de 4 de junho de 2025.",
+        "Portaria PRESI/SEGEP N° 5/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 156/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 159/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 157/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 158/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "no_pdf"
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 158/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 158/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0004376-92.2017.5.17.0500\n\n\n\nCódigo para aferir autenticidade deste caderno: 238174\n\f   4480/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        24\n   Data da Disponibilização: Quarta-feira, 27 de Maio de 2026\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                       EXONERAR\n\n\n\n  Andressa Abreu Biondo Schorr, Técnica Judiciária, área Administrativa, do cargo em comissão de Assessor - CJ-2, do (a) Gabinete de Juiz\n  Convocado II - GJCII, a partir de 1º/6/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 27/05/2026,\n                         às 13:57, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1316196 e o código CRC 6EEDA12D.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Ato                                                               1\n     Ato PRESI                                                        1\n    Portaria                                                         20\n     Portaria                                                        20\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                      21\n   REMOÇÃO\n    Portaria                                                         21\n     Portaria                                                        21\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238174",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/SEGEP N° 5/2026",
+      "text_resumo": "Portaria PRESI/SEGEP N° 5/2026\n\n\n                 A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de\n  suas atribuições legais e regimentais,\n\n\n                  CONSIDERANDO os fatos noticiados nos autos do SEI nº 0001365-11.2024.5.17.0500;\n\n\n                CONSIDERANDO, outrossim, o disposto na Lei n° 8.112/90, no ATO TRT 17ª PRESI Nº 03/2024 e no ATO TRT 17ª PRESI Nº\n  16/2024 deste Tribunal;\n                                                                        RESOLVE\n\n\n                  Art. 1º Determinar, com fulcro no art. 143 da Lei n° 8.112/90, a instauração de Processo Administrativo Disciplinar para a apuração\n  dos fatos noticiados nos autos do SEI nº 0000800-76.2026.5.17.0500, tendo em vista a possibilidade de os fatos narrados configurarem prática de\n  infrações funcionais.\n\n\n                  Art. 2º Designar, conforme disposto no item XXI do Anexo único do ATO TRT 17ª PRESI Nº 03/2024, para comporem a Comissão\n  Disciplinar que atuará neste caso concreto, os seguintes servidores:\n\n\n                  1. Antônio Carlos Barone Barbirato, Técnico Judiciário, Agente de Polícia Judicial, como Presidente;\n\n                  2. Camila Mattedi Dalvi, Analista Judiciária, Área Administrativa;\n\n                  3. Elielda de Jesus Loureiro, Técnica Judiciária, Área Administrativa.\n\n                  Art. 3º Designar para atuarem como suplentes os servidores:\n\n\n                  1. Otoniel Rubens Bergi , Técnico Judiciária, Agente de Polícia Judicial;\n\n                  2. Saimonton de Lima Pereira, Técnico Judiciário, Agente de Polícia Judicial;\n\n                  3. Thaissa Menezes Pavan Haynes, Técnica Judiciária, Área Administrativa.\n\n                  Art. 4º Determinar, a teor do estabelecido no art. 152 da Lei n° 8.112/90, que o prazo para a conclusão do Processo Administrativo\n  Disciplinar não exceda 60 (sessenta) dias, contados da data de publicação desta Portaria, admitida a sua prorrogação por igual prazo, quando as\n  circunstâncias o exigirem.\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238174\n\f   4480/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        21\n   Data da Disponibilização: Quarta-feira, 27 de Maio de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 27/05/2026,\n                         às 16:02, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1316536 e o código CRC 8D3523D2.\n\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
