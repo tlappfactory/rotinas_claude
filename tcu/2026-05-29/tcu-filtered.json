@@ -1,0 +1,307 @@
+{
+  "run_utc": "2026-05-29T14:39:00Z",
+  "lookback_days": 14,
+  "cutoff_date": "2026-05-15",
+  "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
+  "pages_fetched": 3,
+  "items_seen": 1500,
+  "min_date_seen": "2026-04-14",
+  "max_date_seen": "2026-05-19",
+  "total_matched": 14,
+  "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2748266",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2256",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2256/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO CIVIL. QUINTOS RECEBIDOS POR FUNÇÃO DIFERENTE DA EXERCIDA. IRREGULARIDADE PRESENTE NO ATO DE APOSENTADORIA DO INSTITUIDOR, JULGADO LEGAL HÁ MAIS DE CINCO ANOS. LEGALIDADE DO ATO DE PENSÃO. PRECEDENTES DO STF E DO ACÓRDÃO 1.724/2025-TCU-PLENÁRIO. CÁLCULO INCORRETO DO ADICIONAL DE TEMPO DE SERVIÇO (ATS). IRREGULARIDADE NÃO IDENTIFICADA NO ATO DE APOSENTADORIA. VALOR IRRISÓRIO. REGISTRO DO ATO. DETERMINAÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2748266%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 15
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766378",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2274",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2274/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. ATO INICIAL SUBMETIDO AO TCU SEM A RUBRICA \"OPÇÃO\". REGISTRO. ATO DE ALTERAÇÃO, COM INCLUSÃO DO PAGAMENTO DA PARCELA \"OPÇÃO\", AMPARADO EM DECISÃO JUDICIAL NÃO TRANSITADA EM JULGADO, CUMULATIVAMENTE, COM VANTAGEM DERIVADA DE \"QUINTOS/DÉCIMOS\". NEGATIVA DE REGISTRO. DETERMINAÇÕES. Compete ao TCU o exame integral do novo ato de aposentadoria enviado pelo órgão de origem após apreciação pela ilegalidade e recusa de registro do ato inicialmente apresentado, não estando o Tribunal vinculado aos fundamentos da primeira apreciação, especialmente, quando constatada outra irregularidade não apontada no exame anterior, nem incorrendo a nova decisão em reforma em prejuízo da parte, pois não se trata de deliberação proferida em grau de recurso. É vedado o pagamento das vantagens oriundas do art. 193 da Lei 8.112/1990, inclusive o pagamento parcial da remuneração do cargo em comissão (\"opção\"), aos servidores que implementaram os requisitos de aposentadoria após 16/12/1998, data de publicação da Emenda Constitucional 20/1998, que limitou o valor dos proventos à remuneração do cargo efetivo no qual se deu a aposentadoria (Súmula-TCU 290). É vedada a acumulação da vantagem do art. 6",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766378%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2767021",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2281",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2281/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. SERVIDOR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003, NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES. As regras de aposentadoria estabelecidas pelos arts. 4º e 20 da Emenda Constitucional 103/2019 não asseguram ao servidor público da União que ingressou no serviço público em cargo efetivo até 31/12/2003 e que não optou pelo regime de previdência complementar o direito de optar pela forma de cálculo dos proventos de aposentadoria, por se enquadrar, estritamente, ou no inciso I do § 6º do art. 4º ou no inciso I do § 2º do art. 20 (Acórdão 679/2026-Plenário).",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2767021%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766620",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2278",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2278/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. SERVIDOR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003, NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES. As regras de aposentadoria estabelecidas pelos arts. 4º e 20 da Emenda Constitucional 103/2019 não asseguram ao servidor público da União que ingressou no serviço público em cargo efetivo até 31/12/2003 e que não optou pelo regime de previdência complementar o direito de optar pela forma de cálculo dos proventos de aposentadoria, por se enquadrar, estritamente, ou no inciso I do § 6º do art. 4º ou no inciso I do § 2º do art. 20 (Acórdão 679/2026-Plenário)",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766620%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2760012",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2277",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2277/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "EMBARGOS DE DECLARAÇÃO. APOSENTADORIA. INCORPORAÇÃO DE QUINTOS EM RAZÃO DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS APÓS O ADVENTO DA LEI 9.624/1998. ILEGALIDADE E NEGATIVA DE REGISTRO. CONHECIMENTO DO RECURSO. AUSÊNCIA DE COMPROVAÇÃO DE QUE A INTERESSADA ESTEJA EFETIVAMENTE ABRANGIDA PELA DECISÃO JUDICIAL TRANSITADA EM JULGADO. NEGATIVA DE PROVIMENTO. COMUNICAÇÕES. CONHECIMENTO DOS EMBARGOS. OBSERVÂNCIA À MODULAÇÃO DOS EFEITOS ESTABELECIDA PELO SUPREMO TRIBUNAL FEDERAL NO RE 638.115/CE. AUSÊNCIA DAS ALEGADAS CONTRADIÇÕES. REJEIÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2760012%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766372",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2273",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2273/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PROVENTOS CALCULADOS PELA MÉDIA. ERRO DE CÁLCULO. INSIGNIFICÂNCIA. REGISTRO COM RESSALVAS. DETERMINAÇÕES. O valor insignificante de parcela incluída irregularmente em ato de concessão de aposentadoria, reforma ou pensão pode ensejar, em caráter excepcional, a apreciação pela legalidade do ato, com o devido registro, em observância aos princípios da razoabilidade, da eficiência e da economicidade, desde que adotada medida para a regularização financeira da falha.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766372%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2765083",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2270",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2270/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. POSSIBILIDADE DE ESCOLHER O RECEBIMENTO DE UMA DAS VANTAGENS. INTEGRALIZAÇÃO DE PROVENTOS COM FUNDAMENTO NO ART. 190 DA LEI 8.112/1990. INVALIDEZ POSTERIOR À EMENDA CONSTITUCIONAL 103/2019, QUE NÃO RECEPCIONOU O DISPOSITIVO. INEXISTÊNCIA DE DIREITO ADQUIRIDO A REGIME JURÍDICO. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2765083%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764953",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2269",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2269/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764953%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764529",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2268",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2268/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DA VANTAGEM OPÇÃO SEM O CUMPRIMENTO DOS REQUISITOS LEGAIS. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764529%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764528",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2267",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2267/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. RESPOSTA A CONSULTA, NO SENTIDO DA INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EC (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764528%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766382",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2276",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2276/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CÔMPUTO INDEVIDO DO TEMPO RURAL. PAGAMENTO IRREGULAR DE RUBRICA COMO \"DIFERENÇA INDIVIDUAL L 12998\". AUSÊNCIA DA SUPERVENIENTE ABSORÇÃO PREVISTA EM LEI. ILEGALIDADE. NEGATIVA DO REGISTRO. DETERMINAÇÕES. CIÊNCIA. PEDIDO DE REEXAME. CONHECIMENTO. DELIBERAÇÃO JUDICIAL SUSPENDENDO OS EFEITOS DO ACÓRDÃO 447/2020-2C. REGISTRO TÁCITO DEFINITIVO. PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766382%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2765633",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2272",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "19/05/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2272/2026 ATA 15/2026 - SEGUNDA CÂMARA",
+      "sumario": "EMBARGOS DE DECLARAÇÃO EM PEDIDO DE REEXAME EM APOSENTADORIA. PROVENTOS INDEVIDAMENTE CALCULADOS COM BASE NA MÉDIA DE REMUNERAÇÕES PRETÉRITAS. INGRESSO NO SERVIÇO PÚBLICO FEDERAL ANTERIOR A 31/12/2003. DIREITO À INTEGRALIDADE E À PARIDADE, CONFORME ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES. PEDIDO DE REEXAME. CONHECIMENTO. NEGATIVA DE PROVIMENTO. CONHECIMENTO DOS EMBARGOS. INEXISTÊNCIA DE OMISSÕES, CONTRADIÇÕES OU OBSCURIDADES. REJEIÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2765633%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2738387",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "1276",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "19/05/2026",
+      "relator": "BRUNO DANTAS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 1276/2026 ATA 17/2026 - PLENÁRIO",
+      "sumario": "DENÚNCIA ACERCA DE POSSÍVEL IRREGULARIDADE NO CONSELHO REGIONAL DE FISIOTERAPIA E TERAPIA OCUPACIONAL DA TERCEIRA REGIÃO (CREFITO-3). CONTRATAÇÃO DE EMPREGADOS PARA A ÁREA JURÍDICA SEM CONCURSO PÚBLICO. CONHECIMENTO. EXISTÊNCIA DE CORPO TÉCNICO PERMANENTE. COMPATIBILIDADE DA ESTRUTURA JURÍDICA COM OS PARÂMETROS CONSTITUCIONAIS E JURISPRUDENCIAIS RECENTES DESTE TRIBUNAL. IDENTIFICAÇÃO DE PREVISÃO NORMATIVA DE AVOCAÇÃO DE ATOS JUDICIAIS POR COMISSIONADO. NECESSIDADE DE INTERPRETAÇÃO RESTRITIVA PARA PRESERVAR A ATIVIDADE FINALÍSTICA DOS CARGOS EFETIVOS. OBSERVÂNCIA DO TETO REMUNERATÓRIO E REGULAMENTAÇÃO DOS HONORÁRIOS DE SUCUMBÊNCIA. PROCEDÊNCIA PARCIAL. CIÊNCIA. ARQUIVAMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2738387%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "teto_remuneratorio"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2739628",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "1292",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "19/05/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 1292/2026 ATA 17/2026 - PLENÁRIO",
+      "sumario": "AUDITORIA OPERACIONAL. CONTRATOS DE SUPERVISÃO E DE GERENCIAMENTO DE OBRAS RODOVIÁRIAS. DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES. ACÓRDÃO 84/2020-TCU-PLENÁRIO. MONITORAMENTO DO CUMPRIMENTO DE DETERMINAÇÕES E RECOMENDAÇÕES. IMPLEMENTAÇÃO DE SISTEMÁTICA DE MEDIÇÃO E PAGAMENTO POR PRODUTO EM SUBSTITUIÇÃO AO MODELO \"HOMEM-MÊS\". FORTALECIMENTO DOS INSTRUMENTOS DE CONTROLE TECNOLÓGICO E DE AVALIAÇÃO DE DESEMPENHO. ATENDIMENTO À MAIORIA DOS COMANDOS. DISPENSA DA CONTINUIDADE DO MONITORAMENTO EM RAZÃO DO AVANÇO GERENCIAL E DO LAPSO TEMPORAL TRANSCORRIDO. ARQUIVAMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2739628%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao",
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 2
+    }
+  ]
+}
