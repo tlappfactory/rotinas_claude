@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "total_xml_files": 3,
+  "matched_articles": 0,
+  "parse_errors": [],
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "priority_orgaos": [
+    "csjt",
+    "conselho superior da justica do trabalho",
+    "tst",
+    "tribunal superior do trabalho",
+    "cnj",
+    "conselho nacional de justica",
+    "tcu",
+    "tribunal de contas da uniao",
+    "stf",
+    "supremo tribunal federal",
+    "stj",
+    "superior tribunal de justica",
+    "trt da 17",
+    "tribunal regional do trabalho da 17",
+    "secretaria de gestao e desempenho de pessoal",
+    "sgdp",
+    "decipex",
+    "cgben",
+    "ministerio da gestao"
+  ],
+  "articles": []
+}
