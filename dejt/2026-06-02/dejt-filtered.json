@@ -2,32 +2,16 @@
   "date": "2026-06-02",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 126,
-      "pdf_text_chars": 40603,
-      "total_atos_detectados": 3,
-      "matched_atos": 1,
-      "headers_sample": [
-        "PORTARIA CONJUNTA COMPLEMENTAR Nº 0003/2026",
-        "PORTARIA CONJUNTA COMPLEMENTAR Nº 0003/2026",
-        "Resolução CSJT nº 312/2021, bem como no art. 2º, inciso II, do Ato TRT-17ª PRESI"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 86,
-      "pdf_text_chars": 2525,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.Nº 299, DE 29 DE MAIO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -53,20 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Resolução CSJT nº 312/2021, bem como no art. 2º, inciso II, do Ato TRT-17ª PRESI nº 99/2023.",
-      "text_resumo": "Resolução CSJT nº 312/2021, bem como no art. 2º, inciso II, do Ato TRT-17ª PRESI nº 99/2023.\n\n  A Resolução CSJT nº 355/2023 regulamenta, em âmbito nacional, os procedimentos administrativos a serem adotados em relação a ações\n  judiciais que tenham por objeto o assédio eleitoral nas relações de trabalho, estabelecendo medidas objetivas a serem observadas pelos Tribunais\n  Regionais do Trabalho quanto: (i) à identificação e ao adequado tratamento dos processos no sistema PJe; (ii) à comunicação de informações ao\n  Conselho Superior da Justiça do Trabalho; (iii) à disponibilização de canal institucional para recebimento de denúncias; e (iv) à comunicação de\n  indícios de prática de crime eleitoral às autoridades competentes.\n\n  Nesse contexto, a atuação do Centro Regional de Inteligência revela-se pertinente para assegurar tratamento uniforme e sistematizado aos\n  procedimentos decorrentes da aplicação da Resolução CSJT nº 355/2023, contribuindo para a racionalização do fluxo de informações, a\n  padronização das comunicações institucionais e o fortalecimento da articulação entre magistrados, unidades judiciárias e órgãos administrativos\n  do Tribunal, sem prejuízo das atribuições próprias da atividade jurisdicional.\n\n\n\n\n  3. CONCLUSÃO\n\n  Pelo exposto, o Centro Regional de Inteligência do Tribunal Regional do Trabalho da 17ª Região, nos limites de sua competência e considerando o\n  atual estágio de implementação das funcionalidades do PJe-JT, recomenda:\n\n         que as unidades judiciárias observem rigorosamente a identificação dos processos que tratam sobre assédio eleitoral, promovendo o\n         lançamento do respectivo marcador no sistema PJe, nos termos do art. 3º da Resolução CSJT nº 355/2023, bem como o encaminhamento\n         das informações à Coordenadoria de Gerenciamento de Precedentes e Ações Coletivas - COGEPAC, para fins de comunicação ao\n         Conselho Superior da Justiça do Trabalho, enquanto não implementada a funcionalidade automatizada prevista no art. 4º da referida\n         Resolução;\n         que as denúncias de assédio eleitoral nas relações de trabalho, recebidas por meio do canal institucional disponibilizado na página da\n         Ouvidoria, sejam encaminhadas de imediato pela própria unidade às autoridades competentes, nos termos do art. 5º da Resolução CSJT nº\n         355/2023;\n         que os Magistrados comuniquem à autoridade competente para a persecução criminal cabível a existência de indícios de prática de crime\n         eleitoral constatados no curso de processo trabalhista, nos termos do art. 6º da Resolução CSJT nº 355/2023;\n         que a Presidência do Tribunal, constatados indícios de crime eleitoral por meio do recebimento de denúncia institucional, encaminhe cópia\n\n\nCódigo para aferir autenticidade deste caderno: 238301\n\f      4483/2026                                              Tribunal Regional do Trabalho da 17ª Região                                  13\n      Data da Disponibilização: Segunda-feira, 01 de Junho de 2026\n\n\n\n         da documentação pertinente às autoridades competentes, nos termos do parágrafo único do art. 6º da Resolução CSJT nº 355/2023.\n\n  Dê-se ciência do inteiro teor desta Nota Técnica aos magistrados e unidades judiciárias deste Tribunal.\n\n  Publique-se a presente nota técnica no Diário Eletrônico da Justiça do Trabalho e no sítio eletrônico do Tribunal.\n\n\n\n\n                                                             Alzenir Bollesi de Plá Loeffler\n\n                                  Desembargadora-Presidente do Tribunal Regional do Trabalho da 17ª Região\n\n\n\n\n                                                                         ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                   1\n    Portaria                                                         1\n     Portaria                                                        1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                     11\n   REMOÇÃO\n    Portaria                                                        11\n     Portaria                                                       11\n   Coordenadoria de Gerenciamento de                                12\n   Precedentes e Ações Coletivas\n    Aviso/Comunicado                                                12\n     Informação                                                     12\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238301",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "estagio_aprendizagem"
-      ],
-      "score": 16
-    }
-  ]
+  "articles": []
 }

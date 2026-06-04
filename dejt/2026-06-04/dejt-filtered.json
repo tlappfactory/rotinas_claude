@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-04",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 311,
+      "pdf_text_chars": 34546,
+      "total_atos_detectados": 7,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 47/2026",
+        "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 29/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 169/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 164/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 165/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 166/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 163/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 100,
+      "pdf_text_chars": 15436,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP N° 36, DE 03 DE junho DE 2026.",
+        "ATO CSJT.GP.SG.SGPES N.º 41, DE 30 DE ABRIL DE 2026."
+      ]
+    },
+    "tst": {
+      "status": "no_pdf"
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 29/2026",
+      "text_resumo": "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 29/2026\n  Processo: 0000019-54.2026.5.17.0500\n  Assunto(s): Assentamento funcional (servidores e empregados públicos, servidores temporários, residentes e estagiários, ocupantes de cargo\n  comissionado e de função de confiança)\n  Especificação: Avaliação de Desempenho Anual - 2026\n  Interessado(s): Secretaria de Gestão de Pessoas\n\n\n                                       DESPACHO PRESI/SGP/CODOP/SEGEDE - Maio/2026 - Outros Órgãos\n\n\n  HOMOLOGO o resultado da Avaliação de Desempenho Anual dos servidores de outros órgãos que prestam serviços neste Tribunal, abaixo\n  nominados, efetuadas nos moldes preconizados pela Resolução Administrativa TRT 17.ª n.º 13/2021, de acordo com a pontuação obtida, segundo\n  informações constantes dos respectivos instrumentos de avaliação juntados em autos próprios:\n    SERVIDOR                                                       SITUAÇÃO FUNCIONAL                        PONTUAÇÃO\n\n                                                                   Removida                                  xxx\n    Ana Paula Hostim Rabello de Aguiar\n                                                                   Removida                                  xxx\n    Isabela Dantas da Silva\n                                                                   Removida                                  xxx\n    Kely Cristina da Penha Coêlho\n                                                                   Requisitada                               xxx\n    Margarete dos Santos Souza\n                                                                   Removida                                  xxx\n    Marilia Martins Bertelli\n\n\n\nCódigo para aferir autenticidade deste caderno: 238386\n\f   4485/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        6\n   Data da Disponibilização: Quarta-feira, 03 de Junho de 2026\n\n\n                                                                   Requisitada                              xxx\n    Raphaela Stein Mauro\n                                                                   Requisitado                              xxx\n    Wantonio Oliveira Dias Júnior\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região\n                                                            Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 03/06/2026,\n                         às 14:44, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1318509 e o código CRC 126F8E6C.\n\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 166/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 166/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000903-83.2026.5.17.0500\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238386\n\f   4485/2026                                               Tribunal Regional do Trabalho da 17ª Região                                            9\n   Data da Disponibilização: Quarta-feira, 03 de Junho de 2026\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve\n\n\n\n                                                                      CONVALIDAR\n\n\n\n  os atos praticados pelo(a) servidor(a) Martha Schmidt, Analista Judiciária, área Judiciária, em substituição ao (à) servidor (a) Sanny Motta Soares\n  de Souza, Coordenadora - CJ-02 do (a) Coordenadoria de Gerenciamento de Precedentes e Ações Coletivas - COGEPAC, no período de\n  28/5/2026 a 29/5/2026, em razão de licença para tratamento de saúde da titular, fazendo jus ao pagamento por 02 (dois) dia (s) de efetiva\n  substituição.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 03/06/2026,\n                         às 12:58, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1318443 e o código CRC AF338BA5.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licenca_saude"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    }
+  ]
+}
