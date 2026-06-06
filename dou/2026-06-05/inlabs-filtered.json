@@ -1,17 +1,8 @@
 {
-  "date": "2026-06-04",
-  "sources": {
-    "trt17": {
-      "status": "no_pdf"
-    },
-    "csjt": {
-      "status": "no_pdf"
-    },
-    "tst": {
-      "status": "no_pdf"
-    }
-  },
-  "total_matched": 0,
+  "date": "2026-06-05",
+  "total_xml_files": 3,
+  "matched_articles": 0,
+  "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -36,6 +27,27 @@
     "teletrabalho_jornada",
     "estagio_aprendizagem",
     "folha_esocial"
+  ],
+  "priority_orgaos": [
+    "csjt",
+    "conselho superior da justica do trabalho",
+    "tst",
+    "tribunal superior do trabalho",
+    "cnj",
+    "conselho nacional de justica",
+    "tcu",
+    "tribunal de contas da uniao",
+    "stf",
+    "supremo tribunal federal",
+    "stj",
+    "superior tribunal de justica",
+    "trt da 17",
+    "tribunal regional do trabalho da 17",
+    "secretaria de gestao e desempenho de pessoal",
+    "sgdp",
+    "decipex",
+    "cgben",
+    "ministerio da gestao"
   ],
   "articles": []
 }
