@@ -1,7 +1,7 @@
 {
   "date": "2026-06-11",
-  "total_xml_files": 1174,
-  "matched_articles": 244,
+  "total_xml_files": 1195,
+  "matched_articles": 249,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -1597,6 +1597,35 @@
       ],
       "score": 11,
       "xml_file": "515_20260611_24026614.xml"
+    },
+    {
+      "id": "49731950",
+      "section": "DO1E",
+      "pub_date": "11/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "identifica": "PORTARIA IBAMA Nº 93, de 5 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Aprova o Regulamento Interno de Fiscalização Ambiental do Ibama.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA IBAMA Nº 93, de 5 DE JUNHO DE 2026 Aprova o Regulamento Interno de Fiscalização Ambiental do Ibama. O PRESIDENTE SUBSTITUTO DO INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - Ibama, no uso das atribuições que lhe confere o art. 15 do Anexo I do Decreto nº 12.130, de 7 de agosto de 2024, que aprovou a Estrutura Regimental do Ibama, publicado no Diário Oficial da União de 8 de agosto de 2024, e o art. 217, inciso V, do Anexo I da Portaria nº 73, de 26 de maio de 2025, que aprovou o Regimento Interno do Ibama, resolve: Art. 1º Ficam aprovados: I - o Regulamento Interno de Fiscalização Ambiental - RIF do Ibama, na forma do Anexo I; e II - a Logomarca da Fiscalização Ambiental do Ibama, na forma do Anexo II. Art. 2º Ficam revogadas: I - a Portaria nº 24, de 16 de agosto de 2016, publicada no Diário Oficial da União de 22 de agosto de 2016; II - a Portaria nº 32, de 19 de outubro de 2016, publicada no Diário Oficial da União de 20 de outubro de 2016; e III - a Portaria nº 3.326, de 12 de setembro de 2019, publicada no Diário Oficial da União de 17 de setembro de 2019. Art. 3º Esta Portaria entra em vigor na data de sua publicação. JAIR SCHMITT ANEXO I REGULAMENTO INTERNO DE FISCALIZAÇÃO AMBIENTAL CAPÍTULO I DAS DISPOSIÇÕES PRELIMINARES Seção I Dos pressupostos Art. 1º A fiscalização ambiental exercida pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - Ibama obedecerá aos preceitos estabelecidos neste Regulamento Interno de Fiscalização Ambiental - RIF, na legislação e nas demais normas correlatas. Art. 2º O RIF aplica-se a todos os servidores designados para as atividades de fiscalização ambiental. Art. 3º O objetivo principal da fiscalização ambiental é prevenir e coibir a prática de ilícitos ambientais, induzindo o comportamento social de conformidade ambiental pela aplicação de sanções administrativas. Art. 4º Para os fins desta Portaria, entende-se por: I - conceitos: a) advertência: sanção aplicada, mediante a lavratura de auto de infração, para as infrações administrativas de menor lesividade ao meio ambiente, garantidos a ampla defesa e o contraditório; b) atividade de inteligência: exercício permanente e sistemático de ações especializadas, por meio de metodologia própria, orientadas para a produção e a salvaguarda de conhecimentos necessários para assessorar o processo decisório no planejamento, acompanhamento e execução de políticas públicas ambientais realizadas pelo Ibama e para subsidiar, prioritariamente, as ações de fiscalização ambiental federal; c) auditoria ambiental: processo sistemático e documentado de inspeção, análise e avaliação de práticas operacionais e procedimentos que possam impactar o meio ambiente, empregado para identificar possíveis inconformidades com a legislação ambiental vigente e propor adequações, aprimoramentos e medidas administrativas cabíveis, com o objetivo de prevenir ou mitigar riscos ambientais, bem como de melhorar a qualidade do meio ambiente, contribuindo para a gestão sustentável dos recursos naturais; d) decisão administrativa: decisão interlocutória ou de mérito proferida pela autoridade competente; e) dissuasão: receio de sofrer sanção legal por conduta ilícita, influenciando o comportamento social; f) fiscalização ambiental: ato de verificar a conformidade da conduta da pessoa, física ou jurídica, à legislação ambiental e realizar a responsabilização no caso de violações; g) investigação administrativa: processo para apurar possíveis infrações ou violações das leis ambientais com o objetivo de identificar a autoria, a materialidade e as responsabilidades por danos ao meio ambiente; h) medida administrativa cautelar: medida de caráter preventivo, que tem como objetivo prevenir a ocorrência de novas infrações, resguardar a recuperação ambiental e garantir o resultado prático do processo administrativo, adotada, independentemente da lavratura de auto de infração, pelo agente ambiental federal no ato da fiscalização ou em momento posterior; e i) sanção administrativa: penalidade prevista em lei, aplicada pelo Ibama, para punir toda ação ou omissão definida como infração ambiental. II - servidores designados para as atividades de fiscalização ambiental: a) agente ambiental federal: servidor designado para a atividade de fiscalização ambiental responsável pela lavratura do auto de infração e dos formulários próprios; b) agente de apoio operacional da fiscalização: servidor designado para a atividade de fiscalização ambiental responsável pelas funções administrativas, logísticas e operacionais, sendo vedado o ato de fiscalizar; e c) agente de inteligência: servidor designado para a atividade de inteligência e contrainteligência. III - documentos da fiscalização ambiental: a) auto de infração: documento, emitido pelo agente ambiental federal, destinado à descrição clara e objetiva de conduta passível de enquadramento como infração ambiental, no qual constam a indicação dos dispositivos legais e regulamentares infringidos, as sanções cabíveis e a identificação do autuado; b) comunicação de bem apreendido: documento de controle interno destinado a informar a situação do bem apreendido ao final da ação fiscalizatória e servir como recibo de entrega do bem e dos animais apreendidos pelo agente ambiental federal aos cuidados e responsabilidades da autoridade competente; c) comunicação de crime: documento destinado a informar ao Ministério Público ou à polícia judiciária sobre a prática de infração ambiental que possa caracterizar crime; d) contradita: manifestação emitida pelo agente ambiental federal ou por outro servidor que tenha participado da operação de fiscalização, destinada a elucidar dúvidas relativas ao ato infracional e à ação fiscalizatória ainda não esclarecidas na instrução preliminar ou que tenham surgido em decorrência dos argumentos apresentados pelo administrado; e) formulários próprios: emitidos pelo agente ambiental federal, correspondem a termos lavrados em decorrênc",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "8",
+      "edition": "107-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria nA 93 (1)_001-11808056",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "600_20260611_24023940-1.xml"
     },
     {
       "id": "49728799",
@@ -4427,6 +4456,90 @@
       "xml_file": "515_20260611_24026424.xml"
     },
     {
+      "id": "49731956",
+      "section": "DO1E",
+      "pub_date": "11/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Art. 65. Nas ações fiscalizatórias realizadas com o acompanhamento de autoridade policial, uma vez registrada a ocorrência de crime em procedimento policial próprio, dispensa-se a comunicação ao Ministério Público Federal, bastando a juntada, ao procedimento administrativo, de cópia do boletim de ocorrência ou de documento equivalente. Art. 66. Concluída a operação de fiscalização, o coordenador operacional deverá elaborar, no prazo de até 30 (trinta) dias, o relatório de operação, submetendo-o à autoridade responsável pela emissão da ordem de fiscalização. Parágrafo único. O relatório de que trata o caput será produzido em sistema informatizado corporativo. Art. 67. A emissão dos documentos de fiscalização ocorrerá em sistema próprio. Art. 68. Instaurado o processo administrativo de apuração de infração ambiental, na forma e nos prazos estabelecidos, a unidade responsável pela emissão da ordem de fiscalização verificará a conformidade dos documentos de fiscalização, a devida cientificação do autuado, bem como a necessidade de comunicação de crime ao Ministério Público Federal e demais comunicações pertinentes, encaminhando-o, em seguida, ao setor competente para instrução e julgamento. § 1º A unidade responsável que receber o processo administrativo de apuração de infração ambiental deverá verificar a existência de pendências em informações e documentos e solicitar, caso haja necessidade, as correções pertinentes. § 2º No caso das unidades vinculadas diretamente à CGFis, a devida cientificação do autuado, a eventual necessidade de comunicação de crime ao Ministério Público Federal e demais comunicações pertinentes serão realizadas pela CGFis e, em seguida, o processo será encaminhado para a instrução e julgamento. Seção VII Da atividade de inteligência Art. 69. São princípios da atividade de inteligência: I - legalidade, conforme normas aplicáveis ao tema; II - eficiência, devendo ser precedida de planejamento com vistas à obtenção dos resultados esperados; III - amplitude, compreendendo a obtenção de dados e conhecimentos da forma mais completa possível; IV - controle, com supervisão e acompanhamento pela Coint; V - imparcialidade; VI - impessoalidade; VII - interação, por meio de cooperação com outras unidades organizacionais de inteligência; VIII - objetividade; IX - oportunidade; X - segurança; XI - simplicidade; e XII - clareza. Art. 70. A produção de conhecimento de inteligência será realizada de maneira permanente, sistemática e, também, de forma extraordinária, visando atender aos interesses e objetivos de proteção ambiental. § 1º Para a produção sistemática, será estabelecido pela Dipro o repertório de conhecimentos de inteligência que deverão ser produzidos regularmente. § 2º A produção extraordinária ocorrerá conforme a necessidade e oportunidade de proteção ambiental. § 3º O acionamento da inteligência, na sede e nas superintendências, por outras unidades do Ibama, será feito mediante pedido de conhecimento, conforme disciplinado pelo Procedimento Operacional Padrão de Acionamento da Atividade de Inteligência, instituído por portaria. § 4º Para a produção de conhecimento de inteligência será empregado método específico e padronizado, com documentos próprios. Art. 71. A atividade de inteligência deverá promover medidas para a proteção e a salvaguarda de conhecimentos sensíveis, observada a política de segurança da informação e comunicação institucional. Art. 72. Para o desenvolvimento da atividade de inteligência: I - serão empregados sistemas informatizados próprios que visem ao controle, à obtenção, à sistematização, ao armazenamento, à consulta, à análise e à tramitação segura de dados e informações, possibilitando a produção de conhecimento para a proteção ambiental; II - poderão ser realizadas ações de natureza sigilosa visando à obtenção de dados e informações não disponíveis, observados os preceitos legais; e III - poderão ser utilizados veículos descaracterizados, equipamentos discretos ou outros meios velados, mantidos os devidos controles e registros exigidos pelas normas internas. Art. 73. As atividades de inteligência serão desenvolvidas por servidores de carreira do Ibama selecionados, capacitados e designados pela Dipro. Parágrafo único. Os servidores designados como AInt devem ter dedicação exclusiva à atividade de inteligência, conforme estabelecido no Manual: Doutrina de Inteligência. Art. 74. Os servidores designados para as atividades de inteligência atuarão como canal técnico de inteligência nas instituições que compõem o Sisbin, conforme orientação da Coint. Seção VIII Dos grupos especializados Art. 75. Poderão ser criados, por meio de portaria do presidente do Ibama, grupos especializados com o objetivo de realizar ações de fiscalização ambiental de natureza especial ou ações de apoio à fiscalização ambiental de alta complexidade. Art. 76. A designação dos AAFs para os grupos especializados ocorrerá por meio de portaria do presidente do Ibama ou do diretor da Dipro, após aprovação em curso de formação promovido pela instituição, mediante critérios estabelecidos em norma específica. Art. 77. Os grupos especializados serão subordinados à CGFis, sendo designado para cada grupo, pelo diretor da Dipro, um coordenador e um coordenador substituto. Art. 78. Os integrantes dos grupos especializados terão dedicação exclusiva às atividades inerentes ao grupo, contribuindo para os trabalhos realizados na sua unidade de lotação mediante disponibilidade. Parágrafo único. As metas individuais dos integrantes dos grupos especializados deverão contemplar o disposto no caput. Art. 79. Os AAFs que comporão os grupos especializados serão submetidos à investigação administrativa e social, à avaliação técnica e à aptidão física e psicológica, conforme termos do ato de criação do grupo. Parágrafo único. A Conof e a Ceduc promoverão o treinamento específico dos AAFs que comporão os grupos especializados. Art. 80. O desligamento dos AAFs designados para o grupo especializado oco",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "12",
+      "edition": "107-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria nA 93 (1)_003-11808056",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "insalubridade_periculosidade"
+      ],
+      "weak_keywords": [
+        "teletrabalho_jornada"
+      ],
+      "score": 6,
+      "xml_file": "600_20260611_24023940-3.xml"
+    },
+    {
+      "id": "49734773",
+      "section": "DO1E",
+      "pub_date": "11/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Cultura/Instituto Brasileiro de Museus",
+      "identifica": "PORTARIA IBRAM Nº 4.131, DE 10 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Efetiva Permuta de cargo comissionado executivo CCE por Função Comissionada Executiva - FCE, de mesmo nível e categoria, no âmbito do Instituto Brasileiro de Museus.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA IBRAM Nº 4.131, DE 10 DE JUNHO DE 2026 Efetiva Permuta de cargo comissionado executivo CCE por Função Comissionada Executiva - FCE, de mesmo nível e categoria, no âmbito do Instituto Brasileiro de Museus. O PRESIDENTE SUBSTITUTO DO INSTITUTO BRASILEIRO DE MUSEUS, no uso da atribuição que lhe confere o art. 19, inciso II, Anexo I, do Decreto nº 11.236, de 18 de outubro de 2022; a Portaria MinC nº 185, de 26 de fevereiro de 2025; a Portaria MinC nº 689, de 10 de dezembro de 2024; e considerando o que consta no Processo Administrativo nº 01415.001324/2026-01: Art. 1º Efetivar, no âmbito do Instituto Brasileiro de Museus, a permuta do Cargo Comissionado Executivo de Chefe da Divisão de Acessibilidade em Espaços Museais, código CCE 1.07, da Coordenação de Arquitetura e Acessibilidade em Espaços Museais do Departamento de Processos Museais, com a Função Comissionada Executiva de Chefe da Divisão de Arquitetura de Museus e Expografia, código FCE 1.07, da Coordenação de Arquitetura e Acessibilidade em Espaços Museais do Departamento de Processos Museais. Art. 2º As alterações decorrentes desta Portaria serão refletidas nas futuras alterações do decreto de aprovação de estrutura regimental, caso tenha implicado alteração tácita do ato, nos termos do disposto no inciso II do art. 14 do Decreto nº 10.829, de 5 de outubro de 2021. Art. 3º Esta Portaria entra em vigor na data de sua publicação. MICHEL ROCHA CORREIA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "3",
+      "edition": "107-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA IBRAM NA 4131 - Per-11808792",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 6,
+      "xml_file": "600_20260611_24024930.xml"
+    },
+    {
+      "id": "49738941",
+      "section": "DO1E",
+      "pub_date": "11/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Previdência Social/Gabinete do Ministro",
+      "identifica": "PORTARIA MPS Nº 983, DE 10 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Permuta uma Função Comissionada Executiva - FCE e um Cargo Comissionado Executivo - CCE no âmbito do Ministério da Previdência Social.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MPS Nº 983, DE 10 DE JUNHO DE 2026 Permuta uma Função Comissionada Executiva - FCE e um Cargo Comissionado Executivo - CCE no âmbito do Ministério da Previdência Social. O MINISTRO DE ESTADO DA PREVIDÊNCIA SOCIAL, no uso das atribuições que lhe conferem os incisos I, II e IV do parágrafo único do art. 87 da Constituição Federal, e tendo em vista o disposto no art. 12 do Decreto nº 10.829, de 5 de outubro de 2021, bem como o que consta do Processo nº 10133.001296/2026-71, resolve: Art. 1º Fica efetivada, no âmbito do Ministério da Previdência Social, a permuta de uma Função Comissionada Executiva - FCE 1.15, de Diretor do Departamento dos Regimes Próprios de Previdência Social, da Secretaria de Regime Próprio e Complementar, por um Cargo Comissionado Executivo - CCE 1.15, de Diretor do Departamento de Perícia Médica Federal, da Secretaria de Regime Geral de Previdência Social. Art. 2º As alterações decorrentes desta Portaria deverão ser refletidas nas futuras alterações do decreto de aprovação de estrutura regimental, nos termos do inciso II do art. 14 do Decreto nº 10.829, de 5 de outubro de 2021. Art. 3º Esta Portaria entra em vigor na data de sua publicação. WOLNEY QUEIROZ MACIEL",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "15",
+      "edition": "107-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MPS NA 983-11809425",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 6,
+      "xml_file": "600_20260611_24025964.xml"
+    },
+    {
       "id": "49739261",
       "section": "DO2",
       "pub_date": "11/06/2026",
@@ -4731,6 +4844,32 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260611_24019185.xml"
+    },
+    {
+      "id": "49754005",
+      "section": "DO1E",
+      "pub_date": "11/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério das Mulheres/Gabinete da Ministra",
+      "identifica": "Portaria gm /MMULHERES Nº 66, DE 10 DE junho DE 2026",
+      "orgao": "",
+      "ementa": "Institui o Fórum Nacional de Mulheres Quilombolas, no âmbito do Ministério das Mulheres.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria gm /MMULHERES Nº 66, DE 10 DE junho DE 2026 Institui o Fórum Nacional de Mulheres Quilombolas, no âmbito do Ministério das Mulheres. A MINISTRA DE ESTADO DAS MULHERES, no uso da atribuição que lhe confere o art. 87, parágrafo único, inciso II, da Constituição Federal, resolve: Art. 1º Fica instituído, no âmbito do Ministério das Mulheres, o Fórum Nacional de Mulheres Quilombolas - FNMQ, instância de participação social destinada ao diálogo, à articulação e à formulação de subsídios para políticas públicas voltadas às mulheres quilombolas. § 1º O Fórum atuará em temas relacionados à elaboração, implementação, monitoramento e avaliação de políticas públicas voltadas às mulheres quilombolas. § 2º Na atuação do Fórum, deverão ser consideradas as dimensões de raça, etnia, território, identidade de gênero, orientação sexual, geração, deficiência, religiosidade e demais marcadores sociais. § 3º O Fórum terá duração de 2 (dois) anos, podendo ser prorrogado por igual período, por ato da Ministra de Estado das Mulheres. Art. 2º Compete ao Fórum: I - constituir-se como espaço estratégico de debate, articulação, diálogo e incidência sobre políticas públicas voltadas às mulheres quilombolas; II - promover o diálogo com movimentos, redes, coletivos, organizações e lideranças de mulheres quilombolas, com vistas à realização de debates amplos e à escuta qualificada sobre suas realidades, as desigualdades enfrentadas e as diversas formas de violência, discriminação e violações de direitos que as afetam; III - promover iniciativas e espaços de articulação voltados ao fortalecimento da participação das mulheres quilombolas nas instâncias de formulação, implementação, monitoramento e avaliação de políticas públicas; IV - contribuir para a construção de subsídios, diretrizes, estratégias e recomendações voltadas à promoção da igualdade de gênero e racial e ao enfrentamento das desigualdades que afetam as mulheres quilombolas; V - fomentar a articulação interinstitucional e interministerial necessária à promoção de políticas públicas voltadas às mulheres quilombolas, observadas a transversalidade, a intersetorialidade e as especificidades territoriais; VI - promover atividades, ações e debates que considerem a diversidade e pluralidade das mulheres quilombolas, observadas suas territorialidades, regionalidades, espiritualidades, ancestralidades e especificidades sociais, culturais, econômicas e ambientais; VII - fortalecer a interlocução entre o Fórum e o Conselho Nacional dos Direitos da Mulher, visando à ampliação da participação social e da incidência política das mulheres quilombolas nas instâncias nacionais de formulação e controle social das políticas para as mulheres; VIII - atuar como espaço de circulação, compartilhamento e difusão de informações junto aos coletivos, organizações e territórios representados pelas integrantes do Fórum, assegurando o caráter participativo e representativo de sua atuação; e IX - elaborar relatório das atividades, encaminhamentos e resultados construídos pelo Fórum, a ser destinado ao Ministério das Mulheres. Art. 3º O Fórum Nacional de Mulheres Quilombolas é composto por representantes dos seguintes órgãos e entidades: nove representantes do Ministério das Mulheres, assim distribuídas: três da Secretaria Nacional de Articulação Institucional, Ações Temáticas e Participação Política; três da Secretaria Nacional de Autonomia Econômica e Política de Cuidados; e três da Secretaria Nacional de Enfrentamento à Violência Contra a Mulher; uma representante do Conselho Nacional dos Direitos da Mulher - CNDM; e dez representantes dos movimentos das Mulheres Quilombolas. § 1º Cada representante terá uma suplente, que a substituirá em suas ausências e impedimentos. § 2º As representantes e respectivas suplentes serão indicadas pelos órgãos ou movimentos que representam e designadas por ato do Ministério das Mulheres. § 3º As representantes dos movimentos de Mulheres Quilombolas e respectivas suplentes serão indicadas por movimentos e organizações representativas das mulheres quilombolas, observados critérios de representatividade e diversidade regional e territorial, nos termos definidos pelo Ministério das Mulheres. § 4º As representantes terão mandato de dois anos, permitida uma recondução, na hipótese de prorrogação da vigência do Fórum. § 5º Poderão ser convidados a participar das reuniões do Fórum especialistas, representantes de outros órgãos e entidades públicas ou privadas e convidados com notório conhecimento na matéria, sem direito a voto. Art. 4º A composição do Fórum Nacional de Mulheres Quilombolas será formalizada por meio de portaria da Ministra de Estado das Mulheres, que designará as representantes titulares e suplentes dos órgãos, entidades, organizações e movimentos que o integram. Art. 5º O Fórum reunir-se-á, ordinariamente, 2 (duas) vezes por ano, presencialmente ou por videoconferência, podendo realizar reuniões extraordinárias sempre que convocadas pela Coordenação do Fórum. Parágrafo único. O quórum de reunião será de maioria absoluta e o de aprovação será de maioria simples. Art. 6º A Coordenação e a Secretaria-Executiva do Fórum serão exercidas pela Secretaria Nacional de Articulação Institucional, Ações Temáticas e Participação Política. Art. 7º As atribuições específicas, a organização e o funcionamento do Fórum serão definidos em Regimento Interno, aprovado mediante quórum qualificado de dois terços de suas participantes. Art. 8º A participação no Fórum será considerada de relevante interesse público e não ensejará remuneração de qualquer natureza. Art. 9º Esta Portaria entra em vigor na data de sua publicação. MÁRCIA HELENA CARVALHO LOPES",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "107-B",
+      "url": "https://www.in.gov.br/web/dou/-/ATO Portaria gm11.06-11810877",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "601_20260611_24027968.xml"
     },
     {
       "id": "49737807",
