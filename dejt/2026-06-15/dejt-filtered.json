@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-15",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 159,
+      "pdf_text_chars": 25228,
+      "total_atos_detectados": 5,
+      "matched_atos": 2,
+      "headers_sample": [
+        "EDITAL DE AUDIÊNCIA PÚBLICA CONJUNTA Nº 001 - 05 DE JUNHO DE 2026.",
+        "EDITAL DE AUDIÊNCIA PÚBLICA CONJUNTA Nº 001 - 05 DE JUNHO DE 2026.",
+        "Ato SECOR N° 31/2026",
+        "ATO PRESI SECOR N° 28/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 171/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 96,
+      "pdf_text_chars": 14498,
+      "total_atos_detectados": 3,
+      "matched_atos": 3,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 19 DE OUTUBRO DE 2018 * (Republicação)",
+        "ATO CONJUNTO TST.CSJT.GP Nº 65, DE 3 DE OUTUBRO DE 2023)",
+        "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)"
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 86,
+      "pdf_text_chars": 2629,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 314, DE 11 DE JUNHO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 5,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "ATO CONJUNTO TST.CSJT.GP Nº 65, DE 3 DE OUTUBRO DE 2023)",
+      "text_resumo": "ATO CONJUNTO TST.CSJT.GP Nº 65, DE 3 DE OUTUBRO DE 2023)\n\n  § 1º (Revogado pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  § 2º Os eventos passíveis de concessão da licença para capacitação deverão possuir carga horária semanal mínima de 20 horas ou 4 horas por\n  dia útil da semana, na modalidade presencial, a distância ou híbrida. (Redação data pelo ATO CONJUNTO TST.CSJT.GP Nº 65, DE 3 DE\n  OUTUBRO DE 2023)\n\n  § 3º A licença para capacitação pode destinar-se a pesquisas e levantamentos de dados necessários à elaboração de monografia de graduação\n  ou pós-graduação lato sensu e de dissertação ou tese de pós-graduação stricto sensu, situação que dispensa o cumprimento da carga horária a\n  que se refere o parágrafo anterior e que deve ser comprovada ao final do afastamento, mediante apresentação do respectivo trabalho escrito ou\n  na forma definida pelo art. 8º deste Ato.\n\n  § 4º Não serão considerados para fins de concessão da licença para capacitação os cursos: (Redação dada pelo ATO CONJUNTO TST.CSJT.GP\n  Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  I – preparatórios para concursos públicos; (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  II – desenvolvidos exclusivamente aos finais de semana; (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE\n  2019)\n\n  III – de língua estrangeira. (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  Art. 3º Não se concederá licença para capacitação:\n\n  I – ao servidor em estágio probatório;\n\n  II – ao servidor titular exclusivamente de cargo em comissão, sem vínculo efetivo com a Administração Pública;\n\n  III – ao servidor que, no período aquisitivo, sofrer penalidade disciplinar.\n\n  Parágrafo único. A ocorrência do disposto no inciso III implicará nova contagem do quinquênio, da data da publicação da penalidade ou do\n  reinício do exercício após a suspensão, desprezando-se o tempo anterior do respectivo período aquisitivo.\n\n  Art. 4º A licença para capacitação poderá ser fracionada em no máximo 3 períodos, não podendo a menor parcela ser inferior a 5 dias, incluído o\n  prazo para deslocamento, quando for o caso.\n\n  § 1º O intervalo entre os períodos fracionados não poderá ser inferior a 15 dias corridos.\n\n  § 2º Na hipótese de parcelamento da licença, cujo período solicitado constituir parcela de mês, o saldo remanescente a que o servidor tiver direito\n  será contado em dias, considerando-se mês o período de 30 dias.\n\n  Art. 5º A licença poderá ser concedida por tempo igual ou menor ao do evento de capacitação, conforme requerimento do servidor, observando-se\n  o limite de 3 meses, não podendo o início da licença anteceder a data de início do curso. (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº\n  34, DE 12 DE NOVEMBRO DE 2019)\n\n  Art. 6º A concessão da licença deverá ser solicitada, por meio de formulário próprio, com antecedência mínima de 30 dias e máxima de 180 dias.\n  (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  § 1º Deverão constar do requerimento para concessão da licença capacitação a manifestação fundamentada do titular da unidade administrativa\n  em que se encontra lotado o requerente, as informações relativas ao conteúdo programático, com tradução para a Língua Portuguesa, quando for\n  o caso, a carga horária, a forma de avaliação e o período de realização, juntamente com documento da entidade promotora do evento que\n  comprove os dados fornecidos. (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  § 2º Cabe à unidade de informações funcionais verificar previamente o cumprimento dos requisitos funcionais para a concessão da licença.\n  (Redação dada pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  § 3º (Revogado pelo ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  § 4º Em caso de mudança de lotação após o deferimento da licença, caberá ao servidor informar a alteração à área de desenvolvimento de\n  pessoas, apresentando manifestação favorável do titular da nova unidade, nos termos deste artigo.\n\n  Art. 7º O servidor afastado com base nos arts. 36, 84, § 2º, e 93 da Lei nº 8.112/1990, após prévia manifestação do titular da unidade de lotação,\n  deverá requerer a licença capacitação ao órgão de origem, o qual analisará os requisitos funcionais para a concessão. (Redação dada pelo ATO\n  CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  Parágrafo único. Atendidos os requisitos funcionais para concessão da licença, a análise dos requisitos de capacitação e dos relativos à lotação\n  será realizada pelo órgão em que o servidor estiver em exercício, ao qual caberá a decisão sobre a concessão da licença. (Redação dada pelo",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "estagio_aprendizagem",
+        "substituicao_fc_cc"
+      ],
+      "score": 17
+    },
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)",
+      "text_resumo": "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019)\n\n  Art. 8º O servidor deverá apresentar à área de desenvolvimento de pessoas, em até 30 dias após o final do evento:\n\n  I – comprovante de aproveitamento ou certificado de conclusão fornecido pela entidade promotora;\n\n  II – plano de trabalho de aplicabilidade do que foi ministrado na capacitação, devidamente atestado pelo servidor e pelo titular da unidade de\n\n\nCódigo para aferir autenticidade deste caderno: 238612\n\f   4492/2026                                                 Conselho Superior da Justiça do Trabalho                                             3\n   Data da Disponibilização: Sexta-feira, 12 de Junho de 2026\n\n\n\n  lotação, indicando de que forma as competências adquiridas no curso contribuirão com a melhoria das atividades desenvolvidas em seu posto de\n  trabalho, na sua unidade de lotação ou no Tribunal.\n\n  § 1º O prazo de que trata o caput deste artigo poderá ser prorrogado, mediante justificativa do servidor, devidamente fundamentada.\n\n  § 2º Na hipótese do § 3º do art. 2º, o servidor deverá apresentar também relatório das atividades desenvolvidas, devidamente ratificado pelo\n  orientador/coordenador do curso.\n\n  § 3º Serão objetos de reposição ao erário os dias usufruídos não coincidentes com o período indicado no comprovante de aproveitamento ou\n  certificado de conclusão do curso, observando-se o disposto no § 3º do art. 2º e no caput do art. 4º.\n\n  Art. 9º O servidor poderá requerer, em situações excepcionais e devidamente justificadas, a suspensão da licença, ficando obrigado a comprovar\n  sua participação no curso ou na atividade até o dia anterior ao retorno ao trabalho, sem perder o direito ao usufruto do período restante a que tem\n  direito, observado o disposto no § 2º do art. 1º e no caput do art. 4º deste Ato.\n\n  Art. 10º O número de servidores em gozo simultâneo da licença para capacitação não poderá ser superior a 10% da lotação da respectiva unidade\n  administrativa.\n\n  § 1º No caso de dois ou mais servidores de uma mesma unidade administrativa requererem a concessão da licença na mesma data e para o\n  mesmo período, ainda que parcialmente coincidentes, e ultrapassar o limite previsto no caput, terá preferência o servidor que:\n\n  I – estiver decaindo do direito à licença;\n\n  II – obtiver maior média nas duas últimas avaliações de desempenho;\n\n  III – contar com maior tempo de serviço na unidade de lotação, ao tempo em que apresentar o requerimento;\n\n  IV – contar com mais tempo de serviço na Justiça do Trabalho.\n\n  § 2º Na fixação do limite referido no caput, o valor fracionado obtido será arredondado para o número inteiro imediatamente superior.\n\n  Art. 11. Os custos decorrentes da participação nos eventos de que trata o art. 2º deste Ato ficarão exclusivamente a cargo do servidor.\n\n  Art. 12. Ao servidor em licença para capacitação fica assegurada a remuneração integral, inclusive a correspondente ao cargo em comissão ou\n  função comissionada que ocupa, se for o caso.\n\n  Parágrafo único. Na hipótese de não obter o aproveitamento mínimo exigido no curso para o qual se licenciou, reporá o servidor a remuneração\n  correspondente ao período de afastamento, sendo este período excluído da contagem de seu tempo de serviço.\n\n  Art. 13. A concessão da licença não assegura o pagamento de adicional de qualificação, devendo-se observar a regulamentação própria.\n\n  Art. 14. A concessão da licença para capacitação compete ao:\n\n  I – Presidente do Tribunal, quando o requerente for ocupante de cargo em comissão;\n\n  II – Diretor-Geral da Secretaria ou Secretário-Geral do Conselho Superior da Justiça do Trabalho, na hipótese de o requerente ser titular de função\n  comissionada ou servidor não ocupante de função comissionada ou cargo em comissão.\n\n  Art. 15. Os casos omissos serão resolvidos pelo Presidente do Tribunal Superior do Trabalho e do Conselho Superior da Justiça do Trabalho.\n\n  Art. 16. Este Ato entra em vigor na data de sua publicação e revoga o ATO.SERH.GDGCA.GP Nº 411, de 6 de outubro de 2003, o ATO\n  SEGPES.GDGSET.GP Nº 152, de 28 de março de 2014 e o ATO DILEP.SEGPES.GDGSET.GP Nº 207, de 15 de abril de 2015.\n\n  Publique-se.\n\n                                                            JOÃO BATISTA BRITO PEREIRA\n                                               Ministro Presidente do Tribunal Superior do Trabalho e do\n                                                       Conselho Superior da Justiça do Trabalho\n\n\n  *Republicado em virtude do ATO CONJUNTO TST.CSJT.GP Nº 34, DE 12 DE NOVEMBRO DE 2019.\n\n  *Republicado em virtude do ATO CONJUNTO TST.CSJT.GP Nº 65, DE 3 DE OUTUBRO DE 2023.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   Conselho Superior da Justiça do Trabalho                            1\n    Ato                                                                1\n\n\nCódigo para aferir autenticidade deste caderno: 238612\n\f   4492/2026                                                 Conselho Superior da Justiça do Trabalho   4\n   Data da Disponibilização: Sexta-feira, 12 de Junho de 2026\n\n\n\n      ATO CONJUNTO                                                     1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238612",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 19 DE OUTUBRO DE 2018 * (Republicação)",
+      "text_resumo": "ATO CONJUNTO TST.CSJT.GP Nº 34, DE 19 DE OUTUBRO DE 2018 * (Republicação)\n                                                                                             Dispõe sobre os critérios para a concessão da licença\n                                                                                             para capacitação no âmbito do Tribunal Superior do\n                                                                                             Trabalho e do Conselho Superior da Justiça do\n                                                                                             Trabalho.\n\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO E DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas\n  atribuições legais e regimentais, tendo em vista o disposto no art. 87 da Lei nº 8.112, de 11 de dezembro de 1990, com a redação dada pela Lei nº\n  9.527, de 10 de dezembro de 1997, e considerando o constante do processo TST nº 505.914/2018-3,\n\n\n  RESOLVE\n\n\n  Art. 1º Após cada quinquênio de efetivo exercício, o servidor poderá, no interesse da Administração, afastar-se do exercício do cargo efetivo, com\n  a respectiva remuneração, por até três meses, para participar de curso de capacitação profissional.\n\n  § 1º O interesse da Administração é definido em razão das possibilidades de aproveitamento do conteúdo do curso para a melhoria do\n  desempenho, observando-se:\n\n  I – as competências do posto de trabalho ocupado pelo servidor;\n\n  II – as atribuições da unidade de lotação do servidor; ou\n\n  III – as áreas de interesse do Tribunal, mediante ateste do titular da unidade de lotação do servidor, ratificadas pela autoridade a que se refere o\n  art. 14 deste Ato no momento da autorização da licença.\n\n  § 2º Os períodos de licença de que trata o caput deste artigo não são acumuláveis e podem ser gozados apenas durante o quinquênio\n  subsequente ao da aquisição.\n\n  § 3º Na contagem do primeiro período da licença para capacitação, será considerado o tempo de serviço adquirido na forma da Lei n.º 8.112/90,\n  não usufruído ou contado em dobro para efeito de licença-prêmio, observada a legislação em vigor até 15 de outubro de 1996.\n\n  § 4º A contagem do período aquisitivo da licença para capacitação ficará suspensa durante as ausências que não forem consideradas como de\n  efetivo exercício.\n\n  § 5º As faltas injustificadas ao serviço retardarão a concessão da licença na proporção de 1 dia para cada falta.\n\n  Art. 2º Para efeitos deste Ato, curso de capacitação profissional compreende eventos de treinamento destinados à aquisição, atualização ou\n  ampliação de conhecimentos, habilidades, técnicas ou métodos de trabalho, em que haja avaliação final de aprendizagem. (Redação dada pelo\n\n\nCódigo para aferir autenticidade deste caderno: 238612\n\f   4492/2026                                                 Conselho Superior da Justiça do Trabalho                                             2\n   Data da Disponibilização: Sexta-feira, 12 de Junho de 2026",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "estagio_aprendizagem"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 171/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 171/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000380-23.2016.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve\n\n\n\n                                                                      CONVALIDAR\n\n\n\n  os atos praticados pelo(a) servidor(a) Sáimonton de Lima Pereira, Técnico Judiciário, área Administrativa, Agente da Polícia Judicial, Removido\n  para este Tribunal, em substituição ao (à) servidor (a) Luiz Paulo da Silva, Coordenador (CJ-02), do (a) Coordenadoria de Polícia Judicial -\n  COPJUD, no período de 18 a 22/5/2026, em razão de Participação em curso, fazendo jus ao pagamento por 5(cinco) dia (s) de efetiva\n  substituição.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n\n\n\nCódigo para aferir autenticidade deste caderno: 238604\n\f   4492/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        7\n   Data da Disponibilização: Sexta-feira, 12 de Junho de 2026\n\n\n\n                                                               Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 11/06/2026,\n                         às 19:06, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1319983 e o código CRC 738D025B.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Edital                                                            1\n     Edital                                                           1\n   SECRETARIA DE CORREGEDORIA                                         2\n   REGIONAL\n    Ata                                                               2\n     Ata Correição Ordinária SECOR                                    2\n    Ato                                                               2\n     Ato                                                              2\n    Edital                                                            4\n     Edital                                                           4\n    Relatório                                                         5\n     Relatório ESTATÍSTICA                                            5\n   DIRETORIA GERAL                                                    5\n    Extrato                                                           5\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  5\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       6\n   REMOÇÃO\n    Portaria                                                          6\n     Portaria                                                         6\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238604",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR N° 28/2026",
+      "text_resumo": "ATO PRESI SECOR N° 28/2026\n\n\n\n      A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas\natribuições legais e regimentais,\n\n\n\n     CONSIDERANDO o teor do ATO PRESI SECOR Nº 18/2026, que convocou a Juíza Titular da 15ª Vara do Trabalho de Vitória, Fátima Gomes\nFerreira, para atuar na 3ª Turma deste Tribunal em razão da aposentadoria da Desembargadora Sônia das Dores Dionísio Mendes e\n\n\n\n    CONSIDERANDO a necessidade de se evitar o adiamento de audiências já designadas na 15ª Vara do Trabalho de Vitória, resolve\n\n\n\n                                                                        DESIGNAR\n\n\n\n FÁBIO EDUARDO BONISSON PAIXÃO, VERÔNICA RIBEIRO SARAIVA, LÍVIA DOS SANTOS VARDIERO CRESPO e BERNARDO PINHEIRO\n BERNARDI e SILVIA DALLA BERNARDINA DAHER , Juiz e Juízas do Trabalho Substituto(as), para atuarem na 15ª Vara do Trabalho de Vitória,\n conforme tabela abaixo:\n\n\n\n\n                     NOME                                  PERÍODO                  ATUAÇÃO                  OBSERVAÇÃO\n\n                                                                                                                   Cessar os efeitos do ATO PRESI\n                            Fábio Eduardo Bonisson Paixão          13/07 a 30/08/2026       Titular em exercício\n                                                                                                                   SECOR Nº 65/2025\n\n\n                                                                                                                   Sem prejuízo das designações\n                            Verônica Ribeiro Saraiva               15/07/2026               Auxiliar\n                                                                                                                   anteriores\n\n\n                                                                                                                   Sem prejuízo das designações\n                            Bernardo Pinheiro Bernardi             20/07/2026               Auxiliar\n                                                                                                                   anteriores\n\n\n                                                                                                                   Sem prejuízo das designações\n                            Lívia dos Santos Vardiero Crespo       29/07/2026               Auxiliar\n                                                                                                                   anteriores\n\n\n\n\n      Por se tratar de situação excepcional, fica autorizada a realização de audiências telepresenciais aos (às) Juízes(as) Substitutos(as) sem\n designação contínua e por prazo indeterminados, conforme previsão contida no inciso II do artigo 3º do ATO PRESI SECOR Nº 13/2023.\n\n\n\n     Publique-se.\n\n                                                                   Alzenir Bollesi de Plá Loeffler\n\n\n\n\n    Código para aferir autenticidade deste caderno: 238604\n\f   4492/2026                                               Tribunal Regional do Trabalho da 17ª Região                                          4\n   Data da Disponibilização: Sexta-feira, 12 de Junho de 2026\n\n\n\n                                                       Desembargadora-Presidente e Corregedora\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 11/06/2026,\n                         às 19:06, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1320093 e o código CRC 223C4DE9.\n\n\n\n\n                                                                     Edital\n                                                                     Edital\n                                                          Publicação DEJT SEI - Edital\n  Edital\n                                                                          EDITAL\n\n                                                CALENDÁRIO DE CORREIÇÕES ORDINÁRIAS 2026\n   A DESEMBARGADORA ALZENIR BOLLESI DE PLÁ LOEFFLER, PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO\n  TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições legais e regimentais\n   TORNA PÚBLICO a todos quantos o presente edital virem ou dele tiverem conhecimento que, por motivo de força maior, o calendário de\n  Correições Ordinárias a serem realizadas nas Varas do Trabalho do Tribunal Regional da 17ª Região, no corrente ano, foi alterado, conforme\n  tabela anexa. Publique-se no Diário Oficial da Justiça do Trabalho. Oficie-se, ainda, à Ordem dos Advogados do Brasil - Seccional Espírito Santo,\n  à Associação Espírito Santense dos Advogados Trabalhistas e ao Sindicato dos Advogados do Estado do Espírito Santo.\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                      Desembargadora-Presidente e Corregedora\n\n                                                 CALENDÁRIO DE CORREIÇÕES ORDINÁRIAS 2026\n   VARA DO TRABALHO                                                                      PERÍODO\n\n   15ª Vara de Vitória                                                                   05-03-2026\n\n\n   Divisão de Pesquisa Patrimonial e Execução - DIPESQ                                   05-03-2026\n\n   2ª Vara de Vitória                                                                    05-03-2026\n\n   5ª Vara de Vitória                                                                    16-03-2026\n\n   8ª Vara de Vitória                                                                    10-04-2026\n\n   7ª Vara de Vitória                                                                    10-04-2026\n\n   3ª Vara de Vitória                                                        ",
+      "text_truncated": true,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}

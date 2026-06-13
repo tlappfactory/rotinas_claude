@@ -1,34 +1,33 @@
 {
-  "run_utc": "2026-06-12T16:13:57Z",
-  "expected_publicacao": "2026-06-12",
+  "run_utc": "2026-06-13T15:03:39Z",
+  "expected_publicacao": "2026-06-13",
   "by_label": {
     "trt17": {
       "label": "trt17",
-      "disponibilizacao": "2026-06-11",
-      "publicacao": "2026-06-12",
-      "date": "2026-06-12",
+      "disponibilizacao": "2026-06-12",
+      "publicacao": "2026-06-15",
+      "date": "2026-06-15",
       "status": "ok",
-      "path": "dejt/2026-06-12/trt17.pdf",
-      "size_bytes": 88884
+      "path": "dejt/2026-06-15/trt17.pdf",
+      "size_bytes": 163051
     },
     "csjt": {
       "label": "csjt",
-      "disponibilizacao": "2026-06-11",
-      "publicacao": "2026-06-12",
-      "date": "2026-06-12",
+      "disponibilizacao": "2026-06-12",
+      "publicacao": "2026-06-15",
+      "date": "2026-06-15",
       "status": "ok",
-      "path": "dejt/2026-06-12/csjt.pdf",
-      "size_bytes": 4013965
+      "path": "dejt/2026-06-15/csjt.pdf",
+      "size_bytes": 99068
     },
     "tst": {
       "label": "tst",
-      "disponibilizacao": "2026-06-10",
-      "publicacao": "2026-06-11",
-      "date": "2026-06-11",
-      "status": "pdf_stale",
-      "expected_publicacao": "2026-06-12",
-      "size_bytes": 91068,
-      "content_type": "application/pdf"
+      "disponibilizacao": "2026-06-12",
+      "publicacao": "2026-06-15",
+      "date": "2026-06-15",
+      "status": "ok",
+      "path": "dejt/2026-06-15/tst.pdf",
+      "size_bytes": 88758
     }
   }
 }
