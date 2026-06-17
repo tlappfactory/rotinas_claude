@@ -2,14 +2,7 @@
   "date": "2026-06-16",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 98,
-      "pdf_text_chars": 7670,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "[caderno inteiro — sem cabeçalhos detectados]"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
