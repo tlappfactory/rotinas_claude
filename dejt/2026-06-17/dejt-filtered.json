@@ -2,45 +2,16 @@
   "date": "2026-06-17",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 231,
-      "pdf_text_chars": 12820,
-      "total_atos_detectados": 5,
-      "matched_atos": 3,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 48/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 167/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 173/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 168/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 172/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 88,
-      "pdf_text_chars": 3316,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG.SETIC N.º 64, DE 15 DE JUNHO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 96,
-      "pdf_text_chars": 12717,
-      "total_atos_detectados": 5,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 317, DE 15 DE JUNHO DE 2026",
-        "ATO GDGSET.GP.N.º 320, DE 15 DE JUNHO DE 2026",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.940, DE 15 DE JUNHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.938, DE 15 DE JUNHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.939, DE 15 DE JUNHO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -66,42 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO TRT 17ª PRESI Nº 48/2026",
-      "text_resumo": "ATO TRT 17ª PRESI Nº 48/2026\n\n\n\n                                                  Designa a Desembargadora Wanda Lúcia Costa Leite França Decuzzi para responder pela\n                                                  Presidência\n\n\n                 A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições\n  legais e regimentais,\n\n                   CONSIDERANDO o disposto no inciso III do artigo 15 do Regimento Interno deste Tribunal; e\n\n                   CONSIDERANDO que esta Desembargadora-Presidente entrará em gozo de férias no período compreendido entre 18 e 29 de\n  junho de 2026,\n\n\n                                                                                RESOLVE\n\n                 Art.1º A Desembargadora Wanda Lúcia Costa Leite França Decuzzi responderá pela Presidência e pela Corregedoria deste\n  Tribunal no período compreendido entre 18 e 29 de junho de 2026.\n\n                   Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 16/06/2026,\n                         às 16:29, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\nCódigo para aferir autenticidade deste caderno: 238690\n\f   4494/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        2\n   Data da Disponibilização: Terça-feira, 16 de Junho de 2026\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1321078 e o código CRC A4FBC5FC.\n\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 168/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 168/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238690\n\f   4494/2026                                               Tribunal Regional do Trabalho da 17ª Região                                          4\n   Data da Disponibilização: Terça-feira, 16 de Junho de 2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000742-73.2026.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais e à vista do constante do processo TRT-17.ª SEI n.º 0000742-73.2026.5.17.0500, resolve\n\n\n\n                                                                        REMOVER\n\n\n\n  a pedido, Martha Schmidt, Analista Judiciária, área Judiciária, Efetivo, do quadro permanente de pessoal deste Tribunal, para o Tribunal Regional\n  do Trabalho da 4ª Região, em permuta com o(a) servidor (a) Livia Cristina Collodetti Demuner, Analista Judiciária, área Judiciária, do quadro de\n  pessoal da mencionada Corte, tendo sido concedido 10 (dez) dias de trânsito ao(a) servidor(a) deste Regional, a partir de 17/6/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 03/06/2026,\n                         às 13:00, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1318461 e o código CRC A478BA62.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 172/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 172/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000742-73.2026.5.17.0500\n\n\nCódigo para aferir autenticidade deste caderno: 238690\n\f   4494/2026                                               Tribunal Regional do Trabalho da 17ª Região                                            5\n   Data da Disponibilização: Terça-feira, 16 de Junho de 2026\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                          LOTAR\n\n\n\n  Livia Cristina Collodetti Demuner, Analista Judiciária, área Judiciária, Removida do Tribunal Regional do Trabalho da 4ª Região, no (a) Gabinete do\n  Desembargador Marcello Maciel Mancilha, a partir de 17/06/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 16/06/2026,\n                         às 16:25, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1320980 e o código CRC 5546996C.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Ato                                                               1\n     Ato PRESI                                                        1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       2\n   REMOÇÃO\n    Portaria                                                          2\n     Portaria                                                         2\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238690",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-06-17",
-  "total_xml_files": 1430,
-  "matched_articles": 223,
+  "total_xml_files": 1472,
+  "matched_articles": 225,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2488,6 +2488,58 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260617_24042086.xml"
+    },
+    {
+      "id": "49839446",
+      "section": "DO1E",
+      "pub_date": "17/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Governo Digital",
+      "identifica": "Portaria SGD/MGI nº 3.656, de 16 de junho de 2026",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SGD/MGI nº 3.656, de 16 de junho de 2026 O SECRETÁRIO DE GOVERNO DIGITAL DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 26, incisos III e XII, do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no Decreto nº 7.579, de 11 de outubro de 2011, no § 2º do art. 8º, e nos art. 39 e 41 da Instrução Normativa SGD/ME nº 94, de 23 de dezembro de 2022, resolve: Art. 1º Fica instituído o Roteiro de Métricas de Software do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP, como guia técnico complementar à Portaria SGD/MGI nº 750, de 20 de março de 2023, que orienta a aplicação de métricas de software em contratações de serviços de desenvolvimento, manutenção e sustentação de software. Parágrafo único. Os órgãos e as entidades deverão adotar preferencialmente o Roteiro de Métricas de Software do SISP nas contratações de serviços de desenvolvimento, manutenção e sustentação de softwares firmadas após a publicação desta Portaria. Art. 2º Os casos omissos relacionados a métricas de softwares serão dirimidos pelo Órgão Central do SISP, que poderá expedir normas complementares, bem como disponibilizar em meio eletrônico informações adicionais para utilização do Roteiro de Métricas de Software do SISP. Art. 3º O Órgão Central do SISP manterá atualizadas, no sítio eletrônico oficial do Governo Digital, as versões do Roteiro de Métricas de Software do SISP. Art. 4º Fica revogada a Portaria STI/MP nº 4, de 6 de março de 2017. Art. 5º Esta Portaria entra em vigor em 1º de julho de 2026. ROGÉRIO SOUZA MASCARENHAS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "36",
+      "edition": "111-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria SGDMGI NA 3656 DE 16 de-11821868",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260617_24043764.xml"
+    },
+    {
+      "id": "49839392",
+      "section": "DO1E",
+      "pub_date": "17/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Governo Digital",
+      "identifica": "Portaria SGD/MGI nº 4.777, de 16 de junho de 2026",
+      "orgao": "",
+      "ementa": "Altera a Portaria SGD/MGI nº 750, de 20 de março de 2023, que estabelece modelo para a contratação de serviços de desenvolvimento, manutenção e sustentação de software, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SGD/MGI nº 4.777, de 16 de junho de 2026 Altera a Portaria SGD/MGI nº 750, de 20 de março de 2023, que estabelece modelo para a contratação de serviços de desenvolvimento, manutenção e sustentação de software, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal. O SECRETÁRIO DE GOVERNO DIGITAL DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem o art. 26, incisos III e XII, do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no Decreto nº 7.579, de 11 de outubro de 2011, e arts. 39 e 41 da Instrução Normativa SGD/ME nº 94, de 23 de dezembro de 2022, resolve: Art. 1º A Portaria SGD/MGI nº 750, de 20 de março de 2023, que estabelece modelo para a contratação de serviços de desenvolvimento, manutenção e sustentação de software, no âmbito dos órgãos e entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação - SISP do Poder Executivo Federal, passa a vigorar com as seguintes alterações: \"Art. 5º ..................................................................................................... .................................................................................................................. III - para serviços de desenvolvimento e/ou manutenção e/ou sustentação, o Pagamento por alocação de profissionais de TI sem dedicação exclusiva de mão de obra, vinculado ao alcance de resultados; IV - para serviços de desenvolvimento e/ou manutenção e/ou sustentação, o Pagamento por alocação de profissionais de TI com dedicação exclusiva de mão de obra, vinculado ao atendimento de níveis mínimos de serviço; V - para serviços de sustentação, o Pagamento de valor fixo mensal por portfólio de softwares, vinculado ao atendimento de níveis mínimos de serviço. § 1º O modelo admite a adoção das modalidades de alocação de perfis profissionais com dedicação exclusiva de mão de obra ou de alocação de perfis profissionais sem dedicação exclusiva de mão de obra, exigindo-se, no primeiro caso, o atendimento a níveis mínimos de serviço, e, no segundo caso, a vinculação a resultados. § 2º Caso seja adotado o regime de dedicação exclusiva de mão de obra, deve-se observar, além das diretrizes constantes desta Portaria e da Instrução Normativa SGD/MGI nº 94, de 2022, as diretrizes constantes da Instrução Normativa SEGES/MP nº 5, de 2017, e demais regulamentos aplicados ao regime de dedicação exclusiva de mão de obra. § 3º A indicação do regime de dedicação exclusiva de mão de obra deve estar expressamente prevista no Termo de Referência e deve ser devidamente justificada em função dos níveis mínimos de serviço a serem atendidos, sendo vedada a mera alocação de postos de trabalho nos termos do inciso IX do art. 5º da Instrução Normativa SGD/MGI nº 94, de 2022.\" (NR) Art. 2º O Anexo I da Portaria SGD/MGI nº 750, de 20 de março de 2023, passa a vigorar com as seguintes alterações: \"2. .......................................................................................................... ................................................................................................................ ab) Codificação Sustentável (Green Coding): adoção de práticas de construção de software voltadas à eficiência no uso de recursos computacionais, à redução de processamento, armazenamento, tráfego de dados e consumo energético desnecessários, observados os requisitos de desempenho, segurança, acessibilidade, interoperabilidade, manutenibilidade e experiência do usuário. ................................................................................................................\" (NR) \"4. .......................................................................................................... ................................................................................................................ 4.4.5. O processo de desenvolvimento de software deve estar amparado por diretrizes ou códigos de práticas de construção de softwares que incluam definições técnicas e orientações de requisitos mínimos de qualidade, segurança, sustentabilidade ambiental e padronização dos aspectos técnicos da codificação. ................................................................................................................ 4.6. Da governança do processo de desenvolvimento de software 4.6.1. São instrumentos de governança do processo de desenvolvimento de software: a) O processo de software adotado pelo órgão; b) Roteiro de Métricas de Software; c) Roteiro de Codificação; d) Padrões arquiteturais e tecnológicos adotados pelo órgão; e e) Requisitos mínimos de qualidade e padronização dos aspectos técnicos da codificação. 4.6.2. Todos os instrumentos de governança devem ser formalmente instituídos pelo órgão e devem estar referenciados no Termo de Referência.\" (NR) \"5. .......................................................................................................... ................................................................................................................ 5.1.2. .......................................................................................................... .................................................................................................................. c) remuneração por alocação de profissionais de TI sem dedicação exclusiva de mão de obra e com pagamento vinculado a resultados; d) remuneração por alocação de profissionais de TI com dedicação exclusiva de mão de obra e com pagamento vinculado ao atendimento de níveis mínimos de serviço. 5.1.3. .......................................................................................................... a) remuneração por alocação de profissionais de TI sem dedicação exclusiva de mão de obra e com pagamento vinculado a resultados; b) remuneração por alocação de profissionais de TI com dedicação exclusiva de mão ",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "36",
+      "edition": "111-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA SGDMGI NA 4.777 de 16 d-11821864",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260617_24043758.xml"
     },
     {
       "id": "49838619",

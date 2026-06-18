@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-18",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 311,
+      "pdf_text_chars": 21782,
+      "total_atos_detectados": 9,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 48/2026 (Republicado*)",
+        "Ato SECOR N° 32/2026",
+        "ATO PRESI SECOR N° 29/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 176/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 179/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 175/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 178/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 177/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 174/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 88,
+      "pdf_text_chars": 3811,
+      "total_atos_detectados": 1,
+      "matched_atos": 1,
+      "headers_sample": [
+        "ATO CSJT.GP.SG N.º 65, DE 16 DE JUNHO DE 2026."
+      ]
+    },
+    "tst": {
+      "status": "no_pdf"
+    }
+  },
+  "total_matched": 3,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR N° 29/2026",
+      "text_resumo": "ATO PRESI SECOR N° 29/2026\n\n\n\n      A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas\natribuições legais e regimentais,\n\n\n\n   CONSIDERANDO o período de gozo de licença-prêmio do Juiz Titular da 13ª Vara do Trabalho de Vitória, Roque Messias Calsoni, resolve\n\n\n\n                                                                        DESIGNAR\n\n\n\n GERMANA DE MORELO, Juíza do Trabalho Substituta, para atuar como Titular em exercício na 13ª Vara do Trabalho de Vitória de 20/07 a 07/09/2026,\n em razão do gozo de licença-prêmio do Juiz Titular daquela Unidade Judiciária, Roque Messias Calsoni, revogando-se, no período, os efeitos do ATO\n PRESI SECOR Nº 65/2025.\n\n\n\n     Publique-se.\n\n                                                                   Alzenir Bollesi de Plá Loeffler\n\n                                                           Desembargadora-Presidente e Corregedora\n\n\n\n\n   Código para aferir autenticidade deste caderno: 238733\n\f   4495/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         3\n   Data da Disponibilização: Quarta-feira, 17 de Junho de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 16/06/2026,\n                         às 16:25, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1320666 e o código CRC BEDEB49B.\n\n\n\n\n                                                          DIRETORIA GERAL\n                                                               Extrato\n                                                  EXTRATO DE CONCESSÃO DE DIÁRIAS\n                                                         Concessão de Diárias\n  A Desembargadora-Presidente, Alzenir Bollesi de Plá Loeffler, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais\n  e regimentais, e com amparo no ATO TRT 17.ª PRESI N.o 106/2023, resolve conceder e autorizar o pagamento ao beneficiário indicado diária nos\n  seguintes termos:\n\n\n\n  Processo nº 473/2026\n  - BERNARDO PINHEIRO BERNARDI, JUIZ DO TRABALHO SUBSTITUTO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de\n  Realização de audiências presenciais na Vara do Trabalho de Nova Venécia/ES nos dias 17 e 18 de junho de 2026, referente ao(s) seguinte(s)\n  período(s):\n  #2: Vitória/ES - Nova Venécia/ES no período de 17/06/2026 a 18/06/2026, totalizando 1,50 diária(s).\n                                                               Concessão de Diárias\n  A Desembargadora-Presidente, Alzenir Bollesi de Plá Loeffler, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais\n  e regimentais, e com amparo no ATO TRT 17.ª PRESI N.o 106/2023, resolve conceder e autorizar o pagamento à beneficiária indicada diárias nos\n  seguintes termos:\n\n\n\n  Processo nº 467/2026\n  - ANA PAULA RODRIGUES PIRES DA LUZ, JUIZ TITULAR DE VARA DO TRABALHO do Tribunal Regional do Trabalho da 17ª Região, com a\n  finalidade de Participar da 3ª reunião da Comissão Nacional de Promoção à Conciliação (CONAPROC), no dia 18 de junho de 2026, referente\n  ao(s) seguinte(s) período(s):\n  #2: Vitória/ES - Brasília/DF no período de 17/06/2026 a 19/06/2026, totalizando 2,50 diária(s).\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta",
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "ATO CSJT.GP.SG N.º 65, DE 16 DE JUNHO DE 2026.",
+      "text_resumo": "ATO CSJT.GP.SG N.º 65, DE 16 DE JUNHO DE 2026.\n                                                                                          Fixa o valor a ser pago no âmbito da Justiça do Trabalho\n                                                                                          de primeiro e segundo graus a título da indenização de\n                                                                                          transporte ao executante de mandato.\n\n\n  O PRESIDENTE DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas atribuições legais e regimentais,\n\n  considerando as Resolução CSJT n.os 10 e 11, de 15 de dezembro de 2005, que uniformizam e regulamentam o pagamento da indenização de\n  transporte de que trata o art. 60 da Lei n.º 8.112, de 11 de dezembro de 1990 no âmbito da Justiça do Trabalho; e\n\n  considerando a decisão proferida pelo Plenário nos autos do Processo CSJT-PP-1000028-13.2026.5.90.0000;\n\n\n\n  RESOLVE:\n\n\n\n  Art. 1º É fixado em R$ 2.391,30 (dois mil trezentos e noventa e um reais e trinta centavos), a partir de 29 de maio de 2026, o valor a ser pago a\n  título de indenização de transporte ao executante de mandados, nos termos do art. 1º, § 1º, da Resoluções CSJT n.º 11, de 15 de dezembro de\n  2005, condicionado o efetivo pagamento à existência de dotação orçamentária nos Tribunais Regionais do Trabalho.\n\n  Art. 2º Revoga-se o Ato CSJT.GP.SG n.º 39, de 29 de abril de 2025.\n\n  Art. 3º Este Ato entra em vigor na data de sua publicação.\n\n\n\n\n                                                       Ministro VIEIRA DE MELLO FILHO\n                                            Presidente do Conselho Superior da Justiça do Trabalho\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238740\n\f   4495/2026                                                 Conselho Superior da Justiça do Trabalho   2\n   Data da Disponibilização: Quarta-feira, 17 de Junho de 2026\n\n\n\n\n                                                                           ÍNDICE\n\n\n   Conselho Superior da Justiça do Trabalho                            1\n    Ato                                                                1\n     Ato da Presidência CSJT                                           1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238740",
+      "text_truncated": false,
+      "strong_keywords": [
+        "ajuda_custo_transporte"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 174/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 174/2026\n\n\n\n\n                                                         PODER JUDICIÁRIO FEDERAL\n                                                           JUSTIÇA DO TRABALHO\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                        PORTARIA\n\n                                                               0000542-47.2018.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                        REMOVER\n\n\n\n  Karina Lorenzoni Dalla Bernardina, Analista Judiciária, área Judiciária, do (a) Gabinete do Desembargador Marcello Maciel Mancilha - GDMMM\n  para lotá-lo(a) no(a) 10ª Vara do Trabalho de Vitória, a partir de 17/06/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238733\n\f   4495/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        8\n   Data da Disponibilização: Quarta-feira, 17 de Junho de 2026\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 17/06/2026,\n                         às 16:39, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1321259 e o código CRC 9F3E59AD.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Ato                                                               1\n     Ato PRESI                                                        1\n   SECRETARIA DE CORREGEDORIA                                         2\n   REGIONAL\n    Ato                                                               2\n     Ato                                                              2\n   DIRETORIA GERAL                                                    3\n    Extrato                                                           3\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  3\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       3\n   REMOÇÃO\n    Portaria                                                          3\n     Portaria                                                         3\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238733",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
