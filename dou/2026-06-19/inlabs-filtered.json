@@ -1,7 +1,7 @@
 {
   "date": "2026-06-19",
-  "total_xml_files": 1120,
-  "matched_articles": 159,
+  "total_xml_files": 1137,
+  "matched_articles": 161,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -1772,6 +1772,32 @@
       "xml_file": "515_20260619_24050375.xml"
     },
     {
+      "id": "49890518",
+      "section": "DO1E",
+      "pub_date": "19/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Coordenação e Governança das Empresas Estatais",
+      "identifica": "PORTARIA SEST/MGI Nº 4.991, DE 18 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Aprova os formulários padronizados a serem remetidos pelo órgão ou entidade da administração pública federal responsável pelas indicações de pessoas para Diretorias Executivas, Conselhos de Administração, Conselhos Fiscais e Comitês de Auditoria Estatutários para análise do Comitê de Pessoas, Elegibilidade, Sucessão e Remuneração da empresa estatal.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA SEST/MGI Nº 4.991, DE 18 DE JUNHO DE 2026 Aprova os formulários padronizados a serem remetidos pelo órgão ou entidade da administração pública federal responsável pelas indicações de pessoas para Diretorias Executivas, Conselhos de Administração, Conselhos Fiscais e Comitês de Auditoria Estatutários para análise do Comitê de Pessoas, Elegibilidade, Sucessão e Remuneração da empresa estatal. A SECRETÁRIA DE COORDENAÇÃO E GOVERNANÇA DAS EMPRESAS ESTATAIS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem o art. 44, caput, inciso III, do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, o art. 4º, caput, inciso I, e o art. 8º, caput, do Decreto nº 12.302, de 9 de dezembro de 2024, e tendo em vista o disposto na Lei nº 13.303, de 30 de junho de 2016, e nos arts. 21 e 22 do Decreto nº 8.945, de 27 de dezembro de 2016, resolve: Art. 1º Ficam aprovados os formulários padronizados na forma dos modelos divulgados no sítio eletrônico do Ministério da Gestão e da Inovação em Serviços Públicos a serem encaminhados pelo órgão ou entidade da administração pública federal responsável pelas indicações de pessoas para Diretorias Executivas, Conselhos de Administração, Conselhos Fiscais e Comitês de Auditoria Estatutários para análise do Comitê de Pessoas, Elegibilidade, Sucessão e Remuneração da empresa estatal. Art. 2º Os requisitos de experiência profissional e formação acadêmica exigidos pela Lei nº 13.303, de 30 de junho de 2016, e pelo Decreto nº 8.945, de 27 de dezembro de 2016, deverão ser comprovados pela pessoa indicada, na forma estabelecida no formulário padronizado correspondente. Art. 3º A inocorrência das vedações previstas na Lei nº 13.303, de 30 de junho de 2016, e no Decreto nº 8.945, de 27 de dezembro de 2016, conforme o caso, será verificada por meio de autodeclaração e documentação comprobatória apresentada pela pessoa indicada, nos termos do formulário padronizado correspondente. Art. 4º Para o exercício da competência prevista no art. 21, caput, incisos I e II, do Decreto nº 8.945, de 27 de dezembro de 2016, o Comitê de Pessoas, Elegibilidade, Sucessão e Remuneração da empresa estatal exigirá a prova documental correspondente sobre o preenchimento dos requisitos e a ausência de vedações, quando cabível. Art. 5º A pessoa indicada será responsável pela veracidade das informações prestadas no formulário padronizado e na documentação apresentada. Parágrafo único. A constatação, a qualquer tempo, de falsidade material ou ideológica nas informações prestadas ou nos documentos apresentados será comunicada aos órgãos competentes para adoção das medidas administrativas, cíveis e penais cabíveis. Art. 6º Ficam revogadas: I - a Portaria SEST/SEDDM/ME nº 10.397, Publicado em: 27/08/2021, Edição: 163, Seção: 1, Página: 48; e II - a Portaria SEST/SEDDM/ME nº 12.412, Publicado em: 21/10/2021, Edição: 199, Seção: 1, Página: 39. Art. 7º Esta Portaria entra em vigor na data de sua publicação. ELISA VIEIRA LEONEL",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "7",
+      "edition": "113-C",
+      "url": "https://www.in.gov.br/web/dou/-/Macro Portaria 4991-11827707",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "602_20260619_24052061.xml"
+    },
+    {
       "id": "49876899",
       "section": "DO2",
       "pub_date": "19/06/2026",
@@ -3023,6 +3049,32 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260619_24050475.xml"
+    },
+    {
+      "id": "49885044",
+      "section": "DO1E",
+      "pub_date": "19/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Agricultura e Pecuária/Gabinete do Ministro",
+      "identifica": "PORTARIA MAPA Nº 919, DE 17 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre procedimentos para o atendimento de consultas técnicas no âmbito do Ministério da Agricultura e Pecuária e define o fluxo de tratamento e resposta.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MAPA Nº 919, DE 17 DE JUNHO DE 2026 Dispõe sobre procedimentos para o atendimento de consultas técnicas no âmbito do Ministério da Agricultura e Pecuária e define o fluxo de tratamento e resposta. O MINISTRO DE ESTADO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e tendo em vista o disposto na Lei nº 12.527, de 18 de novembro de 2011, na Lei nº 13.460, de 26 de junho de 2017, no Decreto nº 7.724, de 16 de maio de 2012, no Decreto nº 9.094, de 17 de julho de 2017, no Decreto nº 9.492, de 5 de setembro de 2018, na Súmula nº 1, de 2015, da Comissão Mista de Reavaliação de Informações, e o que consta do Processo nº 21000.020637/2026-30, resolve: Art. 1º Esta Portaria dispõe sobre procedimentos para o atendimento de consultas técnicas no âmbito do Ministério da Agricultura e Pecuária e define o fluxo de tratamento e resposta. Art. 2º Ficam disciplinados os procedimentos para recebimento, registro, triagem, análise, tratamento e resposta às consultas técnicas dirigidas ao Ministério da Agricultura e Pecuária. CAPÍTULO I DISPOSIÇÕES GERAIS Art. 3º Para fins desta Portaria, considera-se: I - unidade administrativa: unidade organizacional integrante da estrutura formal do Ministério da Agricultura e Pecuária, cadastrada no Sistema de Organização e Inovação Institucional do Governo Federal - SIORG, à qual são atribuídas competências administrativas, compreendendo, entre outras, as Secretarias e as Subsecretarias; II - unidade técnica: unidade organizacional do Ministério da Agricultura e Pecuária detentora de competência finalística ou especializada sobre a matéria objeto da consulta técnica; e III - consulta técnica: a) interpretação ou aplicação de normas, regulamentos, manuais, instruções, procedimentos técnicos e demais instrumentos regulatórios do Ministério da Agricultura e Pecuária, bem como de legislação transversal que interaja com suas competências; b) esclarecimentos técnicos relacionados a processos produtivos, requisitos sanitários, certificações, cadastros, credenciamentos, registros, fiscalizações, inspeções ou vigilância agropecuária, bem como a políticas, programas e demais instrumentos sob responsabilidade das unidades do Ministério da Agricultura e Pecuária; e c) manifestação especializada que não se enquadre como pedido de acesso à informação pública nos termos da Lei nº 12.527, de 18 de novembro de 2011. Art. 4º As consultas técnicas de que trata esta Portaria possuem caráter orientativo, não substituindo análises técnicas formais, pareceres vinculantes, atos autorizativos ou manifestações exigidas em processos administrativos específicos. Parágrafo único. No caso de consultas técnicas de que trata o caput, não serão analisadas manifestações que tenham por objeto pedidos de revisão ou reanálise de mérito técnico relacionados a processos administrativos de fiscalização, devendo tais manifestações ser apresentadas exclusivamente nos respectivos autos. CAPÍTULO II DAS FORMAS DE ENTRADA E APRESENTAÇÃO DAS CONSULTAS TÉCNICAS Art. 5º As consultas técnicas dirigidas ao Ministério da Agricultura e Pecuária deverão ser apresentadas por meio do Peticionamento Eletrônico do Sistema Eletrônico de Informações - SEI, mediante a seleção do tipo processual ''Consulta Técnica - MAPA''. § 1º Para fins de Peticionamento Eletrônico, o interessado deverá realizar, previamente, cadastro como usuário externo no SEI do Ministério da Agricultura e Pecuária, mediante o encaminhamento da documentação exigida para o endereço eletrônico mapa.sempapel@agro.gov.br. § 2º Os documentos de que trata o § 1º deverão incluir, inclusive, documento de identificação e Termo de Concordância e Veracidade devidamente assinado, observados os meios de assinatura admitidos pelo órgão, conforme orientações disponibilizadas em seus canais oficiais. § 3º O cadastro como usuário externo no SEI possibilita ao interessado o acompanhamento da tramitação da consulta técnica, ficando a disponibilização de acesso integral ao processo condicionada à análise e autorização da unidade responsável. § 4º Após a realização do cadastro como usuário externo no SEI, a consulta técnica deverá ser apresentada por meio do Peticionamento Eletrônico, ocasião em que o interessado deverá instruí-la com: I - Formulário Padrão de Consulta Técnica constante do Anexo; II - documentos ou evidências que subsidiem a análise da matéria; e III - identificação completa do interessado e, quando cabível, do representante legal ou procurador legalmente constituído. § 5º Excepcionalmente, o interessado poderá ser atendido presencialmente no Protocolo-Geral do Ministério da Agricultura e Pecuária, localizado na Esplanada dos Ministérios, Bloco D, Brasília-DF ou nas sedes das Superintendências de Agricultura e Pecuária, em cada estado, conforme relação de Superintendências disponível no sítio do Ministério da Agricultura e Pecuária. § 6º O atendimento presencial destinar-se-á ao apoio à formalização da consulta técnica por meio do Peticionamento Eletrônico no SEI e ao cadastro do interessado como usuário externo, observadas as disposições e o fluxo definidos em normativos internos do Ministério da Agricultura e Pecuária. § 7º Consultas enviadas por e-mail, telefone ou outros meios informais não serão analisadas, não gerando obrigação de manifestação técnica por parte das unidades finalísticas. § 8º Caso as unidades do Ministério da Agricultura e Pecuária recebam consultas técnicas por meios diversos do Peticionamento Eletrônico, deverão orientar o interessado quanto ao registro da demanda no canal oficial, assegurando que a tramitação, análise e resposta ocorram exclusivamente por meio do fluxo previsto nesta Portaria. CAPÍTULO III DA ATUAÇÃO DA OUVIDORIA E DO SERVIÇO DE INFORMAÇÃO AO CIDADÃO - SIC Art. 6º As consultas técnicas apresentadas indevidamente por meio da Plataforma Fala.BR serão tratadas conforme o disposto na Súmula nº 1, de 2015, da Comissão Mista de Reavaliação de Inf",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "113-C",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MAPA NA 919 DE 17 DE JU-11826210",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "602_20260619_24049976.xml"
     },
     {
       "id": "49889105",
