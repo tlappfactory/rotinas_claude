@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-24",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 129,
+      "pdf_text_chars": 15481,
+      "total_atos_detectados": 12,
+      "matched_atos": 3,
+      "headers_sample": [
+        "Ato SECOR N° 34/2026",
+        "ATO PRESI SECOR Nº 31/2026",
+        "Ato SECOR N° 35/2026",
+        "ATO PRESI SECOR N° 32/2026",
+        "Ato SECOR N° 38/2026",
+        "ATO PRESI SECOR Nº 34/2026",
+        "Ato SECOR N° 39/2026",
+        "ATO PRESI SECOR Nº 31/2026",
+        "Ato SECOR N° 37/2026",
+        "ATO PRESI SECOR Nº 34/2026",
+        "Ato SECOR N° 36/2026",
+        "ATO PRESI SECOR Nº 33/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 89,
+      "pdf_text_chars": 5979,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CSJT.GP.SG.SEJUR N.º 66, de 22 de JUNHO de 2026.",
+        "ATO CSJT.GP.SG.SEJUR N.º 67, de 22 de JUNHO de 2026."
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 88,
+      "pdf_text_chars": 4534,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TST.GP N° 335, DE 23 DE JUNHO DE 2026",
+        "ATO GDGSET.GP.Nº 331, DE 22 DE JUNHO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 3,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR Nº 31/2026",
+      "text_resumo": "ATO PRESI SECOR Nº 31/2026\n\n\n     A DESEMBARGADORA NO EXERCÍCIO EVENTUAL DA FUNÇÃO CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n  REGIÃO, no uso de suas atribuições legais e regimentais,\n\n\n      CONSIDERANDO os termos da Resolução Administrativa TRT 17 nº 54/2026, que deferiu o gozo de licença-prêmio ao Desembargador\n  Cláudio Armando Couce de Menezes no período de 30/06 a 27/09/2026;\n\n\n      CONSIDERANDO os termos da Resolução n.º 72 do Conselho Nacional de Justiça, bem como o disposto no artigo 101 do Regimento Interno\n  do TRT da 17ª Região, e\n\n\n       CONSIDERANDO a ordem de antiguidade dos Juízes e Juízas Titulares do Primeiro Grau,\n\n\n                                                                  CONVOCAR\n\n\n  ad referendum, NEY ALVARES PIMENTA FILHO, Juiz Titular da 11ª Vara do Trabalho de Vitória, para integrar a 1ª Turma deste Tribunal no\n  período de 30/06 a 27/09/2029.\n\n\n       Publique-se.\n\n\n\n\n                                                   Wanda Lúcia Costa Leite França Decuzzi\n                                           Desembargadora no exercício eventual da função Corregedora\n\n\nCódigo para aferir autenticidade deste caderno: 238897\n\f       4499/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        2\n       Data da Disponibilização: Terça-feira, 23 de Junho de 2026\n\n\n\n\n                             Documento assinado eletronicamente por Wanda Lúcia Costa Leite França Decuzzi, Desembargadora do Trabalho, em\n                             22/06/2026, às 17:30, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                            A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                            informando o código verificador 1322266 e o código CRC F8FEEE82.\n\n\n\n\n                                                                Publicação DEJT SEI - Ato",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR Nº 31/2026",
+      "text_resumo": "ATO PRESI SECOR Nº 31/2026\n                                            Republicado em razão de erro material no período de convocação\n\n      A DESEMBARGADORA NO EXERCÍCIO EVENTUAL DA FUNÇÃO CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n  REGIÃO, no uso de suas atribuições legais e regimentais,\n\n\n       CONSIDERANDO os termos da Resolução Administrativa TRT 17 nº 54/2026, que deferiu o gozo de licença-prêmio ao Desembargador\n  Cláudio Armando Couce de Menezes no período de 30/06 a 27/09/2026;\n\n\n      CONSIDERANDO os termos da Resolução n.º 72 do Conselho Nacional de Justiça, bem como o disposto no artigo 101 do Regimento Interno\n  do TRT da 17ª Região, e\n\n\n       CONSIDERANDO a ordem de antiguidade dos Juízes e Juízas Titulares do Primeiro Grau,\n\n\n                                                                       CONVOCAR\n\n\n  ad referendum, NEY ALVARES PIMENTA FILHO, Juiz Titular da 11ª Vara do Trabalho de Vitória, para integrar a 1ª Turma deste Tribunal no\n  período de 30/06 a 27/09/2026.\n\n\n       Publique-se.\n\n\n\n\n                                                     Wanda Lúcia Costa Leite França Decuzzi\n                                             Desembargadora no exercício eventual da função Corregedora\n\n\n\n\n                         Documento assinado eletronicamente por Wanda Lúcia Costa Leite França Decuzzi, Desembargadora do Trabalho, em\n                         23/06/2026, às 14:53, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1322526 e o código CRC 99A2B95E.\n\n\n\n\n                                                            Publicação DEJT SEI - Ato",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR Nº 33/2026",
+      "text_resumo": "ATO PRESI SECOR Nº 33/2026\n\n\n               A DESEMBARGADORA NO EXERCÍCIO EVENTUAL DA FUNÇÃO CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO\n  DA 17ª REGIÃO, no uso de suas atribuições legais e regimentais,\n\n\n\n                CONSIDERANDO a convocação do Juiz Ney Alvares Pimenta Filho, Titular da 11ª Vara do Trabalho de Vitória, para atuar na 1ª\n  Turma deste Tribunal em razão da licença-prêmio do Desembargador Cláudio Armando Couce de Menezes, resolve\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238897\n\f   4499/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        6\n   Data da Disponibilização: Terça-feira, 23 de Junho de 2026\n\n\n\n                                                                          DESIGNAR\n\n\n\n  TAYANNE COELHO MANTOVANELI, Juíza do Trabalho Substituta, para auxiliar na 11ª Vara do Trabalho de Vitória de 14/07 a 19/07/2026.\n\n\n\n                  Publique-se.\n\n\n                                                     Wanda Lúcia Costa Leite França Decuzzi\n                                             Desembargadora no exercício eventual da função Corregedora\n\n\n\n\n                         Documento assinado eletronicamente por Wanda Lúcia Costa Leite França Decuzzi, Desembargadora do Trabalho, em\n                         22/06/2026, às 17:30, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1322269 e o código CRC 20A9DA8B.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                         1\n   REGIONAL\n    Ato                                                               1\n     Ato                                                              1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 238897",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
