@@ -1,7 +1,7 @@
 {
   "date": "2026-06-24",
-  "total_xml_files": 1331,
-  "matched_articles": 179,
+  "total_xml_files": 1355,
+  "matched_articles": 182,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2005,6 +2005,32 @@
       "xml_file": "515_20260624_24064300.xml"
     },
     {
+      "id": "49976403",
+      "section": "DO1E",
+      "pub_date": "24/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Gabinete da Ministra",
+      "identifica": "PORTARIA MGI Nº 5.092, DE 22 DE JUNHO DE 2026 (*)",
+      "orgao": "",
+      "ementa": "Autoriza a realização de concurso público para provimento de cargos do quadro de pessoal da Agência Nacional de Proteção de Dados.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MGI Nº 5.092, DE 22 DE JUNHO DE 2026 (*) Autoriza a realização de concurso público para provimento de cargos do quadro de pessoal da Agência Nacional de Proteção de Dados. A MINISTRA DE ESTADO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso de suas atribuições que lhe confere o art. 87, parágrafo único, inciso IV, da Constituição, e tendo em vista o disposto no art. 27, caput, inciso I, do Decreto nº 9.739, de 28 de março de 2019, e conforme as informações do Processo nº 14021.035142/2026-00, resolve: Art. 1º Fica autorizada a realização de concurso público para o provimento de cinquenta cargos no quadro de pessoal da Agência Nacional de Proteção de Dados - ANPD, conforme especificado no Anexo. Art. 2º O provimento dos cargos de que trata o art. 1º dependerá de autorização do Ministério da Gestão e da Inovação em Serviços Públicos, e está condicionado: I - à homologação do resultado final do concurso; e II - à declaração do ordenador de despesa responsável, quando do provimento dos cargos, sobre a adequação orçamentária e financeira da nova despesa à Lei Orçamentária Anual e sua compatibilidade com a Lei de Diretrizes Orçamentárias, demonstrando a origem dos recursos a serem utilizados. Art. 3º A responsabilidade pela realização do concurso público será do órgão ou da entidade de que trata o art. 1º, a quem caberá: I - editar as respectivas normas, mediante a publicação de editais, portarias ou outros atos administrativos necessários à realização do concurso público, de acordo com as disposições do Decreto nº 9.739, de 28 de março de 2019; II - observar as leis e os regulamentos que tratem sobre políticas de reserva de vagas em concursos públicos e assegurar que as ações e procedimentos previstos durante toda a validade do concurso público estejam alinhados ao alcance da efetividade de tais políticas; e III - zelar pela conformidade legal dos procedimentos relacionados ao planejamento e à execução do concurso público. Art. 4º O prazo para a publicação do edital de abertura do concurso público será de até seis meses, contados a partir da publicação desta Portaria. Parágrafo único. A não publicação do edital de abertura do concurso público no prazo estabelecido no caput implicará: I - a perda dos efeitos desta Portaria; e II - o cancelamento do atesto de disponibilidade orçamentária para a realização do concurso público. Art. 5º O prazo de antecedência mínima entre a publicação do edital de que trata o art. 4º, caput, e a realização da primeira prova do certame será de dois meses. Art. 6º Esta Portaria entra em vigor na data de sua publicação. ESTHER DWECK ANEXO Cargo Escolaridade Vagas para Ampla Concorrência Vagas reservadas para pessoas negras Vagas reservadas para pessoas com deficiência Vagas reservadas para indígenas Vagas reservadas para quilombolas Total de Vagas Especialista em Regulação de Proteção de Dados NS 31 13 3 2 1 50 TOTAL 31 13 3 2 1 50 Republicada por ter saído no DOU de 24/6/2026, Seção 1, pág. 79, com incorreção.",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "116-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MGI NA 5.092 DE 22 DE J-11836043",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260624_24064298.xml"
+    },
+    {
       "id": "49955149",
       "section": "DO2",
       "pub_date": "24/06/2026",
@@ -3307,6 +3333,58 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260624_24067860-1.xml"
+    },
+    {
+      "id": "49981388",
+      "section": "DO1E",
+      "pub_date": "24/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Planejamento e Orçamento/Gabinete do Ministro",
+      "identifica": "PORTARIA GM/MPO Nº 262, DE 24 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos Órgãos do Poder Executivo Federal, crédito suplementar no valor de R$ 3.085.008.914,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA GM/MPO Nº 262, DE 24 DE JUNHO DE 2026 Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos Órgãos do Poder Executivo Federal, crédito suplementar no valor de R$ 3.085.008.914,00, para reforço de dotações constantes da Lei Orçamentária vigente. O MINISTRO DE ESTADO DO PLANEJAMENTO E ORÇAMENTO, no uso da competência que lhe foi delegada pelo art. 1º, inciso II, do Decreto nº 12.813, de 9 de janeiro de 2026, e tendo em vista as autorizações contidas no art. 4º, § 1º, inciso IV; § 2º, inciso I; § 3º, incisos III e V; e § 4º, inciso I, da Lei nº 15.346, de 14 de janeiro de 2026, e no art. 53, § 2º, da Lei nº 15.321, de 31 de dezembro de 2025, resolve: Art. 1º Abrir aos Orçamentos Fiscal e da Seguridade Social da União (Lei nº 15.346, de 14 de janeiro de 2026), em favor de diversos Órgãos do Poder Executivo Federal, crédito suplementar no valor de R$ 3.085.008.914,00 (três bilhões, oitenta e cinco milhões, oito mil, novecentos e quatorze reais), para atender às programações constantes do Anexo I. Art. 2º Os recursos necessários à abertura do crédito de que trata o art. 1º decorrem de anulação de dotações orçamentárias conforme indicado no Anexo II. Art. 3º Esta Portaria entra em vigor na data de sua publicação. BRUNO MORETTI ANEXOS ÓRGÃO: 24000 - Ministério da Ciência, Tecnologia e Inovação UNIDADE: 24901 - Fundo Nacional de Desenvolvimento Científico e Tecnológico ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 2308 Consolidação do Sistema Nacional de Ciência, Tecnologia e Inovação - SNCTI 150.000.000 Atividades 2308 21IG Apoio a Projetos de Pesquisa, Desenvolvimento e Inovação Desenvolvidos pelas Organizações Sociais com Contrato de Gestão com o MCTI (Lei nº 11.540 de 12 de novembro de 2007) 19 571 150.000.000 2308 21IG 0001 Apoio a Projetos de Pesquisa, Desenvolvimento e Inovação Desenvolvidos pelas Organizações Sociais com Contrato de Gestão com o MCTI (Lei nº 11.540 de 12 de novembro de 2007) - Nacional 19 571 150.000.000 F 3-ODC 2 50 0 1050 150.000.000 TOTAL - FISCAL 150.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 150.000.000 ÓRGÃO: 44000 - Ministério do Meio Ambiente e Mudança do Clima UNIDADE: 44101 - Ministério do Meio Ambiente e Mudança do Clima - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 1.828.317 Atividades 0032 2000 Administração da Unidade 18 122 1.828.317 0032 2000 0001 Administração da Unidade - Nacional 18 122 1.828.317 F 3-ODC 2 90 0 1000 1.328.317 F 3-ODC 2 90 0 3000 500.000 TOTAL - FISCAL 1.828.317 TOTAL - SEGURIDADE 0 TOTAL - GERAL 1.828.317 ÓRGÃO: 49000 - Ministério do Desenvolvimento Agrário e Agricultura Familiar UNIDADE: 49101 - Ministério do Desenvolvimento Agrário e Agricultura Familiar - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 4.899.361 Atividades 0032 2000 Administração da Unidade 21 122 4.899.361 0032 2000 0001 Administração da Unidade - Nacional 21 122 4.899.361 F 3-ODC 2 90 0 1000 4.899.361 TOTAL - FISCAL 4.899.361 TOTAL - SEGURIDADE 0 TOTAL - GERAL 4.899.361 ÓRGÃO: 49000 - Ministério do Desenvolvimento Agrário e Agricultura Familiar UNIDADE: 49201 - Instituto Nacional de Colonização e Reforma Agrária - INCRA ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 8.000.000 Atividades 0032 2000 Administração da Unidade 21 122 7.806.759 0032 2000 0001 Administração da Unidade - Nacional 21 122 7.806.759 F 3-ODC 2 90 0 1000 7.806.759 0032 216H Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 21 122 193.241 0032 216H 0001 Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos - Nacional 21 122 193.241 Agente público beneficiado (unidade): 60 (Acréscimo) F 3-ODC 2 90 0 1000 193.241 TOTAL - FISCAL 8.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 8.000.000 ÓRGÃO: 51000 - Ministério do Esporte UNIDADE: 51101 - Ministério do Esporte - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 2.000.000 Atividades 0032 4641 Publicidade de Utilidade Pública 27 131 2.000.000 0032 4641 0001 Publicidade de Utilidade Pública - Nacional 27 131 2.000.000 F 3-ODC 2 90 0 1052 2.000.000 0910 Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais 2.000 Operações Especiais 0910 00UU Contribuições Regulares a Organismos Internacionais de Direito Privado sem Exigência de Programação Específica 28 846 2.000 0910 00UU 0002 Contribuições Regulares a Organismos Internacionais de Direito Privado sem Exigência de Programação Específica - Exterior 28 846 2.000 F 3-ODC 2 80 0 1034 2.000 5126 Esporte para a Vida 10.254.328 Atividades 5126 20JP Desenvolvimento de Atividades e Apoio a Programas, eventos e Projetos de Esporte Amador, Educação, Lazer e Inclusão Social 27 812 3.500.000 5126 20JP 0001 Desenvolvimento de Atividades e Apoio a Programas, eventos e Projetos de Esporte Amador, Educação, Lazer e Inclusão Social - Nacional 27 812 3.500.000 F 3-ODC 2 40 0 1052 3.500.000 5126 216T Apoio a Projetos de Excelência Esportiva nas Fases de Alto Rendimento e Transição de Carreira 27 811 1.50",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "11",
+      "edition": "116-B",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria MPO NA262DE 24 DE JUNHO-11840503",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "ajuda_custo_transporte"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "601_20260624_24071185-1.xml"
+    },
+    {
+      "id": "49949183",
+      "section": "DO1E",
+      "pub_date": "24/06/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "identifica": "PORTARIA ICMBIO Nº 2.889, DE 19 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "Aprova o Perfil da Família Beneficiária da Reserva Extrativista do Lago do Cuniã (processo ICMBio nº 02070.000696/2015-61).",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA ICMBIO Nº 2.889, DE 19 DE JUNHO DE 2026 Aprova o Perfil da Família Beneficiária da Reserva Extrativista do Lago do Cuniã (processo ICMBio nº 02070.000696/2015-61). O PRESIDENTE DO INSTITUTO CHICO MENDES DE CONSERVAÇÃO DA BIODIVERSIDADE - ICMBio, nomeado pela Portaria de Pessoal nº 2.464 da Casa Civil, de 16 de maio de 2023, publicada no Diário Oficial da União de 17 de maio de 2023, no uso das competências atribuídas pelo art. 15, Seção I, Capítulo VI do Anexo I do Decreto nº 12.258, de 25 de novembro de 2024, resolve: Art. 1º Fica aprovada o Perfil da Família Beneficiária da Reserva Extrativista do Lago do Cuniã, constante no Anexo da presente Portaria. Art. 2º Esta Portaria entra em vigor na data de sua publicação. MAURO OLIVEIRA PIRES ANEXO Art. 1º São consideradas famílias beneficiárias da Reserva Extrativista do Lago do Cuniã - Resex do Lago do Cuniã aquelas que atendem simultaneamente aos seguintes critérios: I - se autorreconhecem e são reconhecidas pela comunidade como família tradicional vinculada ao território da Resex do Lago do Cuniã; II - possuem ancestralidade no local e parentesco com moradores nativos da Resex do Lago do Cuniã; III - residem de forma permanente no interior da Resex do Lago do Cuniã ou em suas comunidades do entorno por período mínimo de um ano consecutivo, tendo obtido a aprovação de moradia em assembleia da Associação dos Moradores Extrativistas Produtores Rurais da Reserva Extrativista do Lago do Cuniã - ASMOCUN, conforme previsto em regramento estabelecido na cogestão da Resex do Lago do Cuniã; IV - têm no território da Unidade de Conservação a base de suas atividades de sustento, tais como a pesca, o extrativismo do açaí, da castanha e de óleos vegetais, a criação de animais de pequeno porte, o manejo do jacaré, a agricultura familiar e o turismo comunitário; V - reconhecem, valorizam e orgulham-se das tradições, dos costumes, do modo de vida, da cultura e da história local, mantendo a transmissão desses saberes às novas gerações. § 1º Para fins desta Portaria, o entorno da Resex do Lago do Cuniã se constitui pelos limites das comunidades Terra Caída e Boa Vitória. § 2º São beneficiárias da Resex do Lago do Cuniã as famílias dos aposentados, funcionários públicos e prestadores dos serviços considerados essenciais pelas comunidades, desde que sejam moradores nativos ou descendentes, residam permanentemente no território e respeitem o modo de vida local. § 3º As famílias de professores, agentes comunitários de saúde, merendeiros e outros profissionais considerados relevantes para a comunidade, não oriundos de famílias tradicionais e/ou que não possuem parentesco com moradores nativos, mas que moram e trabalham há no mínimo 01 ano no interior ou entorno da Resex do Lago do Cuniã e criaram vínculos com as comunidades do território poderão ser consideradas beneficiárias, desde que aprovados em assembleia da ASMOCUN. § 4º As famílias beneficiárias que se ausentarem da Resex do Lago do Cuniã por período superior a 60 (sessenta) dias, em razão de estudos, tratamento de saúde ou eventos climáticos extremos como enchentes e secas, continuarão sendo consideradas beneficiárias, desde que mantenham vínculo com o local de moradia, zelem por sua conservação e comuniquem os motivos da ausência à ASMOCUN, por meio de carta escrita, conforme previsto em regramentos estabelecidos na cogestão da Resex do Lago do Cuniã. § 5º Será permitida a entrada de novos moradores, desde que sejam esposas e esposos de \"filhos do Cuniã\" ou outros parentes moradores, conforme previsto em regramentos estabelecidos da cogestão da Resex do Lago do Cuniã. Art. 2º Serão considerados usuários da Resex do Lago do Cuniã aqueles que não atendam aos critérios estabelecidos no art. 1º, mas utilizem os recursos naturais da Unidade de Conservação: I - aqueles que retornem a residir na Resex do Lago do Cuniã antes de completarem um ano de residência contínua; II - professores, comerciantes, prestadores de serviços e todos aqueles que atuem e/ou residam temporariamente na Resex do Lago do Cuniã; III - turistas, pesquisadores e demais pessoas que venham a desenvolver atividades no território, desde que tais atividades sejam previamente autorizadas pela comunidade por meio da ASMOCUN e/ou pela Cooperativa de Pescadores, Aquicultores, Agricultores e Extrativistas da Resex Cuniã - COOPCUNIÃ. Art. 3º Disposições finais: I - as famílias beneficiárias e os usuários deverão conservar o meio ambiente e zelar pelos recursos naturais da Unidade de Conservação, respeitando as normas e diretrizes estabelecidas nos instrumentos e instâncias de gestão da Resex do Lago do Cuniã, incluindo Conselho Deliberativo, Plano de Manejo, Acordo de Gestão, Contrato de Concessão de Direito Real de Uso - CCDRU, ASMOCUN, COOPCUNIÃ, e demais órgãos e regulamentos pertinentes, bem como os direitos dos demais moradores; II - o acesso às políticas públicas, pelas famílias beneficiárias, deverá ocorrer conforme os critérios específicos estabelecidos em cada programa ou instrumento de política pública aplicável; III - a repartição de benefícios provenientes de projetos ou programas privados deverá respeitar os critérios previstos nesta Portaria; e IV - as situações não previstas nesta Portaria serão analisadas e deliberadas pela Câmara Temática de Famílias Beneficiárias e/ou pelo Conselho Deliberativo da Resex do Lago do Cuniã.",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "10",
+      "edition": "116-B",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA ICMBIO NA 2889 DE 19 DE-11836067",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "601_20260624_24064279.xml"
     },
     {
       "id": "49949080",
