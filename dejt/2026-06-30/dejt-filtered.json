@@ -2,14 +2,7 @@
   "date": "2026-06-30",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 94,
-      "pdf_text_chars": 4932,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 54/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"

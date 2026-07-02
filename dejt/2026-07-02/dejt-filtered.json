@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-02",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 177,
+      "pdf_text_chars": 15302,
+      "total_atos_detectados": 2,
+      "matched_atos": 1,
+      "headers_sample": [
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 180/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 181/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 372,
+      "pdf_text_chars": 13170,
+      "total_atos_detectados": 6,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 348, DE 30 DE JUNHO DE 2026",
+        "ATO GDGSET.GP.N.º 346, DE 30 DE JUNHO DE 2026",
+        "ATO GDGSET.GP.Nº 349, DE 30 DE JUNHO DE 2026",
+        "ATO GDGSET.GP.N.º 347, DE 30 DE JUNHO DE 2026",
+        "ATO GDGSET.GP.Nº 350, DE 30 DE JUNHO DE 2026",
+        "RECOMENDAÇÃO Nº 1/GCGJT, DE 28 DE MAIO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 1,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 181/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 181/2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                         PORTARIA\n\n                                                                0000684-70.2026.5.17.0500\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                         DESIGNAR\n\n\n\n  Taynah Borsoi de Siqueira, Técnica Judiciária, área Administrativa, para exercer a função comissionada de Chefe de Seção - FC-05 do (a) Seção\n  de Sustentabilidade e Acessibilidade - SESAC.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\nCódigo para aferir autenticidade deste caderno: 239131\n\f   4505/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       5\n   Data da Disponibilização: Quarta-feira, 01 de Julho de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 01/07/2026,\n                         às 13:34, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1323752 e o código CRC 4A893E66.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                          1\n   REGIONAL\n    Edital                                                             1\n     Edital                                                            1\n   SECRETARIA DO TRIBUNAL PLENO                                        1\n    Pauta                                                              2\n     Pauta Administrativa                                              2\n   SECRETARIA DE ADMINISTRAÇÃO                                         2\n    Ato                                                                2\n     Ato PRESI                                                         2\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        3\n   REMOÇÃO\n    Portaria                                                           3\n     Portaria                                                          3\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239131",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    }
+  ]
+}

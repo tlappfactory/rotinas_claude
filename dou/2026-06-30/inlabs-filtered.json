@@ -1,7 +1,7 @@
 {
   "date": "2026-06-30",
-  "total_xml_files": 874,
-  "matched_articles": 233,
+  "total_xml_files": 891,
+  "matched_articles": 234,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -6333,6 +6333,32 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "529_20260630_24081106.xml"
+    },
+    {
+      "id": "50069055",
+      "section": "DO2E",
+      "pub_date": "30/06/2026",
+      "art_type": "Decreto de Pessoal",
+      "art_category": "Atos do Poder Executivo",
+      "identifica": "DECRETOS DE 30 DE JUNHO DE 2026",
+      "orgao": "",
+      "ementa": "MINISTÉRIO DAS RELAÇÕES EXTERIORES",
+      "titulo": "MINISTÉRIO DAS RELAÇÕES EXTERIORES",
+      "subtitulo": "",
+      "texto_resumo": "MINISTÉRIO DAS RELAÇÕES EXTERIORES DECRETO S DE 30 DE JUNHO DE 2026 O VICE-PRESIDENTE DA REPÚBLICA , no exercício do cargo de Presidente da República, no uso da atribuição que lhe confere o art. 84, caput , inciso XXV, da Constituição, e tendo em vista o disposto no art. 55, § 4º, da Lei nº 11.440, de 29 de dezembro de 2006, resolve: PROMOVER RÔMULO MILHOMEM FREITAS FIGUEIRA NEVES, Conselheiro da Carreira de Diplomata do Quadro Especial do Serviço Exterior Brasileiro, ao cargo de Ministro de Segunda Classe do mesmo Quadro, no âmbito das promoções na carreira de diplomata do primeiro semestre de 2026. Brasília, 30 de junho de 2026; 205º da Independência e 138º da República. GERALDO JOSÉ RODRIGUES ALCKMIN FILHO Mauro Luiz Iecker Vieira O VICE-PRESIDENTE DA REPÚBLICA , no exercício do cargo de Presidente da República, no uso da atribuição que lhe confere o art. 84, caput , inciso XXV, da Constituição, e tendo em vista o disposto na Lei nº 11.440, de 29 de dezembro de 2006, resolve: PROMOVER I- por merecimento, ao cargo de Ministro de Primeira Classe, os seguintes Ministros de Segunda Classe da Carreira de Diplomata do Quadro Permanente do Ministério das Relações Exteriores: FELIPE HEES, na vaga decorrente da aposentadoria de Luís Antonio Balduino Carneiro; JANDYR FERREIRA DOS SANTOS, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Kenneth Félix Haczynski da Nóbrega; ARNALDO DE BAENA FERNANDES, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Paulino Franco de Carvalho Neto; CHRISTIANO SÁVIO BARROS FIGUEIRÔA, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Antonio Otávio Sá Ricarte; SAULO ARANTES CEOLIN, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Luís Fernando Abbott Galvão; e PATRÍCIA WAGNER CHIARELLO, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Wladimir Valler Filho; e II- por merecimento, ao cargo de Ministro de Segunda Classe, os seguintes Conselheiros da Carreira de Diplomata do Quadro Permanente do Ministério das Relações Exteriores: ELISA MARIA ELVIRA BRETERNITZ, na vaga decorrente da aposentadoria de Ivana Marilia Mattos Dias Serra e Gurgel; FELIPE CARLOS ANTUNES, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de José Solla Vázquez Junior; CAMILO LICKS ROSTAND PRATES, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Herbert de Magalhães Drummond Neto; LUIS ALBERTO FERNÁNDEZ Y SAGARRA, na vaga decorrente da passagem para o Quadro Especial do Serviço Exterior de Joaquim Pedro de Oliveira Penna Coelho da Silva; LEANDRO VIEIRA SILVA, na vaga decorrente da promoção de Felipe Hees; IGOR FLÁVIO DE AGUIAR GERMANO, na vaga decorrente da promoção de Jandyr Ferreira dos Santos; NEY ARTUR GONÇALVES CANANI, na vaga decorrente da promoção de Arnaldo de Baena Fernandes; SÉRGIO PAULO BENEVIDES, na vaga decorrente da promoção de Christiano Sávio Barros Figueirôa; BIANCA XAVIER DE ABREU, na vaga decorrente da promoção de Saulo Arantes Ceolin; e ADRIANO BOTELHO, na vaga decorrente da promoção de Patrícia Wagner Chiarello. Brasília, 30 de junho de 2026; 205º da Independência e 138º da República. GERALDO JOSÉ RODRIGUES ALCKMIN FILHO Mauro Luiz Iecker Vieira",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "120-A",
+      "url": "https://www.in.gov.br/web/dou/-/3006_DEP_VPR_MRE_S2_EXTRA_-11851218",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "604_20260630_24086937.xml"
     }
   ]
 }
