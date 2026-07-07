@@ -2,58 +2,16 @@
   "date": "2026-07-06",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 190,
-      "pdf_text_chars": 83470,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 55/2026",
-        "ATO PRESI SECOR Nº 39/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 95,
-      "pdf_text_chars": 13735,
-      "total_atos_detectados": 3,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CONJUNTO TST.CSJT.CGJT N.º 40, DE 02 DE JULHO DE 2026.",
-        "ATO CONJUNTO TST.CSJT.CGJT N.º 41, DE 02 DE JULHO DE 2026.",
-        "ATO CSJT.GP.SG N.º 75, DE 02 DE JULHO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 231,
-      "pdf_text_chars": 58267,
-      "total_atos_detectados": 19,
-      "matched_atos": 3,
-      "headers_sample": [
-        "ATO TST.GP N° 352, DE 2 DE JULHO DE 2026",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.945, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.957, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.942, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.951, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.941, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.946, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.958, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.955, DE 9 DE FEVEREIRO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.953, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.949, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.950, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.943, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.944, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.954, DE 9 DE FEVEREIRO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.948, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.956, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.952, DE 1º DE JULHO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.947, DE 1º DE JULHO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -79,45 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "RESOLUÇÃO ADMINISTRATIVA Nº 2.955, DE 9 DE FEVEREIRO DE 2026.",
-      "text_resumo": "RESOLUÇÃO ADMINISTRATIVA Nº 2.955, DE 9 DE FEVEREIRO DE 2026.\n\n                                                                     Referenda o Ato TST.GP n° 342 que convoca o Excelentíssimo Desembargador João\n                                                                     Pedro Silvestrin, integrante do Tribunal Regional do Trabalho da 4ª Região, para\n                                                                     atuar na Subseção I da Seção Especializada em Dissídios Individuais e na 3ª Turma\n                                                                     desta Corte, no período de 3 de agosto a 19 de dezembro de 2026, ou até o dia\n                                                                     imediatamente anterior ao da posse do Ministro que vier a suceder a Excelentíssima\n                                                                     Senhora Ministra Dora Maria da Costa, caso esta ocorra antes.\n\n\n                      O EGRÉGIO ÓRGÃO ESPECIAL DO TRIBUNAL SUPERIOR DO TRABALHO, em Sessão Ordinária presencial hoje realizada,\n  sob a Presidência do Excelentíssimo Senhor Ministro Luiz Philippe Vieira de Mello Filho\n  , Presidente do Tribunal, presentes os Excelentíssimos Senhores Ministros Guilherme Augusto Caputo Bastos, Vice-Presidente do Tribunal, Ives\n  Gandra da Silva Martins Filho, Lelio Bentes Corrêa, Maurício José Godinho Delgado, Amaury Rodrigues Pinto Junior, Alberto Bastos Balazeiro,\n  Morgana de Almeida, Sergio Pinto Martins e Antônio Fabrício de Matos Gonçalves, e o Excelentíssimo Senhor Gláucio Araújo de Oliveira,\n  Procurador-Geral do Trabalho,\n\n                        RESOLVE\n\n\n\n  Referendar o Ato TST.GP n° 342, de 26 de junho de 2026, praticado pelo Excelentíssimo Senhor Ministro Presidente do Tribunal, nos seguintes\n  termos:\n\n\n\n                        “ATO TST.GP N° 342, DE 26 DE JUNHO DE 2026\n\n                                                                             Convoca o Excelentíssimo Desembargador João Pedro Silvestrin, integrante\n                                                                             do Tribunal Regional do Trabalho da 4ª Região, para atuar no Tribunal\n                                                                             Superior do Trabalho.\n\n                        O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, ad referendum\n                        do Órgão Especial,\n\n                        considerando a aposentadoria da Excelentíssima Senhora Ministra Dora Maria da Costa, ocorrida em 1º de fevereiro de 2026;\n\n\n\n                        considerando a existência de 1 (uma) vaga aberta e ainda não provida na Subseção I da Seção Especializada em Dissídios\n                        Individuais;\n\n                        considerando a remoção da Excelentíssima Senhora Ministra Maria Helena Mallmann para a Subseção II da Seção\n                        Especializada em Dissídios Individuais, em 12 de fevereiro de 2026,\n\n                        RESOLVE\n\n                        Art. 1º Convocar o Excelentíssimo Desembargador João Pedro Silvestrin, integrante do Tribunal Regional do Trabalho da 4ª\n                        Região, para atuar na Subseção I da Seção Especializada em Dissídios Individuais e na 3ª Turma desta Corte, no período de 3\n                        de agosto a 19 de dezembro de 2026, ou até o dia imediatamente anterior ao da posse do Ministro que vier a suceder a\n                        Excelentíssima Senhora Ministra Dora Maria da Costa, caso esta ocorra antes.\n\n                        Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n                        Publique-se.”\n\n\n\n  Publique-se.\n\n\n\n\n                                                           LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n\n\n\nCódigo para aferir autenticidade deste caderno: 239219\n\f   4507/2026                                                      Tribunal Superior do Trabalho                                                     7\n   Data da Disponibilização: Sexta-feira, 03 de Julho de 2026\n\n\n\n                                                      Ministro Presidente do Tribunal Superior do Trabalho",
-      "text_truncated": false,
-      "strong_keywords": [
-        "aposentadoria",
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 20
-    },
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "RESOLUÇÃO ADMINISTRATIVA Nº 2.949, DE 1º DE JULHO DE 2026.",
-      "text_resumo": "RESOLUÇÃO ADMINISTRATIVA Nº 2.949, DE 1º DE JULHO DE 2026.\n\n\n                                                                     Referenda o Ato TST.GP n.° 326, de 17 de junho de 2026, que convoca,\n                                                                     excepcionalmente, o Excelentíssimo Senhor Desembargador João Pedro Silvestrin,\n                                                                     integrante do Tribunal Regional do Trabalho da 4ª Região, para atuar na Subseção I\n                                                                     da Seção Especializada em Dissídios Individuais, no período de 1º a 30 de junho de\n                                                                     2026.\n\n\n                      O EGRÉGIO ÓRGÃO ESPECIAL DO TRIBUNAL SUPERIOR DO TRABALHO, em Sessão Ordinária presencial hoje realizada,\n  sob a Presidência do Excelentíssimo Senhor Ministro Luiz Philippe Vieira de Mello Filho\n  , Presidente do Tribunal, presentes os Excelentíssimos Senhores Ministros Guilherme Augusto Caputo Bastos, Vice-Presidente do Tribunal, Ives\n  Gandra da Silva Martins Filho, Lelio Bentes Corrêa, Maurício José Godinho Delgado, Amaury Rodrigues Pinto Junior, Alberto Bastos Balazeiro,\n  Morgana de Almeida, Sergio Pinto Martins e Antônio Fabrício de Matos Gonçalves, e o Excelentíssimo Senhor Gláucio Araújo de Oliveira,\n  Procurador-Geral do Trabalho,\n\n                        RESOLVE\n\n  Referendar o Ato TST.GP n.º 326, de 17 de junho de 2026, praticado pelo Excelentíssimo Senhor Ministro Presidente do Tribunal, nos seguintes\n  termos:\n\n                        “ATO TST.GP N° 326, DE 17 DE JUNHO DE 2026.\n\n                                                                             Convoca o Exmo. Desembargador João Pedro Silvestrin, integrante do\n                                                                             Tribunal Regional do Trabalho da 4ª Região, para, excepcionalmente, atuar\n                                                                             na Subseção I da Seção Especializada em Dissídios Individuais desta Corte.\n\n\n\n                        O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, ad referendum\n                        do Órgão Especial,\n\n\n\nCódigo para aferir autenticidade deste caderno: 239219\n\f   4507/2026                                                      Tribunal Superior do Trabalho                                                      8\n   Data da Disponibilização: Sexta-feira, 03 de Julho de 2026\n\n\n\n                        considerando o princípio da continuidade dos serviços públicos e, de modo particular, da atividade jurisdicional, que deverá ser\n                        ininterrupta, na forma do inciso XII do art. 93 da Constituição da República;\n\n                        considerando a garantia inserta no inciso LXXVIII do art. 5º da Constituição da República, que assegura a todos, no âmbito\n                        judicial, a razoável duração do processo e os meios que garantam a celeridade de sua tramitação;\n\n                        considerando a existência de farta jurisprudência no sentido de que a convocação de magistrado para atuar em substituição,\n                        no caso de vaga ou afastamento por prazo superior a 30 (trinta) dias de integrante de Tribunal, não viola o princípio do juiz\n                        natural;\n\n                        considerando as Resoluções Administrativas nºs 2.494, de 2 de outubro de 2023, e 2.538, de 4 de março de 2024, que\n                        convocaram a Exma. Desembargadora Margareth Rodrigues Costa, integrante do Tribunal Regional do Trabalho da 5ª Região,\n                        para, excepcionalmente, atuar na Subseção II da Seção Especializada em Dissídios Individuais;\n\n                        considerando as Resoluções Administrativas nºs 2.517, de 4 de dezembro de 2023, e 2.526, de 19 de dezembro de 2023, que\n                        convocaram, excepcionalmente, o Exmo. Desembargador José Pedro de Camargo Rodrigues de Souza, integrante do Tribunal\n                        Regional do Trabalho da 15ª Região, para atuar também na Subseção II da Seção Especializada em Dissídios Individuais;\n\n                        considerando a existência de 2 (duas) vagas abertas e ainda não providas na Subseção I da Seção Especializada em\n                        Dissídios Individuais;\n\n                        considerando a remoção da Exma. Ministra Maria Helena Mallmann para a Subseção II da Seção Especializada em Dissídios\n                        Individuais, em 12 de fevereiro de 2026,\n\n                        RESOLVE\n\n                        Art. 1º Fica convocado, excepcionalmente, o Exmo. Desembargador João Pedro Silvestrin, integrante do Tribunal Regional do\n                        Trabalho da 4ª Região, para atuar na Subseção I da Seção Especializada em Dissídios Individuais, na cadeira anteriormente\n                        ocupada pela Exma. Ministra Maria Helena Mallmann, no período de 1º a 30 de junho de 2026.\n\n                        Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n                        Publique-se.”\n\n  Publique-se.\n\n\n\n\n                                                           LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n                                                      Ministro Presidente do Tribunal Superior do Trabalho",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 16
-    },
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "RESOLUÇÃO ADMINISTRATIVA Nº 2.947, DE 1º DE JULHO DE 2026.",
-      "text_resumo": "RESOLUÇÃO ADMINISTRATIVA Nº 2.947, DE 1º DE JULHO DE 2026.\n\n\n                                                                    Referenda os atos administrativos que autorizaram o afastamento do Excelentíssimo\n                                                                    Senhor Ministro Mauricio Godinho Delgado, nos dias 11 e 12 de junho e no período\n                                                                    de 15 a 18 de junho de 2026, em razão de licença por motivo de doença em pessoa\n                                                                    da família.\n\n\n                      O EGRÉGIO ÓRGÃO ESPECIAL DO TRIBUNAL SUPERIOR DO TRABALHO, em Sessão Ordinária presencial hoje realizada,\n  sob a Presidência do Excelentíssimo Senhor Ministro Luiz Philippe Vieira de Mello Filho\n  , Presidente do Tribunal, presentes os Excelentíssimos Senhores Ministros Guilherme Augusto Caputo Bastos, Vice-Presidente do Tribunal, Ives\n  Gandra da Silva Martins Filho, Lelio Bentes Corrêa, Maurício José Godinho Delgado, Amaury Rodrigues Pinto Junior, Alberto Bastos Balazeiro,\n  Morgana de Almeida, Sergio Pinto Martins e Antônio Fabrício de Matos Gonçalves, e o Excelentíssimo Senhor Gláucio Araújo de Oliveira,\n  Procurador-Geral do Trabalho,\n\n                        RESOLVE\n\n  Referendar os atos administrativos praticados pelo Excelentíssimo Senhor Ministro Presidente do Tribunal, de 12 e 15 de junho de 2026, que\n  autorizaram o afastamento do Excelentíssimo Senhor Ministro Mauricio Godinho Delgado, nos dias 11 e 12 de junho e no período de 15 a 18 de\n  junho de 2026, em razão de licença por motivo de doença em pessoa da família.\n\n  Publique-se.\n\n\n\n\n                                                           LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n                                                      Ministro Presidente do Tribunal Superior do Trabalho\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239219\n\f   4507/2026                                                    Tribunal Superior do Trabalho   13\n   Data da Disponibilização: Sexta-feira, 03 de Julho de 2026\n\n\n\n\n                                                                           ÍNDICE\n\n\n   Presidência                                                         1\n    Ato                                                                1\n     Ato_Pres                                                          1\n   Secretaria-Geral Judiciária                                         1\n    Resolução                                                          1\n     Resolução Administrativa                                          1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239219",
-      "text_truncated": false,
-      "strong_keywords": [
-        "licenca_saude"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
