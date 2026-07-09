@@ -1,7 +1,7 @@
 {
   "date": "2026-07-07",
-  "total_xml_files": 1074,
-  "matched_articles": 159,
+  "total_xml_files": 1088,
+  "matched_articles": 161,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -109,6 +109,39 @@
       "weak_keywords": [],
       "score": 25,
       "xml_file": "529_20260707_24106247.xml"
+    },
+    {
+      "id": "50174621",
+      "section": "DO1E",
+      "pub_date": "07/07/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Ciência, Tecnologia e Inovação/Gabinete da Ministra",
+      "identifica": "PORTARIA MCTI Nº 10.171, DE 3 DE JULHO DE 2026",
+      "orgao": "",
+      "ementa": "Aprova o Regimento Interno do Centro de Tecnologia da Informação Renato Archer do Ministério da Ciência, Tecnologia e Inovação.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MCTI Nº 10.171, DE 3 DE JULHO DE 2026 Aprova o Regimento Interno do Centro de Tecnologia da Informação Renato Archer do Ministério da Ciência, Tecnologia e Inovação. A MINISTRA DE ESTADO DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II da Constituição, e tendo em vista o disposto no art. 11 do Decreto nº 10.829, de 05 de outubro de 2021, no art. 5º do Decreto nº 11.493, de 17 de abril de 2023, resolve: Art. 1º Fica aprovado o Regimento Interno do Centro de Tecnologia da Informação Renato Archer do Ministério da Ciência, Tecnologia e Inovação, na forma do Anexo a esta Portaria. Art. 2º Fica revogada a Portaria nº 7.049, de 24 de maio de 2023. Art. 3º Esta Portaria entra em vigor sete dias úteis após a data de sua publicação. LUCIANA SANTOS ANEXOREGIMENTO INTERNO DO CENTRO DE TECNOLOGIA DA INFORMAÇÃO RENATO ARCHER CAPÍTULO I DA CATEGORIA, SEDE E COMPETÊNCIA Art. 1º O Centro de Tecnologia da Informação Renato Archer - CTI é unidade de pesquisa integrante da estrutura do Ministério da Ciência, Tecnologia e Inovação, na forma do disposto no Decreto nº 11.493, de 17 de abril de 2023. Art. 2º O Centro de Tecnologia da Informação Renato Archer é Instituição Científica, Tecnológica e de Inovação - ICT, nos termos da Lei nº 10.973, de 2 de dezembro de 2004, regulamentada pelo Decreto nº 9.283, de 7 de fevereiro de 2018, e pode ser apoiada por fundação privada nos termos da Lei nº 8.958, de 20 de dezembro de 1994, regulamentada pelo Decreto nº 7.423, de 31 de dezembro de 2010. Art. 3º A sede do Centro de Tecnologia da Informação Renato Archer está localizada à Rodovia Dom Pedro I, km 143,6, Terminal Intermodal de Cargas - TIC, na cidade de Campinas - SP. Art. 4º Ao Centro de Tecnologia da Informação Renato Archer compete gerar, aplicar e disseminar conhecimentos em tecnologia da informação e em áreas correlatas. Parágrafo único. Compete, ainda, ao Centro: I - realizar pesquisa e desenvolvimento em áreas tecnológicas disruptivas, para promover o empreendedorismo inovador e contribuir para a soberania nacional; II - constituir-se como ambiente indutor e promotor de inovações em tecnologias digitais, transformadoras e integradas, para consolidar a soberania nacional em temas de impacto para as áreas da saúde, da agroindústria, da transição energética, da defesa e outras de interesse da sociedade; III - apoiar as atividades de produção e oferta de bens e serviços inovadores nas suas áreas de conhecimento; IV - disponibilizar serviços tecnológicos às empresas, ao governo e à sociedade em geral; V - gerir e desenvolver as atividades de apoio ao desenvolvimento de empresas de base tecnológica, sua incubação e sua inserção nos mercados nacional e internacional; VI - instalar e operar infraestrutura laboratorial em âmbito nacional para uso compartilhado; VII - contribuir para a capacitação, formação e aperfeiçoamento de recursos humanos e a difusão de conhecimentos em tecnologia da informação, empreendedorismo, gestão da inovação, transferência de tecnologia e propriedade intelectual; e VIII - utilizar os resultados obtidos, no âmbito do Centro, em aplicações de utilidade e interesse socioeconômico, contribuindo para a capacitação tecnológica, para o alcance da autonomia tecnológica e para o desenvolvimento do sistema produtivo nacional e regional do País. CAPÍTULO II DA ORGANIZAÇÃO Art. 5º O Centro de Tecnologia da Informação Renato Archer - CTI tem a seguinte estrutura organizacional: 1. Coordenação dos Laboratórios Abertos e Parque Tecnológico - COLAP 1.1. Divisão de Gestão de Laboratórios Abertos Multiusuários - DILAB 1.2. Divisão de Gestão do Parque Tecnológico - DIPAR 2. Coordenação de Planejamento, Avaliação e Governança - COPAG 2.1. Divisão de Planejamento e Análise de Desempenho - DIPAD 3. Coordenação de Gestão da Inovação - COGIN 3.1. Divisão de Comunicação - DICOM 3.2. Divisão de Parcerias e Serviços Técnicos Especializados - DIPAS 3.3. Divisão de Gestão de Projetos de Pesquisa, Desenvolvimento e Inovação - DIGPI 4. Coordenação-Geral de Computação e Aplicações de Tecnologia da Informação - CGCA 4.1. Divisão de Metodologias da Computação - DIMEC 4.2. Divisão de Sistemas Embarcados Inteligentes - DISEI 4.3. Divisão de Tecnologias para Produção e Saúde - DITPS 4.4. Divisão de Infraestrutura Computacional e Sistemas de Informação - DICSI 5. Coordenação-Geral de Microeletrônica e Semicondutores - CGMS 5.1. Divisão de Microssistemas e Empacotamento Eletrônico - DIMIE 5.2. Divisão de Fotônica e Dispositivos Semicondutores - DIFOS 5.3. Divisão de Projetos, Análise e Qualificação de Circuitos Eletrônicos - DIPAQ 5.4. Divisão de Convergência Tecnológica e Energia - DICTE 6. Coordenação-Geral de Administração - CGAD 6.1. Divisão de Gestão de Contratos - DIGEC 6.2. Divisão de Gestão de Materiais e Contratações - DIGEM 6.3. Divisão de Gestão de Pessoas - DIGEP 6.4. Divisão de Orçamento e Finanças - DIOFI 6.5. Divisão de Manutenção e Projetos de Infraestrutura - DIMPI Art. 6º O Centro de Tecnologia da Informação Renato Archer tem como órgão colegiado vinculado o Conselho Técnico-Científico - CTC. Art. 7º O Centro será dirigido por Diretor indicado e nomeado pelo Ministro de Estado da Ciência, Tecnologia e Inovação. Parágrafo único. A nomeação de que trata o caput e o mandato do Diretor se darão nos termos da Portaria MCTI nº 6.628, de 8 de dezembro de 2022. Art. 8º As Coordenações-Gerais serão dirigidas por Coordenadores-Gerais, as Coordenações por Coordenadores e as Divisões por Chefes, cujos cargos e funções serão providos pelo Ministro de Estado da Ciência, Tecnologia e Inovação, na forma da legislação pertinente. Art. 9º O Diretor será substituído, em seus afastamentos e impedimentos legais ou regulamentares, por servidor previamente indicado por ele e designado pelo Ministro de Estado da Ciência, Tecnologia e Inovação. Parágrafo único. Os ocupantes dos cargos e das funções previstos no art. 8º serão substituídos, em seus afastamentos ",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "125-A",
+      "url": "https://www.in.gov.br/web/dou/-/1 GM PORTARIA 10171 REGIMENTO IN-11863882",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "cessao_remocao_permuta",
+        "licencas_servidor",
+        "pensao"
+      ],
+      "weak_keywords": [
+        "estagio_aprendizagem",
+        "folha_esocial",
+        "substituicao_fc_cc"
+      ],
+      "score": 23,
+      "xml_file": "600_20260707_24105348.xml"
     },
     {
       "id": "50177788",
@@ -3248,6 +3281,32 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260707_24108285.xml"
+    },
+    {
+      "id": "50186098",
+      "section": "DO1E",
+      "pub_date": "07/07/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Justiça e Segurança Pública/Polícia Federal/Diretoria de Polícia Administrativa/Coordenação-Geral de Controle de Serviços e Produtos",
+      "identifica": "PORTARIA DG/PF Nº 19.080, DE 4 DE MARÇO DE 2026",
+      "orgao": "",
+      "ementa": "Institui a Comissão Consultiva para Assuntos de Segurança Privada - CCASP, no âmbito da Polícia Federal.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DG/PF Nº 19.080, DE 4 DE MARÇO DE 2026 Institui a Comissão Consultiva para Assuntos de Segurança Privada - CCASP, no âmbito da Polícia Federal. O DIRETOR-GERAL DA POLÍCIA FEDERAL, no uso da atribuição que lhe confere o art. 36, caput, inciso V, do Regimento Interno da Polícia Federal, aprovado pela Portaria nº 155, de 27 de setembro de 2018, do Ministro de Estado da Segurança Pública, publicada na seção 1 do Diário Oficial da União nº 200, de 17 de outubro de 2018, e tendo em vista o disposto na Lei nº 14.967, de 9 de setembro de 2024, e no Decreto nº 10.146, de 7 de julho de 2020, bem como o que consta do processo SEI nº 08211.002647/2025-69, resolve: Art. 1º Fica instituída a Comissão Consultiva para Assuntos de Segurança Privada - CCASP, no âmbito da Polícia Federal, com a finalidade de colaborar com a Coordenação-Geral de Controle de Serviços e Produtos - CGCSP/DPA/PF na aplicação da Lei nº 14.967, de 9 de setembro de 2024, e das demais normas reguladoras da atividade de segurança privada e segurança das instituições financeiras. CAPÍTULO I DA COMPETÊNCIA Art. 2º À CCASP compete: I - estudar e propor soluções ao coordenador-geral de Controle de Serviços e Produtos para o aprimoramento das atividades de autorização, controle e fiscalização do segmento de segurança privada e de controle e fiscalização dos planos de segurança das instituições financeiras; II - requerer relatórios estatísticos relacionados às atividades de autorização, controle e fiscalização de segurança privada e segurança das instituições financeiras, de competência da Polícia Federal; III - propor medidas para aperfeiçoamento da gestão eletrônica de processos em matéria de segurança privada e segurança das instituições financeiras; IV - apreciar e opinar sobre outras questões relacionadas com os serviços de segurança privada e planos de segurança das instituições financeiras, suscitadas por qualquer dos seus membros; e V - propor a inclusão e a exclusão de membros. CAPÍTULO II DA COMPOSIÇÃO Art. 3º A CCASP é composta pelos membros a seguir elencados: I - pela Polícia Federal, representada pelo coordenador-geral de Controle de Serviços e Produtos, que a preside; e II - pelas entidades do setor privado - com direito a voto - a seguir elencadas: a) Associação Brasileira de Cursos e Aperfeiçoamento de Vigilantes - ABCFAV; b) Associação Brasileira das Empresas de Sistemas Eletrônicos de Segurança - ABESE; c) Associação Nacional de Segurança e Transporte de Valores - ANSEGTV; d) Confederação Nacional dos Trabalhadores na Atividade Profissional dos Empregados na Prestação de Serviços de Segurança Privada - CONTRASP; e) Federação Brasileira de Bancos - FEBRABAN; f) Federação Nacional das Empresas de Transporte de Valores - FENAVAL; g) Federação Nacional dos Sindicatos das Empresas de Vigilância, Segurança e Transporte de Valores - FENAVIST; e h) Organização das Cooperativas Brasileiras - OCB. § 1º Nas ausências e impedimentos do presidente, as atividades serão presididas pelo substituto do coordenador-geral de Controle de Serviços e Produtos. § 2º Cada membro da CCASP terá um representante e um suplente, que substituirá o primeiro em suas ausências e impedimentos. § 3º Os representantes dos membros a que se referem as alíneas \"a\" a \"h\" do inciso II deste artigo e os respectivos suplentes serão: I - indicados pelos dirigentes máximos das entidades que representam; e II - designados em ato do coordenador-geral de Controle de Serviços e Produtos. § 4º Os representantes dos membros da CCASP de que tratam as alíneas \"a\" a \"h\" do inciso II deste artigo terão mandato de dois anos, permitida a recondução. § 5º Perderá o mandato o representante dos membros da CCASP que faltar a duas reuniões consecutivas ou intercaladas injustificadamente, durante o ano. § 6º A falta de decoro, o comportamento incompatível com a dignidade das funções exercidas ou a prática de atos que comprometam o regular funcionamento da CCASP ensejarão a destituição do representante, à critério da Polícia Federal. § 7º A vacância no curso do mandato poderá ser suprida pela designação de outro representante titular ou suplente, limitada ao término do mandato do representante anterior. CAPÍTULO III DAS REUNIÕES Art. 4º A CCASP vai reunir-se: I - em caráter ordinário: trimestralmente; e II - em caráter extraordinário: sempre que necessário e em razão de fato relevante, mediante convocação de seu presidente. § 1º O quórum de reunião da CCASP é de no mínimo quatro membros e o quórum de aprovação é de maioria simples. § 2º Na hipótese de empate, além do voto ordinário, o presidente da CCASP terá o voto de qualidade. § 3º As deliberações da CCASP, observado o quórum estabelecido, serão tomadas pela maioria simples de seus membros, e registradas em ata assinada pelo presidente. § 4º A convocação para as reuniões ordinárias dependerá da existência de assuntos encaminhados pelos membros para formação de pauta. § 5º A CGCSP/DPA/PF prestará apoio administrativo à CCASP, por meio do Setor de Apoio Administrativo - SAD/CGCSP/DPA/PF. Art. 5º Os membros da CCASP terão reuniões presenciais ou por videoconferência, nos termos do disposto no Decreto nº 10.146, de 7 de julho de 2020. § 1º No caso de participação presencial em reunião, as despesas com o deslocamento da CCASP ou de qualquer dos seus representantes, quando necessário, serão de responsabilidade do órgão, entidade ou instituição a que estiverem vinculados. § 2º As convocações para reuniões especificarão a data, o endereço, o horário de início e o horário limite de término da reunião. CAPÍTULO IV DAS ATRIBUIÇÕES DOS MEMBROS Art. 6º Ao presidente da CCASP incumbe: I - aprovar a pauta das reuniões; II - convocar e presidir as reuniões; III - assinar as atas das reuniões, assim como os documentos oficiais exarados pela CCASP; IV - instituir grupo de trabalho e designar os membros da CCASP para o integrarem; e V - expedir normas complementares relativas ao seu funcionamento, assim como atos administrativos que se fize",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "6",
+      "edition": "125-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA DG-PF NA 19080-11866207",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260707_24108655.xml"
     },
     {
       "id": "50178463",
