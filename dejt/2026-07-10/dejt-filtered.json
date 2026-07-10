@@ -1,0 +1,69 @@
+{
+  "date": "2026-07-10",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 93,
+      "pdf_text_chars": 4458,
+      "total_atos_detectados": 1,
+      "matched_atos": 1,
+      "headers_sample": [
+        "EDITAL Nº 05/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 87,
+      "pdf_text_chars": 3692,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 363, DE 8 DE JULHO DE 2026",
+        "ATO GDGSET.GP.N.º 362, DE 8 DE JULHO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 1,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "EDITAL Nº 05/2026",
+      "text_resumo": "EDITAL Nº 05/2026\n                                   Acesso ao cargo de Desembargador(a) do Trabalho pelo critério de antiguidade\n                                                 (PROCESSO SEI 0001059-71.2026.5.17.0500)\n\n\n  A PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, Desembargadora Alzenir Bollesi de Plá Loeffler, no uso de suas\n  atribuições legais e regimentais,\n  CONSIDERANDO a vacância de um cargo de Desembargador do Trabalho, em decorrência da aposentadoria da Excelentíssima Desembargadora\n  Sônia das Dores Dionísio Mendes, publicada no Diário Oficial da União de 17 de abril de 2026;\n  CONSIDERANDO que o último critério de acesso utilizado para preenchimento do cargo de Desembargador foi o de merecimento (PAe n.º\n  000085-34.2026.5.17.0500);\n  CONSIDERANDO o disposto na Resolução Administrativa N.º 139/2022, que dispõe sobre promoção e acesso de magistradas e magistrados no\n  âmbito do Tribunal Regional do Trabalho da 17ª Região;\n  CONSIDERANDO a juntada da Lista de Antiguidade dos Juízes Titulares, promovida pela Secretaria de Gestão de Pessoas (Id. 1326399);\n  CONSIDERANDO o que consta dos autos do Processo SEI nº 0001059-71.2026.5.17.0500,\n\n\n                                                                    RESOLVE:\n\n\n  DAR CIÊNCIA aos Magistrados(as) interessados(as) da abertura de processo de acesso para preenchimento de 1 (uma) vaga de Desembargador\n  em decorrência da aposentadoria da Excelentíssima Desembargadora Sônia das Dores Dionísio Mendes, pelo critério de antiguidade.\n  O(A) magistrado(a) que não desejar concorrer ao acesso deverá se manifestar no prazo de até 5 (cinco) dias antes da data designada para a\n  escolha, pelo Tribunal, do(a) magistrado(a) a ser promovido(a).\n  Publique-se no Diário Eletrônico da Justiça do Trabalho.\n\n\n\n\n                                                   Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                          Desembargadora-Presidente\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239375\n\f   4511/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       2\n   Data da Disponibilização: Quinta-feira, 09 de Julho de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 09/07/2026,\n                         às 14:30, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1326803 e o código CRC 3A4D7551.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Edital                                                             1\n     Edital                                                            1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239375",
+      "text_truncated": false,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
