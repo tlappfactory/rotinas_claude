@@ -1,7 +1,7 @@
 {
   "date": "2026-07-10",
-  "total_xml_files": 1281,
-  "matched_articles": 219,
+  "total_xml_files": 1294,
+  "matched_articles": 220,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -3555,6 +3555,32 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260710_24121284.xml"
+    },
+    {
+      "id": "50247590",
+      "section": "DO1E",
+      "pub_date": "10/07/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério das Cidades/Gabinete do Ministro",
+      "identifica": "PORTARIA MCID Nº 813, DE 9 DE JULHO de 2026",
+      "orgao": "",
+      "ementa": "Institui os kits de melhorias habitacionais no âmbito do Programa Periferia Viva - Regularização e Melhorias, modalidade Melhorias Habitacionais.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MCID Nº 813, DE 9 DE JULHO de 2026 Institui os kits de melhorias habitacionais no âmbito do Programa Periferia Viva - Regularização e Melhorias, modalidade Melhorias Habitacionais. O MINISTRO DE ESTADO DAS CIDADES, no uso das atribuições que lhe confere o art. 87, parágrafo único, incisos I e II, da Constituição Federal, e tendo vista o disposto no art. 8º da Lei nº 8.677, de 13 de julho de 1993, no art. 8º do Decreto nº 10.333, de 29 de abril de 2020, no art. 20 da Lei nº 14.600, de 19 de junho de 2023, no art. 1º do Anexo I do Decreto nº 12.553, de 14 de julho de 2025, na Resolução CCFDS nº 245, de 27 de novembro de 2024, e na Instrução Normativa MCID nº 40, de 4 de dezembro de 2025, resolve: Art. 1º Ficam instituídos, na forma do Anexo, os kits de melhorias habitacionais do Programa Periferia Viva - Regularização e Melhorias, modalidade Melhorias Habitacionais, compreendidos por soluções projetuais referenciais. Parágrafo único. Os kits de melhorias habitacionais a que se refere o caput poderão ser utilizados em outros programas do Ministério das Cidades, em conformidade com os respectivos normativos. Art. 2º Os kits de melhorias habitacionais têm por objetivo solucionar inadequações habitacionais relacionadas a: insalubridade; insegurança estrutural; adensamento excessivo; ausência de acessibilidade; ausência de iluminação e ventilação; ausência de conforto térmico; deficiências na cobertura ou no telhado; precariedade ou inexistência de instalações elétricas; ausência ou inadequação de reservação de água; precariedade ou inexistência de instalações hidrossanitárias; ausência ou inadequação de banheiro exclusivo; ausência ou inadequação de revestimentos e acabamentos; ausência ou inadequação de esquadrias; necessidade de recomposição estrutural de cômodos; ausência de drenagem; presença de infiltração; e risco de deslizamento ou de alagamento. Parágrafo único. Poderão ser contempladas outras inadequações habitacionais não previstas neste artigo, desde que comprometam as condições mínimas de habitabilidade, salubridade e segurança da moradia. Art. 3º As melhorias habitacionais devem ser dimensionadas e realizadas com base nos kits de melhorias habitacionais, classificados em dez grupos de acordo com as inadequações habitacionais que visam solucionar. Art. 4º Os valores dos kits foram estabelecidos a partir de composições orçamentárias disponíveis no Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil - SINAPI, como referência principal, conforme Decreto nº 7.983, de 8 de abril de 2013, e variam conforme a Unidade da Federação e a natureza jurídica do Agente Promotor. §1º O valor dos kits contempla custos relacionados a materiais de construção, mão-de-obra, assistência técnica multidisciplinar para mobilização comunitária, cadastro físico e social, elaboração de projetos, acompanhamento e execução das obras de melhoria habitacional, acrescidos do percentual correspondente a Benefícios e Despesas Indiretas - BDI. § 2º Os valores dos kits, por Unidade Federação, serão disponibilizados em planilha detalhada no sítio eletrônico do Órgão Gestor. Art. 5º Os projetos técnicos de referência utilizados para o estabelecimento do valor dos kits de melhorias habitacionais serão divulgados pelo Órgão Gestor em seu sítio eletrônico. Parágrafo único. O responsável técnico fará a adequação e a adaptação dos projetos técnicos às condições objetivas da habitação onde serão executadas, em acordo com as inadequações identificadas. Art. 6º Esta Portaria entra em vigor na data de sua publicação. ANTONIO VLADIMIR MOURA LIMA ANEXO KITS DE MELHORIAS HABITACIONAIS CÓDIGO KITS DE MELHORIAS HABITACIONAIS 1 ABASTECIMENTO E RESERVAÇÃO DE ÁGUA 1.1 ESTRUTURA COM CAIXA D'ÁGUA (1000L) 1.2 ESTRUTURA P/ CAIXA D'ÁGUA PRÉ-EXISTENTE (1000L) 1.3 INSTALAÇÃO DE CAIXA D´ÁGUA (500L) 1.4 MÓDULO DE RESERVAÇÃO PARA ÁREAS ALAGADAS 2 ACESSIBILIDADE 2.1 ADAPTAÇÃO DE BANHEIRO 2.2 RAMPA DE ACESSIBILIDADE 3 COBERTURA E ESTRUTURA DE TELHADO 3.1 REVISÃO DE COBERTURA 3.2 TROCA POR TELHA CERÂMICA 100% 3.3 TROCA POR TELHA CERÂMICA 50% 3.4 TROCA POR TELHA CERÂMICA E TRAMA DE MADEIRA 100% 3.5 TROCA POR TELHA CERÂMICA E TRAMA DE MADEIRA 50% 3.6 TROCA POR TELHA CERÂMICA, TRAMA DE MADEIRA E CINTA DE AMARRAÇÃO 3.7 TROCA POR TELHA FIBROCIMENTO 100% 3.8 TROCA POR TELHA FIBROCIMENTO 50% 3.9 TROCA POR TELHA FIBROCIMENTO E TRAMA DE MADEIRA 100% 3.10 TROCA POR TELHA FIBROCIMENTO E TRAMA DE MADEIRA 50% 3.11 TROCA POR TELHA FIBROCIMENTO, TRAMA DE MADEIRA E CINTA DE AMARRAÇÃO 4 CONSTRUÇÃO, AMPLIAÇÃO E ADEQUAÇÃO DE CÔMODOS 4.1 NOVO CÔMODO CONTIGUO 4.2 NOVO CÔMODO CONTIGUO (FUNDAÇÃO EM SAPATA) 4.3 NOVO CÔMODO ISOLADO 4.4 NOVO CÔMODO ISOLADO (FUNDAÇÃO EM SAPATA) 4.5 POÇO DE VENTILAÇÃO 4.6 RECOMPOSIÇÃO ESTRUTURAL (CÔMODO) 4.7 VARANDA 5 PORTAS E JANELAS 5.1 ESTRUTURA PARA JANELA 5.2 ESTRUTURA PARA PORTA 5.3 TROCA DE JANELA 5.4 TROCA DE PORTA 6 INSTALAÇÕES ELÉTRICAS 6.1 ENTRADA DE ENERGIA (CASA) 6.2 INSTALAÇÕES ELÉTRICAS (CÔMODO) 7 INSTALAÇÕES HIDROSSANITÁRIAS E BANHEIROS 7.1 ACESSÓRIOS PARA BANHEIROS 7.2 DESLOCAMENTO DE PONTO DE ÁGUA OU ESGOTO 7.3 FOSSA SÉPTICA 7.4 FOSSA SÉPTICA BIODIGESTORA PARA ÁREAS ALAGADAS 7.5 INSTALAÇÕES HIDROSSANITÁRIAS 7.6 MÓDULO HIDROSSANITÁRIO-BANHEIRO/COZINHA/ÁREA DE SERVIÇO 7.7 NOVO BANHEIRO ADAPTÁVEL PARA ÁREAS ALAGADAS 7.8 NOVO BANHEIRO CONTIGUO ADAPTÁVEL 7.9 NOVO BANHEIRO ISOLADO ADAPTÁVEL 7.10 NOVO BANHEIRO ISOLADO ADAPTÁVEL (FUNDAÇÃO EM SAPATA) 7.11 REFORMA DE BANHEIRO 7.12 REFORMA DE BANHEIRO COM PINTURA DE LAJE 7.13 TROCA DE LOUÇAS SANITÁRIAS 8 PINTURA, REVESTIMENTO E ACABAMENTOS 8.1 CONTRAPISO E REVESTIMENTO CERÂMICO PISO (CÔMODO) 8.2 EMASSAMENTO E PINTURA INTERNA (CÔMODO) 8.3 FORRO (CÔMODO) 8.4 IMPERMEABILIZAÇÃO COM TINTA EMBORRACHADA (CASA) 8.5 PINTURA EXTERNA COM TEXTURA (CASA) 8.6 PINTURA INTERNA (CÔMODO) 8.7 RECUPERAÇÃO DE REVESTIMENTO E PINTURA INTERNA (CÔMODO) 8.8 REVESTIMENTO E PINTURA EXTERNA COM IMPERMEABILIZAÇÃO E APLICAÇÃO DE TEXTURA (CASA) 8.9 REVESTIMENTO E PINTURA INTERNA COMPLETA (CÔM",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "128-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA 813-11874551",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "insalubridade_periculosidade"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260710_24121092.xml"
     },
     {
       "id": "50250729",
