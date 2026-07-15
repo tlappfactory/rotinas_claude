@@ -2,57 +2,16 @@
   "date": "2026-07-13",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 1010,
-      "pdf_text_chars": 82310,
-      "total_atos_detectados": 28,
-      "matched_atos": 3,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 59/2026",
-        "EDITAL n° 06/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 203/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 207/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 222/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 202/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 224/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 211/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 212/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 216/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 205/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 204/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 201/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 219/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 209/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 215/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 206/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 220/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 213/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 214/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 210/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 218/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 225/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 208/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 217/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 221/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 223/2026",
-        "Ato PRESI/DIGER/SGP/COLEP/SESES N° 10/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 89,
-      "pdf_text_chars": 6227,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 364, DE 10 DE JULHO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -78,46 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Ato PRESI/DIGER/SGP/COLEP/SESES N° 10/2026",
-      "text_resumo": "Ato PRESI/DIGER/SGP/COLEP/SESES N° 10/2026\n                                      TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                                             SESES – Seção de Seguridade Social\n\n  Processo: 0000895-09.2026.5.17.0500\n  Assunto(s): Aposentadoria\n  Especificação: Aposentadoria por incapacidade permanente para o trabalho - ELISSÔNIA DE REZENDE POTIN MARTINELLI\n  Interessado(s): Elissônia de Rezende Potin Martinelli\n\n                                                            ATO TRT-17.ª PRESI/SGP N.º 18/2026\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, estabelecidas pelo artigo 15, inciso XVI, “b”, do Regimento Interno, e à vista do constante do processo SEI nº 0000895-\n  09.2026.5.17.0500,\n\n                                                                           RESOLVE:\n\n  Conceder aposentadoria por incapacidade permanente para o trabalho à servidora ELISSÔNIA DE REZENDE POTIN MARTINELLI, com efeitos\n  financeiros a partir da publicação deste ato (art. 188 da Lei 8112/1990), no cargo efetivo de Analista Judiciário, área administrativa, sem\n  especialidade, classe \"B\", padrão 9, do quadro permanente de pessoal do Tribunal Regional do Trabalho da 17.ª Região, com fundamento no art.\n  40, §§ 1.º, I, 2.º, 3.º, 8.º, 12 e 14 a 18, da Constituição Federal, na redação atual, c/c os arts. 10, §§ 1.º, II, e 4.º, e 26, caput e §§ 1.º, 2.º, II, e 7.º,\n  da Emenda Constitucional n.º 103/2019, §§ 1.º a 4.º do art. 1.º e art. 15 da Lei 10.887/2004 e arts.1.º, II, 9.º, I e §§ 1.º e 2.º, I, do Anexo I da\n  Portaria MTP 1.467/2022, com proventos proporcionais ao tempo de contribuição previdenciária, equivalentes a 60% (sessenta por cento) da\n  média aritmética simples das bases de cálculo de contribuição relativas aos regimes de previdência a que esteve vinculada (RPPS da União),\n  remunerações essas atualizadas monetariamente (§ 17 do art. 40 da CF, na redação dada pelo art. 1.º da EC 103/2019; caput do art. 26 da EC\n  103/2019; § 1.º do art. 1.º da Lei 10.887/2004; §§ 10 e 11 do art. 9.º, Anexo I, da Portaria MTP 1.467/2022), correspondentes a 100% (cem por\n  cento) do período contributivo desde a competência julho de 1994 (no caso concreto, a partir de 01-09-2010, nos termos do caput do art. 26 da EC\n\n\n\nCódigo para aferir autenticidade deste caderno: 239411\n\f   4512/2026                                                Tribunal Regional do Trabalho da 17ª Região                                           28\n   Data da Disponibilização: Sexta-feira, 10 de Julho de 2026\n\n\n\n  103/2019), até o mês anterior ao de vigência da aposentadoria, sendo os proventos limitados ao teto estabelecido para os benefícios do Regime\n  Geral de Previdência Social, em razão da opção prevista no art. 40, § 16, da CF (regime de previdência complementar), com reajuste segundo os\n  critérios adotados pelo Regime Geral de Previdência Social (mesma data e índice, conforme § 12 do art. 40 da CF, na redação dada pelo art. 1.º\n  da EC 103/2019; § 7.º do art. 26 da EC 103/2019; art. 15 da Lei 10.887/2004; § 13 do art. 9.º, Anexo I, da Portaria MTP 1.467/2022) e sem\n  incidência de contribuição previdenciária sobre nenhuma parcela (§ 18 do art. 40 da CF, § 4.º do art. 11 da EC 103/2019 e inciso IV do § 6.º do art.\n  3.º da Lei 12.618/2012).\n\n\n\n  Os proventos de aposentadoria serão acrescidos do benefício especial previsto no art. 3.º, § 1.º, da Lei 12.618/2012.\n\n\n\n  Publique-se no Diário Oficial da União e Diário Eletrônico da Justiça do Trabalho – Caderno Administrativo do TRT da 17.ª Região.\n\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 10/07/2026,\n                         às 08:56, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1326331 e o código CRC C87256AB.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Ato                                                                1\n     Ato PRESI                                                         1\n    Edital                                                             2\n     Edital                                                            2\n   SECRETARIA DO TRIBUNAL PLENO                                        3\n    Resolução                                                          3\n     Resolução Administrativa                                          3\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        7\n   REMOÇÃO\n    Portaria                                                          7\n     Portaria                                                         7\n   SEÇÃO DE SEGURIDADE SOCIAL                                        27\n    Ato                                                              27\n     Ato                                                             27\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239411",
-      "text_truncated": false,
-      "strong_keywords": [
-        "aposentadoria",
-        "averbacao_tempo",
-        "cessao_remocao_permuta",
-        "funpresp"
-      ],
-      "weak_keywords": [],
-      "score": 30
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "EDITAL n° 06/2026",
-      "text_resumo": "EDITAL n° 06/2026\n\n                                              REMOÇÃO PARA A 10ª VARA DO TRABALHO DE VITÓRIA\n                                                  (PROCESSO SEI 0001076-10.2026.5.17.0500)\n\n\n\n  A DESEMBARGADORA NO EXERCÍCIO DA PRESIDÊNCIA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª REGIÃO, no uso de suas\n  atribuições legais e regimentais;\n\n  CONSIDERANDO a promoção, pelo critério de merecimento, do magistrado Luís Cláudio dos Santos Branco para o cargo de Desembargador do\n  Tribunal Regional do Trabalho da 17ª Região, conforme publicação no Diário Oficial da União em 08/07/2026;\n\n  CONSIDERANDO a consequente vacância do cargo de Juiz Titular da 10ª Vara do Trabalho de Vitória;\n\n  CONSIDERANDO o disposto na alínea \"a\" do § 5º do art. 654 da CLT e no art. 76 do Regimento Interno deste Tribunal;\n\n  CONSIDERANDO que o procedimento de remoção interna de Juízes Titulares para preenchimento de cargos vagos com publicação de edital\n  único se mostra corolário da aplicação do princípio da eficiência da Administração Pública; e\n\n  CONSIDERANDO o manifesto prejuízo ao bom andamento das atividades nas Varas do Trabalho que aguardam o preenchimento dos cargos\n  vagos de Juízes Titulares, conforme observado em experiências anteriores no âmbito deste Regional;\n\n  TORNA PÚBLICO, para conhecimento das Juízas e dos Juízes Titulares interessados, que se encontra vago, desde 08/07/2026, o cargo de Juiz\n  Titular da 10ª Vara do Trabalho de Vitória/ES, a ser preenchido por meio de remoção, assim como as eventuais vagas decorrentes das sucessivas\n  remoções, prevalecendo a antiguidade no cargo.\n\n  I. Os(as) interessados(as) terão o prazo de 15 (quinze) dias, a contar da publicação do presente Edital (§ 2º do art. 76 do Regimento Interno), para\n  indicar na Intranet do Tribunal - Serviços (opção: \"Remoção Interna de Magistrados\") TODAS as Varas do Trabalho para as quais pretendam ser\n  removidos, em ordem de preferência.\n\n  II. Definidas as remoções decorrentes deste Edital, serão admitidos recursos dos demais interessados no prazo de 05 (cinco) dias a contar da\n  ciência do resultado, devendo a impugnação ser remetida ao endereço eletrônico segep@trt17.jus.br.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17.ª Região.\n\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 10/07/2026,\n                         às 14:01, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n\n\nCódigo para aferir autenticidade deste caderno: 239411\n\f   4512/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       3\n   Data da Disponibilização: Sexta-feira, 10 de Julho de 2026\n\n\n\n\n                        informando o código verificador 1327234 e o código CRC 65F3545B.\n\n\n\n\n                                                   SECRETARIA DO TRIBUNAL PLENO\n                                                              Resolução\n                                                        Resolução Administrativa\n                                             Publicação DEJT SEI - Resolução Administrativa\n                                                       RESOLUÇÃO ADMINISTRATIVA N.º 63/2026\n\n\n  SEI 0001001-68.2026.5.17.0500\n  Interessada: Presidência\n\n  Assunto: Referendar o Ato Presi nº 53/2026 - Vinculação de processos ao Juiz Convocado Ney Alvares Pimenta Filho\n\n\n\n\n                    Certifico que, em sessão administrativa presencial, realizada nesta data, sob a Presidência da Excelentíssima Desembargadora\n  Alzenir Bollesi de Plá Loeffler, presentes os Excelentíssimos Desembargadores Wanda Lúcia Costa Leite França Decuzzi, Ana Paula Tauceda\n  Branco, Daniele Corrêa Santa Catarina, Marise Medeiros Cavalcanti Chamberlain, telepresencialmente, Valério Soares Heringer e Valdir Donizetti\n  Caixeta, e, ainda, a Excelentíssima Procuradora do Trabalho, Janine Milbratz Fiorot,\n\n                   Resolveu, o Egrégio Tribunal Regional do Trabalho da 17.ª Região, por unanimidade, referendar o ATO PRESI nº 53/2026, que\n  vinculou ao Juiz Convocado Ney Alvares Pimenta Filho os processos pendentes de julgamento do Desembargador Cláudio Armando Couce de\n  Menezes, em virtude do gozo de licença-prêmio deste, no período de 30/6 a 27/9/2026.\n\n                    Ausências justificadas dos Desembargadores Cláudio Armando Couce de Menezes, Marcello Maciel Mancilha e Mário Ribeiro\n  Cantarino Neto.\n\n                   Participaram da votação os Excelentíssimos Desembargadores Alzenir Bollesi de Plá Loeffler (Presidente), Wanda Lúcia Costa\n  Leite França Decuzzi, Ana Paula Tauceda Branco, Daniele Corrêa Santa Catarina, Marise Medeiros Cavalcanti Chamberlain, Valério Soares\n  Heringer e Valdir Donizetti Caixeta.\n\n                    Sala de Sessões, 8 de julho de 2026.\n\n\n\n                                                                      Marcello Canal\n                                                                Secretário do Tribunal Pleno\n\n\n\n                         Documento assinado eletronicamente por Marcello Canal, Técnico Judiciário, em 10/07/2026, às 14:49, conforme art. 1º,\n                         III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1327350 e o código CRC 80D09E8E.\n\n\n\n\n                                             Publicação DEJT SEI - Resolução Administrativa\n                               ",
-      "text_truncated": true,
-      "strong_keywords": [
-        "cessao_remocao_permuta",
-        "licencas_servidor"
-      ],
-      "weak_keywords": [],
-      "score": 20
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO TRT 17ª PRESI Nº 59/2026",
-      "text_resumo": "ATO TRT 17ª PRESI Nº 59/2026\n\n                                                                       Interrompe, por estrita necessidade de serviço, a licença-prêmio do\n                                                                       Desembargador Mário Ribeiro Cantarino Neto.\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  CONSIDERANDO o disposto no inciso III do artigo 15 e no art. 44, ambos do Regimento Interno deste Tribunal;\n\n  CONSIDERANDO o disposto no art. 12 da Resolução Administrativa n° 55/2025 do TRT 17;\n\n\n\n                                                     RESOLVE, ad referedum do Tribunal Pleno,\n\n\n  Art. 1º. Interromper, de ofício, por estrita necessidade de serviço, a licença prêmio do Desembargador Mário Ribeiro Cantarino Neto, desde\n  09/07/2026, até ulterior deliberação.\n  Parágrafo Único. Os dias de interrupção da licença-prêmio serão alvo da devida compensação, na forma do art. 13 da Resolução Administrativa\n  55/2025 do TRT 17.\n  Art. 2º. Este Ato entra em vigor na data de sua publicação.\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho - Caderno Administrativo do TRT da 17ª Região.\n\n\n\n                                                    Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                           Desembargadora-Presidente\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239411\n\f   4512/2026                                                Tribunal Regional do Trabalho da 17ª Região                                            2\n   Data da Disponibilização: Sexta-feira, 10 de Julho de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 10/07/2026,\n                         às 11:59, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1327229 e o código CRC 119B7C97.\n\n\n\n\n                                                                      Edital\n                                                                      Edital\n                                                           Publicação DEJT SEI - Edital",
-      "text_truncated": false,
-      "strong_keywords": [
-        "licencas_servidor"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
