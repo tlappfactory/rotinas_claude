@@ -2,38 +2,13 @@
   "date": "2026-07-15",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 560,
-      "pdf_text_chars": 277568,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "Portaria PRESI/SEGEP N° 6/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 94,
-      "pdf_text_chars": 12281,
-      "total_atos_detectados": 4,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG.SETIC N.º 80, DE 13 DE JULHO DE 2026.",
-        "ATO CSJT.GP.SG N.º 78, DE 10 DE JULHO DE 2026.",
-        "Resolução CSJT n.º 445, de 26 de junho de 2026.",
-        "ATO CSJT.GP.SECAUDI N.º 79, DE 10 DE JULHO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 448,
-      "pdf_text_chars": 3747,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 370, DE 13 DE JULHO DE 2026",
-        "PROVIMENTO Nº 4/GCGJT, DE 26 DE SETEMBRO DE 2023 (Republicado em razão do Provim"
-      ]
+      "status": "no_pdf"
     }
   },
   "total_matched": 0,
