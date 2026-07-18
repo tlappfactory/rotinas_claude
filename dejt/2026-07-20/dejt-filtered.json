@@ -1,0 +1,86 @@
+{
+  "date": "2026-07-20",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 191,
+      "pdf_text_chars": 23773,
+      "total_atos_detectados": 6,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 61/2026",
+        "Resolução CSJT n.º 247, de 25 de outubro de 2019; e",
+        "Resolução Administrativa nº 68/2026 - Retificada",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 227/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 228/2026",
+        "Ato CSJT.GP.SG n.º 71, de 26 de junho de 2026 e Ato CSJT.GP.SG n.º 72, de 26 de "
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 88,
+      "pdf_text_chars": 3744,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO SEGJUD.GP N.º 381, DE 16 DE JULHO DE 2026."
+      ]
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Ato CSJT.GP.SG n.º 71, de 26 de junho de 2026 e Ato CSJT.GP.SG n.º 72, de 26 de junho de 2026; e",
+      "text_resumo": "Ato CSJT.GP.SG n.º 71, de 26 de junho de 2026 e Ato CSJT.GP.SG n.º 72, de 26 de junho de 2026; e\n\n  CONSIDERANDO o que consta dos autos do Processo Administrativo nº 0001140-30.2020.5.17.0500,\n\n  RESOLVE:\n\n  Art. 1.º O pagamento do \"Auxílio Assistência Médica e Odontológica\" do mês de Julho/2026, no âmbito do Tribunal Regional do Trabalho da 17.ª\n  Região, se dará da seguinte forma:\n\n  I - para os servidores, pagamento do valor per capita de R$ 602,78 (seiscentos e dois reais e setenta e oito centavos), devido aos servidores e\n  seus dependentes, que, de acordo com o §2º do art. 1.º do ATO CSJT.GP.SG N.º 72/2026, serão considerados o cônjuge ou companheiro e\n  aqueles já admitidos como tais pela legislação do imposto de renda; e\n\n  II - para os magistrados, pagamento do percentual de 5% do subsídio do cargo respectivo como limite de ressarcimento, acrescido de 25% nos\n  casos em que o magistrado, ou algum dependente dele, seja pessoa com deficiência ou portadora de doença grave, assim definida na Lei n.º\n  7.713/88 ou o magistrado tenha idade superior a 50 anos.\n\n  § 1.º O valor máximo a ser reembolsado pelo servidor corresponderá à multiplicação do valor per capita pelo número de pessoas, considerando o\n  titular e seus dependentes.\n\n  §2.º Para fazer jus ao benefício, o dependente deve estar devidamente cadastrado para a finalidade do \"Auxílio Assistência Médica e\n  Odontológica\", produzindo efeitos financeiros apenas a partir da data do protocolo do pedido de averbação nos assentamentos funcionais, na\n  hipótese de deferimento do pleito.\n\n  §3.º Aos juízes classistas inativos aplica-se o valor máximo definido para os servidores e aos pensionistas aplica-se o valor máximo conforme o\n  cargo do Instituidor.\n\n  §4.º Ao beneficiário pensionista de magistrado não se aplica a previsão de acréscimo de 25%.\n\n  Art. 2.º Ficam suspensas as disposições constantes nos §§ 1.º a 8.º do artigo 3º do ATO TRT 17.ª PRESI/SGP n.º 29/2025, bem como os valores\n  máximos constantes no Anexo I da mesma norma.\n\n  Art. 3.º As diretrizes possuem natureza excepcional e transitória, aplicando-se exclusivamente ao \"Auxílio Assistência Médica e Odontológica\" do\n  mês de Julho/2026, e estão sujeitas a ulterior adequação e consolidação normativa.\n\n  Art. 4.º Este Ato entra em vigor na data da publicação.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                              Alzenir Bollesi de Plá Loeffler\n                                                               Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 15/07/2026,\n                         às 18:05, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1328652 e o código CRC 70EC1FC2.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Ato                                                                1\n     Ato PRESI                                                         1               Relatório                                               3\n   SECRETARIA DE CORREGEDORIA                                          3                Relatório ESTATÍSTICA                                  3\n   REGIONAL\n\n\nCódigo para aferir autenticidade deste caderno: 239614\n\f   4517/2026                                                Tribunal Regional do Trabalho da 17ª Região   9\n   Data da Disponibilização: Sexta-feira, 17 de Julho de 2026\n\n\n\n   SECRETARIA DO TRIBUNAL PLENO                                        4\n    Pauta                                                              4\n     Pauta Administrativa                                              4\n    Resolução                                                          5\n     Resolução Administrativa                                          5\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        6\n   REMOÇÃO\n    Portaria                                                           6\n     Portaria                                                          6\n   SEÇÃO DE CONTRATOS E BENEFÍCIOS                                     7\n    Ato                                                                7\n     Ato                                                               7\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239614",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Resolução Administrativa nº 68/2026 - Retificada",
+      "text_resumo": "Resolução Administrativa nº 68/2026 - Retificada\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}

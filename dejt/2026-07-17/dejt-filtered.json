@@ -2,35 +2,13 @@
   "date": "2026-07-17",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 103,
-      "pdf_text_chars": 15001,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "Resolução Administrativa nº 68/2026 - Retificada"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 93,
-      "pdf_text_chars": 10959,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG.SETIC N.º 82, DE 15 DE JULHO DE 2026.",
-        "ATO CSJT.GP.SG.SETIC N.º 81, DE 15 DE JULHO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 86,
-      "pdf_text_chars": 2751,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 380, DE 16 DE JULHO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
   "total_matched": 0,
