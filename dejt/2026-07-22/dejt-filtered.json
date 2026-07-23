@@ -2,43 +2,16 @@
   "date": "2026-07-22",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 166,
-      "pdf_text_chars": 67162,
-      "total_atos_detectados": 6,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Portaria PRESI/SEGEP N° 8/2026",
-        "Resolução Administrativa nº 64, de 8 de julho de 2026)",
-        "Resolução Administrativa nº 64, de 8 de julho de 2026)",
-        "Resolução Administrativa nº 64, de 8 de julho de 2026)",
-        "Resolução Administrativa nº 64, de 8 de julho de 2026)",
-        "Ato PRESI/DIGER/SGP/COLEP/SESES N° 11/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 88,
-      "pdf_text_chars": 3948,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CONJUNTO CSJT.ENAMAT N.º 42-A, DE 10 DE JULHO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 89,
-      "pdf_text_chars": 5029,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO SEGJUD.GP Nº 367, DE 10 DE JULHO DE 2026.",
-        "ATO TST.GP N° 367, DE 10 DE JULHO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -64,21 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Ato PRESI/DIGER/SGP/COLEP/SESES N° 11/2026",
-      "text_resumo": "Ato PRESI/DIGER/SGP/COLEP/SESES N° 11/2026\n                                      TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                                             SESES – Seção de Seguridade Social\n\n  Processo: 0000414-80.2025.5.17.0500\n  Assunto(s): Aposentadoria\n  Especificação: Aposentadoria Voluntária - CARLOS EDUARDO TONINI\n  Interessado(s): Carlos Eduardo Tonini\n\n\n                                                          ATO TRT-17.ª PRESI/SGP N.º 20/2026\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, estabelecidas pelo artigo 15, inciso XVI, “b”, do Regimento Interno, e à vista do constante do processo SEI nº 0000414-\n  80.2025.5.17.0500,\n\n                                                                           RESOLVE:\n\n  Conceder aposentadoria voluntária, com efeitos financeiros a partir da publicação deste ato (art. 188 da Lei 8112/1990), ao servidor CARLOS\n  EDUARDO TONINI, no cargo efetivo de Analista Judiciário, área judiciária, sem especialidade, classe “C”, padrão 13, do quadro permanente de\n  pessoal do Tribunal Regional do Trabalho da 17.ª Região, com fundamento no art. 20, §§ 2.º, I, e 3.º, I, da Emenda Constitucional n.º 103/2019,\n  com proventos integrais correspondentes à remuneração do cargo efetivo, formados pelo vencimento básico (art. 40 da Lei 8112/1990, c/c o art.\n  11 e Anexo II da Lei 11.416/2006, na redação dada pelo art. 1.º da Lei 12.774/2012 e Anexo I da Lei 15.293/2025, respectivamente) e gratificação\n  judiciária (arts. 11 e 13 da Lei 11.416/2006, na redação dada pelo art. 1.º da Lei 12.774/2012 e art. 3.º da Lei 13.317/2016, respectivamente),\n  acrescidos de 10% (dez por cento) de adicional por tempo de serviço (art. 67 da Lei 8112/1990, na redação dada pelo art. 1.º da Lei 9527/1997,\n  c/c o art. 6.º da Lei 9624/1998, e Ofício-Circular SRH/MPOG n.º 36/2001), da vantagem pessoal nominalmente identificada decorrente\n  da incorporação de 1/5 (um quinto) da função comissionada de Assistente de Diretor (FC-4) e 4/5 (quatro quintos) da função comissionada de\n  Assistente de Juiz (FC-4), incorporados administrativamente, anteriormente a 08/04/1998, com base no art. 62 da Lei 8112/1990 e Leis 8911/1994,\n  9421/1996, 9527/1997 e 9624/1998, e do adicional de qualificação de que tratam os arts. 14, § 5.º, e 15 da Lei 11.416/2006, na redação em vigor,\n  revisando-se os proventos de acordo com a paridade de que trata o art. 7.º da Emenda Constitucional n.º 41/2003.\n\n\n  Publique-se no Diário Oficial da União e no Diário Eletrônico da Justiça do Trabalho - Caderno Administrativo do TRT da 17.ª Região.\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 17/07/2026,\n                         às 17:35, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1329141 e o código CRC E3979A93.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Portaria                                                           1\n     Portaria                                                          1                Resolução Administrativa                               3\n   DIRETORIA GERAL                                                     2              SEÇÃO DE SEGURIDADE SOCIAL                              13\n    Extrato                                                            2               Ato                                                    13\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                   2                Ato                                                   13\n   SECRETARIA DO TRIBUNAL PLENO                                        3\n    Resolução                                                          3\n\nCódigo para aferir autenticidade deste caderno: 239696",
-      "text_truncated": false,
-      "strong_keywords": [
-        "aposentadoria",
-        "quintos_anuenios_ats"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 21
-    }
-  ]
+  "articles": []
 }
