@@ -1,0 +1,86 @@
+{
+  "date": "2026-07-24",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 162,
+      "pdf_text_chars": 20377,
+      "total_atos_detectados": 2,
+      "matched_atos": 2,
+      "headers_sample": [
+        "Despacho PRESI/SEGEP N° 814/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 229/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 87,
+      "pdf_text_chars": 3781,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TST.GP N° 393, DE 22 DE JULHO DE 2026",
+        "ATO GDGSET.GP.N.º 388, DE 22 DE JULHO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Despacho PRESI/SEGEP N° 814/2026",
+      "text_resumo": "Despacho PRESI/SEGEP N° 814/2026\n  Processo: 0001004-23.2026.5.17.0500\n  Assunto(s): Lotação. Remoção. Transferência. Permuta\n  Especificação: Remoção para o cargo de Juíza ou Juiz Titular da Vara do Trabalho de Guarapari\n  Interessado(s):\n\n\n                                                                      DESPACHO\n\n\n                   1. Considerando a lista de magistrados(as) inscritos(as) no processo de remoção para a Vara do Trabalho de Guarapari, nos\n  termos do Edital de Id 1323062;\n\n                   2. Considerando a apuração feita pela SEGEP no Id 1329616 e as informações prestadas pela Secretaria da Corregedoria,\n  quanto à ausência de atraso na prolação de sentença e à inexistência de processo administrativo disciplinar ou penalidade administrativa nos\n  últimos dois anos dos inscritos (ID 1329744);\n\n                     3. Torno público o resultado do presente processo de remoção:\n\n                     - Juíza Titular da Vara do Trabalho de Guarapari = Juíza Suzane Schulz Ribeiro;\n\n                     - Juíza Titular da 2ª Vara do Trabalho de Cachoeiro de Itapemirim = Juíza Anna Beatriz Matias Diniz De Castilhos Costa;\n\n                     - Sem remoção = Juiz Luís Eduardo Soares Fontenelle;\n\n                     - Sem remoção = Juiz Maurício Côrtes Neves Leal\n\n                     - Juiz(íza) Titular da Vara do Trabalho de São Mateus = cargo vago.\n\n                   4. Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) Caderno Administrativo, bem como encaminhe-se e-mail aos\n  inscritos com cópia do presente despacho.\n\n                     5. Aguarde-se o prazo de 05 (cinco) dias úteis, conforme Edital.\n\n                   6. Decorrido tal prazo sem apresentação de recurso, à Secretaria do Tribunal Pleno (SETRI) para inclusão na primeira Sessão\n  Administrativa subsequente.\n\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239775\n\f   4521/2026                                                Tribunal Regional do Trabalho da 17ª Região                                        2\n   Data da Disponibilização: Quinta-feira, 23 de Julho de 2026\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 22/07/2026,\n                         às 18:48, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1330178 e o código CRC 0C9AF93C.\n\n\n\n\n                                                     SECRETARIA DO TRIBUNAL PLENO\n                                                                Acórdão\n                                                                Acórdão\n\n\n                                                                         ACÓRDÃO\n                                                              SEI 0001043-20.2026.5.17.0500\n\n\n  Recorrente: ASSOCIAÇÃO DOS MAGISTRADOS DA JUSTIÇA DO TRABALHO DA 17ª REGIÃO (AMATRA XVII)\n  Recorrido: DESPACHO PRESI N.º 467/2026 (MANTIDO PELO DESPACHO PRESI N.º 480/2026)\n  Assunto: RECURSO ADMINISTRATIVO\n\n  Origem: TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n  Relator: DESEMBARGADOR LUÍS CLÁUDIO DOS SANTOS BRANCO\n\n  Procurador do Trabalho: DRA. JANINE MILBRATZ FIOROT\n\n\n\n  CONCLUSÃO: “… por unanimidade, CONHECER do recurso administrativo interposto pela Associação dos Magistrados da Justiça do Trabalho da\n  17ª Região (AMATRA XVII) e, no mérito, DAR-LHE PROVIMENTO para reformar o item \"a\" do Despacho PRESI n.º 467/2026, mantido pelo\n  Despacho PRESI n.º 480/2026, determinando o processamento e o pagamento do abono de férias de 10 dias na folha de pagamento de julho de\n  2026 nos exatos termos e sem as limitações de 35% ali previstas, observando-se estritamente as diretrizes constantes do Ofício Circular\n  CSJT.GP.SG.SGRCSJT N.º 48/2026, ressalvada expressamente a possibilidade de compensação deste valor em folha futura na hipótese de\n  alteração do entendimento do CSJT”.\n\n\n\n\n                                                              Resolução\n                                                        Resolução Administrativa\n                                             Publicação DEJT SEI - Resolução Administrativa\n                                                       RESOLUÇÃO ADMINISTRATIVA N.º 71/2026\n\n\n  SEI 0001038-95.2026.5.17.0500\n  Interessado: Desembargador Valdir Donizetti Caixeta\n\n  Assunto: Participação no IV Congresso Nacional de Pesquisa Judiciária, Estatística e Ciência de Dados da Justiça do Trabalho\n\n\n\n\n                    Certifico que, em sessão administrativa presencial, realizada nesta data, sob a Presidência da Excelentíssima Desembargadora\n  Alzenir Bollesi de Plá Loeffler, presentes os Excelentíssimos Desembargadores Cláudio Armando Couce de Menezes, na modalidade\n  telepresencial, Wanda Lúcia Costa Leite França Decuzzi, Ana Paula Tauceda Branco, Mário Ribeiro Cantarino Neto, Daniele Corrêa Santa\n  Catarina, Valério Soares Heringer, Valdir Donizetti Caixeta e Luís Cláudio dos Santos Branco e, ainda, a Excelentíssima Procuradora do Trabalho,\n\n\nCódigo para aferir autenticidade deste caderno: 239775\n\f   4521/2026                                                Tribunal Regional do Trabalho da 17ª Região                                         3\n   Data da Disponibilização: Quinta-feira, 23 de Julho de 2026\n\n\n\n  Janine Milbratz Fiorot,\n\n                    Resolveu, o Egrégio Tribunal Regional do Trabalho da 17.ª Região, por unanimidade, referendar despacho 1326467 que deferiu\n  a participação do Desembargador Valdir Donizetti Caixeta, Coordenador do Subcomitê Regional de Pesquisa Judiciária do TRT17ª Região, no IV\n  Congresso Nacional de Pesquisa Judiciária, Es",
+      "text_truncated": true,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "folha_esocial"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 229/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 229/2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                         PORTARIA\n\n                                                                0001046-87.2017.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239775\n\f   4521/2026                                                Tribunal Regional do Trabalho da 17ª Região                                         6\n   Data da Disponibilização: Quinta-feira, 23 de Julho de 2026\n\n\n\n\n                                                                        DISPENSAR\n\n\n\n  Carlos Eduardo Tonini, Analista Judiciário, área Judiciária, da função comissionada de Assistente de Juiz - FC-05, do (a) 10ª Vara do Trabalho de\n  Vitória - VITV10, a partir de 22/7/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 22/07/2026,\n                         às 18:48, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1330021 e o código CRC 2BE3BC79.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Despacho                                                           1\n     Despacho                                                          1\n   SECRETARIA DO TRIBUNAL PLENO                                        2\n    Acórdão                                                            2\n     Acórdão                                                           2\n    Resolução                                                          2\n     Resolução Administrativa                                          2\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        5\n   REMOÇÃO\n    Portaria                                                           5\n     Portaria                                                          5\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 239775",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    }
+  ]
+}
