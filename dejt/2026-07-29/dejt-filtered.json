@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-29",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 94,
+      "pdf_text_chars": 9098,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "[caderno inteiro — sem cabeçalhos detectados]"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 107,
+      "pdf_text_chars": 37381,
+      "total_atos_detectados": 10,
+      "matched_atos": 0,
+      "headers_sample": [
+        "RESOLUÇÃO CSJT N.º 452, de 17 de julho de 2026.",
+        "RESOLUÇÃO CSJT N.º 451, de 17 de julho de 2026.",
+        "RESOLUÇÃO CSJT N.º 451, de 17 de julho de 2026.",
+        "RESOLUÇÃO CSJT N.º 450, de 17 de julho de 2026.",
+        "RESOLUÇÃO CSJT N.º 450, de 17 de julho de 2026.",
+        "Resolução CSJT n.º 436, de 27 de",
+        "RESOLUÇÃO CSJT N.º 355, DE 28 DE ABRIL DE 2023. (Republicação)",
+        "RESOLUÇÃO CSJT N.º 355, DE 28 DE ABRIL DE 2023.",
+        "Resolução CSJT nº 452, de 17 de julho de 2026)",
+        "decisão de mérito, quando vier a ser proferida, com o envio de seu conteúdo. (Re"
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 92,
+      "pdf_text_chars": 10630,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TST.GP N° 396, DE 27 DE JULHO DE 2026",
+        "ATO TST.GP N° 396, DE 27 DE julho DE 2026"
+      ]
+    }
+  },
+  "total_matched": 0,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": []
+}

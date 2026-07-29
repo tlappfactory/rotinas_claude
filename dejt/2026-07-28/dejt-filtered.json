@@ -2,14 +2,7 @@
   "date": "2026-07-28",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 136,
-      "pdf_text_chars": 19844,
-      "total_atos_detectados": 1,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 63/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
@@ -18,7 +11,7 @@
       "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -44,18 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO TRT 17ª PRESI Nº 63/2026",
-      "text_resumo": "ATO TRT 17ª PRESI Nº 63/2026\n\n\n\n\n                                         Prorroga a suspensão do atendimento ao público e das solicitações de arquivamento e desarquivamento\n                                         de processos físicos na Seção de Arquivo (SEARQ).\n\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n   CONSIDERANDO o disposto no inciso III do artigo 15 do Regimento Interno deste Tribunal;\n\n\n  CONSIDERANDO o art. 216, § 2°, da Constituição Federal de 1988, que incumbe à administração pública, na forma da lei, a gestão da\n  documentação governamental;\n\n\n  CONSIDERANDO a transferência de todo o acervo de estantes, processos e documentos físicos do Arquivo Judicial, anteriormente armazenados\n  em imóvel alugado no bairro Araçás, em Vila Velha/ES, para o imóvel cedido pela Caixa Econômica Federal, situado na Av. Princesa Isabel,\n  Centro, e para o edifício do TRT da 17ª Região, no bairro Enseada do Suá, ambos em Vitória/ES;\n\n\n  CONSIDERANDO a necessidade de recadastramento alfanumérico, em sistema informatizado, de todo o acervo documental que foi transferido\n  durante a mudança para os novos locais;\n\n\n  CONSIDERANDO que o reduzido quadro de pessoal da Seção de Arquivo exigiu a contratação de mão de obra especializada para o\n  recadastramento integral dos autos físicos deste Tribunal como condição indispensável para a localização numérica e geográfica dos processos\n  arquivados definitivamente;\n\n\n  CONSIDERANDO a proximidade do exaurimento do prazo de suspensão das atividades do SEARQ determinado pelo Ato TRT 17.ª PRESI nº\n  06/2026; e\n\n\n  CONSIDERANDO a necessidade de acompanhamento dos servidores da unidade, a fim de orientar a equipe contratada acerca da estrita\n  observância das normas de preservação documental durante o manuseio, nos termos da responsabilidade nos termos da Resolução nº 324/2020,\n  do CNJ e da Resolução Administrativa nº 161/2012, deste Tribunal,\n\n\n\nCódigo para aferir autenticidade deste caderno: 239855\n\f   4523/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        2\n   Data da Disponibilização: Segunda-feira, 27 de Julho de 2026\n\n\n\n\n                                                                        RESOLVE:\n\n\n\n\n  Art. 1.º Prorrogar, pelo prazo de 180 (cento e oitenta) dias, a suspensão do atendimento ao público, às partes, aos advogados e às advogadas na\n  Seção de Arquivo (SEARQ), bem como do recebimento de solicitações de arquivamento e desarquivamento de processos físicos e demais\n  documentos encaminhados pelas unidades administrativas e judiciárias do Tribunal Regional do Trabalho da 17ª Região.\n\n\n  Art. 2º As devoluções de processos em carga serão recebidas normalmente.\n\n\n  Art. 3.º Este Ato entra em vigor após o exaurimento do prazo definido no Ato TRT 17.ª PRESI nº 06/2026.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17.ª Região.\n\n\n\n                                                     Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                            Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/07/2026,\n                         às 18:46, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1330628 e o código CRC 42FA7656.\n\n\n\n\n                                             SECRETARIA DE CORREGEDORIA REGIONAL\n                                                               Ato\n                                                               Ato\n                                                    Publicação DEJT SEI - Ato\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                                                    SECOR – Secretaria da Corregedoria Regional\n\n  Processo: 0000029-98.2026.5.17.0500\n  Assunto(s): Normatização. Regulamentação\n  Especificação: ATOS PRESI SECOR 2026\n\n\n\n                                                                ATO PRESI SECOR N.º 47/2026\n\n\n\n                        A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n               REGIÃO, no uso de suas atribuições legais e regimentais,\n\n\n                             CONSIDERANDO o disposto no § 2.º do art. 2.º do Ato Presi Secor n.º 41/2026, acerca da ordem e da equanimidade da\n               redistribuição dos processos desvinculados do Juiz Vitor Hugo Vieira Miguel;\n                             CONSIDERANDO que as Juízas Ivy D'lourdes Malacarne e Flávia Fragale Martins Pepino se encontram afastadas da\n               jurisdição por período superior a 60 (sessenta) dias, e\n\n                             CONSIDERANDO a mensagem da Vara do Trabalho de Guarapari, datada de 21/07/2026, apresentando nova listagem\n\n\nCódigo para aferir autenticidade deste caderno: 239855\n\f         4523/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         3\n         Data da Disponibilização: Segunda-feira, 27 de Julho de 2026\n\n\n\n               de processos: 0001938-92.2025.5.17.0151, 0000622-82.2025.5.17.0009, 0000666-29.2026.5.17.0151, 0000354-53.2026.5.17.0151,\n               0001552-62.2025.5.17.0151,\n\n\n                                                                        RESOLVE\n  Art. 1.º Determinar, na forma do art. 63, §§ 1.º e 2.º, do Provimento Consolidado da Corregedoria Regional, a continuidade da redistribuição dos\n  processos remanescentes desvinculados do Juiz Vitor Hugo Vieira Miguel, observando a ordem e a equanimidade previstas nos",
-      "text_truncated": true,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
