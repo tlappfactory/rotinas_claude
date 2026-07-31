@@ -1,14 +1,35 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-31",
   "sources": {
     "trt17": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 134,
+      "pdf_text_chars": 24377,
+      "total_atos_detectados": 7,
+      "matched_atos": 0,
+      "headers_sample": [
+        "Ato SECOR N° 58/2026",
+        "ATO PRESI SECOR N° 51/2026",
+        "Ato SECOR N° 55/2026",
+        "ATO PRESI SECOR N° 49/2026",
+        "ATO PRESI SECOR Nº 52/2026",
+        "Ato SECOR N° 57/2026",
+        "ORDEM DE SERVIÇO Nº 01/2026"
+      ]
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 426,
+      "pdf_text_chars": 12233,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO Nº 9/GCGJT, DE 30 DE JULHO DE 2026",
+        "ATO Nº 01/CGJT.CITRT16, DE 24 DE JULHO DE 2026"
+      ]
     }
   },
   "total_matched": 0,
