@@ -248,17 +248,26 @@ Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-bol
 - `workflow_dispatch` — reenvio de uma data (`data`) ou validação sem enviar
   (`dry_run: true`).
 
-**Secrets exigidos** (Settings → Secrets and variables → Actions):
+**Secrets** (Settings → Secrets and variables → Actions). Só os três primeiros
+são obrigatórios; os demais têm default e só precisam ser cadastrados para
+sobrescrevê-lo. Secret não cadastrado chega ao runner como string vazia, e
+`send_boletim.py` trata vazio como ausente — por isso o default vale.
 
-| Secret | Obrigatório | Observação |
+| Secret | Obrigatório | Default / observação |
 |---|---|---|
-| `SMTP_HOST` | sim | ex.: `smtp.trt17.jus.br` |
-| `SMTP_USER` | sim | conta autenticada no SMTP |
-| `SMTP_PASSWORD` | sim | senha ou senha de app |
-| `SMTP_PORT` | não | default 587 (starttls) / 465 (ssl) |
-| `SMTP_SECURITY` | não | `starttls` (default), `ssl` ou `plain` |
-| `SMTP_FROM` | não | default: `SMTP_USER` |
-| `BOLETIM_TO` | não | default: `leonardo.donato@trt17.jus.br`; aceita vários separados por vírgula |
+| `SMTP_HOST` | **sim** | `smtp.gmail.com`, `smtp.trt17.jus.br`, … |
+| `SMTP_USER` | **sim** | conta autenticada no SMTP |
+| `SMTP_PASSWORD` | **sim** | senha de app (Gmail exige; senha normal não funciona) |
+| `SMTP_PORT` | não | 587 com starttls, 465 com ssl |
+| `SMTP_SECURITY` | não | `starttls` |
+| `SMTP_FROM` | não | o valor de `SMTP_USER` |
+| `BOLETIM_TO` | não | `leonardo.donato@trt17.jus.br`; aceita vários separados por vírgula |
+
+**Configuração em uso (Gmail pessoal → institucional):** `SMTP_HOST =
+smtp.gmail.com`, `SMTP_USER` = o Gmail do operador, `SMTP_PASSWORD` = senha de
+app de 16 caracteres. Os outros quatro ficam sem cadastrar. O Gmail exige
+verificação em duas etapas ativa para emitir senha de app, e recusa a senha
+comum da conta.
 
 **Validação local, sem enviar nada:**
 

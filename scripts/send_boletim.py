@@ -53,6 +53,16 @@ MESES = [
 ]
 
 
+def env(nome: str, default: str = "") -> str:
+    """Lê uma variável de ambiente tratando vazio como ausente.
+
+    O GitHub Actions define a variável como string vazia quando o secret
+    correspondente não existe — não a omite. Sem isso, um secret opcional
+    não cadastrado sobrescreveria o default em vez de cair nele.
+    """
+    return (os.environ.get(nome) or "").strip() or default
+
+
 def data_por_extenso(data: str) -> str:
     """2026-08-02 -> '2 de agosto de 2026'."""
     ano, mes, dia = (int(p) for p in data.split("-"))
@@ -94,16 +104,22 @@ def montar_mensagem(data: str, html: str, texto: str,
 
 
 def enviar(msg: EmailMessage, destinatarios: list[str]) -> None:
-    host = os.environ.get("SMTP_HOST", "").strip()
-    user = os.environ.get("SMTP_USER", "").strip()
-    senha = os.environ.get("SMTP_PASSWORD", "")
-    if not host or not user or not senha:
-        sys.exit("ERRO: SMTP_HOST, SMTP_USER e SMTP_PASSWORD são obrigatórios.")
+    host = env("SMTP_HOST")
+    user = env("SMTP_USER")
+    senha = os.environ.get("SMTP_PASSWORD") or ""
+    faltando = [n for n, v in (("SMTP_HOST", host), ("SMTP_USER", user),
+                               ("SMTP_PASSWORD", senha)) if not v]
+    if faltando:
+        sys.exit(f"ERRO: secret(s) obrigatório(s) não configurado(s): {', '.join(faltando)}")
 
-    seguranca = os.environ.get("SMTP_SECURITY", "starttls").strip().lower()
+    seguranca = env("SMTP_SECURITY", "starttls").lower()
     if seguranca not in ("starttls", "ssl", "plain"):
-        sys.exit(f"ERRO: SMTP_SECURITY inválido: {seguranca!r}")
-    porta = int(os.environ.get("SMTP_PORT") or (465 if seguranca == "ssl" else 587))
+        sys.exit(f"ERRO: SMTP_SECURITY inválido: {seguranca!r} "
+                 "(use starttls, ssl ou plain)")
+    porta_raw = env("SMTP_PORT")
+    if porta_raw and not porta_raw.isdigit():
+        sys.exit(f"ERRO: SMTP_PORT inválido: {porta_raw!r}")
+    porta = int(porta_raw) if porta_raw else (465 if seguranca == "ssl" else 587)
 
     contexto = ssl.create_default_context()
     if seguranca == "ssl":
@@ -129,11 +145,10 @@ def main() -> None:
     data = resolver_data(args.data)
     html, texto = ler_corpos(data)
 
-    destinatarios = [e.strip() for e in
-                     os.environ.get("BOLETIM_TO", DEFAULT_TO).split(",") if e.strip()]
+    destinatarios = [e.strip() for e in env("BOLETIM_TO", DEFAULT_TO).split(",") if e.strip()]
     if not destinatarios:
         sys.exit("ERRO: BOLETIM_TO não resolveu nenhum destinatário.")
-    remetente = os.environ.get("SMTP_FROM", "").strip() or os.environ.get("SMTP_USER", "").strip()
+    remetente = env("SMTP_FROM") or env("SMTP_USER")
     if not remetente:
         # Em --dry-run o remetente é dispensável: o objetivo ali é validar que
         # a rotina produziu um boletim íntegro, não a configuração de SMTP.
