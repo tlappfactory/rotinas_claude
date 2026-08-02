@@ -18,10 +18,14 @@ Passos obrigatórios na ordem:
    ```bash
    bash /home/user/rotinas_claude/scripts/ensure_bridge_data.sh
    ```
-   Se faltarem os JSONs da data-alvo, o script dispara o workflow do bridge
-   (`workflow_dispatch`) e aguarda os dados chegarem. **Não** pular direto para
-   a edição anterior sem antes executar este passo. O tratamento de cada código
-   de saída está em "Garantia de dados frescos do dia (dispatch automático)".
+   Se faltarem os JSONs da data-alvo, o script tenta disparar o workflow do
+   bridge (`workflow_dispatch`) e aguarda os dados chegarem. **Não** pular direto
+   para a edição anterior sem antes executar este passo. O tratamento de cada
+   código de saída está em "Garantia de dados frescos do dia (dispatch
+   automático)". Em particular, o código `12` significa que a API do GitHub está
+   bloqueada para a sessão: nesse caso, disparar o workflow pela ferramenta MCP
+   (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`
+   antes de considerar qualquer fallback.
 3. **Localizar os JSONs do dia (ou os mais recentes disponíveis):**
    - `/home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json`
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
@@ -164,13 +168,41 @@ Se a execução agendada do GitHub Actions falhou e algum dia ficou sem JSON, qu
 
 O passo 2 do pipeline executa `scripts/ensure_bridge_data.sh`. Ele verifica se existem os JSONs do DOU e do DEJT para a data-alvo e, **se faltarem, dispara o workflow do bridge via `workflow_dispatch` e aguarda** (poll de até 20 min, sincronizando o repo) — em vez de a rotina cair silenciosamente para a edição anterior.
 
-**Pré-requisito:** um token com permissão `actions: write` (fine-grained PAT: *Actions — Read and write* no repositório) exposto à sessão Claude na variável de ambiente `BRIDGE_DISPATCH_TOKEN` (ou `GH_TOKEN`). Sem token, o disparo não acontece e o script sai com código `10`.
+**Rota de disparo preferencial: a ferramenta MCP do GitHub.** A sessão do Claude
+não alcança `api.github.com` diretamente — o ambiente intercepta as chamadas REST
+e responde `HTTP 403` com a mensagem *"GitHub access is not enabled for this
+session. An org admin must connect the Claude GitHub App for this organization."*
+Isso vale mesmo com um token válido: a credencial não chega ao GitHub. O tráfego
+**git** (clone/pull/push) é outra rota, passa por um proxy local e funciona
+normalmente — por isso o `git pull` do passo 1 nunca foi afetado.
+
+O disparo que funciona nesta sessão é o do conector MCP do GitHub:
+
+```
+mcp__github__actions_run_trigger(
+  method="run_workflow", owner="tlappfactory", repo="rotinas_claude",
+  workflow_id="fetch-dou.yml", ref="main", inputs={"data": "<YYYY-MM-DD>"}
+)
+```
+
+Depois do disparo pelo MCP, aguardar os JSONs com:
+
+```bash
+bash /home/user/rotinas_claude/scripts/ensure_bridge_data.sh <YYYY-MM-DD> --wait-only
+```
+
+**Token (`BRIDGE_DISPATCH_TOKEN` / `GH_TOKEN`):** continua sendo o caminho para
+ambientes que alcançam `api.github.com` diretamente (execução fora do sandbox do
+Claude, runner próprio, máquina do operador). Exige permissão `actions: write`
+(fine-grained PAT: *Actions — Read and write* no repositório). **Dentro da sessão
+do Claude ele é inócuo** — não substitui a rota MCP.
 
 **Tratamento dos códigos de saída do script:**
 
 - **`0`** — dados da data-alvo presentes (já existiam ou chegaram após o dispatch). Seguir o pipeline normalmente.
-- **`10`** — dados ausentes e o dispatch não pôde ser feito (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
+- **`10`** — dados ausentes e o dispatch não pôde ser feito por falta de credencial ou de ferramenta (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
 - **`11`** — o dispatch foi feito mas os dados não chegaram dentro do tempo-limite. Mesmo tratamento do `10` (boletim com a edição mais recente + escalonamento explícito), informando que o disparo foi realizado e provavelmente ainda estava em curso.
+- **`12`** — a API do GitHub está bloqueada para esta sessão (assinatura descrita acima). **Não escalar ainda e não trocar o token:** disparar o workflow pela ferramenta MCP (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`, tratando o resultado dessa segunda chamada (`0` segue o pipeline; `11` escalona). Só escalar como falha de bridge se a própria rota MCP também falhar — nesse caso, relatar ao operador que o conector GitHub do Claude precisa ser reconectado para a organização `tlappfactory`.
 
 O fallback para a edição anterior continua existindo — mas deixou de ser silencioso: só ocorre após uma tentativa de dispatch e sempre acompanhado de escalonamento visível, na minuta e no relatório ao operador.
 
@@ -249,9 +281,9 @@ Cada fonte primária consultada na edição utilizada deve aparecer no boletim c
 
 A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
 
-### Aviso metodológico em fallback (códigos 10 e 11)
+### Aviso metodológico em fallback (códigos 10, 11 e 12 não resolvido)
 
-Quando o pipeline cai para edição anterior (`ensure_bridge_data.sh` retorna `10` ou `11`), o aviso metodológico do boletim **deve** aparecer em destaque visual (caixa de borda vermelha no HTML; bloco "AVISO METODOLÓGICO (DESTAQUE)" no plain-text) e enumerar três pontos obrigatórios:
+Quando o pipeline cai para edição anterior (`ensure_bridge_data.sh` retorna `10` ou `11`, ou retorna `12` e a rota MCP também falha), o aviso metodológico do boletim **deve** aparecer em destaque visual (caixa de borda vermelha no HTML; bloco "AVISO METODOLÓGICO (DESTAQUE)" no plain-text) e enumerar três pontos obrigatórios:
 
 1. **Edição efetivamente utilizada** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`, conforme `_last_fetch.json`); TCU sessões até `YYYY-MM-DD` (campo `max_date_seen` do JSON do TCU).
 2. **Edição não consultada nesta execução** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU acórdãos da sessão posterior a `max_date_seen` da edição utilizada.
@@ -261,7 +293,7 @@ Modelo canônico do bloco (substituir as datas conforme o caso):
 
 > ⚠ **Aviso metodológico (em destaque):** a edição de `YYYY-MM-DD` das fontes oficiais ainda não estava disponível no fechamento desta rotina. Este boletim utiliza a edição mais recente consolidada — DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU sessões até `YYYY-MM-DD`. **Edições não consultadas:** DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`). Em razão da convenção do DEJT (Lei 11.419/2006), a edição disponibilizada em `DD/MM` = publicação `DD+1/MM`: atos administrativos da SGP publicados nessa edição podem não estar refletidos e requerem conferência humana posterior.
 
-No relatório final ao operador (fora da minuta), informar adicionalmente o `EXIT_CODE` recebido (`10` = sem token / sem `gh`/`curl`; `11` = dispatch feito, timeout) e a ação manual recomendada (re-disparo do workflow do bridge para a data-alvo).
+No relatório final ao operador (fora da minuta), informar adicionalmente o `EXIT_CODE` recebido (`10` = sem credencial ou sem `gh`/`curl`; `11` = dispatch feito, timeout; `12` = API do GitHub bloqueada para a sessão — só vira fallback se a rota MCP também falhar) e a ação manual recomendada (re-disparo do workflow do bridge para a data-alvo). No caso do `12`, a ação recomendada **não** é trocar o token: é reconectar o app GitHub do Claude para a organização `tlappfactory`.
 
 ### Operação diária do Claude — leitura completa dos JSONs
 
