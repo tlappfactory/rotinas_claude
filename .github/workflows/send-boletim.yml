@@ -1,0 +1,63 @@
+name: send-boletim-colep
+
+# Envia o Boletim Normativo COLEP por SMTP a partir do par de arquivos
+# versionado pela Routine COLEP-01 em boletins/<YYYY-MM-DD>.{html,txt}.
+#
+# Dois gatilhos:
+#   push   — a rotina commita o boletim do dia em main e o envio dispara
+#            sozinho. Não depende da API do GitHub, que é inalcançável a
+#            partir do sandbox do Claude (ver CLAUDE.md, código 12).
+#   manual — reenvio de uma data específica, ou envio de teste com dry_run.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "boletins/**"
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data do boletim YYYY-MM-DD (vazio = o mais recente)"
+        required: false
+      dry_run:
+        description: "Só validar, sem enviar (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: send-boletim-colep
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Enviar boletim
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          BOLETIM_TO: ${{ secrets.BOLETIM_TO }}
+        run: |
+          args=""
+          if [ -n "${{ github.event.inputs.data }}" ]; then
+            args="$args --data ${{ github.event.inputs.data }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            args="$args --dry-run"
+          fi
+          python scripts/send_boletim.py $args

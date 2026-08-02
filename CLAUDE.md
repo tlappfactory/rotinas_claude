@@ -18,23 +18,36 @@ Passos obrigatórios na ordem:
    ```bash
    bash /home/user/rotinas_claude/scripts/ensure_bridge_data.sh
    ```
-   Se faltarem os JSONs da data-alvo, o script dispara o workflow do bridge
-   (`workflow_dispatch`) e aguarda os dados chegarem. **Não** pular direto para
-   a edição anterior sem antes executar este passo. O tratamento de cada código
-   de saída está em "Garantia de dados frescos do dia (dispatch automático)".
+   Se faltarem os JSONs da data-alvo, o script tenta disparar o workflow do
+   bridge (`workflow_dispatch`) e aguarda os dados chegarem. **Não** pular direto
+   para a edição anterior sem antes executar este passo. O tratamento de cada
+   código de saída está em "Garantia de dados frescos do dia (dispatch
+   automático)". Em particular, o código `12` significa que a API do GitHub está
+   bloqueada para a sessão: nesse caso, disparar o workflow pela ferramenta MCP
+   (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`
+   antes de considerar qualquer fallback.
 3. **Localizar os JSONs do dia (ou os mais recentes disponíveis):**
    - `/home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json`
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
 4. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
 5. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
-6. **Gerar o rascunho HTML** via `mcp__Gmail__create_draft` usando o template `/home/user/rotinas_claude/colep-boletim-template.html` com placeholders preenchidos.
-7. **Reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, ID do draft criado, fontes que falharam (se houver) e se houve dispatch do bridge.
+6. **Gerar o boletim** a partir do template `/home/user/rotinas_claude/colep-boletim-template.html` com os placeholders preenchidos, gravando o par de arquivos e publicando-o (ver "Envio do boletim"):
+   ```bash
+   # boletins/<YYYY-MM-DD>.html  — corpo rich-text
+   # boletins/<YYYY-MM-DD>.txt   — alternativa plain-text equivalente
+   git -C /home/user/rotinas_claude add boletins/
+   git -C /home/user/rotinas_claude commit -m "Boletim COLEP <YYYY-MM-DD>"
+   git -C /home/user/rotinas_claude push origin main
+   ```
+   O push dispara o workflow `send-boletim-colep`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho.
+7. **Confirmar o envio** consultando o workflow (`mcp__github__actions_list`, `list_workflow_runs` de `send-boletim.yml`) e **reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, resultado do envio (conclusão do run), fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
-- Não pedir confirmação intermediária. Não fazer perguntas ao usuário, exceto se houver falha bloqueante (Gmail desautenticado, repo inacessível, etc.).
+- Não pedir confirmação intermediária. Não fazer perguntas ao usuário, exceto se houver falha bloqueante (repo inacessível, push recusado, etc.).
 - Se a data corrente não tiver JSON ainda, **não** cair silenciosamente para a edição anterior: o passo 2 (`scripts/ensure_bridge_data.sh`) dispara o bridge e aguarda. O JSON mais recente disponível só é usado como fallback quando o dispatch não é possível ou estoura o tempo-limite — e, nesse caso, com escalonamento visível conforme "Garantia de dados frescos do dia (dispatch automático)", sempre declarando a situação no aviso metodológico do boletim.
 - Se `git pull` falhar (rede, autenticação), continuar com os dados locais já presentes e sinalizar no boletim.
-- Se nenhum dos JSONs estiver acessível, ainda assim produzir o rascunho com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
+- Se nenhum dos JSONs estiver acessível, ainda assim produzir o boletim com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
+- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige `git push origin main` manual (ou *Actions → send-boletim-colep → Run workflow* após o push).
 
 ## Identidade e contexto
 
@@ -52,7 +65,7 @@ NUNCA acessar, processar ou citar dados pessoais identificáveis, processos sigi
 
 ## Tarefa diária
 
-Produzir o rascunho do **Boletim Normativo COLEP** e salvá-lo como rascunho no Gmail conectado, endereçado a `leonardo.donato@trt17.jus.br`.
+Produzir o **Boletim Normativo COLEP** e enviá-lo por e-mail a `leonardo.donato@trt17.jus.br`, que o revisa antes de qualquer distribuição às unidades da SGP.
 
 ### Fontes a consultar
 
@@ -97,12 +110,12 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 **Arquivo:** `colep-boletim-template.html` (mesmo diretório deste CLAUDE.md).
 
-- Sempre usar o parâmetro **`htmlBody`** do `mcp__Gmail__create_draft` com o conteúdo desse template, substituindo os placeholders `{{...}}`.
-- Preencher também o parâmetro `body` com uma versão plain-text equivalente (fallback para clientes sem HTML).
-- **Assunto fixo:** `[BOLETIM COLEP] Rascunho – [DATA POR EXTENSO]`
-- **Destinatário:** `leonardo.donato@trt17.jus.br`
+- Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
+- Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
+- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `[BOLETIM COLEP] Rascunho – [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. A palavra "Rascunho" permanece de propósito: o boletim segue pendente de revisão humana antes da distribuição às unidades.
+- **Destinatário:** `leonardo.donato@trt17.jus.br` (secret `BOLETIM_TO`, com esse valor como default no script).
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
-- Se nenhuma seção tiver itens, ainda assim criar e enviar o rascunho — manter a previsibilidade do Boletim.
+- Se nenhuma seção tiver itens, ainda assim gerar e enviar o boletim — manter a previsibilidade do Boletim.
 
 ### Linguagem da minuta — boletim limpo
 
@@ -164,13 +177,41 @@ Se a execução agendada do GitHub Actions falhou e algum dia ficou sem JSON, qu
 
 O passo 2 do pipeline executa `scripts/ensure_bridge_data.sh`. Ele verifica se existem os JSONs do DOU e do DEJT para a data-alvo e, **se faltarem, dispara o workflow do bridge via `workflow_dispatch` e aguarda** (poll de até 20 min, sincronizando o repo) — em vez de a rotina cair silenciosamente para a edição anterior.
 
-**Pré-requisito:** um token com permissão `actions: write` (fine-grained PAT: *Actions — Read and write* no repositório) exposto à sessão Claude na variável de ambiente `BRIDGE_DISPATCH_TOKEN` (ou `GH_TOKEN`). Sem token, o disparo não acontece e o script sai com código `10`.
+**Rota de disparo preferencial: a ferramenta MCP do GitHub.** A sessão do Claude
+não alcança `api.github.com` diretamente — o ambiente intercepta as chamadas REST
+e responde `HTTP 403` com a mensagem *"GitHub access is not enabled for this
+session. An org admin must connect the Claude GitHub App for this organization."*
+Isso vale mesmo com um token válido: a credencial não chega ao GitHub. O tráfego
+**git** (clone/pull/push) é outra rota, passa por um proxy local e funciona
+normalmente — por isso o `git pull` do passo 1 nunca foi afetado.
+
+O disparo que funciona nesta sessão é o do conector MCP do GitHub:
+
+```
+mcp__github__actions_run_trigger(
+  method="run_workflow", owner="tlappfactory", repo="rotinas_claude",
+  workflow_id="fetch-dou.yml", ref="main", inputs={"data": "<YYYY-MM-DD>"}
+)
+```
+
+Depois do disparo pelo MCP, aguardar os JSONs com:
+
+```bash
+bash /home/user/rotinas_claude/scripts/ensure_bridge_data.sh <YYYY-MM-DD> --wait-only
+```
+
+**Token (`BRIDGE_DISPATCH_TOKEN` / `GH_TOKEN`):** continua sendo o caminho para
+ambientes que alcançam `api.github.com` diretamente (execução fora do sandbox do
+Claude, runner próprio, máquina do operador). Exige permissão `actions: write`
+(fine-grained PAT: *Actions — Read and write* no repositório). **Dentro da sessão
+do Claude ele é inócuo** — não substitui a rota MCP.
 
 **Tratamento dos códigos de saída do script:**
 
 - **`0`** — dados da data-alvo presentes (já existiam ou chegaram após o dispatch). Seguir o pipeline normalmente.
-- **`10`** — dados ausentes e o dispatch não pôde ser feito (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
+- **`10`** — dados ausentes e o dispatch não pôde ser feito por falta de credencial ou de ferramenta (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
 - **`11`** — o dispatch foi feito mas os dados não chegaram dentro do tempo-limite. Mesmo tratamento do `10` (boletim com a edição mais recente + escalonamento explícito), informando que o disparo foi realizado e provavelmente ainda estava em curso.
+- **`12`** — a API do GitHub está bloqueada para esta sessão (assinatura descrita acima). **Não escalar ainda e não trocar o token:** disparar o workflow pela ferramenta MCP (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`, tratando o resultado dessa segunda chamada (`0` segue o pipeline; `11` escalona). Só escalar como falha de bridge se a própria rota MCP também falhar — nesse caso, relatar ao operador que o conector GitHub do Claude precisa ser reconectado para a organização `tlappfactory`.
 
 O fallback para a edição anterior continua existindo — mas deixou de ser silencioso: só ocorre após uma tentativa de dispatch e sempre acompanhado de escalonamento visível, na minuta e no relatório ao operador.
 
@@ -187,11 +228,70 @@ DEJT/CSJT/CNJ-atos/TRT-17 continuam marcados como "não acessíveis pela ferrame
 
 A chefia da COLEP confirmou que os **nomes próprios** publicados no DO2 (aposentadorias, cessões, nomeações) podem ser citados no boletim, pois constituem **dado público em finalidade pública legítima** (gestão de pessoal pelo órgão competente da SGP), com base no art. 7º, II e III da LGPD c/c o princípio da publicidade do art. 37 da CF. Não há necessidade de redação de nomes nos boletins internos.
 
+## Envio do boletim
+
+O e-mail sai por SMTP a partir do runner do GitHub Actions — não pelo conector
+Gmail, que não tem operação de envio. O caminho completo:
+
+```
+Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-boletim-colep
+                                                              │
+                                                   scripts/send_boletim.py
+                                                              │
+                                                        SMTP ──> leonardo.donato@trt17.jus.br
+```
+
+**Gatilhos do workflow `send-boletim.yml`:**
+- `push` em `main` tocando `boletins/**` — o caminho normal. Deliberadamente
+  não depende da API do GitHub, que é inalcançável do sandbox do Claude (ver
+  o código `12` em "Garantia de dados frescos do dia").
+- `workflow_dispatch` — reenvio de uma data (`data`) ou validação sem enviar
+  (`dry_run: true`).
+
+**Secrets** (Settings → Secrets and variables → Actions). Só os três primeiros
+são obrigatórios; os demais têm default e só precisam ser cadastrados para
+sobrescrevê-lo. Secret não cadastrado chega ao runner como string vazia, e
+`send_boletim.py` trata vazio como ausente — por isso o default vale.
+
+| Secret | Obrigatório | Default / observação |
+|---|---|---|
+| `SMTP_HOST` | **sim** | `smtp.gmail.com`, `smtp.trt17.jus.br`, … |
+| `SMTP_USER` | **sim** | conta autenticada no SMTP |
+| `SMTP_PASSWORD` | **sim** | senha de app (Gmail exige; senha normal não funciona) |
+| `SMTP_PORT` | não | 587 com starttls, 465 com ssl |
+| `SMTP_SECURITY` | não | `starttls` |
+| `SMTP_FROM` | não | o valor de `SMTP_USER` |
+| `BOLETIM_TO` | não | `leonardo.donato@trt17.jus.br`; aceita vários separados por vírgula |
+
+**Configuração em uso (Gmail pessoal → institucional):** `SMTP_HOST =
+smtp.gmail.com`, `SMTP_USER` = o Gmail do operador, `SMTP_PASSWORD` = senha de
+app de 16 caracteres. Os outros quatro ficam sem cadastrar. O Gmail exige
+verificação em duas etapas ativa para emitir senha de app, e recusa a senha
+comum da conta.
+
+**Validação local, sem enviar nada:**
+
+```bash
+python3 scripts/send_boletim.py --dry-run              # boletim mais recente
+python3 scripts/send_boletim.py --data 2026-08-03 --dry-run
+```
+
+O `--dry-run` dispensa credenciais de SMTP: ele serve para conferir que a
+rotina produziu um boletim íntegro (par de arquivos presente e não vazio,
+assunto e destinatário corretos).
+
+**Revisão humana.** O destinatário é o revisor, não as unidades da SGP. O que
+a automação entrega é a minuta a quem revisa; a distribuição às unidades
+continua sendo ato humano, e o boletim mantém, no corpo, o aviso de que foi
+gerado por IA e exige revisão antes da distribuição oficial (RA TRT-17
+nº 4/2025).
+
 ## Limitações conhecidas do ambiente — LEIA ANTES DE EXECUTAR
 
-### Conector Gmail
-- O conector MCP Gmail **só cria rascunhos** (`create_draft`). Não há `send_message`, `update_draft` nem `delete_draft`. O envio final é manual, em conformidade com a exigência de revisão humana da RA TRT-17 nº 4/2025.
-- O rascunho fica salvo na conta Gmail autenticada no conector — confirmar em *Settings → Connectors → Gmail* do Claude qual é o endereço vinculado.
+### Conector Gmail — não é mais usado pela rotina
+- O conector MCP Gmail **não envia e-mail**. Ele expõe `create_draft`, `update_draft`, `list_drafts`, leitura de mensagens/threads, rótulos e lixeira — não há nenhuma operação de envio. Por isso o envio migrou para SMTP no runner do GitHub Actions (ver "Envio do boletim").
+- Correção de registro: versões anteriores desta CLAUDE.md afirmavam que `update_draft` e `delete_draft` não existiam. `update_draft` existe; o descarte se faz por `apply_sensitive_message_label` (TRASH).
+- O conector permanece disponível para consulta (buscar boletins anteriores, verificar threads), mas não faz parte do caminho de entrega.
 
 ### Cobertura real das fontes (CRÍTICO)
 Testes em 11/05/2026 confirmaram que o `WebFetch` direto retorna **HTTP 403 Forbidden** para os portais oficiais abaixo. A rotina contorna isso via bridge no GitHub Actions (runners têm internet livre).
@@ -249,9 +349,9 @@ Cada fonte primária consultada na edição utilizada deve aparecer no boletim c
 
 A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
 
-### Aviso metodológico em fallback (códigos 10 e 11)
+### Aviso metodológico em fallback (códigos 10, 11 e 12 não resolvido)
 
-Quando o pipeline cai para edição anterior (`ensure_bridge_data.sh` retorna `10` ou `11`), o aviso metodológico do boletim **deve** aparecer em destaque visual (caixa de borda vermelha no HTML; bloco "AVISO METODOLÓGICO (DESTAQUE)" no plain-text) e enumerar três pontos obrigatórios:
+Quando o pipeline cai para edição anterior (`ensure_bridge_data.sh` retorna `10` ou `11`, ou retorna `12` e a rota MCP também falha), o aviso metodológico do boletim **deve** aparecer em destaque visual (caixa de borda vermelha no HTML; bloco "AVISO METODOLÓGICO (DESTAQUE)" no plain-text) e enumerar três pontos obrigatórios:
 
 1. **Edição efetivamente utilizada** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`, conforme `_last_fetch.json`); TCU sessões até `YYYY-MM-DD` (campo `max_date_seen` do JSON do TCU).
 2. **Edição não consultada nesta execução** — DOU edição `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU acórdãos da sessão posterior a `max_date_seen` da edição utilizada.
@@ -261,7 +361,7 @@ Modelo canônico do bloco (substituir as datas conforme o caso):
 
 > ⚠ **Aviso metodológico (em destaque):** a edição de `YYYY-MM-DD` das fontes oficiais ainda não estava disponível no fechamento desta rotina. Este boletim utiliza a edição mais recente consolidada — DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`); TCU sessões até `YYYY-MM-DD`. **Edições não consultadas:** DOU `YYYY-MM-DD`; DEJT publicação `YYYY-MM-DD` (disponibilização `YYYY-MM-DD`). Em razão da convenção do DEJT (Lei 11.419/2006), a edição disponibilizada em `DD/MM` = publicação `DD+1/MM`: atos administrativos da SGP publicados nessa edição podem não estar refletidos e requerem conferência humana posterior.
 
-No relatório final ao operador (fora da minuta), informar adicionalmente o `EXIT_CODE` recebido (`10` = sem token / sem `gh`/`curl`; `11` = dispatch feito, timeout) e a ação manual recomendada (re-disparo do workflow do bridge para a data-alvo).
+No relatório final ao operador (fora da minuta), informar adicionalmente o `EXIT_CODE` recebido (`10` = sem credencial ou sem `gh`/`curl`; `11` = dispatch feito, timeout; `12` = API do GitHub bloqueada para a sessão — só vira fallback se a rota MCP também falhar) e a ação manual recomendada (re-disparo do workflow do bridge para a data-alvo). No caso do `12`, a ação recomendada **não** é trocar o token: é reconectar o app GitHub do Claude para a organização `tlappfactory`.
 
 ### Operação diária do Claude — leitura completa dos JSONs
 
