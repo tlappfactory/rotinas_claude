@@ -31,14 +31,23 @@ Passos obrigatórios na ordem:
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
 4. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
 5. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
-6. **Gerar o rascunho HTML** via `mcp__Gmail__create_draft` usando o template `/home/user/rotinas_claude/colep-boletim-template.html` com placeholders preenchidos.
-7. **Reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, ID do draft criado, fontes que falharam (se houver) e se houve dispatch do bridge.
+6. **Gerar o boletim** a partir do template `/home/user/rotinas_claude/colep-boletim-template.html` com os placeholders preenchidos, gravando o par de arquivos e publicando-o (ver "Envio do boletim"):
+   ```bash
+   # boletins/<YYYY-MM-DD>.html  — corpo rich-text
+   # boletins/<YYYY-MM-DD>.txt   — alternativa plain-text equivalente
+   git -C /home/user/rotinas_claude add boletins/
+   git -C /home/user/rotinas_claude commit -m "Boletim COLEP <YYYY-MM-DD>"
+   git -C /home/user/rotinas_claude push origin main
+   ```
+   O push dispara o workflow `send-boletim-colep`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho.
+7. **Confirmar o envio** consultando o workflow (`mcp__github__actions_list`, `list_workflow_runs` de `send-boletim.yml`) e **reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, resultado do envio (conclusão do run), fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
-- Não pedir confirmação intermediária. Não fazer perguntas ao usuário, exceto se houver falha bloqueante (Gmail desautenticado, repo inacessível, etc.).
+- Não pedir confirmação intermediária. Não fazer perguntas ao usuário, exceto se houver falha bloqueante (repo inacessível, push recusado, etc.).
 - Se a data corrente não tiver JSON ainda, **não** cair silenciosamente para a edição anterior: o passo 2 (`scripts/ensure_bridge_data.sh`) dispara o bridge e aguarda. O JSON mais recente disponível só é usado como fallback quando o dispatch não é possível ou estoura o tempo-limite — e, nesse caso, com escalonamento visível conforme "Garantia de dados frescos do dia (dispatch automático)", sempre declarando a situação no aviso metodológico do boletim.
 - Se `git pull` falhar (rede, autenticação), continuar com os dados locais já presentes e sinalizar no boletim.
-- Se nenhum dos JSONs estiver acessível, ainda assim produzir o rascunho com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
+- Se nenhum dos JSONs estiver acessível, ainda assim produzir o boletim com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
+- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige `git push origin main` manual (ou *Actions → send-boletim-colep → Run workflow* após o push).
 
 ## Identidade e contexto
 
@@ -56,7 +65,7 @@ NUNCA acessar, processar ou citar dados pessoais identificáveis, processos sigi
 
 ## Tarefa diária
 
-Produzir o rascunho do **Boletim Normativo COLEP** e salvá-lo como rascunho no Gmail conectado, endereçado a `leonardo.donato@trt17.jus.br`.
+Produzir o **Boletim Normativo COLEP** e enviá-lo por e-mail a `leonardo.donato@trt17.jus.br`, que o revisa antes de qualquer distribuição às unidades da SGP.
 
 ### Fontes a consultar
 
@@ -101,12 +110,12 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 **Arquivo:** `colep-boletim-template.html` (mesmo diretório deste CLAUDE.md).
 
-- Sempre usar o parâmetro **`htmlBody`** do `mcp__Gmail__create_draft` com o conteúdo desse template, substituindo os placeholders `{{...}}`.
-- Preencher também o parâmetro `body` com uma versão plain-text equivalente (fallback para clientes sem HTML).
-- **Assunto fixo:** `[BOLETIM COLEP] Rascunho – [DATA POR EXTENSO]`
-- **Destinatário:** `leonardo.donato@trt17.jus.br`
+- Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
+- Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
+- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `[BOLETIM COLEP] Rascunho – [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. A palavra "Rascunho" permanece de propósito: o boletim segue pendente de revisão humana antes da distribuição às unidades.
+- **Destinatário:** `leonardo.donato@trt17.jus.br` (secret `BOLETIM_TO`, com esse valor como default no script).
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
-- Se nenhuma seção tiver itens, ainda assim criar e enviar o rascunho — manter a previsibilidade do Boletim.
+- Se nenhuma seção tiver itens, ainda assim gerar e enviar o boletim — manter a previsibilidade do Boletim.
 
 ### Linguagem da minuta — boletim limpo
 
@@ -219,11 +228,61 @@ DEJT/CSJT/CNJ-atos/TRT-17 continuam marcados como "não acessíveis pela ferrame
 
 A chefia da COLEP confirmou que os **nomes próprios** publicados no DO2 (aposentadorias, cessões, nomeações) podem ser citados no boletim, pois constituem **dado público em finalidade pública legítima** (gestão de pessoal pelo órgão competente da SGP), com base no art. 7º, II e III da LGPD c/c o princípio da publicidade do art. 37 da CF. Não há necessidade de redação de nomes nos boletins internos.
 
+## Envio do boletim
+
+O e-mail sai por SMTP a partir do runner do GitHub Actions — não pelo conector
+Gmail, que não tem operação de envio. O caminho completo:
+
+```
+Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-boletim-colep
+                                                              │
+                                                   scripts/send_boletim.py
+                                                              │
+                                                        SMTP ──> leonardo.donato@trt17.jus.br
+```
+
+**Gatilhos do workflow `send-boletim.yml`:**
+- `push` em `main` tocando `boletins/**` — o caminho normal. Deliberadamente
+  não depende da API do GitHub, que é inalcançável do sandbox do Claude (ver
+  o código `12` em "Garantia de dados frescos do dia").
+- `workflow_dispatch` — reenvio de uma data (`data`) ou validação sem enviar
+  (`dry_run: true`).
+
+**Secrets exigidos** (Settings → Secrets and variables → Actions):
+
+| Secret | Obrigatório | Observação |
+|---|---|---|
+| `SMTP_HOST` | sim | ex.: `smtp.trt17.jus.br` |
+| `SMTP_USER` | sim | conta autenticada no SMTP |
+| `SMTP_PASSWORD` | sim | senha ou senha de app |
+| `SMTP_PORT` | não | default 587 (starttls) / 465 (ssl) |
+| `SMTP_SECURITY` | não | `starttls` (default), `ssl` ou `plain` |
+| `SMTP_FROM` | não | default: `SMTP_USER` |
+| `BOLETIM_TO` | não | default: `leonardo.donato@trt17.jus.br`; aceita vários separados por vírgula |
+
+**Validação local, sem enviar nada:**
+
+```bash
+python3 scripts/send_boletim.py --dry-run              # boletim mais recente
+python3 scripts/send_boletim.py --data 2026-08-03 --dry-run
+```
+
+O `--dry-run` dispensa credenciais de SMTP: ele serve para conferir que a
+rotina produziu um boletim íntegro (par de arquivos presente e não vazio,
+assunto e destinatário corretos).
+
+**Revisão humana.** O destinatário é o revisor, não as unidades da SGP. O que
+a automação entrega é a minuta a quem revisa; a distribuição às unidades
+continua sendo ato humano, e o boletim mantém, no corpo, o aviso de que foi
+gerado por IA e exige revisão antes da distribuição oficial (RA TRT-17
+nº 4/2025).
+
 ## Limitações conhecidas do ambiente — LEIA ANTES DE EXECUTAR
 
-### Conector Gmail
-- O conector MCP Gmail **só cria rascunhos** (`create_draft`). Não há `send_message`, `update_draft` nem `delete_draft`. O envio final é manual, em conformidade com a exigência de revisão humana da RA TRT-17 nº 4/2025.
-- O rascunho fica salvo na conta Gmail autenticada no conector — confirmar em *Settings → Connectors → Gmail* do Claude qual é o endereço vinculado.
+### Conector Gmail — não é mais usado pela rotina
+- O conector MCP Gmail **não envia e-mail**. Ele expõe `create_draft`, `update_draft`, `list_drafts`, leitura de mensagens/threads, rótulos e lixeira — não há nenhuma operação de envio. Por isso o envio migrou para SMTP no runner do GitHub Actions (ver "Envio do boletim").
+- Correção de registro: versões anteriores desta CLAUDE.md afirmavam que `update_draft` e `delete_draft` não existiam. `update_draft` existe; o descarte se faz por `apply_sensitive_message_label` (TRASH).
+- O conector permanece disponível para consulta (buscar boletins anteriores, verificar threads), mas não faz parte do caminho de entrega.
 
 ### Cobertura real das fontes (CRÍTICO)
 Testes em 11/05/2026 confirmaram que o `WebFetch` direto retorna **HTTP 403 Forbidden** para os portais oficiais abaixo. A rotina contorna isso via bridge no GitHub Actions (runners têm internet livre).
