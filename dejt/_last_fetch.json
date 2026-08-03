@@ -1,6 +1,6 @@
 {
-  "run_utc": "2026-08-01T14:28:11Z",
-  "expected_publicacao": "2026-08-01",
+  "run_utc": "2026-08-03T15:39:03Z",
+  "expected_publicacao": "2026-08-03",
   "by_label": {
     "trt17": {
       "label": "trt17",
@@ -17,7 +17,7 @@
       "publicacao": "2026-07-30",
       "date": "2026-07-30",
       "status": "pdf_stale",
-      "expected_publicacao": "2026-08-01",
+      "expected_publicacao": "2026-08-03",
       "size_bytes": 974627,
       "content_type": "application/pdf"
     },
@@ -27,7 +27,7 @@
       "publicacao": "2026-07-31",
       "date": "2026-07-31",
       "status": "pdf_stale",
-      "expected_publicacao": "2026-08-01",
+      "expected_publicacao": "2026-08-03",
       "size_bytes": 436548,
       "content_type": "application/pdf"
     }
