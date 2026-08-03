@@ -1,0 +1,110 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 3 de agosto de 2026 (segunda-feira). Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+============================================================
+AVISO METODOLÓGICO (DESTAQUE)
+============================================================
+A edição de 3 de agosto de 2026 das fontes oficiais ainda não estava disponível no fechamento desta rotina. Este boletim utiliza a edição mais recente consolidada — a mesma já utilizada no boletim de ontem (2 de agosto), pois nenhuma edição nova chegou entretanto.
+
+1. Edição efetivamente utilizada: DOU nº 143, de 31/07/2026 (Seções 1 e 2); DEJT Caderno Administrativo TRT-17, publicação 03/08/2026 (disponibilização 31/07/2026); TCU — acórdãos de sessões até 29/07/2026.
+2. Edição não consultada nesta execução: DOU de 1º a 3 de agosto de 2026; TCU — acórdãos de sessões posteriores a 29/07/2026.
+3. Alerta específico sobre o DEJT: em razão da convenção de publicação do DEJT (Lei nº 11.419/2006, art. 4º, §3º), a edição disponibilizada em 31/07 corresponde à publicação em 03/08 — por isso o Caderno Administrativo do TRT-17 já reflete a data de hoje. Os Cadernos do CSJT e do TST não tiveram publicação nesta data (situação legítima de caderno esparso, não falha de coleta).
+
+Causa desta pendência: a atualização automática das fontes não ocorreu hoje. A equipe técnica foi notificada para verificar a conexão do sistema de coleta e restabelecer a atualização diária. Recomenda-se reexecutar a rotina no próximo dia útil, com a edição do dia, antes de qualquer decisão que dependa de ato publicado após 31/07/2026.
+
+============================================================
+BOLETIM NORMATIVO COLEP — 3 DE AGOSTO DE 2026
+============================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes na edição utilizada.
+
+2. MÉDIO IMPACTO (ciência)
+--------------------------------
+- Despacho PRESI/SEGEP nº 844/2026 — Tribunal Regional do Trabalho da 17ª Região
+  Ementa: Torna público o resultado do processo de remoção de Juízas e Juízes Titulares (Edital nº 06/2026) e torna sem efeito, por erro material, o Despacho PRESI/SEGEP nº 839/2026.
+  Conteúdo: Juíza Titular da 10ª Vara do Trabalho de Vitória: Juíza Angela Baptista Balliana Kock; Juiz Titular da 1ª Vara do Trabalho de Vitória: Juiz Luís Eduardo Soares Fontenelle; Vara do Trabalho de Linhares: cargo vago. Processo 0001076-10.2026.5.17.0500.
+  Unidade(s): SELEP, CODOP, SGP-direção
+  Ação sugerida: Atualizar lotação de magistrados e preparar atos e registros decorrentes.
+  Fonte: DEJT — Caderno Administrativo TRT-17, publicação 03/08/2026 (disponibilização 31/07/2026) — https://diario.jt.jus.br/
+
+3. INFORMATIVO (arquivo)
+--------------------------------
+- Atos TST nº 390, nº 391 e nº 392, de 22/07/2026 — Tribunal Superior do Trabalho
+  Ementa: Redistribuem, a contar de 1º/8/2026, cargos vagos da Carreira Judiciária do Quadro do TST para os Quadros dos TRTs da 10ª, 23ª e 2ª Regiões, em reciprocidade com cargos idênticos ocupados por servidores daqueles Regionais, com fundamento na Resolução CNJ nº 146/2012.
+  Unidade(s): SELIR, SELEP
+  Interesse: precedente recente de redistribuição recíproca de cargos no âmbito da Justiça do Trabalho. Não há ato envolvendo o TRT-17 nesta edição.
+  Fonte: DOU Seção 2, edição nº 143, de 31/07/2026 — https://www.in.gov.br/web/dou/-/ATO%20GP%20390_2026_Processo%206001208-11899201
+
+- Ato CSJT.GP.SG nº 85, de 30/07/2026 — Conselho Superior da Justiça do Trabalho
+  Ementa: Designa servidor para substituir o titular do cargo em comissão de Coordenador de Sistemas Administrativos Nacionais, Nível CJ-2, no período de 3 a 7 de agosto de 2026 (Processo SEI CSJT nº 6001109/2026-00).
+  Unidade(s): SELEP
+  Fonte: DOU Seção 2, edição nº 143, de 31/07/2026 — https://www.in.gov.br/web/dou/-/85%20-%20ATO%20CSJT.GP.SG%20N.A%2085%20de%2020-11915527
+
+- Lei nº 15.480, de 30 de julho de 2026
+  Ementa: Altera a Lei Complementar nº 89/1997 para dispor sobre as receitas e a destinação de recursos do Funapol e sobre o auxílio-saúde dos servidores das polícias federais; e a Lei nº 13.756/2018.
+  Unidade(s): SECOBE, COLEP
+  Interesse: não se aplica aos servidores do TRT-17 (alcance restrito às carreiras policiais federais). Arquivamento como referência.
+  Fonte: DOU Seção 1, edição nº 143, de 31/07/2026 — https://www.in.gov.br/web/dou/-/3007_LEI_15480_S1_OK-11916609
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+--------------------------------
+- Acórdãos TCU nº 4.067/2026, nº 3.833/2026 e nº 3.832/2026 — cumulação de "quintos/décimos" e/ou pensão com a parcela "opção"
+  Status: negativa de registro nos três casos. O Acórdão nº 3.833/2026 trata especificamente de aposentadoria no Tribunal Superior do Trabalho, considerando ilegal o pagamento concomitante de "quintos" com "opção" amparado em decisão judicial não transitada em julgado. O Acórdão nº 4.067/2026 trata de pensão civil instituída após a EC nº 103/2019 cumulada com dois outros benefícios do RPPS/RGPS.
+  Possível reflexo: SESES, SELEP, DIPROF — concessão e revisão de aposentadorias e pensões com parcelas de quintos/décimos e "opção".
+  [carece de leitura humana do texto integral antes de qualquer alteração de rotina]
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766870%22/... (Acórdão 4067/2026) — e demais acórdãos citados
+
+- Acórdãos TCU nº 3.822/2026 e nº 3.838/2026 — regra de transição do art. 20 da EC nº 103/2019
+  Status: negativa de registro. Para servidor investido em cargo efetivo anteriormente a 31/12/2003 e não optante pelo regime de previdência complementar, é impossível o cálculo dos proventos pela média das remunerações de contribuição, incidindo a disciplina do art. 20, §2º, I, da EC nº 103/2019 (integralidade e paridade).
+  Possível reflexo: SESES — fundamentação e memória de cálculo dos atos de aposentadoria submetidos a registro.
+  Fonte: TCU — Acórdãos 3822/2026 e 3838/2026
+
+- Acórdãos TCU nº 4.057/2026, nº 4.058/2026 e nº 3.821/2026 — Vencimento Básico Complementar (VBC) e reflexos em ATS/IQ
+  Status: reiterada a ilegalidade da manutenção da rubrica VBC (Lei nº 11.091/2005) imune de absorção, com reflexo no cálculo de anuênios/ATS e incentivo à qualificação.
+  Possível reflexo: SESES, DIPROF — linha de entendimento de interesse geral para conferência de proventos.
+  Fonte: TCU — Acórdãos 4057/2026, 4058/2026 e 3821/2026
+
+- STF — teto remuneratório [verificar nº do processo na fonte]
+  Status: nenhuma decisão nova de repercussão geral com vínculo direto aos temas da SGP foi localizada na janela dos últimos 7 dias (27/07 a 03/08/2026). A jurisprudência já consolidada anteriormente sobre teto remuneratório permanece em vigor, sem fato novo nesta janela.
+  Possível reflexo: COLEP, SESES, DIPROF, SGP-direção — apenas acompanhamento.
+  Fonte: https://noticias.stf.jus.br/postsnoticias/teto-remuneratorio-deve-ser-aplicado-antes-do-redutor-da-pensao-por-morte-de-servidor-publico-decide-stf/
+
+- STJ — recursos repetitivos
+  Status: sem tese vinculante nova especificamente sobre pessoal do Poder Judiciário na janela dos últimos 7 dias. O balanço do 1º semestre de 2026 (39 temas repetitivos), divulgado em 29/07/2026, registra tese sobre dispensa de prévia liquidação na execução individual de título coletivo e regra de prescrição do fundo de direito em relações de trato sucessivo com a Fazenda Pública.
+  Possível reflexo: COLEP, DIPROF — apenas acompanhamento.
+  Fonte: https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29072026-STJ-julgou-39-temas-repetitivos-no-primeiro-semestre-de-2026--confira-todas-as-teses-fixadas.aspx
+
+============================================================
+SITUAÇÃO DE CADA FONTE NA EDIÇÃO UTILIZADA
+============================================================
+- DOU Seção 1 (edição nº 143, de 31/07/2026): consultada; 19 atos alcançados pelo filtro, 1 pertinente (Lei nº 15.480/2026).
+- DOU Seção 2 (edição nº 143, de 31/07/2026): consultada; 293 atos alcançados pelo filtro, 4 pertinentes (Atos TST 390/391/392 e Ato CSJT nº 85). Nenhum ato do TRT-17 nesta edição.
+- DOU Seções 1E/2E: sem edição extra na data utilizada.
+- DEJT Caderno Administrativo TRT-17 (publicação 03/08/2026): consultado; 7 atos detectados, 1 pertinente (Despacho PRESI/SEGEP nº 844/2026).
+- DEJT Cadernos CSJT e TST (publicação 03/08/2026): sem publicação nesta data (situação legítima, não erro de coleta).
+- TCU (acórdãos das sessões até 29/07/2026): consultado; 24 acórdãos pertinentes, 8 destacados acima.
+- CNJ (atos no DOU Seção 1): sem resolução, recomendação ou instrução normativa nova na edição utilizada.
+- STF e STJ: consultados por cobertura indexada; sem decisão nova na janela dos últimos 7 dias com vínculo direto aos temas da SGP.
+
+============================================================
+RESUMO ESTATÍSTICO
+============================================================
+Itens Alto Impacto: 0
+Itens Médio Impacto: 1
+Itens Informativos: 3
+Itens em Monitoramento: 6
+Fontes consultadas com sucesso: DOU Seções 1 e 2 (edição 31/07/2026); DEJT Caderno Administrativo TRT-17 (publicação 03/08/2026); acórdãos do TCU (sessões até 29/07/2026); STF e STJ por cobertura indexada.
+Fontes sem retorno relevante nesta data: atos normativos do CNJ; Cadernos Administrativos do CSJT e do TST (sem publicação nesta data).
+Fontes não atualizadas nesta execução: edição de hoje (03/08) do DOU e sessões do TCU posteriores a 29/07 — ver aviso metodológico acima.
+
+============================================================
+OBSERVAÇÕES DE CONFORMIDADE
+============================================================
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes citados constam de atos públicos publicados em diário oficial, em finalidade pública legítima de gestão de pessoal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 03/08/2026, 11h45 (horário de Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
