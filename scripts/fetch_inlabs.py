@@ -19,6 +19,7 @@ Uso:
 import argparse
 import os
 import sys
+import time
 import zipfile
 from datetime import date, timedelta
 from pathlib import Path
@@ -29,6 +30,14 @@ BASE = "https://inlabs.in.gov.br"
 LOGIN_URL = f"{BASE}/logar.php"
 DL_URL = f"{BASE}/index.php?p={{date}}&dl={{file}}"
 DEFAULT_SECTIONS = ("DO1", "DO2", "DO1E", "DO2E")
+
+# O login no INLabs falha de forma intermitente (~1 a cada 4 execuções
+# agendadas, historicamente) com o cookie de sessão simplesmente ausente na
+# resposta — sem qualquer 4xx/5xx que indicasse credencial inválida. Antes,
+# uma falha aqui matava a execução do dia inteira (DOU+DEJT+TCU) sem nenhuma
+# nova tentativa. Repetir o POST de login costuma resolver.
+LOGIN_MAX_ATTEMPTS = int(os.environ.get("INLABS_LOGIN_MAX_ATTEMPTS", "3"))
+LOGIN_RETRY_DELAY_SECS = int(os.environ.get("INLABS_LOGIN_RETRY_DELAY_SECS", "45"))
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
@@ -71,12 +80,35 @@ def login(session: requests.Session, email: str, password: str) -> str:
         "Content-Type": "application/x-www-form-urlencoded",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     }
-    session.post(LOGIN_URL, data=payload, headers=headers, timeout=30)
-    cookie = session.cookies.get("inlabs_session_cookie")
-    if not cookie:
-        sys.exit("ERRO: falha de autenticação no INLabs (cookie 'inlabs_session_cookie' ausente).")
-    log("Autenticado no INLabs.")
-    return cookie
+    last_error = "motivo desconhecido"
+    for attempt in range(1, LOGIN_MAX_ATTEMPTS + 1):
+        try:
+            session.post(LOGIN_URL, data=payload, headers=headers, timeout=30)
+            cookie = session.cookies.get("inlabs_session_cookie")
+        except requests.RequestException as exc:
+            cookie = None
+            last_error = f"erro de rede ({exc})"
+        else:
+            if not cookie:
+                last_error = "cookie 'inlabs_session_cookie' ausente na resposta"
+
+        if cookie:
+            if attempt > 1:
+                log(f"Autenticado no INLabs na tentativa {attempt}/{LOGIN_MAX_ATTEMPTS}.")
+            else:
+                log("Autenticado no INLabs.")
+            return cookie
+
+        if attempt < LOGIN_MAX_ATTEMPTS:
+            log(f"login falhou (tentativa {attempt}/{LOGIN_MAX_ATTEMPTS}): {last_error}. "
+                f"nova tentativa em {LOGIN_RETRY_DELAY_SECS}s.")
+            session.cookies.clear()
+            time.sleep(LOGIN_RETRY_DELAY_SECS)
+
+    sys.exit(
+        f"ERRO: falha de autenticação no INLabs após {LOGIN_MAX_ATTEMPTS} tentativas "
+        f"({last_error})."
+    )
 
 
 def download(session: requests.Session, cookie: str, day: str, section: str, dest_dir: Path) -> Path | None:

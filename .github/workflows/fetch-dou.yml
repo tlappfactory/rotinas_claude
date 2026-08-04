@@ -2,18 +2,34 @@ name: fetch-dou-dejt-tcu-diario
 
 on:
   schedule:
-    # 13:00 UTC = 10:00 Brasília (antes da sessão Claude das 11h30); dias úteis.
-    # Janela escolhida porque (a) o INLabs já tem o pacote do DOU consolidado às
-    # 10h BRT — versões mais cedo costumam retornar 404/parcial; (b) o DEJT do
-    # dia tem publicação válida (disponibilizado na véspera às 19h BRT); (c)
-    # ainda dá ~2h de folga até o expediente da COLEP começar (12h BRT).
-    - cron: "0 13 * * 1-5"
-    # Execução de sábado: o DEJT disponibilizado sexta ~19h tem publicação na
-    # segunda-feira (Lei 11.419/2006, art. 4º, §3º). Sem este run, essa edição
-    # só seria capturada pelo cron de segunda 13 UTC — janela apertada antes do
-    # boletim das 11h30. O run de sábado a deixa commitada no bridge com o fim
-    # de semana inteiro de folga.
-    - cron: "0 13 * * 6"
+    # Passagem principal: 13:03 UTC ~= 10:03 Brasília (antes da sessão Claude
+    # das 11h30); dias úteis. Janela escolhida porque (a) o INLabs já tem o
+    # pacote do DOU consolidado às 10h BRT — versões mais cedo costumam
+    # retornar 404/parcial; (b) o DEJT do dia tem publicação válida
+    # (disponibilizado na véspera às 19h BRT); (c) ainda dá ~2h de folga até
+    # o expediente da COLEP começar (12h BRT). Minuto deslocado de :00 para
+    # :03 de propósito: crons marcados para o topo da hora competem com o
+    # maior volume de agendamentos de toda a plataforma do GitHub e por isso
+    # sofrem mais fila/atraso — levantamento de 30 execuções mostrou runs de
+    # "13:00 UTC" começando de fato entre 14:20 e 16:15 UTC.
+    - cron: "3 13 * * 1-5"
+    # Passagem de reforço, ~35 min depois da principal. Cobre tanto o atraso
+    # do agendador do GitHub (jitter observado de 1h20 a mais de 3h — ver
+    # acima) quanto falha pontual na passagem principal (ex.: instabilidade
+    # de login no INLabs não resolvida mesmo com o retry de
+    # scripts/fetch_inlabs.py). Custo extra é baixo quando a principal já
+    # teve sucesso: download()/extract() em fetch_inlabs.py só verificam
+    # presença dos ZIPs/XMLs do dia, e o passo de commit não gera commit
+    # vazio (git diff --staged --quiet) — o job de reforço apenas confirma
+    # que os dados já estão lá e termina rápido.
+    - cron: "38 13 * * 1-5"
+    # Execução de sábado (principal + reforço): o DEJT disponibilizado sexta
+    # ~19h tem publicação na segunda-feira (Lei 11.419/2006, art. 4º, §3º).
+    # Sem este run, essa edição só seria capturada pelo cron de segunda —
+    # janela apertada antes do boletim das 11h30. O run de sábado a deixa
+    # commitada no bridge com o fim de semana inteiro de folga.
+    - cron: "3 13 * * 6"
+    - cron: "38 13 * * 6"
   workflow_dispatch:
     inputs:
       data:

@@ -142,7 +142,7 @@ INLabs (in.gov.br) ──auth──> GitHub Actions runner ──parse──> co
 
 - **URL:** https://github.com/tlappfactory/rotinas_claude (privado)
 - **Local no sandbox:** `/home/user/rotinas_claude/` (cloned)
-- **Cron do workflow:** seg-sex às 13h UTC (10h Brasília) + sábado às 13h UTC; rodada antes da sessão Claude das 11h30 BRT (14h30 UTC), com ~2h de folga até o expediente da COLEP às 12h BRT. `workflow_dispatch` para execução manual. A janela das 10h BRT foi escolhida porque (a) o INLabs já tem o pacote do DOU consolidado nesse horário — runs anteriores às 9h BRT costumam falhar no fetch porque a edição ainda não está fechada; (b) a publicação do DEJT do dia já é válida (disponibilizado na véspera às 19h BRT).
+- **Cron do workflow:** seg-sex às 13h03 UTC (10h03 Brasília) + passagem de reforço às 13h38 UTC (~35 min depois); mesma dupla aos sábados. `workflow_dispatch` para execução manual. A janela das 10h BRT foi escolhida porque (a) o INLabs já tem o pacote do DOU consolidado nesse horário — runs anteriores às 9h BRT costumam falhar no fetch porque a edição ainda não está fechada; (b) a publicação do DEJT do dia já é válida (disponibilizado na véspera às 19h BRT). O minuto é deslocado de `:00` para `:03`/`:38` de propósito — crons no topo da hora competem com o maior volume de agendamentos de toda a plataforma do GitHub e por isso atrasam mais; um levantamento de 30 execuções mostrou runs nominalmente "13:00 UTC" começando de fato entre 14:20 e 16:15 UTC, quase sempre depois da sessão do boletim (14h30 UTC). A passagem de reforço existe para cobrir esse atraso (jitter do agendador) e falhas pontuais de login no INLabs não resolvidas pelo retry interno de `fetch_inlabs.py` (3 tentativas com espera de 45s) — quando a passagem principal já teve sucesso, a de reforço só confirma a presença dos dados e termina rápido, sem custo relevante. **Mesmo com essas duas passagens, não há garantia de que a edição do dia esteja pronta antes das 14h30 UTC** — o jitter observado às vezes ultrapassa 3h. É por isso que o disparo sob demanda pela sessão do Claude (abaixo) é a peça que realmente fecha a lacuna, e por isso o item 1 do diagnóstico de pendências (permissão de Actions no GitHub App do Claude) é a ação de maior alavancagem disponível ao operador.
 - **Secrets exigidos no GitHub:** `INLABS_EMAIL`, `INLABS_PASSWORD` (em Settings → Secrets and variables → Actions).
 - **Permissões:** Settings → Actions → General → "Read and write permissions" (para o bot commitar JSONs).
 
@@ -214,6 +214,22 @@ do Claude ele é inócuo** — não substitui a rota MCP.
 - **`12`** — a API do GitHub está bloqueada para esta sessão (assinatura descrita acima). **Não escalar ainda e não trocar o token:** disparar o workflow pela ferramenta MCP (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`, tratando o resultado dessa segunda chamada (`0` segue o pipeline; `11` escalona). Só escalar como falha de bridge se a própria rota MCP também falhar — nesse caso, relatar ao operador que o conector GitHub do Claude precisa ser reconectado para a organização `tlappfactory`.
 
 O fallback para a edição anterior continua existindo — mas deixou de ser silencioso: só ocorre após uma tentativa de dispatch e sempre acompanhado de escalonamento visível, na minuta e no relatório ao operador.
+
+**Diagnóstico do motivo real antes de escalonar (`10`, `11` ou `12` não resolvido pela rota MCP).** O script `ensure_bridge_data.sh` só enxerga o sistema de arquivos local — ele não sabe se o cron de hoje ainda não disparou, se disparou e falhou, ou se está em andamento. Antes de escrever o aviso metodológico e o relatório ao operador, consultar o histórico real do workflow para dar um diagnóstico preciso em vez de um genérico "dados não chegaram":
+
+```
+mcp__github__actions_list(
+  method="list_workflow_runs", owner="tlappfactory", repo="rotinas_claude",
+  resource_id="fetch-dou.yml", per_page=5
+)
+```
+
+Ler os runs mais recentes e classificar:
+- **Nenhum run com `created_at` na data-alvo** → "o cron ainda não disparou hoje" (jitter do agendador — ver nota em Repositório-ponte). Não é falha de credencial nem do dispatch.
+- **Run mais recente com `status: completed`, `conclusion: failure`** → puxar o motivo com `mcp__github__get_job_logs(owner="tlappfactory", repo="rotinas_claude", run_id=<id do run>, failed_only=true, return_content=true)` e citar a causa raiz real (ex.: falha de login no INLabs) em vez de "fonte indisponível" genérico.
+- **Run mais recente com `status: in_progress` ou `queued`** → o cron disparou e está rodando; not really a dispatch failure — vale registrar "cron em andamento desde HH:MM UTC, aguardando conclusão" em vez de tratar como pendência sem explicação.
+
+Essa checagem é só leitura (`list_workflow_runs`, `get_job_logs`) — funciona mesmo quando o disparo (`run_workflow`) está bloqueado, porque são operações distintas do conector MCP. Usar o resultado para tornar específicos tanto o aviso metodológico da minuta quanto o relatório final ao operador (ver "Aviso metodológico em fallback" abaixo, que também exige o `EXIT_CODE`).
 
 Os ZIPs e XMLs brutos ficam apenas no runner (não vão para o repo, por `.gitignore`); só o `inlabs-filtered.json` é versionado.
 
