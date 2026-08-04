@@ -225,11 +225,34 @@ def parse_xml_file(path: Path) -> dict | None:
 
     score = 10 * len(orgao_hits) + 5 * len(strong_hits) + 1 * len(weak_hits)
 
+    # URL "amigável" reconstruída a partir de name/idOficio do XML. Mantida só
+    # como referência de debug: name/idOficio são identificadores internos do
+    # INLabs, não o slug (minúsculo, com hífens) nem o content-id do Liferay
+    # que o portal público in.gov.br usa nas URLs reais de
+    # www.in.gov.br/web/dou/-/<slug>-<content-id> — o content-id não vem em
+    # lugar nenhum do XML do INLabs, então esta URL não é garantia de abrir a
+    # matéria certa (às vezes nem abre nada).
     url = ""
     if name_slug and id_oficio:
         url = f"https://www.in.gov.br/web/dou/-/{name_slug}-{id_oficio}"
     elif name_slug:
         url = f"https://www.in.gov.br/web/dou/-/{name_slug}"
+
+    # URL confiável para conferência humana: o visualizador de PDF do portal
+    # de pesquisa (pesquisa.in.gov.br), que abre a PÁGINA exata da edição —
+    # não a matéria individual, mas garante a localização certa, ao contrário
+    # da URL "amigável" acima. Usa o código do jornal (prefixo numérico do
+    # nome do arquivo XML entregue pelo INLabs — 515=DO1, 529=DO2 nesta
+    # coleta; o código varia por seção/edição extra e é sempre extraído do
+    # próprio arquivo, nunca fixado aqui), a página e a data de publicação
+    # (já no formato DD/MM/AAAA no atributo pubDate do XML).
+    jornal_code = path.name.split("_", 1)[0] if "_" in path.name else ""
+    url_pagina_pesquisa = ""
+    if jornal_code.isdigit() and number_page and pub_date:
+        url_pagina_pesquisa = (
+            "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer"
+            f"?jornal={jornal_code}&pagina={number_page}&data={pub_date}"
+        )
 
     texto_full = strip_html(texto) or article_full_text(root)
     return {
@@ -250,6 +273,7 @@ def parse_xml_file(path: Path) -> dict | None:
         "page": number_page,
         "edition": edition,
         "url": url,
+        "url_pagina_pesquisa": url_pagina_pesquisa,
         "orgao_emissor_hits": orgao_hits,
         "strong_keywords": sorted(set(strong_hits)),
         "weak_keywords": sorted(set(weak_hits)),

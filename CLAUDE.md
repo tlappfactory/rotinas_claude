@@ -161,7 +161,8 @@ O JSON traz `articles[]` com cada ato pertinente:
 - `orgao`, `ementa`, `art_type`, `section` (DO1/DO2/DO1E/DO2E)
 - `keywords_matched` (tags temáticas do filtro)
 - `orgaos_matched` (órgãos prioritários detectados)
-- `url` (link aproximado no in.gov.br para conferência humana)
+- `url_pagina_pesquisa` — **usar este campo como link de "Fonte" na minuta.** Abre a página exata da edição no visualizador de PDF do portal de pesquisa (`pesquisa.in.gov.br`) — não a matéria isolada, mas a localização é sempre correta, porque é construída a partir do código do jornal, página e data que o próprio INLabs entrega (sem depender de nenhum identificador que só o site público conhece).
+- `url` — link "amigável" no formato `in.gov.br/web/dou/-/<slug>`, mantido só como referência de debug. **Não usar como link de Fonte na minuta:** é reconstruído a partir de `name`/`idOficio` do XML, que não correspondem ao slug nem ao content-id reais do portal público — na prática costuma não abrir a matéria certa (às vezes não abre nada). Se `url_pagina_pesquisa` vier vazio (falta página ou data no XML), usar `url` como último recurso e sinalizar `[link aproximado — conferir manualmente]` ao lado.
 - `texto_resumo` (até 6000 chars do corpo)
 - `texto_truncated` (bool — `true` indica que o texto original era maior que o limite; ao montar a minuta, marcar o item com `[carece de leitura humana do texto integral]` na ementa derivada e recomendar conferência direta na fonte). O mesmo vale para o campo `text_truncated` nos artigos do `dejt-filtered.json`.
 - `assina`/`cargo` (autoridade signatária)
