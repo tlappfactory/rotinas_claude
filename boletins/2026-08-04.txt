@@ -1,0 +1,110 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 4 de agosto de 2026 (terça-feira). Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+============================================================
+AVISO METODOLÓGICO (DESTAQUE)
+============================================================
+A edição de 4 de agosto de 2026 das fontes oficiais ainda não estava disponível no fechamento desta rotina. Este boletim utiliza a edição mais recente consolidada — DOU nº 144, de 03/08/2026 (a mesma coleta trouxe conteúdo novo em relação ao boletim de ontem, que ainda usava a edição de 31/07).
+
+1. Edição efetivamente utilizada: DOU nº 144, de 03/08/2026 (Seções 1 e 2); DEJT Caderno Administrativo TRT-17, publicação 03/08/2026 (disponibilização 31/07/2026 — mesma edição já refletida no boletim de ontem); TCU — acórdãos de sessões até 29/07/2026 (mesma janela já refletida no boletim de ontem, sem sessão nova).
+2. Edição não consultada nesta execução: DOU de 04/08/2026; DEJT Caderno Administrativo TRT-17 publicação 04/08/2026; TCU — acórdãos de sessões posteriores a 29/07/2026.
+3. Alerta específico sobre o DEJT: em razão da convenção de publicação do DEJT (Lei nº 11.419/2006, art. 4º, §3º), a edição disponibilizada em 31/07 corresponde à publicação em 03/08 — por isso o Caderno Administrativo do TRT-17 já usado ontem permanece o mais atual disponível. Os Cadernos do CSJT e do TST, na publicação esperada de 03/08/2026, não foram consultados pela rotina automatizada (edição desatualizada no momento da coleta) — requerem conferência manual em diario.jt.jus.br, situação distinta de mera ausência de publicação.
+
+Causa desta pendência: a atualização automática das fontes com a edição de 04/08 não ocorreu a tempo do fechamento desta rotina, e o disparo manual do processo de coleta (bridge) não pôde ser concluído nesta execução — a plataforma de automação sinalizou bloqueio de acesso para a sessão. Recomenda-se novo disparo do processo de coleta e reexecução da rotina assim que possível, antes de qualquer decisão que dependa de ato publicado em 04/08/2026 ou posterior.
+
+============================================================
+BOLETIM NORMATIVO COLEP — 4 DE AGOSTO DE 2026
+============================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes na edição utilizada.
+
+2. MÉDIO IMPACTO (ciência)
+--------------------------------
+- Portarias nº 241 e nº 242, de 29 de julho de 2026 — Tribunal Regional do Trabalho da 17ª Região
+  Ementa: Redistribui cargo de Analista Judiciário para o TRT da 2ª Região em reciprocidade, lota o servidor recebido no Gabinete do Des. Luís Cláudio dos Santos Branco e o designa para a função comissionada de Assistente de Gabinete (FC-05), dispensando o ocupante anterior.
+  Unidade(s): CODOP, SELIR, SELEP
+  Ação sugerida: Atualizar cadastro funcional, quadro de lotação e registro de designação/dispensa de FC decorrentes.
+  Fonte: DOU Seção 2, edição nº 144, de 03/08/2026 — https://www.in.gov.br/web/dou/-/MODELO_dispensas_designacoes_nom-11917742
+
+3. INFORMATIVO (arquivo)
+--------------------------------
+- Atos GP nº 401, de 30/07/2026, e nº 480, de 31/07/2026 — Tribunal Superior do Trabalho
+  Ementa: Designam e dispensam substitutos eventuais do titular da Divisão de Aposentadorias e Pensões e da função comissionada de Assistente 3 na mesma divisão, no âmbito do TST.
+  Unidade(s): SELEP (referência)
+  Interesse: atos de gestão interna de pessoal do TST, sem repercussão direta para o TRT-17.
+  Fonte: DOU Seção 2, edição nº 144, de 03/08/2026 — https://www.in.gov.br/web/dou/-/ATO-GDGSET.GP-401-11916094
+
+- Ato GP nº 402, de 31/07/2026 — Tribunal Superior do Trabalho
+  Ementa: Aposenta por incapacidade permanente para o trabalho servidora ocupante de cargo de Técnico Judiciário do TST, com fundamento no art. 10, §1º, II, da EC nº 103/2019.
+  Unidade(s): SELEP (referência)
+  Interesse: ato individual de pessoal do TST, sem vínculo com o TRT-17.
+  Fonte: DOU Seção 2, edição nº 144, de 03/08/2026 — https://www.in.gov.br/web/dou/-/ATO GP 402_2026_Processo 6011518-11919211
+
+- Portaria MGI nº 6.247, de 31 de julho de 2026 — Ministério da Gestão e da Inovação em Serviços Públicos
+  Ementa: Altera critérios da Gratificação Temporária de Execução e Apoio a Atividades Técnicas e Administrativas para órgãos do Sistema de Pessoal Civil da Administração Federal (Sipec).
+  Unidade(s): DIPROF, COLEP (referência)
+  Interesse: não se aplica ao TRT-17 — o Sipec abrange órgãos do Poder Executivo federal, e o Judiciário possui regime remuneratório próprio. Arquivamento como referência.
+  Fonte: DOU Seção 1, edição nº 144, de 03/08/2026 — https://www.in.gov.br/web/dou/-/Portaria MGI NA 6.247 DE 31 DE j-11919544
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+--------------------------------
+- Acórdãos TCU nº 4.067/2026, nº 3.833/2026 e nº 3.832/2026 — cumulação de "quintos/décimos" e/ou pensão com a parcela "opção"
+  Status: já reportados no boletim de 03/08/2026; nenhuma sessão nova do TCU desde então (janela permanece 21 a 29/07/2026). Negativa de registro nos três casos. O Acórdão nº 3.833/2026 trata de aposentadoria no Tribunal Superior do Trabalho, considerando ilegal o pagamento concomitante de "quintos" com "opção" amparado em decisão judicial não transitada em julgado. O Acórdão nº 4.067/2026 trata de pensão civil instituída após a EC nº 103/2019 cumulada com dois outros benefícios do RPPS/RGPS.
+  Possível reflexo: SESES, SELEP, DIPROF — concessão e revisão de aposentadorias e pensões com parcelas de quintos/décimos e "opção".
+  [carece de leitura humana do texto integral antes de qualquer alteração de rotina]
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766870%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false (Acórdão 4067/2026) — e demais acórdãos citados
+
+- Acórdãos TCU nº 3.822/2026 e nº 3.838/2026 — regra de transição do art. 20 da EC nº 103/2019
+  Status: já reportados no boletim de 03/08/2026, sem sessão nova. Negativa de registro. Para servidor investido em cargo efetivo anteriormente a 31/12/2003 e não optante pelo regime de previdência complementar, é impossível o cálculo dos proventos pela média das remunerações de contribuição, incidindo a disciplina do art. 20, §2º, I, da EC nº 103/2019 (integralidade e paridade).
+  Possível reflexo: SESES — fundamentação e memória de cálculo dos atos de aposentadoria submetidos a registro.
+  Fonte: TCU — Acórdãos 3822/2026 e 3838/2026
+
+- Acórdãos TCU nº 4.057/2026, nº 4.058/2026 e nº 3.821/2026 — Vencimento Básico Complementar (VBC) e reflexos em ATS/IQ
+  Status: já reportados no boletim de 03/08/2026, sem sessão nova. Reiterada a ilegalidade da manutenção da rubrica VBC (Lei nº 11.091/2005) imune de absorção, com reflexo no cálculo de anuênios/ATS e incentivo à qualificação.
+  Possível reflexo: SESES, DIPROF — linha de entendimento de interesse geral para conferência de proventos.
+  Fonte: TCU — Acórdãos 4057/2026, 4058/2026 e 3821/2026
+
+- STF — teto remuneratório e temas de pessoal [verificar nº do processo na fonte]
+  Status: nenhuma decisão nova de repercussão geral com vínculo direto aos temas da SGP foi localizada na janela dos últimos 7 dias (28/07 a 04/08/2026). A jurisprudência já consolidada sobre teto remuneratório permanece em vigor, sem fato novo nesta janela. Cobertura de imprensa especializada também menciona, entre os temas do 1º semestre de 2026, o reconhecimento de repercussão geral sobre conversão em pecúnia de férias não usufruídas por servidor em atividade — sem data de julgamento localizada nesta busca. [carece de leitura humana do texto integral para confirmar eventual aplicabilidade ao TRT-17]
+  Possível reflexo: COLEP, SESES, SELEP, DIPROF, SGP-direção — apenas acompanhamento.
+  Fonte: https://noticias.stf.jus.br/postsnoticias/confira-os-temas-de-repercussao-geral-reconhecidos-pelo-stf-no-primeiro-semestre-de-2026/
+
+- STJ — recursos repetitivos
+  Status: sem tese vinculante nova especificamente sobre pessoal do Poder Judiciário na janela dos últimos 7 dias. Mantém-se como referência já conhecida o Tema Repetitivo nº 1.057 (legitimidade de pensionistas e sucessores para propor, em ordem de preferência, ação revisional de pensão por morte e de aposentadoria do instituidor falecido), sem fato novo identificado nesta busca.
+  Possível reflexo: COLEP, DIPROF, SESES — apenas acompanhamento.
+  Fonte: https://processo.stj.jus.br/SCON/recrep/toc.jsp?LREF=REPETITIVOS&tema=%271057%27
+
+============================================================
+SITUAÇÃO DE CADA FONTE NA EDIÇÃO UTILIZADA
+============================================================
+- DOU Seções 1 e 2 (edição nº 144, de 03/08/2026): consultadas; 1.310 atos verificados no total, 328 alcançados pelo filtro temático (9 na Seção 1, 319 na Seção 2), dos quais 4 pertinentes ao TRT-17/SGP-COLEP (Portarias nº 241/242 do TRT-17) ou de interesse indireto (Atos TST 401/402/480, Portaria MGI 6.247). Do total alcançado pelo filtro, 45 atos correspondem a portarias de aposentadoria e pensão do Ministério da Gestão e da Inovação em Serviços Públicos (CGBEN/DECIPEX/SGP) para servidores do Poder Executivo federal, sem vínculo com o TRT-17, não itemizadas individualmente. Os demais 279 atos são portarias administrativas internas de designação, dispensa e substituição de outros tribunais e órgãos (STJ, STF, CNJ, TST, TCU, entre outros), sem repercussão direta identificada para o TRT-17.
+- DOU — Seções 1E e 2E (edições extras): sem edição extra na data utilizada.
+- DEJT — Caderno Administrativo TRT-17, publicação 03/08/2026: mesma edição já reportada no boletim de 03/08/2026 (nenhuma edição nova de 04/08 disponível nesta execução); 7 atos detectados, 1 pertinente (Despacho PRESI/SEGEP nº 844/2026, já reportado anteriormente).
+- DEJT — Cadernos Administrativos CSJT e TST, publicação esperada 03/08/2026: edição não consultada pela rotina automatizada (PDF desatualizado no momento da coleta) — conferência manual recomendada em diario.jt.jus.br.
+- TCU — acórdãos das sessões até 29/07/2026: mesma janela já reportada no boletim de 03/08/2026, sem sessão nova; 24 acórdãos pertinentes ao filtro temático, dos quais 8 destacados acima (sem alteração).
+- CNJ (atos normativos no DOU Seção 1): sem resolução, recomendação ou instrução normativa nova na edição utilizada; os 10 atos do CNJ alcançados pelo filtro são portarias administrativas internas de designação (Portarias DG e SGP/CNJ), sem repercussão para o TRT-17.
+- STF e STJ: consultados por cobertura indexada nesta data; sem decisão nova na janela dos últimos 7 dias com vínculo direto aos temas da SGP; itens de acompanhamento registrados na seção "Em monitoramento".
+
+============================================================
+RESUMO ESTATÍSTICO
+============================================================
+Itens Alto Impacto: 0
+Itens Médio Impacto: 1
+Itens Informativos: 3
+Itens em Monitoramento: 5
+Fontes consultadas com sucesso: DOU Seções 1 e 2 (edição de 03/08/2026); DEJT Caderno Administrativo TRT-17 (publicação de 03/08/2026); acórdãos do TCU (sessões até 29/07/2026); STF e STJ por cobertura indexada.
+Fontes sem retorno relevante nesta data: atos normativos (resoluções/recomendações) do CNJ.
+Fontes não acessíveis pela ferramenta automatizada nesta execução: DEJT Cadernos Administrativos CSJT e TST (publicação esperada 03/08/2026) — requerem conferência manual.
+Fontes não atualizadas nesta execução: edição de 04/08 do DOU, do DEJT TRT-17 e sessões do TCU posteriores a 29/07 — ver aviso metodológico acima.
+
+============================================================
+OBSERVAÇÕES DE CONFORMIDADE
+============================================================
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes citados constam de atos públicos publicados em diário oficial, em finalidade pública legítima de gestão de pessoal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 04/08/2026, horário de Brasília. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
