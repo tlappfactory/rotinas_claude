@@ -2,20 +2,7 @@
   "date": "2026-08-03",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 224,
-      "pdf_text_chars": 49667,
-      "total_atos_detectados": 7,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Despacho PRESI/SEGEP N° 844/2026",
-        "Ato SECOR N° 61/2026",
-        "ATO PRESI SECOR Nº 54/2026",
-        "Ato SECOR N° 60/2026",
-        "ATO PRESI SECOR Nº 53/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 241/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 242/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
@@ -24,7 +11,7 @@
       "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -50,18 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Despacho PRESI/SEGEP N° 844/2026",
-      "text_resumo": "Despacho PRESI/SEGEP N° 844/2026\n  Processo: 0001076-10.2026.5.17.0500\n  Assunto(s): Lotação. Remoção. Transferência. Permuta\n  Especificação: Remoção para o cargo de Juíza ou Juiz Titular da 10ª Vara do Trabalho de Vitória\n\n\n                                                                      DESPACHO\n\n  Tratam os autos dos procedimentos necessários para remoção de Juízas ou Juízes Titulares interessados no preenchimento da vaga da 10ª Vara\n  do Trabalho de Vitória/ES.\n\n\n\n  Considerando a lista de magistrados(as) inscritos(as) no processo de remoção para a 10ª Vara do Trabalho de Vitória, nos termos do Edital nº\n  06/2026 (Id 1327234);\n\n\n\n  Considerando a apuração feita pela SETIC no Id 1331464 e as informações prestadas pela Secretaria da Corregedoria, quanto à ausência de\n  atraso na prolação de sentença e à inexistência de processo administrativo disciplinar ou penalidade administrativa nos últimos dois anos dos\n  inscritos (ID 1331467);\n\n\n\n  Considerando a desistência da Juíza Anna Beatriz Matias Diniz de Castilhos Costa de participar do processo de remoção para a 10ª Vara do\n  Trabalho de Vitória/ES e, ainda, que não há outro magistrado com pedido subsequente de remoção para Vara do Trabalho de Linhares;\n\n\n\n  Torno público o resultado do presente processo de remoção:\n\n\n\n  - Juíza Titular da 10ª Vara do Trabalho de Vitória = Juíza Angela Baptista Balliana Kock;\n\n  - Juiz Titular da 1ª Vara do Trabalho de Vitória = Juiz Luís Eduardo Soares Fontenelle;\n\n  - Sem remoção = Juiz Welington do Nascimento Andrade;\n\n  - Sem remoção = Juiz Adib Pereira Netto Salim;\n\n  - Sem remoção = Juiz Maurício Côrtes Neves Leal;\n\n  - Juiz(íza) Titular da Vara do Trabalho de Linhares = cargo vago.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240022\n\f   4527/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       2\n   Data da Disponibilização: Sexta-feira, 31 de Julho de 2026\n\n\n\n  Em razão da existência de erro material, torno sem efeito o Despacho PRESI/SEGEP N° 839/2026, uma vez que não constou o nome do Juiz Adib\n  Pereira Netto Salim na lista do resultado.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) Caderno Administrativo, bem como encaminhe-se e-mail aos inscritos com cópia\n  do presente despacho.\n\n\n\n  Aguarde-se o prazo de 05 (cinco) dias, conforme Edital nº 06/2026.\n\n\n\n  Decorrido tal prazo sem apresentação de recurso, à Secretaria do Tribunal Pleno (SETRI) para inclusão na primeira Sessão Administrativa\n  subsequente.\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 31/07/2026,\n                         às 12:32, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1331997 e o código CRC E12758AB.\n\n\n\n\n                                              SECRETARIA DE CORREGEDORIA REGIONAL\n                                                                Ato\n                                                                Ato\n                                                     Publicação DEJT SEI - Ato",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
