@@ -1,0 +1,97 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 5 de agosto de 2026 (quarta-feira). Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+========================================
+BOLETIM NORMATIVO COLEP — 5 DE AGOSTO DE 2026
+========================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+--------------------------------
+
+* Despacho PRESI/DIGER/SGP/CODOP/SEGEDE Nº 40/2026 — Tribunal Regional do Trabalho da 17ª Região
+  Ementa: Homologa o resultado da Avaliação de Desempenho Anual 2026 de servidores de outros órgãos (removidos e requisitados) que prestam serviço no TRT-17, conforme a Resolução Administrativa TRT 17ª nº 13/2021.
+  Unidade(s): SEGEDE, CODOP
+  Ação sugerida: Arquivar a homologação nos assentamentos funcionais dos servidores avaliados.
+  Fonte: DEJT — Caderno Administrativo TRT-17, publicação 05/08/2026 (https://diario.jt.jus.br/)
+
+* Portarias TRT 17ª SELIR/SGP/PRESI nº 42/2026 e nº 43/2026 — Tribunal Regional do Trabalho da 17ª Região
+  Ementa: Designam substitutos para o cargo em comissão de Secretário (CJ-3) da SETIC e para a função comissionada de Chefe de Seção (FC-05) da SECOBE, em afastamentos e impedimentos legais, revogando as indicações de substituto anteriores.
+  Unidade(s): SELIR, SELEP
+  Ação sugerida: Atualizar o registro de substitutos para fins de pagamento pelos dias de substituição.
+  Fonte: DEJT — Caderno Administrativo TRT-17, publicação 05/08/2026 (https://diario.jt.jus.br/)
+
+3. INFORMATIVO (arquivo)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+--------------------------------
+
+* Acórdãos TCU nº 4012, 4006, 4003, 4002, 3980 e 3983/2026 — quintos/décimos cumulados com a vantagem "Opção"
+  Status: Segunda Câmara, sessão de 04/08/2026. Tratam da vedação (ou, em alguns casos, da manutenção por decisão judicial ou por situação consolidada há mais de cinco anos) da percepção cumulativa de "quintos/décimos" de função comissionada com a vantagem "Opção", aplicando a tese do Acórdão 1.724/2025-Plenário. Resultados mistos: registro do ato (4003), registro com ressalvas (4012), provimento por amparo judicial (4006), negativa de registro (4002, 3980) e absorção parcial da parcela impugnada (3983). O Acórdão 4012/2026 trata de pensão civil no Tribunal Regional do Trabalho da 4ª Região.
+  Possível reflexo: SESES, SELEP — concessão e revisão de proventos e pensões com parcelas de quintos/décimos cumuladas com "opção" de função; atenção especial ao Acórdão 4012/2026 por envolver Regional de natureza institucional idêntica ao TRT-17.
+  [carece de leitura humana do texto integral antes de qualquer alteração de rotina]
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776143%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false (Acórdão 4012/2026) e demais números citados, pesquisáveis no mesmo portal.
+
+* Acórdãos TCU nº 3988, 4016, 1972 e 3984/2026 — regra de transição do art. 20 da EC nº 103/2019
+  Status: sessões de 22/07/2026 (Plenário, Acórdão 1972) e 04/08/2026 (Segunda Câmara, demais). Tratam da aplicação da regra de transição do art. 20 da EC nº 103/2019 (integralidade e paridade dos proventos) em confronto com o não cumprimento integral do período adicional de contribuição ("pedágio"). Resultados: negativa de registro (3988, 3984), possibilidade de emissão de novo ato sem impacto financeiro ao interessado (4016) e registro com ressalva por desproporcionalidade do retorno à atividade (1972).
+  Possível reflexo: SESES — fundamentação e memória de cálculo dos atos de aposentadoria submetidos a registro com base na regra de transição da EC nº 103/2019.
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia (pesquisar pelo número de cada acórdão).
+
+* Acórdãos TCU nº 3990 e 3989/2026 — pensão civil, permanência indevida de rubrica de decisão judicial (DNOCS)
+  Status: Segunda Câmara, sessão de 04/08/2026. Negativa de registro por permanência indevida de rubrica(s) remuneratória(s) concedida(s) por decisão judicial que, nos termos do art. 14 da Lei nº 12.716/2012, deveriam ter sido absorvidas pelos reajustes remuneratórios do instituidor após a sentença.
+  Possível reflexo: SESES, DIPROF — atenção à absorção de rubricas de origem judicial em pensões nos reajustes remuneratórios subsequentes.
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia (pesquisar pelo número de cada acórdão).
+
+* Acórdãos TCU nº 4011 e 3978/2026 — Retribuição por Titulação e Vencimento Básico Complementar
+  Status: Segunda Câmara, sessão de 04/08/2026. Acórdão 4011/2026: negativa de registro por percepção de Retribuição por Titulação sem prévio reconhecimento/revalidação de diploma de pós-graduação obtido no exterior. Acórdão 3978/2026: registro com ressalva do pagamento da parcela complementar (VBC) prevista no art. 15 da Lei nº 11.091/2005, com determinação corretiva, por modicidade do valor impugnado.
+  Possível reflexo: SESES, DIPROF — linha de entendimento de interesse geral para conferência de proventos e de parcelas remuneratórias sujeitas a absorção.
+  Fonte: https://contas.tcu.gov.br/pesquisaJurisprudencia (pesquisar pelo número de cada acórdão).
+
+* STF — repercussão geral e teto remuneratório
+  Status: sem decisão nova de repercussão geral vinculada a temas da SGP na janela dos últimos 7 dias (29/07 a 05/08/2026). Mantêm-se como referência já conhecida a decisão de 25/03/2026 sobre teto remuneratório e verbas indenizatórias (com esclarecimentos por embargos de declaração em junho/2026) e o Tema 1.462 (redução de cinco anos para cálculo da aposentadoria por incapacidade proporcional), sem fato novo identificado nesta busca.
+  Possível reflexo: COLEP, SESES, SELEP, DIPROF, SGP-direção — apenas acompanhamento.
+  Fonte: Portal STF — Jurisprudência de Repercussão Geral (https://portal.stf.jus.br/jurisprudenciaRepercussao/)
+
+* STJ — recursos repetitivos
+  Status: sem tese vinculante nova especificamente sobre pessoal do Poder Judiciário na janela dos últimos 7 dias. Mantêm-se como referência já conhecida o Tema 1.233 (caráter remuneratório do abono de permanência, com reflexo no cálculo de férias e 13º salário) e o Tema 1.057 (legitimidade de pensionistas para ação revisional de pensão e aposentadoria do instituidor falecido), ambos sem fato novo identificado nesta busca.
+  Possível reflexo: COLEP, DIPROF, SESES — apenas acompanhamento.
+  Fonte: STJ — Pesquisa de Temas Repetitivos (https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp)
+
+========================================
+SITUAÇÃO DE CADA FONTE NA EDIÇÃO UTILIZADA
+========================================
+
+- DOU Seções 1 e 2 — edição nº 146, de 05/08/2026: consultada; 1.137 atos verificados no total, 234 alcançados pelo filtro temático (31 na Seção 1, 203 na Seção 2), nenhum pertinente diretamente ao TRT-17 segundo o filtro. Na Seção 1, os 31 atos são resoluções e portarias administrativas de outros órgãos federais e entidades de ensino, dois atos do STF (decisão em ADI/ADC e portaria conjunta de natureza orçamentária) e uma nota técnica conjunta do CJF/STJ sobre dupla competência previdenciária na Justiça Federal — matéria de organização judiciária e litigância de beneficiários do RGPS, sem vínculo com a administração de pessoal do TRT-17. Na Seção 2, os 203 atos são concessões individuais de aposentadoria/pensão de servidores de outros órgãos do Poder Executivo federal (MGI/DECIPEX/CGBEN) e atos de movimentação interna de pessoal do TST e do CNJ (16 atos), sem repercussão direta para o TRT-17.
+- DOU — Seções 1E e 2E (edições extras): sem edição extra na data utilizada.
+- DEJT — Caderno Administrativo TRT-17, publicação 05/08/2026: consultado; 3 atos detectados, pertinentes à SGP/COLEP os dois itens listados acima (Despacho SGP/CODOP/SEGEDE nº 40/2026 e Portarias SELIR nº 42 e nº 43/2026).
+- DEJT — Caderno Administrativo TST, publicação 05/08/2026: consultado; 5 atos detectados, nenhum pertinente à SGP/COLEP segundo o filtro temático (atos de designação/dispensa e resoluções administrativas internas do TST).
+- DEJT — Caderno Administrativo CSJT: edição não consultada pela rotina automatizada nesta execução — o exemplar obtido corresponde à publicação de 04/08/2026 (disponibilização 03/08/2026), desatualizado em relação à publicação esperada de 05/08/2026. Requer conferência manual em diario.jt.jus.br.
+- TCU — acórdãos das sessões de 22/07/2026 a 04/08/2026: consultado; 15 acórdãos alcançados pelo filtro temático da SGP, 14 destacados acima em quatro grupos temáticos. Um acórdão (2012/2026-Plenário, UFRPE) foi descartado por falso positivo do filtro — trata de cessão de espaço físico institucional, não de servidor.
+- CNJ (atos normativos publicados no DOU Seção 1): sem resolução, recomendação ou instrução normativa nova na edição utilizada; os 5 atos do CNJ alcançados pelo filtro no DOU são portarias de designação interna (Portarias DG e SGP/CNJ), sem repercussão para o TRT-17.
+- STF e STJ: consultados por cobertura indexada nesta data; sem decisão/tese nova na janela dos últimos 7 dias com vínculo direto aos temas da SGP; itens de acompanhamento registrados na seção "Em monitoramento".
+
+========================================
+RESUMO ESTATÍSTICO
+========================================
+- Itens Alto Impacto: 0
+- Itens Médio Impacto: 2
+- Itens Informativos: 0
+- Itens em Monitoramento: 6
+- Fontes consultadas com sucesso: DOU Seções 1 e 2 (edição nº 146, de 05/08/2026); DEJT Cadernos Administrativos TRT-17 e TST (publicação de 05/08/2026); acórdãos do TCU (sessões de 22/07 a 04/08/2026); STF e STJ por cobertura indexada.
+- Fontes sem retorno relevante nesta data: atos normativos (resoluções/recomendações/instruções normativas) do CNJ; decisões/teses novas de STF e STJ na janela de 7 dias.
+- Fontes não acessíveis pela ferramenta automatizada nesta execução: DEJT Caderno Administrativo do CSJT (publicação esperada 05/08/2026) — requer conferência manual.
+
+========================================
+OBSERVAÇÕES DE CONFORMIDADE
+========================================
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes citados constam de atos públicos publicados em diário oficial, em finalidade pública legítima de gestão de pessoal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 05/08/2026, horário de Brasília. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
