@@ -2,36 +2,16 @@
   "date": "2026-08-05",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 187,
-      "pdf_text_chars": 60764,
-      "total_atos_detectados": 3,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 65/2026",
-        "ATO PRESI SECOR N° 55/2026",
-        "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 40/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 97,
-      "pdf_text_chars": 14532,
-      "total_atos_detectados": 5,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 411, DE 3 DE AGOSTO DE 2026",
-        "ATO GDGSET.GP.Nº 405, DE 31 DE JULHO DE 2026",
-        "ATO TST.GP N° 413, DE 04 DE AGOSTO DE 2026",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.959, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.963, DE 3 DE AGOSTO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -57,21 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 40/2026",
-      "text_resumo": "Despacho PRESI/DIGER/SGP/CODOP/SEGEDE N° 40/2026\n  Processo: 0000019-54.2026.5.17.0500\n\n  Assunto(s): Assentamento funcional (servidores e empregados públicos, servidores temporários, residentes e estagiários, ocupantes de cargo\n  comissionado e de função de confiança)\n\n  Especificação: Avaliação de Desempenho Anual - 2026\n\n  Interessado(s): Secretaria de Gestão de Pessoas\n\n\n\n                                       DESPACHO PRESI/SGP/CODOP/SEGEDE - Julho/2026 - Outros Órgãos\n\n\n\n  HOMOLOGO o resultado da Avaliação de Desempenho Anual dos servidores de outros órgãos que prestam serviços neste Tribunal, abaixo\n  nominados, efetuadas nos moldes preconizados pela Resolução Administrativa TRT 17.ª n.º 13/2021, de acordo com a pontuação obtida, segundo\n  informações constantes dos respectivos instrumentos de avaliação juntados em autos próprios:\n    SERVIDOR                                                    SITUAÇÃO FUNCIONAL                         PONTUAÇÃO\n\n\n    Augusto Seixas Pinto Ribeiro                                Removido                                   xxx\n\n    Cátia Maria Lupim Santos Fernandes                          Requisitada                                xxx\n\n    Edmilson Masruha Junior                                     Removido                                   xxx\n\n    Laís Zumach Lemos Pereira                                   Removida                                   xxx\n\n    Marize Tristão Duarte Alvarenga                             Requisitada                                xxx\n\n    Paulo Estevão Vieira Ramos                                  Removido                                   xxx\n\n    Rafael Teotônio Balista da Silva                            Requisitado                                xxx\n\n    Renata Lima da Silva                                        Requisitada                                xxx\n\n    Suellen de Carvalho Gomes Barros                            Removida                                   xxx\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região\n\n\n\n                                                              Alzenir Bollesi de Plá Loeffler\n\n                                                               Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 04/08/2026,\n                         às 16:34, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\nCódigo para aferir autenticidade deste caderno: 240108\n\f   4529/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       8\n   Data da Disponibilização: Terça-feira, 04 de Agosto de 2026\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1332952 e o código CRC F94FBB3F.\n\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                      Portaria de Substituição\n\n                                                   PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 42/2026\n\n\n\n                                                                      SUBSTITUIÇÃO\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  RESOLVE,\n\n  Designar, para substituir JOHNATHAN MARQUES SILVEIRA CARIOCA no Cargo em Comissão de SECRETÁRIO - CJ-3, do(a) Secretaria de\n  Tecnologia da Informação e Comunicação - SETIC, em seus afastamentos e impedimentos legais ou regulamentares, os(as) servidores(as)\n  ALEXANDRE DE BARROS DILÁSCIO, LUCIANO MARCHEZI ROSARIO ou FABBIANO FIORIN FERRARI, fazendo jus ao pagamento pelos dias\n  de efetiva substituição.\n\n  Ficam revogadas as portarias anteriores de indicação do(s) substituto(s) do(a) servidor(a) JOHNATHAN MARQUES SILVEIRA CARIOCA.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                            Desembargadora-Presidente\n\n\n                                                              Portaria de Substituição\n\n                                                   PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 43/2026\n\n\n\n                                                                      SUBSTITUIÇÃO\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  RESOLVE,\n\n  Designar, para substituir NARA DE ALMEIDA SOUZA RIBON na Função Comissionada de CHEFE DE SEÇÃO - FC-05, do(a) Seção de Contratos\n  e Benefícios - SECOBE, em seus afastamentos e impedimentos legais ou regulamentares, os(as) servidores(as) JUSSANA WEIMER o, fazendo\n  jus ao pagamento pelos dias de efetiva substituição.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240108\n\f   4529/2026                                                Tribunal Regional do Trabalho da 17ª Região                                          9\n   Data da Disponibilização: Terça-feira, 04 de Agosto de 2026\n\n\n\n  Ficam revogadas as portarias anteriores de indicação do(s) substituto(s) do(a) servidor(a) NARA DE ALMEIDA SOUZA RIBON.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                            Desembargadora-Presidente\n\n\n\n                                ",
-      "text_truncated": true,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "competencias_capacitacao",
-        "substituicao_fc_cc"
-      ],
-      "score": 17
-    }
-  ]
+  "articles": []
 }

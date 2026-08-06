@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-06",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 138,
+      "pdf_text_chars": 11855,
+      "total_atos_detectados": 3,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 67/2026",
+        "ATO TRT 17ª PRESI Nº 66/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 250/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 139,
+      "pdf_text_chars": 8725,
+      "total_atos_detectados": 4,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 404, DE 31 DE JULHO DE 2026",
+        "ATO GDGSET.GP.Nº 410, DE 3 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N.º 407, DE 31 DE JULHO DE 2026",
+        "EDITAL Nº 1584034, DE 4 DE AGOSTO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 2,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 250/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 250/2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                         PORTARIA\n\n                                                                0000917-67.2026.5.17.0500\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, à vista do disposto no art.37 da Lei nº 8.112/90 e à vista do constante do processo TRT-17.ª SEI n.º 0000917-\n  67.2026.5.17.0500,\n\n                                                                         RESOLVE\n\n\n\n  retificar a Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 241/2026, publicada no Diário Eletrônico da Justiça do Trabalho (DEJT) e no Diário\n  Oficial da União (DOU) de 3/8/2026, Seção II, página 99, para onde se lê: “Tribunal Regional Federal da 2ª Região”, leia-se: “Justiça Federal de\n  Primeira Instância - Seção Judiciária do Estado do Rio de Janeiro”.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 04/08/2026,\n                         às 19:30, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1332997 e o código CRC ADC7E255.\n\n\n\n\n                                                              Portaria de Substituição\n\n                                                   PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 44/2026\n\n\n\n                                                                      SUBSTITUIÇÃO\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240146\n\f   4530/2026                                                Tribunal Regional do Trabalho da 17ª Região                                     4\n   Data da Disponibilização: Quarta-feira, 05 de Agosto de 2026\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  RESOLVE,\n\n  Designar, para substituir ROBERTA SANTOS GOMES na Função Comissionada de CHEFE DE SEÇÃO - FC-05, do(a) Seção de Gestão do\n  Conhecimento e Valorização de Pessoal - SEGECOP, em seus afastamentos e impedimentos legais ou regulamentares, os(as) servidores(as)\n  THAÍSE FIORENZA AZZOLIN MARONEZE ou KATIA RÊGO DOS SANTOS NEGREIROS, fazendo jus ao pagamento pelos dias de efetiva\n  substituição.\n\n  Ficam revogadas as portarias anteriores de indicação do(s) substituto(s) do(a) servidor(a) ROBERTA SANTOS GOMES.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                            Desembargadora-Presidente\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Ato                                                                1\n     Ato PRESI                                                         1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        3\n   REMOÇÃO\n    Portaria                                                           3\n     Portaria                                                          3\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240146",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO TRT 17ª PRESI Nº 66/2026",
+      "text_resumo": "ATO TRT 17ª PRESI Nº 66/2026\n\n\n                                                    Altera o ATO TRT 17ª PRESI Nº 04/2024, que trata dos colegiados temáticos do Tribunal Regional\n                                                    do Trabalho da 17ª Região.\n\n\n\n                 A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições\n  legais e regimentais,\n\n                  CONSIDERANDO o disposto no inciso III do artigo 15 do Regimento Interno deste Tribunal;\n\n                CONSIDERANDO o ATO TRT 17ª PRESI Nº 03/2024, que institui os Colegiados Temáticos do Tribunal Regional do Trabalho da\n  17ª Região, em atendimento e conformidade com a Resolução CSJT Nº 325/2022;\n\n                 CONSIDERANDO o ATO TRT 17ª PRESI Nº 04/2024, que designou os membros integrantes dos colegiados temáticos do Tribunal\n  Regional do Trabalho da 17ª região, em conformidade com a Resolução CSJT Nº 325/2022, Resolução Administrativa Nº 165/2023, ATO TRT 17ª\n  PRESI Nº 88/2023 e ATO TRT 17ª PRESI Nº 03/2024;\n\n                  CONSIDERANDO as deliberações do SEI n° 0000988-74.2023.5.17.0500;\n\n                                                                         RESOLVE\n\n                  Art. 1º O ATO TRT 17ª PRESI Nº 04/2024, de 17 de janeiro de 2024, passa a vigorar com as seguintes alterações:\n\n                 “Art. 18.…………………………………………………………………………………………………………………\n\n                 I- Desembargador Valdir Donizetti Caixeta, eleito pelos pares, como coordenador;\n\n                 II - Juíza Alda Pereira dos Santos Botelho, eleita pelos pares;\n\n                 III - Juiz Roque Messias Calsoni, eleito pelos pares;\n\n                 IV - Roziane Vicentino de Oliveira, servidora eleita pelos pares;”\n\n                  Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 05/08/2026,\n                         às 13:46, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1333274 e o código CRC D5D10BED.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240146\n\f   4530/2026                                                Tribunal Regional do Trabalho da 17ª Região                                        3\n   Data da Disponibilização: Quarta-feira, 05 de Agosto de 2026\n\n\n\n\n                                             SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                              Portaria\n                                                              Portaria\n                                                   Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
