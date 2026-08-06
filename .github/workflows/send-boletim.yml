@@ -3,17 +3,36 @@ name: send-boletim-colep
 # Envia o Boletim Normativo COLEP por SMTP a partir do par de arquivos
 # versionado pela Routine COLEP-01 em boletins/<YYYY-MM-DD>.{html,txt}.
 #
-# Dois gatilhos:
-#   push   — a rotina commita o boletim do dia em main e o envio dispara
-#            sozinho. Não depende da API do GitHub, que é inalcançável a
-#            partir do sandbox do Claude (ver CLAUDE.md, código 12).
-#   manual — reenvio de uma data específica, ou envio de teste com dry_run.
+# Três gatilhos:
+#   push      — a rotina commita o boletim do dia em main e o envio dispara
+#               sozinho. Não depende da API do GitHub, que é inalcançável a
+#               partir do sandbox do Claude (ver CLAUDE.md, código 12).
+#   schedule  — passagem de reforço (ver abaixo). Rede de segurança para
+#               quando o push do dia ficou preso na fila de runner do
+#               GitHub Actions sem nunca ser despachado — o mesmo tipo de
+#               jitter já documentado para o fetch-dou.yml, sem retry
+#               automático aqui até esta mudança.
+#   manual    — reenvio de uma data específica, ou envio de teste com
+#               dry_run. Sempre envia, mesmo que a passagem de reforço já
+#               tenha enviado o boletim do dia (uso deliberado: reenvio).
 
 on:
   push:
     branches: [main]
     paths:
       - "boletins/**"
+  schedule:
+    # 15:10 UTC ~= 12:10 Brasília, dias úteis — cerca de 40min depois do
+    # horário nominal de início da sessão diária do Claude (14h30 UTC /
+    # 11h30 BRT, ver CLAUDE.md). Só dispara envio se (a) já existir
+    # boletins/<hoje>.{html,txt} no repo e (b) ainda não houver nenhum run
+    # `success` deste workflow hoje — ver passo "Checar…" abaixo. Nos dois
+    # casos contrários a passagem termina sem enviar nada (idempotente):
+    # nunca duplica o e-mail do dia, só cobre a lacuna de quando o push
+    # original travou na fila do runner (visto em 06/08/2026: dois disparos
+    # seguidos ficaram ~15min com runner_id 0 e foram cancelados pelo
+    # próprio GitHub antes de qualquer job realmente começar).
+    - cron: "10 15 * * 1-5"
   workflow_dispatch:
     inputs:
       data:
@@ -26,6 +45,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: send-boletim-colep
@@ -34,16 +54,44 @@ concurrency:
 jobs:
   send:
     runs-on: ubuntu-latest
+    # Trava qualquer job que realmente iniciar (ficar preso na FILA antes de
+    # começar não é afetado por isto — só evita que um envio já em execução
+    # trave o grupo de concorrência por horas em caso de SMTP travado etc.).
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: "Checar: boletim de hoje pronto e ainda não enviado? (só na passagem de reforço)"
+        id: check
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          today="$(date -u +%Y-%m-%d)"
+          if [ ! -f "boletins/${today}.html" ] || [ ! -f "boletins/${today}.txt" ]; then
+            echo "skip=sem boletins/${today}.{html,txt} no repo ainda — nada para a passagem de reforço enviar." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          ja_enviado="$(gh run list --repo "${{ github.repository }}" \
+            --workflow send-boletim.yml --status success --limit 20 \
+            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"${today}\"))] | length")"
+          if [ "${ja_enviado:-0}" -gt 0 ]; then
+            echo "skip=já existe um run success deste workflow hoje (${today}) — reforço não reenvia." >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Log do motivo de pular (passagem de reforço)
+        if: github.event_name == 'schedule' && steps.check.outputs.skip != ''
+        run: echo "${{ steps.check.outputs.skip }}"
+
       - name: Setup Python
+        if: github.event_name != 'schedule' || steps.check.outputs.skip == ''
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Enviar boletim
+        if: github.event_name != 'schedule' || steps.check.outputs.skip == ''
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
