@@ -1,7 +1,7 @@
 {
   "date": "2026-08-05",
-  "total_xml_files": 1137,
-  "matched_articles": 234,
+  "total_xml_files": 1144,
+  "matched_articles": 235,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2751,6 +2751,33 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260805_24191519.xml"
+    },
+    {
+      "id": "50648756",
+      "section": "DO1E",
+      "pub_date": "05/08/2026",
+      "art_type": "Portaria Conjunta",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Governo Digital",
+      "identifica": "Portaria Conjunta SGD E SGP/MGI nº 51, de 30 de julho de 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre a execução do Projeto de Transformação Digital ''SOUGOV 2.0''.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria Conjunta SGD E SGP/MGI nº 51, de 30 de julho de 2026 Dispõe sobre a execução do Projeto de Transformação Digital ''SOUGOV 2.0''. O SECRETÁRIO DE GOVERNO DIGITAL E O SECRETÁRIO DE GESTÃO DE PESSOAS, ambos do MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso de suas atribuições, tendo em vista o disposto no art. 6º, inciso VI, e parágrafo único, do Decreto nº 12.198, de 24 de setembro de 2024, na Portaria SGD/ME nº 2.496, de 2 de março de 2021, e no Processo SEI-MGI nº 19975.022021/2026-34, RESOLVEM: CAPÍTULO I Art. 1º Esta Portaria dispõe sobre o Projeto SOUGOV 2.0, no âmbito do Programa Startup gov.br, a ser executado nos termos do Plano de Trabalho assinado pelas partes, constante do Processo SEI-MGI nº 19975.022021/2026-34. CAPÍTULO II DAS COMPETÊNCIAS Art. 2º Compete à Secretaria de Governo Digital e à Secretaria de Gestão de Pessoas: I - executar as ações do Projeto e monitorar os resultados; II - analisar resultados parciais e, quando necessário ao alcance do resultado final, reformular metas; III - disponibilizar recursos humanos, tecnológicos e materiais para executar as ações do Projeto; IV - permitir o livre acesso, por agentes da administração pública (controles interno e externo), a todos os documentos relacionados ao Projeto, assim como aos elementos de sua execução; V - fornecer as informações necessárias e disponíveis para o cumprimento das ações; VI - obedecer às restrições legais relativas à propriedade intelectual, se for o caso; VII - disponibilizar os profissionais para o Projeto que serão definidos no plano de trabalho. VIII - concentrar esforços e recursos de tecnologia da informação para o cumprimento das metas estabelecidas. Art. 3º Compete à Secretaria de Governo Digital: I - ofertar as tecnologias e os serviços compartilhados para a transformação digital; II - definir as normas e os padrões técnicos a serem observados pela Secretaria de Gestão de Pessoas; III - selecionar e alocar a força de trabalho adicional necessária para execução das ações do Projeto; IV - disponibilizar ferramentas padronizadas em meio eletrônico para o acompanhamento e monitoramento do Projeto; e V - convocar e participar das reuniões e atividades de acompanhamento e monitoramento da execução das ações do Projeto. Art. 4º Compete à Secretaria de Gestão de Pessoas: I - cumprir o disposto na Portaria SGD/ME nº 2.496, de 2 de março de 2021, que estabelece orientações e procedimentos gerais a serem observados na gestão dos profissionais temporários contratados que atuarão em projetos de Transformação Digital; e II - participar das reuniões e atividades de acompanhamento e monitoramento da execução das ações do Projeto. CAPÍTULO III DA AFERIÇÃO DOS RESULTADOS Art. 5º A Secretaria de Governo Digital e a Secretaria de Gestão de Pessoas deverão aferir os benefícios e o alcance do interesse público obtidos em decorrência do Projeto, mediante a elaboração de relatório conjunto de execução de atividades, discriminando as ações empreendidas e os objetivos alcançados, no prazo de até 30 (trinta) dias após o encerramento. CAPÍTULO IV DO ENCERRAMENTO Art. 6º O Projeto será extinto: I - por advento do prazo final, nos termos do Plano de Trabalho; II - por consenso da Secretaria de Governo Digital e da Secretaria de Gestão de Pessoas antes do advento do prazo final, devendo ser devidamente formalizado; ou III - por manifestação justificada de qualquer das Secretarias, se não houver mais interesse na continuidade do Projeto, notificando a outra com antecedência mínima de 30 (trinta) dias. Parágrafo único. Havendo a extinção do Projeto, cada uma das Secretarias fica responsável pelo cumprimento das competências assumidas até a data do encerramento. CAPÍTULO V DOS RECURSOS ORÇAMENTÁRIOS E FINANCEIROS Art. 7º As despesas necessárias à plena consecução do Projeto correrão por conta das dotações específicas constantes dos orçamentos da Secretaria de Governo Digital e da Secretaria de Gestão de Pessoas. CAPÍTULO VI DAS DISPOSIÇÕES FINAIS Art. 8º As situações não previstas na presente Portaria serão solucionadas de comum acordo entre o Secretário de Governo Digital e o Secretário de Gestão de Pessoas. Art. 9º Esta Portaria entra em vigor na data de sua publicação. ROGÉRIO SOUZA MASCARENHAS Secretário de Governo Digital JOSÉ CELSO CARDOSO JUNIOR Secretário de Gestão de Pessoas",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "146-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA CONJUNTA SGD E SGPMGI N-11927492",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=4&data=05/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260805_24192965.xml"
     },
     {
       "id": "50643844",

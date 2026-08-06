@@ -1,7 +1,7 @@
 {
   "date": "2026-08-03",
-  "total_xml_files": 1310,
-  "matched_articles": 328,
+  "total_xml_files": 1321,
+  "matched_articles": 331,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -68,6 +68,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.922_24182612-11919013",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -98,6 +99,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.002_24182483-11918931",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -128,6 +130,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.006_24182571-11918996",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -158,6 +161,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.019_24182556-11918979",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -188,6 +192,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.044_24182616-11919017",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -218,6 +223,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO-GDGSET.GP-401-11916094",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -249,6 +255,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919212/andrev_24182-11919212",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -280,6 +287,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 203-11917785",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -309,6 +317,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 212-11917719",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -338,6 +347,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 67_-11918229",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -367,6 +377,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 67-11918137",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -396,6 +407,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.951_24182637-11919041",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -425,6 +437,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.017_24182529-11918951",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -454,6 +467,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.811_24183184-11919511",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -483,6 +497,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.869_24183401-11919669",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -512,6 +527,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.877_24183203-11919531",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -541,6 +557,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.881_24183195-11919523",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -570,6 +587,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.965_24183143-11919471",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -599,6 +617,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.968_24183235-11919562",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -628,6 +647,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.972_24182421-11918850",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -657,6 +677,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.989_24182472-11918901",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -686,6 +707,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.010_24182499-11918966",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -715,6 +737,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.973_24182687-11919107",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -744,6 +767,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.984 SINC 24181547-11918159",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -773,6 +797,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.985_24181487-11918118",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -802,6 +827,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.986 SINC 24181577-11918189",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -831,6 +857,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.946_24183309-11919592",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -860,6 +887,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA6202-11916867",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -889,6 +917,7 @@
       "page": "103",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/04-2026 - Julho (3)-11916965",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=103&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -900,6 +929,35 @@
       ],
       "score": 16,
       "xml_file": "529_20260803_24180012.xml"
+    },
+    {
+      "id": "50610976",
+      "section": "DO1E",
+      "pub_date": "03/08/2026",
+      "art_type": "Instrução Normativa",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria do Patrimônio da União",
+      "identifica": "Instrução Normativa SPU/MGI Nº 304, DE 30 DE JULHO DE 2026",
+      "orgao": "",
+      "ementa": "Estabelece diretrizes e procedimentos para as atividades de fiscalização dos imóveis da União.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Instrução Normativa SPU/MGI Nº 304, DE 30 DE JULHO DE 2026 Estabelece diretrizes e procedimentos para as atividades de fiscalização dos imóveis da União. A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe foram conferidas pelo art. 49, anexo I, do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no Decreto-Lei nº 2.398, de 21 de dezembro de 1987, no Decreto-Lei nº 9.760, de 05 de setembro de 1946, e na Lei nº 9.636, de 15 de maio de 1998, resolve: Art. 1º Esta Instrução Normativa disciplina a atividade de fiscalização dos imóveis da União. Parágrafo único. Compete à Secretaria do Patrimônio da União - SPU executar ações de fiscalização dos bens imóveis da União, podendo, para tanto, firmar convênios com os Estados, o Distrito Federal e os Municípios em cujos territórios se localizem e, observados os procedimentos licitatórios previstos em lei, celebrar contratos com a iniciativa privada, na forma do art. 1º da Lei nº 9.636, de 15 de maio de 1998. CAPÍTULO I DAS DISPOSIÇÕES GERAIS Seção I Da Fiscalização Art. 2º A fiscalização realizada pela SPU sobre os bens imóveis da União tem como objetivo buscar a correta destinação, o adequado uso e a integridade física desses bens, podendo aplicar, no exercício de seu poder de polícia, sanções pela prática de infrações administrativas, em consonância com as normas legais e o interesse público. § 1º No exercício do poder de polícia de que trata o caput, a SPU poderá valer-se de vistoria, requisitar força policial federal, solicitar o auxílio de força pública estadual ou a cooperação de força militar federal para os casos que envolvam segurança nacional ou relevante ofensa a valores, instituições ou patrimônio públicos. § 2º A fiscalização dar-se-á de ofício ou a pedido de qualquer interessado e terá caráter preventivo ou coercitivo, podendo ser feita em conjunto com outros órgãos ou entidades estaduais, municipais ou federais, conforme o interesse a ser protegido. § 3º Entende-se por caráter preventivo as ações proativas, que visem a manter a integridade e uso adequado dos bens imóveis da União e por caráter coercitivo as ações que visam restaurar a integridade e a correta utilização dos bens imóveis da União. § 4º A fiscalização, quando de caráter coercitivo e exercida diretamente pela SPU, deverá ser efetuada por meio de equipe composta por pelo menos dois fiscais da SPU. § 5º Será considerado fiscal o servidor indicado pelo Superintendente do Patrimônio da União e designado em portaria assinada pelo Secretário do Patrimônio da União. Art. 3º Sem prejuízo das ações de fiscalização de que trata o art. 2º, fica facultada a realização de ações de caráter educativo. § 1º Entendem-se por ações de caráter educativo as que têm o objetivo de orientar, informar, instruir e sensibilizar a comunidade local, a sociedade civil, os órgãos públicos estaduais e municipais, entre outros, promovendo a utilização correta e sustentável dos imóveis da União. § 2º As ações de caráter educativo: I - poderão incluir a realização de reuniões públicas, palestras, oficinas e audiências, com vistas a estimular a participação social e a observância da legislação aplicável ao Patrimônio da União; e II - deverão estar alinhadas às diretrizes das políticas nacionais de gestão costeira e de gestão integrada da orla marítima. Art. 4º A SPU poderá, mediante parcerias, convênios, contratos, termos de cooperação, termos de adesão, acordos ou ajustes, estabelecer compromissos com Estados, Distrito Federal, Municípios e a iniciativa privada para executar ações de fiscalização de Imóveis da União, na forma do art. 4º da Lei nº 9.636, de 15 de maio de 1998. Parágrafo único. As ações de fiscalização executadas por meio de parcerias, convênios, contratos, termos de cooperação, termos de adesão, acordos ou ajustes, limitam-se à realização de vistoria, sendo de exclusiva competência da Superintendência do Patrimônio da União a lavratura do auto de infração. Seção II Da Transferência da Gestão de Praias Art. 5º A SPU poderá transferir aos Municípios a gestão das orlas e praias marítimas, estuarinas, lacustres e fluviais federais, por meio de Termo de Adesão à Gestão de Praias - TAGP, na forma do art. 14 da Lei nº 13.240, de 30 de dezembro de 2015. Art. 6º Caberá a SPU auxiliar, monitorar, treinar e fiscalizar a atuação dos Municípios que aderirem ao termo na qual trata o art. 5º, na utilização das áreas de uso comum do povo. § 1º Caberá ao Município fiscalizar a utilização das praias e orlas, adotando medidas administrativas e judiciais cabíveis à sua manutenção, inclusive emitindo notificações, autos de infração e termos de embargo, cominando sanções pecuniárias e executando eventuais demolições e remoções, sempre que se fizerem necessárias, nos termos do art. 6º do Decreto-Lei nº 2.398, de 21 de dezembro de 1987, e do art. 10 da Lei nº 9.636, de 15 de maio de 1998. § 2º Enquanto vigente o Termo de Adesão à Gestão de Praias - TAGP, caberá exclusivamente ao Município signatário a lavratura de autos de infração e demais atos administrativos sancionatórios relacionados à utilização das áreas abrangidas pelo termo, vedada à SPU a prática dessas medidas, sem prejuízo das ações de monitoramento, apoio e orientação previstas nesta Instrução Normativa. Art. 7º Detectadas as irregularidades em áreas de uso comum do povo que tiveram a gestão transferida aos Municípios, a SPU deverá emitir notificação ao signatário para que estas sejam sanadas sob pena de extinção do Termo de Adesão à Gestão de Praias - TAGP de que trata o art. 5º. Art. 8º Mantidas as irregularidades, estas serão comunicadas à área de destinação, a quem caberá adotar as providências cabíveis. § 1º Persistindo as irregularidades, o termo poderá ser extinto, gerando a reversão automática da área à União, sem direito a qualquer indenização ao Município. § 2º No caso de extinção na forma do § 1º, a SPU fiscalizará a área de abrangência do Ter",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "144-A",
+      "url": "https://www.in.gov.br/web/dou/-/GAB Instrucao Normativa SPU 304 -11919884",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=4&data=03/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15,
+      "xml_file": "600_20260803_24183614.xml"
     },
     {
       "id": "50597901",
@@ -919,6 +977,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO NA 361 DE 27.07.2026-Aposent-11916161",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -947,6 +1006,7 @@
       "page": "100",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato Concessorio Leonardo Bergamo-11918950",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=100&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -975,6 +1035,7 @@
       "page": "101",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/EDITAL COGEP-11917756",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=101&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1003,6 +1064,7 @@
       "page": "84",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO Portaria PRESI NA 153_2026 (-11891546",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=84&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1031,6 +1093,7 @@
       "page": "21",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria MGI NA 6.247 DE 31 DE j-11919544",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=21&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1059,6 +1122,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO-GDGSET.GP-351-11857596",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1087,6 +1151,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-17/11891540/andrev_24144-11891540",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1115,6 +1180,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-29/11913393/andrev_24175-11913393",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1143,6 +1209,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919157/andrev_24182-11919157",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1171,6 +1238,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919228/andrev_24182-11919228",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1199,6 +1267,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919154/andrev_24182-11919154",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1227,6 +1296,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919152/andrev_24182-11919152",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1255,6 +1325,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919213/andrev_24182-11919213",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1283,6 +1354,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919217/andrev_24182-11919217",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1311,6 +1383,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT13 CGP N.A 052-2026-11917236",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1340,6 +1413,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT13 CGP N.A 053 DE 29 DE J-11917054",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1369,6 +1443,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/UFVDOU-EDITAL 012 - SUSPENSAO DE-11919169",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1398,6 +1473,7 @@
       "page": "102",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL N 6_2026-11917474",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=102&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1427,6 +1503,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8974-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1455,6 +1532,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8975-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1483,6 +1561,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8976-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1511,6 +1590,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8977-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1539,6 +1619,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8978-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1567,6 +1648,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8979-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1595,6 +1677,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8980-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1623,6 +1706,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8981-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1651,6 +1735,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 193_24173248-11911990",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1679,6 +1764,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 194_24173243-11911981",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1707,6 +1793,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 196_24181258-11917940",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1735,6 +1822,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 197_24181261-11917963",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1763,6 +1851,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 199_24181729-11918305",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1791,6 +1880,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 200_24181788-11918330",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1819,6 +1909,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria GDG nA 167-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1847,6 +1938,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria GDG nA 169-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1875,6 +1967,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria GDG nA 170-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1903,6 +1996,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port 941-26-11916775",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -1932,6 +2026,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria PRESI nA 163-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1960,6 +2055,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 125_24183658-11919878",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -1988,6 +2084,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria SGP nA 154-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -2016,6 +2113,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria SGP nA 155-11918945",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -2044,6 +2142,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 194_24171788-11910870",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -2072,6 +2171,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 204_24182364-11918814",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -2100,6 +2200,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 207_24181308-11917990",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "conselho nacional de justica"
       ],
@@ -2128,6 +2229,7 @@
       "page": "51",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.956_24181006-11917744",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2156,6 +2258,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 649_24181079-11917797",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2184,6 +2287,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 650_24182435-11918902",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2212,6 +2316,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 496_24177395-11915110",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2240,6 +2345,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 535_24177402-11915115",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2268,6 +2374,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 538_24183639-11919902",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2296,6 +2403,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 539_24181094-11917810",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2324,6 +2432,7 @@
       "page": "99",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/MODELO_dispensas_designacoes_nom-11917742",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=99&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal regional do trabalho da 17"
       ],
@@ -2352,6 +2461,7 @@
       "page": "83",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919479/TCUWS_241831-11919479",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=83&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -2380,6 +2490,7 @@
       "page": "83",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11917693/TCUWS_241809-11917693",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=83&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -2408,6 +2519,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/610 - ANDERSON E JANAINA - DIS-D-11916930",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2436,6 +2548,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/639 - JOEL E JULIANA - DIS-DES-11916899",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2464,6 +2577,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/518 - AMILAR E LUIZ ANISIO - CJ--11916908",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2492,6 +2606,7 @@
       "page": "86",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/519 - CRISTIANO E MAGDA (AGS) - -11916894",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=86&data=03/08/2026",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2520,6 +2635,7 @@
       "page": "103",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ata da 50A SE-11917951",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=103&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2547,6 +2663,7 @@
       "page": "97",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/trt9a181-2026-ATO DE PESSOAL 111-11919970",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=97&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2574,6 +2691,7 @@
       "page": "97",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/trt9a182-2026-ATO DE PESSOAL 112-11919975",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=97&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2601,6 +2719,7 @@
       "page": "87",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO GP 402_2026_Processo 6011518-11919211",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=87&data=03/08/2026",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -2627,6 +2746,7 @@
       "page": "97",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT6-GP nA 189-2026-GILVANIL-11910137",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=97&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2654,6 +2774,7 @@
       "page": "63",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port-de-pessoal nA 251_2026-11919865",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=63&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2681,6 +2802,7 @@
       "page": "9",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DE PESSOAL COGEP-11917755",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=9&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2708,6 +2830,7 @@
       "page": "51",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DICAT-SE-11918647",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2734,6 +2857,7 @@
       "page": "51",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DE PESSOAL DICAT-SE-MGI-11919627",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2760,6 +2884,7 @@
       "page": "51",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DE PESSOAL DICAT-se-mgi-11919627",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2786,6 +2911,7 @@
       "page": "51",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA DE PESSOAL DICAT-SE-11918647",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2812,6 +2938,7 @@
       "page": "15",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PENSAO ROSANGELA-11919036",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=15&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2839,6 +2966,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8982-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2865,6 +2993,7 @@
       "page": "54",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port_SSC_8983-11918163",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=54&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2891,6 +3020,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 8.935_24181071-11917790",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2917,6 +3047,7 @@
       "page": "56",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 2.614_24181330-11917977",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=56&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2944,6 +3075,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA GPR 466-11919239",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2971,6 +3103,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/portaria 1.270 - Eliel-11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2998,6 +3131,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1272 DE 24 DE JULHO -11917618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3025,6 +3159,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1273 DE 24 DE JULHO -11917618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3052,6 +3187,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1274 DE 24 DE JULHO DE 2026-11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3079,6 +3215,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1275 DE 24 DE JULHO -11917618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3106,6 +3243,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1277 DE 24 DE JULHO DE 2026-11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3133,6 +3271,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1278 DE 24 DE JULHO DE 2026-11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3160,6 +3299,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1279 DE 24 DE JULHO -11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3187,6 +3327,7 @@
       "page": "32",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1280 DE 24 DE JULHO -11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=32&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3214,6 +3355,7 @@
       "page": "32",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 1281 DE 24 DE JULHO -11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=32&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3241,6 +3383,7 @@
       "page": "85",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria PRESI nA 148-11882821",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=03/08/2026",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -3267,6 +3410,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA 2649 FUNASA-PRE-11919941",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3294,6 +3438,7 @@
       "page": "26",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU extra 31072026-11917133",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=26&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3321,6 +3466,7 @@
       "page": "12",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria nA 242-2026-11917005",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=12&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3348,6 +3494,7 @@
       "page": "91",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Gabarito DOU - Ronan-11913151",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=91&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3375,6 +3522,7 @@
       "page": "20",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port 5535 5536-11919195",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=20&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3402,6 +3550,7 @@
       "page": "18",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port._DOU__ROSEMARY ALVES LIMA P-11917194",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=18&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3429,6 +3578,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria MARICELE JOSE LIMA-11873554",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3456,6 +3606,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria LEILA MOREIRA FERRAZ ZI-11897783",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3483,6 +3634,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria CIRSO ALEXANDRE-11906141",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3510,6 +3662,7 @@
       "page": "3",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 354 SGCS CONCEDER PEN-11917779",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=3&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3537,6 +3690,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 379_24143147-11890735",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3564,6 +3718,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 384_24130534-11881101",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3591,6 +3746,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 398_24150454-11896039",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3618,6 +3774,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 399_24130879-11881447",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3645,6 +3802,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 402_24139990-11888387",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3672,6 +3830,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 432_24161096-11903669",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3699,6 +3858,7 @@
       "page": "52",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 9.059_24183116-11919445",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=52&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -3725,6 +3885,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT 316-26- 33433.073211 (1)-11917284",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3752,6 +3913,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB RPPU N 567 SILVIA VALER-11916686",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3779,6 +3941,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB RPPU N 572 LUCIENE MELO-11916805",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3806,6 +3969,7 @@
       "page": "33",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU 03 DE AGO-11919142",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=33&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3833,6 +3997,7 @@
       "page": "91",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Gabarito DOU-11889514",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=91&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3860,6 +4025,7 @@
       "page": "46",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920020/SIGEPE_24183-11920020",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=46&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3887,6 +4053,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920041/SIGEPE_24183-11920041",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3914,6 +4081,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portarias nA 257 e 258 de pensao-11918701",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -3941,6 +4109,7 @@
       "page": "53",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/GAB RETIFICACAO - 19739.00434620-11918453",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=53&data=03/08/2026",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -3967,6 +4136,7 @@
       "page": "96",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria-1553-2026-11909001",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=96&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -3996,6 +4166,7 @@
       "page": "36",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/portarias-R DOU 31.07.26 envio e-11919392",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4025,6 +4196,7 @@
       "page": "46",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/INSTRUCAO NORMATIVA PRES INSS 21-11919434",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=46&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4053,6 +4225,7 @@
       "page": "46",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA FUNAI N 1447 DE 28DE JU-11916651",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=46&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4081,6 +4254,7 @@
       "page": "5",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/308-2026-11918147",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=5&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4109,6 +4283,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/5392- Dispensa de FC. SEGER.COTE-11915132",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4137,6 +4312,7 @@
       "page": "93",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO PR 251-2026-11918363",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=93&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4165,6 +4341,7 @@
       "page": "62",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port-de-pessoal nA 250_2026_002-11919801",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=62&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4193,6 +4370,7 @@
       "page": "10",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA 074 - AGREGACAO - 31 JU-11917528",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=10&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licenca_saude"
@@ -4221,6 +4399,7 @@
       "page": "5",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2 GM PORTARIA 512 Ceder a servid-11918715",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=5&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4249,6 +4428,7 @@
       "page": "19",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFC_RTF_Portaria_1363-11908479",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4277,6 +4457,7 @@
       "page": "19",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFB_RTF_Portaria_1606---11919724",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4305,6 +4486,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 1614-2026-11911144",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4333,6 +4515,7 @@
       "page": "21",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFMT_RTF_Portaria_2888-11916893",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=21&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4361,6 +4544,7 @@
       "page": "99",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU02_PORTARIA_SEGEP_PR_97_2026-11916954",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=99&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4389,6 +4573,7 @@
       "page": "99",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU02_PORTARIA_SEGEP_PR_98_99_20-11917907",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=99&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licenca_saude"
@@ -4417,6 +4602,7 @@
       "page": "79",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU2-SGP_MPF-PGR-2-PT-474-UNI-PG-11918531",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=79&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licenca_saude"
@@ -4445,6 +4631,7 @@
       "page": "38",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Pub Portaria 799807811- 31.7.26-11918855",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4473,6 +4660,7 @@
       "page": "39",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11918561/ANMWS_241820-11918561",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=39&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4499,6 +4687,7 @@
       "page": "38",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11918607/ANMWS_241820-11918607",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=38&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4525,6 +4714,7 @@
       "page": "25",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/INSTRUCAO NORMATIVA DG-PF NA 338-11918928",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=25&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4551,6 +4741,7 @@
       "page": "49",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/31.07.2026 -Portaria Previc NA 5-11919117",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=49&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "funpresp"
@@ -4558,6 +4749,60 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260803_24182717.xml"
+    },
+    {
+      "id": "50608252",
+      "section": "DO1E",
+      "pub_date": "03/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Ciência, Tecnologia e Inovação/Gabinete da Ministra",
+      "identifica": "PORTARIA MCTI Nº 10.232, DE 31 DE JULHO DE 2026",
+      "orgao": "",
+      "ementa": "Institui o Sistema Nacional de Informação sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação, aprova o Formulário Eletrônico sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação e estabelece os procedimentos para a prestação das informações de que trata o art. 17 da Lei nº 10.973, de 2 de dezembro de 2004.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MCTI Nº 10.232, DE 31 DE JULHO DE 2026 Institui o Sistema Nacional de Informação sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação, aprova o Formulário Eletrônico sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação e estabelece os procedimentos para a prestação das informações de que trata o art. 17 da Lei nº 10.973, de 2 de dezembro de 2004. A MINISTRA DE ESTADO DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO, no uso da atribuição que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e tendo em vista o disposto no art. 17 da Lei nº 10.973, de 2 de dezembro de 2004, e no art. 17 do Decreto nº 9.283, de 7 de fevereiro de 2018, resolve: Art. 1º Fica instituído o Sistema Nacional de Informação sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação - SisICT, destinado à coleta, à atualização, ao armazenamento e à gestão das informações relativas à política de inovação das Instituições Científicas, Tecnológicas e de Inovação - ICT. Art. 2º Esta Portaria aplica-se às ICT públicas e às ICT privadas beneficiadas pelo poder público, nos termos do disposto no art. 17, parágrafo único, da Lei nº 10.973, de 2 de dezembro de 2004, e no art. 17, § 5º, do Decreto nº 9.283, de 7 de fevereiro de 2018. Art. 3º Fica aprovado o Formulário Eletrônico sobre a Política de Inovação das Instituições Científicas, Tecnológicas e de Inovação - FormICT, constante do Anexo, instrumento oficial de coleta das informações integrantes do SisICT. Art. 4º As ICT prestarão anualmente ao Ministério da Ciência, Tecnologia e Inovação, por meio do FormICT, informações relativas a: I - gestão da política de inovação; II - política de propriedade intelectual da instituição; III - criações desenvolvidas no âmbito da instituição; IV - proteções requeridas e concedidas; V - contratos de cessão, de licenciamento e demais modalidades de transferência de tecnologia celebrados; VI - ambientes promotores da inovação existentes; VII - instrumentos de ciência, tecnologia e inovação celebrados; VIII - criação de empresas de base tecnológica (spin-of s); IX - receitas e despesas inerentes à operacionalização do Núcleo de Inovação Tecnológica - NIT; e X - outras informações consideradas pertinentes pelo Ministério da Ciência, Tecnologia e Inovação. § 1º As informações serão prestadas exclusivamente por meio do SisICT, disponível em página específica do sítio eletrônico oficial do Ministério da Ciência, Tecnologia e Inovação. § 2º As informações serão apresentadas até 31 de março do ano subsequente ao ano-base a que se referirem. § 3º Fica delegada ao Secretário de Desenvolvimento Tecnológico e Inovação a competência para alterar, mediante justificativa, o prazo previsto no § 2º, vedada a subdelegação. § 4º O ato de que trata o § 3º será publicado no Diário Oficial da União, sem prejuízo de sua divulgação na página eletrônica referida no § 1º. Art. 5º As ICT são responsáveis pela veracidade, pela integridade e pela atualização das informações prestadas ao SisICT. Parágrafo único. As ICT publicarão em seus sítios eletrônicos, sob a forma de base de dados abertos, as informações encaminhadas ao Ministério da Ciência, Tecnologia e Inovação, ressalvadas as protegidas por sigilo. Art. 6º O Ministério da Ciência, Tecnologia e Inovação divulgará as informações prestadas de forma consolidada, sob a forma de base de dados abertos, em seu sítio eletrônico, ressalvadas as protegidas por sigilo, observado o disposto na Lei nº 12.527, de 18 de novembro de 2011, e na Lei nº 13.709, de 14 de agosto de 2018. Parágrafo único. O Ministério da Ciência, Tecnologia e Inovação divulgará em seu sítio eletrônico a relação nominal das ICT que não prestarem as informações no prazo previsto no art. 4º, § 2º, mantida a divulgação até o saneamento da irregularidade. Art. 7º O Ministério da Ciência, Tecnologia e Inovação utilizará as informações prestadas para o monitoramento da implementação da política de inovação, a elaboração de estudos, o acompanhamento de indicadores e o aperfeiçoamento das políticas públicas de ciência, tecnologia e inovação. Art. 8º As informações referentes ao ano-base 2025 serão prestadas por meio do SisICT até 15 de setembro de 2026. Parágrafo único. Consideram-se válidas, para os fins desta Portaria, as informações referentes ao ano-base 2025 prestadas por meio do SisICT anteriormente à data de sua publicação. Art. 9º Ficam revogados: I - a Portaria MCTI nº 3.859, de 8 de outubro de 2020; II - a Portaria SEMPI/MCTI nº 4.741, de 6 de maio de 2021; III - a Portaria SETEC/MCTI nº 9.060, de 28 de março de 2025; e IV - a Portaria SETEC/MCTI nº 9.990, de 8 de abril de 2026. Art. 10. Esta Portaria entra em vigor na data de sua publicação. LUCIANA SANTOS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "3",
+      "edition": "144-A",
+      "url": "https://www.in.gov.br/web/dou/-/1 GM PORTARIA 10232-11918973",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=3&data=03/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260803_24182506.xml"
+    },
+    {
+      "id": "50602743",
+      "section": "DO1E",
+      "pub_date": "03/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério de Portos e Aeroportos/Gabinete do Ministro",
+      "identifica": "Portaria GM-MPOR Nº 44, DE 30 DE julho DE 2026",
+      "orgao": "",
+      "ementa": "Estabelece critérios e orientações para a execução, no orçamento de 2026, de projetos e ações estruturantes e de programações de interesse nacional ou regional a que se referem os Capítulos II e III da Lei Complementar nº 210, de 25 de novembro de 2024, lastreadas nas ações sob a gestão do Ministério de Portos e Aeroportos.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria GM-MPOR Nº 44, DE 30 DE julho DE 2026 Estabelece critérios e orientações para a execução, no orçamento de 2026, de projetos e ações estruturantes e de programações de interesse nacional ou regional a que se referem os Capítulos II e III da Lei Complementar nº 210, de 25 de novembro de 2024, lastreadas nas ações sob a gestão do Ministério de Portos e Aeroportos. O MINISTRO DE ESTADO DE PORTOS E AEROPORTOS, no uso das atribuições que lhe conferem o art. 87, parágrafo único, incisos I e II da Constituição Federal, e o art. 41 da Lei nº 14.600, de 19 de junho de 2023, e tendo em vista o disposto na Lei Complementar nº 210, de 25 de novembro de 2024, resolve: Art. 1º A execução de projetos e ações estruturantes e de programações de interesse nacional ou regional, financiadas por emendas de bancada estadual (RP 7) ou de comissão permanente (RP 8), no exercício de 2026, sob gestão do Ministério de Portos e Aeroportos, será realizada conforme procedimentos estabelecidos nesta Portaria. CAPÍTULO I DAS PROGRAMAÇÕES OBJETO DE EMENDAS DE BANCADA ESTADUAL Art. 2º Os projetos e as ações estruturantes passíveis de alocação de emendas de bancada estadual deverão atender cumulativamente aos seguintes critérios: I - constituam projetos de investimento registrados no Cadastro Integrado de Projetos de Investimento - Obrasgov.br (https://obrasgov.sistema.gov.br/cipi-frontend/), nos termos do art. 165, § 15, da Constituição Federal; II - sejam direcionados para políticas públicas relacionadas ao art. 2º, § 3º, da Lei Complementar nº 210, de 2024; III - constem no Anexo desta portaria, observadas as diretrizes constantes de ato do Poder Executivo. IV - constem no Plano Aeroviário Nacional - PAN, de modo a garantir a compatibilidade com a política pública do setor, quando couber; V - compatibilidade com os planos nacionais, setoriais ou regionais vigentes, bem como com os planos estratégicos ministeriais; VI - alinhamento com pelo menos um dos objetivos previstos para o Ministério de Portos e Aeroportos na Lei nº 14.802, de 10 de janeiro de 2024 - Plano Plurianual - PPA, ao qual o projeto ou ação estejam vinculados; VII - ser de competência da União e ser executado diretamente ou de forma descentralizada por Estados, Municípios ou pelo Distrito Federal; Parágrafo único. É vedada a designação genérica de programação que possa resultar na execução de projetos de investimentos de obras por múltiplos entes ou entidades, ressalvados os projetos para região metropolitana ou região integrada de desenvolvimento, cujas emendas deverão identificar de forma precisa o seu objeto. Art. 3º As ações e equipamentos públicos prioritários para a unidade da Federação representada pela bancada deverão observar o seguinte: I - é vedada a apresentação de emendas cuja programação possa resultar, na execução, em transferências voluntárias, convênios ou similares para mais de 1 (um) ente federativo ou entidade privada; II - admite-se a destinação de recursos para outra unidade da Federação, desde que se trate da matriz da entidade e que ela tenha sede em Estado diverso do Estado da bancada onde será realizada a aquisição de equipamentos ou a realização dos serviços; e III - não haver outro convênio, contrato de repasse ou instrumento congênere com o mesmo objeto e ente federativo ou entidade beneficiária, cuja execução ainda não tenha sido iniciada. Art. 4º Na hipótese em que a programação da emenda de bancada seja divisível, o seu objeto deve ser identificado de forma precisa e não pode cada parte independente ser inferior a 10% (dez por cento) do valor da emenda. Art. 5º São critérios específicos para a execução dos projetos e ações estruturantes: I - anteprojeto, projeto básico e executivo, quando couber; II - a existência de estudos e projetos com objeto definido, quando couber; III - licenciamento ambiental compatível com o tipo de intervenção, quando couber; IV - atendimento aos requisitos da Lei nº 14.133, de 1º de abril de 2021, quando couber; V - os objetos propostos sejam compatíveis com a finalidade e atributos da ação orçamentária e subtítulo que se referir, bem como os demais classificadores da despesa (fonte de recursos, grupo de natureza de despesa e resultado primário); VI - comprovação da regularidade patrimonial ou da titularidade do imóvel, quando couber. VII - nos casos de manutenção da infraestrutura, indicação, no localizador orçamentário, da região beneficiada, bem como do plano orçamentário correspondente ao tipo de intervenção a ser executada; VIII - existência de cronograma, contendo prazos e valores de cada produto ou etapa, quando o objeto permitir entregas parciais; IX - previsão de entregas que contemplem trecho operacional ou etapa com funcionalidade concluída; X - delimitação geográfica da área de abrangência da entrega, preferencialmente com indicação georreferenciada; e XI - indicação de contrapartida por parte dos entes beneficiados, quando couber; Art. 6º Os projetos e as ações estruturantes deverão, adicionalmente, estar voltados, no mínimo, a uma das seguintes finalidades: I - fortalecimento da política nacional de transporte aquaviário e aeroviário; II - melhoria da infraestrutura de transporte aquaviário e aeroviário, promovendo a redução das desigualdades regionais; III - fortalecimento da integração social, especialmente das comunidades isoladas; IV - melhoria da qualidade de vida da população existente na área de atuação do projeto ou ação; V - geração de emprego e renda, bem como o fortalecimento da cadeia produtiva; VI - fomento ao desenvolvimento sustentável da região e à cidadania da população local; VII - apoio ao desenvolvimento econômico dos Estados e Municípios da área de abrangência; VIII - resiliência de infraestruturas à mudança climática; e IX - promoção da equidade social e da justiça climática, protegendo populações vulneráveis. CAPÍTULO II DAS PROGRAMAÇÕES OBJETO DE EMENDAS DE COMISSÃO Art. 7º Para fins do disposto nesta Portaria, consideram-se projetos e ações de inter",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "9",
+      "edition": "144-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria GM- MPOR NA 44 DE 30 DE-11917600",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=9&data=03/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260803_24180831.xml"
     },
     {
       "id": "50597379",
@@ -4577,6 +4822,7 @@
       "page": "97",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/trt9a159-2026-ATO DE PESSOAL 96-11885048",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=97&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4603,6 +4849,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO 5279- Aposentadoria ANTENOR -11916213",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4629,6 +4876,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_916-11896484",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4655,6 +4903,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_917-11896484",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4681,6 +4930,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_940-11906495",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4707,6 +4957,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_941-11906495",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4733,6 +4984,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_942-11906495",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4759,6 +5011,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_943-11906495",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4785,6 +5038,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_954-11906495",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4811,6 +5065,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO_961-11917652",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4837,6 +5092,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/03 A 192 RCO NATALIA FERITAS CAR-11903734",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4863,6 +5119,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/03 A 204 RETORNO RENATA DE MEIRE-11911884",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -4889,6 +5146,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PUBLICACAO DOU - Aposentadoria M-11901453",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4915,6 +5173,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 217_30 Jul 2026-11919967",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4941,6 +5200,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 218_30 Jul 2026-11919971",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4967,6 +5227,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 219_30 Jul 2026-11919961",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -4993,6 +5254,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 220_30 Jul 2026-11919984",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5019,6 +5281,7 @@
       "page": "90",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 221_30 Jul 2026-11919985",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=90&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5045,6 +5308,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT13 CGP N.A 054 DE 30 DE J-11917260",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -5071,6 +5335,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT13 CGP N.A 055_2026-11917325",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -5097,6 +5362,7 @@
       "page": "100",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT21- GP NA 083-2026-11892828",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=100&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -5123,6 +5389,7 @@
       "page": "96",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato 341-2026 Redistribuicao Tali-11917551",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=96&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -5149,6 +5416,7 @@
       "page": "97",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO TRT6-GP nA 191-2026-ALEXANDR-11914886",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=97&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5175,6 +5443,7 @@
       "page": "89",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato PRES TRF2 NA 423-11919055",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=89&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -5201,6 +5470,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato Presi 955-2026 - ELIANE APAR-11906195",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5227,6 +5497,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO 963-2026 - CRISTIANE AGUIAR -11906484",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5253,6 +5524,7 @@
       "page": "88",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Ato Presi 965- 2026 - LUCIA ROSA-11906849",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=88&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5279,6 +5551,7 @@
       "page": "9",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria nA 026 -E1.6-EMG-CMNE --11917052",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=9&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -5305,6 +5578,7 @@
       "page": "38",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Despacho 29.07-11918464",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5331,6 +5605,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/835 836 837 e 842-11916712",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5357,6 +5632,7 @@
       "page": "44",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 476_24176443-11914398",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=44&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5383,6 +5659,7 @@
       "page": "44",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 477_24176461-11914466",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=44&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5409,6 +5686,7 @@
       "page": "44",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 481_24176423-11914382",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=44&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5435,6 +5713,7 @@
       "page": "44",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 482_24176448-11914413",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=44&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5461,6 +5740,7 @@
       "page": "7",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 53_24179300-11916480",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=7&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5487,6 +5767,7 @@
       "page": "7",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 54_24179231-11916381",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=7&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5513,6 +5794,7 @@
       "page": "7",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 55_24178803-11916116",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=7&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5539,6 +5821,7 @@
       "page": "7",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 56_24180439-11917319",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=7&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5565,6 +5848,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria PAR 259 reconducao-11919622",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5591,6 +5875,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria PAR 262 reconducao-11919715",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5617,6 +5902,7 @@
       "page": "42",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU Retificacao Portaria-11917662",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=42&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5643,6 +5929,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DECOMB 565 MARIA DE FATIMA BA-11918628",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5669,6 +5956,7 @@
       "page": "59",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTS APOSENTADORIAS-11916691",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=59&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5695,6 +5983,7 @@
       "page": "67",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/31.07.2026 - CGGP - 250 - caput -11920002",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5721,6 +6010,7 @@
       "page": "67",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/31.07.2026 - CGGP - 251 - caput -11920002",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5747,6 +6037,7 @@
       "page": "58",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria Aposentadoria Voluntari-11918103",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=58&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5773,6 +6064,7 @@
       "page": "32",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DE PESSOAL NA 576 GR UF-11917205",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=32&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5799,6 +6091,7 @@
       "page": "32",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DE PESSOAL NA 577 GR UF-11917205",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=32&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -5825,6 +6118,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal nA 701 - 23--11906779",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5851,6 +6145,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal nA 726 - 30--11917326",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5877,6 +6172,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria de Pessoal nA 728 - 30--11917326",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5903,6 +6199,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/843-11916712",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5929,6 +6226,7 @@
       "page": "34",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/961 - PORTARIA DE PESSOAL PROGEP-11911821",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=34&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -5955,6 +6253,7 @@
       "page": "75",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DG 175-11919686",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=75&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -5981,6 +6280,7 @@
       "page": "93",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/aposentadoria SIDNEI - portaria -11900761",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=93&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6007,6 +6307,7 @@
       "page": "93",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DG NA 82 DE 30 DE JULHO-11917727",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=93&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6033,6 +6334,7 @@
       "page": "93",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA DG NA 86 DE 27 DE JULHO-11908882",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=93&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6059,6 +6361,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/699-11918682",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6085,6 +6388,7 @@
       "page": "57",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 2.610_24179702-11916701",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=57&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6111,6 +6415,7 @@
       "page": "57",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 2.611_24179762-11916729",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=57&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6137,6 +6442,7 @@
       "page": "57",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT-EDUARDO DE CASTRO-11916821",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=57&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6163,6 +6469,7 @@
       "page": "98",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port 943-26-11918885",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=98&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6189,6 +6496,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PO 06 - APOSENTADORIA BIDU-11914119",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6215,6 +6523,7 @@
       "page": "82",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1147.2026 - LILIA GOMES FERREIRA-11906730",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=82&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6241,6 +6550,7 @@
       "page": "82",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1149.2026 - MARIA APARECIDA TONI-11915264",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=82&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6267,6 +6577,7 @@
       "page": "43",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026.08.03-compulsoria-11916673",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=43&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6293,6 +6604,7 @@
       "page": "31",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/1271 DE 24 DE JULHO DE 2026-11916573",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=31&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6319,6 +6631,7 @@
       "page": "19",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFC_RTF_Portaria_1418-11918386",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6345,6 +6658,7 @@
       "page": "19",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFC_RTF_Portaria_1419-11918386",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6371,6 +6685,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 1612-2026-11911144",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6397,6 +6712,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 1613-2026-11911144",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6423,6 +6739,7 @@
       "page": "76",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 1.869_24165270-11906159",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=76&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6449,6 +6766,7 @@
       "page": "76",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 1.999_24180434-11917314",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=76&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6475,6 +6793,7 @@
       "page": "75",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Depes 31.07.2026 DOU 03.08.2026 -11918310",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=75&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6501,6 +6820,7 @@
       "page": "75",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Depes 31.07.2026 DOU 03.08.2026 -11918266",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=75&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6527,6 +6847,7 @@
       "page": "90",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria Presidencia 127 2026 - -11902172",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=90&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6553,6 +6874,7 @@
       "page": "90",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria Presidencia 129 2026 - -11902322",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=90&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6579,6 +6901,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 142-2026-11801881",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6605,6 +6928,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026 - InCom DGI 183-11917155",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6631,6 +6955,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026 - InCom DGI 184-11917155",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6657,6 +6982,7 @@
       "page": "42",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 2504 DE 30 DE JULHO -11917627",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=42&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6683,6 +7009,7 @@
       "page": "42",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2551 - aposentadoria aldezita-11918286",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=42&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6709,6 +7036,7 @@
       "page": "74",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT TRATADA PARA PUBLICACAO EM DO-11915217",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=74&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6735,6 +7063,7 @@
       "page": "74",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT. de Cancelamento ROGETE- Co-11918178",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=74&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6761,6 +7090,7 @@
       "page": "74",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT. Cancelamento BENEDITA CRIS-11918178",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=74&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6787,6 +7117,7 @@
       "page": "74",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT. de Cancelamento EDUARDA LO-11918178",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=74&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6813,6 +7144,7 @@
       "page": "74",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT. Cancelamento CATIA DA SILV-11918178",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=74&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6839,6 +7171,7 @@
       "page": "43",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2815 - JOSE AMERICO DA COSTA BAR-11919248",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=43&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6865,6 +7198,7 @@
       "page": "12",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria nA 237-2026-11916702",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=12&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6891,6 +7225,7 @@
       "page": "12",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria nA 238-2026__M97FPA-11916985",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=12&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -6917,6 +7252,7 @@
       "page": "92",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA 246 - JERONIMO NARDIELO-11907020",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=92&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6943,6 +7279,7 @@
       "page": "6",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026 - InCom IPEN 268-11917421",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=6&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6969,6 +7306,7 @@
       "page": "15",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/CP2_RTF_Portarias_31-07-2026-09--11916948",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=15&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -6995,6 +7333,7 @@
       "page": "15",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/CP2_RTF_Portarias_31-07-2026-17--11919477",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=15&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7021,6 +7360,7 @@
       "page": "23",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IN PORTARIA NA 3543 - Vacancia --11911777",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=23&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7047,6 +7387,7 @@
       "page": "75",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria Reginaldo-11916900",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=75&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7073,6 +7414,7 @@
       "page": "27",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 4487-2026 - JOSE LUIS S-11914523",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=27&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7099,6 +7441,7 @@
       "page": "27",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria_IFSP_2026_4544_Apos_Vol-11915739",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=27&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7125,6 +7468,7 @@
       "page": "26",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFSP_RTF_Portaria_4561-11918162",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=26&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -7151,6 +7495,7 @@
       "page": "27",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFSP_RTF_Portaria_4562-11918039",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=27&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7177,6 +7522,7 @@
       "page": "27",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFSP_RTF_Portaria_4563-11918039",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=27&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7203,6 +7549,7 @@
       "page": "37",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria de nomeacao - ANA LUIZA-11919086",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -7229,6 +7576,7 @@
       "page": "39",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT 406 - ATQ47 - Miguel Arcanj-11914996",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=39&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "quintos_anuenios_ats"
@@ -7255,6 +7603,7 @@
       "page": "37",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria_5396_2026-11918548",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7281,6 +7630,7 @@
       "page": "37",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria_5434_2026-11918548",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7307,6 +7657,7 @@
       "page": "37",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria_5435_2026-11918548",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7333,6 +7684,7 @@
       "page": "34",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port. APO - 6847-11919021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=34&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7359,6 +7711,7 @@
       "page": "92",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/SGP050-11903427",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=92&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7385,6 +7738,7 @@
       "page": "43",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 706_24181489-11918074",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=43&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7411,6 +7765,7 @@
       "page": "18",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFBA_RTF_Portaria_754-11916882",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=18&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7437,6 +7792,7 @@
       "page": "18",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/IFBA_RTF_Portaria_756-11916882",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=18&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7463,6 +7819,7 @@
       "page": "69",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 822_24077422-11844346",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=69&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7489,6 +7846,7 @@
       "page": "93",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 99_24140943-11889043",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=93&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7515,6 +7873,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria JUVENAL PEREIRA DE OLIV-11917999",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7541,6 +7900,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 135_24183028-11919359",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -7567,6 +7927,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919997/SIGEPE_24183-11919997",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7593,6 +7954,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA SEGEP 136-11911778",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7619,6 +7981,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA SEGEP 137-11911804",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7645,6 +8008,7 @@
       "page": "77",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU2-SG_MPF-PGR-3-PT-744-UNI-PGR-11918942",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=77&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7671,6 +8035,7 @@
       "page": "77",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/DOU2-SG_MPF-PGR-3-PT-746-UNI-PGR-11918942",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=77&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7697,6 +8062,7 @@
       "page": "14",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORT 240 Pesnao Vitalicia SECAO -11917046",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=14&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -7723,6 +8089,7 @@
       "page": "3",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 367 SGCS TORNAR SEM E-11918669",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=3&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7749,6 +8116,7 @@
       "page": "3",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 368 SGCS CONCEDER APO-11917726",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=3&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7775,6 +8143,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 264_24031259-11813307",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7801,6 +8170,7 @@
       "page": "94",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 380_24150440-11896084",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=94&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7827,6 +8197,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 415_24146446-11893019",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7853,6 +8224,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 441_24168468-11908475",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7879,6 +8251,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 448_24169097-11909021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -7905,6 +8278,7 @@
       "page": "95",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 466_24179691-11916690",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=95&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -7931,6 +8305,7 @@
       "page": "47",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portaria nA 4171 - Vacancia - Ma-11917889",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=47&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -7957,6 +8332,7 @@
       "page": "36",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 2349 - 31.07.2025 - -11918269",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -7983,6 +8359,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/279-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8009,6 +8386,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/287-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8035,6 +8413,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/288-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8061,6 +8440,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/306-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8087,6 +8467,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/311-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8113,6 +8494,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT 315-26- 33433.068106 (2)-11917316",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8139,6 +8521,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/317-11917138",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8165,6 +8548,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT 318-26- 33433.005461 (1)-11917284",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8191,6 +8575,7 @@
       "page": "73",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT 319-26- 33433.067095 (1)-11917284",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=73&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8217,6 +8602,7 @@
       "page": "39",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portarias aposentadorias de 03ag-11913751",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=39&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8243,6 +8629,7 @@
       "page": "37",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portarias 742 743 (DOU 03.08)-11914417",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8269,6 +8656,7 @@
       "page": "39",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/ProReitoria AposentPensao HU vig-11917926",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=39&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8295,6 +8683,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB 555 ANA VITORIA INACIO-11918221",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8321,6 +8710,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB RPPU N 566 LUCIA ROZANA-11916686",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -8347,6 +8737,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB RPPU N 568 JADIR GIRAO -11916618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -8373,6 +8764,7 @@
       "page": "68",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PT DCOMB RPPU N 571 AMARLENE DE -11916618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8399,6 +8791,7 @@
       "page": "2",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Portarias 21jul2026ma-11915305",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=2&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8425,6 +8818,7 @@
       "page": "27",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11919996/SIGEPE_24183-11919996",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=27&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8451,6 +8845,7 @@
       "page": "83",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port sge 363-11918618",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=83&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "auxilios_pessoal"
@@ -8477,6 +8872,7 @@
       "page": "7",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA MINC NA 447-11919023",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=7&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -8503,6 +8899,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/03-08-2026-Gisela Baptista-11880750",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8529,6 +8926,7 @@
       "page": "72",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/03-08-2026-YONY BARBOSA CAMARA-11884128",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8555,6 +8953,7 @@
       "page": "46",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920020/SIGEPE_24183-11920020",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=46&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -8581,6 +8980,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920013/SIGEPE_24183-11920013",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8607,6 +9007,7 @@
       "page": "70",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8633,6 +9034,7 @@
       "page": "70",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8659,6 +9061,7 @@
       "page": "70",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8685,6 +9088,7 @@
       "page": "70",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8711,6 +9115,7 @@
       "page": "70",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8737,6 +9142,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8763,6 +9169,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8789,6 +9196,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8815,6 +9223,7 @@
       "page": "71",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/2026-07-31/11920021/SIGEPE_24183-11920021",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8841,6 +9250,7 @@
       "page": "44",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port 408 e 409 - 2026 - GAB-11913857",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=44&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -8867,6 +9277,7 @@
       "page": "45",
       "edition": "144",
       "url": "https://www.in.gov.br/web/dou/-/Port 427 - GAB-11918180",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=45&data=03/08/2026",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
