@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
-  "total_xml_files": 961,
-  "matched_articles": 149,
+  "total_xml_files": 979,
+  "matched_articles": 152,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -81,6 +81,39 @@
       ],
       "score": 26,
       "xml_file": "529_20260806_24199203.xml"
+    },
+    {
+      "id": "50671124",
+      "section": "DO1E",
+      "pub_date": "06/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Relações de Trabalho",
+      "identifica": "Portaria SRT/MGI Nº 6.297, DE 3 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre os procedimentos para o cadastramento, o controle e o acompanhamento de ações judiciais no Módulo de Ações Judiciais do Sistema de Gestão de Pessoas do Executivo Federal - AJ/Sigepe, no âmbito do Sistema de Pessoal Civil da Administração Federal - Sipec.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SRT/MGI Nº 6.297, DE 3 DE AGOSTO DE 2026 Dispõe sobre os procedimentos para o cadastramento, o controle e o acompanhamento de ações judiciais no Módulo de Ações Judiciais do Sistema de Gestão de Pessoas do Executivo Federal - AJ/Sigepe, no âmbito do Sistema de Pessoal Civil da Administração Federal - Sipec. O SECRETÁRIO DE RELAÇÕES DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 40, caput, incisos IV e IX, e parágrafo único, inciso VII, do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, tendo em vista o disposto no Decreto nº 2.839, de 6 de novembro de 1998, na Lei Complementar nº 73, de 10 de fevereiro de 1993, e no art. 10 da Lei nº 10.480, de 2 de julho de 2002, resolve: Objeto e âmbito de aplicação Art.1º Esta Portaria dispõe sobre os procedimentos para o cadastramento, o controle e o acompanhamento de ações judiciais no Módulo de Ações Judiciais do Sistema de Gestão de Pessoas do Executivo Federal - AJ/Sigepe, no âmbito do Sistema de Pessoal Civil da Administração Federal - Sipec. Parágrafo único. Os órgãos e as entidades integrantes do Sipec deverão cadastrar no AJ/Sigepe todas as ações judiciais, individuais ou coletivas, propostas contra a União, as autarquias ou as fundações públicas, que envolvam reflexos financeiros ou cadastrais relacionados a: I - pessoa ocupante de cargo ou emprego público, aposentada, beneficiária de pensão, contratada por tempo determinado nos termos do disposto na Lei nº 8.745, de 9 de dezembro de 1993, ou anistiada política, e seus beneficiários; e II - pessoa ocupante de cargo ou emprego público, aposentada, beneficiária de pensão, e militares provenientes dos ex-Territórios Federais do Acre, do Amapá, de Rondônia e de Roraima, e do antigo Distrito Federal. Competências e atribuições Art. 2º Ao órgão central do Sipec compete: I - orientar os órgãos e as entidades integrantes do Sipec quanto à correta utilização do Módulo AJ/Sigepe; II - gerir o Módulo AJ/Sigepe, em especial no que se refere à inclusão, à alteração e à parametrização dos objetos disponíveis; III - propor evoluções e melhorias sistêmicas no Módulo AJ/Sigepe; IV - publicar manual operacional com orientações para utilização do Módulo AJ/Sigepe. Art. 3º À unidade de gestão de pessoas do órgão ou entidade integrante do Sipec compete: I - cadastrar, controlar e acompanhar as ações judiciais no Módulo AJ/Sigepe; II - promover a execução das decisões judiciais conforme os registros realizados no Módulo AJ/Sigepe, observados os parâmetros definidos no parecer de força executória, elaborado pelo órgão de contencioso da Advocacia-Geral da União; e III - assegurar a veracidade e a conformidade das informações registradas e dos documentos inseridos no Módulo AJ/Sigepe. Art. 4º Compete ao dirigente de gestão de pessoas do órgão ou entidade integrante do Sipec: I - garantir a regularidade técnica das informações cadastradas no Módulo AJ/Sigepe; e II - autorizar o cumprimento da decisão judicial e os reflexos administrativos e financeiros decorrentes dos registros realizados. Art. 5º À autoridade orçamentária do órgão ou entidade integrante do Sipec compete: I - atestar a existência de dotação orçamentária suficiente para o cumprimento da decisão judicial; e II - homologar os efeitos financeiros decorrentes da decisão judicial. Perfis de acesso ao Módulo AJ/Sigepe Art. 6º São perfis de acesso ao Módulo AJ/Sigepe: I - cadastrador - agente público responsável pelo registro e pela atualização das ações judiciais no AJ/Sigepe; II - executor - o agente público responsável por inserir os dados relativos ao cumprimento da decisão judicial, com base nos parâmetros definidos no parecer de força executória, elaborado pelo órgão de contencioso da Advocacia-Geral da União; III - pré-autorizador - o agente público responsável por realizar a pré-autorização da ação judicial; IV - autorizador - o dirigente de gestão de pessoas do órgão ou entidade integrante do Sipec, responsável por autorizar o cumprimento da decisão judicial, com base nos parâmetros definidos no parecer de força executória, elaborado pelo órgão de contencioso da Advocacia-Geral da União; e V - homologador - a autoridade orçamentária do órgão ou entidade integrante do Sipec, responsável por atestar a existência de dotação orçamentária e homologar os efeitos financeiros decorrentes da decisão judicial. § 1º Os perfis de acesso de que trata o caput deverão ser exercidos por agentes públicos distintos, assegurada a segregação de funções e responsabilidades no fluxo de cumprimento da decisão judicial. § 2º É cabível a acumulação dos perfis de cadastrador e executor de que tratam os incisos I e II do caput por um mesmo agente público, desde que mantida a segregação em relação aos perfis de autorizador e homologador. § 3º O uso do perfil de pré-autorizador de que trata o inciso III do caput é facultativo. Fluxo para cumprimento de decisão judicial Art. 7º Para fins de cumprimento das decisões judiciais, os órgãos e as entidades integrantes do Sipec deverão adotar as seguintes medidas no Módulo AJ/Sigepe: I - cadastramento da ação; II - inserção dos dados relativos ao cumprimento da decisão judicial com base nos parâmetros definidos no parecer de força executória, elaborado pelo órgão de contencioso da Advocacia-Geral da União; III - autorização do dirigente de gestão de pessoas do órgão ou entidade integrante do Sipec; e IV - homologação da autoridade orçamentária do órgão ou entidade. § 1º A homologação pela autoridade orçamentária de que trata o inciso IV do caput é o ato final do fluxo realizado no âmbito do próprio órgão ou entidade e produz automaticamente a confirmação da ação no Módulo AJ/Sigepe. § 2º O órgão central do Sipec poderá efetuar a confirmação das ações judiciais no Módulo AJ/Sigepe, após a homologação de que trata o inciso IV do caput, quando necessário à coordenação sistêmica ou à uniformização de procedimentos. § 3º Na hipótese a que se refere o § 2º,",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "147-B",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA SRT 6297-11932197",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=601&pagina=4&data=06/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [
+        "folha_esocial",
+        "substituicao_fc_cc"
+      ],
+      "score": 22,
+      "xml_file": "601_20260806_24198680.xml"
     },
     {
       "id": "50666079",
@@ -678,6 +711,35 @@
       "weak_keywords": [],
       "score": 15,
       "xml_file": "529_20260806_24196556.xml"
+    },
+    {
+      "id": "50671049",
+      "section": "DO1E",
+      "pub_date": "06/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Relações de Trabalho",
+      "identifica": "PORTARIA SRT/MGI Nº 6.342, DE 4 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Estabelece orientações aos órgãos e entidades integrantes da administração pública federal direta, autárquica e fundacional acerca do recesso para comemoração das festas de natal e ano novo.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA SRT/MGI Nº 6.342, DE 4 DE AGOSTO DE 2026 Estabelece orientações aos órgãos e entidades integrantes da administração pública federal direta, autárquica e fundacional acerca do recesso para comemoração das festas de natal e ano novo. O SECRETÁRIO DE RELAÇÕES DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 40, caput, inciso IX, e parágrafo único, incisos I e VII, do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e conforme as informações do Processo nº 19975.020800/2026-03, resolve: Art. 1º Ficam estabelecidas orientações aos órgãos e entidades integrantes da administração pública federal direta, autárquica e fundacional, integrantes do Sistema de Pessoal Civil da Administração Federal - SIPEC, acerca do recesso para comemoração das festas de natal e ano novo. Parágrafo único. O disposto no caput aplica-se às pessoas: I - servidoras públicas; II - empregadas públicas; III - contratadas temporárias; e IV - estagiárias. Art. 2º O recesso para comemoração das festas de natal e ano novo compreenderá os períodos de 21 a 25 de dezembro de 2026 e de 28 de dezembro de 2026 a 1º de janeiro de 2027. § 1º As pessoas de que trata o art. 1º, parágrafo único, incisos I a IV, devem se revezar nos dois períodos comemorativos estabelecidos no caput, preservando os serviços essenciais, em especial o atendimento ao público. § 2º O recesso deverá ser compensado no período de 1º de outubro de 2026 até dia 31 de maio de 2027, nos seguintes termos: I - para as que exercem as suas atividades presencialmente e não participam do Programa de Gestão e Desempenho - PGD, a referida compensação deverá ser realizada mediante antecipação do início da jornada diária de trabalho ou de sua postergação, respeitando-se o horário de funcionamento do órgão ou entidade; e II - para as que estão participando do PGD, na modalidade presencial ou teletrabalho, em regime de execução integral ou parcial, a referida compensação deverá ser realizada pelo cumprimento de todas as entregas pactuadas no plano de trabalho equivalentes às horas a serem compensadas. § 3º A pessoa que não compensar as horas usufruídas em razão do recesso, no período estabelecido no § 2º, sofrerá desconto em sua remuneração, proporcionalmente às horas não compensadas. § 4º A compensação de horário é limitada a: I - duas horas diárias, para as pessoas de que trata o art. 1º, parágrafo único, incisos I a III; e II - uma hora diária, para as pessoas de que trata o art. 1º, parágrafo único, inciso IV. Art. 3º As pessoas de que trata o art. 1º, parágrafo único, incisos I a IV, que optarem por não exercer a faculdade de que trata esta Portaria deverão manter a sua jornada ordinária de trabalho. Art. 4º Esta Portaria entra em vigor na data de sua publicação. JOSÉ LOPEZ FEIJÓO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "5",
+      "edition": "147-B",
+      "url": "https://www.in.gov.br/web/dou/-/ATO PORTARIA SRT 6342-11932190",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=601&pagina=5&data=06/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "teletrabalho_jornada"
+      ],
+      "score": 11,
+      "xml_file": "601_20260806_24198673.xml"
     },
     {
       "id": "50667699",
@@ -1338,6 +1400,34 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260806_24199217.xml"
+    },
+    {
+      "id": "50677030",
+      "section": "DO1E",
+      "pub_date": "06/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Fazenda/Conselho Administrativo de Recursos Fiscais",
+      "identifica": "PORTARIA CARF/MF Nº 2.324, DE 5 DE agosto DE 2026",
+      "orgao": "",
+      "ementa": "Institui a Política Antissuborno do Conselho Administrativo de Recursos Fiscais - CARF.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA CARF/MF Nº 2.324, DE 5 DE agosto DE 2026 Institui a Política Antissuborno do Conselho Administrativo de Recursos Fiscais - CARF. O PRESIDENTE DO CONSELHO ADMINISTRATIVO DE RECURSOS FISCAIS, no uso das atribuições que lhe conferem o art. 39, incisos II e IV, do Regimento Interno do Conselho Administrativo de Recursos Fiscais - CARF, aprovado pela Portaria MF nº 1.634, de 21 de dezembro de 2023, resolve: CAPÍTULO I DISPOSIÇÕES PRELIMINARES Art. 1º Esta Portaria institui a Política Antissuborno do Conselho Administrativo de Recursos Fiscais - CARF, que estabelece diretrizes, controles e responsabilidades para assegurar o cumprimento da legislação antissuborno, com a finalidade de promover um ambiente institucional pautado nos padrões de integridade, transparência, legalidade e nas melhores práticas de governança. Art. 2º O disposto nesta Portaria se aplica à Alta Direção e a todos os agentes públicos, aos trabalhadores terceirizados, aos estagiários e a todo aquele que preste serviços ou mantenha vínculo com o CARF, de natureza permanente, temporária, excepcional ou eventual, independentemente de remuneração, inclusive nos períodos de afastamento ou em gozo de licença. Parágrafo único. As disposições desta Portaria aplicam-se, ainda, às pessoas físicas ou jurídicas, com ou sem fins lucrativos, que se relacionem, direta ou indiretamente, com os agentes públicos referidos no caput, quando suas atividades representem risco de suborno médio, alto ou extremo. Art. 3º A Política Antissuborno do CARF atende aos requisitos da ABNT NBR ISO 37001:2025 - Sistemas de Gestão Antissuborno - e consiste em prevenir, detectar e responder ao suborno, assegurando a qualidade, a integridade e a transparência no julgamento e nas relações institucionais. Art. 4º Para os fins desta Portaria, adota-se o disposto na Portaria CARF/MF nº 2.303, de 3 de agosto de 2026, que institui o SIGES, e as seguintes definições: I - suborno - oferta, promessa, concessão, solicitação, aceitação ou recebimento, direto ou indireto, de vantagem indevida de qualquer natureza, financeira, patrimonial, de favor ou de outra espécie, em benefício próprio ou de terceiro, como incentivo ou recompensa para uma pessoa que está agindo ou deixando de agir em relação ao desempenho de suas obrigações, em violação às leis aplicáveis; II - função antissuborno - instância responsável pela supervisão do SGAS, com competência, autoridade e independência adequadas; III - agente público - o agente político, o servidor público e todo aquele que exerce, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nas entidades da administração pública; IV - parceiro de negócio - toda pessoa física ou jurídica com a qual o CARF tem, ou planeja estabelecer, alguma forma de relacionamento, incluindo quem atua em seu nome, contrata, presta serviços ou mantém relação jurídica relevante para fins de risco de suborno; V - interposta pessoa - aquela que age em nome de outra que não deseja revelar sua verdadeira identidade ou função, podendo ou não receber remuneração; VI - brindes - itens de baixo valor econômico, assim considerados aqueles com montante inferior a um por cento do teto remuneratório previsto no inciso XI do caput do art. 37 da Constituição Federal, nos termos do § 4º do art. 5º do Decreto nº 10.889, de 9 de dezembro de 2021, distribuídos de forma generalizada como cortesia, propaganda ou divulgação habitual; VII - hospitalidade - oferta de serviço ou despesas com transporte, alimentação, hospedagem, cursos, seminários, congressos, eventos, feiras ou atividades de entretenimento, concedidos por agente privado para agente público no interesse institucional do órgão, nos termos do inciso V do art. 5º do Decreto nº 10.889, de 9 de dezembro de 2021; VIII - risco de suborno - possibilidade de ocorrência de ato de suborno em razão das atividades ou relações do CARF, avaliada segundo a probabilidade de ocorrência e o potencial impacto e classificada, em conformidade com a norma ABNT NBR ISO 37001:2025 e a Portaria MF nº 376, de 28 de março de 2024, nos níveis baixo, médio, alto ou extremo; IX - diligência prévia de integridade (due diligence) - processo de avaliação aprofundada de transações, atividades, parceiros de negócio ou pessoal, com o fim de identificar e mitigar riscos de suborno; X - cultura antissuborno - valores, ética, convicções e condutas que existem em toda a organização e interagem com as estruturas e os sistemas de controle para produzir normas comportamentais propícias à Política e ao SGAS; e XI - retaliação - qualquer prática de represália, perseguição ou vingança contra agentes públicos ou terceiros em razão de denúncias ou manifestações de suspeitas de violações a esta Política ou à legislação antissuborno. CAPÍTULO II DOS OBJETIVOS Art. 5º São objetivos da Política Antissuborno do CARF: I - documentar e referenciar os PSIGES aplicáveis, de modo a promover a melhoria contínua para o adequado atendimento à legislação antissuborno aplicável; II - implementar e manter controles proporcionais aos riscos de suborno identificados; III - incentivar o relato de suspeitas de violação desta Política e da legislação antissuborno aplicável, com garantia de não retaliação; IV - promover campanhas de divulgação desta Política no âmbito interno e externo; V - responsabilidades, regras e procedimentos para o enfrentamento proativo e preventivo da fraude e do suborno; VI - fortalecer a cultura antissuborno e a ética institucional no CARF; e VII - estabelecer critérios para o recebimento de brindes, presentes e hospitalidades, bem como para a participação de agentes públicos em eventos externos, em consonância com as regras do Poder Executivo federal e do Ministério da Fazenda. CAPÍTULO III DOS COMPROMISSOS Art. 6º A Alta Direção do CARF tem o compromisso de promover as ações necessárias para assegurar a eficácia da Política A",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "2",
+      "edition": "147-B",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria CARF-MF 2324-2026 Polit-11933658",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=601&pagina=2&data=06/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor",
+        "teto_remuneratorio"
+      ],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "601_20260806_24200681.xml"
     },
     {
       "id": "50664815",
