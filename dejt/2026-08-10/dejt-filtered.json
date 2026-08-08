@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-10",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 221,
+      "pdf_text_chars": 39348,
+      "total_atos_detectados": 4,
+      "matched_atos": 2,
+      "headers_sample": [
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 254/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 253/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 251/2026",
+        "Resolução CSJT n.º 445, de 26 de junho de 2026, o auxílio-saúde corresponderá, p"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 89,
+      "pdf_text_chars": 5305,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP.SG N.º 44, DE 7 DE AGOSTO DE 2026.",
+        "ATO CSJT.GP.SG N.º 88, de 7 de AGOSTO de 2026."
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 1556,
+      "pdf_text_chars": 30568,
+      "total_atos_detectados": 9,
+      "matched_atos": 1,
+      "headers_sample": [
+        "ATO GDGSET.GP.N.º 418, DE 6 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N.º 420, DE 6 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N.º 417, DE 6 DE AGOSTO DE 2026",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.975, DE 7 DE AGOSTO DE 2026.",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.976, DE 7 DE AGOSTO DE 2026.",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.972, DE 7 DE AGOSTO DE 2026.",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.973 , DE 7 DE AGOSTO DE 2026.",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.977, DE 7 DE AGOSTO DE 2026.",
+        "RESOLUÇÃO ADMINISTRATIVA Nº 2.962, DE 3 DE AGOSTO DE 2026."
+      ]
+    }
+  },
+  "total_matched": 3,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Resolução CSJT n.º 445, de 26 de junho de 2026, o auxílio-saúde corresponderá, por magistrado, a 5% (cinco por cento) do subsídio do cargo",
+      "text_resumo": "Resolução CSJT n.º 445, de 26 de junho de 2026, o auxílio-saúde corresponderá, por magistrado, a 5% (cinco por cento) do subsídio do cargo\n  respectivo como limite de ressarcimento.\n\n  §2.º Os percentuais são fixos por magistrado beneficiário, independentemente do número de dependentes, e correspondem ao seu cargo efetivo,\n  não sendo majorados por substituição ou convocação, e não estão sujeitos a acréscimo de qualquer natureza, salvo os previstos neste ato.\n\n  §3.º Ao beneficiário titular pensionista de magistrado, o valor máximo calculado será dividido proporcionalmente à cota-parte em relação ao\n  montante total da pensão.\n\n  §4.º Também em caráter contingencial, com fundamento no art. 2º da Resolução CNJ n.º 294, de 18 de dezembro de 2019, o percentual previsto\n  será acrescido de 25% (vinte e cinco por cento), não acumuláveis, nos casos em que:\n\n  I - o magistrado, ou algum dependente dele, seja pessoa com deficiência ou portadora de doença grave, assim definida na Lei n.º 7.713/88;\n\n  II - o magistrado tenha idade superior a 50 anos.\n\n  §5.º Ao beneficiário titular pensionista de magistrado não se aplica a previsão contida no § 4.º deste artigo.\n\n\n                                                                  CAPÍTULO III\n                                                   DOS BENEFICIÁRIOS DA ASSISTÊNCIA À SAÚDE\n\n  Art. 7.º São beneficiários do programa de assistência à saúde suplementar na qualidade de titulares:\n\n\nCódigo para aferir autenticidade deste caderno: 240225\n\f   4532/2026                                                Tribunal Regional do Trabalho da 17ª Região                                            6\n   Data da Disponibilização: Sexta-feira, 07 de Agosto de 2026\n\n\n\n\n  I - magistrado em atividade e magistrado aposentado;\n\n  II - servidor em atividade e servidor aposentado;\n\n  III - classistas aposentados;\n\n  IV - servidor ocupante de cargo em comissão sem vínculo efetivo com a Administração Pública;\n\n  V - servidor público federal, em exercício provisório, cedido ou removido; e\n\n  VI - servidor público estadual ou municipal, em exercício provisório, cedido.\n\n  VII - pensionistas.\n\n  Parágrafo único. Os beneficiários de que tratam os incisos IV e V deste artigo, para fazer jus ao auxílio concedido por este Tribunal, deverão\n  apresentar certidão expedida por seus órgãos ou entidades de origem, declarando que não possuem plano ou seguro de assistência à saúde por\n  eles custeados ou que deles não percebam semelhante benefício ou de idêntica finalidade.\n\n  Art. 8.º Consideram-se dependentes, para os fins dispostos no caput do artigo 1.º.\n\n  I - cônjuge;\n\n  II - companheiro (a), havendo união estável devidamente comprovada;\n\n  III - filho(a) e enteado(a) solteiro(a) até o mês em que completar 22 (vinte e dois) anos, ou até o mês em que completar 25 (vinte e cinco) anos, se\n  estudante regularmente matriculado(a) em instituição de ensino fundamental, médio, profissional ou superior, devidamente reconhecida pelo\n  Ministério da Educação, se estudante no Brasil, ou na forma da lei, se estudante no exterior;\n\n  IV - filho(a) ou enteado com incapacidade permanente para o trabalho remunerado;\n\n  V - menor sob guarda ou tutela, até 22 (vinte e dois anos de idade; e\n\n  VI - pais, avós ou bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal, comprovada a\n  dependência econômica para fins de Imposto de Renda.\n\n  §1.º O cônjuge ou companheiro será admitido para essa finalidade se configurar dependente para a legislação do imposto de renda ou se, embora\n  não declarado para esse fim, não seja beneficiário de outro programa de assistência suplementar à saúde instituído por ente da administração\n  pública direta ou indireta.\n\n  § 2.º A exclusão de dependente que completar a idade limite será automática, com efeitos financeiros até o final do mês de seu aniversário.\n\n  §3.º A inclusão de dependente produzirá efeitos financeiros apenas a partir da data do protocolo do pedido de averbação nos assentamentos\n  funcionais, na hipótese de deferimento do pleito.\n\n  §4º O beneficiário titular pensionista não terá direito ao cadastramento de dependentes no programa de assistência à saúde suplementar.\n\n  §5º O magistrado ou servidor é responsável pela atualização dos dados cadastrais, devendo comunicar imediatamente a ocorrência de qualquer\n  fato que implique a exclusão do dependente.\n\n\n                                                                      CAPÍTULO IV\n                                                                     DO REEMBOLSO\n\n  Art. 9.º Para fins de recebimento do \"Auxílio Assistência Médica e Odontológica\", caberá ao beneficiário celebrar contrato individual com empresa\n  operadora de plano ou seguro privado de assistência à saúde de sua preferência, que poderá ser na modalidade de contrato coletivo por adesão,\n  por meio das Associações ou Sindicatos por ele escolhido, ou contrato particular, firmado diretamente com a empresa.\n\n  Art. 10. A concessão do \"Auxílio Assistência Médica e Odontológica\" será devida a partir da data em que o beneficiário encaminhar o\n  requerimento, devidamente preenchido e assinado, dirigido à Secretaria de Gestão de Pessoas (SGP) deste Tribunal.\n\n  §1.º O requerimento deverá discriminar o nome do titular, seus dependentes, quando houver, e o grau de parentesco, o plano aderido e o nome da\n  consignatária ou da operadora, nos casos dos planos particulares.\n\n  §2.º Ao requerer o auxílio, o beneficiário deverá firmar, sob as penas da lei, declaração de que não recebe este ou outro benefício semelhante de\n  outro órgão público.\n\n  §3.º Caberá à Seção de Contratos e Benefícios (SECOBE), à vista dos documentos, verificar a veracidade das informações, bem como se os\n  dependentes estão legalmente cadastrados nos assentamentos funcionais do magistrado ou do servidor.\n\n  §4.º A Seção de Contratos e Benefícios (SECOBE), após certificar-se da real condição de beneficiário e de dependência para efeit",
+      "text_truncated": true,
+      "strong_keywords": [
+        "aposentadoria",
+        "auxilios_pessoal",
+        "pensao"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 26
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 251/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 251/2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                         PORTARIA\n\n\n\nCódigo para aferir autenticidade deste caderno: 240225\n\f   4532/2026                                                Tribunal Regional do Trabalho da 17ª Região                                            4\n   Data da Disponibilização: Sexta-feira, 07 de Agosto de 2026\n\n\n\n                                                                0002946-42.2016.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                         REMOVER\n\n\n\n  Dayana Pinheiro Amorim Delecroide, Analista Judiciária, área Judiciária, do (a) 13ª Vara do Trabalho de Vitória - VITV13 para lotá-lo(a) no(a)\n  Gabinete do Juiz Convocado II - GJCII.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 06/08/2026,\n                         às 18:18, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1333766 e o código CRC 14466B5D.\n\n\n\n\n                                                  SEÇÃO DE CONTRATOS E BENEFÍCIOS\n                                                                  Ato\n                                                                  Ato\n                                                       Publicação DEJT SEI - Ato\n\n                                                          ATO TRT 17.ª PRESI/SGP n.º 23/2026\n\n\n                                                                             Dispõe, no âmbito do Tribunal Regional do Trabalho da 17.ª Região, sobre\n                                                                             a prestação da assistência à saúde suplementar de que trata o art. 230 da\n                                                                             Lei n.º 8.112/1990, na forma de auxílio.\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais,\n\n  CONSIDERANDO os termos da Resolução n.º 294, de 18 de dezembro de 2019, do Conselho Nacional de Justiça (CNJ);\n\n  CONSIDERANDO o estabelecido pela Resolução CSJT n.º 445, de 26 de junho de 2026; e\n\n  CONSIDERANDO o que consta dos autos do Processo Administrativo nº 0001140-30.2020.5.17.0500,\n\n  RESOLVE:\n\n\n                                                                    CAPÍTULO I\n                                                           DAS DISPOSIÇÕES PRELIMINARES\n\n  Art. 1.º A assistência à saúde, de que trata o art. 230 da Lei n.º 8.112/1990, será prestada, no âmbito do TRT da 17.ª Região, pelo Sistema Único\n  de Saúde - SUS e, de forma suplementar, na forma de auxílio, mediante ressarcimento parcial do valor despendido por magistrados e servidores,\n  com planos ou seguros privados de assistência à saúde, contratados para si e seus dependentes, ou por seus pensionistas estatutários, acrescido\n  das despesas reembolsáveis, desde que previstas e devidamente comprovadas, na forma estabelecida neste Ato.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240225\n\f   4532/2026                                                Tribunal Regional do Trabalho da 17ª Região                                          5\n   Data da Disponibilização: Sexta-feira, 07 de Agosto de 2026\n\n\n\n  §1.º O benefício de que trata o caput, denominado \"Auxílio Assistência Médica e Odontológica\", tem natureza jurídica indenizatória e será pago\n  mediante comprovação da realização da despesa, caso haja disponibilidade orçamentária.\n\n  §2.º Não estão enquadrados no caput os planos de saúde privados contratados pelo ente público.\n\n  § 3.º A operadora de planos de saúde contratada deve estar regular e autorizada pela Agência Nacional de Saúde Suplementar (ANS).\n\n  Art. 2.º O valor do reembolso será limitado ao total efetivamente despendido com o plano ou seguro privado de assistência à saúde, acrescido de\n  outras despesas reembolsáveis, desde que previstas e devidamente comprovadas, respeitando-se os requisitos e os limites estabelecidos neste\n  Ato.\n\n  §1.º O reembolso a título de \"Auxílio Assistência Médica e Odontológica\" será destinado, primeiramente, ao ressarcimento das despesas com\n  tratamentos suportados pelos magistrados e servidores, distribuindo-se o valor remanescente de forma equitativa entre os dependentes para fins\n  deste Ato, respeitado o valor máximo do benefício.\n\n  §2.º Na hipótese em que o reembolso mensal creditado não alcançar a totalidade do valor do auxílio-saúde reconhecido ao beneficiário no mês\n  respectivo, o saldo poderá ser aproveitado em meses subsequentes, desde que dentro do mesmo exercício financeiro, não sendo possível, em\n  hipótese alguma, a acumulação de crédito a outro exercício.\n\n  §3.º As despesas administrativas, judiciais ou quaisquer taxas intermediárias, porventura cobradas por associação, sindicato, ou empresas\n  particulares, prestadoras do serviço de plano de saúde e/ou odontológico, não deverão ser cobertas pelo benefício.\n\n\n                                                                 ",
+      "text_truncated": true,
+      "strong_keywords": [
+        "auxilios_pessoal",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "RESOLUÇÃO ADMINISTRATIVA Nº 2.973 , DE 7 DE AGOSTO DE 2026.",
+      "text_resumo": "RESOLUÇÃO ADMINISTRATIVA Nº 2.973 , DE 7 DE AGOSTO DE 2026.\n                                                                                                 Dispõe sobre a recondução da Excelentíssima Senhora\n                                                                                                 Ministra Delaíde Alves Miranda Arantes para integrar, a\n                                                                                                 partir de 12 de agosto de 2026, o Órgão Especial do\n                                                                                                 Tribunal Superior do Trabalho, na qualidade de suplente.\n\n\n\n  O EGRÉGIO PLENO DO TRIBUNAL SUPERIOR DO TRABALHO, em Sessão Extraordinária hoje realizada, sob a Presidência do Excelentíssimo\n  Senhor Ministro Luiz Philippe Vieira de Mello Filho, Presidente do Tribunal, presentes os Excelentíssimos Senhores Ministros José Roberto Freire\n  Pimenta, Corregedor-Geral da Justiça do Trabalho, Ives Gandra da Silva Martins Filho, Maria Cristina Irigoyen Peduzzi, Mauricio José Godinho\n  Delgado, Kátia Magalhães Arruda, Hugo Carlos Scheuermann, Alexandre de Souza Agra Belmonte, Cláudio Mascarenhas Brandão, Douglas\n  Alencar Rodrigues, Maria Helena Mallmann, Alexandre Luiz Ramos, Luiz José Dezena da Silva, Evandro Pereira Valadão Lopes, Amaury\n  Rodrigues Pinto Junior, Alberto Bastos Balazeiro, Morgana de Almeida, Sergio Pinto Martins, Liana Chaib, Antônio Fabrício de Matos Gonçalves e\n  Margareth Rodrigues Costa, e a Excelentíssima Senhora Teresa Cristina D’Almeida Basteiro, Vice-Procuradora-Geral do Trabalho,\n\n  considerando a proximidade do término do mandato da Excelentíssima Senhora Ministra Delaíde Alves Miranda Arantes como suplente do Órgão\n  Especial, a ocorrer em 11 de agosto de 2026;\n\n  considerando que a Excelentíssima Senhora Ministra Delaíde Alves Miranda Arantes cumpre, atualmente, o primeiro mandato como suplente do\n  Órgão Especial;\n\n  considerando o disposto no art. 75, inciso I, do Regimento Interno do Tribunal Superior do Trabalho;\n\n  considerando o disposto no art. 5° da Resolução n° 16 do Conselho Nacional de Justiça, de 16 de maio de 2006,\n\n  RESOLVE\n\n  Reconduzir a Excelentíssima Senhora Ministra Delaíde Alves Miranda Arantes para integrar, a partir de 12 de agosto de 2026, o Órgão Especial do\n  Tribunal Superior do Trabalho, na qualidade de suplente.\n\n  Publique-se.\n\n\n                                                          LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n                                                     Ministro Presidente do Tribunal Superior do Trabalho",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}

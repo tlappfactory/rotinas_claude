@@ -2,48 +2,16 @@
   "date": "2026-08-07",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 323,
-      "pdf_text_chars": 15881,
-      "total_atos_detectados": 7,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 248/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 245/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 249/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 243/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 244/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 246/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 247/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 3147,
-      "pdf_text_chars": 98720,
-      "total_atos_detectados": 13,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO GDGSET.GP.Nº 408, DE 31 DE JULHO DE 2026",
-        "EDITAL Nº 1/2026 - CGJT PRÊMIO “TRT EM DESTAQUE” - EDIÇÃO 2026",
-        "Ato nº 8/GCGJT, de 08 de julho de 2026, que institui o Prêmio “TRT em Destaque”,",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.961, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.967, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.965, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.968, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.960, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.964, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.970, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.971, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.966, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUÇÃO ADMINISTRATIVA Nº 2.969, DE 3 DE AGOSTO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 2,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -69,30 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 247/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 247/2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                           PORTARIA\n\n                                                                0000210-80.2018.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais, resolve:\n\n\n\n                                                                           REMOVER\n\n\n\n  Anna Carolina Siqueira Félix, Analista Judiciária, área Judiciária, do (a) 10ª Vara do Trabalho de Vitória - VITV10 para lotá-lo(a) no(a) Gabinete do\n  Desembargador Luís Cláudio dos Santos Branco - GDLCSB, a partir de 12/8/2026.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 05/08/2026,\n                         às 17:42, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1332766 e o código CRC DD2F1203.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        1\n   REMOÇÃO\n    Portaria                                                           1\n     Portaria                                                          1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240186",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "ATO GDGSET.GP.Nº 408, DE 31 DE JULHO DE 2026",
-      "text_resumo": "ATO GDGSET.GP.Nº 408, DE 31 DE JULHO DE 2026\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais,\n  considerando o constante do Processo Administrativo TST nº 6013469/2026,\n  RESOLVE\n  Determinar a emissão de bilhetes de passagem aérea e o pagamento de diárias de viagem, com diária arbitrada no valor de R$ 1.153,37, aos\n  Senhores e Senhora constantes da relação abaixo, para viajarem à cidade de Brasília/DF, a fim de participarem do \"IV Congresso de Pesquisa\n  Judiciária, Estatística e Ciência de Dados da Justiça do Trabalho\", a ser realizado no Tribunal Superior do Trabalho, conforme discriminado a\n  seguir:\n  1 – LEONARDO SAKAMOTO – Jornalista e Cientista Político, no trecho São Paulo/Brasília/São Paulo – meia diária de viagem, referente ao dia\n  25/8/2026;\n  2 – RICARDO LUIZ COLTRO ANTUNES – Professor da Universidade de Campinas, no trecho Campinas/Brasília/Rio de Janeiro – uma diária e\n  meia de viagem, referente aos dias 26 e 27/8/2026;\n  3 – MAGDA BARROS BIAVASCHI – Desembargadora do Trabalho aposentada, Professora da Universidade de Campinas e integrante do\n  Conselho Científico de Pesquisa Judiciária, no trecho São Paulo/Brasília/São Paulo – duas diárias e meia de viagem, referentes ao período de 25\n  a 27/8/2026; e\n  4 – ALISSON DROPPA – Professor da Universidade de Campinas e integrante do Conselho Científico de Pesquisa Judiciária, no trecho Porto\n  Alegre/Brasília/Porto Alegre – duas diárias e meia de viagem, referentes ao período de 25 a 27/8/2026.\n\n                                                                VIEIRA DE MELLO FILHO\n                                                   Ministro Presidente do Tribunal Superior do Trabalho\n\n\n\n\n                                          Corregedoria Geral da Justiça do Trabalho\n                                                             Ato\n                                                       Ato_CORREG",
-      "text_truncated": false,
-      "strong_keywords": [
-        "aposentadoria"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
