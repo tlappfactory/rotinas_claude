@@ -96,5 +96,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          data="$(date -u +%Y-%m-%d)"
-          gh workflow run send-boletim.yml --repo "${{ github.repository }}" --ref main -f data="$data"
+          # Sem --data: send_boletim.py usa o boletim mais recente presente
+          # em boletins/ por padrão. Usar a data de hoje (UTC) aqui seria
+          # errado sempre que o boletim sincronizado for de uma data
+          # anterior — ex.: sessão que rodou atrasada e só conseguiu
+          # publicar em main no dia seguinte. "Mais recente" é sempre o
+          # boletim que este job acabou de sincronizar.
+          gh workflow run send-boletim.yml --repo "${{ github.repository }}" --ref main
