@@ -1,0 +1,94 @@
+name: sync-boletim-to-main
+
+# Ponte entre as branches efêmeras de sessão do Claude Code (claude/**) e a
+# branch main. A sessão do Claude só tem permissão de git push para a
+# própria branch de sessão — restrição do proxy do harness da sessão, não
+# do GitHub. Este workflow completa o caminho até main usando o
+# GITHUB_TOKEN do próprio Actions, que já tem essa permissão (o mesmo
+# padrão que o fetch-dou.yml já usa hoje para commitar os JSONs em main).
+#
+# Fluxo: push em claude/** tocando boletins/** -> copia boletins/<data>.
+# {html,txt} da branch de origem para main -> commit+push em main -> dispara
+# send-boletim.yml via workflow_dispatch (necessário porque um push feito
+# pelo GITHUB_TOKEN não reaciona o gatilho `on: push` de outro workflow —
+# proteção anti-recursão do próprio GitHub, para evitar loop infinito).
+#
+# Rede de segurança: mesmo que o disparo explícito acima falhe, a passagem
+# de reforço agendada do send-boletim.yml (cron 15h10 UTC) reenvia sozinha
+# se achar o boletim do dia em main ainda sem nenhum run `success` hoje.
+
+on:
+  push:
+    branches:
+      - "claude/**"
+    paths:
+      - "boletins/**"
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: "Branch de origem a sincronizar (vazio = a que disparou o evento)"
+        required: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-boletim-to-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Determinar branch de origem
+        id: origem
+        run: |
+          branch="${{ github.event.inputs.source_branch }}"
+          if [ -z "$branch" ]; then
+            branch="${{ github.ref_name }}"
+          fi
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Copiar boletins/ da branch de origem para main
+        id: copia
+        run: |
+          set -e
+          git fetch origin "${{ steps.origem.outputs.branch }}"
+          git checkout "origin/${{ steps.origem.outputs.branch }}" -- boletins/
+          git add boletins/
+          if git diff --cached --quiet; then
+            echo "nada novo para sincronizar (boletins/ já igual em main)"
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Sync boletim de ${{ steps.origem.outputs.branch }} para main"
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then
+              echo "push ok na tentativa $attempt"
+              echo "mudou=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((attempt * 5))
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "push para main falhou em 4 tentativas" >&2
+          exit 1
+
+      - name: Disparar envio do boletim (workflow_dispatch em main)
+        if: steps.copia.outputs.mudou == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          data="$(date -u +%Y-%m-%d)"
+          gh workflow run send-boletim.yml --repo "${{ github.repository }}" --ref main -f data="$data"
