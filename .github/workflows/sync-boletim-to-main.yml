@@ -23,6 +23,12 @@ on:
       - "claude/**"
     paths:
       - "boletins/**"
+      # Inclui o próprio arquivo do workflow: enquanto ele só existir numa
+      # branch de sessão, workflow_dispatch não fica disponível via API
+      # (o GitHub só permite dispatch manual de workflows já presentes em
+      # main). Isso permite que o primeiro push que o introduz já dispare
+      # a sincronização, sem esperar um merge.
+      - ".github/workflows/sync-boletim-to-main.yml"
   workflow_dispatch:
     inputs:
       source_branch:
