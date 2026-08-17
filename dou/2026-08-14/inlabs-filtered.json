@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
-  "total_xml_files": 1280,
-  "matched_articles": 226,
+  "total_xml_files": 1287,
+  "matched_articles": 227,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2471,6 +2471,34 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260814_24236412.xml"
+    },
+    {
+      "id": "50799217",
+      "section": "DO1E",
+      "pub_date": "14/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Fazenda/Gabinete do Ministro",
+      "identifica": "PORTARIA MF Nº 2.394, DE 12 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre o Plano de Aplicação do Fundo Especial de Desenvolvimento e Aperfeiçoamento das Atividades de Fiscalização (FUNDAF) e da sua Subconta Especial, para o exercício de 2027.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MF Nº 2.394, DE 12 DE AGOSTO DE 2026 Dispõe sobre o Plano de Aplicação do Fundo Especial de Desenvolvimento e Aperfeiçoamento das Atividades de Fiscalização (FUNDAF) e da sua Subconta Especial, para o exercício de 2027. O MINISTRO DE ESTADO DA FAZENDA, no uso das atribuições que lhe conferem o art. 87, parágrafo único, incisos I, II e IV, da Constituição e o art. 9º do Decreto-Lei nº 1.437, de 17 de dezembro de 1975, ratificado pelo Decreto Legislativo nº 22, de 27 de agosto de 1990, e tendo em vista o disposto no art. 37, inciso XXII; art. 165, § 2º e art. 167, inciso IV, da Constituição; art. 3º, §§ 2º e 4º da Lei nº 9.716, de 26 de novembro de 1998; art. 4º e art. 6º da Lei nº 7.711, de 22 de dezembro de 1988; no Decreto nº 98.135, de 12 de setembro de 1989; e no Decreto nº 2.037, de 15 de outubro de 1996, resolve: Art. 1º Fica aprovado, para o exercício de 2027, o Plano de Aplicação do Fundo Especial de Desenvolvimento e Aperfeiçoamento das Atividades de Fiscalização (FUNDAF) e da sua Subconta Especial, que prevê a alocação das receitas do fundo nas ações orçamentárias da Secretaria Especial da Receita Federal do Brasil, do Conselho Administrativo de Recursos Fiscais e da Procuradoria-Geral da Fazenda Nacional, nos termos do Anexo Único desta Portaria. Parágrafo Único. O eventual excesso de arrecadação nas fontes de recursos do FUNDAF e da sua Subconta Especial, durante o exercício de 2027, observará o critério de aplicação descrito no caput, e às disposições previstas na legislação específica. Art. 2º Fica determinada a inclusão, no Projeto de Lei Orçamentária Anual de 2027, das previsões de dotações orçamentárias constantes do Plano de Aplicação de que trata o art. 1º. Art. 3º Esta Portaria entra em vigor na data de sua publicação. DARIO CARNEVALLI DURIGAN ANEXO ÚNICO PLANO DE APLICAÇÃO DO FUNDAF 2027 1. Procuradoria-Geral da Fazenda Nacional Órgão Orçamentário Unidade Orçamentária Ação Orçamentária Plano Orçamentário GND Fonte FUNDAF PLOA 2027 25000 - Ministério da Fazenda 25104 - Procuradoria-Geral da Fazenda Nacional 2244 - Recuperação de Créditos, Consultoria, Representação Judicial e Extrajudicial da Fazenda Nacional 0000 - Recuperação de Créditos, Consultoria, Representação Judicial e Extrajudicial da Fazenda Nacional 3 1031 122.661.000 0001 - Serviços de Tecnologia da Informação para sistemas estruturantes da PGFN 3 1031 244.779.432 4 1031 10.000.000 0004 - Serviços de Tecnologia da Informação para a Dívida Ativa Previdenciária 3 1031 81.945.000 4 1031 2000 - Administração da Unidade 0000 - Administração da Unidade - Despesas Diversas 3 1031 259.739.000 4 1031 30.911.000 0002 - Capacitação de Servidores Públicos Federais em Processo de Qualificação e Requalificação 3 1031 18.283.000 216H - Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 0000 - Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 3 1031 423.000 Total PGFN 768.741.432 2. Secretaria Especial da Receita Federal do Brasil e Conselho Administrativo de Recursos Fiscais Órgão Orçamentário Unidade Orçamentária Ação Orçamentária Plano Orçamentário GND Fonte FUNDAF PLOA 2027 25000 - Ministério da Fazenda 25103 - Secretaria Especial da Receita Federal do Brasil 20VG - Gestão das Soluções Informatizadas da Secretaria Especial da Receita Federal do Brasil e do Conselho Administrativo de Recursos Fiscais 0001 - Sistemas Informatizados da Secretaria da Receita Federal do Brasil 3 1032 2.342.248.944 4 1032 142.000.000 0002 - Sistemas Informatizados do Conselho Administrativo de Recursos Fiscais (CARF) 3 1032 20.000.000 4 1032 2.000.000 0004 - Modernização e Aperfeiçoamento de Soluções de Tecnologia, Informação e Comunicação da Secretaria Especial da Receita Federal do Brasil 3 1032 171.997.402 4 1032 194.924.710 0005 - Sustentação e Operacionalização da Reforma Tributária do Consumo 3 1032 1.347.426.814 2000 - Administração da Unidade 0001 - Funcionamento do Conselho Administrativo de Recursos Fiscais - CARF 3 1032 19.000.000 4 1032 2.000.000 0002 - Administração da Unidade - RFB 3 1032 1.000.431.610 4 1032 1.000.000 0005 - Capacitação de Servidores Públicos Federais em Processo de Qualificação e Requalificação 3 1032 35.000.000 216H - Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 0000 - Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 3 1032 3.500.000 2237 - Auditoria e Fiscalização Tributária e Aduaneira 0003 - Operações de Fiscalização Tributária e Aduaneira 3 1032 296.500.000 4 1032 168.000.000 0004 - Conservação e recuperação das Unidades da RFB 3 1032 42.000.000 4 1032 250.000.000 2866 - Ações de Caráter Sigiloso 3 1032 1.000.000 4 1032 1.000.000 00UU - Contribuições a Organismos Internacionais sem Exigência de Programação Específica 0001 - Contribuição à Associação Iberoamericana de Tribunais e Justiça Fiscal ou Administrativa - AIT 3 1032 40.000 0002 - Contribuição ao Fórum sobre Administração Tributária - FTA 3 1032 549.000 0004 - Contribuição ao Fórum Global sobre Transparência e Intercâmbio de Informações para Fins Tributários 3 1032 477.100 0005 - Contribuição ao Projeto sobre Erosão de Base de Cálculo e Deslocamento de Lucros - BEPS 3 1032 385.520 0006 - Contribuição à Convenção sobre Assistência Mútua Administrativa em Assuntos Tributários - CMATM 3 1032 18.900 148I - Construção de Edifício-Sede de Unidades da Secretaria Especial da Receita Federal do Brasil em Belém - PA Construção de Edifício-Sede de Unidades da Secretaria Especial da Receita Federal do Brasil em Belém - PA 4 1032 33.500.000 219L - Serviço Público de Produção de Selos Fiscais Federais 0000 - Serviço Público de Produção de Selos Fiscais Federais 3 1015 280.000.000 Total RFB - Discricionárias 6.355.000.000 Órgão Orçamentário Unidade Orçamentária Ação Orçamentária Plano Orçamentário GND Fonte FUNDAF PLOA 2027 25000 - Ministério da Fazenda 25103 - Secretaria Especial da Receita Federal do Brasil 21BX - Bônus de Eficiência e Produtividade e Pagamento Extraordinário por pr",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "2",
+      "edition": "153-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MF 2.394-11957879",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=2&data=14/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "ajuda_custo_transporte",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260814_24231619.xml"
     },
     {
       "id": "50802681",
