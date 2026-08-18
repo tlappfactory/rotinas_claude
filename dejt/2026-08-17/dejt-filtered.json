@@ -2,49 +2,16 @@
   "date": "2026-08-17",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 190,
-      "pdf_text_chars": 25517,
-      "total_atos_detectados": 6,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Ato SECOR N° 64/2026",
-        "ATO PRESI SECOR N° 57/2026",
-        "Ato SECOR N° 63/2026",
-        "ATO PRESI SECOR N° 56/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 278/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 279/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 94,
-      "pdf_text_chars": 11647,
-      "total_atos_detectados": 2,
-      "matched_atos": 2,
-      "headers_sample": [
-        "ATO CSJT.GP.SG N.º 89, DE 13 DE AGOSTO DE 2026.",
-        "ATO CSJT.GP.SG N.º 72, DE 26 DE JUNHO DE 2026. * (Republicação)"
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 274,
-      "pdf_text_chars": 11538,
-      "total_atos_detectados": 7,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 431, DE 13 DE AGOSTO DE 2026",
-        "ATO GDGSET.GP.N.º 434, DE 13 DE AGOSTO DE 2026",
-        "ATO GDGSET.GP.N.º 430, DE 13 DE AGOSTO DE 2026",
-        "ATO GDGSET.GP.N.º 432, DE 13 DE AGOSTO DE 2026",
-        "ATO GDGSET N° GDGSET.GP.Nº 433, DE 13 DE AGOSTO DE 2026",
-        "ATO GDGSET.GP.N.º 435, DE 13 DE AGOSTO DE 2026",
-        "ATO Nº 10 GCGJT, DE 14 DE AGOSTO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -70,44 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 279/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 279/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240379\n\f   4537/2026                                                Tribunal Regional do Trabalho da 17ª Região                                       7\n   Data da Disponibilização: Sexta-feira, 14 de Agosto de 2026\n\n\n\n\n                                                          PODER JUDICIÁRIO FEDERAL\n                                                            JUSTIÇA DO TRABALHO\n                                                 TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                           PORTARIA\n\n                                                                0000101-85.2026.5.17.0500\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso de suas atribuições\n  legais e regimentais,\n\n  Considerando o(a) Decreto do Presidente da República de 13 de Agosto de 2026, publicado no DOU de 14 de agosto de 2026,\n\n                                                                           RESOLVE\n\n\n\n  Remanejar um cargo em comissão de Assessor-Chefe - CJ-03, um cargo em comissão de Assessor - CJ-02 e nove funções comissionadas de\n  Assistente de Gabinete - FC-05 do Gabinete do Juiz Convocado II - GJC-II para o Gabinete da Desembargadora Fátima Gomes Ferreira - GD-\n  FGF, a partir de 14/8/2026, mantidos os atuais titulares.\n\n\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região e no\n  Diário Oficial da União (DOU).\n\n\n\n                                                      Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                             Desembargadora-Presidente\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 14/08/2026,\n                         às 14:53, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                        A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                        informando o código verificador 1335067 e o código CRC 8D42CCAD.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                          1\n   REGIONAL\n    Ata                                                                1\n                                                                                      DIRETORIA GERAL                                         3\n     Ata Correição Ordinária SECOR                                     1\n                                                                                       Extrato                                                3\n    Ato                                                                1\n                                                                                        EXTRATO DE CONCESSÃO DE DIÁRIAS                       3\n     Ato                                                               1\n                                                                                      SEÇÃO DE INGRESSO, LOTAÇÃO E                            5\n    Edital                                                             3              REMOÇÃO\n     Edital                                                            3               Portaria                                               5\n\n\nCódigo para aferir autenticidade deste caderno: 240379\n\f   4537/2026                                                Tribunal Regional do Trabalho da 17ª Região   8\n   Data da Disponibilização: Sexta-feira, 14 de Agosto de 2026\n\n\n\n      Portaria                                                         5\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240379",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 16
-    },
-    {
-      "source": "csjt",
-      "orgao": "Conselho Superior da Justiça do Trabalho",
-      "identifica": "ATO CSJT.GP.SG N.º 72, DE 26 DE JUNHO DE 2026. * (Republicação)",
-      "text_resumo": "ATO CSJT.GP.SG N.º 72, DE 26 DE JUNHO DE 2026. * (Republicação)\n\n\nCódigo para aferir autenticidade deste caderno: 240386\n\f   4537/2026                                                 Conselho Superior da Justiça do Trabalho                                                2\n   Data da Disponibilização: Sexta-feira, 14 de Agosto de 2026\n\n\n\n\n                                                                                                Regulamenta o art. 5º, inciso VII, da Resolução CSJT n.º\n                                                                                                445, de 26 de junho de 2026, para dispor sobre os\n                                                                                                requisitos e procedimento para reembolso das despesas\n                                                                                                médicas e odontológicas.\n\n\n  O PRESIDENTE DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas atribuições legais e regimentais,\n\n  Considerando a previsão contida no art. 5º, inciso VII, da Resolução CSJT n.º 445, de 26 de junho de 2026;\n\n  Considerando o teor vinculante do Acórdão do Procedimento CNJ CONSULTA 0007093-38.2023.2.00.0000, julgado em 10 de maio de 2024;\n\n  Considerando a Resolução Conjunta CNJ-CNMP nº 14/2026, no seu artigo 5º, alínea d, que dispõe sobre o pagamento de “auxílio-saúde,\n  mediante comprovação do valor efetivamente pago, nos limites da Resolução CNMP nº 268/2023”;\n\n  Considerando a Tese vinculante do julgamento conjunto da Rcl 88.319, da ADI 6.606, da ADI 6.601, da ADI 6.604, do RE 968.646 e do RE\n  1.059.466, sobre o regime remuneratório da Magistratura, no item 6, que dispõe sobre a concessão de assistência saúde a magistrados mediante\n  “auxílio-saúde, desde que comprovado o valor efetivamente pago (art. 65, I, da LC nº 35/79; art. 227, da LC nº 75/1993; art. 50, II, da Lei nº\n  8.625/1993)”;\n\n\n\n  RESOLVE\n\n\n\n  Art. 1º As despesas com medicamentos e serviços de saúde poderão ser reembolsadas dentro do limite previsto em ato da Presidência do\n  Conselho Superior da Justiça do Trabalho somente com a apresentação de documento fiscal com o CPF do magistrado ativo ou inativo\n  beneficiário, de cônjuge ou companheiro ou de dependente previamente averbado em seus assentos funcionais.\n\n  § 1º A possibilidade de definição de valores com base em faixas etárias ou por grupo familiar será objeto de disciplina futura e conforme a\n  disponibilidade orçamentária.\n\n  § 2º Até que sobrevenha ato da Presidência do CSJT dispondo sobre o grupo familiar, serão aceitos como dependentes para o disposto neste ato\n  somente o cônjuge ou companheiro e aqueles já admitidos como tais pela legislação do imposto de renda.\n\n  § 3º O cônjuge ou companheiro será admitido para essa finalidade se configurar dependente para a legislação do imposto de renda ou se, embora\n  não declarado para esse fim, não seja beneficiário de outro programa de assistência suplementar à saúde instituído por ente da administração\n  pública direta ou indireta.\n\n  Art. 2º No tocante a medicamentos, podem ser objeto de reembolso apenas as despesas com produtos adquiridos no território nacional como\n  medicamentos registrados na ANVISA e incorporados na listagem oficial da Tabela de Procedimentos, Medicamentos e OPM do Sistema Único de\n  Saúde.\n\n  Art. 3º No tocante a serviços médicos e odontológicos, podem ser objeto de reembolso apenas as despesas com serviços realizados no território\n  nacional com:\n\n  I - planos de saúde registrados na Agência Nacional de Saúde;\n\n  II - consultas médicas e odontológicas de profissionais com inscrição no CRM e no CRO;\n\n  III - procedimentos diagnósticos e cirúrgicos e ações terapêuticas que integrem a listagem oficial da Tabela de Procedimentos, Medicamentos e\n  OPM do Sistema Único de Saúde.\n\n  Parágrafo único. Nas hipóteses dos incisos II e III, os documentos fiscais comprobatórios das despesas referentes aos serviços poderão ser\n  emitidos em nome das próprias pessoas físicas que os executaram ou de pessoas jurídicas a que estejam vinculadas, como clínicas, institutos,\n  laboratórios e outras sociedades médicas e odontológicas. (Incluído pelo ATO CSJT.GP.SG N.º 89, DE 13 DE AGOSTO DE 2026.)\n\n  Art. 4º Não serão objeto de ressarcimento, em hipótese alguma, despesas com:\n\n  I - profissionais de saúde que não médicos e odontólogos com inscrição no CRM e no CRO;\n\n  II - medicamentos ou produtos de cosmética, de homeopatia, de fitoterapia, manipulados, nutrientes, dietéticos, para disfunção erétil ou\n  anticoncepção, vitamínicos ou outros cuja natureza não se mostre essencial para a promoção da saúde;\n\n  III - despesas com consultas, medicamentos e procedimentos que já tenham sido satisfeitas pelo plano de saúde respectivo.\n\n  Art. 5º O beneficiário deverá solicitar o reembolso das despesas com planos de saúde, medicamentos e serviços médicos e odontológicos ao\n  respectivo Tribunal até o 5º dia útil do mês subsequente da data da emissão do documento fiscal.\n\n  § 1º Será permitida a acumulação de documentos fiscais em uma única solicitação de reembolso, desde que observados os critérios estabelecidos\n  neste artigo em relação ao mesmo mês de competência de sua apuração.\n\n  § 2º Caberá à Unidade de Saúde do Tribunal analisar os documentos enviados e atestar a sua adequação técnica ao disposto nos arts. 2º, 3º e 4º.\n\n\nCódigo para aferir autenticidade deste caderno: 240386\n\f   4537/2026                                                 Conselho Superior da Justiça do Trabalho                                            3\n   Data da Disponibilização: Sexta-feira, 14 de Agosto de 2026\n\n\n\n\n  § 3º No caso de dúvida sobre a adequação técnica do medicamento ou serviço objeto de ressarcimento aos requisitos deste ato, o tribunal poderá\n  solicitar informações complementares, mas, em hipótese alguma, poderá exigir atestado, receituário, parecer, prontuário, ou outro documento\n  médico que exponha a condição pessoal ou de",
-      "text_truncated": true,
-      "strong_keywords": [
-        "auxilios_pessoal"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "csjt",
-      "orgao": "Conselho Superior da Justiça do Trabalho",
-      "identifica": "ATO CSJT.GP.SG N.º 89, DE 13 DE AGOSTO DE 2026.",
-      "text_resumo": "ATO CSJT.GP.SG N.º 89, DE 13 DE AGOSTO DE 2026.\n                                                                                          Altera o Ato CSJT.GP.SG n.º 72, de 26 de junho de\n                                                                                          2026, que regulamenta o art. 5º, inciso VII, da Resolução\n                                                                                          CSJT n.º 445, de 26 de junho de 2026.\n\n\n  O PRESIDENTE DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas atribuições legais e regimentais,\n\n  Considerando a previsão contida no art. 5º, inciso VII, da Resolução CSJT n.º 445, de 26 de junho de 2026;\n\n  Considerando a necessidade de esclarecimentos referentes aos requisitos formais para o pagamento do auxílio-saúde;\n\n  Considerando o teor do Processo SEI 6014060/2026-00,\n\n\n\n  RESOLVE:\n\n\n\n  Art. 1º O Ato CSJT.GP.SG n.º 72, de 26 de junho de 2026, passa a vigorar com a seguinte alteração:\n\n\n             “Art. 3º...........................................\n             Parágrafo único. Nas hipóteses dos incisos II e III, os documentos fiscais comprobatórios das despesas referentes aos serviços\n             poderão ser emitidos em nome das próprias pessoas físicas que os executaram ou de pessoas jurídicas a que estejam vinculadas,\n             como clínicas, institutos, laboratórios e outras sociedades médicas e odontológicas.” (NR)\n\n\n  Art. 2º Republique-se o Ato CSJT.GP.SG n.º 72, de 26 de junho de 2026, consolidando as alterações introduzidas por este Ato.\n\n  Art. 3º Este Ato entra em vigor na data de sua publicação.\n\n\n\n\n                                                             VIEIRA DE MELLO FILHO\n                                          Ministro Presidente do Conselho Superior da Justiça do Trabalho",
-      "text_truncated": false,
-      "strong_keywords": [
-        "auxilios_pessoal"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }

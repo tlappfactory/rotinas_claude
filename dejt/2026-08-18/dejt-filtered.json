@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-18",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 91,
+      "pdf_text_chars": 6034,
+      "total_atos_detectados": 2,
+      "matched_atos": 1,
+      "headers_sample": [
+        "Edital n° 07/2026",
+        "EDITAL n° 07/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 105,
+      "pdf_text_chars": 21956,
+      "total_atos_detectados": 2,
+      "matched_atos": 2,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP N° 45, DE 14 DE AGOSTO DE 2026",
+        "EDITAL TST.CSJT Nº 1598943, DE 14 DE AGOSTO DE 2026"
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 268,
+      "pdf_text_chars": 4435,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO Nº 10 GCGJT, DE 14 DE AGOSTO DE 2026."
+      ]
+    }
+  },
+  "total_matched": 3,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "ATO CONJUNTO TST.CSJT.GP N° 45, DE 14 DE AGOSTO DE 2026",
+      "text_resumo": "ATO CONJUNTO TST.CSJT.GP N° 45, DE 14 DE AGOSTO DE 2026\n                                                                                          Estabelece os critérios do Prêmio “Justiça do Trabalho\n                                                                                          Acessível”, com objetivo de reconhecer e disseminar\n                                                                                          boas práticas implementadas na Justiça do Trabalho\n                                                                                          para Acessibilidade e Inclusão das Pessoas com\n                                                                                          Deficiência.\n\n\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO E DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO e o PRESIDENTE\n  DO COMITÊ GESTOR NACIONAL DA POLÍTICA DE ACESSIBILIDADE E INCLUSÃO DAS PESSOAS COM DEFICIÊNCIA, no uso de suas\n  atribuições legais e regimentais,\n\n  considerando a Resolução CSJT nº 386, de 30 de agosto de 2024, que institui a Política de Acessibilidade e Inclusão das Pessoas com Deficiência\n  no âmbito da Justiça do Trabalho e dá outras providências;\n\n  considerando a importância de reconhecer, incentivar e disseminar boas práticas de acessibilidade e inclusão desenvolvidas no âmbito da Justiça\n  do Trabalho; e\n\n  considerando o papel da Justiça do Trabalho na promoção da igualdade, na eliminação de todas as formas de discriminação e na remoção de\n  barreiras de qualquer natureza em suas instalações, serviços, produtos e formas de comunicação, de modo a assegurar o pleno acesso das\n  pessoas com deficiência,\n\n\n  RESOLVEM\n\n\n                                                                   CAPÍTULO I\n\n                                                           DAS DISPOSIÇÕES GERAIS\n\n\n  Art. 1º O Prêmio “Justiça do Trabalho Acessível” tem por finalidade reconhecer e disseminar boas práticas institucionais implementadas no âmbito\n  da Justiça do Trabalho que promovam a acessibilidade e a inclusão das pessoas com deficiência, contribuam para a eliminação de barreiras e\n  fortaleçam a cultura anticapacitista, em consonância com a Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça do\n  Trabalho, instituída pela Resolução CSJT nº 386, de 30 de agosto de 2024.\n\n  Art. 2º O Prêmio será conduzido pelo Comitê Gestor Nacional da Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça do\n  Trabalho, instituído pelo art. 8º da Resolução CSJT nº 386, de 30 de agosto de 2024, e será regulamentado, a cada edição, por edital que\n  estabelecerá os procedimentos, os prazos e os critérios específicos do certame.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240428\n\f   4538/2026                                                Conselho Superior da Justiça do Trabalho                                              2\n   Data da Disponibilização: Segunda-feira, 17 de Agosto de 2026\n\n\n\n  Art. 3º Para os fins deste Ato, considera-se boa prática a ação, a prática, o projeto ou o programa institucional implementado no âmbito da Justiça\n  do Trabalho que apresente resultados relacionados à promoção da acessibilidade e da inclusão das pessoas com deficiência e que possa ser\n  avaliado, entre outros aspectos, quanto à qualidade, à relevância, ao alcance social, à replicabilidade e à inovação.\n\n  Parágrafo único. A participação direta e efetiva de pessoas com deficiência na concepção, no desenvolvimento ou na implementação da iniciativa\n  constituirá requisito a ser observado na forma estabelecida em edital.\n\n  Art. 4º O Prêmio contemplará as dimensões de acessibilidade previstas no art. 3º, VII, da Resolução CSJT nº 386, de 30 de agosto de 2024:\n\n  I – gestão de acessibilidade;\n\n  II – arquitetônica e urbanística;\n\n  III – comunicacional;\n\n  IV – serviços;\n\n  V – tecnológica; e\n\n  VI – atitudinal.\n\n\n                                                                      CAPÍTULO II\n\n                                                         DAS INSCRIÇÕES E DA AVALIAÇÃO\n\n\n  Art. 5º Poderão participar do Prêmio as unidades e comissões da Justiça do Trabalho de primeiro e segundo graus, do Tribunal Superior do\n  Trabalho e do Conselho Superior da Justiça do Trabalho, na forma e nas condições estabelecidas em edital.\n\n  Art. 6º O processo de seleção das boas práticas será composto pelas seguintes etapas:\n\n  I – inscrição das práticas, na forma estabelecida em edital;\n\n  II – análise e avaliação das práticas pelo Comitê Gestor Nacional da Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça\n  do Trabalho;\n\n  III – indicação das práticas a serem premiadas pelo Comitê Gestor Nacional; e\n\n  IV – homologação do resultado pela Presidência do Tribunal Superior do Trabalho e do Conselho Superior da Justiça do Trabalho.\n\n  Parágrafo único. O edital de cada edição estabelecerá os critérios de avaliação, os prazos, a forma de inscrição, a documentação exigida e os\n  demais procedimentos necessários à realização do certame.\n\n\n                                                                      CAPÍTULO III\n\n                                                         DA PREMIAÇÃO E DA DIVULGAÇÃO\n\n  Art. 7º As práticas selecionadas serão premiadas em cerimônia a ser realizada no Tribunal Superior do Trabalho, em data e condições definidas\n  no respectivo edital.\n\n  Art. 8º As práticas inscritas que atenderem aos requisitos estabelecidos em edital poderão ser divulgadas nos portais institucionais da Justiça do\n  Trabalho, com o objetivo de disseminar experiências exitosas e estimular o compartilhamento e a replicação de iniciativas voltadas à\n  acessibilidade e à inclusão das pessoas com deficiência.\n\n\n                                                                      CAPÍTULO IV\n\n                                                                 DAS DISPOSIÇÕES FINAIS\n\n\n  Art. 9º Os casos omissos serão resolvidos pela Presidência do Tribunal Supe",
+      "text_truncated": true,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "csjt",
+      "orgao": "Conselho Superior da Justiça do Trabalho",
+      "identifica": "EDITAL TST.CSJT Nº 1598943, DE 14 DE AGOSTO DE 2026",
+      "text_resumo": "EDITAL TST.CSJT Nº 1598943, DE 14 DE AGOSTO DE 2026\n                     EDITAL DE ABERTURA DE INSCRIÇÕES PARA O “PRÊMIO JUSTIÇA DO TRABALHO ACESSÍVEL 2026”.\n\n\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO E DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO e o PRESIDENTE\n  DO COMITÊ GESTOR NACIONAL DA POLÍTICA DE ACESSIBILIDADE E INCLUSÃO DAS PESSOAS COM DEFICIÊNCIA, no uso de suas\n  atribuições legais e regimentais, tornam pública a abertura das inscrições ao “Prêmio Justiça do Trabalho Acessível”.\n\n\n  1. Disposições preliminares\n\n  1.1 O Prêmio Justiça do Trabalho Acessível, de abrangência na Justiça do Trabalho, é uma iniciativa do Comitê Gestor Nacional da Política de\n  Acessibilidade e Inclusão das Pessoas com Deficiência e da Presidência do Tribunal Superior do Trabalho e do Conselho Superior da Justiça do\n  Trabalho.\n\n  1.2 O Prêmio Justiça do Trabalho Acessível tem por finalidade reconhecer boas práticas institucionais desenvolvidas na Justiça do Trabalho em\n  prol da acessibilidade e a inclusão das pessoas com deficiência, que contribuam para a eliminação de barreiras e para o fortalecimento da cultura\n  anticapacitista, em consonância com a Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça do Trabalho, estabelecida\n  pela Resolução CSJT nº 386, de 30 de agosto de 2024.\n\n  1.3 A premiação ocorrerá durante o evento “II Seminário Ativismos para Luta Anticapacistista na Justiça do Trabalho”, a ser realizado nos dias 22 e\n  23 de setembro de 2026, na sede do Tribunal Superior do Trabalho - TST, em Brasília-DF.\n\n  1.4 Os critérios do Prêmio “Justiça do Trabalho Acessível constam do ATO CONJUNTO.TST.CSJT.GP nº 45/2026.\n\n  Das inscrições para o Prêmio Justiça do Trabalho Acessível - Edição 2026\n\n\n  2.1 Das Dimensões\n\n  2.1.1 O Prêmio Justiça do Trabalho Acessível será concedido nas dimensões, previstas no inciso VII do Art. 3º da Resolução CSJT N.º 386, de 30\n  de agosto de 2024, a seguir:\n\n  I – gestão de acessibilidade;\n\n  II – arquitetônica e urbanística;\n\n  III – comunicacional;\n\n  IV - serviços;\n\n  V – tecnológica;\n\n  VI – atitudinal.\n\n\n  2.2 Prazo e forma de inscrições\n\n  2.2.1 Poderão ser inscritas boas práticas implementadas a partir de 2023, desde que apresentem resultados comprovados, inclusive aquelas que\n  foram desenvolvidas para terem caráter permanente.\n\n  2.2.2 A inscrição será realizada por meio de formulário eletrônico próprio, disponível nas páginas do Tribunal Superior do Trabalho e do Conselho\n  Superior da Justiça do Trabalho, no período de 24 a 28 de agosto de 2026, até as 23h59 (horário de Brasília).\n\n  2.2.3 No ato da inscrição, deverão ser fornecidas as informações necessárias à devida identificação do projeto e de seus(suas) autores(as) ou\n  áreas responsáveis.\n\n  2.2.4 O formulário eletrônico deverá ser inteiramente preenchido com os dados dos proponentes e ciência nos seguintes termos:\n\n  I- nomes e CPF de até 3 (três) participantes;\n\n  II- pelo menos um e-mail e telefone para contato;\n\n  III - unidade(s) institucional(is) que implementou(aram) a prática;\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240428\n\f   4538/2026                                                Conselho Superior da Justiça do Trabalho                                            4\n   Data da Disponibilização: Segunda-feira, 17 de Agosto de 2026\n\n\n\n  IV- apresentação da prática, na forma do item 2.3 deste edital;\n\n  V - termo de cessão de direitos autorais e autorização de uso de imagens, textos, vozes e nomes para divulgação, fomento e disseminação da\n  prática (Anexo I);\n\n  VI - termo de compromisso com manifestação de interesse em prestar informações e de atuar na etapa de disseminação da prática (Anexo II);\n\n  2.2.5. É autorizada a inscrição de até três práticas por um mesmo órgão, desde que as inscrições sejam realizadas em formulários distintos.\n\n  2.2.6 Não serão admitidas inscrições cujos conteúdos consistam em ideias, projetos, sugestões, teses, monografias ou estudos.\n\n  2.2.7 A mesma prática não poderá ser inscrita em mais de uma categoria, se isso ocorrer, será considerada apenas a última inscrição.\n\n  2.2.8 A confirmação da inscrição será enviada para o endereço eletrônico indicado no formulário de inscrição, que será a comprovação de que a\n  prática está concorrendo.\n\n  2.2.9 O não preenchimento dos requisitos estabelecidos neste edital resultará no indeferimento da inscrição.\n\n\n  2.3 Da forma de apresentação da prática\n\n  Art. 2.3.1. A apresentação da prática deverá ser estruturada da seguinte forma:\n\n  I - Denominação da prática e Resumo com indicação da temática;\n\n  II- Dimensão de acessibilidade que a boa prática objetiva atender;\n\n  III – Justificativa e objetivos;\n\n  IV – Período de vigência (data de início e duração);\n\n  V - desenvolvimento da prática, observados os critérios constantes no Anexo III.\n\n  VI- resultados e benefícios alcançados após a implementação da prática;\n\n  VII- custos e recursos utilizados na implementação da prática.\n\n\n  3. Das etapas do Prêmio\n\n  3.1. O Prêmio “Justiça do Trabalho Acessível” será composto pelas seguintes etapas:\n\n  I - divulgação do edital;\n\n  II- inscrição dos proponentes;\n\n  III - avaliação e seleção das práticas;\n\n  IV - premiação;\n\n  V - divulgação em página institucional; e\n\n  VI - disseminação das iniciativas.\n\n\n  4. Dos critérios e procedimentos para avaliação\n\n  4.1. O Comitê Gestor Nacional da Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça do Trabalho, designado pelo ATO\n  CSJT.GP.SG N.º 12, de 25 de fevereiro de 2026, conduzirá a avaliação das boas práticas e indicará os premiados, com base nos critérios\n  constantes no Anexo III.\n\n  4.2. O Comitê Gestor Nacional da Política de Acessibilidade e Inclusão das Pessoas com Deficiência da Justiça do Trabalho, poderá solicitar\n  informações complementares.\n\n  4.3 As boas práticas serão eleitas e os(as) proponentes e as Presidências de seus órgãos serão notificados(as) até o dia 8 de setembro de 2026.\n\n  4.4 Um Trof",
+      "text_truncated": true,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "EDITAL n° 07/2026",
+      "text_resumo": "EDITAL n° 07/2026\n\n                                            REMOÇÃO PARA A 15ª VARA DO TRABALHO DE VITÓRIA\n                                                (PROCESSO SEI 0001281-39.2026.5.17.0500)\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª REGIÃO, no uso de suas atribuições legais e\n  regimentais;\n\n  CONSIDERANDO a promoção, pelo critério de antiguidade, da magistrada Fátima Gomes Ferreira para o cargo de Desembargadora do Tribunal\n  Regional do Trabalho da 17ª Região, conforme publicação no Diário Oficial da União em 14/08/2026;\n\n  CONSIDERANDO a consequente vacância do cargo de Juiz ou Juíza Titular da 15ª Vara do Trabalho de Vitória;\n\n  CONSIDERANDO o disposto na alínea \"a\" do § 5º do art. 654 da CLT e no art. 76 do Regimento Interno deste Tribunal;\n\n  CONSIDERANDO que o procedimento de remoção interna de Juízes Titulares para preenchimento de cargos vagos com publicação de edital\n  único se mostra corolário da aplicação do princípio da eficiência da Administração Pública; e\n\n  CONSIDERANDO o manifesto prejuízo ao bom andamento das atividades nas Varas do Trabalho que aguardam o preenchimento dos cargos\n  vagos de Juízes Titulares, conforme observado em experiências anteriores no âmbito deste Regional;\n\n  TORNA PÚBLICO, para conhecimento das Juízas e dos Juízes Titulares interessados, que se encontra vago, desde 14/08/2026, o cargo de\n  Juiz/Juíza Titular da 15ª Vara do Trabalho de Vitória/ES, a ser preenchido por meio de remoção, assim como as eventuais vagas decorrentes das\n  sucessivas remoções, prevalecendo a antiguidade no cargo.\n\n  I. Os(as) interessados(as) terão o prazo de 15 (quinze) dias, a contar da publicação do presente Edital (§ 2º do art. 76 do Regimento Interno), para\n  indicar na Intranet do Tribunal - Serviços (opção: \"Remoção Interna de Magistrados\") TODAS as Varas do Trabalho para as quais pretendam ser\n  removidos, em ordem de preferência.\n\n  II. Definidas as remoções decorrentes deste Edital, serão admitidos recursos dos demais interessados no prazo de 05 (cinco) dias a contar da\n  ciência do resultado, devendo a impugnação ser remetida ao endereço eletrônico segep@trt17.jus.br.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17.ª Região.\n\n\n\n\n                                                    Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                           Desembargadora-Presidente\n\n\n                                                   SECRETARIA DO TRIBUNAL PLENO\n                                                               Pauta\n\n\n\nCódigo para aferir autenticidade deste caderno: 240421\n\f   4538/2026                                               Tribunal Regional do Trabalho da 17ª Região                                     2\n   Data da Disponibilização: Segunda-feira, 17 de Agosto de 2026\n\n\n\n\n                                                               Pauta Administrativa\n\n\n                                                TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                                                                  PLENO\n\n  SESSÃO ADMINISTRATIVA PRESENCIAL\n                                                           CONVOCAÇÃO\n  Convoco os Excelentíssimos Desembargadores para a SESSÃO ADMINISTRATIVA PRESENCIAL a ser realizada no dia 19/8/2026, quarta-feira,\n  às 13h30.\n\n  PAUTA SUPLEMENTAR\n  1) SEI 0001086-54.2026.5.17.0500Interessada: PresidênciaAssunto: Cancelamento de férias da Desembargadora Marise Medeiros Cavalcanti\n  Chamberlain (referendar o despacho 1335286)\n   2) SEI 0001100-72.2025.5.17.0500Interessada: Secretaria de Gestão de PessoasAssunto: Escala Anual de Férias 2026 - Desembargadores do\n  Trabalho (referendar os despachos 1330479 e 1335092)\n   3) SEI 0001968-31.2017.5.17.0500Interessada: Desembargadora Ana Paula Tauceda BrancoAssunto: Plantão Judiciário (referendar despacho\n  1334716)\n  Vitória, 17 de agosto de 2026.\n  Desembargadora Alzenir Bollesi de Plá LoefflerPresidente do TRT da 17ª Região\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Edital                                                            1\n     Edital                                                           1\n   SECRETARIA DO TRIBUNAL PLENO                                       1\n    Pauta                                                             1\n     Pauta Administrativa                                             2\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240421",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
