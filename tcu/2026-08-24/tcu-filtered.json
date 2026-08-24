@@ -1,10 +1,10 @@
 {
-  "run_utc": "2026-08-24T13:58:09Z",
+  "run_utc": "2026-08-24T14:24:56Z",
   "lookback_days": 14,
   "cutoff_date": "2026-08-10",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
   "pages_fetched": 4,
-  "items_seen": 1999,
+  "items_seen": 2000,
   "min_date_seen": "2026-07-14",
   "max_date_seen": "2026-08-19",
   "total_matched": 49,
