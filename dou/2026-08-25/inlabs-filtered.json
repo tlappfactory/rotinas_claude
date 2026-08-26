@@ -1,7 +1,7 @@
 {
   "date": "2026-08-25",
-  "total_xml_files": 1121,
-  "matched_articles": 173,
+  "total_xml_files": 1140,
+  "matched_articles": 177,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -1513,6 +1513,33 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260825_24279842.xml"
+    },
+    {
+      "id": "50968312",
+      "section": "DO1E",
+      "pub_date": "25/08/2026",
+      "art_type": "Resolução",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Comitê Central de Governança de Dados",
+      "identifica": "RESOLUÇÃO CCGD/MGI Nº 24, DE 18 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Revoga a Resolução CCGD/MGI nº 4, de 14 de abril de 2020, que dispõe sobre a disponibilização do Guia de Boas Práticas para Implementação da Lei Geral de Proteção de Dados na Administração Pública Federal.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "RESOLUÇÃO CCGD/MGI Nº 24, DE 18 DE AGOSTO DE 2026 Revoga a Resolução CCGD/MGI nº 4, de 14 de abril de 2020, que dispõe sobre a disponibilização do Guia de Boas Práticas para Implementação da Lei Geral de Proteção de Dados na Administração Pública Federal. O COMITÊ CENTRAL DE GOVERNANÇA DE DADOS, no uso das atribuições que lhe confere o art. 21 do Decreto nº 10.046, de 9 de outubro de 2019, resolve: Art. 1º Fica revogada a Resolução CCGD/MGI nº 4, de 14 de abril de 2020. Art. 2º Os agentes responsáveis pelo tratamento de dados pessoais deverão observar as disposições contidas na Lei nº 13.709, de 14 de agosto de 2018 - Lei Geral de Proteção de Dados Pessoais, e nas normas expedidas pela Agência Nacional de Proteção de Dados. Art. 3º Esta Resolução entra em vigor na data de sua publicação. MARCOS MOREIRA Presidente do Comitê",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "8",
+      "edition": "160-A",
+      "url": "https://www.in.gov.br/web/dou/-/RESOLUCAO CCGD-MGI NA 24 DE 18 D-11994873",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=8&data=25/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260825_24281136.xml"
     },
     {
       "id": "50963546",
@@ -3058,6 +3085,35 @@
       "xml_file": "515_20260825_24280846.xml"
     },
     {
+      "id": "50967954",
+      "section": "DO1E",
+      "pub_date": "25/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Defesa/Comando da Aeronáutica/Departamento de Controle do Espaço Aéreo",
+      "identifica": "PORTARIA DECEA Nº 2.200/ATAN, DE 18 DE AGOSTO DE 2026 (*)",
+      "orgao": "",
+      "ementa": "Aprova a ICA 99-1, que dispõe sobre a tarifação dos serviços de navegação aérea prestados pelo Sistema de Controle do Espaço Aéreo Brasileiro - SISCEAB. Protocolo COMAER nº 67600.014520/2026-59",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DECEA Nº 2.200/ATAN, DE 18 DE AGOSTO DE 2026 (*) Aprova a ICA 99-1, que dispõe sobre a tarifação dos serviços de navegação aérea prestados pelo Sistema de Controle do Espaço Aéreo Brasileiro - SISCEAB. Protocolo COMAER nº 67600.014520/2026-59 O DIRETOR-GERAL DO DEPARTAMENTO DE CONTROLE DO ESPAÇO AÉREO, de conformidade com o previsto nos arts. 1º, 2º, 12 e 14, do Código Brasileiro de Aeronáutica, aprovado pela Lei nº 7.565, de 19 de dezembro de 1986, combinado com o art. 21, inciso I, da Estrutura Regimental do Comando da Aeronáutica, aprovada pelo Decreto nº 11.237, de 18 de outubro de 2022, resolve: Aprovar a edição da ICA 99-1, \"Instruções para tarifação dos serviços de navegação aérea prestados pelo SISCEAB\", na forma do Anexo I. Revogar a Portaria DECEA nº 328/ATAN3, de 12 de julho de 2022, publicada no Boletim do Comando da Aeronáutica nº 138, de 26 de julho de 2022. Esta Portaria entra em vigor em 1º de setembro de 2026. Ten Brig Ar SÉRGIO RODRIGUES PEREIRA BASTOS JUNIOR ANEXO IINSTRUÇÕES PARA TARIFAÇÃO DOS SERVIÇOS DE NAVEGAÇÃO AÉREA PRESTADOS PELO DECEA CAPÍTULO I DISPOSIÇÕES PRELIMINARES Seção I Do Objeto, Finalidade e Âmbito Art. 1º O objeto desta norma é a tarifação, disciplinada pelo Departamento de Controle do Espaço Aéreo - DECEA, dos serviços de navegação aérea providos pelo Sistema de Controle do Espaço Aéreo Brasileiro - SISCEAB. Art. 2º Esta Instrução tem como finalidade estabelecer as regras e os procedimentos aplicáveis ao processo de tarifação dos serviços de navegação aérea providos. Art. 3º Esta norma se aplica aos provedores de serviços de navegação aérea e aos usuários dos serviços de navegação aérea, pessoa física ou jurídica. CAPÍTULO II DIREITOS E DEVERES Seção I Do provedor de serviços de navegação aérea Art. 4º O Provedor de Serviço de Navegação Aérea - PSNA é uma organização que recebeu do DECEA autorização para a prestação de serviços de navegação aérea, após comprovar o atendimento aos requisitos estabelecidos em legislação e normas complementares. Art. 5º São direitos do PSNA: I - receber as Tarifas devidas, nos prazos e condições estabelecidos; II - acessar, mediante cadastro no Portal de Tarifas do DECEA, os demonstrativos que fundamentam a emissão de faturas. Art. 6º São deveres do PSNA: I - prover os serviços de navegação aérea de forma contínua, segura, eficiente e em conformidade com as normas técnicas e operacionais aplicáveis; II - assegurar ao usuário o direito de revisão dos seus débitos; III - adotar controles internos que garantam a conformidade da arrecadação com a legislação e normas complementares; IV - cooperar com os órgãos e entidades de controle interno e externo, prestando as informações e documentos solicitados. Seção II Do Usuário de Serviços de Navegação Aérea Art. 7º O usuário dos serviços de navegação aérea é qualquer pessoa física ou jurídica que utiliza os serviços de navegação aérea. Art. 8º São direitos do usuário dos serviços de navegação aérea: I - ter acesso prévio às informações sobre as Tarifas aplicáveis, os critérios de cálculo, bem como sobre eventuais isenções ou regimes especiais; II - dispor de prazos razoáveis para o atendimento das exigências operacionais e administrativas relacionadas à cobrança das Tarifas; III - obter, por intermédio do Portal de Tarifas do DECEA, acesso eletrônico às faturas, demonstrativos e comunicações oficiais pertinentes às suas obrigações tarifárias; IV - receber resposta fundamentada às solicitações de revisão ou esclarecimento, observados os prazos previstos em norma específica. Art. 9º São deveres do usuário dos serviços de navegação aérea: I - efetuar o pagamento das Tarifas de Navegação Aérea nos prazos e condições estabelecidos na legislação e nos atos normativos complementares; II - manter atualizados seus dados cadastrais e de contato no Portal de Tarifas do DECEA, incluindo informações sobre representantes legais e responsáveis financeiros; III - comunicar imediatamente qualquer alteração de titularidade, operação, arrendamento ou matrícula da aeronave, permanecendo as responsabilidades tarifárias vinculadas ao bem até a efetiva atualização cadastral; IV - observar as normas operacionais e administrativas aplicáveis à utilização dos serviços de navegação aérea; V - acompanhar as publicações oficiais que impactem os valores das Tarifas ou as condições de cobrança, mantendo-se informado por meio dos canais oficiais de comunicação; VI - comunicar ao DECEA, por intermédio do Serviço de Atendimento ao Cidadão - SAC Tarifas, disponível no Portal de Tarifas do DECEA, acessível pela internet, a formalização de qualquer negociação ou parcelamento de débito junto à Procuradoria-Geral da Fazenda Nacional ou à Advocacia- Geral da União, anexando os documentos comprobatórios; VII - manter atualizado o endereço eletrônico cadastrado no Portal de Tarifas do DECEA e acompanhar as comunicações, faturas e notas de cobrança enviadas por meio eletrônico; VIII - assegurar que o recebimento das faturas e notificações enviadas ao e-mail cadastrado seja monitorado e não obstruído por filtros ou bloqueios do provedor de correio eletrônico; IX - consultar periodicamente o Portal de Tarifas do DECEA e demais canais eletrônicos oficiais para acompanhamento das faturas e notificações emitidas. Seção III Do Representante do Usuário ou do Provedor de Serviços de Navegação Aérea Art. 10. O representante do usuário ou do PSNA é qualquer pessoa física ou jurídica habilitada a atuar em nome de usuário ou provedor de serviço de navegação aérea, para fins de cadastramento, recebimento de comunicações, acesso a informações e prática de atos administrativos perante a autoridade competente. Art. 11. O interessado em representar o usuário ou o provedor de navegação aérea deve apresentar: I - procuração específica, com poderes expressos para cada ato pretendido, emitida por instrumento público ou particular, cuja autenticidade poderá ser verificada pela Administração; II - documento oficial de identificação do",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "160-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria2200_2026_SEM_SUMARIO_00-11983166",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=25/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 6,
+      "xml_file": "600_20260825_24265961-1.xml"
+    },
+    {
       "id": "50968539",
       "section": "DO2",
       "pub_date": "25/08/2026",
@@ -3695,6 +3751,60 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260825_24277431.xml"
+    },
+    {
+      "id": "50963654",
+      "section": "DO1E",
+      "pub_date": "25/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Pesca e Aquicultura/Gabinete do Ministro",
+      "identifica": "Portaria MPA nº 739, de 19 de agosto DE 2026 (*)",
+      "orgao": "",
+      "ementa": "Institui a política de brindes, presentes e hospitalidades e estabelece procedimentos aplicáveis à matéria no âmbito do Ministério da Pesca e Aquicultura.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria MPA nº 739, de 19 de agosto DE 2026 (*) Institui a política de brindes, presentes e hospitalidades e estabelece procedimentos aplicáveis à matéria no âmbito do Ministério da Pesca e Aquicultura. O MINISTRO DE ESTADO DA PESCA E AQUICULTURA, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e em vista do disposto na Lei nº 8.112, de 11 de dezembro de 1990, na Lei nº 12.813, de 16 de maio de 2013, e no Decreto nº 10.889, de 9 de dezembro de 2021, resolve: CAPÍTULO I DAS DISPOSIÇÕES GERAIS Art. 1º Fica instituída a política de brindes, presentes e hospitalidades e estabelecidos os procedimentos aplicáveis à matéria no âmbito do Ministério da Pesca e Aquicultura. Parágrafo único. Esta Portaria aplica-se a todos os agentes públicos em exercício no Ministério da Pesca e Aquicultura e, no que couber, a terceiros que, de qualquer forma, atuem em nome do órgão ou em suas dependências. CAPÍTULO II DAS DEFINIÇÕES Art. 2º Para fins desta Portaria, consideram-se: I - agente público: o agente político, o servidor público e todo aquele que exerça, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função no Poder Executivo federal; II - agente público obrigado: os agentes públicos mencionados no art. 2º do Decreto nº 10.889, de 9 de dezembro de 2021, e no art. 1º da Portaria nº 584, de 26 de novembro de 2025, do Ministério da Pesca e Aquicultura; III - brinde: o item de baixo valor econômico distribuído, de forma generalizada, como cortesia, propaganda ou divulgação habitual; IV - presente: o bem, o serviço ou a vantagem de qualquer espécie recebidos de quem tenha interesse em decisão do agente público, ou de colegiado do qual este participe, e que não configure brinde ou hospitalidade; V - hospitalidade: a oferta de serviços ou de despesas com transporte, alimentação, hospedagem, cursos, seminários, congressos, eventos, feiras ou atividades de entretenimento, concedidos por agente privado a agente público no interesse institucional do Ministério da Pesca e Aquicultura; e VI - bem perecível: o bem que, por sua natureza ou composição, necessite de condições especiais de conservação, especialmente de temperatura, sob pena de perecimento. Parágrafo único. O item de baixo valor econômico, para efeito do inciso III do caput, corresponde a 1% (um por cento) do teto remuneratório estabelecido no art. 37, caput, inciso XI, da Constituição, observado o valor vigente na data do recebimento. CAPÍTULO III DAS REGRAS E DAS VEDAÇÕES Art. 3º É vedado a qualquer agente público em exercício no Ministério da Pesca e Aquicultura, ou, de qualquer forma, vinculado ao órgão, nos termos do art. 2º, caput, inciso I, receber presentes oferecidos por pessoa física ou por pessoa jurídica que tenha interesse em decisão sua ou de colegiado do qual participe. Art. 4º O recebimento de brindes é admitido, exclusivamente: I - quando o item enquadrar-se no conceito de brinde previsto no art. 2º, caput, inciso III; e II - quando não houver expectativa de favorecimento, de contrapartida ou de influência sobre decisão administrativa, incluída a que deva ser tomada por colegiado. Parágrafo único. Os brindes recebidos em caráter institucional pelo Ministério da Pesca e Aquicultura poderão ser destinados ao uso coletivo da unidade administrativa recebedora ou, quando cabível, poderão ser incorporados ao patrimônio do órgão, observada a legislação patrimonial aplicável. Art. 5º As hospitalidades somente podem ser aceitas se, previamente, autorizadas por autoridade administrativa competente do Ministério da Pesca e Aquicultura. § 1º A autorização de que trata o caput observará: I - os interesses institucionais do Ministério da Pesca e Aquicultura; e II - os riscos de conflito de interesses, os riscos à integridade e os riscos à imagem do Ministério da Pesca e Aquicultura. § 2º As hospitalidades: I - devem estar diretamente relacionadas com os propósitos legítimos da representação de interesses, em circunstâncias apropriadas de interação profissional; II - devem ter valor compatível: a) com os padrões adotados pela administração pública federal em serviços semelhantes; ou b) com as hospitalidades ofertadas a outros participantes nas mesmas condições; e III - não devem caracterizar benefício pessoal. § 3º O processo de autorização será instruído com manifestação da área interessada fundamentada em análise técnica quanto ao atendimento dos requisitos estabelecidos nos §§ 1º e 2º. Art. 6º Fica delegada a competência para decidir sobre a autorização de concessão de hospitalidades por agentes privados a agentes públicos, em suas respectivas áreas de atuação, às seguintes autoridades: I - Secretário-Executivo; II - Secretário Nacional de Aquicultura; III - Secretário Nacional de Pesca Artesanal; IV - Secretário Nacional de Pesca Industrial, Amadora e Esportiva; e V - Secretário Nacional de Registro, Monitoramento e Pesquisa da Pesca e Aquicultura. § 1º Nas ausências e impedimentos das autoridades listadas nos incisos do caput, a competência fica delegada a seus substitutos legais. § 2º A decisão sobre a autorização de concessão de hospitalidades por agentes privados a agentes públicos caberá ao Secretário-Executivo relativamente às áreas não subordinadas às autoridades de que tratam os incisos II a V do caput e às Superintendências Federais de Pesca e Aquicultura nos Estados e no Distrito Federal. Art. 7º O agente público não poderá receber remuneração de agente privado em decorrência do exercício de representação institucional. CAPÍTULO IV DOS PROCEDIMENTOS Art. 8º O presente recebido por agente público que não puder ser recusado ou devolvido de imediato será entregue à Coordenação de Logística da Subsecretaria de Gestão e Administração, no prazo de sete dias corridos, contado da data de seu recebimento ou, se recebido durante afastamento do agente, contado da data de seu retorn",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "8",
+      "edition": "160-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MPA NA 739 DE 19 DE AGO-11993326",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=8&data=25/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "teto_remuneratorio"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260825_24279219.xml"
+    },
+    {
+      "id": "50962445",
+      "section": "DO1E",
+      "pub_date": "25/08/2026",
+      "art_type": "Resolução",
+      "art_category": "Ministério da Saúde/Secretaria de Gestão do Trabalho e da Educação na Saúde",
+      "identifica": "RESOLUÇÃO Nº 579, DE 21 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre as regras para movimentação dos profissionais do Projeto Mais Médicos para o Brasil - PMMB em municípios, estados, Distrito Federal e distritos sanitários indígenas participantes.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "RESOLUÇÃO Nº 579, DE 21 DE AGOSTO DE 2026 Dispõe sobre as regras para movimentação dos profissionais do Projeto Mais Médicos para o Brasil - PMMB em municípios, estados, Distrito Federal e distritos sanitários indígenas participantes. A COORDENAÇÃO NACIONAL DO PROJETO MAIS MÉDICOS PARA O BRASIL, no uso das atribuições que lhe confere a Lei nº 12.871, de 22 de outubro de 2013, que institui, no âmbito Programa Mais Médicos, o Projeto Mais Médicos para o Brasil e dá outras providências, e na Portaria SGTES/MS nº 248, de 22 de abril de 2026, resolve: Art. 1º Esta Resolução estabelece as regras para movimentação de participantes do Projeto Mais Médicos para o Brasil, correspondente ao Eixo Formação do Programa Mais Médicos. Art. 2º Para fins do disposto nesta Resolução consideram-se como hipóteses de movimentação de profissionais: I - transferência: movimentação do profissional, dentro do próprio município, considerando a mudança da equipe em que desenvolve suas atividades; II - realocação: alteração de município considerando a vaga onde o profissional seria originalmente alocado, decorrente da extinção ou ocupação da vaga, antes do início de suas atividades; III - remanejamento: movimentação do profissional como medida de exceção, para outro município; IV - permuta: possibilidade de troca de local de atuação entre profissionais cuja diferença entre as datas de ingresso no Projeto não ultrapasse doze meses. Art. 3º A hipótese de transferência do médico participante, prevista no inciso I do art. 2º desta Resolução, poderá ocorrer mediante: I - solicitação do médico participante ao gestor municipal que deliberará sobre o pedido; ou II - decisão do gestor municipal quanto à alocação do médico dentro do município. Parágrafo único. As solicitações de troca de equipe feitas pelos profissionais serão avaliadas e autorizadas pela gestão municipal. Art. 4º A hipótese de realocação do profissional para outro município, prevista no inciso II do art. 2º desta Resolução, poderá ocorrer nas seguintes situações: I - extinção da vaga decorrente de: a) desistência da vaga por ato da gestão municipal; b) perda da vaga pelo município em decorrência de aplicação de penalidade; II - ocupação da vaga por outro profissional. § 1º A vaga que entrar em vacância por afastamento superior à trinta dias do profissional que ainda não iniciou as atividades do Projeto será disponibilizada para ocupação por outro profissional, a fim de garantir a assistência no território. § 2º O profissional que retornar ao Projeto após afastamento superior à trinta dias será realocado, em outra vaga no mesmo município ou em local mais próximo, caso a vaga inicialmente designada esteja ocupada por outro profissional. Art. 5º A hipótese de remanejamento do profissional para outro município, previsto no inciso III do art. 2º desta Resolução, poderá ocorrer estritamente nas seguintes situações: I - necessidade de tratamento de saúde do profissional ou de dependente legal, mediante comprovação de que o município de alocação não possui serviço de saúde para o tratamento específico da patologia apresentada, desde que a condição de saúde não seja preexistente ao ingresso no Projeto, ressalvados os casos de comprovado agravamento do quadro clínico; II - iminente risco à vida do profissional no município no qual está alocado, desde que devidamente comprovado; ou III - extinção da vaga decorrente de: a) desistência da vaga por ato da gestão municipal; b) perda da vaga pelo município em decorrência de aplicação de penalidade. § 1° O remanejamento poderá ser concedido apenas uma vez por ciclo do Projeto. § 2º O profissional deverá permanecer no local de atuação até a decisão final acerca da solicitação de remanejamento. § 3º Configurada absoluta inviabilidade do exercício das atividades do profissional no município de alocação original, até a decisão final do processo de remanejamento, poderá ser concedido o afastamento preventivo. § 4º O profissional arcará com os custos de seu deslocamento e de sua família para apresentação no novo município, no caso de autorização do remanejamento. § 5º Para os fins do disposto no inciso I deste artigo, deverá ser considerado o rol previsto no art. 3º da Resolução nº 399, de 10 de novembro de 2023, da Coordenação Nacional do Projeto Mais Médicos para o Brasil, quais sejam: cônjuge ou companheiro(a); filho(a) ou enteado(a), que viva sob sua guarda e sustento; absolutamente incapaz, do qual o profissional médico seja tutor ou curador; e pais. Art. 6º No caso de realocação ou remanejamento, o profissional deverá ser movimentado para outro município com vaga disponível, prioritariamente, na mesma unidade da federação, com o mesmo perfil ou de maior vulnerabilidade que o anterior, levando em consideração os objetivos do Projeto e o interesse público. § 1º Para a movimentação se efetivar será necessária a anuência do profissional e da gestão municipal envolvida. § 2° No caso de movimentação em que deve ser escolhido o município de destino, o médico terá o prazo de cinco dias úteis, a contar do recebimento da notificação, para indicar a sua escolha. § 3° A não indicação do município de destino poderá ensejar a conclusão do processo administrativo de movimentação com a possibilidade de aplicação da penalidade de desligamento do Projeto. Art. 7º A hipótese de permuta entre profissionais dos seus respectivos locais de atuação, prevista no inciso IV do art. 2º desta Resolução, será avaliada e poderá ser autorizada pelo Departamento de Gestão e Provimento Profissional para o SUS - DEGEPS/SGTES/MS atendidos os seguintes requisitos: I - ser requerida por profissionais cuja diferença entre as datas de ingresso no Projeto não ultrapasse doze meses. II - haver autorização para realizar a permuta dos gestores dos municípios de alocação dos profissionais que pretendem permutar; III - não haver processo administrativo de apuração de descumprimento de deveres e obrigações dos médicos interessados em permutar ou registro de aplicação de ",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "9",
+      "edition": "160-A",
+      "url": "https://www.in.gov.br/web/dou/-/Sgtes - ROSOLUCAO 579 (Avaliacao-11992728",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=9&data=25/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260825_24278596.xml"
     },
     {
       "id": "50963837",
