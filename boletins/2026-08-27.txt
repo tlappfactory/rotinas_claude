@@ -1,0 +1,80 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 27 de agosto de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+===========================================================
+⚠ AVISO METODOLÓGICO (DESTAQUE) — CADERNO ADMINISTRATIVO DO DEJT
+===========================================================
+No fechamento desta rotina, o Diário Eletrônico da Justiça do Trabalho ainda não refletia edições recentes para o TRT-17, o CSJT e o TST — o portal seguia servindo publicações de 18 e 19/08/2026. Assim, atos administrativos eventualmente publicados nos Cadernos Administrativos entre 20 e 27/08/2026 não estão refletidos neste boletim e requerem conferência manual em diario.jt.jus.br.
+
+===========================================================
+BOLETIM NORMATIVO COLEP — 27 de agosto de 2026
+===========================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+---------------------------
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+-------------------------
+Sem novidades pertinentes nesta data.
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+---------------------------------------------------
+Bloco de acórdãos — Vantagem "Opção" cumulada indevidamente com "Quintos/Décimos" — TCU (1ª e 2ª Câmaras, sessão de 25/08/2026)
+Status: 7 acórdãos (4441, 4527, 4539, 4552, 4712, 4722 e 4728/2026) reafirmam a vedação de pagamento cumulativo da vantagem "Opção" com "Quintos/Décimos" de função comissionada (art. 193, §2º, da Lei 8.112/1990), com negativa de registro na maioria dos casos. Relacionado, o Acórdão 2260/2026-Plenário (sessão de 25/08/2026) resolve incidente de uniformização de jurisprudência sobre o mesmo tema, a partir de repercussão da Ação Ordinária 1035883-44.2019.4.01.3400. Nenhum acórdão desta amostra menciona o TRT-17.
+Possível reflexo: SELEP/SESES — parâmetro de precedente para conferência de quintos/opção em processos de aposentadoria e pensão.
+Fonte: Acórdão 4722/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777245%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false) | Acórdão 2260/2026-Plenário (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2624624%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false)
+
+Bloco de acórdãos — Gratificação de Atividade Judiciária (GAJ) requalificada como Vencimento Básico por decisão judicial — TCU (1ª e 2ª Câmaras, sessão de 25/08/2026)
+Status: 4 acórdãos (4541, 4542, 4545 e 4724/2026) tratam de sentenças judiciais que reconheceram a natureza de Vencimento Básico à GAJ e negam registro a atos que, com base nessa requalificação, incluíram Adicional de Tempo de Serviço/qualificação calculados sobre GAJ + VB. O Acórdão 4541/2026 trata especificamente de pensionista do TRT da 3ª Região — mesma gratificação (GAJ) paga a servidores do Poder Judiciário, inclusive do TRT-17.
+Possível reflexo: SESES/SELEP — verificar se há decisões judiciais análogas envolvendo servidores do TRT-17 com GAJ requalificada como Vencimento Básico.
+Fonte: Acórdão 4541/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2773461%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false) | Acórdão 4542/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2773670%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false)
+
+Bloco de acórdãos — Regra de transição (EC 103/2019 e investidura anterior a 31/12/2003) no cálculo de proventos — TCU (1ª e 2ª Câmaras, sessões de 18 e 25/08/2026)
+Status: 11 acórdãos (4444, 4550, 4551, 4623, 4628, 4713, 4714, 4715, 4716, 4717 e 4720/2026) tratam da aplicação de regras de transição (EC 103/2019, arts. 10, 20, 24 e 26; e regime de servidores investidos antes de 31/12/2003 não optantes por previdência complementar) ao cálculo de proventos e pensões pela média das remunerações. Nenhum acórdão desta amostra menciona o TRT-17.
+Possível reflexo: SESES — orientação de pareceres de aposentadoria e pensão por regra de transição.
+Fonte: Acórdão 4720/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775573%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false)
+
+Bloco de acórdãos — Vencimento Básico Complementar (VBC, art. 15 da Lei 11.091/2005) x base de cálculo de ATS/anuênio — TCU (1ª e 2ª Câmaras, sessões de 18 e 25/08/2026)
+Status: 4 acórdãos (4433, 4434, 4719 e 4726/2026) tratam da não absorção ou inclusão indevida do VBC na base de cálculo de adicionais por tempo de serviço/anuênios.
+Possível reflexo: SELEP — verificar se o TRT-17 aplica VBC a algum quadro com metodologia de cálculo de ATS/anuênio divergente desta tese.
+Fonte: Acórdão 4433/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776630%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false)
+
+Bloco de acórdãos — Averbação de tempo de serviço — TCU (2ª Câmara e Plenário, sessões de 18 e 26/08/2026)
+Status: 2 acórdãos (4435/2026 e 2314/2026-Plenário) tratam de irregularidades na averbação de tempo de serviço (transformação irregular de função comissionada para fins de anuênios; reformulação de tempo averbado em desacordo com a legislação).
+Possível reflexo: SESES — parâmetro de precedente para conferência de averbações de tempo.
+Fonte: Acórdão 4435/2026 (https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2773462%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false)
+
+Demais acórdãos do período sem afinidade temática direta com pessoal civil do TRT-17
+Status: 16 acórdãos das sessões de 18, 25 e 26/08/2026 tratam de pensões e reformas militares (regime das Forças Armadas), tomadas de contas especiais e outras questões pontuais de proventos de servidores de órgãos federais diversos (INSS, Ministério da Saúde, CNEN, DNOCS, entre outros), sem tema comum identificável com a rotina de pessoal civil do TRT-17.
+Possível reflexo: — (arquivamento para eventual consulta futura).
+Fonte: acórdãos do TCU, sessões de 18, 25 e 26/08/2026 (relação completa disponível mediante solicitação à COLEP).
+
+STF — Repercussão geral / STJ — Recursos repetitivos
+Status: Sem novidades em STF nesta data. Sem novidades em STJ nesta data. Nenhuma tese de repercussão geral (STF) ou recurso repetitivo (STJ) sobre pessoal do serviço público com afetação direta para a SGP foi identificada nos últimos 7 dias (20 a 27/08/2026) via cobertura de imprensa especializada.
+Possível reflexo: —
+Fonte: cobertura de imprensa especializada (consulta realizada, sem achado pertinente na janela)
+
+===========================================================
+RESUMO ESTATÍSTICO
+===========================================================
+- Itens Alto Impacto: 0
+- Itens Médio Impacto: 0
+- Itens Informativos: 0
+- Itens em Monitoramento: 6 blocos temáticos (agregando 45 acórdãos do TCU das sessões de 18, 25 e 26/08/2026) + nota STF/STJ
+- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 27/08/2026 (156 atos varridos pelo filtro temático da SGP de um total de 1.055 arquivos da edição — 145 na Seção 2, concessões individuais de aposentadoria/pensão e atos de pessoal de outros órgãos federais [Ministério da Gestão/DECIPEX, CNJ, STJ, TST, CJF]; 11 na Seção 1, matérias de outros ministérios e agências [ANEEL, ANM, ANP, INSS, Ministério da Saúde, Exército, Direitos Humanos e Cidadania] — nenhum ato pertinente ao TRT-17/SGP identificado; nenhuma edição extra 1E/2E capturada pelo filtro); acórdãos do TCU das sessões de 18, 25 e 26/08/2026 (45 casados pelo filtro temático da SGP, agregados nos blocos acima); jurisprudência do STF e do STJ (cobertura de imprensa dos últimos 7 dias).
+- Fontes sem retorno relevante nesta data / não consultadas: DEJT Cadernos Administrativos TRT-17, CSJT e TST — edição de 27/08/2026 não consultada pela rotina automatizada (ver aviso em destaque acima; última edição disponível: TRT-17 publicação 19/08/2026, CSJT e TST publicação 18/08/2026); nenhuma Resolução, Recomendação ou Instrução Normativa nova do CNJ identificada na edição do DOU consultada (localizados apenas atos administrativos internos de designação de servidores, do CNJ, do STJ, do TST e do CJF, sem repercussão para o TRT-17); decisão de repercussão geral do STF ou recurso repetitivo do STJ dos últimos 7 dias com afetação direta para a SGP.
+===========================================================
+
+OBSERVAÇÕES DE CONFORMIDADE
+-----------------------------
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 27/08/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
