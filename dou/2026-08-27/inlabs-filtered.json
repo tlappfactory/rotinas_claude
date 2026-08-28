@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
-  "total_xml_files": 1055,
-  "matched_articles": 156,
+  "total_xml_files": 1060,
+  "matched_articles": 158,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -832,6 +832,36 @@
       ],
       "score": 16,
       "xml_file": "529_20260827_24287978.xml"
+    },
+    {
+      "id": "51007142",
+      "section": "DO1E",
+      "pub_date": "27/08/2026",
+      "art_type": "Instrução Normativa",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas",
+      "identifica": "INSTRUÇÃO NORMATIVA SGP/MGI Nº 357, DE 26 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Altera a Instrução Normativa SGP/MGI nº 354, de 27 de agosto de 2025, que institui a solução digital gerenciadora do processo de avaliação de desempenho individual, AvaliaGOV, no âmbito do Sistema de Pessoal Civil da Administração Federal - Sipec.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "INSTRUÇÃO NORMATIVA SGP/MGI Nº 357, DE 26 DE AGOSTO DE 2026 Altera a Instrução Normativa SGP/MGI nº 354, de 27 de agosto de 2025, que institui a solução digital gerenciadora do processo de avaliação de desempenho individual, AvaliaGOV, no âmbito do Sistema de Pessoal Civil da Administração Federal - Sipec. O SECRETÁRIO DE GESTÃO DE PESSOAS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS SUBSTITUTO, no uso das atribuições que lhe conferem o art. 34, caput, incisos I, alínea \"d\", II, III e XI, do Anexo I do Decreto nº 12.904, de 26 de março de 2026, e o art. 2º, caput, inciso V, e o art. 12 do Decreto nº 10.715, de 8 de junho de 2021, e tendo em vista o disposto no Decreto nº 12.374, de 6 de fevereiro de 2025, e na Instrução Normativa SGP/MGI Nº 122, de 21 de março de 2025, resolve: Art. 1º A Instrução Normativa SGP/MGI nº 354, de 27 de agosto de 2025, passa a vigorar com as seguintes alterações: \"Art. 7º O AvaliaGOV possui parâmetros padronizados e permitirá ajustes parciais pelos órgãos e entidades. § 1º A parametrização do AvaliaGOV será limitada aos aspectos previstos na solução digital, devendo ser observados os critérios e procedimentos estabelecidos nos normativos dos órgãos e entidades. § 2º As especificidades identificadas pelos órgãos e entidades que demandem ajustes não previstos na solução digital deverão ser submetidas ao órgão central do Sipec para análise quanto à sua viabilidade e eventual implementação. § 3º Os ajustes de que trata o caput não se aplicam à avaliação de desempenho para fins de estágio probatório.\" (NR) \"Art.8º .......................................................................................................... ....................................................................................................................... § 2º Para fins de pagamento de gratificação de desempenho individual, deverá ser observada a correspondência entre o conceito atribuído ao servidor e a respectiva pontuação da parcela individual, conforme disposto no Anexo, exceto quando a legislação da carreira ou do cargo dispuser de forma contrária. § 3º Os servidores com desempenho inadequado poderão ser submetidos, preferencialmente, a ações de desenvolvimento ou a outras medidas de acompanhamento gerencial voltadas ao aprimoramento do desempenho, conforme o caso, sob a responsabilidade do órgão ou entidade de exercício. § 4º Os servidores com desempenho insuficiente deverão ser submetidos a ações de desenvolvimento, à análise de adequação funcional ou a outras medidas de acompanhamento gerencial voltadas ao aprimoramento do desempenho, conforme o caso, sob a responsabilidade do órgão ou entidade de exercício. § 5º Todas as notas atribuídas na avaliação de desempenho individual deverão ser acompanhadas de justificativa fundamentada pelo avaliador, registrada na solução digital e baseada em evidências objetivas relacionadas às entregas, aos resultados alcançados e aos registros de acompanhamento e retornos realizados durante o ciclo avaliativo. § 6º O resultado final da avaliação de desempenho individual será apurado pela solução digital a partir da consolidação das notas atribuídas às metas individuais e aos fatores de competência, consideradas, conforme a sistemática de avaliação adotada pelo órgão ou entidade, as avaliações da chefia imediata, do próprio servidor e dos pares, quando aplicáveis. § 7º Na hipótese de o resultado final de que trata o § 6º resultar em número fracionado, será realizado o arredondamento para o número inteiro imediatamente superior.\" (NR) \"Art. 19-A. A aplicação da escala de conceitos avaliativos prevista no Anexo, bem como de novas funcionalidades ou alterações sistêmicas no AvaliaGOV que modifiquem os procedimentos de avaliação, observará exclusivamente os períodos avaliativos não iniciados até a data de publicação das suas alterações. Parágrafo único. Os órgãos e as entidades cujo período avaliativo já esteja em andamento deverão concluí-lo observando a escala, as funcionalidades e as regras anteriormente vigentes.\" (NR) Art. 2º O Anexo da Instrução Normativa SGP/MGI nº 354, de 27 de agosto de 2025, passa a vigorar na forma do Anexo. Art. 3º Esta Instrução Normativa entra em vigor na data de sua publicação. FREDERICO DE MORAIS ANDRADE COUTINHO ANEXO ESCALA DE CONCEITOS AVALIATIVOS DO DESEMPENHO INDIVIDUAL Conceito Resultado da avaliação de desempenho individual (%) Pontuação da parcela individual para fins de pagamento (%) Descrição Excepcional 96% a 100% 100% Desempenho muito acima das expectativas: atende a todos os critérios avaliativos integralmente e se destaca como referência de excelência. Alto desempenho 91% a 95% 100% Desempenho acima do esperado: supera os requisitos mínimos e contribui significativamente para os resultados da equipe ou da unidade. Adequado 80% a 90% 100% Desempenho conforme o esperado: cumpre as metas e os critérios estabelecidos, com potencial para aprimoramento e evolução para níveis superiores. Inadequado 50% a 79% 50% Desempenho abaixo do esperado: indica a necessidade de melhorias substanciais, acompanhamento intensificado, necessitando de intervenção imediata para o desenvolvimento. Insuficiente Até 49% 25% Desempenho muito abaixo do esperado: não atinge os requisitos mínimos, necessitando de intervenção imediata para o desenvolvimento.",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "162-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO Instrucao Normativa SGP N 35-12001705",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=27/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao",
+        "estagio_aprendizagem"
+      ],
+      "score": 12,
+      "xml_file": "600_20260827_24289609.xml"
     },
     {
       "id": "51012907",
@@ -3197,6 +3227,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260827_24287352.xml"
+    },
+    {
+      "id": "51009966",
+      "section": "DO1E",
+      "pub_date": "27/08/2026",
+      "art_type": "Resolução",
+      "art_category": "Ministério da Saúde/Secretaria de Gestão do Trabalho e da Educação na Saúde",
+      "identifica": "Resolução Nº 579, DE 21 DE agosto DE 2026 (*)",
+      "orgao": "",
+      "ementa": "Dispõe sobre as regras para movimentação dos profissionais do Projeto Mais Médicos para o Brasil - PMMB em municípios, estados, Distrito Federal e distritos sanitários indígenas participantes.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Resolução Nº 579, DE 21 DE agosto DE 2026 (*) Dispõe sobre as regras para movimentação dos profissionais do Projeto Mais Médicos para o Brasil - PMMB em municípios, estados, Distrito Federal e distritos sanitários indígenas participantes. A COORDENAÇÃO NACIONAL DO PROJETO MAIS MÉDICOS PARA O BRASIL, no uso das atribuições que lhe confere a Lei nº 12.871, de 22 de outubro de 2013, que institui, no âmbito Programa Mais Médicos, o Projeto Mais Médicos para o Brasil e dá outras providências, e na Portaria SGTES/MS nº 248, de 22 de abril de 2026, resolve: Art. 1º Esta Resolução estabelece as regras para movimentação de participantes do Projeto Mais Médicos para o Brasil, correspondente ao Eixo Formação do Programa Mais Médicos. Art. 2º Para fins do disposto nesta Resolução consideram-se como hipóteses de movimentação de profissionais: I - transferência: movimentação do profissional, dentro do próprio município, considerando a mudança da equipe em que desenvolve suas atividades; II - realocação: alteração de município considerando a vaga onde o profissional seria originalmente alocado, decorrente da extinção ou ocupação da vaga, antes do início de suas atividades; III - remanejamento: movimentação do profissional como medida de exceção, para outro município; IV - permuta: possibilidade de troca de local de atuação entre profissionais cuja diferença entre as datas de ingresso no Projeto não ultrapasse doze meses. Art. 3º A hipótese de transferência do médico participante, prevista no inciso I do art. 2º desta Resolução, poderá ocorrer mediante: I - solicitação do médico participante ao gestor municipal que deliberará sobre o pedido; ou II - decisão do gestor municipal quanto à alocação do médico dentro do município. Parágrafo único. As solicitações de troca de equipe feitas pelos profissionais serão avaliadas e autorizadas pela gestão municipal. Art. 4º A hipótese de realocação do profissional para outro município, prevista no inciso II do art. 2º desta Resolução, poderá ocorrer nas seguintes situações: I - extinção da vaga decorrente de: a) desistência da vaga por ato da gestão municipal; b) perda da vaga pelo município em decorrência de aplicação de penalidade; II - ocupação da vaga por outro profissional. § 1º A vaga que entrar em vacância por afastamento superior à trinta dias do profissional que ainda não iniciou as atividades do Projeto será disponibilizada para ocupação por outro profissional, a fim de garantir a assistência no território. § 2º O profissional que retornar ao Projeto após afastamento superior à trinta dias será realocado, em outra vaga no mesmo município ou em local mais próximo, caso a vaga inicialmente designada esteja ocupada por outro profissional. Art. 5º A hipótese de remanejamento do profissional para outro município, previsto no inciso III do art. 2º desta Resolução, poderá ocorrer estritamente nas seguintes situações: I - necessidade de tratamento de saúde do profissional ou de dependente legal, mediante comprovação de que o município de alocação não possui serviço de saúde para o tratamento específico da patologia apresentada, desde que a condição de saúde não seja preexistente ao ingresso no Projeto, ressalvados os casos de comprovado agravamento do quadro clínico; II - iminente risco à vida do profissional no município no qual está alocado, desde que devidamente comprovado; ou III - extinção da vaga decorrente de: a) desistência da vaga por ato da gestão municipal; b) perda da vaga pelo município em decorrência de aplicação de penalidade. § 1° O remanejamento poderá ser concedido apenas uma vez por ciclo do Projeto. § 2º O profissional deverá permanecer no local de atuação até a decisão final acerca da solicitação de remanejamento. § 3º Configurada absoluta inviabilidade do exercício das atividades do profissional no município de alocação original, até a decisão final do processo de remanejamento, poderá ser concedido o afastamento preventivo. § 4º O profissional arcará com os custos de seu deslocamento e de sua família para apresentação no novo município, no caso de autorização do remanejamento. § 5º Para os fins do disposto no inciso I deste artigo, deverá ser considerado o rol previsto no art. 4º da Resolução nº 472, de 11 de dezembro de 2024, da Coordenação Nacional do Projeto Mais Médicos para o Brasil, quais sejam: cônjuge ou companheiro(a); filho(a) ou enteado(a), que viva sob sua guarda e sustento; absolutamente incapaz, do qual o profissional médico seja tutor ou curador; e pais. Art. 6º No caso de realocação ou remanejamento, o profissional deverá ser movimentado para outro município com vaga disponível, prioritariamente, na mesma unidade da federação, com o mesmo perfil ou de maior vulnerabilidade que o anterior, levando em consideração os objetivos do Projeto e o interesse público. § 1º Para a movimentação se efetivar será necessária a anuência do profissional e da gestão municipal envolvida. § 2° No caso de movimentação em que deve ser escolhido o município de destino, o médico terá o prazo de cinco dias úteis, a contar do recebimento da notificação, para indicar a sua escolha. § 3° A não indicação do município de destino poderá ensejar a conclusão do processo administrativo de movimentação com a possibilidade de aplicação da penalidade de desligamento do Projeto. Art. 7º A hipótese de permuta entre profissionais dos seus respectivos locais de atuação, prevista no inciso IV do art. 2º desta Resolução, será avaliada e poderá ser autorizada pelo Departamento de Gestão e Provimento Profissional para o SUS - DEGEPS/SGTES/MS atendidos os seguintes requisitos: I - ser requerida por profissionais cuja diferença entre as datas de ingresso no Projeto não ultrapasse doze meses. II - haver autorização para realizar a permuta dos gestores dos municípios de alocação dos profissionais que pretendem permutar; III - não haver processo administrativo de apuração de descumprimento de deveres e obrigações dos médicos interessados em permutar ou registro de aplicação",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "162-A",
+      "url": "https://www.in.gov.br/web/dou/-/Sgtes - ROSOLUCAO 579 - REPUBLIC-12002726",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=27/08/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260827_24290833.xml"
     },
     {
       "id": "51002722",
