@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
-  "total_xml_files": 1392,
-  "matched_articles": 240,
+  "total_xml_files": 1408,
+  "matched_articles": 241,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2735,6 +2735,33 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260828_24293815-1.xml"
+    },
+    {
+      "id": "51034547",
+      "section": "DO1E",
+      "pub_date": "28/08/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria do Patrimônio da União",
+      "identifica": "Portaria SPU/MGI Nº 6.574, DE 11 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SPU/MGI Nº 6.574, DE 11 DE AGOSTO DE 2026 A Secretária do Patrimônio da União do Ministério da Gestão e da Inovação em Serviços Públicos, no uso da competência delegada pela alínea \"g\" do inciso I do art. 2º da Portaria MGI nº 11.390, de 23 de dezembro de 2025, e tendo em vista o disposto no art. 205 do Decreto-Lei nº 9.760, de 5 de setembro de 1946, e nos elementos que integram o Processo 19739.012232/2025-71, resolve: Art. 1º Autorizar a Superintendência do Patrimônio da União na Bahia a proceder a transferência da ocupação do imóvel situado no Loteamento Ipanema, s/n, Quadra Única - Lote 21 - Zona Jahiry, com área de 1.319,50m², sendo a área da União de 1.031,85m², localizado no município de Ilhéus/BA e cadastrado sob o RIP 3573.0100790-29, conforme Escritura Pública de Compra e Venda, lavrada nas notas do 1º Ofício de Ilhéus/BA, fls. 036 do Livro nº 290 em 04 de janeiro de 2007 e Escritura Pública de Compra e Venda, lavrada nas notas do 3º Ofício de Ilhéus/BA, às fls. 179/v do livro nº 236 em 22 de junho de 2010, para Michel Edward Greene, CPF nº 744.XXX.XXX-49, e, posteriormente, para Roc Ian Marten, CPF nº 858.XXX.XXX-23, pessoas físicas de nacionalidade estadunidense e canadense, respectivamente, condicionada a eficácia da presente transferência ao disposto na alínea \"b\" do inciso I do § 2º do art. 3º do Decreto-Lei nº 2.398, de 21 de dezembro de 1987. Parágrafo único. Ficam convalidados os atos translativos de ocupação praticados no processo. Art. 2º Esta Portaria entra em vigor na data de sua publicação. CAROLINA GABAS STUCHI",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "2",
+      "edition": "163-A",
+      "url": "https://www.in.gov.br/web/dou/-/GAB - PORTARIA 6574 - 19739.0122-12008442",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=2&data=28/08/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20260828_24297924.xml"
     },
     {
       "id": "51023465",
