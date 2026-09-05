@@ -1,0 +1,183 @@
+{
+  "date": "2026-09-07",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 172,
+      "pdf_text_chars": 77069,
+      "total_atos_detectados": 13,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 72/2026 (CONSOLIDADO)",
+        "ATO TRT 17ª PRESI Nº 77/2026.",
+        "ATO TRT 17ª PRESI Nº 76/2026",
+        "ATO TRT 17ª PRESI Nº 77/2026",
+        "ATO TRT 17ª PRESI Nº 72/2026, que cria",
+        "ATO TRT 17ª PRESI Nº 73/2026",
+        "ATO TRT 17ª PRESI Nº 75/2026",
+        "ATO TRT 17ª PRESI Nº 72/2026",
+        "ATO TRT 17ª PRESI Nº 74/2026",
+        "ATO TRT 17ª PRESI Nº 71/2026",
+        "ATO TRT 17ª PRESI Nº 70/2026",
+        "Portaria PRESI/SEGEP N° 10/2026",
+        "Despacho PRESI/SEGEP/ASSJUP N° 697/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 384,
+      "pdf_text_chars": 97834,
+      "total_atos_detectados": 44,
+      "matched_atos": 6,
+      "headers_sample": [
+        "ATO GDGSET.GP.N. 443, DE 19 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 448, DE 20 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 442, DE 19 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 459, DE 24 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 465, DE 26 DE AGOSTO DE 2026",
+        "ATO SEGJUD.GP N 483, DE 1 DE SETEMBRO DE 2026",
+        "ATO GDGSET.GP.N. 480, DE 31 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N 477, DE 31 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 457, DE 24 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 440, DE 19 DE AGOSTO DE 2026",
+        "ATO TST.GP N. 467, DE 26 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N 491, DE 2 DE SETEMBRO DE 2026",
+        "ATO GDGSET.GP.N 478, DE 31 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 468, DE 26 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 450, DE 20 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 471, DE 27 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 460, DE 24 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 470, DE 27 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 476 , DE 31 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 437, DE 17 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 449, DE 20 DE AGOSTO DE 2026",
+        "ATO ATO GDGSET.GP.N. 453, DE 21 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 458, DE 24 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 441, DE 19 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N 490, DE 1 DE SETEMBRO DE 2026",
+        "ATO GDGSET.GP.N. 473, DE 28 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 438, DE 18 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 472, DE 27 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N. 445, DE 19 DE AGOSTO DE 2026",
+        "ATO GDGSET.GP.N 492, DE 3 DE SETEMBRO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 6,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO SEGJUD.GP N 483, DE 1 DE SETEMBRO DE 2026",
+      "text_resumo": "ATO SEGJUD.GP N 483, DE 1 DE SETEMBRO DE 2026\n                                                                                                              Divulga a composição do Tribunal\n                                                                                                              Superior do Trabalho e de seus\n                                                                                                              Órgãos Judicantes.\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso da atribuição prevista no artigo 41, inciso VII, do Regimento Interno do\n  Tribunal Superior do Trabalho,\n  considerando o despacho proferido no Processo Administrativo SEI nº 6017957/2026-00, que autorizou a remoção da Exma. Ministra Margareth\n  Rodrigues Costa da Sétima Turma para a Terceira Turma, com efeitos a partir de 1º de setembro de 2026;\n  considerando que, com a remoção da Exma. Ministra Margareth Rodrigues Costa para a Terceira Turma, o Exmo. Desembargador convocado\n  João Pedro Silvestrin passa a atuar na Sétima Turma;\n  considerando o Ato TST.GP n.o 369, de 27 de julho de 2026, referendado pela Resolução Administrativa nº 2.970, de 3 de agosto de 2026, que\n  dispõe sobre a convocação da Exma. Desembargadora Maria de Nazaré Medeiros Rocha, integrante do Tribunal Regional do Trabalho da 8ª\n  Região, para atuar na Seção Especializada em Dissídios Coletivos e na Segunda Turma desta Corte, no período de 3 de agosto a 2 de outubro de\n  2026, em substituição ao Exmo. Ministro Lelio Bentes Corrêa;\n  considerando o Ato TST.GP n.o 467, de 26 de agosto de 2026, que dispõe sobre a convocação da Exma. Desembargadora Rosemary de Oliveira\n  Pires Afonso, integrante do Tribunal Regional do Trabalho da 3ª Região, para atuar na 2ª Turma deste Tribunal e na Subseção II da Seção\n  Especializada em Dissídios Individuais, no período de 27 de agosto a 26 de setembro de 2026, em substituição à Exma. Ministra Liana Chaib, em\n  razão do usufruto de licença-prêmio por tempo de serviço,\n  RESOLVE\n  Editar o ato de composição do Tribunal Superior do Trabalho e de seus Órgãos Judicantes.\n  TRIBUNAL PLENO\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n  Ministro Ives Gandra da Silva Martins Filho\n  Ministra Maria Cristina Irigoyen Peduzzi\n  Ministro Lelio Bentes Corrêa\n  Ministro Mauricio José Godinho Delgado\n  Ministra Kátia Magalhães Arruda\n  Ministro Augusto César Leite de Carvalho\n  Ministra Delaíde Alves Miranda Arantes\n  Ministro Hugo Carlos Scheuermann\n  Ministro Alexandre de Souza Agra Belmonte\n  Ministro Cláudio Mascarenhas Brandão\n  Ministro Douglas Alencar Rodrigues\n  Ministra Maria Helena Mallmann\n  Ministro Breno Medeiros\n  Ministro Alexandre Luiz Ramos\n  Ministro Luiz José Dezena da Silva\n  Ministro Evandro Pereira Valadão Lopes\n  Ministro Amaury Rodrigues Pinto Junior\n  Ministro Alberto Bastos Balazeiro\n  Ministra Morgana de Almeida\n  Ministro Sergio Pinto Martins\n  Ministra Liana Chaib (afastada temporariamente)\n  Ministro Antônio Fabrício de Matos Gonçalves\n  Ministra Margareth Rodrigues Costa\n  ÓRGÃO ESPECIAL\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n\n\nCódigo para aferir autenticidade deste caderno: 240547\n\f    4539/2026                                                       Tribunal Superior do Trabalho          3\n    Data da Disponibilização: Sexta-feira, 04 de Setembro de 2026\n\n\n\n  Ministro Ives Gandra da Silva Martins Filho\n  Ministra Maria Cristina Irigoyen Peduzzi\n  Ministro Lelio Bentes Corrêa\n  Ministro Mauricio José Godinho Delgado\n  Ministra Kátia Magalhães Arruda\n  Ministro Amaury Rodrigues Pinto Junior\n  Ministro Alberto Bastos Balazeiro\n  Ministra Morgana de Almeida\n  Ministro Sergio Pinto Martins\n  Ministra Liana Chaib (afastada temporariamente)\n  Ministro Antônio Fabrício de Matos Gonçalves\n  Membros Suplentes:\n  Ministra Delaíde Alves Miranda Arantes\n  Ministro Hugo Carlos Scheuermann\n  Ministro Cláudio Mascarenhas Brandão\n  SEÇÃO ESPECIALIZADA EM DISSÍDIOS COLETIVOS\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n  Ministro Ives Gandra da Silva Martins Filho\n  Ministra Maria Cristina Irigoyen Peduzzi\n  Ministro Lelio Bentes Corrêa (afastado temporariamente)\n  Ministro Mauricio José Godinho Delgado\n  Ministra Kátia Magalhães Arruda (afastada temporariamente por integrar o Conselho Nacional de Justiça)\n  Ministro Alexandre de Souza Agra Belmonte\n  Desembargadora Eleonora Bordini Coca (convocada)\n  Desembargadora Maria de Nazaré Medeiros Rocha (convocada)\n  SUBSEÇÃO I DA SEÇÃO ESPECIALIZADA EM DISSÍDIOS INDIVIDUAIS\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n  Ministro Augusto César Leite de Carvalho\n  Ministra Delaíde Alves Miranda Arantes\n  Ministro Hugo Carlos Scheuermann\n  Ministro Cláudio Mascarenhas Brandão\n  Ministro Breno Medeiros\n  Ministro Alexandre Luiz Ramos\n  Ministro Evandro Pereira Valadão Lopes\n  Ministro Alberto Bastos Balazeiro\n  Ministro Antônio Fabrício de Matos Gonçalves\n  Ministra Margareth Rodrigues Costa\n  Desembargador João Pedro Silvestrin (convocado)\n  SUBSEÇÃO II DA SEÇÃO ESPECIALIZADA EM DISSÍDIOS INDIVIDUAIS\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n",
+      "text_truncated": true,
+      "strong_keywords": [
+        "cessao_remocao_permuta",
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 21
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO SEGJUD.GP Nº 481, DE 31 DE AGOSTO DE 2026.",
+      "text_resumo": "ATO SEGJUD.GP Nº 481, DE 31 DE AGOSTO DE 2026.\n\n  Divulga as datas das sessões ordinárias e extraordinárias do Tribunal Pleno a serem realizadas de setembro a dezembro de 2026.\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais,\n  considerando o elevado número de incidentes de recursos repetitivos em tramitação no Tribunal Pleno do Tribunal Superior do Trabalho;\n  considerando que os incidentes de recursos repetitivos têm por finalidade a fixação de tese jurídica de caráter vinculante, circunstância que\n  recomenda a adoção de medidas voltadas a conferir maior celeridade ao seu julgamento;\n  considerando o direito fundamental à razoável duração do processo e aos meios que garantam a celeridade de sua tramitação, assegurado pelo\n  art. 5º, inciso LXXVIII, da Constituição da República;\n  considerando a necessidade de adequar o calendário das sessões do Tribunal Pleno aos eventos institucionais e às datas das sessões dos\n  demais órgãos judicantes do Tribunal,\n  RESOLVE\n\nCódigo para aferir autenticidade deste caderno: 240547\n\f    4539/2026                                                       Tribunal Superior do Trabalho                                             10\n    Data da Disponibilização: Sexta-feira, 04 de Setembro de 2026\n\n\n\n  Art. 1º Divulgar as novas datas das sessões ordinárias e extraordinárias do Tribunal Pleno a serem realizadas de setembro a dezembro de 2026:\n  - 23 de setembro de 2026, quarta-feira (extraordinária);\n  - 28 de setembro de 2026, segunda-feira (ordinária);\n  - 16 de outubro de 2026, sexta-feira (extraordinária);\n  - 26 de outubro de 2026, segunda-feira (ordinária);\n  - 13 de novembro de 2026, sexta-feira (extraordinária);\n  - 23 de novembro de 2026, segunda-feira (ordinária);\n  - 14 de dezembro de 2026, segunda-feira (ordinária).\n  Art. 2º Este Ato entra em vigor na data de sua publicação, ficando revogado o Ato SEGJUD.GP nº 285, de 21 de maio de 2026.\n  Publique-se.\n                                                        LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n                                                       Presidente do Tribunal Superior do Trabalho\n\n\n   ATO SEGJUD.GP N.º 483, DE 1º DE SETEMBRO DE 2026.\n\n  Divulga a composição do Tribunal Superior do Trabalho e de seus Órgãos Judicantes.\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso da atribuição prevista no artigo 41, inciso VII, do Regimento Interno do\n  Tribunal Superior do Trabalho,\n  considerando o despacho proferido no Processo Administrativo SEI nº 6017957/2026-00, que autorizou a remoção da Exma. Ministra Margareth\n  Rodrigues Costa da Sétima Turma para a Terceira Turma, com efeitos a partir de 1º de setembro de 2026;\n  considerando que, com a remoção da Exma. Ministra Margareth Rodrigues Costa para a Terceira Turma, o Exmo. Desembargador convocado\n  João Pedro Silvestrin passa a atuar na Sétima Turma;\n  considerando o Ato TST.GP n.o 369, de 27 de julho de 2026, referendado pela Resolução Administrativa nº 2.970, de 3 de agosto de 2026, que\n  dispõe sobre a convocação da Exma. Desembargadora Maria de Nazaré Medeiros Rocha, integrante do Tribunal Regional do Trabalho da 8ª\n  Região, para atuar na Seção Especializada em Dissídios Coletivos e na Segunda Turma desta Corte, no período de 3 de agosto a 2 de outubro de\n  2026, em substituição ao Exmo. Ministro Lelio Bentes Corrêa;\n  considerando o Ato TST.GP n.o 467, de 26 de agosto de 2026, que dispõe sobre a convocação da Exma. Desembargadora Rosemary de Oliveira\n  Pires Afonso, integrante do Tribunal Regional do Trabalho da 3ª Região, para atuar na 2ª Turma deste Tribunal e na Subseção II da Seção\n  Especializada em Dissídios Individuais, no período de 27 de agosto a 26 de setembro de 2026, em substituição à Exma. Ministra Liana Chaib, em\n  razão do usufruto de licença-prêmio por tempo de serviço,\n  RESOLVE\n  Editar o ato de composição do Tribunal Superior do Trabalho e de seus Órgãos Judicantes.\n  TRIBUNAL PLENO\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n  Ministro Ives Gandra da Silva Martins Filho\n  Ministra Maria Cristina Irigoyen Peduzzi\n  PODER JUDICIÁRIO\n  JUSTIÇA DO TRABALHO\n  TRIBUNAL SUPERIOR DO TRABALHO\n  Ministro Lelio Bentes Corrêa\n  Ministro Mauricio José Godinho Delgado\n  Ministra Kátia Magalhães Arruda\n  Ministro Augusto César Leite de Carvalho\n  Ministra Delaíde Alves Miranda Arantes\n  Ministro Hugo Carlos Scheuermann\n  Ministro Alexandre de Souza Agra Belmonte\n  Ministro Cláudio Mascarenhas Brandão\n  Ministro Douglas Alencar Rodrigues\n  Ministra Maria Helena Mallmann\n  Ministro Breno Medeiros\n  Ministro Alexandre Luiz Ramos\n  Ministro Luiz José Dezena da Silva\n  Ministro Evandro Pereira Valadão Lopes\n  Ministro Amaury Rodrigues Pinto Junior\n  Ministro Alberto Bastos Balazeiro\n  Ministra Morgana de Almeida\n  Ministro Sergio Pinto Martins\n  Ministra Liana Chaib (afastada temporariamente)\n  Ministro Antônio Fabrício de Matos Gonçalves\n  Ministra Margareth Rodrigues Costa\n  ÓRGÃO ESPECIAL\n  Ministro Luiz Philippe Vieira de Mello Filho – Presidente do Tribunal\n  Ministro Guilherme Augusto Caputo Bastos – Vice-Presidente do Tribunal\n  Ministro José Roberto Freire Pimenta – Corregedor-Geral da Justiça do Trabalho\n\nCódigo para aferir autenticidade deste caderno: 240547\n\f    4539/2026                                                       Tribunal Superior do Trabalho          11\n    Data da Disponibilização: Sexta-feira, 04 de Setembro de 2026\n\n\n\n  Ministro Ives Gandra da Silva Martins Filho\n  Ministra Maria Cristina Irigoyen Peduzzi\n  Ministro Lelio Bentes Corrêa\n  Ministro Mauricio José Godinho Delgado\n  Ministra Kátia Magalhães Arruda\n  Ministro Amaury Rodrigues Pinto Junior\n  Ministro Alberto Bastos Balazeiro\n  Ministra Morgana de Almeida\n  Ministro Sergio Pinto Martins\n  Ministra Liana Chaib (afastada",
+      "text_truncated": true,
+      "strong_keywords": [
+        "cessao_remocao_permuta",
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 21
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO TST.GP N. 467, DE 26 DE AGOSTO DE 2026",
+      "text_resumo": "ATO TST.GP N. 467, DE 26 DE AGOSTO DE 2026\n                                                                                       Convoca a Excelentíssima Desembargadora Rosemary de Oliveira\n                                                                                       Pires, integrante do Tribunal Regional do Trabalho da 3ª Região,\n                                                                                       para atuar na 2ª Turma do Tribunal Superior do Trabalho e na\n\nCódigo para aferir autenticidade deste caderno: 240547\n\f    4539/2026                                                       Tribunal Superior do Trabalho                                                     5\n    Data da Disponibilização: Sexta-feira, 04 de Setembro de 2026\n\n\n\n                                                                                       Subseção II da Seção Especializada em Dissídios Individuais.\n\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso das atribuições legais e regimentais, ad referendum do Órgão Especial,\n  considerando o princípio da continuidade dos serviços públicos e, de modo particular, da atividade jurisdicional, que deverá ser ininterrupta, na\n  forma do art. 93, inciso XII, da Constituição da República;\n  considerando a garantia prevista no art. 5º, inciso LXXVIII, da Constituição da República, que assegura a todos, no âmbito judicial, a razoável\n  duração do processo e os meios que garantam a celeridade de sua tramitação;\n  considerando a existência de jurisprudência consolidada no sentido de que a convocação de magistrado para atuar em substituição, no caso de\n  vaga ou de afastamento por prazo superior a 30 (trinta) dias de integrante de Tribunal, não viola o princípio do juiz natural;\n  considerando o Despacho SEGP/GP nº 2058, de 26 de agosto de 2026, que autorizou o usufruto de 31 (trinta e um) dias de licença-prêmio por\n  tempo de serviço pela Exma. Ministra Liana Chaib, no período de 27 de agosto a 26 de setembro de 2026,\n  RESOLVE\n  Art. 1º Fica convocada, excepcionalmente, a Exma. Desembargadora Rosemary de Oliveira Pires, integrante do Tribunal Regional do Trabalho da\n  3ª Região, para atuar na 2ª Turma deste Tribunal e na Subseção II da Seção Especializada em Dissídios Individuais, no período de 27 de agosto a\n  26 de setembro de 2026, em substituição à Exma. Ministra Liana Chaib, em razão do usufruto de licença-prêmio por tempo de serviço.\n  Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n                                                                    VIEIRA DE MELLO FILHO\n                                                                       Ministro Presidente",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO TST.GP N. 469, DE 27 DE AGOSTO DE 2026",
+      "text_resumo": "ATO TST.GP N. 469, DE 27 DE AGOSTO DE 2026\n                                                                                                    Convoca a Excelentíssima Desembargadora Adriana\n                                                                                                    Goulart de Sena Orsini, integrante do Tribunal Regional\n                                                                                                    do Trabalho da 3ª Região, para atuar na 3ª Turma do\n                                                                                                    Tribunal Superior do Trabalho e na Seção Especializada\n                                                                                                    em Dissídios Coletivos.\n\n  O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso das atribuições legais e regimentais, ad referendum do Órgão Especial,\n  considerando o princípio da continuidade dos serviços públicos e, de modo particular, da atividade jurisdicional, que deverá ser ininterrupta, na\n  forma do art. 93, inciso XII, da Constituição da República;\n  considerando a garantia prevista no art. 5º, inciso LXXVIII, da Constituição da República, que assegura a todos, no âmbito judicial, a razoável\n  duração do processo e os meios que garantam a celeridade de sua tramitação;\n  considerando a existência de jurisprudência consolidada no sentido de que a convocação de magistrado para atuar em substituição, no caso de\n  vaga ou de afastamento por prazo superior a 30 (trinta) dias de integrante de Tribunal, não viola o princípio do juiz natural;\n  considerando o Despacho SEGP/GP nº 2104, de 26 de agosto de 2026, que autorizou o usufruto de 40 (quarenta) dias de licença-prêmio por\n  tempo de serviço pelo Exmo. Ministro Maurício Godinho Delgado, no período de 9 de novembro a 18 de dezembro de 2026,\n  RESOLVE\n  Art. 1º Fica convocada, excepcionalmente, a Exma. Desembargadora Adriana Goulart de Sena Orsini, integrante do Tribunal Regional do Trabalho\n  da 3ª Região, para atuar na 3ª Turma do Tribunal Superior do Trabalho e na Seção Especializada em Dissídios Coletivos, no período de 9 de\n  novembro a 18 de dezembro de 2026, em substituição ao Exmo. Ministro Maurício Godinho Delgado, em razão do usufruto de licença-prêmio por\n  tempo de serviço.\n  Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n                                                                    VIEIRA DE MELLO FILHO\n                                                                        Ministro Presidente",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO TST.GP N° 467, DE 26 DE AGOSTO DE 2026",
+      "text_resumo": "ATO TST.GP N° 467, DE 26 DE AGOSTO DE 2026\n\n  Convoca a ExcelentíssimaDesembargadora Rosemary deOliveira Pires, integrante doTribunal Regional do Trabalho da3ª Região, para atuar na 2ª\n  Turmado Tribunal Superior do Trabalho ena Subseção II da SeçãoEspecializada em DissídiosIndividuais.\n  O\n  PRESIDENTE DO TRIBUNAL SUPERIOR DOTRABALHO\n  , no uso das atribuições legais e regimentais,\n  ad referendum\n  doÓrgão Especial,\n  considerando o princípio da continuidade dos serviços públicose, de modo particular, da atividade jurisdicional, que deverá ser ininterrupta,\n  naforma do art. 93, inciso XII, da Constituição da República;\n  considerando a garantia prevista no art. 5º, inciso LXXVIII, daConstituição da República, que assegura a todos, no âmbito judicial, a\n  razoávelduração do processo e os meios que garantam a celeridade de sua tramitação;\n  considerando a existência de jurisprudência consolidada nosentido de que a convocação de magistrado para atuar em substituição, no casode\n  vaga ou de afastamento por prazo superior a 30 (trinta) dias de integrante deTribunal, não viola o princípio do juiz natural;\n  considerando o Despacho SEGP/GP nº 2058, de 26 de agosto de2026, que autorizou o usufruto de 31 (trinta e um) dias de licença-prêmio\n  portempo de serviço pela Exma. Ministra Liana Chaib, no período de 27 de agostoa 26 de setembro de 2026,\n  RESOLVE\n  Art. 1º\n  Fica convocada, excepcionalmente, a Exma.Desembargadora Rosemary de Oliveira Pires, integrante do Tribunal Regionaldo Trabalho da 3ª\n  Região, para atuar na 2ª Turma deste Tribunal e na SubseçãoII da Seção Especializada em Dissídios Individuais, no período de 27 de agosto\n  26/08/2026, 15:32 SEI/TST - 1614329 - Ato\n  https://sei.tst.jus.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=procedimento_controlar&acao_retorno=procedimento_contr\n  … 1/2\n  a 26 de setembro de 2026, em substituição à Exma. Ministra Liana Chaib, emrazão do usufruto de licença-prêmio por tempo de serviço.\n  Art. 2º\n  Este Ato entra em vigor na data de sua publicação.\n                                                                VIEIRA DE MELLO FILHO\n                                                                   Ministro Presidente\n\nCódigo para aferir autenticidade deste caderno: 240547\n\f    4539/2026                                                       Tribunal Superior do Trabalho                                                 13\n    Data da Disponibilização: Sexta-feira, 04 de Setembro de 2026",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO TST.GP Nº 469, DE 27 DE AGOSTO DE 2026",
+      "text_resumo": "ATO TST.GP Nº 469, DE 27 DE AGOSTO DE 2026\n\n  Convoca a ExcelentíssimaDesembargadora Adriana Goulartde Sena Orsini, integrante doTribunal Regional do Trabalho da3ª Região, para atuar\n  na 3ª Turmado Tribunal Superior do Trabalho ena Seção Especializada emDissídios Coletivos.\n  O\n  PRESIDENTE DO TRIBUNAL SUPERIOR DOTRABALHO\n  , no uso das atribuições legais e regimentais,\n  ad referendum\n  doÓrgão Especial,\n  considerando o princípio da continuidade dos serviços públicose, de modo particular, da atividade jurisdicional, que deverá ser ininterrupta,\n  naforma do art. 93, inciso XII, da Constituição da República;\n  considerando a garantia prevista no art. 5º, inciso LXXVIII, daConstituição da República, que assegura a todos, no âmbito judicial, a\n  razoávelduração do processo e os meios que garantam a celeridade de sua tramitação;\n  considerando a existência de jurisprudência consolidada nosentido de que a convocação de magistrado para atuar em substituição, no casode\n  vaga ou de afastamento por prazo superior a 30 (trinta) dias de integrante deTribunal, não viola o princípio do juiz natural;\n  considerando o Despacho SEGP/GP nº 2104, de 26 de agosto de2026, que autorizou o usufruto de 40 (quarenta) dias de licença-prêmio portempo\n  de serviço pelo Exmo. Ministro Maurício Godinho Delgado, no períodode 9 de novembro a 18 de dezembro de 2026,\n  RESOLVE\n  Art. 1º\n  Fica convocada, excepcionalmente, a Exma.Desembargadora Adriana Goulart de Sena Orsini, integrante do TribunalRegional do Trabalho da 3ª\n  Região, para atuar na 3ª Turma do Tribunal Superior\n  27/08/2026, 11:47 SEI/TST - 1611774 - Ato\n  https://sei.tst.jus.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=procedimento_controlar&acao_retorno=procedimento_contr\n  … 1/2\n  do Trabalho e na Seção Especializada em Dissídios Coletivos, no período de 9de novembro a 18 de dezembro de 2026, em substituição ao Exmo.\n  MinistroMaurício Godinho Delgado, em razão do usufruto de licença-prêmio por tempode serviço.\n  Art. 2º\n  Este Ato entra em vigor na data de sua publicação.\n                                                                VIEIRA DE MELLO FILHO\n                                                                   Ministro Presidente\n\n\n                                                                              Edital\n                                                                              Edital",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    }
+  ]
+}
