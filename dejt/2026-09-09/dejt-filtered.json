@@ -5,50 +5,13 @@
       "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 330,
-      "pdf_text_chars": 99248,
-      "total_atos_detectados": 14,
-      "matched_atos": 2,
-      "headers_sample": [
-        "ATO CONJUNTO TST.CSJT.GP N. 47, DE 27 DE AGOSTO DE 2026.",
-        "ATO CONJUNTO TST.CSJT.GP N. 46, DE 27 DE AGOSTO DE 2026.",
-        "ATO CSJT.SG N. 26, DE 3 DE SETEMBRO DE 2026.",
-        "ATO CSJT.PETI N. 1, DE 18 DE AGOSTO DE 2026",
-        "ATO CSJT.GP.SG N. 90, DE 18 DE AGOSTO DE 2026",
-        "ATO CSJT.GP.SG N. 98, de 3 de setembro de 2026.",
-        "ATO CSJT.GP.SG.SGPES N. 96, DE 27 DE AGOSTO DE 2026.",
-        "ATO CSJT.GP N. 93, DE 20 DE AGOSTO DE 2026.",
-        "ATO CSJT.GP.SG.SETIC N. 92, de 19 de agosto de 2026.",
-        "ATO CSJT.GP.SG N.? 97, DE 2 DE SETEMBRO DE 2026.",
-        "ATO CSJT.GP.SG.SEJUR N. 100, de 4 de setembro de 2026.",
-        "EDITAL N. 6, DE 28 DE AGOSTO DE 2026",
-        "RESOLUÇÃO CSJT Nº 360, DE 25 DE AGOSTO DE 2023.",
-        "Resolução CNJ n.º 240, de 9 de setembro de 2016, promove a valorização e o compa"
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 1151,
-      "pdf_text_chars": 105636,
-      "total_atos_detectados": 11,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO GDGSET.GP.N. 498, DE 4 DE SETEMBRO DE 2026",
-        "ATO GDGSET.GP.N. 500, DE 4 DE SETEMBRO DE 2026",
-        "ATO GDGSET.GP.N. 499, DE 4 DE SETEMBRO DE 2026",
-        "DESPACHO- REPUBLICA??O DO ANEXO II DO EDITAL N 1/2026- CGJT- PR?MIO \"TRT EM DEST",
-        "EDITAL Nº 1/2026 - CGJT",
-        "Ato nº 8/GCGJT, de 08 de julho de 2026, que institui o Prêmio “TRT em Destaque”,",
-        "Ato nº 08/GCGJT/2026.",
-        "RESOLUCAO ADMINISTRATIVA N. 2.983, DE 19 DE AGOSTO DE 2026.",
-        "RESOLUCAO ADMINISTRATIVA N. 2.960, DE 3 DE AGOSTO DE 2026.",
-        "RESOLUCAO ADMINISTRATIVA N. 2.982, DE 19 DE AGOSTO DE 2026.",
-        "RESOLUCAO ADMINISTRATIVA N. 2.972, DE 7 DE AGOSTO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -74,47 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "tst",
-      "orgao": "Tribunal Superior do Trabalho",
-      "identifica": "RESOLUCAO ADMINISTRATIVA N. 2.983, DE 19 DE AGOSTO DE 2026.",
-      "text_resumo": "RESOLUCAO ADMINISTRATIVA N. 2.983, DE 19 DE AGOSTO DE 2026.\n\n                                                                                                      Referenda o despacho exarado pelo\n                                                                                                      Excelentíssimo Senhor Ministro Presidente do\n                                                                                                      Tribunal, em 13 de julho de 2026, no Processo\n                                                                                                      Administrativo SEI nº 6008730/2026-00, relativo ao\n                                                                                                      cumprimento de orientações sobre o regime\n                                                                                                      remuneratório de transição para a Magistratura.\n\n\n  O EGRÉGIO PLENO DO TRIBUNAL SUPERIOR DO TRABALHO\n  , em\n  Sessão Extraordinária hoje realizada, sob a Presidência do Excelentíssimo Senhor Luiz Philippe Vieira de Mello Filho, Presidente do Tribunal,\n  presentes os Excelentíssimos Senhores Ministros Ives Gandra da Silva Martins Filho, Maria Cristina Irigoyen Peduzzi, Lelio Bentes Corrêa,\n  Mauricio José Godinho Delgado, Kátia Magalhães Arruda, Augusto César Leite de Carvalho, Delaíde Alves Miranda Arantes, Hugo Carlos\n  Scheuermann, Alexandre de Souza Agra Belmonte, Cláudio Mascarenhas Brandão, Douglas Alencar Rodrigues, Maria Helena Mallmann, Breno\n  Medeiros, Alexandre Luiz Ramos, Luiz José Dezena da Silva, Evandro Pereira Valadão Lopes, Amaury Rodrigues Pinto Junior, Alberto Bastos\n  Balazeiro, Morgana de Almeida, Sergio Pinto Martins, Liana Chaib, Antônio Fabrício de Matos Gonçalves e Margareth Rodrigues Costa e a\n  Excelentíssima Senhora Daniela de Morais do Monte Varandas, Subprocuradora-Geral do Trabalho,\n\n  RESOLVE\n\n  Referendar o despacho exarado pelo Excelentíssimo Senhor Ministro Presidente do Tribunal, em 13 de julho de 2026, no Processo Administrativo\n  SEI nº 6008730/2026-00, nos seguintes termos:\n\n                        “Considerando o conteúdo do acórdão proferido pelo Supremo Tribunal Federal no julgamento conjunto da ADI nº 6.606 e\n                        ações correlatas, sobre o regime remuneratório de transição para a Magistratura; a Resolução Conjunta CNJ-CNMP nº\n                        14/2026, e, especialmente, os termos das Orientações expedidas pela Corregedoria Nacional de Justiça, por meio do Ofício\n                        Circular nº 24/2026/CN, de 3 de julho de 2026; bem assim as orientações anteriores desta Presidência no presente feito,\n                        determino, ad referendum do Tribunal Pleno, o cumprimento das referidas orientações na folha de pagamento do mês de julho\n                        de 2026, mediante as seguintes providências:\n\n                        1. A suspensão imediata do pagamento da Gratificação de Proteção à Primeira Infância e à Maternidade;\n\n                        2. A manutenção da natureza remuneratória do abono de permanência de caráter previdenciário, haja vista o quanto decidido\n                        pelo Conselho Nacional de Justiça nos autos do Ato Normativo CNJ nº 0003860-28.2026.2.00.0000; e\n\n\nCódigo para aferir autenticidade deste caderno: 240578\n\f    4540/2026                                                       Tribunal Superior do Trabalho                                                  18\n    Data da Disponibilização: Terça-feira, 08 de Setembro de 2026\n\n\n\n                        3. Excepcionalmente, o pagamento do Adicional por Tempo de Serviço (ATS/VPNI) e da Parcela de Valorização por Tempo de\n                        Antiguidade na Carreira (PVTAC) no mês de julho com os mesmos critérios já implementados na folha de pagamento de junho\n                        de 2026.”\n\n  Publique-se.\n\n\n\n\n                                                         LUIZ PHILIPPE VIEIRA DE MELLO FILHO\n                                                   Ministro Presidente do Tribunal Superior do Trabalho",
-      "text_truncated": false,
-      "strong_keywords": [
-        "abono_permanencia",
-        "quintos_anuenios_ats"
-      ],
-      "weak_keywords": [
-        "folha_esocial"
-      ],
-      "score": 21
-    },
-    {
-      "source": "csjt",
-      "orgao": "Conselho Superior da Justiça do Trabalho",
-      "identifica": "ATO CSJT.PETI N. 1, DE 18 DE AGOSTO DE 2026",
-      "text_resumo": "ATO CSJT.PETI N. 1, DE 18 DE AGOSTO DE 2026\n                                                                                                Dispõe sobre a constituição do Conselho Consultivo do\n                                                                                                Programa de Erradicação do Trabalho Infantil e de\n                                                                                                Estímulo à Aprendizagem no âmbito da Justiça do\n                                                                                                Trabalho.\n\n  O COORDENADOR-GERAL DO PROGRAMA DE ERRADICAÇÃO DO TRABALHO INFANTIL E DE ESTÍMULO À APRENDIZAGEM NO\n  ÂMBITO DA JUSTIÇA DO TRABALHO, no uso de suas atribuições legais e regimentais,\n\n  considerando o disposto nos arts. 7º, 10, 11 e 12 da Resolução CSJT nº 422, de 22 de setembro de 2025, que dispõe sobre o Programa de\n  Erradicação do Trabalho Infantil e de Estímulo à Aprendizagem no âmbito da Justiça do Trabalho; e\n\n  considerando as deliberações do Comitê Nacional do Programa;\n\n\n  RESOLVE\n\n\n  Art. 1º Instituir o Conselho Consultivo do Programa de Erradicação ao Trabalho Infantil e de Estímulo à Aprendizagem no âmbito da Justiça do\n\n\nCódigo para aferir autenticidade deste caderno: 240577\n\f    4540/2026                                                 Conselho Superior da Justiça do Trabalho                                              5\n    Data da Disponibilização: Terça-feira, 08 de Setembro de 2026\n\n\n\n  Trabalho\n\n  Art. 2º Compete ao Conselho Consultivo colaborar com o planejamento, a execução e o aperfeiçoamento das atividades do Programa, sugerindo\n  políticas, diretrizes e estratégias e opinando sobre linhas de ação, estudos, projetos ou outras medidas para a erradicação do trabalho infantil e o\n  estímulo à aprendizagem.\n\n  Art. 3º Integram o Conselho Consultivo do Programa de Erradicação ao Trabalho Infantil e de Estímulo à Aprendizagem no âmbito da Justiça do\n  Trabalho:\n\n  I - Ana Maria Vila Real Ferreira Ramos, Procuradora Regional do Ministério Público do Trabalho;\n\n  II - Dira Paes, Atriz e Dirigente do Movimento dos Direitos Humanos e Ativista do projeto Criança Esperança;\n\n  III - Felipe Caetano da Cunha; Ativista e Cofundador dos Comitês de Adolescentes pela Prevenção e Erradicação do Trabalho Infantil;\n\n  IV - João Batista Martins César, Desembargador do Tribunal Regional do Trabalho da 15ª Região;\n\n  V - Assis de Oliveira, Professor Titular da Universidade de Brasília e da Escola Nacional dos Direitos da Criança e do Adolescente;\n\n  VI - Ravena do Carmo Silva, Pesquisadora e Fundadora do Coletivo Poesia nas Quebradas;\n\n  VII - Taís Arruti Lyrio Lisboa, Auditora Fiscal do Trabalho do Ministério do Trabalho e do Emprego;\n\n  VIII - Maria Cláudia Falcão, Coordenadora da Área de Princípios e Direitos Fundamentais no Trabalho do Escritório da OIT no Brasil;\n\n  IX - Aira Beatriz Cardoso; Cientista e Fundadora do Instituto Nacional Leva Ciência;\n\n  X - Eliane Araque dos Santos, Subprocuradora-Geral do Trabalho e Presidente do Instituto Nacional de Prevenção e Erradicação do Trabalho\n  Infantil.\n\n  Parágrafo único. O mandato dos membros do Conselho Consultivo coincidirá com o da Presidência do Tribunal Superior do Trabalho e do\n  Conselho Superior da Justiça do Trabalho, admitida a recondução.\n\n  Art. 4º O Conselho poderá ser convocado, a critério do Coordenador do Programa, para participar das reuniões do Comitê Nacional.\n\n  Art. 5º Este Ato entra em vigor na data de sua publicação.\n\n                                                 Ministro ALBERTO BASTOS BALAZEIRO\n                       Coordenador-Geral do Programa de Erradicação do Trabalho Infantil e de Estímulo à Aprendizagem\n                                                     Ato da Presidência CSJT",
-      "text_truncated": false,
-      "strong_keywords": [
-        "licencas_servidor"
-      ],
-      "weak_keywords": [
-        "estagio_aprendizagem"
-      ],
-      "score": 16
-    },
-    {
-      "source": "csjt",
-      "orgao": "Conselho Superior da Justiça do Trabalho",
-      "identifica": "ATO CSJT.SG N. 26, DE 3 DE SETEMBRO DE 2026.",
-      "text_resumo": "ATO CSJT.SG N. 26, DE 3 DE SETEMBRO DE 2026.\n                                                                                                Declara sem efeitos a Nota Técnica n.º 1, de 4 de abril\n                                                                                                de 2024, que trouxe diretrizes para a Implementação da\n                                                                                                Gratificação Adicional por Tempo de Serviço (ATS)\n                                                                                                conforme o Processo n.º CSJT-PP-0006851-\n                                                                                                59.2022.5.90.0000.\n\n\n  O SECRETÁRIO-GERAL DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas atribuições estabelecidas no Regulamento\n  Geral do Conselho Superior da Justiça do Trabalho,\n\n  considerando as alterações no contexto jurídico desde a edição do acórdão de 11 de janeiro de 2024 no Processo n.º CSJT-PP-0006851-\n  59.2022.5.90.0000;\n\n  considerando o julgamento pelo Supremo Tribunal Federal, em 25 de março de 2026, da Reclamação (RCL) n.º 88319, das Ações Diretas de\n  Inconstitucionalidade n.os 6601, 6604 e 6606 e dos Recursos Extraordinários n.os 968646 e 1059466, ambos com repercussão geral (Temas 976\n  e 966);\n\n  considerando a Resolução Conjunta CNJ-CNMP n.º 14, de 7 de abril de 2026, do Conselho Nacional de Justiça e do Conselho Nacional do\n  Ministério Público;\n\n  considerando o Provimento CN n.º 234, de 26 de junho de 2026, da Corregedoria Nacional de Justiça, que regulamenta o pagamento de passivos\n  funcionais decorrentes do Adicional por Tempo de Serviço (ATS) aos magistrados no âmbito do Poder Judiciário Nacional, fixa as verbas\n  integrantes da base de cálculo, estabelece os índices de atualização monetária e juros, e determina a ordem cronológica de quitação; e\n\n  considerando o teor do Processo Administrativo n.º 6006952/2024-00,\n\n\n\n  RESOLVE\n\n\n\n  Art. 1º É declarada sem efeitos a Nota Técnica CSJT.SG n.º 1, de 4 de abril de 2024, que trouxe diretrizes para a Implementação da Gratificação\n  Adicional por Tempo de Serviço (ATS) conforme o Processo n.º CSJT-PP-0006851-59.2022.5.90.0000.\n\n  Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n\n\n\n                                                                 GIOVANNI OLSSON\n                                            Secretário-Geral do Conselho Superior da Justiça do Trabalho\n                                                               Ato PETI",
-      "text_truncated": false,
-      "strong_keywords": [
-        "quintos_anuenios_ats"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
