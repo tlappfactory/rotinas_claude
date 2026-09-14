@@ -1,0 +1,68 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 14 de setembro de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+===========================================================
+BOLETIM NORMATIVO COLEP — 14 de setembro de 2026
+===========================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+---------------------------
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+-------------------------
+Despacho PRESI/SEGEP Nº 1016/2026 [carece de leitura humana do texto integral] — Tribunal Regional do Trabalho da 17ª Região
+Ementa: Torna público o resultado do processo de remoção de juízas e juízes titulares para as Varas do Trabalho de Vitória, Cachoeiro de Itapemirim e Aracruz (Edital nº 07/2026).
+Unidade(s): SGP-direção (ciência) — trata de movimentação de magistrados (Corregedoria/SETRI), fora do escopo rotineiro de pessoal civil da COLEP; nenhuma ação de unidade da SGP identificada.
+Fonte: DEJT Caderno Administrativo do TRT-17, publicação de 14/09/2026 (https://diario.jt.jus.br/cadernos/Diario_A_17.pdf)
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+---------------------------------------------------
+TCU — acórdãos das sessões de 01 e 08/09/2026 (mesma janela já reportada no Boletim de 11/09/2026)
+Status: A varredura de hoje não identificou sessão do TCU posterior a 08/09/2026 (última data de sessão observada na base de dados abertos até o fechamento desta rotina). 65 acórdãos casaram com o filtro temático da SGP nas sessões de 01 e 08/09/2026 — mesmo conjunto de sessões já tratado em detalhe no Boletim de 11/09/2026 (que reportou 53 acórdãos casados nessas mesmas sessões; a diferença de contagem decorre de ajuste de cobertura do filtro entre as duas execuções, não de nova sessão do TCU). Nenhum acórdão desta nova varredura menciona expressamente o TRT-17. Não há, portanto, matéria nova para este bloco além do já registrado em 11/09/2026.
+Possível reflexo: — (ver Boletim de 11/09/2026 para o detalhamento por tema já publicado).
+Fonte: acórdãos do TCU, sessões de 01 e 08/09/2026 (relação completa disponível mediante solicitação à COLEP).
+
+CNJ e TST — atos administrativos individuais (DOU Seção 2)
+Status: A edição de hoje traz 1 portaria do CNJ (requisição de servidora de outro tribunal para prestar serviços no Conselho) e 1 portaria do TST (cessão de servidora ao TRT da 22ª Região). Ambos são atos de gestão de pessoal específicos de outros órgãos, sem conteúdo normativo geral e sem menção ao TRT-17.
+Possível reflexo: — (sem impacto identificado para a SGP/TRT-17).
+Fonte: DOU Seção 2, edição de 14/09/2026 (páginas indicadas nos atos; conferência via portal de pesquisa do DOU).
+
+STF — Repercussão geral / teto remuneratório
+Status: Sem novidades em STF nesta data para pessoal do serviço público judiciário/RPPS. Os achados dos últimos 7 dias (04 a 14/09/2026) via cobertura de imprensa especializada — vedação à revisão da vida toda em ações antigas e dispensa de devolução de valores de desaposentação — referem-se ao Regime Geral de Previdência Social (INSS), sem aplicação ao Regime Próprio de Previdência Social dos servidores do TRT-17.
+Possível reflexo: —
+Fonte: cobertura de imprensa especializada (consulta realizada, sem achado pertinente ao RPPS na janela)
+
+STJ — Recursos repetitivos
+Status: Sem novidades em STJ nesta data para pessoal do serviço público judiciário/RPPS. Não foi identificado, nos últimos 7 dias, novo tema repetitivo ou tese vinculante do STJ com aplicação direta a servidores do Poder Judiciário ou ao RPPS.
+Possível reflexo: —
+Fonte: cobertura de imprensa especializada (consulta realizada, sem achado pertinente na janela)
+
+===========================================================
+FONTES PRIMÁRIAS NÃO ACESSÍVEIS — CONFERÊNCIA MANUAL
+===========================================================
+DEJT Caderno Administrativo do CSJT, publicação 14/09/2026: edição não consultada pela rotina automatizada (a última edição obtida trazia publicação de 11/09/2026, anterior à esperada) — conferência manual em https://diario.jt.jus.br/cadernos/Diario_CSJT.pdf
+
+===========================================================
+RESUMO ESTATÍSTICO
+===========================================================
+- Itens Alto Impacto: 0
+- Itens Médio Impacto: 0
+- Itens Informativos: 1
+- Itens em Monitoramento: 4 blocos (TCU, CNJ/TST-DOU, STF, STJ) — TCU sem sessão nova além da já reportada em 11/09/2026
+- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 14/09/2026 — varredura integral pelo filtro temático da SGP; 209 atos casaram com o filtro (10 na Seção 1, 199 na Seção 2), dentre 1.390 matérias publicadas na edição. Nenhum dos 209 tem vínculo com o TRT-17 ou traz conteúdo normativo geral novo para a SGP: são majoritariamente concessões individuais de aposentadoria/pensão/cessão em outros órgãos federais (Ministério da Gestão/DECIPEX, CJF, STF, STJ, TCU, TST, outros TRTs), sem repercussão direta identificada para o TRT-17. Nenhuma edição extra (1E/2E) foi capturada pelo filtro nesta data. DEJT Caderno Administrativo do TRT-17, publicação de 14/09/2026 (disponibilização de 11/09/2026) — 1 ato pertinente, listado acima (Informativo). DEJT Caderno Administrativo do TST, publicação de 14/09/2026 — 6 atos detectados, nenhum pertinente à SGP/COLEP segundo o filtro temático (atos administrativos internos GDGSET.GP, natureza extraída dos cabeçalhos, sem correspondência com os temas-filtro da COLEP). Acórdãos do TCU das sessões de 01 e 08/09/2026 (65 casados pelo filtro temático da SGP; nenhum menciona expressamente o TRT-17; mesma janela do Boletim de 11/09/2026). Jurisprudência do STF e do STJ (consulta realizada, sem achado pertinente ao RPPS na janela — ver Monitoramento).
+- Fontes sem retorno relevante nesta data: DEJT TST (edição consultada, sem atos de pessoal pertinentes); STF e STJ (sem tese vinculante nova sobre pessoal do serviço público judiciário/RPPS nos últimos 7 dias).
+===========================================================
+
+OBSERVAÇÕES DE CONFORMIDADE
+-----------------------------
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes citados constam de atos de gestão de pessoal já publicados em fonte oficial de acesso público, com base no art. 7º, incisos II e III, da LGPD c/c o princípio da publicidade do art. 37 da Constituição Federal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 14/09/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
