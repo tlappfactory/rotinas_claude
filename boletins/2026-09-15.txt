@@ -1,0 +1,68 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo COLEP do dia 15 de setembro de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+===========================================================
+BOLETIM NORMATIVO COLEP — 15 de setembro de 2026
+===========================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+---------------------------
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+-------------------------
+Portarias PRESI/DIGER/SGP/CODOP/SELIR nºs 421, 422 e 424/2026 — Tribunal Regional do Trabalho da 17ª Região
+Ementa: Designações e dispensas de funções comissionadas (FC-04/FC-05) na 11ª e 1ª Varas do Trabalho de Vitória, por ato da Desembargadora-Presidente.
+Unidade(s): SELEP, SELIR — movimentação interna de FC já em processamento pela própria unidade; registro para arquivo.
+Fonte: DOU Seção 2, edição de 15/09/2026 (https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=85&data=15/09/2026) e DEJT Caderno Administrativo do TRT-17, publicação de 15/09/2026 (https://diario.jt.jus.br/cadernos/Diario_A_17.pdf)
+
+Instrução Normativa CGDDP/MGI Nº 376, de 11 de setembro de 2026
+Ementa: Estabelece prazo para encaminhamento do Plano de Desenvolvimento de Pessoas (PDP) 2027 pelos órgãos do Sistema de Pessoal Civil da Administração Federal (Sipec) ao órgão central.
+Unidade(s): SEGECOP, SEGEDE (ciência) — ato dirigido a órgãos do Sipec (Poder Executivo); o TRT-17, como órgão do Poder Judiciário, não integra o Sipec, mas o cronograma pode servir de referência para o planejamento interno de capacitação.
+Fonte: DOU Seção 1, edição de 15/09/2026 (https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=50&data=15/09/2026)
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+---------------------------------------------------
+TCU — acórdãos das sessões de 01 e 08/09/2026 (mesma janela já reportada no Boletim de 14/09/2026)
+Status: A varredura de hoje não identificou sessão do TCU posterior a 08/09/2026. 65 acórdãos casaram com o filtro temático da SGP nesse par de sessões — mesmo conjunto já registrado no Boletim de 14/09/2026, tratando majoritariamente da vedação de acumulação das parcelas "opção" e "quintos" na base de cálculo de aposentadorias e pensões de outros órgãos. Nenhum acórdão menciona expressamente o TRT-17. Não há matéria nova neste bloco.
+Possível reflexo: SELEP — jurisprudência consolidada do TCU sobre vedação à cumulação "opção"/"quintos" (art. 5º da Lei 6.732/1979), útil como parâmetro preventivo na análise de quintos/anuênios de servidores do TRT-17.
+Fonte: acórdãos do TCU, sessões de 01 e 08/09/2026 (relação completa disponível mediante solicitação à COLEP).
+
+STJ/TST/TCU — atos administrativos individuais (DOU Seção 2)
+Status: A edição de hoje traz diversos atos de designação/dispensa de função comissionada e concessão de aposentadoria de servidores do STJ, do TST e do TCU (gabinetes de ministros e unidades internas), além de portarias individuais de aposentadoria de servidores do Poder Executivo (MGI/DECIPEX). São atos de gestão de pessoal específicos de outros órgãos, sem conteúdo normativo geral e sem menção ao TRT-17.
+Possível reflexo: — (sem impacto identificado para a SGP/TRT-17).
+Fonte: DOU Seção 2, edição de 15/09/2026 (páginas indicadas nos atos; conferência via portal de pesquisa do DOU).
+
+STF — Repercussão geral / teto remuneratório
+Status: Sem novidades em STF nesta data para pessoal do serviço público judiciário/RPPS nos últimos 7 dias (08 a 15/09/2026), segundo a cobertura de imprensa especializada consultada.
+Possível reflexo: —
+Fonte: cobertura de imprensa especializada (consulta realizada, sem achado pertinente na janela)
+
+STJ — Tema 1472 (recursos repetitivos) — REsp 2.258.325-CE e REsp 2.254.394-CE
+Status: A Primeira Seção do STJ afetou os recursos ao rito dos repetitivos para definir se a demora injustificada da Administração na análise de pedido de aposentadoria gera dever de indenizar o servidor por danos materiais e, em caso afirmativo, qual prazo caracteriza a mora e o termo inicial da indenização. Trata-se de afetação (recursos ainda sobrestados), não de tese já fixada — [carece de leitura humana do texto integral] para eventuais efeitos suspensivos sobre processos em curso.
+Possível reflexo: SESES, COLEP — acompanhar julgamento; tema de interesse direto para o controle de prazos de instrução de pedidos de aposentadoria.
+Fonte: Informativo de Jurisprudência STJ nº 899, de 1º de setembro de 2026 (https://scon.stj.jus.br/jurisprudencia/externo/informativo/?aplicacao=informativo&acao=pesquisar&livre=%22REsp%22&b=INFJ&p=true&t=&l=25&i=50)
+
+===========================================================
+RESUMO ESTATÍSTICO
+===========================================================
+- Itens Alto Impacto: 0
+- Itens Médio Impacto: 0
+- Itens Informativos: 2
+- Itens em Monitoramento: 4 blocos (TCU, DOU-outros tribunais, STF, STJ Tema 1472)
+- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 15/09/2026 — varredura integral pelo filtro temático da SGP; 220 atos casaram com o filtro (17 na Seção 1, 203 na Seção 2), dentre 1.125 matérias publicadas na edição. Apenas 2 têm relação direta com o TRT-17 ou trazem conteúdo normativo geral de interesse da SGP (listados em Informativo); os demais 218 são concessões individuais de aposentadoria/pensão/substituição de FC de outros órgãos federais (Ministério da Gestão/DECIPEX, STJ, TST, TCU, CJF), sem repercussão direta para o TRT-17. Nenhuma edição extra (1E/2E) foi capturada pelo filtro nesta data. DEJT Caderno Administrativo do TRT-17, publicação de 15/09/2026 (disponibilização de 14/09/2026) — 1 ato pertinente, listado acima (Informativo). DEJT Caderno Administrativo do CSJT, publicação de 15/09/2026 — 1 ato detectado, nenhum pertinente à SGP/COLEP segundo o filtro temático. DEJT Caderno Administrativo do TST, publicação de 15/09/2026 — 3 atos detectados, nenhum pertinente à SGP/COLEP segundo o filtro temático. Acórdãos do TCU das sessões de 01 e 08/09/2026 (65 casados pelo filtro temático da SGP; nenhum menciona expressamente o TRT-17; mesma janela do Boletim de 14/09/2026). Jurisprudência do STF e do STJ via cobertura de imprensa especializada (STJ com novo achado — Tema 1472; STF sem novidades pertinentes na janela).
+- Fontes sem retorno relevante nesta data: STF (sem tese vinculante nova sobre pessoal do serviço público judiciário/RPPS nos últimos 7 dias).
+===========================================================
+
+OBSERVAÇÕES DE CONFORMIDADE
+-----------------------------
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes citados constam de atos de gestão de pessoal já publicados em fonte oficial de acesso público, com base no art. 7º, incisos II e III, da LGPD c/c o princípio da publicidade do art. 37 da Constituição Federal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado por Routine COLEP-01 (Claude AI) em 15/09/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
