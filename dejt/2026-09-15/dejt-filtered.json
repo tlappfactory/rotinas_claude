@@ -2,43 +2,16 @@
   "date": "2026-09-15",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 283,
-      "pdf_text_chars": 23325,
-      "total_atos_detectados": 5,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 424/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 422/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 423/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 425/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 421/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 69432,
-      "pdf_text_chars": 6913,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG.SEJUR N.? 94 , DE 27 DE AGOSTO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 105,
-      "pdf_text_chars": 8158,
-      "total_atos_detectados": 3,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N. 517, DE 14 DE SETEMBRO DE 2026",
-        "ATO GDGSET.GP.N. 515, DE 14 DE SETEMBRO DE 2026",
-        "ATO GDGSET.GP.N. 516, DE 14 DE SETEMBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -64,20 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 421/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 421/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240665\n\f    4544/2026                                              Tribunal Regional do Trabalho da 17ª Região                                           8\n    Data da Disponibilização: Segunda-feira, 14 de Setembro de 2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0000421-19.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DISPENSAR\n\n\n\n                       Priscilla Mathildes Barros Celestino,\n                       Analista Judiciária, área Judiciária, da função comissionada de Assistente de Juiz - FC-05, e, ao mesmo tempo, designá-lo(a)\n                       para exercer a função comissionada de Assistente de Gabinete de Primeiro Grau - FC-04, ambas do (a) 11ª Vara do Trabalho\n                       de Vitória - VITV11.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 11/09/2026,\n                          às 14:00, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1340825 e o código CRC BAFDEBC0.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240665\n\f    4544/2026                                              Tribunal Regional do Trabalho da 17ª Região   9\n    Data da Disponibilização: Segunda-feira, 14 de Setembro de 2026\n\n\n\n\n                                                                          ÍNDICE\n\n\n   DIRETORIA GERAL                                                    1\n    Extrato                                                           1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       3\n   REMOÇÃO\n    Portaria                                                          3\n     Portaria                                                         3\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240665",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 16
-    }
-  ]
+  "articles": []
 }
