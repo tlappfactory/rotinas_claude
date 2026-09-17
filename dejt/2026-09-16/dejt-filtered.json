@@ -2,41 +2,16 @@
   "date": "2026-09-16",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 244,
-      "pdf_text_chars": 18030,
-      "total_atos_detectados": 4,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 427/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 426/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 429/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 428/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 108,
-      "pdf_text_chars": 11566,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP.SG.SEJUR N. 100, DE 4 DE SETEMBRO DE 2026.* (Republicação)"
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 282,
-      "pdf_text_chars": 8152,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N. 518, DE 15 DE SETEMBRO DE 2026",
-        "ATO N? 02/CGJT.CITRT16, DE 15 DE SETEMBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -62,18 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 428/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 428/2026\n\n\nCódigo para aferir autenticidade deste caderno: 240710\n                                                                        PODER JUDICIÁRIO FEDERAL\n\f    4545/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         6\n    Data da Disponibilização: Terça-feira, 15 de Setembro de 2026\n\n\n\n\n                                                                                   PORTARIA\n\n                                                                           0004670-47.2017.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                   REMOVER\n\n\n\n                       Luiz Henrique Maia Sandes,\n                       Técnico Judiciário, área Administrativa, do (a) Seção de Liquidação - SELIQ para lotá-lo(a) no(a) Seção de Conformidade e\n                       Liquidação - SECLIQ, a partir de 1º/9/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 15/09/2026,\n                          às 13:24, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1342081 e o código CRC 4F7D9750.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   DIRETORIA GERAL                                                     1\n    Extrato                                                            1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                   1              Portaria                                                 2\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        2               Portaria                                                2\n   REMOÇÃO\n\n\nCódigo para aferir autenticidade deste caderno: 240710",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }

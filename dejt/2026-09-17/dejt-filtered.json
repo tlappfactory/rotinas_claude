@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-17",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 940,
+      "pdf_text_chars": 70498,
+      "total_atos_detectados": 24,
+      "matched_atos": 1,
+      "headers_sample": [
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 334/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 293/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 304/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 329/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 324/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 328/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 327/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 331/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 285/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 309/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 289/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 291/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 299/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 282/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 306/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 323/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 325/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 333/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 322/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 336/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 295/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 287/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 311/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 297/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 161,
+      "pdf_text_chars": 74044,
+      "total_atos_detectados": 8,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP N. 6/2020* (Republicação)",
+        "Resolução CSJT nº 242, de 31 de maio de 2019, que dispõe sobre a Política de Gov",
+        "ATO CONJUNTO TST.CSJT.GP N. 51, de 12 de setembro de 2026",
+        "ATO CONJUNTO TST.CSJT.GP N. 50, DE 15 DE SETEMBRO DE 2026.",
+        "ATO CSJT.GP N. 106, de 15 de setembro de 2026.",
+        "ATO CSJT.GP.SG N. 107, de 15 de setembro de 2026.",
+        "ATO CSJT.GP.SG N. 108, de 15 de setembro de 2026.",
+        "EDITAL N. 1, de 15 de setembro de 2026"
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 272,
+      "pdf_text_chars": 5052,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO N? 03/CGJT.CITRT16, DE 16 DE SETEMBRO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 1,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 297/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 297/2026\n\n\nCódigo para aferir autenticidade deste caderno: 240754\n                                                                        PODER JUDICIÁRIO FEDERAL\n\f    4546/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        28\n    Data da Disponibilização: Quarta-feira, 16 de Setembro de 2026\n\n\n\n\n                                                                                   PORTARIA\n\n                                                                           0000338-03.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       de suas atribuições legais e regimentais, resolve:\n\n\n\n                                                                                   REMOVER\n\n\n\n                       Danilo Silva Diniz,\n                       Técnico Judiciário, área Administrativa, do (a) 1ª Vara do Trabalho de Vitória - VITV01 para lotá-lo(a) no(a) 10ª Vara do\n                       Trabalho de Vitória - VITV10, a partir de 21/8/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 19/08/2026,\n                          às 18:47, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1336069 e o código CRC 600C6807.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   DIRETORIA GERAL                                                     1\n    Extrato                                                            1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                   1              Portaria                                                 4\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        4               Portaria                                                4\n   REMOÇÃO\n\n\nCódigo para aferir autenticidade deste caderno: 240754",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}
