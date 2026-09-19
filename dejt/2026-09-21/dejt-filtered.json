@@ -1,8 +1,16 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "sources": {
     "trt17": {
-      "status": "no_pdf"
+      "status": "ok",
+      "pdf_size_kb": 135,
+      "pdf_text_chars": 26952,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 79/2026",
+        "EDITAL Nº 09/2026"
+      ]
     },
     "csjt": {
       "status": "no_pdf"
