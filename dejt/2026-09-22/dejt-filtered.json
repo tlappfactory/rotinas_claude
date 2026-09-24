@@ -2,17 +2,7 @@
   "date": "2026-09-22",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 249,
-      "pdf_text_chars": 36217,
-      "total_atos_detectados": 4,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 80/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 438/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 436/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 437/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
@@ -21,7 +11,7 @@
       "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -47,20 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 437/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 437/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                      PORTARIA\n\n                                                                           0002595-69.2016.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                      DISPENSAR\n\n\n\n                       Letícia Aguiar Mendes Miranda,\n                       Analista Judiciária, área Judiciária, da função comissionada de Assistente de Gabinete - FC-05\n                       ,\n                       do (a) Gabinete do Desembargador Valdir Donizetti Caixeta - GDVDC.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240879\n\f    4549/2026                                              Tribunal Regional do Trabalho da 17ª Região                                         12\n    Data da Disponibilização: Segunda-feira, 21 de Setembro de 2026\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 21/09/2026,\n                          às 13:58, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1343556 e o código CRC A52F4162.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Ato                                                               1\n     Ato PRESI                                                        1\n   SECRETARIA DE CORREGEDORIA                                         2\n   REGIONAL\n    Edital                                                            2\n     Edital                                                           2\n    Relatório                                                         4\n     Relatório ESTATÍSTICA                                            4\n   DIRETORIA GERAL                                                    5\n    Extrato                                                           5\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  5\n   SECRETARIA DO TRIBUNAL PLENO                                       6\n    Acórdão                                                           7\n     Acórdão                                                          7\n    Pauta                                                             8\n     Pauta Administrativa                                             8\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       9\n   REMOÇÃO\n    Portaria                                                          9\n     Portaria                                                         9\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240879",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 16
-    }
-  ]
+  "articles": []
 }
