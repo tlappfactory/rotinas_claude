@@ -9,12 +9,12 @@ Lê o par de arquivos versionados pela Routine COLEP-01:
 e envia como multipart/alternative. O assunto é derivado da data, no formato
 fixo exigido pelo runbook:
 
-    [BOLETIM COLEP] Rascunho – 2 de agosto de 2026
+    Boletim Normativo - Edição de 2 de agosto de 2026
 
-"Rascunho" permanece no assunto de propósito: o boletim segue pendente de
-revisão humana antes da distribuição oficial às unidades da SGP (RA TRT-17
-nº 4/2025). O que a automação entrega é a minuta ao revisor — não a
-distribuição.
+O corpo do e-mail continua deixando explícito que o conteúdo é uma minuta
+pendente de revisão humana antes da distribuição oficial às unidades da SGP
+(RA TRT-17 nº 4/2025). O que a automação entrega é a minuta ao revisor — não
+a distribuição.
 
 Configuração por variáveis de ambiente (no workflow, vindas de secrets):
 
@@ -95,7 +95,7 @@ def ler_corpos(data: str) -> tuple[str, str]:
 def montar_mensagem(data: str, html: str, texto: str,
                     remetente: str, destinatarios: list[str]) -> EmailMessage:
     msg = EmailMessage()
-    msg["Subject"] = f"[BOLETIM COLEP] Rascunho – {data_por_extenso(data)}"
+    msg["Subject"] = f"Boletim Normativo - Edição de {data_por_extenso(data)}"
     msg["From"] = remetente
     msg["To"] = ", ".join(destinatarios)
     msg.set_content(texto)
