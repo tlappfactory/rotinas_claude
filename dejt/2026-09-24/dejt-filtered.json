@@ -2,33 +2,16 @@
   "date": "2026-09-24",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 119,
-      "pdf_text_chars": 9506,
-      "total_atos_detectados": 4,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Ato SECOR N° 78/2026",
-        "ATO PRESI SECOR Nº 70/2026",
-        "Ato SECOR N° 79/2026",
-        "ATO PRESI SECOR Nº 71/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 108,
-      "pdf_text_chars": 9479,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO SEGJUD.GP N.º 533, DE 22 DE SETEMBRO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -54,18 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO PRESI SECOR Nº 71/2026",
-      "text_resumo": "ATO PRESI SECOR Nº 71/2026\n\n\n\n                               A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n                       REGIÃO, no uso de suas atribuições legais e regimentais\n\n\n\n                                 CONSIDERANDO os requerimentos de remoção dos Juízes Titulares das Varas do Trabalho deste Regional, em\n                       trâmite no processo SEI nº 0001281-39.2026.5.17.0500;\n\n\n\n                                  CONSIDERANDO a necessidade de se evitar adiamento de pautas de audiências já designadas e\n\n\n\n                                CONSIDERANDO a ordem de antiguidade na carreira dos Juízes Substitutos sem designação contínua e por prazo\n                       indeterminado do TRT da 17ª Região, resolve\n\n\n\n                                                                                   DESIGNAR\n\n\n\n                       XERXES GUSMÃO, VERÔNICA RIBEIRO SARAIVA, JOSÉ ALEXANDRE CID PINTO FILHO, JEDSON MARCOS DOS\n                       SANTOS MIRANDA e BERNARDO PINHEIRO BERNARDI, Juízes (as) do Trabalho Substitutos(as), para atuarem nas Varas\n                       do Trabalho deste Regional conforme tabela abaixo, fazendo-se cessar, no período, os efeitos do ATO PRESI SECOR nº\n                       13/2026 em relação aos (às) referidos(as) Magistrados(as):\n\n\n                        JUIZ(A)                                  VARA DO TRABALHO             PERÍODO                 ATUAÇÃO\n\n\n                                                                 10ª de Vitória               30/11 a 06/12/2026      Auxiliar\n                        Xerxes Gusmão\n                                                                                              07/12 a 06/01/2027      Auxiliar\n                                                                  8ª de Vitória\n                        Verônica Ribeiro Saraiva                 Aracruz                      09/10 a 06/01/2027      Titular em exercício\n\n                        José Alexandre Cid Pinto Filho           15ª de Vitória               02/11 a 15/11/2026      Auxiliar\n\n\n                        Jedson Marcos dos Santos Miranda         Linhares                     07/12 a 06/01/2027      Auxiliar\n\n\n                        Bernardo Pinheiro Bernardi               2ª de Cachoeiro de           30/11 a 06/01/2027      Auxiliar\n                                                                 Itapemirim\n\n\n\n                            Por se tratar de situação excepcional, sobretudo em razão dos processos de promoção dos Juízes Substitutos ao cargo\n                       de Juiz Titular de Vara do Trabalho ainda em trâmite em nosso Regional, fica autorizada, até a publicação dos novos atos de\n                       designação, a realização de audiências telepresenciais aos Juízes Substitutos Verônica Ribeiro Saraiva e Jedson Marcos dos\n                       Santos Miranda, conforme previsão contida no inciso II do artigo 3º do ATO PRESI SECOR Nº 13/2023.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240956\n\f    4551/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        4\n    Data da Disponibilização: Quarta-feira, 23 de Setembro de 2026\n\n\n\n\n                            Publique-se.\n\n\n\n                                                                       Alzenir Bollesi de Plá Loeffler\n                                                                  Desembargadora-Presidente e Corregedora\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 23/09/2026,\n                          às 11:32, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1344049 e o código CRC 676A6782.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                          1\n   REGIONAL\n    Ato                                                                1\n     Ato                                                               1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 240956",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    }
-  ]
+  "articles": []
 }
