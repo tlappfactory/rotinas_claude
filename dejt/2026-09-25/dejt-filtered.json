@@ -2,36 +2,13 @@
   "date": "2026-09-25",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 129,
-      "pdf_text_chars": 13956,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO TRT 17ª PRESI Nº 81/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 104,
-      "pdf_text_chars": 4963,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CSJT.GP Nº 112, DE 23 DE SETEMBRO DE 2026.",
-        "ATO CSJT.GP.SG N. 111, de 23 de setembro de 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 435,
-      "pdf_text_chars": 6424,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO Nº 05/CGJT.CITRT16, DE 24 DE SETEMBRO DE 2026",
-        "ATO Nº 04/CGJT.CITRT16, DE 24 DE SETEMBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
   "total_matched": 0,

@@ -1,0 +1,926 @@
+{
+  "run_utc": "2026-09-26T17:07:48Z",
+  "lookback_days": 14,
+  "cutoff_date": "2026-09-12",
+  "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
+  "pages_fetched": 3,
+  "items_seen": 1600,
+  "min_date_seen": "2024-07-09",
+  "max_date_seen": "2026-09-23",
+  "total_matched": 44,
+  "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2780189",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5101",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5101/2026 ATA 32/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PENSÃO CIVIL. CÁLCULO DOS PROVENTOS CONSIDEROU QUINTOS/DÉCIMOS INCORPORADOS APÓS 8/4/1998. ATOS DE APOSENTADORIA DO INSTITUIDOR REGISTRADOS PELO TCU HÁ MAIS DE CINCO ANOS. ACÓRDÃO 1724/2025-PLENÁRIO. REGISTRO DO ATO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780189%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 15
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2776145",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4812",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4812/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO. APOSENTADORIA. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. NEGATIVA DE REGISTRO. POSSIBILIDADE DE ESCOLHA DE UMA DAS VANTAGENS. ACUMULAÇÃO DE TRÊS BENEFÍCIOS PREVIDENCIÁRIOS. ART. 24 DA EMENDA CONSTITUCIONAL 103/2019. IMPOSSIBILIDADE NO CASO CONCRETO. DETERMINAÇÃO PARA ESCOLHA DE BENEFÍCIOS.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776145%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 15
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2775816",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5042",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5042/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS DE FUNÇÃO COMISSIONADA EXERCIDA ENTRE 1998 E 2001. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775816%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780070",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5029",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO SHERMAN",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5029/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. INCLUSÃO NOS PROVENTOS DA RUBRICA \"QUINTOS/DÉCIMOS\" DECORRENTES DO EXERCÍCIO DE FUNÇÃO COMISSIONADA EM PERÍODO ANTERIOR A 8/4/1998 CONFORME A REGÊNCIA. INCLUSÃO DA PARCELA REMUNERATÓRIA \"OPÇÃO\" NOS PROVENTOS DO INATIVO QUE IMPLEMENTOU O DIREITO À APOSENTADORIA APÓS A PUBLICAÇÃO DA EC 20/1998. DECISÃO JUDICIAL SEM TRÂNSITO EM JULGADO OUTORGADA NO ÂMBITO DA AÇÃO ORDINÁRIA 1005368 10.2020.4.01.3200/AM QUE CONCEDEU A TUTELA PROVISÓRIA PARA DECLARAR O DIREITO DOS SUBSTITUÍDOS À MANUTENÇÃO DO PAGAMENTO DA PARCELA DENOMINADA \"OPÇÃO\". NÃO ATENDIMENTO DO REQUISITO TEMPORAL PREVISTO NO ART. 193, CAPUT, DA LEI 8.112/1190. INTERPRETAÇÃO RESTRITIVA DO TÍTULO JUDICIAL. INAPLICABILIDADE, NO CASO CONCRETO, DOS SEUS EFEITOS. EXCLUSÃO DA PARCELA REMUNERATÓRIA DENOMINADA \"OPÇÃO\" DOS PROVENTOS DO INTERESSADO. ILEGALIDADE E NEGATIVA DE REGISTRO DO ATO CONCESSÓRIO. DETERMINAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780070%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769816",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5022",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5022/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. EXECUTANTE DE MANDADOS. INCLUSÃO CUMULATIVA NOS PROVENTOS DE GRATIFICAÇÃO DE ATIVIDADE EXTERNA, \"QUINTOS DE FC-5\" E \"OPÇÃO FC-5\", EM DESACORDO COM A LEGISLAÇÃO DE REGÊNCIA. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769816%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769788",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4818",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4818/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO MILITAR. ADICIONAL POR TEMPO DE SERVIÇO CALCULADO EM PERCENTUAL SUPERIOR AO PREVISTO NA LEI 6.880/1980. BAIXA MATERIALIADE DO VALOR IMPUGNADO. SUBSTITUIÇÃO DA PARCELA IMPUGNADA PELO ADICIONAL DE COMPENSAÇÃO POR DISPONIBILIDADE MILITAR. REGISTRO. PREJUDICIALIDADE DE UM ATO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769788%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2777270",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5039",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5039/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. PEDIDO DE REEXAME. PAGAMENTO CUMULATIVO DE \"QUINTOS\" E \"OPÇÃO\". VEDAÇÃO EXPRESSA NO ART. 193, § 2º, DA LEI 8.112/1990. JURISPRUDÊNCIA CONSOLIDADA DO TCU. RAZÕES RECURSAIS INSUFICIENTES PARA AFASTAR A ILEGALIDADE. CONHECIMENTO. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777270%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2776372",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5037",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5037/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. PAGAMENTO CUMULATIVO DE \"QUINTOS\" E \"OPÇÃO\". NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. NEGATIVA DE PROVIMENTO. EMBARGOS DE DECLARAÇÃO. CONHECIMENTO. AUSÊNCIA DE OMISSÃO, CONTRADIÇÃO OU OBSCURIDADE. REJEIÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776372%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2775088",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5036",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5036/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. PEDIDO DE REEXAME. VENCIMENTO BÁSICO COMPLEMENTAR. AUSÊNCIA DE ABSORÇÃO PREVISTA NA LEI 11.091/2005. CÁLCULO IRREGULAR DO ADICIONAL POR TEMPO DE SERVIÇO E DO ADICIONAL DE INCENTIVO À QUALIFICAÇÃO. RAZÕES RECURSAIS INSUFICIENTES. CONHECIMENTO. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775088%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778528",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5033",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO SHERMAN",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5033/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. INCLUSÃO NOS PROVENTOS DE PARCELA DE \"QUINTOS/DÉCIMOS\" DECORRENTE DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS EM PERÍODOS POSTERIORES AO ADVENTO DA LEI 9.624/1998, SUPOSTAMENTE AO AMPARO DE DECISÃO JUDICIAL TRANSITADA EM JULGADO. AUSÊNCIA DE COMPROVAÇÃO DE QUE O INTERESSADO SEJA BENEFICIÁRIO DA AÇÃO JUDICIAL INDICADA. NECESSIDADE DE APLICAR-SE, À PARCELA DE \"QUINTOS/DÉCIMOS\" PÓS 8/4/1998, A MODULAÇÃO DE EFEITOS CONFERIDA NO JULGAMENTO DO RE 638.115/CE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778528%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779617",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5031",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO SHERMAN",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5031/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. SERVIDOR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003, NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES CONTRIBUTIVAS. IMPOSSIBILIDADE. INCIDÊNCIA, NA ESPÉCIE, DA DISCIPLINA ESTABELECIDA NO ART. 20, § 2º, INCISO I, DA EMENDA CONSTITUCIONAL. PROVENTOS INTEGRAIS E PARIDADE. ILGALIDADE DA APOSENTADORIA E NEGATIVA DE REGISTRO DO RESPECTIVO ATO CONCESSÓRIO. DETERMINAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779617%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2770207",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5026",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5026/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. ILEGALIDADE. INCLUSÃO CUMULATIVA NA BASE DE CÁLCULO DOS PROVENTOS DE \"QUINTOS\" E \"OPÇÃO\", EM DESACORDO COM A LEGISLAÇÃO. CONHECIMENTO. ARGUMENTOS INSUFICIENTES PARA DESCONSTITUIR A DECISÃO RECORRIDA. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2770207%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779549",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4744",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4744/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO CIVIL. DNOCS. VANTAGEM PESSOAL NOMINALMENTE IDENTIFICÁVEL DA LEI 12.716/2012. RUBRICA ORIUNDA DE DETERMINAÇÃO JUDICIAL. INOBSERVÂNCIA DA OBRIGAÇÃO DE ABSORÇÃO DA PARCELA POR ALTERAÇÕES POSTERIORES DA ESTRUTURA REMUNERATÓRIA. ERRO NO FUNDAMENTO LEGAL DA APOSENTADORIA INFORMADO NO ATO. NEGATIVA DE REGISTRO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779549%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2777588",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4742",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4742/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. VANTAGEM DENOMINADA OPÇÃO AMPARADA JUDICIALMENTE, SEM TRÂNSITO EM JULGADO. PAGAMENTO CUMULADO COM QUINTOS, IMPOSSIBILIDADE. POSSIBILIDADE DE ESCOLHA ENTRE AS RUBRICAS. NEGATIVA DE REGISTRO. DETERMINAÇÕES. CIÊNCIA. PEDIDO DE REEXAME. CONHECIMENTO. NÃO PROVIMENTO. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777588%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778350",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4736",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4736/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS APÓS A LEI 9.624/1998. ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. NECESSÁRIA COMPROVAR A FILIAÇÃO POR OCASIÃO DA PROPOSITURA DA AÇÃO. NEGATIVA DE PROVIMENTO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778350%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778770",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5099",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5099/2026 ATA 32/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PENSÃO CIVIL. CUMULAÇÃO DE QUINTOS E OPÇÃO NA BASE DE CÁLCULO DO BENEFÍCIO. ESTRUTURA REMUNERATÓRIA CONSIDERADA LEGAL PELO TCU HÁ MAIS DE CINCO ANOS. REGISTRO DO ATO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778770%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779185",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5098",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5098/2026 ATA 32/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. ILEGALIDADE. INCLUSÃO CUMULATIVA DE 'QUINTOS' E 'OPÇÃO', EM DESACORDO COM A LEGISLAÇÃO. CONHECIMENTO. ARGUMENTOS INSUFICIENTES PARA DESCONSTITUIR A DECISÃO RECORRIDA. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779185%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779089",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4828",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4828/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. PAGAMENTO CUMULATIVO DAS PARCELAS \"OPÇÃO\" E QUINTOS. AFRONTA AO ART. 193, § 2º, DA LEI 8.112/1990. ILEGALIDADE. NEGATIVA DE REGISTRO. POSSIBILIDADE DE ESCOLHA ENTRE UMA DAS PARCELAS. PEDIDOS DE REEXAME. CONHECIMENTO. ARGUMENTOS INCAPAZES DE ALTERAR O ACÓRDÃO RECORRIDO. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779089%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769787",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4819",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4819/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO MILITAR. ADICIONAL POR TEMPO DE SERVIÇO CALCULADO EM PERCENTUAL SUPERIOR AO PREVISTO NA LEI 6.880/1980. BAIXA MATERIALIADE DO VALOR IMPUGNADO. PRINCÍPIO DO COLEGIADO. REGISTRO COM RESSALVA. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769787%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778285",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4817",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4817/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. POSSIBILIDADE DE ESCOLHA DE RECEBIMENTO DE UMA DAS VANTAGENS. ACUMULAÇÃO DE BENEFÍCIOS PREVIDENCIÁRIOS PAGOS NO ÂMBITO DO RGPS E DO RPPS. CIÊNCIA AO INSS PARA OBSERVÂNCIA DO ART. 24 DA EMENDA CONSTITUCIONAL 103/2019. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778285%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778271",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4815",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4815/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. VENCIMENTO BÁSICO COMPLEMENTAR (VBC). NÃO ABSORÇÃO CONFORME PREVISTO NA LEI 11.091/2005. REFLEXOS INDEVIDOS NO CÁLCULO DO ADICIONAL POR TEMPO DE SERVIÇO E DO INCENTIVO À QUALIFICAÇÃO. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778271%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779578",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4802",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4802/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. PROVENTOS INDEVIDAMENTE CALCULADOS COM BASE NA MÉDIA DE REMUNERAÇÕES PRETÉRITAS. INGRESSO NO SERVIÇO PÚBLICO FEDERAL ANTERIOR A 31/12/2003. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. DIREITO À INTEGRALIDADE E À PARIDADE, CONFORME ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES. CONHECIMENTO DO PEDIDO DE REEXAME. IMPOSSIBILIDADE DE ESCOLHA, DEVENDO-SE APLICAR A REGRA DE PARIDADE. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779578%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779746",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4801",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4801/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CNEN. PAGAMENTO CONCOMITANTE DE \"QUINTOS\" COM \"OPÇÃO\". HIPÓTESE VEDADA LEGALMENTE. LONGO TEMPO DECORRIDO DESDE A VIGÊNCIA DO ATO ATÉ O SEU INGRESSO NO TCU. EXCEPCIONALIDADE DA SITUAÇÃO. PRINCÍPIOS DA SEGURANÇA JURÍDICA, DA RAZOABILIDADE, DA PROPORCIONALIDADE E DA PROTEÇÃO DA CONFIANÇA. REGISTRO COM RESSALVA. CIÊNCIA À UNIDADE JURISDICIONADA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779746%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2773589",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5043",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5043/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. DIFERENÇA INDIVIDUAL INSTITUÍDA PELA LEI 12.998/2014. REGULARIDADE. REGISTRO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2773589%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778519",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5030",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO SHERMAN",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5030/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. INSS. RUBRICA \"PCCS\". VANTAGEM DIFERENÇA INDIVIDUAL ESTABELECIDA PELA LEI 12.998/2014. SUPOSTA INOBSERVÂNCIA DO ART. 2º, § 4º, DA LEI 11.355/2006 QUANTO À ABSORÇÃO DA RUBRICA. IDENTIFICAÇÃO, NO ENTANTO, DE QUE, NA HIPÓTESE, DADO TRATAR-SE DE EX-INTEGRANTE DA CARREIRA DE SEGURO SOCIAL, O TEMA DEVE SER ANALISADO SOB A ÓTICA DA LEI 10.855/2004. PEQUENA DESCONFORMIDADE DA RUBRICA COM AS DISPOSIÇÕES DA LEI APROPRIADA. AGUARDO DO RESULTADO DE GRUPO DE TRABALHO ACERCA DO TRATAMENTO A SER CONFERIDO A CASOS ENVOLVENDO VALORES AVALIADOS COMO INSIGNIFICANTES. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778519%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780371",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5023",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5023/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. COMPENSAÇÃO INCORRETA DA PARCELA \"ADIANTAMENTO PECUNIÁRIO\" (LEI 7.686/1988-PCCS), OCASIONANDO PAGAMENTOS INDEVIDOS A MAIOR. INOBSERVÂNCIA DAS LEIS 11.355/2006 E 11.784/2008 NO TOCANTE À ABSORÇÃO E EVENTUAL SUPRESSÃO DA VANTAGEM. ILEGALIDADE. EXCLUSÃO POSTERIOR DA VANTAGEM TIDA POR ILEGAL DOS PROVENTOS DE APOSENTADORIA. INCIDÊNCIA DO ART. 260, § 4º, DO RITCU. REGISTRO DO ATO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780371%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778039",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5021",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5021/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. SERVIDOR PÚBLICO QUE INGRESSOU ANTERIORMENTE A 2003 E QUE NÃO FEZ A OPÇÃO A QUE SE REFERE O § 16 DO ART. 40 DA CONSTITUIÇÃO FEDERAL. BENEFÍCIO DEFERIDO COM BASE NA MÉDIA DAS REMUNERAÇÕES. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO. DISPENSA DE DEVOLUÇÃO DOS VALORES INDEVIDAMENTE RECEBIDOS DE BOA-FÉ. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778039%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780360",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5019",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5019/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PENSÃO MILITAR. EXISTÊNCIA DE VEDAÇÃO LEGAL PARA A PERCEPÇÃO CUMULATIVA DE DUAS PENSÕES MILITARES APÓS O ADVENTO DA MP 2.215-10/2001. INSTITUIÇÃO DE BENEFÍCIO APÓS A EDIÇÃO DA EMENDA CONSTITUCIONAL (EC) 103/2019. POSSÍVEL PERCEPÇÃO CUMULATIVA DE PROVENTOS DE OUTROS REGIMES COM OS PROVENTOS DE BENEFÍCIO PENSIONAL. INOBSERVÂNCIA DO DISPOSTO NO ART. 24 DA EC 103/2019. NECESSIDADE DE REALIZAÇÃO DE DILIGÊNCIA. ILEGALIDADE DE UM ATO DE PENSÃO. NEGATIVA DE REGISTRO. REALIZAÇÃO DE DILIGÊNCIA EM RELAÇÃO A OUTRO ATO. REGISTRO DOS ATOS REMANESCENTES. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780360%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2775122",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5018",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5018/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PENSÃO CIVIL. INCLUSÃO, NO CÁLCULO INICIAL DOS PROVENTOS, DE PARCELAS ALUSIVAS A PERDA INFLACIONÁRIA DO SÉCULO PASSADO (PLANO VERÃO, DE FEVEREIRO DE 1989, ÍNDICE DE 26,05%), IMUNES DE ABSORÇÃO POR ESTRUTURAS REMUNERATÓRIAS SUPERVENIENTES. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. NÃO APRESENTAÇÃO DE ELEMENTOS BASTANTES PARA ALTERAR A DELIBERAÇÃO RECORRIDA. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775122%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780002",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5017",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "BENJAMIN ZYMLER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5017/2026 ATA 31/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. ATO EDITADO COM FUNDAMENTO NO ART. 20 DA EMENDA CONSTITUCIONAL (EC) 103/2019. IRREGULARIDADE NA FORMA DE CÁLCULO DOS PROVENTOS. PREENCHIDOS OS REQUISITOS PREVISTOS NO INCISO I DO § 2º DO ART. 20 DA EC 103/2019, OS PROVENTOS DEVERÃO SER CONCEDIDOS COM BASE NA INTEGRALIDADE E NA PARIDADE. ILEGALIDADE DO ATO. NEGATIVA DE REGISTRO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780002%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780061",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4748",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4748/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO MILITAR. PROVENTOS MAJORADOS PARA O GRAU HIERÁRQUICO IMEDIATAMENTE SUPERIOR, EM DESACORDO COM O ART. 110 DA LEI 6.880/1980. IRREGULARIDADE QUE SE COMUNICA PARA A PENSÃO MILITAR. ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME INTEMPESTIVO. NÃO CONHECER. REVISÃO DE OFÍCIO. ACÓRDÃO 1724/2025-TCU-PLENÁRIO. ATO DE ALTERAÇÃO DE REFORMA LEGAL. ESTRUTURA REMUNERATÓRIA ESTABILIZADA. REGISTRO DO ATO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780061%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778631",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4747",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4747/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO MILITAR. REVERSÃO. POSTO DE REFERÊNCIA PARA CÁLCULO DOS PROVENTOS DE PENSÃO DIFERENTE DO POSTO NA ATIVA. ATO DE REFORMA REGISTRADO. PROVENTOS CONFORME ESTRUTURA REMUNERATÓRIA CONSIDERADA LEGAL PELO TCU EM 1959. REGISTRO DO ATO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778631%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2777589",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4743",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4743/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PERCENTUAL DO ART. 26, § 2º, DA EMENDA CONSTITUCIONAL 103/2019 ABAIXO DO DEVIDO. ENRIQUECIMENTO SEM CAUSA DO ESTADO. NEGATIVA DE REGISTRO. DETERMINAÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777589%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780198",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4741",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4741/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PAGAMENTO DE FC JUDICIAL EM VALOR SUPERIOR AO DEVIDO. CÔMPUTO DE TEMPO INSALUBRE, SEM A APRESENTAÇÃO DE LAUDO PERICIAL ATESTANDO O LABOR EM CONDIÇÕES ESPECIAIS. ILEGALIDADE. PEDIDO DE REEXAME. SOBRESTAMENTO. PROVIMENTO. REGISTRO DE OFÍCIO DEFINITIVO DOS ATOS DE APOSENTADORIA DOS RECORRENTES ANTE REGISTRO TÁCITO OCORRIDO ANTES DO JULGAMENTO PELA ILEGALIDADE. PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780198%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2777999",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4733",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "15/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4733/2026 ATA 31/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO MILITAR. SUPERVENIÊNCIA DE INVALIDEZ PERMANENTE, COM A CONCESSÃO DE NOVO GRAU HIERÁRQUICO ACIMA DO QUE POSSUÍA NA REFORMA INICIAL. AUSÊNCIA DE PREVISÃO LEGAL. ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. APLICAÇÃO DO DISPOSTO NO ART. 1º DA LEI 616/1949. PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777999%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779831",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2545",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "16/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2545/2026 ATA 36/2026 - PLENÁRIO",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. FRAUDE PREVIDENCIÁRIA. CONCESSÃO IRREGULAR DE BENEFÍCIO DE APOSENTADORIA. CONTAS IRREGULARES. DÉBITO E MULTA. RECURSO DE RECONSIDERAÇÃO. CONHECIMENTO. ARGUMENTOS INSUFICIENTES PARA MODIFICAR A DECISÃO RECORRIDA. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779831%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2777368",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2524",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "16/09/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2524/2026 ATA 36/2026 - PLENÁRIO",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. INSS. CONCESSÃO IRREGULAR DE BENEFÍCIO PREVIDENCIÁRIO. PENSÃO POR MORTE. AUSÊNCIA DE RELAÇÃO DE DEPENDÊNCIA COM O INSTITUIDOR. AÇÃO PENAL SOBRE OS MESMOS FATOS. PRAZO DE PRESCRIÇÃO REGIDO PELA LEI PENAL. PRESCRIÇÃO NÃO CONSUMADA. REVELIA. CONTAS IRREGULARES. DÉBITO. MULTAS. INABILITAÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2777368%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2776517",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4824",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4824/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CÁLCULO INCORRETO DO VALOR DOS PROVENTOS, EM DESACORDO COM A LEGISLAÇÃO APLICÁVEL. ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. ARGUMENTOS INCAPAZES DE ALTERAR O ACÓRDÃO RECORRIDO. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776517%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2768452",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4813",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4813/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. VENCIMENTO BÁSICO COMPLEMENTAR (VBC). NÃO ABSORÇÃO CONFORME PREVISTO NA LEI 11.091/2005. BAIXA MATERIALIDADE DO VALOR IMPUGNADO. PRINCÍPIO DO COLEGIADO. REGISTRO COM RESSALVA. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2768452%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780907",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4811",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4811/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. SENTENÇA JUDICIAL RECONHECENDO A NATUREZA DE VENCIMENTO BÁSICO (VB) DA GRATIFICAÇÃO DE ATIVIDADE JUDICIÁRIA (GAJ). ADICIONAL DE TEMPO DE SERVIÇO E DE QUALIFICAÇÃO PAGOS COM BASE NO VB E NA GAJ. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO. DETERMINAÇÃO PARA QUE O ÓRGÃO DE ORIGEM ACOMPANHE A AÇÃO JUDICIAL.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780907%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779915",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4804",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "22/09/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4804/2026 ATA 32/2026 - SEGUNDA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. GRUPAMENTO DE APOIO DE CANOAS/RS. RECEBIMENTO INDEVIDO DE PENSÃO CIVIL NA CONDIÇÃO DE FILHA SOLTEIRA. CITAÇÃO. CONTAS IRREGULARES. DÉBITO. MULTA. COMUNICAÇÕES. i) Em caso de percepção fraudulenta de benefício previdenciário de natureza continuada, o termo inicial da prescrição corresponde à data em que a Administração toma ciência dos fatos, nos termos do art. 4º, inciso IV, da Resolução-TCU 344/2022, e não à data do último pagamento. ii) É irregular o recebimento de pensão na condição de filha solteira maior de 21 anos (art. 5º, parágrafo único, da Lei 3.373/1958) quando a pensionista houver constituído união estável, que é condição resolutiva do benefício e pode ser comprovada pela existência de filhos e residência em comum da beneficiária com o companheiro. iii) Na cobrança de valores relativos a benefício previdenciário pagos indevidamente, consideram-se prescritas as parcelas pagas há mais de cinco anos do ato que inicia a apuração da irregularidade pela Administração Pública, desde que não esteja caracterizada fraude por parte do beneficiário, aplicando-se, por isonomia e analogia, o prazo prescricional quinquenal previsto no art. 1º do Decreto 20.9",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779915%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780194",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2608",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "23/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2608/2026 ATA 37/2026 - PLENÁRIO",
+      "sumario": "ADMINISTRATIVO. PROJETO DE SÚMULA. INCORPORAÇÃO DE \"QUINTOS OU DÉCIMOS\" DECORRENTES DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS APÓS A PUBLICAÇÃO DA LEI 9.624/1998, EM COTEJO COM A MODULAÇÃO DEFINIDA PELO SUPREMO TRIBUNAL FEDERAL NO RE 638.115 E A JURISPRUDÊNCIA PACIFICADA DO TCU. APROVAÇÃO DO VERBETE SUMULAR. A incorporação ou a atualização da vantagem de 'quintos/décimos', transformada em Vantagem Pessoal Nominalmente Identificada - VPNI pelo art. 62-A da Lei 8.112/1990, somente são devidas até o dia 8/4/1998 (art. 3º da Lei 9.624/1998), devendo a regularização dos pagamentos efetuados em desacordo com essa regra observar, se for o caso, a modulação dada pelo STF no RE 638.115 (Tema 395 da Repercussão Geral); ressalvada a incorporação de parcela de 'décimo' com a utilização do tempo residual de exercício de funções comissionadas porventura existente em 10/11/1997 (art. 5º da Lei 9.624/1998), não empregado para a concessão de 'quintos', a ser efetivada na data em que o servidor completar o interstício de doze meses, mesmo que isso ocorra após a edição da MP 2.225-45/2001.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780194%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2750276",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2596",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "23/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2596/2026 ATA 37/2026 - PLENÁRIO",
+      "sumario": "PEDIDO DE REEXAME. REPRESENTAÇÃO. PENSÃO MILITAR POR \"MORTE FICTA\". LEI 13.954/2019 E DECRETO 10.742/2021. AUSÊNCIA DE AMPARO LEGAL À INSTITUIÇÃO DE PENSÃO DECORRENTE DE \"MORTE FICTA\" (POR EXPULSÃO DE MILITAR COM PERDA DE POSTO E PATENTE) ANTES DO RESPECTIVO ÓBITO. REPRESENTAÇÃO PROCEDENTE. RECOMENDAÇÃO AO MINISTÉRIO DA DEFESA E À CASA CIVIL PARA PROPOR ALTERAÇÃO DO §4º DO ARTIGO 19 DO DEC. 10.742/2021, QUE EQUIPARA O ATO DE DESLIGAMENTO À CERTIDÃO DE ÓBITO, DE MODO A IMPEDIR A CONCESSÃO DE PENSÃO ANTES DO ÓBITO DO INSTITUIDOR. PEDIDO DE REEXAME. CONHECIMENTO. VALIDEZ JURÍDICA FORMAL DO DEC. 10.742/2021 QUANTO AO DIREITO QUESTIONADO. PROVIMENTO PARCIAL DO RECURSO. REPRESENTAÇÃO PARCIALMENTE PROCEDENTE. ALTERAÇÃO DA RECOMENDAÇÃO CONTIDA NO SUBITEM 9.3 DO AC. 2.602/2025-PLENÁRIO, PARA RECONHECER A DISCRICIONARIEDADE DO PODER EXECUTIVO QUANTO À MANUTENÇÃO OU NÃO DO DIREITO QUESTIONADO. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2750276%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769384",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2592",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "23/09/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2592/2026 ATA 37/2026 - PLENÁRIO",
+      "sumario": "ATOS DE PENSÃO MILITAR. REGISTRO DE QUATRO ATOS. INOBSERVÂNCIA EM UM ATO DO REDUTOR PREVISTO NO ART. 24, § 2º, DA EC 103/2019 NO BENEFÍCIO DO RGPS ACUMULADO. DIVERGÊNCIA ENTRE DELIBERAÇÕES ANTERIORES DO TRIBUNAL. NECESSIDADE DE APRECIAÇÃO PRELIMINAR DA CONTROVÉRSIA CONFORME RITO PREVISTO NO ART. 91 DO REGIMENTO INTERNO DO TCU. INSTAURAÇÃO DE INCIDENTE DE UNIFORMIZAÇÃO DE JURISPRUDÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769384%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    }
+  ]
+}
