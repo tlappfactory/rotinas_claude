@@ -1,7 +1,7 @@
-name: send-boletim-colep
+name: send-boletim
 
-# Envia o Boletim Normativo COLEP por SMTP a partir do par de arquivos
-# versionado pela Routine COLEP-01 em boletins/<YYYY-MM-DD>.{html,txt}.
+# Envia o Boletim Normativo por SMTP a partir do par de arquivos
+# versionado pela rotina em boletins/<YYYY-MM-DD>.{html,txt}.
 #
 # Três gatilhos:
 #   push      — a rotina commita o boletim do dia em main e o envio dispara
@@ -48,7 +48,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: send-boletim-colep
+  group: send-boletim
   cancel-in-progress: false
 
 jobs:

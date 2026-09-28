@@ -33,8 +33,8 @@ REPO_ROOT = SCRIPT_DIR.parent
 DOU_ROOT = Path(os.environ.get("DOU_ROOT", REPO_ROOT / "dou"))
 
 # Limite do trecho de texto do ato gravado no JSON. Acima disso, a flag
-# `texto_truncated` sinaliza ao consumidor (Routine COLEP-01) que cabe revisão
-# humana do texto integral antes da redação da ementa.
+# `texto_truncated` sinaliza ao consumidor (rotina do Boletim Normativo) que
+# cabe revisão humana do texto integral antes da redação da ementa.
 TEXTO_RESUMO_MAX_CHARS = 6000
 
 # Keywords FORTES — quase sempre sinalizam tema de pessoal/previdência/remuneração.

@@ -7,7 +7,7 @@ on:
     # pacote do DOU consolidado às 10h BRT — versões mais cedo costumam
     # retornar 404/parcial; (b) o DEJT do dia tem publicação válida
     # (disponibilizado na véspera às 19h BRT); (c) ainda dá ~2h de folga até
-    # o expediente da COLEP começar (12h BRT). Minuto deslocado de :00 para
+    # o expediente da SGP começar (12h BRT). Minuto deslocado de :00 para
     # :03 de propósito: crons marcados para o topo da hora competem com o
     # maior volume de agendamentos de toda a plataforma do GitHub e por isso
     # sofrem mais fila/atraso — levantamento de 30 execuções mostrou runs de

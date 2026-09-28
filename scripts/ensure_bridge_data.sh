@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ensure_bridge_data.sh — usado pela Routine COLEP-01 (ver CLAUDE.md).
+# ensure_bridge_data.sh — usado pela rotina do Boletim Normativo (ver CLAUDE.md).
 #
 # Garante que os JSONs do bridge para a data-alvo existam ANTES de o boletim
 # ser montado. Se faltarem, dispara o workflow do GitHub Actions via

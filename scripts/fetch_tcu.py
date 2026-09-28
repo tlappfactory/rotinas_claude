@@ -52,7 +52,7 @@ REQUEST_TIMEOUT = 60
 
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "rotinas-claude-trt17/1.0 (+routine-colep-01)",
+    "User-Agent": "rotinas-claude-trt17/1.0 (+boletim-normativo)",
 }
 
 TRT17_PATTERNS = [

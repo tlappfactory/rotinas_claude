@@ -1,4 +1,4 @@
-# rotinas_claude — bridge DOU/INLabs para a Routine COLEP-01
+# rotinas_claude — bridge DOU/INLabs para a rotina do Boletim Normativo
 
 Repositório-ponte que executa a varredura diária do DOU (via API INLabs da Imprensa Nacional) fora do sandbox do Claude e disponibiliza os atos filtrados em JSON para consumo posterior.
 
@@ -34,7 +34,7 @@ O sandbox onde o Claude executa bloqueia, por allowlist de egresso, todos os por
 
 ## Disparo automático do bridge pela rotina (opcional)
 
-Ao montar o boletim, a Routine COLEP-01 executa `scripts/ensure_bridge_data.sh`: se faltarem os JSONs do dia, ela dispara este workflow via `workflow_dispatch` e aguarda — em vez de cair silenciosamente para a edição anterior (ver `CLAUDE.md`, seção "Garantia de dados frescos do dia").
+Ao montar o boletim, a rotina executa `scripts/ensure_bridge_data.sh`: se faltarem os JSONs do dia, ela dispara este workflow via `workflow_dispatch` e aguarda — em vez de cair silenciosamente para a edição anterior (ver `CLAUDE.md`, seção "Garantia de dados frescos do dia").
 
 Para o disparo automático funcionar, a sessão Claude precisa de um token GitHub na variável de ambiente `BRIDGE_DISPATCH_TOKEN` (ou `GH_TOKEN`). **Sem token a rotina não trava**: o script sai com código `10` e o boletim escala o aviso, mantendo o disparo manual como alternativa.
 
@@ -63,7 +63,7 @@ Para o disparo automático funcionar, a sessão Claude precisa de um token GitHu
 
 ## Consumo pelo Claude
 
-No sandbox do Claude (sessão diária da Routine COLEP-01):
+No sandbox do Claude (sessão diária da rotina do Boletim Normativo):
 
 ```bash
 git -C /home/user/rotinas_claude pull

@@ -1,9 +1,9 @@
 Prezado(a) servidor(a),
 
-Segue rascunho do Boletim Normativo COLEP do dia 28 de setembro de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+Segue rascunho do Boletim Normativo do dia 28 de setembro de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
 
 ===========================================================
-BOLETIM NORMATIVO COLEP — 28 de setembro de 2026
+BOLETIM NORMATIVO — 28 de setembro de 2026
 ===========================================================
 
 1. ALTO IMPACTO (ação imediata)
@@ -30,7 +30,7 @@ Fonte: DEJT Caderno Administrativo do TST, publicação de 28/09/2026 (diario.jt
 TCU — acórdãos das sessões de 15 a 23/09/2026
 Status: mesma janela de sessões do Boletim de 25/09/2026 (não houve nova sessão do TCU desde então). 45 acórdãos corresponderam ao filtro temático da SGP nesta consulta (41 na consulta anterior, mesma janela — variação provavelmente decorrente do reprocessamento da API de dados abertos). Padrão predominante mantido: negativa de registro a atos de aposentadoria/pensão que cumulam as parcelas "quintos" e "opção" (violação ao art. 193, §2º, da Lei 8.112/1990) — ver também o Acórdão 2608/2026-Plenário, reportado em Alto Impacto. Nenhum dos demais acórdãos menciona expressamente o TRT-17.
 Possível reflexo: SELEP, SESES — jurisprudência consolidada do TCU sobre vedação à cumulação "opção"/"quintos" e sobre o marco de 8/4/1998, útil como parâmetro preventivo na análise de quintos/anuênios/aposentadorias de servidores do TRT-17.
-Fonte: acórdãos do TCU, sessões de 15 a 23/09/2026 (relação completa disponível mediante solicitação à COLEP).
+Fonte: acórdãos do TCU, sessões de 15 a 23/09/2026 (relação completa disponível mediante solicitação à SGP).
 
 DOU Seções 1 e 2 — atos administrativos individuais de outros órgãos
 Status: a edição de hoje traz 260 atos casados com o filtro temático da SGP (80 na Seção 1, 180 na Seção 2), dentre 1.279 matérias publicadas. São concessões individuais de aposentadoria/pensão e designações/dispensas de função comissionada de servidores de outros órgãos federais (MGI/DECIPEX, STJ, STF, TST, CJF, TCU), relatórios de gestão fiscal de outros tribunais e resoluções de natureza financeira/sanitária sem relação com pessoal. Nenhum é do TRT-17 nem traz conteúdo normativo geral de interesse da SGP. Nenhuma edição extra (1E/2E) foi capturada pelo filtro nesta data.
@@ -44,12 +44,12 @@ Fonte: cobertura de imprensa especializada (consulta realizada, sem achado perti
 
 STJ — Tema 1472 (recursos repetitivos) — REsp 2.258.325-CE e REsp 2.254.394-CE
 Status: sem movimentação processual nova desde a afetação (25/08/2026), já reportada no Boletim de 15/09/2026. Os recursos permanecem sobrestados, discutindo se a demora injustificada da Administração na análise de pedido de aposentadoria gera dever de indenizar o servidor por danos materiais.
-Possível reflexo: SESES, COLEP — acompanhar julgamento; tema de interesse direto para o controle de prazos de instrução de pedidos de aposentadoria.
+Possível reflexo: SESES, SGP — acompanhar julgamento; tema de interesse direto para o controle de prazos de instrução de pedidos de aposentadoria.
 Fonte: cobertura de imprensa especializada sobre o Tema 1472/STJ.
 
 STJ — Corte Especial: efeitos de mudança de jurisprudência sobre relações de trato continuado
 Status: julgamento concluído em Plenário virtual em 15/09/2026 (Corte Especial), segundo cobertura de imprensa especializada, sobre os efeitos de mudança de jurisprudência em recursos repetitivos sobre relações jurídicas de trato continuado — inclusive quanto à possibilidade de interrupção de efeitos de decisões já transitadas em julgado nessas relações. [verificar nº do recurso/tema na fonte] [carece de leitura humana do texto integral — potencial relação com benefícios de trato continuado (aposentadoria/pensão) exige confirmação do teor exato da tese antes de qualquer conclusão]
-Possível reflexo: SESES, COLEP — tema de atenção: benefícios de trato continuado concedidos com base em jurisprudência superada poderiam, em tese, ser afetados; aguardar publicação do acórdão e número oficial do tema antes de qualquer ação.
+Possível reflexo: SESES, SGP — tema de atenção: benefícios de trato continuado concedidos com base em jurisprudência superada poderiam, em tese, ser afetados; aguardar publicação do acórdão e número oficial do tema antes de qualquer ação.
 Fonte: cobertura de imprensa especializada (Conjur, 17/09/2026) — https://conjur.com.br/2026-set-17/tese-vinculante-do-stj-permite-rever-beneficio-definitivo/
 
 ===========================================================
@@ -59,7 +59,7 @@ RESUMO ESTATÍSTICO
 - Itens Médio Impacto: 0
 - Itens Informativos: 1 (bloco com 3 atos do TST)
 - Itens em Monitoramento: 5 blocos (TCU, DOU-outros órgãos, STF, STJ Tema 1472, STJ Corte Especial)
-- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 28/09/2026 — varredura integral pelo filtro temático da SGP; 260 atos casaram com o filtro (80 na Seção 1, 180 na Seção 2), dentre 1.279 matérias publicadas. Nenhum ato do TRT-17 nem de conteúdo normativo geral de interesse da SGP. Nenhuma edição extra (1E/2E) capturada pelo filtro nesta data. DEJT Caderno Administrativo do TRT-17, publicação de 28/09/2026 (disponibilização de 25/09/2026): 1 ato detectado, nenhum pertinente à SGP/COLEP segundo o filtro temático — caderno sem cabeçalhos segmentados pela ferramenta automatizada (recomenda-se conferência manual pontual pela COLEP). DEJT Caderno Administrativo do CSJT, publicação de 28/09/2026 (disponibilização de 25/09/2026): 1 ato detectado (Secretaria de Auditoria Interna), nenhum pertinente à SGP/COLEP segundo o filtro temático. DEJT Caderno Administrativo do TST, publicação de 28/09/2026 (disponibilização de 25/09/2026): 4 atos detectados, 3 pertinentes ao filtro temático (listados em Informativo). Acórdãos do TCU das sessões de 15 a 23/09/2026 (45 casados pelo filtro temático da SGP; destaque para o Acórdão 2608/2026-Plenário, listado em Alto Impacto; nenhum dos demais menciona expressamente o TRT-17). Jurisprudência do STF e do STJ via cobertura de imprensa especializada (STJ sem movimentação nova no Tema 1472, mas com novo julgamento da Corte Especial sobre trato continuado a acompanhar; STF sem novidades pertinentes e datadas na janela).
+- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 28/09/2026 — varredura integral pelo filtro temático da SGP; 260 atos casaram com o filtro (80 na Seção 1, 180 na Seção 2), dentre 1.279 matérias publicadas. Nenhum ato do TRT-17 nem de conteúdo normativo geral de interesse da SGP. Nenhuma edição extra (1E/2E) capturada pelo filtro nesta data. DEJT Caderno Administrativo do TRT-17, publicação de 28/09/2026 (disponibilização de 25/09/2026): 1 ato detectado, nenhum pertinente à SGP segundo o filtro temático — caderno sem cabeçalhos segmentados pela ferramenta automatizada (recomenda-se conferência manual pontual pela SGP). DEJT Caderno Administrativo do CSJT, publicação de 28/09/2026 (disponibilização de 25/09/2026): 1 ato detectado (Secretaria de Auditoria Interna), nenhum pertinente à SGP segundo o filtro temático. DEJT Caderno Administrativo do TST, publicação de 28/09/2026 (disponibilização de 25/09/2026): 4 atos detectados, 3 pertinentes ao filtro temático (listados em Informativo). Acórdãos do TCU das sessões de 15 a 23/09/2026 (45 casados pelo filtro temático da SGP; destaque para o Acórdão 2608/2026-Plenário, listado em Alto Impacto; nenhum dos demais menciona expressamente o TRT-17). Jurisprudência do STF e do STJ via cobertura de imprensa especializada (STJ sem movimentação nova no Tema 1472, mas com novo julgamento da Corte Especial sobre trato continuado a acompanhar; STF sem novidades pertinentes e datadas na janela).
 - Fontes sem retorno relevante nesta data: STF (sem tese vinculante nova, datada nos últimos 7 dias, sobre pessoal do serviço público judiciário/RPPS).
 ===========================================================
 
@@ -69,4 +69,4 @@ OBSERVAÇÕES DE CONFORMIDADE
 - Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes eventualmente citados constam de atos de gestão de pessoal já publicados em fonte oficial de acesso público, com base no art. 7º, incisos II e III, da LGPD c/c o princípio da publicidade do art. 37 da Constituição Federal.
 - Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
 
-Rascunho gerado por Routine COLEP-01 (Claude AI) em 28/09/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
+Rascunho gerado pela rotina do Boletim Normativo (Claude AI) em 28/09/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.

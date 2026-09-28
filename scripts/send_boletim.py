@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""send_boletim.py — envia o Boletim Normativo COLEP por SMTP.
+"""send_boletim.py — envia o Boletim Normativo por SMTP.
 
-Lê o par de arquivos versionados pela Routine COLEP-01:
+Lê o par de arquivos versionados pela rotina:
 
     boletins/<YYYY-MM-DD>.html   corpo rich-text
     boletins/<YYYY-MM-DD>.txt    alternativa plain-text
@@ -136,7 +136,7 @@ def enviar(msg: EmailMessage, destinatarios: list[str]) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Envia o Boletim Normativo COLEP por SMTP.")
+    parser = argparse.ArgumentParser(description="Envia o Boletim Normativo por SMTP.")
     parser.add_argument("--data", help="Data do boletim (YYYY-MM-DD). Default: o mais recente.")
     parser.add_argument("--dry-run", action="store_true",
                         help="Valida e imprime o cabeçalho, sem enviar.")

@@ -1,8 +1,8 @@
-# Routine COLEP-01 — Boletim Normativo COLEP / TRT-17
+# Boletim Normativo — TRT-17
 
 ## EXECUÇÃO AUTÔNOMA (sessão diária agendada)
 
-Esta rotina é disparada automaticamente todo dia útil pela plataforma Claude.ai por volta das **11h30 BRT (14h30 UTC)** — antes do início do expediente da COLEP às 12h BRT. Quando uma sessão se inicia neste diretório, **executar o pipeline ponta-a-ponta imediatamente, sem pedir confirmação ao usuário e sem aguardar comando do tipo "boletim de hoje"**. A presença desta CLAUDE.md já constitui a instrução de execução.
+Esta rotina é disparada automaticamente todo dia útil pela plataforma Claude.ai por volta das **11h30 BRT (14h30 UTC)** — antes do início do expediente da SGP às 12h BRT. Quando uma sessão se inicia neste diretório, **executar o pipeline ponta-a-ponta imediatamente, sem pedir confirmação ao usuário e sem aguardar comando do tipo "boletim de hoje"**. A presença desta CLAUDE.md já constitui a instrução de execução.
 
 Passos obrigatórios na ordem:
 
@@ -31,15 +31,15 @@ Passos obrigatórios na ordem:
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
 4. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
 5. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
-6. **Gerar o boletim** a partir do template `/home/user/rotinas_claude/colep-boletim-template.html` com os placeholders preenchidos, gravando o par de arquivos e publicando-o (ver "Envio do boletim"):
+6. **Gerar o boletim** a partir do template `/home/user/rotinas_claude/boletim-template.html` com os placeholders preenchidos, gravando o par de arquivos e publicando-o (ver "Envio do boletim"):
    ```bash
    # boletins/<YYYY-MM-DD>.html  — corpo rich-text
    # boletins/<YYYY-MM-DD>.txt   — alternativa plain-text equivalente
    git -C /home/user/rotinas_claude add boletins/
-   git -C /home/user/rotinas_claude commit -m "Boletim COLEP <YYYY-MM-DD>"
+   git -C /home/user/rotinas_claude commit -m "Boletim Normativo <YYYY-MM-DD>"
    git -C /home/user/rotinas_claude push origin main
    ```
-   O push dispara o workflow `send-boletim-colep`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho.
+   O push dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho.
 7. **Confirmar o envio** consultando o workflow (`mcp__github__actions_list`, `list_workflow_runs` de `send-boletim.yml`) e **reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, resultado do envio (conclusão do run), fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
@@ -47,11 +47,11 @@ Regras de comportamento autônomo:
 - Se a data corrente não tiver JSON ainda, **não** cair silenciosamente para a edição anterior: o passo 2 (`scripts/ensure_bridge_data.sh`) dispara o bridge e aguarda. O JSON mais recente disponível só é usado como fallback quando o dispatch não é possível ou estoura o tempo-limite — e, nesse caso, com escalonamento visível conforme "Garantia de dados frescos do dia (dispatch automático)", sempre declarando a situação no aviso metodológico do boletim.
 - Se `git pull` falhar (rede, autenticação), continuar com os dados locais já presentes e sinalizar no boletim.
 - Se nenhum dos JSONs estiver acessível, ainda assim produzir o boletim com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
-- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige `git push origin main` manual (ou *Actions → send-boletim-colep → Run workflow* após o push).
+- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige `git push origin main` manual (ou *Actions → send-boletim → Run workflow* após o push).
 
 ## Identidade e contexto
 
-Assistente de pesquisa normativa e jurisprudencial da **Coordenadoria de Legislação de Pessoal (COLEP)** do **TRT da 17ª Região (ES)**. Atua em apoio às chefias da COLEP, SELEP, SESES e demais unidades da SGP: CODOP, SEGECOP, SELIR, SEGEDE, COREP, DIPROF, SEINFO, SECOBE.
+Assistente de pesquisa normativa e jurisprudencial da **Secretaria de Gestão de Pessoas (SGP)** do **TRT da 17ª Região (ES)**. Atua em apoio às chefias da SGP e de suas unidades: SELEP, SESES, CODOP, SEGECOP, SELIR, SEGEDE, COREP, DIPROF, SEINFO, SECOBE.
 
 ## Conformidade obrigatória
 
@@ -65,7 +65,7 @@ NUNCA acessar, processar ou citar dados pessoais identificáveis, processos sigi
 
 ## Tarefa diária
 
-Produzir o **Boletim Normativo COLEP** e enviá-lo por e-mail a `leonardo.donato@trt17.jus.br`, que o revisa antes de qualquer distribuição às unidades da SGP.
+Produzir o **Boletim Normativo** e enviá-lo por e-mail a `leonardo.donato@trt17.jus.br`, que o revisa antes de qualquer distribuição às unidades da SGP.
 
 ### Fontes a consultar
 
@@ -91,7 +91,7 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 ### Triagem de cada item
 
-- **Unidade(s) destinatária(s)**: uma ou mais entre {COLEP, SELEP, SESES, CODOP, SEGECOP, SELIR, SEGEDE, COREP, DIPROF, SEINFO, SECOBE, SGP-direção}
+- **Unidade(s) destinatária(s)**: uma ou mais entre {SELEP, SESES, CODOP, SEGECOP, SELIR, SEGEDE, COREP, DIPROF, SEINFO, SECOBE, SGP-direção}
 - **Grau de impacto**:
   - **ALTO** = exige alteração de procedimento, modelo de parecer, sistema ou ato normativo interno
   - **MÉDIO** = exige ciência e ajuste pontual de rotina
@@ -108,7 +108,7 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 ## Template HTML do e-mail (permanente)
 
-**Arquivo:** `colep-boletim-template.html` (mesmo diretório deste CLAUDE.md).
+**Arquivo:** `boletim-template.html` (mesmo diretório deste CLAUDE.md).
 
 - Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
 - Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
@@ -128,7 +128,7 @@ O e-mail é dirigido às chefias e servidores da SGP, não a equipe técnica. **
 
 ## Pipeline INLabs (DOU) — bridge via GitHub Actions
 
-A partir de 11/05/2026, a Routine COLEP-01 consome o DOU via **bridge no GitHub**: o sandbox onde o Claude executa não tem egresso para `inlabs.in.gov.br`, mas tem para `github.com`. Um repositório privado (`tlappfactory/rotinas_claude`) hospeda scripts que rodam em GitHub Actions a cada dia útil, baixam o DOU via INLabs e commitam o JSON filtrado de volta no repo. O Claude faz `git pull` e lê o JSON.
+A partir de 11/05/2026, a rotina do Boletim Normativo consome o DOU via **bridge no GitHub**: o sandbox onde o Claude executa não tem egresso para `inlabs.in.gov.br`, mas tem para `github.com`. Um repositório privado (`tlappfactory/rotinas_claude`) hospeda scripts que rodam em GitHub Actions a cada dia útil, baixam o DOU via INLabs e commitam o JSON filtrado de volta no repo. O Claude faz `git pull` e lê o JSON.
 
 ### Arquitetura
 
@@ -243,7 +243,7 @@ DEJT/CSJT/CNJ-atos/TRT-17 continuam marcados como "não acessíveis pela ferrame
 
 ### LGPD e finalidade pública
 
-A chefia da COLEP confirmou que os **nomes próprios** publicados no DO2 (aposentadorias, cessões, nomeações) podem ser citados no boletim, pois constituem **dado público em finalidade pública legítima** (gestão de pessoal pelo órgão competente da SGP), com base no art. 7º, II e III da LGPD c/c o princípio da publicidade do art. 37 da CF. Não há necessidade de redação de nomes nos boletins internos.
+A chefia da SGP confirmou que os **nomes próprios** publicados no DO2 (aposentadorias, cessões, nomeações) podem ser citados no boletim, pois constituem **dado público em finalidade pública legítima** (gestão de pessoal pelo órgão competente da SGP), com base no art. 7º, II e III da LGPD c/c o princípio da publicidade do art. 37 da CF. Não há necessidade de redação de nomes nos boletins internos.
 
 ## Envio do boletim
 
@@ -251,7 +251,7 @@ O e-mail sai por SMTP a partir do runner do GitHub Actions — não pelo conecto
 Gmail, que não tem operação de envio. O caminho completo:
 
 ```
-Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-boletim-colep
+Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-boletim
                                                               │
                                                    scripts/send_boletim.py
                                                               │
@@ -320,7 +320,7 @@ Testes em 11/05/2026 confirmaram que o `WebFetch` direto retorna **HTTP 403 Forb
 | TCU jurisprudência | n/a | ✅ **API JSON** `dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos` via bridge (`scripts/fetch_tcu.py`) |
 | `atos.cnj.jus.br` (atos normativos CNJ) | 403 | ✅ **DOU Seção 1** (resoluções, recomendações, instruções normativas do CNJ são publicadas obrigatoriamente no DOU/S1 — capturadas pelo pipeline INLabs) |
 | `dejt.jt.jus.br` (pesquisa por data) | 403 + exige POST | ❌ não usado — `diario.jt.jus.br` resolve a edição corrente |
-| `www.trt17.jus.br` (portal institucional) | 403 | n/a — **fora do escopo da automação** (a COLEP é interna ao TRT-17 e tem acesso direto a esses atos; a cobertura útil de atos do TRT-17 vem do DEJT Caderno Administrativo) |
+| `www.trt17.jus.br` (portal institucional) | 403 | n/a — **fora do escopo da automação** (a SGP é interna ao TRT-17 e tem acesso direto a esses atos; a cobertura útil de atos do TRT-17 vem do DEJT Caderno Administrativo) |
 | STF/STJ jurisprudência vinculante | 403 (portais) | ✅ cobertura indexada via WebSearch (Conjur, sítios oficiais) |
 
 **Fontes 100% cobertas pela rotina:**
@@ -356,10 +356,10 @@ O TCU disponibiliza acórdãos via API JSON: `https://dados-abertos.apps.tcu.gov
 
 ### Convenção de linguagem por fonte na minuta (anti-ambiguidade)
 
-Cada fonte primária consultada na edição utilizada deve aparecer no boletim com um status que distingue quatro cenários — **proibido o atalho genérico "sem novidades pertinentes" sempre que existirem atos detectados na fonte**, mesmo que nenhum tenha vínculo com a SGP/COLEP. Convenções obrigatórias:
+Cada fonte primária consultada na edição utilizada deve aparecer no boletim com um status que distingue quatro cenários — **proibido o atalho genérico "sem novidades pertinentes" sempre que existirem atos detectados na fonte**, mesmo que nenhum tenha vínculo com a SGP. Convenções obrigatórias:
 
 - **`status: ok` + `matched_atos > 0`** → listar os atos pertinentes na seção correspondente (Alto/Médio/Informativo/Monitoramento).
-- **`status: ok` + `matched_atos = 0` + `total_atos_detectados > 0`** → redigir literalmente "DEJT [caderno] publicação `YYYY-MM-DD`: N atos detectados, nenhum pertinente à SGP/COLEP segundo o filtro temático (matéria jurisdicional / editais municipais / [outra natureza, extraída de `headers_sample`])". **Não** usar "sem novidades pertinentes" aqui — o leitor precisa saber que a edição foi consultada e que os atos existem, ainda que fora do escopo SGP.
+- **`status: ok` + `matched_atos = 0` + `total_atos_detectados > 0`** → redigir literalmente "DEJT [caderno] publicação `YYYY-MM-DD`: N atos detectados, nenhum pertinente à SGP segundo o filtro temático (matéria jurisdicional / editais municipais / [outra natureza, extraída de `headers_sample`])". **Não** usar "sem novidades pertinentes" aqui — o leitor precisa saber que a edição foi consultada e que os atos existem, ainda que fora do escopo SGP.
 - **`status: ok` + `total_atos_detectados = 0`** → "DEJT [caderno] publicação `YYYY-MM-DD`: edição publicada, sem atos administrativos no caderno". Só nesta hipótese cabe o atalho "sem novidades nesta edição".
 - **`status: no_pdf`** → "DEJT [caderno]: sem publicação no Caderno Administrativo na edição utilizada (situação legítima, não erro de coleta)".
 - **`status: pdf_stale` OU ausência do JSON da publicação esperada** → declarar EXPLICITAMENTE "DEJT [caderno] publicação `YYYY-MM-DD`: edição não consultada pela rotina automatizada — conferência manual em `diario.jt.jus.br`".
