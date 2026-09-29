@@ -1,13 +1,13 @@
 {
-  "run_utc": "2026-09-29T15:14:52Z",
+  "run_utc": "2026-09-29T18:34:12Z",
   "lookback_days": 14,
   "cutoff_date": "2026-09-15",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
   "pages_fetched": 3,
-  "items_seen": 1550,
-  "min_date_seen": "2026-08-05",
-  "max_date_seen": "2026-09-23",
-  "total_matched": 45,
+  "items_seen": 1500,
+  "min_date_seen": "2026-08-18",
+  "max_date_seen": "2026-09-29",
+  "total_matched": 48,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2780189",
@@ -937,6 +937,66 @@
       "urlArquivoPDF": null,
       "strong_keywords": [
         "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2781392",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4895",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4895/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. INCLUSÃO NOS PROVENTOS DE PARCELA \"DIFERENÇA INDIVIDUAL - LEI 12.998/2014\". NÃO ABSORÇÃO POR REAJUSTES DA CATEGORIA, EM CONTRARIEDADE AOS NORMATIVOS DE REGÊNCIA E À JURISPRUDÊNCIA DESTE TCU. NEGATIVA DE REGISTRO. DETERMINAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781392%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780768",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4884",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4884/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CONCESSÃO DE REGISTRO A QUATRO ATOS. ATRIBUIÇÃO DE PROVENTOS ATRELADOS À REMUNERAÇÃO DE CARGO DISTINTO DAQUELE OCUPADO PELO INTERESSADO NA ATIVIDADE EM UM DOS ATOS. NEGATIVA DE REGISTRO. DETERMINAÇÕES. PEDIDO DE REEXAME. CONHECIMENTO. ARGUMENTOS INSUFICIENTES PARA DESCONSTITUIR A DECISÃO RECORRIDA. NEGATIVA DE PROVIMENTO. EMBARGOS DE DECLARAÇÃO. INTEMPESTIVIDADE. NÃO CONHECIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780768%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780303",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4883",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4883/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. TRÊS ATOS DO MESMO INTERESSADO, SENDO UM INICIAL E DOIS DE ALTERAÇÃO. IRREGULARIDADES. NEGATIVA DE REGISTRO AO ATO INICIAL E A UM ATO DE ALTERAÇÃO. UM DOS ATOS DE ALTERAÇÃO PREJUDICADO POR INÉPCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780303%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
       ],
       "weak_keywords": [],
       "trt17_hits": [],

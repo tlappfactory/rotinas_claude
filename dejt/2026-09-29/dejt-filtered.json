@@ -6,7 +6,7 @@
       "pdf_size_kb": 225,
       "pdf_text_chars": 20145,
       "total_atos_detectados": 4,
-      "matched_atos": 2,
+      "matched_atos": 4,
       "headers_sample": [
         "EDITAL Nº 10/2026",
         "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026",
@@ -28,7 +28,7 @@
       ]
     }
   },
-  "total_matched": 2,
+  "total_matched": 4,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -81,6 +81,30 @@
         "substituicao_fc_cc"
       ],
       "score": 16
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0002600-91.2016.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DISPENSAR\n\n\n\n                       Ana Clara Xavier Rosa Kitzinger,\n                       Técnica Judiciária, área Administrativa, da função comissionada de Calculista - FC-04\n                       ,\n                       do (a) 10ª Vara do Trabalho de Vitória - VITV10.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          5\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345328 e o código CRC 786BC7A4.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 452/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 452/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0000409-05.2018.5.17.0500\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          6\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DESIGNAR\n\n\n\n                       Nelson Fábio Ribeiro Carminati, Técnico Judiciário, área Administrativa, para exercer a função comissionada de Calculista -\n                       FC-04 do (a) 10ª Vara do Trabalho de Vitória - VITV10.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345331 e o código CRC 664B46D7.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11
     }
   ]
 }

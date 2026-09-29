@@ -1,7 +1,7 @@
 {
   "date": "2026-09-28",
-  "total_xml_files": 1279,
-  "matched_articles": 260,
+  "total_xml_files": 1308,
+  "matched_articles": 266,
   "parse_errors": [],
   "strong_keyword_tags": [
     "aposentadoria",
@@ -2147,6 +2147,35 @@
       "xml_file": "529_20260928_24420766.xml"
     },
     {
+      "id": "51508899",
+      "section": "DO2E",
+      "pub_date": "28/09/2026",
+      "art_type": "Ato",
+      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Presidência",
+      "identifica": "ATO Nº 532, DE 21 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ATO Nº 532, DE 21 DE SETEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, resolve: Nomear a servidora RAISSA DE ALMEIDA SOUSA VIEIRA AMORIM, código 63083, Analista Judiciária, Área Judiciária, para exercer o cargo em comissão de Assistente Judiciária, Nível CJ-1, privativa de bacharel em Direito, do Gabinete do Ex.mo Sr. Ministro Cláudio Mascarenhas Brandão, de que trata a Resolução Administrativa nº 2320 de 16/5/2022. Min. VIEIRA DE MELLO FILHO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "183-A",
+      "url": "https://www.in.gov.br/web/dou/-/ATO-GDGSET.GP-532-12109335",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=604&pagina=1&data=28/09/2026",
+      "orgao_emissor_hits": [
+        "tribunal superior do trabalho"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "604_20260928_24422755.xml"
+    },
+    {
       "id": "51488473",
       "section": "DO1",
       "pub_date": "28/09/2026",
@@ -3338,6 +3367,33 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20260928_24420636.xml"
+    },
+    {
+      "id": "51485605",
+      "section": "DO1E",
+      "pub_date": "28/09/2026",
+      "art_type": "Portaria Conjunta",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Gabinete da Ministra",
+      "identifica": "PORTARIA CONJUNTA MGI/MPO Nº 64, DE 23 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA CONJUNTA MGI/MPO Nº 64, DE 23 DE SETEMBRO DE 2026 A MINISTRA DE ESTADO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS E O MINISTRO DE ESTADO DO PLANEJAMENTO E ORÇAMENTO, no uso de suas atribuições, e em conformidade com o disposto no art. 5º da Lei nº 8.745, de 9 de dezembro de 1993, e na Instrução Normativa nº 1, de 27 de agosto de 2019, da extinta Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia, e conforme as informações do Processo Administrativo nº 14021.035830/2026-61, resolvem: Art. 1º Fica autorizada a Fundação Instituto Brasileiro de Geografia e Estatística (IBGE) a realizar processo seletivo simplificado para contratar, por tempo determinado, o quantitativo máximo de vinte e sete mil trezentas e trinta pessoas, para atender necessidade temporária de excepcional interesse público, na forma do art. 2º, inciso III, da Lei nº 8.745, de 9 de dezembro de 1993, conforme Anexo a esta Portaria Conjunta. § 1º O quantitativo de que trata o caput refere-se às vagas para a função de Recenseador, autorizadas pela Portaria Conjunta MGI/MPO nº 90, de 2 de dezembro de 2025, publicada no Diário Oficial da União, edição nº 240, de 17 de dezembro de 2025, seção 1, página 97. § 2º As pessoas de que trata o caput serão contratadas para desenvolver atividades relacionadas à operacionalização do Censo Agropecuário, Florestal e Aquícola, no âmbito do IBGE. Art. 2º O recrutamento das pessoas de que trata esta Portaria Conjunta dependerá de prévia aprovação das pessoas candidatas em processo seletivo simplificado sujeito a ampla divulgação, nos termos do art. 3º da Lei nº 8.745, de 1993. Parágrafo único. Caberá ao IBGE observar as leis e os regulamentos que tratem sobre políticas de reserva de vagas em processos seletivos simplificados e assegurar que as ações e procedimentos previstos no certame estejam alinhados ao alcance da efetividade de tais políticas. Art. 3º O prazo de duração dos contratos, bem como as possíveis prorrogações observarão o disposto no art. 4º da Lei nº 8.745, de 1993, desde que a prorrogação seja devidamente justificada com base nas necessidades de conclusão das atividades de que trata o § 2º do art. 1º desta Portaria Conjunta. Art. 4º O IBGE definirá a remuneração das pessoas a serem contratadas em conformidade com a importância de que trata o inciso II do art. 7º da Lei nº 8.745, de 1993. Art. 5º O prazo para publicação do edital de abertura de inscrições para o processo seletivo simplificado será de até seis meses, contado a partir da publicação desta Portaria Conjunta. Art. 6º As despesas com as contratações autorizadas por esta Portaria Conjunta correrão à conta das dotações orçamentárias consignadas no Grupo de Natureza de Despesa - GND \"3 - Outras Despesas Correntes\", ficando a presente autorização condicionada à declaração do ordenador de despesas responsável quanto à adequação orçamentária e financeira da nova despesa com a Lei Orçamentária Anual e sua compatibilidade com a Lei de Diretrizes Orçamentárias. Art. 7º Esta Portaria Conjunta entra em vigor na data de sua publicação. ESTHER DWECK Ministra de Estado da Gestão e da Inovação em Serviços Públicos BRUNO MORETTI Ministro de Estado do Planejamento e Orçamento ANEXO Atividades Função Quantidade Coleta de Dados Recenseador 27.330 TOTAL 27.330",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "183-B",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA CONJUNTA MGI-MPO NA 64 -12104454",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=601&pagina=1&data=28/09/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "601_20260928_24416803.xml"
     },
     {
       "id": "51481437",
@@ -4854,6 +4910,64 @@
       "xml_file": "515_20260928_24419540.xml"
     },
     {
+      "id": "51500715",
+      "section": "DO1E",
+      "pub_date": "28/09/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Educação/Gabinete do Ministro",
+      "identifica": "PORTARIA MEC Nº 734, DE 25 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "Institui a Política Nacional de Educação Ambiental Escolar - PNEAE.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MEC Nº 734, DE 25 DE SETEMBRO DE 2026 Institui a Política Nacional de Educação Ambiental Escolar - PNEAE. O MINISTRO DE ESTADO DA EDUCAÇÃO, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e tendo em vista a Lei nº 9.394, de 20 de dezembro de 1996, a Lei nº 9.795, de 27 de abril de 1999, e a Lei nº 15.388, de 14 de abril de 2026, resolve: Art. 1º Fica instituída a Política Nacional de Educação Ambiental Escolar - PNEAE, em conformidade com a Lei nº 9.795, de 27 de abril de 1999, e com o Decreto nº 4.281, de 25 de junho de 2002, com a finalidade de fortalecer as capacidades institucionais e as práticas pedagógicas das redes de ensino da educação básica para garantir o direito à educação ambiental e promover a prevenção, adaptação e mitigação dos impactos das mudanças climáticas. Art. 2º Para fins desta Portaria, entende-se: I - Educação Ambiental Escolar: dimensão da educação ambiental desenvolvida no âmbito das instituições formais de ensino de educação básica, de modo transversal e integrado ao currículo e demais dimensões da política educacional, em todas as etapas e modalidades de ensino, com vistas a assegurar o direito à educação com garantia de padrão de qualidade, conforme o art. 206, inciso VII, da Constituição; e II - Educação Ambiental na perspectiva da Educação Popular: conjunto de práticas da educação ambiental desenvolvidas por movimentos sociais e organizações da sociedade civil, sem fins lucrativos, voltadas à atuação nos territórios, em articulação com as redes de ensino e comunidades tradicionais. Art. 3º São princípios da PNEAE: I - o reconhecimento da educação ambiental como parte integrante do direito à educação; II - a garantia de um sistema educacional sustentável, sem discriminação e com base na igualdade de oportunidades; III - a promoção da equidade e da justiça socioambiental e climática no âmbito dos estabelecimentos de ensino; IV - o respeito, o reconhecimento e a incorporação de saberes tradicionais nas ações curriculares, didático-pedagógicas e de gestão da educação ambiental, no âmbito das redes de ensino; e V - o papel das redes de ensino na prevenção, resposta e adaptação a riscos e emergências socioambientais e climáticas. Parágrafo único. A União, os estados, o Distrito Federal e os municípios atuarão em regime de colaboração na implementação da PNEAE, conforme previsto no art. 211 da Constituição e no art. 8º da Lei nº 9.394, de 20 de dezembro de 1996. Art. 4º São diretrizes da PNEAE: I - a colaboração entre os entes federados na promoção da educação ambiental nas redes de ensino; II - a abordagem curricular integrada, transversal e interdisciplinar da educação ambiental; III - a articulação intersetorial na implementação de programas e ações voltadas à educação ambiental e de respostas às mudanças climáticas; IV - o incentivo e a valorização da participação dos estudantes, dos profissionais da educação e das comunidades escolares em programas e ações relativos ao meio ambiente e às mudanças climáticas; V - o protagonismo de comunidades tradicionais, indígenas, quilombolas, do campo, das águas e das florestas, na produção e difusão de conhecimentos relativos à natureza, à educação ambiental e às mudanças climáticas; VI - a integração de saberes científicos modernos e saberes tradicionais nas práticas pedagógicas, curriculares e de gestão da educação ambiental escolar; e VII - o combate às desigualdades socioambientais no âmbito das redes de ensino. Art. 5º São objetivos da PNEAE: I - assegurar a transversalidade da educação ambiental nos currículos escolares; II - promover e incentivar a formação continuada dos profissionais da educação e da comunidade escolar para a temática; III - estimular a participação das escolas nas ações de prevenção, mitigação e adaptação às mudanças do clima, no estancamento da perda de biodiversidade e na educação direcionada à percepção de riscos e de vulnerabilidades a desastres socioambientais, nos termos do art. 5º, inciso VIII, da Lei nº 9.795, de 27 de abril de 1999; IV - contribuir para a construção de escolas sustentáveis e resilientes, territórios educativos e soluções baseadas na natureza; V - apoiar as redes de ensino no processo de implementação de diretrizes, protocolos e orientações em torno de prevenção e respostas a desastres ambientais e de transição climática; VI - incentivar e valorizar práticas educacionais inovadoras de preservação do equilíbrio do meio ambiente; VII - fomentar o desenvolvimento de projetos relacionados à bioconstrução e às edificações escolares ecoeficientes; VIII - fortalecer a articulação entre estabelecimentos de ensino e comunidades tradicionais, indígenas e quilombolas, visando à promoção do contato com práticas e modos de vida sustentáveis; IX - promover a articulação da educação ambiental, na perspectiva da educação popular, com as escolas e os territórios, voltada ao fortalecimento da organização comunitária, à gestão sustentável de resíduos sólidos e à construção coletiva de respostas aos desafios socioambientais e climáticos; e X - implementar, em parceria com instituições federais de ensino e outras instituições públicas, ações de avaliação e monitoramento de processos e estratégias para a sustentabilidade e a resiliência climática e socioambiental nas redes de ensino. Art. 6º A PNEAE será operacionalizada por meio de programas e ações integrados nos seguintes eixos estruturantes: I - Coordenação Federativa; II - Formação; III - Reconhecimento, Valorização e Compartilhamento de Saberes e Práticas; IV - Educação Popular e Ação Climática; V - Prevenção e Adaptação a Riscos e Emergências Socioambientais e Climáticas; e VI - Monitoramento e Avaliação. Art. 7º A adesão dos estados, do Distrito Federal e dos municípios à PNEAE é voluntária e dar-se-á mediante assinatura do termo específico pelo respectivo Chefe do Poder Executivo. Parágrafo único. A PNEAE será ofertada para todas as redes de ensino que fizerem a adesão à Políti",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "183-C",
+      "url": "https://www.in.gov.br/web/dou/-/1 Port. nA 734 - Institui PNEAE-12107796",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=602&pagina=1&data=28/09/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "ajuda_custo_transporte"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 6,
+      "xml_file": "602_20260928_24420780.xml"
+    },
+    {
+      "id": "51485116",
+      "section": "DO1E",
+      "pub_date": "28/09/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério dos Transportes/Gabinete do Ministro",
+      "identifica": "Portaria Nº 805, DE 21 DE setembro DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre os procedimentos e diretrizes, no âmbito do Ministério dos Transportes, para o reconhecimento e certificação dos estabelecimentos adequados para espera, repouso e descanso de motoristas profissionais do transporte rodoviário de cargas.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria Nº 805, DE 21 DE setembro DE 2026 Dispõe sobre os procedimentos e diretrizes, no âmbito do Ministério dos Transportes, para o reconhecimento e certificação dos estabelecimentos adequados para espera, repouso e descanso de motoristas profissionais do transporte rodoviário de cargas. O MINISTRO DE ESTADO DOS TRANSPORTES, no uso das atribuições que lhe conferem o art. 87, parágrafo único, incisos II e IV, da Constituição, e tendo em vista o disposto no art. 10 da Lei nº 13.103, de 2 de março de 2015, e no art. 47, incisos I e III, da Lei nº 14.600, de 19 de junho de 2023 e com base no que consta nos autos do processo administrativo nº 50000.008839/2025-21, resolve: Art. 1º Esta Portaria estabelece diretrizes e procedimentos, no âmbito do Ministério dos Transportes, para a certificação, o reconhecimento, a operacionalização e o acompanhamento dos Pontos de Parada e Apoio - PPAs e dos Pontos de Parada e Descanso - PPDs, com vistas à ampliação e à qualificação da infraestrutura destinada à espera, ao repouso e ao descanso dos motoristas profissionais do transporte rodoviário de cargas e de passageiros. § 1º Os procedimentos previstos nesta Portaria aplicam-se aos estabelecimentos situados em rodovias federais, acessos a portos organizados, instalações portuárias e terminais ferroviários. CAPÍTULO I DOS PROCEDIMENTOS DE CERTIFICAÇÃO DE PONTOS DE PARADA E APOIO - PPA'S PELO MINISTÉRIO DOS TRANSPORTES Art. 2º Compete à Secretaria Nacional de Transporte Rodoviário - SNTR coordenar o processo de certificação, cabendo ao Departamento Nacional de Infraestrutura de Transportes - DNIT e à Agência Nacional de Transportes Terrestres - ANTT a realização das vistorias dos estabelecimentos definidos no Inciso I do art. 2º da Portaria Interministerial nº 4 de 03 de julho de 2026, que, voluntariamente, apresentarem requerimento. Art. 3º A certificação como Ponto de Parada e Apoio - PPA será formalizada por meio de publicação de Portaria do PPA, com a atualização da relação dos PPAs certificados nos sítios eletrônicos citados art. 15 da Portaria Interministerial nº 4 de 03 de julho de 2026. Art. 4º O procedimento de certificação de um PPA será composto pelas seguintes fases: I - requerimento de certificação; II - avaliação prévia; III - realização de vistoria; IV - avaliação final; e V - emissão de certificação. Seção I Do Requerimento de Certificação Art. 5º Cabe ao interessado, diretamente ou por representante regularmente constituído, preencher o Formulário de Requerimento para Reconhecimento de Ponto de Parada e Apoio - FRRPPA, Anexo I, e apresentar a documentação necessária para o reconhecimento do estabelecimento como PPA. § 1º A lista completa de documentos obrigatórios está descrita no corpo do formulário de requerimento de certificação - FRRPPA e no art. 6º. § 2º O FRRPPA editável pode ser acessado no sítio eletrônico do Ministério dos Transportes, solicitado ao Ministério por correio eletrônico e-mail ppd@transportes.gov.br; na Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR) disponível na web ou por meio de ofício endereçado ao Ministério dos Transportes por meio do Sistema Eletrônico de Informações - SEI diretamente na web. § 3º O FRRPPA será assinado pelo requerente ou representante regularmente constituído e conterá: I - declaração de ciência quanto ao dever de cumprimento das obrigações previstas na Lei nº 11.705, de 19 de junho de 2008, e na Lei nº 8.069, de 13 de julho de 1990; II - declaração de que as informações prestadas são verdadeiras; e III - concordância com a utilização dos dados referentes ao estabelecimento e outros de consulta pública pelo Ministério dos Transportes. Art. 6º São documentos necessários à solicitação de certificação como PPA: I - FRRPPA preenchido e assinado, conforme prevê o art. 5º; II - relatório fotográfico do estabelecimento, que contemple a fachada; o estacionamento e pátio de manobras e permanência; as instalações sanitárias; os gabinetes sanitários; os lavatórios; os chuveiros; os ambientes para refeições e a sinalização: III - cópia do Cadastro Nacional de Pessoa Jurídica - CNPJ ativo; e IV - cópia do Alvará de Funcionamento expedido pela Prefeitura Municipal competente. § 1º O formulário preenchido, de que trata o inciso I, do caput, e cópia digital dos demais documentos deverão ser enviados pelo interessado ao endereço eletrônico ppd@transportes.gov.br ou protocolados por meio do Sistema Eletrônico de Informações - SEI diretamente na web. § 2º Somente após a recepção completa dos documentos citados no §1º, a SNTR instaurará processo administrativo de certificação como PPA. § 3º O Relatório de que trata o inciso II do caput poderá de forma complementar e opcionalmente, conter gravação em vídeo que destaque a infraestrutura do estabelecimento evidenciada, considerando para tanto o limite de tamanho de arquivo aceito no meio de comunicação utilizado. Seção II Da Avaliação Prévia Art. 7º Após a instauração do processo administrativo de certificação de PPA, o estabelecimento deverá estar disponível para receber e acompanhar equipe técnica de vistoria às suas instalações, conforme disposto na Seção III deste Capítulo. Parágrafo único. A recusa em receber a equipe e acompanhar o processo de vistoria ensejará o imediato encerramento e arquivamento do processo administrativo de certificação de PPA. Art. 8º Compete ao Ministério dos Transportes recepcionar e avaliar previamente o FRRPPA e a documentação apresentada pelo interessado. § 1º O interessado será informado pelo Ministério dos Transportes, por meio de mensagem eletrônica, sobre o resultado da avaliação prévia no prazo máximo de trinta dias corridos, a contar da abertura do processo administrativo de certificação de PPA. § 2º Os critérios e condições de segurança, sanitárias e de conforto serão aferidos pelo órgão competente, após solicitação do Ministério dos Transportes, conforme prevê o art. 9º. Seção III Da Vistoria Art. 9º Após solicitação pela SNTR, cabe ao DNIT ou à ANTT, de ",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "17",
+      "edition": "183-C",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria nA 805 de 21 de setembr-12104107",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=602&pagina=17&data=28/09/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "estagio_aprendizagem"
+      ],
+      "score": 6,
+      "xml_file": "602_20260928_24416106-1.xml"
+    },
+    {
       "id": "51481287",
       "section": "DO2",
       "pub_date": "28/09/2026",
@@ -5759,6 +5873,60 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20260928_24419284-1.xml"
+    },
+    {
+      "id": "51517186",
+      "section": "DO1E",
+      "pub_date": "28/09/2026",
+      "art_type": "Decreto numerado",
+      "art_category": "Atos do Poder Executivo",
+      "identifica": "DECRETO Nº 13.128, DE 28 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "DECRETO Nº 13.128, DE 28 DE SETEMBRO DE 2026 Dispõe sobre o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa. O PRESIDENTE DA REPÚBLICA , no uso das atribuições que lhe confere o art. 84, caput , incisos IV e VI, alínea \"a\", da Constituição, e tendo em vista o disposto no art. 24, parágrafo único, da Medida Provisória nº 1.394, de 25 de setembro de 2026, D E C R E T A : Art. 1º Este Decreto dispõe sobre o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa, instituído pela Medida Provisória nº 1.394, de 25 de setembro de 2026. Art. 2º O Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa, órgão deliberativo, tem a finalidade de promover a articulação e a coordenação das ações das autoridades competentes para a prevenção, a fiscalização e a repressão à oferta, à exploração e à publicidade de apostas de quota fixa. Art. 3º Ao Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa compete: I - integrar e compartilhar informações, observadas as hipóteses legais de sigilo, sobre pessoas físicas e jurídicas que explorem, ofertem, intermedeiem ou promovam ações de comunicação, de publicidade, de propaganda, de marketing e de patrocínio relativos a apostas de quota fixa, nos termos do disposto na Medida Provisória nº 1.394 de 25 de setembro de 2026; II - manter cadastro unificado de domínios, aplicativos, contas bancárias ou de pagamento de titularidade dos apostadores de quota fixa; III - definir protocolos para a articulação interinstitucional das atividades destinadas à finalidade de que trata o art. 2º, inclusive para providências relativas ao bloqueio de sítios eletrônicos e aplicativos, à interrupção de fluxos financeiros e à remoção de ações de comunicação, de publicidade, de propaganda, de marketing e de patrocínio relativos a apostas de quota fixa; IV - propor a padronização de procedimentos de notificação a provedores de aplicações, instituições financeiras e instituições de pagamento e plataformas de publicidade; V - encaminhar aos órgãos competentes as notícias de infração administrativa, tributária ou penal; e VI - elaborar relatório semestral sobre as ações realizadas, com indicadores de resultado. Parágrafo único. O compartilhamento de dados entre os órgãos integrantes do Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa observará o disposto na Lei Complementar nº 105, de 10 de janeiro de 2001, e na Lei nº 13.709, de 14 de agosto de 2018. Art. 4º O Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa é composto por representantes dos seguintes órgãos e entidades: I - dois da Casa Civil, um dos quais da Secretaria de Articulação e Monitoramento, que o coordenará; II - um da Secretaria de Comunicação Social da Presidência da República; III - um da Advocacia-Geral da União; IV - três do Ministério da Justiça e Segurança Pública, dos quais: a) um da Secretaria Nacional de Segurança Pública; b) um da Secretaria Nacional do Consumidor; e c) um da Secretaria Nacional de Direitos Digitais; V - dois do Ministério da Fazenda, dos quais: a) um da Secretaria de Prêmios e Apostas; e b) um da Secretaria Especial da Receita Federal do Brasil; VI - um do Ministério do Esporte, da Secretaria Nacional de Apostas Esportivas e de Desenvolvimento Econômico; VII - um do Banco Central do Brasil; VIII - um do Conselho de Controle de Atividades Financeiras; IX - um da Polícia Federal; X - um da Agência Nacional de Telecomunicações - Anatel; e XI - um da Agência Nacional de Proteção de Dados - ANPD. § 1º Cada membro do Comitê terá um suplente, que o substituirá em suas ausências e seus impedimentos. § 2º Os membros do Comitê e os respectivos suplentes serão indicados pelos titulares dos órgãos e das entidades que representam e designados em ato da Ministra de Estado da Casa Civil da Presidência da República. Art. 5º O Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa se reunirá, em caráter ordinário, semestralmente e, em caráter extraordinário, mediante convocação de seu Coordenador, com antecedência mínima de cinco dias, exceto em caso de urgência devidamente justificada. § 1º O quórum de reunião do Comitê é de maioria absoluta e o quórum de aprovação é de maioria simples. § 2º Na hipótese de empate, além do voto ordinário, o Coordenador do Comitê terá o voto de qualidade. § 3º O Coordenador do Comitê poderá convidar representantes de outros órgãos e entidades, públicas ou privadas, e da sociedade civil para participar de suas reuniões, sem direito a voto. § 4º As reuniões do Comitê poderão ser realizadas presencialmente ou por videoconferência, a critério de seu Coordenador. Art. 6º A Secretaria-Executiva do Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa será exercida pela Secretaria de Articulação e Monitoramento. Art. 7º A participação no Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa será considerada prestação de serviço público relevante, não remunerada. Art. 8º O regimento interno, a ser elaborado e aprovado pelo Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa, disporá, no mínimo, sobre: I - o funcionamento do Comitê; II - a organização das atividades da Secretaria-Executiva; III - a preparação das pautas, a distribuição das matérias, a convocação das reuniões e os registros das deliberações; e IV - os procedimentos de transparência e proteção das informações. Art. 9º O relatório semestral de que trata o art. 3º, caput , inciso VI, será apresentado pelo Coordenador do Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Qu",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "183-A",
+      "url": "https://www.in.gov.br/web/dou/-/2809_DEC_13128_S1_ED_EXTRA_OK-12112655",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=28/09/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20260928_24426558.xml"
+    },
+    {
+      "id": "51481080",
+      "section": "DO1E",
+      "pub_date": "28/09/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Justiça e Segurança Pública/Gabinete do Ministro",
+      "identifica": "PORTARIA MJSP Nº 1.312, DE 24 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre o funcionamento do Centro Nacional de Triagem de Notificações e estabelece a forma, os requisitos e os procedimentos referentes aos relatórios de notificação de conteúdo, e autoriza a instituição da Força Integrada de Combate ao Crime Organizado em Ambiente Cibernético.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MJSP Nº 1.312, DE 24 DE SETEMBRO DE 2026 Dispõe sobre o funcionamento do Centro Nacional de Triagem de Notificações e estabelece a forma, os requisitos e os procedimentos referentes aos relatórios de notificação de conteúdo, e autoriza a instituição da Força Integrada de Combate ao Crime Organizado em Ambiente Cibernético. O MINISTRO DE ESTADO DA JUSTIÇA E SEGURANÇA PÚBLICA, no uso das atribuições que lhe confere o art. 87, parágrafo único, incisos I e II, da Constituição, tendo em vista a Lei nº 15.211, de 17 de setembro de 2025, e os art. 37, § 4º, art. 39, §§ 1º e 2º, e art. 42 do Decreto nº 12.880, de 18 de março de 2026, e o que consta do Processo Administrativo nº 08250.000334/2026-91, resolve: CAPÍTULO I DISPOSIÇÕES PRELIMINARES Art. 1º Esta Portaria dispõe sobre o funcionamento do Centro Nacional de Triagem de Notificações e estabelece a forma, os requisitos e os procedimentos referentes aos relatórios de notificação de conteúdo previstos na Lei nº 15.211, de 17 de setembro de 2025, e no Decreto nº 12.880, de 18 de março de 2026. § 1º O Centro Nacional de Triagem de Notificações integra a estrutura da Diretoria de Combate a Crimes Cibernéticos da Polícia Federal e operará sob a denominação de Centro Nacional de Proteção à Criança e ao Adolescente - CNCA. § 2º A atuação do Centro Nacional de Proteção à Criança e ao Adolescente observará, nos termos da legislação aplicável, as seguintes diretrizes: I - proteção integral e observância do melhor interesse da criança e do adolescente; II - prevenção da revitimização; III - observância dos princípios da finalidade, da necessidade, da proporcionalidade e da minimização dos dados pessoais tratados; e IV - segurança da informação, rastreabilidade das operações e preservação da cadeia de custódia. § 3º Os fluxos previstos nesta Portaria aplicam-se, nos termos do art. 16-B, § 5º, e do art. 16-H, parágrafo único, do Decreto nº 8.771, de 11 de maio de 2016, às notificações encaminhadas ao Poder Público que se refiram a conteúdo ou conduta envolvendo criança ou adolescente e que se enquadrem nas hipóteses previstas na Lei nº 15.211, de 17 de setembro de 2025, e no Decreto nº 12.880, de 18 de março de 2026. § 4º Desde que observados os requisitos previstos no art. 39, §1º, da Lei nº 15.211, de 17 de setembro de 2025, não se sujeitam à notificação de que trata o art. 39 do Decreto nº 12.880, de 18 de março de 2026: I - os provedores de conteúdo protegidos por direitos autorais previamente licenciados de agente econômico responsável que não se confunda com usuário final; e II - os fornecedores cujo produto ou serviço consista exclusivamente na disponibilização de conteúdo com controle editorial prévio, produzido ou licenciado pelo próprio fornecedor, sem hospedagem, publicação, compartilhamento, intermediação ou comunicação de conteúdo gerado por usuários. § 5º Os fornecedores que disponibilizem conteúdo pornográfico ou ofertem serviços de acompanhantes ou com finalidade de marcar encontros ou iniciar relacionamentos de cunho sexual, nos termos do art. 15, §1º, incisos VIII, IX e X, e art. 16 do Decreto nº 12.880, de 18 de março de 2026, submetem-se ao dever de comunicação instituído pelo art. 27 da Lei nº 15.211, de 17 de setembro de 2025, e regulamentado pelo art. 39 do referido Decreto, quando identificarem conteúdo ou conduta que configure, ainda que de forma velada ou potencial, exploração, abuso sexual, sequestro ou aliciamento de criança ou adolescente. Art. 2º Para os fins desta Portaria, aplicam-se as definições do art. 2º da Lei nº 15.211, de 17 de setembro de 2025, e do art. 2º do Decreto nº 12.880, de 18 de março de 2026, além das seguintes definições específicas: I - relatório de notificação de conteúdo: documento digital, e eventuais anexos, que materializam a comunicação técnica encaminhada por fornecedor de produtos ou serviços de tecnologia da informação ao Centro Nacional de Proteção à Criança e ao Adolescente, contendo informações relativas a conteúdo ou conduta que configure as violações referidas no art. 39 do Decreto nº 12.880, de 18 de março de 2026; II - relatório NIDUS: documento digital composto pelo relatório de notificação de conteúdo acrescido das informações incluídas pelo Centro Nacional de Proteção à Criança e ao Adolescente durante as fases de tratamento da notificação; III - validação: verificação técnica preliminar de completude, autenticidade, integridade, e duplicidade do relatório de notificação de conteúdo; IV - completude: presença dos campos, arquivos, metadados e informações mínimas estabelecidos nesta Portaria e em seus regulamentos técnicos para o recebimento e processamento do relatório de notificação de conteúdo; V - autenticidade: verificação de que o relatório de notificação de conteúdo foi encaminhado por fornecedor cadastrado, credenciado ou tecnicamente identificável, por meio de canal autorizado; VI - integridade: verificação de que os dados, arquivos, metadados e demais elementos encaminhados no relatório de notificação de conteúdo não foram corrompidos, alterados ou comprometidos no processo de transmissão, recepção ou armazenamento; VII - rastreabilidade: possibilidade de registrar, auditar e reconstruir o ciclo de tratamento do relatório de notificação de conteúdo, inclusive seu recebimento, validação, triagem, complementações, acessos, encaminhamentos e demais providências adotadas; VIII - duplicidade: ocorrência de relatório de notificação de conteúdo idêntico ou substancialmente correspondente a outro já recebido pelo Centro Nacional de Proteção à Criança e ao Adolescente ou por centrais de triagem de denúncia de outros países, acessível às autoridades brasileiras; IX - triagem: análise técnica destinada a avaliar a suficiência informacional do relatório de notificação de conteúdo, definir o tratamento cabível da notificação, orientar a priorização operacional e a disponibilização às autoridades competentes; X - tratamento do relatório de notificação: conjunto de operações técnic",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "8",
+      "edition": "183-C",
+      "url": "https://www.in.gov.br/web/dou/-/PORT 1312 SEDIG SECAO 1-12103258",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=602&pagina=8&data=28/09/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "602_20260928_24414828.xml"
     },
     {
       "id": "51483634",
