@@ -72,7 +72,7 @@ Produzir o **Boletim Normativo** e enviá-lo por e-mail a `leonardo.donato@trt17
 **Fontes primárias estruturadas (lidas dos JSONs do bridge, sem WebSearch):**
 
 1. **DOU Seções 1, 2, 1E, 2E** — `/home/user/rotinas_claude/dou/<YYYY-MM-DD>/inlabs-filtered.json`
-2. **DEJT cadernos administrativos TRT-17, CSJT, TST** — `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
+2. **DEJT cadernos administrativos TRT-17, CSJT, TST** — `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`. **O caderno do TRT-17 não passa pelo filtro temático da SGP: todos os atos publicados são trazidos integralmente** (decisão da chefia de 29/09/2026 — é conteúdo do próprio tribunal, relevante aos leitores independente de casar com o vocabulário SGP). CSJT e TST continuam filtrados pelo tema, pelo volume de atos de outros tribunais sem relação com o TRT-17.
 3. **TCU acórdãos** — `/home/user/rotinas_claude/tcu/<YYYY-MM-DD>/tcu-filtered.json`
 
 **Cobertura via DOU Seção 1 (não precisa de fetch dedicado):**
@@ -363,6 +363,8 @@ Cada fonte primária consultada na edição utilizada deve aparecer no boletim c
 - **`status: ok` + `total_atos_detectados = 0`** → "DEJT [caderno] publicação `YYYY-MM-DD`: edição publicada, sem atos administrativos no caderno". Só nesta hipótese cabe o atalho "sem novidades nesta edição".
 - **`status: no_pdf`** → "DEJT [caderno]: sem publicação no Caderno Administrativo na edição utilizada (situação legítima, não erro de coleta)".
 - **`status: pdf_stale` OU ausência do JSON da publicação esperada** → declarar EXPLICITAMENTE "DEJT [caderno] publicação `YYYY-MM-DD`: edição não consultada pela rotina automatizada — conferência manual em `diario.jt.jus.br`".
+
+**Exceção — DEJT Caderno Administrativo do TRT-17:** por não passar pelo filtro temático, `matched_atos` é sempre igual a `total_atos_detectados` nessa fonte (nada é descartado). Isso significa que **todo** ato do caderno do TRT-17 deve ser triado individualmente (Alto/Médio/Informativo/Monitoramento) e aparecer na minuta — inclusive atos sem relação direta com os temas-filtro da SGP (ex.: movimentação de magistratura, atos de outras unidades do Tribunal), que devem ser classificados como **INFORMATIVO** com a unidade destinatária mais próxima (ou "SGP-direção — ciência") em vez de omitidos. A regra de `matched_atos = 0` (linha acima) não se aplica ao caderno do TRT-17. CSJT e TST continuam sob o filtro temático normal.
 
 A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
 

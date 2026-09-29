@@ -90,6 +90,12 @@ def split_into_atos(text: str) -> list[dict]:
     return atos
 
 
+# Fontes cujo caderno é trazido integralmente, sem filtro temático da SGP.
+# TRT-17 é o próprio tribunal: todo o conteúdo do caderno é relevante aos
+# leitores do Boletim, independente de casar com o vocabulário SGP.
+UNFILTERED_SOURCES = {"trt17"}
+
+
 def process_pdf(pdf_path: Path, source_label: str) -> dict:
     text = pdf_to_text(pdf_path)
     if not text:
@@ -103,12 +109,14 @@ def process_pdf(pdf_path: Path, source_label: str) -> dict:
     # Sample dos cabeçalhos detectados (primeiros 80 chars) para diagnóstico
     headers_sample = [a["identifica"][:80] for a in atos[:30] if a.get("identifica")]
 
+    apply_theme_filter = source_label not in UNFILTERED_SOURCES
+
     matched = []
     for a in atos:
         text_norm = normalize(a["text"])
         strong_hits = match_patterns(text_norm, STRONG_KEYWORDS)
         weak_hits = match_patterns(text_norm, WEAK_KEYWORDS)
-        if not strong_hits and len(weak_hits) < 2:
+        if apply_theme_filter and not strong_hits and len(weak_hits) < 2:
             continue
         score = 10 + 5 * len(strong_hits) + 1 * len(weak_hits)
         matched.append({
