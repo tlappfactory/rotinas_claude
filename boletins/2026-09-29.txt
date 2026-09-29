@@ -1,0 +1,77 @@
+Prezado(a) servidor(a),
+
+Segue rascunho do Boletim Normativo do dia 29 de setembro de 2026. Lembrete: este conteúdo foi gerado por IA e requer revisão humana antes da distribuição oficial às unidades da SGP. Confira números, ementas e links na fonte original.
+
+===========================================================
+BOLETIM NORMATIVO — 29 de setembro de 2026
+===========================================================
+
+1. ALTO IMPACTO (ação imediata)
+--------------------------------
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+---------------------------
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+-------------------------
+Portaria PRESI/DIGER/COFIN Nº 3, de 21 de setembro de 2026 — TRT da 17ª Região
+Ementa: Torna público o Relatório de Gestão Fiscal do TRT-17 (LRF, art. 54, III e art. 55, I, "a"), referente ao período de setembro/2025 a agosto/2026.
+Unidade(s): DIPROF, COREP (publicação periódica de despesa com pessoal; sem ação normativa exigida)
+Fonte: DOU Seção 1, edição de 29/09/2026 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=110&data=29/09/2026
+
+Portarias PRESI/DIGER/SGP/CODOP/SELIR Nº 451, 452 e 453, de 28 de setembro de 2026 — TRT da 17ª Região
+Ementa: Dispensa e designação de servidores em funções comissionadas: dispensa de Ana Clara Xavier Rosa Kitzinger e designação de Nelson Fábio Ribeiro Carminati para Calculista - FC-04 na 10ª Vara do Trabalho de Vitória; designação de Bruno Athayde Silva para Assistente de Gabinete - FC-05 no gabinete do Des. Valdir Donizetti Caixeta.
+Unidade(s): SELEP (ato interno já executado pela própria SGP; registro para arquivo)
+Fonte: DOU Seção 2, edição de 29/09/2026 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=81&data=29/09/2026 (a Portaria nº 453/2026 também consta do DEJT Caderno Administrativo do TRT-17, publicação de 29/09/2026)
+
+Edital Nº 10/2026 — TRT da 17ª Região (SEI 0001309-07.2026.5.17.0500)
+Ementa: Abertura de processo de promoção por antiguidade para cargo vago de Juiz(a) Titular de Vara do Trabalho do TRT-17, com base na Resolução CNJ nº 106/2010 e alterações posteriores. [carece de leitura humana do texto integral — texto capturado excede o limite da ferramenta]
+Unidade(s): SGP-direção (ciência — processo de movimentação de magistratura; não envolve servidores efetivos)
+Fonte: DEJT Caderno Administrativo do TRT-17, publicação de 29/09/2026 (diario.jt.jus.br) — sem link direto ao ato; conferência no PDF do caderno.
+
+4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)
+---------------------------------------------------
+TCU — acórdãos das sessões de 15 a 23/09/2026
+Status: mesma janela de sessões do Boletim de 28/09/2026 (não houve nova sessão do TCU desde então). 45 acórdãos corresponderam ao filtro temático da SGP nesta consulta (mesmo total da consulta anterior, mesma janela). Padrão predominante mantido: negativa de registro a atos de aposentadoria/pensão que cumulam as parcelas "quintos" e "opção" (violação ao art. 193, §2º, da Lei 8.112/1990) e incorporação de quintos/décimos de função comissionada exercida entre 1998 e 2001. Nenhum acórdão desta consulta menciona expressamente o TRT-17.
+Possível reflexo: SELEP, SESES — jurisprudência consolidada do TCU sobre vedação à cumulação "opção"/"quintos" e sobre o marco de 8/4/1998, útil como parâmetro preventivo na análise de quintos/anuênios/aposentadorias de servidores do TRT-17.
+Fonte: acórdãos do TCU, sessões de 15 a 23/09/2026 (relação completa disponível mediante solicitação à SGP).
+
+DOU Seções 1 e 2 — atos administrativos individuais de outros órgãos
+Status: a edição de hoje traz 187 atos casados com o filtro temático da SGP (30 na Seção 1, 157 na Seção 2), dentre 1.109 arquivos publicados; destes, 2 são do próprio TRT-17 (relatório de gestão fiscal e portarias de designação/dispensa de FC, já reportados em Informativo). Os demais 185 são concessões individuais de aposentadoria/pensão e designações/dispensas de função comissionada de servidores de outros órgãos federais (MGI/DECIPEX, STJ, STF, TST, TCU, TRFs, TREs), relatórios de gestão fiscal de outros tribunais e atos administrativos sem relação normativa com pessoal. Nenhum ato do CNJ de natureza normativa (Resolução/Recomendação/Instrução Normativa) foi publicado nesta edição — os 6 hits do CNJ correspondem a portarias internas de gestão de pessoas do próprio Conselho (designação de substitutos e relatório de gestão fiscal), sem repercussão normativa externa. Nenhuma edição extra (1E/2E) foi capturada pelo filtro nesta data.
+Possível reflexo: — (sem impacto identificado para a SGP/TRT-17).
+Fonte: DOU Seções 1 e 2, edição de 29/09/2026 (páginas indicadas nos atos; conferência via portal de pesquisa do DOU).
+
+STF — Repercussão geral / teto remuneratório
+Status: sem novidades pertinentes em STF nesta data para pessoal do serviço público judiciário/RPPS nos últimos 7 dias (22 a 29/09/2026), segundo cobertura de imprensa especializada consultada. A tese sobre teto remuneratório e verbas indenizatórias da magistratura/MP, fixada em março e detalhada em julho de 2026, permanece a referência vigente, sem nova decisão localizada nesta janela.
+Possível reflexo: —
+Fonte: cobertura de imprensa especializada (consulta realizada, sem achado novo e datado na janela).
+
+STJ — Tema 1472 (recursos repetitivos) — REsp 2.258.325-CE e REsp 2.254.394-CE
+Status: sem movimentação processual nova desde a afetação (25/08/2026), já reportada nos Boletins anteriores. Os recursos permanecem sobrestados, discutindo se a demora injustificada da Administração na análise de pedido de aposentadoria gera dever de indenizar o servidor por danos materiais.
+Possível reflexo: SESES, SGP — acompanhar julgamento; tema de interesse direto para o controle de prazos de instrução de pedidos de aposentadoria.
+Fonte: cobertura de imprensa especializada sobre o Tema 1472/STJ — https://conjur.com.br/2026-set-20/stj-discute-indenizacao-por-atraso-na-aposentadoria-de-servidores/
+
+===========================================================
+RESUMO ESTATÍSTICO
+===========================================================
+- Itens Alto Impacto: 0
+- Itens Médio Impacto: 0
+- Itens Informativos: 3 blocos (Relatório de Gestão Fiscal do TRT-17; portarias de designação/dispensa de função comissionada; edital de promoção de magistratura por antiguidade)
+- Itens em Monitoramento: 4 blocos (TCU, DOU-outros órgãos, STF, STJ Tema 1472)
+- Fontes consultadas com sucesso: DOU Seções 1 e 2, edição de 29/09/2026 — varredura integral pelo filtro temático da SGP; 187 atos casaram com o filtro (30 na Seção 1, 157 na Seção 2), dentre 1.109 arquivos publicados. Dois atos do próprio TRT-17 identificados (relatório de gestão fiscal e portarias de designação/dispensa de FC); nenhum ato do CNJ de natureza normativa publicado nesta edição. Nenhuma edição extra (1E/2E) capturada pelo filtro nesta data. DEJT Caderno Administrativo do TRT-17, publicação de 29/09/2026 (disponibilização de 28/09/2026): 4 atos detectados, 2 pertinentes ao filtro temático do DEJT (Edital nº 10/2026, listado em Informativo, e a Portaria nº 453/2026, já reportada via DOU Seção 2 no mesmo bloco das Portarias 451-453). DEJT Caderno Administrativo do TST, publicação de 29/09/2026 (disponibilização de 28/09/2026): 1 ato detectado ("ATO Nº 11/GCGJT"), nenhum pertinente à SGP segundo o filtro temático. Acórdãos do TCU das sessões de 15 a 23/09/2026 (45 casados pelo filtro temático da SGP, mesma janela do Boletim anterior). Jurisprudência do STF e do STJ via cobertura de imprensa especializada (STJ sem movimentação nova no Tema 1472; STF sem novidade datada na janela).
+- Fontes sem retorno relevante nesta data: STF (sem tese vinculante nova, datada nos últimos 7 dias, sobre pessoal do serviço público judiciário/RPPS).
+===========================================================
+
+FONTES PRIMÁRIAS NÃO ACESSÍVEIS — CONFERÊNCIA MANUAL
+-----------------------------------------------------
+DEJT Caderno Administrativo do CSJT publicação 29/09/2026: edição não consultada pela rotina automatizada — o arquivo obtido corresponde a uma publicação anterior (28/09/2026, disponibilização de 25/09/2026), ainda não à edição esperada do dia. Conferência manual recomendada em diario.jt.jus.br.
+
+OBSERVAÇÕES DE CONFORMIDADE
+-----------------------------
+- Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.
+- Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado. Os nomes eventualmente citados constam de atos de gestão de pessoal já publicados em fonte oficial de acesso público, com base no art. 7º, incisos II e III, da LGPD c/c o princípio da publicidade do art. 37 da Constituição Federal.
+- Itens marcados com [verificar nº na fonte] ou [carece de leitura humana do texto integral] exigem conferência direta no documento oficial antes da consolidação do Boletim.
+
+Rascunho gerado pela rotina do Boletim Normativo (Claude AI) em 29/09/2026. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.
