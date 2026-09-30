@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-09-30T15:15:32Z",
+  "run_utc": "2026-09-30T15:26:20Z",
   "lookback_days": 7,
   "desde": "2026-09-23",
   "fontes": {
@@ -30,8 +30,8 @@
       ]
     },
     "stj": {
-      "status": "no_feed",
-      "endpoint": null,
+      "status": "ok",
+      "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
       "itens_vistos": 0,
       "fora_da_janela": 0,
       "selecionados": 0,
@@ -44,122 +44,202 @@
           "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
         },
         {
-          "ckan_q": "repetitivo",
-          "dataset": "precedentes-qualificados",
-          "titulo": "Precedentes qualificados",
-          "atualizado": "2026-09-23T23:04:26.142909",
-          "recursos": [
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+          "http": 200,
+          "content_type": "text/csv",
+          "bytes": 2586023,
+          "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
+        },
+        {
+          "colunas": [
+            "sequencialPrecedente",
+            "tipoPrecedente",
+            "numeroPrecedente",
+            "dataPrimeiraAfetacao",
+            "dataJulgamento",
+            "dataPublicacaoAcordao",
+            "situacao",
+            "informacoesComplementares",
+            "questaoSubmetidaAJulgamento",
+            "teseFirmada",
+            "anotacoesNUGEPNAC",
+            "delimitacaoJulgado",
+            "entendimentoAnterior",
+            "referenciaLegislativa",
+            "referenciaSumular",
+            "sumulaOriginada",
+            "audienciaPublica",
+            "dataAudienciaPublica",
+            "orgaoJulgador",
+            "Assuntos",
+            "numeroRepercussaoGeralSTF",
+            "descricaoRepercussaoGeral"
+          ],
+          "linhas": 2403,
+          "amostra": [
             {
-              "nome": "dicionario-temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
+              "sequencialPrecedente": "1601",
+              "tipoPrecedente": "Controvérsia",
+              "numeroPrecedente": "1",
+              "dataPrimeiraAfetacao": "",
+              "dataJulgamento": "",
+              "dataPublicacaoAcordao": "",
+              "situacao": "Vinculada a Tema",
+              "informacoesComplementares": "Situação alterada de pendente para cancelada em: 16/5/2017.\nSituação alterada de",
+              "questaoSubmetidaAJulgamento": "Validade da cláusula contratual de plano de saúde que prevê o aumento da mensali",
+              "teseFirmada": "",
+              "anotacoesNUGEPNAC": "VIDE TEMA 1016/STJ.\nA situação da presente controversa foi alterada para CANCELA",
+              "delimitacaoJulgado": "",
+              "entendimentoAnterior": "",
+              "referenciaLegislativa": "",
+              "referenciaSumular": "",
+              "sumulaOriginada": "",
+              "audienciaPublica": "",
+              "dataAudienciaPublica": "",
+              "orgaoJulgador": "S2",
+              "Assuntos": "1156- DIREITO DO CONSUMIDOR, 7771- Contratos de Consumo, 6233- Planos de Saúde",
+              "numeroRepercussaoGeralSTF": "",
+              "descricaoRepercussaoGeral": ""
             },
             {
-              "nome": "Temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
-            },
-            {
-              "nome": "dicionario-processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
-            },
-            {
-              "nome": "Processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
+              "sequencialPrecedente": "1602",
+              "tipoPrecedente": "Controvérsia",
+              "numeroPrecedente": "2",
+              "dataPrimeiraAfetacao": "",
+              "dataJulgamento": "",
+              "dataPublicacaoAcordao": "",
+              "situacao": "Cancelada",
+              "informacoesComplementares": "Situação alterada de pendente para cancelada em: 28/5/2024.",
+              "questaoSubmetidaAJulgamento": "Definir se a Lei n. 13.000/2014, que assegurou a intervenção da CEF como represe",
+              "teseFirmada": "",
+              "anotacoesNUGEPNAC": " A situação da presente controvérsia foi alterada para cancelada em razão do dis",
+              "delimitacaoJulgado": "",
+              "entendimentoAnterior": "",
+              "referenciaLegislativa": "",
+              "referenciaSumular": "",
+              "sumulaOriginada": "",
+              "audienciaPublica": "",
+              "dataAudienciaPublica": "",
+              "orgaoJulgador": "S1",
+              "Assuntos": "4839- Sistema Financeiro da Habitação, 8866- Litisconsórcio , 899- DIREITO CIVIL",
+              "numeroRepercussaoGeralSTF": "1011",
+              "descricaoRepercussaoGeral": "Controvérsia relativa à existência de interesse jurídico da Caixa Econômica Fede"
             }
           ]
         },
         {
-          "ckan_q": "precedentes",
-          "dataset": "precedentes-qualificados",
-          "titulo": "Precedentes qualificados",
-          "atualizado": "2026-09-23T23:04:26.142909",
-          "recursos": [
-            {
-              "nome": "dicionario-temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
-            },
-            {
-              "nome": "Temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
-            },
-            {
-              "nome": "dicionario-processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
-            },
-            {
-              "nome": "Processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
-            }
-          ]
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv",
+          "http": 200,
+          "content_type": "text/csv",
+          "bytes": 4171,
+          "inicio": "ï»¿Campo;Nome extenso;DescriÃ§Ã£o\r sequencialPrecedente;NÃºmero sequencial do precedente qualificado;NÃºmero sequencial atribuÃ­do pelo banco de dados quando inserido novo precedente. Ã utilizado para relacionar os temas com os processos disponibilizados no outro arquivo. \r tipoPrecedente;Tipo de p"
         },
         {
-          "ckan_q": "tema",
-          "dataset": "precedentes-qualificados",
-          "titulo": "Precedentes qualificados",
-          "atualizado": "2026-09-23T23:04:26.142909",
-          "recursos": [
+          "dicionario": [
             {
-              "nome": "dicionario-temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
+              "Campo": "sequencialPrecedente",
+              "Nome extenso": "Número sequencial do precedente qualificado",
+              "Descrição": "Número sequencial atribuído pelo banco de dados quando inserido novo precedente. É utilizado para relacionar os temas co"
             },
             {
-              "nome": "Temas.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
+              "Campo": "tipoPrecedente",
+              "Nome extenso": "Tipo de precedente qualificado",
+              "Descrição": "Classificação dada ao precedente qualificado, conforme sua natureza jurídica: Controvérsia, Tema Repetitivo, Incidente d"
             },
             {
-              "nome": "dicionario-processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
+              "Campo": "numeroPrecedente",
+              "Nome extenso": "Número do precedente qualificado",
+              "Descrição": "Número sequencial crescente dado ao precedente qualificado do STJ quando da sua criação conforme sua natureza jurídica: "
             },
             {
-              "nome": "Processos.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
-            }
-          ]
-        },
-        {
-          "ckan_q": "tema",
-          "dataset": "penalidades-fornecedores",
-          "titulo": "Penalidades Fornecedores",
-          "atualizado": "2026-09-23T23:04:18.823410",
-          "recursos": [
-            {
-              "nome": "Penalidades.csv",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/b352d1ab-0f61-4d05-bd6a-07be0cc18670/resource/6493a35d-1fb5-4385-9c0a-60a78698d3e0/download/penalidades.csv"
+              "Campo": "dataPrimeiraAfetacao",
+              "Nome extenso": "Data da primeira afetação",
+              "Descrição": "Data de quando ocorreu a decisão da primeira afetação, quando há mais de uma data de afetação."
             },
             {
-              "nome": "Dicionário de dados",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/b352d1ab-0f61-4d05-bd6a-07be0cc18670/resource/e8bd5387-47b3-41e4-b823-18f8cb08b9fe/download/dicionario-de-dados.csv"
-            }
-          ]
-        },
-        {
-          "ckan_q": "tema",
-          "dataset": "diarias-e-passagens",
-          "titulo": "Diárias e Passagens",
-          "atualizado": "2025-07-28T11:02:14.992987",
-          "recursos": [
-            {
-              "nome": "Dados - Diárias e Passagens",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/3eb917d0-61fd-45f0-b96b-52c3bba8dd2f/resource/a6e5116f-0c34-4442-9e3c-42ce95549761/download/dados-diarias-e-passagens.csv"
+              "Campo": "dataJulgamento",
+              "Nome extenso": "Data de julgamento",
+              "Descrição": "Data em que ocorreu o julgamento do tema."
             },
             {
-              "nome": "Dicionário - Diárias e Passagens",
-              "formato": "CSV",
-              "url": "https://dadosabertos.web.stj.jus.br/dataset/3eb917d0-61fd-45f0-b96b-52c3bba8dd2f/resource/1e289f99-ba3e-4b56-84d7-b9d391b81c0e/download/dicionario-de-dados-diarias-e-passagens.csv"
+              "Campo": "situacao",
+              "Nome extenso": "Situação",
+              "Descrição": "Situação atual do precedente qualificado."
+            },
+            {
+              "Campo": "informacoesComplementares",
+              "Nome extenso": "Informações complementares",
+              "Descrição": "Informações complementares relativas ao precedente qualificado ou ao julgamento dos processos que compõem o grupo que sã"
+            },
+            {
+              "Campo": "questaoSubmetidaAJulgamento",
+              "Nome extenso": "Questão submetida a julgamento",
+              "Descrição": "Questão jurídica constante dos processos/recursos que está sendo submetida a julgamento no orgão colegiado competente."
+            },
+            {
+              "Campo": "teseFirmada",
+              "Nome extenso": "Tese firmada",
+              "Descrição": "Tese jurídica firmada pelo órgão colegiado competente ao final do julgamento do tema/recurso."
+            },
+            {
+              "Campo": "anotacoesNUGEPNAC",
+              "Nome extenso": "Anotações NUGEPNAC",
+              "Descrição": "Anotações relevantes sobre o precedente qualificado ou sobre o julgamento dos temas/recursos para melhor compreensão do "
+            },
+            {
+              "Campo": "delimitacaoJulgado",
+              "Nome extenso": "Delimitação do julgado",
+              "Descrição": "Informações pertinentes à delimitação da questão submetida a julgamento ou do que foi julgado, para esclarecer eventuais"
+            },
+            {
+              "Campo": "entendimentoAnterior",
+              "Nome extenso": "Entendimento anterior",
+              "Descrição": "Entendimento firmado em precedente qualificado anterior a ser revisto ou já revisado e alterado."
+            },
+            {
+              "Campo": "referenciaLegislativa",
+              "Nome extenso": "Referência legislativa",
+              "Descrição": "Conjunto de normas jurídicas - leis, decretos, portarias, etc - que foram objeto de discussão e serviram de fundamento n"
+            },
+            {
+              "Campo": "referenciaSumular",
+              "Nome extenso": "Referência sumular",
+              "Descrição": "Súmulas utilizadas como fundamento no julgamento dos processos/recursos que formaram o precedente qualificado."
+            },
+            {
+              "Campo": "sumulaOriginada",
+              "Nome extenso": "Súmula originada do tema",
+              "Descrição": "Súmulas que foram originadas/criadas em decorrência da formação do precedente qualificado."
+            },
+            {
+              "Campo": "audienciaPublica",
+              "Nome extenso": "Audiência pública",
+              "Descrição": "Informação de que antes do julgamento do tema/recurso foi realizada uma audiência pública para ouvir pessoas e represent"
+            },
+            {
+              "Campo": "dataAudienciaPublica",
+              "Nome extenso": "Data da audiência pública",
+              "Descrição": "Data em que foi realizada a audiência pública naquele tema/recurso."
+            },
+            {
+              "Campo": "orgaoJulgador",
+              "Nome extenso": "Órgão julgador",
+              "Descrição": "Órgão do STJ que foi determinado regimentalmente competente para julgar a matéria submetida a julgamento."
+            },
+            {
+              "Campo": "Assuntos",
+              "Nome extenso": "Assuntos",
+              "Descrição": "Assuntos relacionados á questão jurídica discutida nos recursos de acordo com a Tabela Processual Unificada do CNJ."
+            },
+            {
+              "Campo": "numeroRepercussaoGeralSTF",
+              "Nome extenso": "Número de Repercussão geral",
+              "Descrição": "Número do tema de Repercussão Geral do STF correlato."
+            },
+            {
+              "Campo": "descricaoRepercussaoGeral",
+              "Nome extenso": "Descrição sobre a repercussão Geral",
+              "Descrição": "Descrição dos temas e recursos que tiveram repercussão geral reconhecida e se relacionam com o precedente qualificado do"
             }
           ]
         }
