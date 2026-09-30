@@ -151,8 +151,10 @@ def descobrir_ckan_stj(probe: list) -> None:
 CKAN_TEMAS = "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/{rid}/download/{nome}"
 STJ_TEMAS_CSV = CKAN_TEMAS.format(rid="df29da13-7d6b-41ba-ad96-cd1a5bbd191c", nome="temas.csv")
 STJ_DICIONARIO_CSV = CKAN_TEMAS.format(rid="d5e50514-6dba-4f1e-8557-94f135eae03b", nome="dicionario-temas.csv")
-DATA_BR = re.compile(r"(\d{2})/(\d{2})/(\d{4})")
+DATA_BR = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
 DATA_ISO = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
+# Esquema do Temas.csv (dicionário oficial do conjunto "Precedentes qualificados").
+COLUNAS_DATA_STJ = ("dataJulgamento", "dataPrimeiraAfetacao", "dataPublicacaoAcordao")
 
 
 def ler_csv(r: requests.Response) -> list[dict]:
@@ -170,15 +172,17 @@ def ler_csv(r: requests.Response) -> list[dict]:
     return linhas
 
 
-def datas_da_linha(linha: dict) -> list[str]:
-    out = []
-    for v in linha.values():
-        v = v or ""
-        if (m := DATA_ISO.search(v)):
-            out.append(m.group(0))
-        elif (m := DATA_BR.search(v)):
-            out.append(f"{m.group(3)}-{m.group(2)}-{m.group(1)}")
-    return out
+def para_iso(valor: str) -> str:
+    """'2026-09-25T…' ou '25/9/2026' -> '2026-09-25'; vazio se não for data."""
+    if (m := DATA_ISO.search(valor or "")):
+        return m.group(0)
+    if (m := DATA_BR.search(valor or "")):
+        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+    return ""
+
+
+def datas_da_linha(linha: dict, colunas: tuple = COLUNAS_DATA_STJ) -> list[str]:
+    return [d for c in colunas if (d := para_iso(linha.get(c, "")))]
 
 
 def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
@@ -207,18 +211,27 @@ def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
         except (csv.Error, UnicodeDecodeError):
             pass
     desde = (date.today() - timedelta(days=lookback)).isoformat()
+    recentes = sorted(((max(datas_da_linha(l), default=""), l) for l in linhas), key=lambda x: x[0], reverse=True)
+    probe.append({"mais_recentes": [{"data": d, "tipo": l.get("tipoPrecedente"), "numero": l.get("numeroPrecedente"),
+                                     "situacao": l.get("situacao")} for d, l in recentes[:5]]})
     itens = []
-    for l in linhas:
-        datas = datas_da_linha(l)
-        recente = max(datas) if datas else ""
+    for recente, l in recentes:
         if recente < desde:
-            continue
-        chave = next((v for k, v in l.items() if "tema" in normalize(k) and (v or "").strip().isdigit()), "")
-        texto = " | ".join(f"{k}: {(v or '').strip()}" for k, v in l.items() if (v or "").strip())
-        itens.append({"data": recente, "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp"
-                      + (f"?tipo_pesquisa=T&num_tema={chave}" if chave else ""),
-                      "titulo": f"STJ — precedente qualificado, tema {chave or '[verificar nº na fonte]'}",
-                      "resumo": texto[:1500]})
+            break
+        tipo, num = (l.get("tipoPrecedente") or "").strip(), (l.get("numeroPrecedente") or "").strip()
+        q, tese = (l.get("questaoSubmetidaAJulgamento") or "").strip(), (l.get("teseFirmada") or "").strip()
+        itens.append({
+            "data": recente,
+            "url": ("https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?"
+                    f"novaConsulta=true&tipo_pesquisa=T&num_tema={num}" if num else
+                    "https://processo.stj.jus.br/repetitivos/temas_repetitivos/"),
+            "titulo": f"STJ — precedente qualificado ({tipo or '[verificar tipo na fonte]'}) nº {num or '[verificar nº na fonte]'}"
+                      f" — situação: {(l.get('situacao') or '').strip() or '[verificar na fonte]'}",
+            # tese_firmada é reproduzida literalmente do conjunto de dados oficial
+            "resumo": f"Questão submetida a julgamento: {q[:700]}" + (f" | Tese firmada (texto da fonte): {tese[:900]}" if tese else ""),
+            "assuntos": (l.get("Assuntos") or "").strip()[:200],
+            "tese_firmada_fonte": tese[:2000],
+        })
     return itens
 
 
