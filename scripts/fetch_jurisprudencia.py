@@ -218,7 +218,9 @@ def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
             probe.append({"dicionario": [{k: (v or "")[:120] for k, v in l.items()} for l in ler_csv(d)[:40]]})
         except (csv.Error, UnicodeDecodeError):
             pass
-    desde = (date.today() - timedelta(days=lookback)).isoformat()
+    # O conjunto é atualizado em lotes (última carga: 23/09, datas até 22/09):
+    # janela mínima de 14 dias para não perder temas entre duas cargas.
+    desde = (date.today() - timedelta(days=max(lookback, 14))).isoformat()
     recentes = sorted(((max(datas_da_linha(l), default=""), l) for l in linhas), key=lambda x: x[0], reverse=True)
     probe.append({"mais_recentes": [{"data": d, "tipo": l.get("tipoPrecedente"), "numero": l.get("numeroPrecedente"),
                                      "situacao": l.get("situacao")} for d, l in recentes[:5]]})
