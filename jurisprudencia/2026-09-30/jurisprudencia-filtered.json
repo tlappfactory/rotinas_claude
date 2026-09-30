@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-09-30T15:10:30Z",
+  "run_utc": "2026-09-30T15:15:32Z",
   "lookback_days": 7,
   "desde": "2026-09-23",
   "fontes": {
@@ -16,34 +16,26 @@
           "content_type": "application/json; charset=UTF-8",
           "bytes": 19430,
           "inicio": "[{\"id\":166627,\"date\":\"2026-09-30T11:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-amplia-presenca-em-debates-mundiais-no-primeiro-ano-da-gestao-do-ministro-edson-fachin\\/\",\"title\":{\"rendered\":\"STF amplia presen\\u00e7a em debates mundiais no primeiro ano da gest\\u00e3o do ministro "
+        },
+        {
+          "amostra_titulos": [
+            "STF amplia presença em debates mundiais no primeiro ano da gestão do ministro Edson Fachin",
+            "Confira a pauta do STF desta quarta-feira (30)",
+            "STF valida leis do Rio Grande do Sul que tratam da estrutura da Polícia Militar",
+            "Partido questiona no STF proibição de impulsionamento de propaganda eleitoral nas redes so",
+            "Ministro Flávio Dino participa de última sessão na presidência da 1ª Turma",
+            "Supremo mantém regra da Alesp sobre designação de relator especial"
+          ]
         }
       ]
     },
     "stj": {
-      "status": "error",
+      "status": "no_feed",
       "endpoint": null,
       "itens_vistos": 0,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
-        {
-          "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/rss",
-          "http": 403,
-          "content_type": "text/html; charset=UTF-8",
-          "bytes": 15705,
-          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
-        },
-        {
-          "url": "https://www.stj.jus.br/sites/portalp/Inicio/Noticias/RSS",
-          "http": 403,
-          "content_type": "text/html; charset=UTF-8",
-          "bytes": 15666,
-          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
-        },
-        {
-          "url": "https://res.stj.jus.br/hrestp-c-portalp/rss/noticias.xml",
-          "erro": "ReadTimeout: HTTPSConnectionPool(host='res.stj.jus.br', port=443): Read timed out. (read timeout=30)"
-        },
         {
           "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
           "http": 403,
@@ -52,29 +44,124 @@
           "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
         },
         {
-          "url": "https://www.stj.jus.br/sites/portalp/Inicio/RSS",
-          "http": 403,
-          "content_type": "text/html; charset=UTF-8",
-          "bytes": 15618,
-          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
+          "ckan_q": "repetitivo",
+          "dataset": "precedentes-qualificados",
+          "titulo": "Precedentes qualificados",
+          "atualizado": "2026-09-23T23:04:26.142909",
+          "recursos": [
+            {
+              "nome": "dicionario-temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
+            },
+            {
+              "nome": "Temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
+            },
+            {
+              "nome": "dicionario-processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
+            },
+            {
+              "nome": "Processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
+            }
+          ]
         },
         {
-          "url": "https://dadosabertos.web.stj.jus.br/api/3/action/package_search?q=repetitivo&rows=5",
-          "http": 200,
-          "content_type": "application/json;charset=utf-8",
-          "bytes": 5751,
-          "inicio": "{\"help\": \"https://dadosabertos.web.stj.jus.br/api/3/action/help_show?name=package_search\", \"success\": true, \"result\": {\"count\": 1, \"facets\": {}, \"results\": [{\"author\": \"\", \"author_email\": \"\", \"creator_user_id\": \"6b58f365-ed79-4267-890e-5baceedd6b3b\", \"id\": \"4238da2f-c07b-4c1a-b345-4402accacdcf\", \"is"
+          "ckan_q": "precedentes",
+          "dataset": "precedentes-qualificados",
+          "titulo": "Precedentes qualificados",
+          "atualizado": "2026-09-23T23:04:26.142909",
+          "recursos": [
+            {
+              "nome": "dicionario-temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
+            },
+            {
+              "nome": "Temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
+            },
+            {
+              "nome": "dicionario-processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
+            },
+            {
+              "nome": "Processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
+            }
+          ]
         },
         {
-          "url": "https://res.stj.jus.br/hrestp-c-portalp/rss/",
-          "erro": "ConnectTimeout: HTTPSConnectionPool(host='res.stj.jus.br', port=443): Max retries exceeded with url: /hrestp-c-portalp/rss/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='res.stj.jus.br', port="
+          "ckan_q": "tema",
+          "dataset": "precedentes-qualificados",
+          "titulo": "Precedentes qualificados",
+          "atualizado": "2026-09-23T23:04:26.142909",
+          "recursos": [
+            {
+              "nome": "dicionario-temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv"
+            },
+            {
+              "nome": "Temas.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv"
+            },
+            {
+              "nome": "dicionario-processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/162e58f0-01c1-4d91-94a4-664b4de81e79/download/dicionario-processos.csv"
+            },
+            {
+              "nome": "Processos.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/7ed21202-0049-4fcb-aa7c-48d810d3c499/download/processos.csv"
+            }
+          ]
         },
         {
-          "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Noticias.aspx",
-          "http": 403,
-          "content_type": "text/html; charset=UTF-8",
-          "bytes": 15757,
-          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
+          "ckan_q": "tema",
+          "dataset": "penalidades-fornecedores",
+          "titulo": "Penalidades Fornecedores",
+          "atualizado": "2026-09-23T23:04:18.823410",
+          "recursos": [
+            {
+              "nome": "Penalidades.csv",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/b352d1ab-0f61-4d05-bd6a-07be0cc18670/resource/6493a35d-1fb5-4385-9c0a-60a78698d3e0/download/penalidades.csv"
+            },
+            {
+              "nome": "Dicionário de dados",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/b352d1ab-0f61-4d05-bd6a-07be0cc18670/resource/e8bd5387-47b3-41e4-b823-18f8cb08b9fe/download/dicionario-de-dados.csv"
+            }
+          ]
+        },
+        {
+          "ckan_q": "tema",
+          "dataset": "diarias-e-passagens",
+          "titulo": "Diárias e Passagens",
+          "atualizado": "2025-07-28T11:02:14.992987",
+          "recursos": [
+            {
+              "nome": "Dados - Diárias e Passagens",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/3eb917d0-61fd-45f0-b96b-52c3bba8dd2f/resource/a6e5116f-0c34-4442-9e3c-42ce95549761/download/dados-diarias-e-passagens.csv"
+            },
+            {
+              "nome": "Dicionário - Diárias e Passagens",
+              "formato": "CSV",
+              "url": "https://dadosabertos.web.stj.jus.br/dataset/3eb917d0-61fd-45f0-b96b-52c3bba8dd2f/resource/1e289f99-ba3e-4b56-84d7-b9d391b81c0e/download/dicionario-de-dados-diarias-e-passagens.csv"
+            }
+          ]
         }
       ]
     }
