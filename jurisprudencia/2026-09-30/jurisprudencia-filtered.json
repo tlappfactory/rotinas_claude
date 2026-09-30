@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-09-30T15:35:24Z",
+  "run_utc": "2026-09-30T18:24:33Z",
   "lookback_days": 7,
   "desde": "2026-09-23",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 38,
+      "itens_vistos": 40,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-09-23T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 19430,
-          "inicio": "[{\"id\":166627,\"date\":\"2026-09-30T11:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-amplia-presenca-em-debates-mundiais-no-primeiro-ano-da-gestao-do-ministro-edson-fachin\\/\",\"title\":{\"rendered\":\"STF amplia presen\\u00e7a em debates mundiais no primeiro ano da gest\\u00e3o do ministro "
+          "bytes": 20357,
+          "inicio": "[{\"id\":166640,\"date\":\"2026-09-30T14:32:26\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-manda-investigar-ataques-contra-simbolos-religiosos\\/\",\"title\":{\"rendered\":\"STF manda investigar ataques contra s\\u00edmbolos religiosos\"},\"excerpt\":{\"rendered\":\"<p>Decis\\u00e3o do ministro Fl\\u00e1v"
         },
         {
           "amostra_titulos": [
+            "STF manda investigar ataques contra símbolos religiosos",
+            "Centro de Estudos Constitucionais do STF consolida propostas sobre sistema de Justiça",
             "STF amplia presença em debates mundiais no primeiro ano da gestão do ministro Edson Fachin",
             "Confira a pauta do STF desta quarta-feira (30)",
             "STF valida leis do Rio Grande do Sul que tratam da estrutura da Polícia Militar",
-            "Partido questiona no STF proibição de impulsionamento de propaganda eleitoral nas redes so",
-            "Ministro Flávio Dino participa de última sessão na presidência da 1ª Turma",
-            "Supremo mantém regra da Alesp sobre designação de relator especial"
+            "Partido questiona no STF proibição de impulsionamento de propaganda eleitoral nas redes so"
           ]
         }
       ]
@@ -32,8 +32,8 @@
     "stj": {
       "status": "ok",
       "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
-      "itens_vistos": 0,
-      "fora_da_janela": 0,
+      "itens_vistos": 10,
+      "fora_da_janela": 7,
       "selecionados": 0,
       "probe": [
         {
@@ -47,7 +47,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2586023,
+          "bytes": 2587405,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {
@@ -246,6 +246,24 @@
         {
           "mais_recentes": [
             {
+              "data": "2026-09-25",
+              "tipo": "Tema",
+              "numero": "1250",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-09-24",
+              "tipo": "Tema",
+              "numero": "1406",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-09-23",
+              "tipo": "Tema",
+              "numero": "1119",
+              "situacao": "Acórdão Publicado"
+            },
+            {
               "data": "2026-09-22",
               "tipo": "Tema",
               "numero": "1177",
@@ -255,24 +273,6 @@
               "data": "2026-09-21",
               "tipo": "Tema",
               "numero": "1225",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-09-21",
-              "tipo": "Tema",
-              "numero": "1225",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-09-21",
-              "tipo": "Tema",
-              "numero": "1230",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-09-21",
-              "tipo": "Tema",
-              "numero": "1327",
               "situacao": "Acórdão Publicado"
             }
           ]
