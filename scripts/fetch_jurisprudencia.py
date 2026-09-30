@@ -56,11 +56,9 @@ SOURCES = {
         ("rss", "https://noticias.stf.jus.br/feed/"),
     ],
     "stj": [
-        ("rss", "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/rss"),
-        ("rss", "https://www.stj.jus.br/sites/portalp/Inicio/Noticias/RSS"),
-        ("rss", "https://res.stj.jus.br/hrestp-c-portalp/rss/noticias.xml"),
+        # www.stj.jus.br responde 403 (WAF) a runners do GitHub; res.stj.jus.br expira.
+        # Mantido como tentativa barata; a via viável é o CKAN de dados abertos.
         ("rss", "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx"),
-        ("rss", "https://www.stj.jus.br/sites/portalp/Inicio/RSS"),
     ],
 }
 
@@ -126,10 +124,26 @@ def parse_rss(r: requests.Response) -> list[dict]:
 DESCOBERTA = {
     "stf": ["https://noticias.stf.jus.br/wp-json/wp/v2/types",
             "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=3&_fields=id,date,link,title"],
-    "stj": ["https://dadosabertos.web.stj.jus.br/api/3/action/package_search?q=repetitivo&rows=5",
-            "https://res.stj.jus.br/hrestp-c-portalp/rss/",
-            "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Noticias.aspx"],
+    "stj": [],
 }
+
+
+def descobrir_ckan_stj(probe: list) -> None:
+    """Lista conjuntos/recursos do portal de dados abertos do STJ (CKAN) que
+    tratam de precedentes — só diagnóstico, para escolher o recurso a consumir."""
+    for q in ("repetitivo", "precedentes", "tema", "sumula"):
+        r = probe_get("https://dadosabertos.web.stj.jus.br/api/3/action/package_search"
+                      f"?q={q}&rows=10", [])
+        if r is None:
+            continue
+        try:
+            for pk in r.json()["result"]["results"]:
+                probe.append({"ckan_q": q, "dataset": pk.get("name"), "titulo": pk.get("title"),
+                              "atualizado": pk.get("metadata_modified"),
+                              "recursos": [{"nome": x.get("name"), "formato": x.get("format"),
+                                            "url": x.get("url")} for x in pk.get("resources", [])][:12]})
+        except (ValueError, KeyError) as exc:
+            probe.append({"ckan_q": q, "parse_erro": str(exc)[:150]})
 
 
 def coletar(fonte: str, lookback: int) -> dict:
@@ -146,9 +160,12 @@ def coletar(fonte: str, lookback: int) -> dict:
             continue
         if not itens and kind == "wp":       # rota existe mas vazia: tenta a próxima
             continue
+        probe.append({"amostra_titulos": [i["titulo"][:90] for i in itens[:6]]})
         return {"status": "ok", "endpoint": tmpl.split("?")[0], "itens": itens, "probe": probe}
     for url in DESCOBERTA.get(fonte, []):
         probe_get(url, probe)
+    if fonte == "stj":
+        descobrir_ckan_stj(probe)
     houve_erro = any("erro" in p for p in probe)
     return {"status": "error" if houve_erro else "no_feed", "itens": [], "probe": probe}
 
