@@ -21,6 +21,10 @@
 #       ou de ferramenta (sem BRIDGE_DISPATCH_TOKEN/GH_TOKEN, sem gh e sem
 #       curl) — a rotina deve ESCALAR, não cair em silêncio
 #   11  dispatch feito, mas os dados não chegaram dentro do tempo-limite
+#   13  o disparo chegou ao GitHub, mas a resposta foi um erro inesperado
+#       (HTTP 4xx/5xx que não é bloqueio de ambiente). Tratar como o 10
+#       (escalar), mas o motivo está na linha "resposta:" do log — não é
+#       problema de credencial ausente.
 #   12  a API do GitHub não é alcançável a partir desta sessão (chamadas a
 #       api.github.com são interceptadas pelo ambiente e respondem 403). O
 #       token, se houver, sequer chega ao GitHub. NÃO adianta trocar o token:
@@ -124,7 +128,8 @@ env_blocked() {
 
 # Executa o disparo e devolve:
 #   0  disparado
-#   10 falta de ferramenta / erro de credencial no GitHub
+#   10 falta de ferramenta
+#   13 erro inesperado na resposta do GitHub
 #   12 bloqueio de ambiente (a chamada não chega ao GitHub)
 dispatch() {
   local out code
@@ -165,7 +170,7 @@ dispatch() {
 
   log "ERRO: falha ao disparar o workflow_dispatch." >&2
   log "  resposta: $(printf '%s' "$out" | tr '\n' ' ' | cut -c1-300)" >&2
-  return 10
+  return 13
 }
 
 dispatch

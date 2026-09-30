@@ -31,11 +31,11 @@ Passos obrigatórios na ordem:
    - `/home/user/rotinas_claude/dejt/<YYYY-MM-DD>/dejt-filtered.json`
 4. **Complementar com WebSearch nas demais fontes** (STF/STJ/TCU/CNJ via cobertura indexada — ver lista em "Fontes a consultar" abaixo).
 5. **Triar** cada item por (Unidade destinatária / Grau de impacto / Ação sugerida) conforme regras desta CLAUDE.md.
-6. **Gerar o boletim** a partir do template `/home/user/rotinas_claude/boletim-template.html` com os placeholders preenchidos, gravando o par de arquivos e publicando-o (ver "Envio do boletim"):
+6. **Gerar o boletim**: gravar a triagem em `triagem/<YYYY-MM-DD>.json` (formato no cabeçalho de `scripts/build_boletim.py`; **fora** de `boletins/`, para não disparar o envio) e renderizar o par de arquivos a partir do template `/home/user/rotinas_claude/boletim-template.html`, publicando-o (ver "Envio do boletim"):
    ```bash
-   # boletins/<YYYY-MM-DD>.html  — corpo rich-text
-   # boletins/<YYYY-MM-DD>.txt   — alternativa plain-text equivalente
-   git -C /home/user/rotinas_claude add boletins/
+   python3 scripts/build_boletim.py --data <YYYY-MM-DD>   # gera boletins/<data>.html e .txt
+   python3 scripts/send_boletim.py --data <YYYY-MM-DD> --dry-run
+   git -C /home/user/rotinas_claude add triagem/ boletins/
    git -C /home/user/rotinas_claude commit -m "Boletim Normativo <YYYY-MM-DD>"
    git -C /home/user/rotinas_claude push origin main
    ```
@@ -211,6 +211,7 @@ do Claude ele é inócuo** — não substitui a rota MCP.
 
 - **`0`** — dados da data-alvo presentes (já existiam ou chegaram após o dispatch). Seguir o pipeline normalmente.
 - **`10`** — dados ausentes e o dispatch não pôde ser feito por falta de credencial ou de ferramenta (sem token, ou sem `gh`/`curl`). **Escalar:** ainda produzir o boletim com a edição mais recente disponível, mas com (a) aviso metodológico reforçado e em destaque na minuta e (b) alerta explícito no relatório final ao operador de que o bridge não entregou os dados do dia e exige disparo manual (*Actions → fetch-dou-dejt-tcu-diario → Run workflow*).
+- **`13`** — o disparo alcançou o GitHub, mas a resposta foi um erro inesperado (ver a linha `resposta:` do log). Mesmo tratamento do `10`, citando o erro real em vez de "falta de credencial"; tentar antes a rota MCP como no `12`.
 - **`11`** — o dispatch foi feito mas os dados não chegaram dentro do tempo-limite. Mesmo tratamento do `10` (boletim com a edição mais recente + escalonamento explícito), informando que o disparo foi realizado e provavelmente ainda estava em curso.
 - **`12`** — a API do GitHub está bloqueada para esta sessão (assinatura descrita acima). **Não escalar ainda e não trocar o token:** disparar o workflow pela ferramenta MCP (`mcp__github__actions_run_trigger`) e reexecutar o script com `--wait-only`, tratando o resultado dessa segunda chamada (`0` segue o pipeline; `11` escalona). Só escalar como falha de bridge se a própria rota MCP também falhar — nesse caso, relatar ao operador que o conector GitHub do Claude precisa ser reconectado para a organização `tlappfactory`.
 

@@ -43,6 +43,10 @@ on:
         required: false
         default: "false"
 
+# Runs de validação (dry_run) levam o prefixo "[dry-run]" no título, para que a
+# passagem de reforço não os confunda com um envio real.
+run-name: "${{ github.event.inputs.dry_run == 'true' && '[dry-run] ' || '' }}${{ github.event.head_commit.message || 'send-boletim' }}"
+
 permissions:
   contents: read
   actions: read
@@ -75,7 +79,7 @@ jobs:
           fi
           ja_enviado="$(gh run list --repo "${{ github.repository }}" \
             --workflow send-boletim.yml --status success --limit 20 \
-            --json createdAt --jq "[.[] | select(.createdAt | startswith(\"${today}\"))] | length")"
+            --json createdAt,displayTitle --jq "[.[] | select((.createdAt | startswith(\"${today}\")) and (.displayTitle | startswith(\"[dry-run]\") | not))] | length")"
           if [ "${ja_enviado:-0}" -gt 0 ]; then
             echo "skip=já existe um run success deste workflow hoje (${today}) — reforço não reenvia." >> "$GITHUB_OUTPUT"
           fi
