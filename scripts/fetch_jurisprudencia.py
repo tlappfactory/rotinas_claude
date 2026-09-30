@@ -48,11 +48,16 @@ HEADERS = {"User-Agent": "rotinas-claude-trt17/1.0 (+boletim-normativo)",
 
 SOURCES = {
     "stf": [
+        # As URLs do portal são /postsnoticias/…: o tipo de post é customizado.
+        ("wp", "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after={after}"
+               "&_fields=id,date,link,title,excerpt"),
         ("wp", "https://noticias.stf.jus.br/wp-json/wp/v2/posts?per_page=100&after={after}"
                "&_fields=id,date,link,title,excerpt"),
         ("rss", "https://noticias.stf.jus.br/feed/"),
     ],
     "stj": [
+        ("rss", "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/rss"),
+        ("rss", "https://www.stj.jus.br/sites/portalp/Inicio/Noticias/RSS"),
         ("rss", "https://res.stj.jus.br/hrestp-c-portalp/rss/noticias.xml"),
         ("rss", "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx"),
         ("rss", "https://www.stj.jus.br/sites/portalp/Inicio/RSS"),
@@ -82,7 +87,7 @@ def probe_get(url: str, probe: list) -> requests.Response | None:
     try:
         r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         probe.append({"url": url, "http": r.status_code, "content_type": r.headers.get("content-type", ""),
-                      "bytes": len(r.content), "inicio": r.text[:120].replace("\n", " ")})
+                      "bytes": len(r.content), "inicio": r.text[:300].replace("\n", " ")})
         return r if r.status_code == 200 else None
     except requests.RequestException as exc:
         probe.append({"url": url, "erro": f"{type(exc).__name__}: {exc}"[:200]})
@@ -116,6 +121,17 @@ def parse_rss(r: requests.Response) -> list[dict]:
     return out
 
 
+# URLs consultadas apenas para diagnóstico (ficam em `probe`), a fim de
+# descobrir o formato certo quando um candidato acima não responde.
+DESCOBERTA = {
+    "stf": ["https://noticias.stf.jus.br/wp-json/wp/v2/types",
+            "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=3&_fields=id,date,link,title"],
+    "stj": ["https://dadosabertos.web.stj.jus.br/api/3/action/package_search?q=repetitivo&rows=5",
+            "https://res.stj.jus.br/hrestp-c-portalp/rss/",
+            "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/Noticias.aspx"],
+}
+
+
 def coletar(fonte: str, lookback: int) -> dict:
     after = (datetime.now(timezone.utc) - timedelta(days=lookback)).strftime("%Y-%m-%dT00:00:00")
     probe: list = []
@@ -128,7 +144,11 @@ def coletar(fonte: str, lookback: int) -> dict:
         except (ValueError, ET.ParseError) as exc:
             probe[-1]["parse_erro"] = str(exc)[:200]
             continue
+        if not itens and kind == "wp":       # rota existe mas vazia: tenta a próxima
+            continue
         return {"status": "ok", "endpoint": tmpl.split("?")[0], "itens": itens, "probe": probe}
+    for url in DESCOBERTA.get(fonte, []):
+        probe_get(url, probe)
     houve_erro = any("erro" in p for p in probe)
     return {"status": "error" if houve_erro else "no_feed", "itens": [], "probe": probe}
 
