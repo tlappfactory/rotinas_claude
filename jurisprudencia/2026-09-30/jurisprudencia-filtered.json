@@ -1,0 +1,55 @@
+{
+  "run_utc": "2026-09-30T15:07:18Z",
+  "lookback_days": 7,
+  "desde": "2026-09-23",
+  "fontes": {
+    "stf": {
+      "status": "ok",
+      "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/posts",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://noticias.stf.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-09-23T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 2,
+          "inicio": "[]"
+        }
+      ]
+    },
+    "stj": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://res.stj.jus.br/hrestp-c-portalp/rss/noticias.xml",
+          "http": 500,
+          "content_type": "application/xml;charset=utf-8",
+          "bytes": 39,
+          "inicio": "{\"error\":\"Acao invalida: noticias.xml\"}"
+        },
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
+          "http": 403,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 15636,
+          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-"
+        },
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Inicio/RSS",
+          "http": 403,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 15618,
+          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-"
+        }
+      ]
+    }
+  },
+  "articles": [],
+  "total_matched": 0
+}
