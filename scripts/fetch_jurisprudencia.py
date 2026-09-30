@@ -160,8 +160,14 @@ def ler_csv(r: requests.Response) -> list[dict]:
         texto = r.content.decode("utf-8-sig")
     except UnicodeDecodeError:
         texto = r.content.decode("latin-1")
-    dialeto = csv.Sniffer().sniff(texto[:4000], delimiters=";,\t|")
-    return list(csv.DictReader(io.StringIO(texto), dialect=dialeto))
+    cabecalho = texto.splitlines()[0] if texto else ""
+    delim = max(";,\t|", key=cabecalho.count)
+    linhas = []
+    for row in csv.DictReader(io.StringIO(texto), delimiter=delim):
+        # colunas a mais viram chave None -> lista; colunas a menos viram None
+        linhas.append({(k if k is not None else "_extra"):
+                       (" ".join(v) if isinstance(v, list) else (v or "")) for k, v in row.items()})
+    return linhas
 
 
 def datas_da_linha(linha: dict) -> list[str]:
@@ -235,7 +241,11 @@ def coletar(fonte: str, lookback: int) -> dict:
     for url in DESCOBERTA.get(fonte, []):
         probe_get(url, probe)
     if fonte == "stj":
-        itens = coletar_stj_ckan(lookback, probe)
+        try:
+            itens = coletar_stj_ckan(lookback, probe)
+        except Exception as exc:  # diagnóstico: nunca derrubar a coleta inteira
+            probe.append({"excecao": f"{type(exc).__name__}: {exc}"[:300]})
+            itens = []
         if itens or any(p.get("colunas") for p in probe):
             return {"status": "ok", "endpoint": STJ_TEMAS_CSV, "itens": itens, "probe": probe}
     houve_erro = any("erro" in p for p in probe)
