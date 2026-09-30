@@ -83,14 +83,21 @@ def strip_html(t: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(t or ""))).strip()
 
 
-def probe_get(url: str, probe: list) -> requests.Response | None:
+def probe_get(url: str, probe: list, timeout: int = TIMEOUT, tentativas: int = 1) -> requests.Response | None:
+    for n in range(1, tentativas + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=timeout)
+            break
+        except requests.RequestException as exc:
+            if n < tentativas:
+                continue
+            probe.append({"url": url, "erro": f"{type(exc).__name__}: {exc}"[:200], "tentativas": n})
+            return None
     try:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         probe.append({"url": url, "http": r.status_code, "content_type": r.headers.get("content-type", ""),
                       "bytes": len(r.content), "inicio": r.text[:300].replace("\n", " ")})
         return r if r.status_code == 200 else None
-    except requests.RequestException as exc:
-        probe.append({"url": url, "erro": f"{type(exc).__name__}: {exc}"[:200]})
+    except requests.RequestException:
         return None
 
 
@@ -192,7 +199,8 @@ def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
     amostra vão para `probe` e para o dicionário oficial do conjunto. Um item
     entra quando alguma data da linha cai na janela; o filtro de tema é feito
     depois, em `filtrar` (com o texto de todas as colunas)."""
-    r = probe_get(STJ_TEMAS_CSV, probe)
+    # CSV grande (milhares de linhas com texto longo): timeout folgado e retry
+    r = probe_get(STJ_TEMAS_CSV, probe, timeout=150, tentativas=3)
     if r is None:
         return []
     try:
@@ -204,7 +212,7 @@ def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
         return []
     probe.append({"colunas": list(linhas[0].keys()), "linhas": len(linhas),
                   "amostra": [{k: (v or "")[:80] for k, v in l.items()} for l in linhas[:2]]})
-    d = probe_get(STJ_DICIONARIO_CSV, probe)
+    d = probe_get(STJ_DICIONARIO_CSV, probe, timeout=60, tentativas=2)
     if d is not None:
         try:
             probe.append({"dicionario": [{k: (v or "")[:120] for k, v in l.items()} for l in ler_csv(d)[:40]]})
