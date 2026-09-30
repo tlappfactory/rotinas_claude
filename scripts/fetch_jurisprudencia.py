@@ -24,7 +24,9 @@ Uso:
     python3 scripts/fetch_jurisprudencia.py [--lookback 7] [--dry-run]
 """
 import argparse
+import csv
 import html
+import io
 import json
 import os
 import re
@@ -146,6 +148,74 @@ def descobrir_ckan_stj(probe: list) -> None:
             probe.append({"ckan_q": q, "parse_erro": str(exc)[:150]})
 
 
+CKAN_TEMAS = "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/{rid}/download/{nome}"
+STJ_TEMAS_CSV = CKAN_TEMAS.format(rid="df29da13-7d6b-41ba-ad96-cd1a5bbd191c", nome="temas.csv")
+STJ_DICIONARIO_CSV = CKAN_TEMAS.format(rid="d5e50514-6dba-4f1e-8557-94f135eae03b", nome="dicionario-temas.csv")
+DATA_BR = re.compile(r"(\d{2})/(\d{2})/(\d{4})")
+DATA_ISO = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
+
+
+def ler_csv(r: requests.Response) -> list[dict]:
+    try:
+        texto = r.content.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        texto = r.content.decode("latin-1")
+    dialeto = csv.Sniffer().sniff(texto[:4000], delimiters=";,\t|")
+    return list(csv.DictReader(io.StringIO(texto), dialect=dialeto))
+
+
+def datas_da_linha(linha: dict) -> list[str]:
+    out = []
+    for v in linha.values():
+        v = v or ""
+        if (m := DATA_ISO.search(v)):
+            out.append(m.group(0))
+        elif (m := DATA_BR.search(v)):
+            out.append(f"{m.group(3)}-{m.group(2)}-{m.group(1)}")
+    return out
+
+
+def coletar_stj_ckan(lookback: int, probe: list) -> list[dict]:
+    """Temas de precedentes qualificados do STJ (CKAN de dados abertos).
+
+    O esquema das colunas é descoberto em tempo de execução: cabeçalho e
+    amostra vão para `probe` e para o dicionário oficial do conjunto. Um item
+    entra quando alguma data da linha cai na janela; o filtro de tema é feito
+    depois, em `filtrar` (com o texto de todas as colunas)."""
+    r = probe_get(STJ_TEMAS_CSV, probe)
+    if r is None:
+        return []
+    try:
+        linhas = ler_csv(r)
+    except (csv.Error, UnicodeDecodeError) as exc:
+        probe.append({"csv_erro": str(exc)[:200]})
+        return []
+    if not linhas:
+        return []
+    probe.append({"colunas": list(linhas[0].keys()), "linhas": len(linhas),
+                  "amostra": [{k: (v or "")[:80] for k, v in l.items()} for l in linhas[:2]]})
+    d = probe_get(STJ_DICIONARIO_CSV, probe)
+    if d is not None:
+        try:
+            probe.append({"dicionario": [{k: (v or "")[:120] for k, v in l.items()} for l in ler_csv(d)[:40]]})
+        except (csv.Error, UnicodeDecodeError):
+            pass
+    desde = (date.today() - timedelta(days=lookback)).isoformat()
+    itens = []
+    for l in linhas:
+        datas = datas_da_linha(l)
+        recente = max(datas) if datas else ""
+        if recente < desde:
+            continue
+        chave = next((v for k, v in l.items() if "tema" in normalize(k) and (v or "").strip().isdigit()), "")
+        texto = " | ".join(f"{k}: {(v or '').strip()}" for k, v in l.items() if (v or "").strip())
+        itens.append({"data": recente, "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp"
+                      + (f"?tipo_pesquisa=T&num_tema={chave}" if chave else ""),
+                      "titulo": f"STJ — precedente qualificado, tema {chave or '[verificar nº na fonte]'}",
+                      "resumo": texto[:1500]})
+    return itens
+
+
 def coletar(fonte: str, lookback: int) -> dict:
     after = (datetime.now(timezone.utc) - timedelta(days=lookback)).strftime("%Y-%m-%dT00:00:00")
     probe: list = []
@@ -165,7 +235,9 @@ def coletar(fonte: str, lookback: int) -> dict:
     for url in DESCOBERTA.get(fonte, []):
         probe_get(url, probe)
     if fonte == "stj":
-        descobrir_ckan_stj(probe)
+        itens = coletar_stj_ckan(lookback, probe)
+        if itens or any(p.get("colunas") for p in probe):
+            return {"status": "ok", "endpoint": STJ_TEMAS_CSV, "itens": itens, "probe": probe}
     houve_erro = any("erro" in p for p in probe)
     return {"status": "error" if houve_erro else "no_feed", "itens": [], "probe": probe}
 
