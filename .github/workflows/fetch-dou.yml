@@ -116,6 +116,12 @@ jobs:
           python scripts/fetch_tcu.py --lookback 14 || \
             echo "AVISO: fetch_tcu.py falhou — TCU será marcado como fonte indisponível neste run."
 
+      - name: Fetch+filter STF/STJ (feeds oficiais de notícias — sinal de precedente vinculante)
+        run: |
+          mkdir -p jurisprudencia
+          python scripts/fetch_jurisprudencia.py --lookback 7 || \
+            echo "AVISO: fetch_jurisprudencia.py falhou — STF/STJ seguem por busca complementar."
+
       - name: Commit JSONs filtrados
         run: |
           set -e
@@ -123,7 +129,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 'dou/*/inlabs-filtered.json' \
                   'dejt/*/dejt-filtered.json' 'dejt/_last_fetch.json' \
-                  'tcu/*/tcu-filtered.json'
+                  'tcu/*/tcu-filtered.json' \
+                  'jurisprudencia/*/jurisprudencia-filtered.json'
           if git diff --staged --quiet; then
             echo "Nenhuma novidade a commitar."
             exit 0

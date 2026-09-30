@@ -80,7 +80,9 @@ Produzir o **Boletim Normativo** e enviá-lo por e-mail a `leonardo.donato@trt17
 - **CNJ** — Resoluções, Recomendações e Instruções Normativas do CNJ são publicadas obrigatoriamente no DOU Seção 1 e capturadas pelo INLabs. Filtrar itens com `orgao_emissor_hits` contendo `"conselho nacional de justica"` ou `"cnj"`.
 - **CSJT** — Atos do CSJT também aparecem no DOU além do DEJT.
 
-**Fontes a complementar via WebSearch (só jurisprudência de impacto vinculante):**
+**Jurisprudência STF/STJ — fonte estruturada primeiro:** `/home/user/rotinas_claude/jurisprudencia/<YYYY-MM-DD>/jurisprudencia-filtered.json` (feeds oficiais de notícias do STF e do STJ, filtrados por sinal de precedente vinculante + tema SGP). Cada fonte traz `status` (`ok` | `no_feed` | `error`). Usar os itens como ponto de partida para "EM MONITORAMENTO", sempre com `[carece de leitura humana do texto integral]` (o JSON não traz a tese). Se `status` ≠ `ok` ou o JSON não existir, cair na busca abaixo.
+
+**Fontes a complementar via WebSearch (só jurisprudência de impacto vinculante, ou fallback do bloco acima):**
 
 4. **STF — repercussão geral** (últimos 7 dias): `STF repercussão geral servidor público [ANO] tema`, `STF teto remuneratório [ANO]`, `STF aposentadoria magistrado servidor [ANO]`
 5. **STJ — recursos repetitivos** (últimos 7 dias): `STJ recurso repetitivo servidor público judiciário [ANO]`, `STJ tese vinculante aposentadoria pensão [ANO]`
@@ -367,7 +369,9 @@ Cada fonte primária consultada na edição utilizada deve aparecer no boletim c
 
 **Exceção — DEJT Caderno Administrativo do TRT-17:** por não passar pelo filtro temático, `matched_atos` é sempre igual a `total_atos_detectados` nessa fonte (nada é descartado). Isso significa que **todo** ato do caderno do TRT-17 deve ser triado individualmente (Alto/Médio/Informativo/Monitoramento) e aparecer na minuta — inclusive atos sem relação direta com os temas-filtro da SGP (ex.: movimentação de magistratura, atos de outras unidades do Tribunal), que devem ser classificados como **INFORMATIVO** com a unidade destinatária mais próxima (ou "SGP-direção — ciência") em vez de omitidos. A regra de `matched_atos = 0` (linha acima) não se aplica ao caderno do TRT-17. CSJT e TST continuam sob o filtro temático normal.
 
-A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
+**Consolidação de lotes do TRT-17:** atos do mesmo tipo publicados em sequência no caderno do TRT-17 (ex.: nomeações do mesmo concurso) podem ser apresentados num único bloco da triagem, com o campo `linhas` listando cada ato — todos continuam sendo triados; muda só a apresentação (ver `scripts/build_boletim.py`).
+
+A mesma lógica vale para o DOU (por seção: DO1, DO2, DO1E, DO2E — usando `total_xml_files` vs. `matched_articles` do JSON) (o `inlabs-filtered.json` traz `discarded_individual_acts`: atos individuais de pessoal — aposentadoria, pensão, nomeação etc. de servidores identificados — de órgãos não prioritários são descartados pelo filtro e apenas contados; declarar "N selecionados, M atos individuais de pessoal de outros órgãos descartados") e para o TCU (declarando a janela de sessões coberta: "TCU — acórdãos das sessões de `YYYY-MM-DD` a `YYYY-MM-DD`, N matched, M descartados pelo filtro").
 
 ### Aviso metodológico em fallback (códigos 10, 11 e 12 não resolvido)
 

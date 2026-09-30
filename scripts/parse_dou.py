@@ -6,6 +6,15 @@ Critérios de inclusão (combinados em OR):
   (a) Órgão EMISSOR (campo `OrgaoDouSec`/`artCategory` do XML) é um dos PRIORITY_ORGAOS_EMISSOR.
   (b) Texto da matéria contém pelo menos uma STRONG_KEYWORD (regex com fronteira de palavra).
 
+Filtro de ruído (só para matérias SEM órgão emissor prioritário):
+  - Atos individuais de pessoal de outros órgãos (concessão de aposentadoria ou
+    pensão, nomeação, exoneração, designação etc. de servidores identificados)
+    não interessam à SGP do TRT-17 e dominavam o JSON (~60% das matérias). São
+    descartados, mas CONTADOS em `discarded_individual_acts` no JSON, para que o
+    boletim declare "N selecionados, M descartados". Normas gerais (lei, decreto,
+    resolução, instrução/orientação normativa, portaria normativa/conjunta)
+    nunca são descartadas por este filtro. DOU_KEEP_INDIVIDUAL=1 desliga o filtro.
+
 Filtros negativos:
   - "17ª região" combinada com "CREF/CONFEF/Conselho Regional de Educação Física"
     → não é TRT-17.
@@ -176,6 +185,30 @@ def match_orgao_emissor(orgao_norm: str, full_text_norm: str) -> list[str]:
     return hits
 
 
+# Verbos que caracterizam ato individual de pessoal e indícios de que o ato
+# nomeia servidor(a) determinado(a). Aplicados ao texto normalizado.
+ACT_INDIVIDUAL = re.compile(
+    r"\b(conceder|concede|nomear|nomeia|exonerar|exonera|designar|dispensar|aposentar|"
+    r"reintegrar|declarar vaga|averbar|reconhecer|cessar|cedido|ceder|remover|redistribuir)\b")
+ID_SERVIDOR = re.compile(r"\b(siape|matricula|cpf)\b")
+NORMA_GERAL = re.compile(
+    r"\b(resolucao|instrucao normativa|decreto|lei\b|lei complementar|orientacao normativa|"
+    r"portaria normativa|portaria conjunta|recomendacao|medida provisoria|emenda|regimento|estatuto)")
+KEEP_INDIVIDUAL = os.environ.get("DOU_KEEP_INDIVIDUAL") == "1"
+
+
+def is_ato_individual(identifica: str, texto: str) -> bool:
+    """True para ato individual de pessoal (ver docstring do módulo)."""
+    ident = normalize(identifica)
+    if NORMA_GERAL.search(ident):
+        return False
+    inicio = normalize(texto)[:900]
+    if not ACT_INDIVIDUAL.search(inicio):
+        return False
+    return bool(ID_SERVIDOR.search(normalize(texto)) or "de pessoal" in ident
+                or re.search(r"\bresolve\b", inicio))
+
+
 def parse_xml_file(path: Path) -> dict | None:
     try:
         tree = ET.parse(path)
@@ -222,6 +255,10 @@ def parse_xml_file(path: Path) -> dict | None:
     # Critério de inclusão: órgão emissor prioritário OU keyword forte
     if not orgao_hits and not strong_hits:
         return None
+
+    if (not orgao_hits and not KEEP_INDIVIDUAL
+            and is_ato_individual(identifica, strip_html(texto) or article_full_text(root))):
+        return {"_discarded_individual": True, "section": pub_name}
 
     score = 10 * len(orgao_hits) + 5 * len(strong_hits) + 1 * len(weak_hits)
 
@@ -296,9 +333,14 @@ def process_date(day_dir: Path, force: bool) -> dict:
 
     matches: list[dict] = []
     parse_errors: list[str] = []
+    discarded: dict[str, int] = {}
     for x in xmls:
         result = parse_xml_file(x)
         if result is None:
+            continue
+        if result.get("_discarded_individual"):
+            sec = result.get("section") or "?"
+            discarded[sec] = discarded.get(sec, 0) + 1
             continue
         if "_parse_error" in result:
             parse_errors.append(result["_parse_error"])
@@ -312,6 +354,8 @@ def process_date(day_dir: Path, force: bool) -> dict:
         "date": day_dir.name,
         "total_xml_files": len(xmls),
         "matched_articles": len(matches),
+        "discarded_individual_acts": {"total": sum(discarded.values()),
+                                      "by_section": dict(sorted(discarded.items()))},
         "parse_errors": parse_errors,
         "strong_keyword_tags": list(STRONG_KEYWORDS.keys()),
         "weak_keyword_tags": list(WEAK_KEYWORDS.keys()),
@@ -321,7 +365,8 @@ def process_date(day_dir: Path, force: bool) -> dict:
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
                         encoding="utf-8")
     return {"date": day_dir.name, "status": "ok", "matches": len(matches),
-            "total": len(xmls), "errors": len(parse_errors)}
+            "total": len(xmls), "errors": len(parse_errors),
+            "discarded_individual": sum(discarded.values())}
 
 
 def main() -> None:

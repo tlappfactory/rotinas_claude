@@ -15,7 +15,9 @@ Formato da triagem (todas as listas podem ser vazias):
     "aviso": {"destaque": false, "texto": "..."},      # opcional; destaque=true
                                                         # => caixa vermelha (fallback)
     "alto":          [{titulo, ementa, unidades, acao, fonte_url, fonte_titulo}],
-    "medio":         [idem],
+    "medio":         [idem],   # item pode ter "linhas": [str, ...] — detalhamento em
+                               # lista (ex.: atos de nomeação do mesmo lote consolidados
+                               # em um único bloco, cada ato numa linha)
     "informativo":   [{titulo, ementa, unidades, fonte_url, fonte_titulo}],
     "monitoramento": [{titulo, status, reflexo, fonte_url, fonte_titulo}],
     "fontes_ok": "...", "fontes_sem_retorno": "..."
@@ -59,6 +61,8 @@ ROTULOS = {"ementa": "Ementa", "unidades": "Unidade(s)", "acao": "Ação sugerid
 def validar(t: dict) -> None:
     for chave, campos in CAMPOS.items():
         for i, item in enumerate(t.get(chave, []), 1):
+            if "linhas" in item and not (isinstance(item["linhas"], list) and all(isinstance(x, str) for x in item["linhas"])):
+                sys.exit(f"ERRO: {chave}[{i}].linhas deve ser lista de textos")
             falta = [c for c in campos if not str(item.get(c, "")).strip()]
             if falta:
                 sys.exit(f"ERRO: {chave}[{i}] sem campo(s): {', '.join(falta)}")
@@ -72,6 +76,9 @@ def bloco_html(item: dict, chave: str) -> str:
     linhas = [f'<p style="margin: 0 0 {mb} 0;"><strong>{E(item["titulo"])}</strong></p>']
     for c in CAMPOS[chave][1:-2]:
         linhas.append(f'<p style="margin: 0 0 {mb} 0;"><strong>{ROTULOS[c]}:</strong> {E(item[c])}</p>')
+    if item.get("linhas"):
+        lis = "".join(f'<li>{E(x)}</li>' for x in item["linhas"])
+        linhas.append(f'<ul style="margin: 0 0 {mb} 20px; padding: 0;">{lis}</ul>')
     linhas.append('<p style="margin: 0;"><strong>Fonte:</strong> '
                   f'<a href="{E(item["fonte_url"])}">{E(item["fonte_titulo"])}</a></p>')
     return '<div style="margin-bottom: 16px;">\n  ' + '\n  '.join(linhas) + '\n</div>'
@@ -130,6 +137,7 @@ def renderizar_txt(t: dict) -> str:
             L.append("* " + i["titulo"])
             for c in CAMPOS[chave][1:-2]:
                 L.append(f"  {ROTULOS[c]}: {i[c]}")
+            L += [f"    - {x}" for x in i.get("linhas", [])]
             L += [f"  Fonte: {i['fonte_titulo']} — {i['fonte_url']}", ""]
     L += ["RESUMO ESTATÍSTICO",
           f"- Alto Impacto: {len(t.get('alto', []))}", f"- Médio Impacto: {len(t.get('medio', []))}",
