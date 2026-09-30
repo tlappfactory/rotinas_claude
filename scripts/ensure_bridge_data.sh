@@ -136,11 +136,15 @@ dispatch() {
   elif command -v curl >/dev/null 2>&1; then
     # -w anexa o status HTTP ao fim da saída; sem -f, para preservar o corpo
     # do erro, que é o que permite distinguir bloqueio de ambiente de 401/403
-    # legítimos do GitHub.
+    # legítimos do GitHub. O Content-Type explícito é obrigatório: `-d` sozinho
+    # envia application/x-www-form-urlencoded e o intermediador do ambiente
+    # recusa com HTTP 415 ("Request bodies must declare Content-Type:
+    # application/json"), o que a rotina lia como falha genérica (código 10).
     out="$(curl -sS -w $'\nHTTP_STATUS=%{http_code}' -X POST \
       -H "Authorization: Bearer $TOKEN" \
       -H "Accept: application/vnd.github+json" \
       -H "X-GitHub-Api-Version: 2022-11-28" \
+      -H "Content-Type: application/json" \
       "https://api.github.com/repos/$REPO/actions/workflows/$WORKFLOW/dispatches" \
       -d "{\"ref\":\"$BRANCH\",\"inputs\":{\"data\":\"$TARGET_DATE\"}}" 2>&1)"
     case "$out" in

@@ -70,12 +70,14 @@ jobs:
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_PASSWORD: ${{ secrets.INLABS_PASSWORD }}
+          INPUT_DATA: ${{ inputs.data }}
+          INPUT_CATCHUP: ${{ inputs.catchup || '7' }}
         run: |
           mkdir -p dou logs
-          if [ -n "${{ inputs.data }}" ]; then
-            python scripts/fetch_inlabs.py "${{ inputs.data }}"
+          if [ -n "$INPUT_DATA" ]; then
+            python scripts/fetch_inlabs.py "$INPUT_DATA"
           else
-            python scripts/fetch_inlabs.py --catchup "${{ inputs.catchup || '7' }}"
+            python scripts/fetch_inlabs.py --catchup "$INPUT_CATCHUP"
           fi
 
       - name: Parse DOU

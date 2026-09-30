@@ -39,7 +39,7 @@ Passos obrigatórios na ordem:
    git -C /home/user/rotinas_claude commit -m "Boletim Normativo <YYYY-MM-DD>"
    git -C /home/user/rotinas_claude push origin main
    ```
-   O push dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho.
+   O push dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho (e o texto do e-mail não deve mais chamá-lo de "rascunho").
 7. **Confirmar o envio** consultando o workflow (`mcp__github__actions_list`, `list_workflow_runs` de `send-boletim.yml`) e **reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, resultado do envio (conclusão do run), fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
@@ -112,7 +112,7 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 - Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
 - Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
-- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo - Edição de [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. O aviso de que o conteúdo é uma minuta pendente de revisão humana antes da distribuição às unidades permanece no corpo do e-mail (ver template).
+- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo - Edição de [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. O aviso de que o conteúdo foi gerado por IA e requer revisão humana antes da distribuição às unidades permanece no corpo do e-mail (ver template).
 - **Destinatário:** `leonardo.donato@trt17.jus.br` (secret `BOLETIM_TO`, com esse valor como default no script).
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
 - Se nenhuma seção tiver itens, ainda assim gerar e enviar o boletim — manter a previsibilidade do Boletim.

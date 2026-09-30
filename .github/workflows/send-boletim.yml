@@ -100,12 +100,15 @@ jobs:
           SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
           SMTP_FROM: ${{ secrets.SMTP_FROM }}
           BOLETIM_TO: ${{ secrets.BOLETIM_TO }}
+          # Inputs via env (não interpolados no script): evita injeção de shell.
+          INPUT_DATA: ${{ github.event.inputs.data }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
-          args=""
-          if [ -n "${{ github.event.inputs.data }}" ]; then
-            args="$args --data ${{ github.event.inputs.data }}"
+          args=()
+          if [ -n "$INPUT_DATA" ]; then
+            args+=(--data "$INPUT_DATA")
           fi
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            args="$args --dry-run"
+          if [ "$INPUT_DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
           fi
-          python scripts/send_boletim.py $args
+          python scripts/send_boletim.py "${args[@]}"
