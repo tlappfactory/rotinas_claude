@@ -2,33 +2,16 @@
   "date": "2026-09-29",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 225,
-      "pdf_text_chars": 20145,
-      "total_atos_detectados": 4,
-      "matched_atos": 4,
-      "headers_sample": [
-        "EDITAL Nº 10/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 452/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 453/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 2758,
-      "pdf_text_chars": 4055,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO Nº 11/GCGJT, DE 28 DE SETEMBRO DE 2026."
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 4,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -54,57 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "EDITAL Nº 10/2026",
-      "text_resumo": "EDITAL Nº 10/2026\n\n\n                                Promoção por Antiguidade para cargo vago de Juiz(íza) Titular de Vara do Trabalho do TRT da 17ª Região\n\n                                                                  (SEI 0001309-07.2026.5.17.0500)\n\n\n\n                      A DESEMBARGADORA-PRESIDENTE NO EXERCÍCIO DA PRESIDÊNCIA DO TRIBUNAL REGIONAL DO TRABALHO DA\n                      17ª REGIÃO, no uso de suas atribuições legais e regimentais;\n\n                      CONSIDERANDO o disposto na Lei Complementar n. 35/1979 - Lei Orgânica da Magistratura Nacional;\n\n                      CONSIDERANDO o previsto na alínea \"b\" do § 5º do artigo 654 da Consolidação das Leis do Trabalho (CLT);\n\n\n\n                      CONSIDERANDO os termos da Resolução n. 106/2010 do Conselho Nacional de Justiça (CNJ), na redação dada pelas\n                      Resoluções CNJ nº 426/2021, nº 507/2023, 525/2023, 561/2024, 638/2024 e 661/2025, que dispõe sobre os critérios para\n                      aferição do merecimento para promoção de magistradas e magistrados e acesso aos Tribunais de 2º grau;\n\n\n\n                      CONSIDERANDO o disposto nos artigos 76 e ss. do Regimento Interno deste Tribunal;\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                            2\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                       CONSIDERANDO o disposto na Resolução Administrativa nº 139/2022, que dispõe sobre promoção e acesso de magistradas\n                       e magistrados no âmbito do Tribunal Regional do Trabalho da 17ª Região;\n\n                       CONSIDERANDO os termos da Resolução Administrativa nº 77/2026 que declarou a vacância do cargo de Juíza ou Juiz\n                       Titular da Vara do Trabalho de São Mateus, em razão da remoção da Juíza Anna Beatriz Mathias Diniz de Castilhos Costa,\n                       Titular da Vara do Trabalho de São Mateus, para ocupar o cargo de Juiz Titular da 2ª Vara do Trabalho de Cachoeiro de\n                       Itapemirim, em decorrência da remoção da Juíza Suzane Schulz Ribeiro para ocupar o cargo de Juiz Titular da Vara do\n                       Trabalho de Guarapari, este último vago em virtude da aposentadoria do Juiz Vítor Hugo Vieira Miguel;\n\n                       CONSIDERANDO\n                        os termos da Resolução Administrativa nº 78/2026, que declarou a vacância do cargo de Juíza ou Juiz Titular da Vara do\n                       Trabalho de Linhares, em razão da remoção do Juiz\n                       Luís Eduardo Soares Fontenelle\n                       , Titular da Vara do Trabalho de Linhares, para ocupar o cargo de Juiz Titular da 1ª Vara do Trabalho de Vitória, em\n                       decorrência da remoção da Juíza\n                       Angela Baptista Balliana Kock\n                        para ocupar o cargo de Juíza Titular da 10ª Vara do Trabalho de Vitória, este último vago em virtude da promoção do Juiz\n                       Luís Cláudio Dos Santos Branco;\n\n                       CONSIDERANDO\n                        que, nos termos do Edital nº 07/2026 (SEI 0001281-39.2026.5.17.0500), encontra-se aberto procedimento de remoção interna\n                       de Juízes Titulares para preenchimento do cargo vago de Juiz(íza) Titular da 15ª Vara do Trabalho de Vitória, assim como das\n                       eventuais vagas decorrentes das sucessivas remoções, prevalecendo a antiguidade no cargo, do qual decorrerá 01 (um)\n                       cargo vago de Juiz(íza) Titular de uma das Varas do Trabalho deste Regional;\n\n                       CONSIDERANDO que, nos termos do Edital nº 08/2026 (SEI 0001263-18.2026.5.17.0500), encontra-se aberto processo de\n                       promoção de Juiz(a) Substituto(a), pelo critério de merecimento, para preenchimento do cargo de Juiz ou Juíza Titular das\n                       Varas do Trabalho de São Mateus, de Linhares ou para o que estiver vago após o processo de remoção em andamento (Edital\n                       nº 07/2026);\n\n                       CONSIDERANDO o manifesto prejuízo ao bom andamento das atividades nas Varas do Trabalho que aguardam o\n                       preenchimento dos cargos vagos de Juízes Titulares, conforme observado em experiências anteriores no âmbito deste\n                       Regional;\n\n                       TORNA PÚBLICO\n                       que se encontra aberto o processo de promoção de Juiz(íza) Substituto(a), pelo critério de antiguidade, para um dos cargos de\n                       Juiz(íza) Titular de Vara que estiver vago após o processo de promoção por merecimento em andamento (Edital\n                       08/2026), devendo a candidata ou o candidato indicar, na sessão de julgamento do processo, qual cargo vago pretende\n                       titularizar.\n\n                       O(A) Juiz(íza) do Trabalho Substituto(a) que não desejar concorrer à promoção deverá manifestar-se, via correio eletrônico\n                       para o endereço\n                       segep@trtes.jus.br, no prazo de até 5 (cinco) dias antes data designada para a escolha, pelo Tribunal, do(a) Juiz(íza) a ser\n                       promovido(a), conforme dispõe o Art. 14 da Resolução Administrativa TRT 17ª nº 139/2022.\n\n                       Para a promoção por antiguidade, observar-se-á o disposto na Resolução Administrativa TRT 17ª nº 139/2022, na Resolução\n                       CNJ 106/2010 e Constituição Federal (artigo 93, VIII-A), em especial quanto à impossibilidade de retenção injustificada de\n                       autos, salvo motivo previamente justificado à Corregedoria Regional.\n\n                       Promovido(a) o(a) magistrado(a) ao cargo de Juiz(íza) Titular de Vara do Trabalho, é vedada a regressão ao cargo de Juiz do\n                       Trabalho Substituto (Art.",
-      "text_truncated": true,
-      "strong_keywords": [
-        "aposentadoria",
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 20
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 453/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 453/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                           7\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0000771-60.2025.5.17.0500\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DESIGNAR\n\n\n\n                       Bruno Athayde Silva, Técnico Judiciário, área Administrativa, para exercer a função comissionada de Assistente de Gabinete -\n                       FC-05 do (a) Gabinete do Desembargador Valdir Donizetti Caixeta - GDVDC.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345333 e o código CRC 61D02BCF.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região   8\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Edital                                                            1\n     Edital                                                           1\n   DIRETORIA GERAL                                                    3\n    Extrato                                                           3\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  3\n   SECRETARIA DO TRIBUNAL PLENO                                       3\n    Pauta                                                             3\n     Pauta Administrativa                                             3\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       4\n   REMOÇÃO\n    Portaria                                                          4\n     Portaria                                                         4\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 16
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 451/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0002600-91.2016.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DISPENSAR\n\n\n\n                       Ana Clara Xavier Rosa Kitzinger,\n                       Técnica Judiciária, área Administrativa, da função comissionada de Calculista - FC-04\n                       ,\n                       do (a) 10ª Vara do Trabalho de Vitória - VITV10.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          5\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345328 e o código CRC 786BC7A4.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 452/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 452/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                  PORTARIA\n\n                                                                          0000409-05.2018.5.17.0500\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241086\n\f    4554/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          6\n    Data da Disponibilização: Segunda-feira, 28 de Setembro de 2026\n\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                  DESIGNAR\n\n\n\n                       Nelson Fábio Ribeiro Carminati, Técnico Judiciário, área Administrativa, para exercer a função comissionada de Calculista -\n                       FC-04 do (a) 10ª Vara do Trabalho de Vitória - VITV10.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                       Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345331 e o código CRC 664B46D7.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11
-    }
-  ]
+  "articles": []
 }
