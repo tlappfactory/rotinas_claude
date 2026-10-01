@@ -1,0 +1,103 @@
+{
+ "data": "2026-10-01",
+ "timestamp": "01/10/2026, 11h35 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": "DOU Seções 1 e 2 de 01/10/2026 e DEJT (publicação de 01/10/2026, disponibilizado em 30/09) consultados: 169 atos do DOU selecionados pelo filtro temático; 239 atos individuais de pessoal de outros órgãos foram descartados. Acórdãos do TCU das sessões de 17/09 a 30/09/2026 (25 selecionados). Jurisprudência do STF/STJ: nenhum precedente vinculante selecionado pelo filtro na semana; uma notícia do STF foi registrada em monitoramento. Conferência humana recomendada para validação dos atos selecionados. Conteúdo gerado por IA (RA TRT-17 nº 4/2025): requer revisão humana antes da distribuição às unidades."
+ },
+ "alto": [
+  {
+   "titulo": "ATO TRT 17ª PRESI Nº 82/2026 — altera o Anexo XIII do ATO TRT 17ª PRESI Nº 21/2026 (teletrabalho)",
+   "ementa": "Altera a Tabela da Quantidade Mínima Presencial das Unidades (Anexo XIII) do ato que regulamenta o teletrabalho no TRT-17; a tabela traz, por exemplo, CODOP 4, SEAUD 3, SETIC 2, Varas com lotação paradigma ≥10 servidores 4 e até 9 servidores 3. [carece de leitura humana do texto integral — texto truncado na fonte; comparar com a redação anterior do Anexo XIII]",
+   "unidades": "SELIR, CODOP, SGP-direção",
+   "acao": "Conferir novo quantitativo presencial e ajustar controles de teletrabalho das unidades.",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (publicação 01/10/2026)"
+  }
+ ],
+ "medio": [
+  {
+   "titulo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR Nº 459/2026 — redistribuição de cargo por reciprocidade (TRT-17 ⇄ TRT-9, com cargo originário do TST)",
+   "ementa": "Cessa os efeitos da Portaria SELIR/SGP/PRESI nº 54/2025 a partir de 01/10/2026; redistribui um cargo de Técnico Judiciário (Área Administrativa) do TRT-17 ao TRT-9, em reciprocidade e mediante triangulação com cargo do TST (art. 243, §1º, Lei 8.112/90); acresce cargo ao quadro do TRT-17 e lota a servidora na DIGOC, a partir de 01/10/2026.",
+   "unidades": "SELIR, SELEP, DIPROF",
+   "acao": "Atualizar quadro de pessoal, lotação e folha a partir de 01/10/2026.",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (publicação 01/10/2026)"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "Lote TRT-17 — movimentações na DIPESQ e exoneração a pedido (Portarias 454, 455, 456 e 463/2026)",
+   "ementa": "Atos do caderno administrativo do TRT-17 publicados em sequência (também no DOU, Seção 2).",
+   "linhas": [
+    "Portaria 454/2026: exonera Chefe de Divisão (CJ-1) da DIPESQ, a partir de 01/10/2026.",
+    "Portaria 455/2026: remove Oficial de Justiça Avaliador Federal da CEMAN para a DIPESQ, a partir de 01/10/2026.",
+    "Portaria 456/2026: nomeia o mesmo servidor para o cargo em comissão de Chefe de Divisão (CJ-1) da DIPESQ, a partir de 01/10/2026.",
+    "Portaria 463/2026: exonera a pedido Analista Judiciário (Apoio Especializado — TI), a partir de 12/09/2026."
+   ],
+   "unidades": "SELIR, SELEP, DIPROF",
+   "fonte_url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=118&data=01/10/2026",
+   "fonte_titulo": "DOU Seção 2 — Portarias de 28/09/2026 (TRT-17)"
+  },
+  {
+   "titulo": "ATO TST.GP Nº 551, de 29/09/2026",
+   "ementa": "Revoga o Ato TST.GP nº 469/2026 (convocação de desembargadora do TRT-3 ao TST), em razão de o Pleno ter referendado decisão que indeferiu pedido de licença-prêmio por tempo de serviço de ministro, nos termos da RA TST nº 2.996.",
+   "unidades": "SELEP, SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TST (publicação 01/10/2026)"
+  },
+  {
+   "titulo": "Portaria MGI Nº 8.058, de 30/09/2026",
+   "ementa": "Estabelece as metas globais de avaliação de desempenho institucional do MGI para o ciclo 01/10/2026 a 30/09/2027. [carece de leitura humana do texto integral]",
+   "unidades": "SEGECOP, SEGEDE",
+   "fonte_url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=40&data=01/10/2026",
+   "fonte_titulo": "DOU Seção 1, p. 40"
+  },
+  {
+   "titulo": "ATO TRT21-GP Nº 114, de 30/09/2026 (DOU Seção 2)",
+   "ementa": "Revisa proventos de servidora aposentada do TRT-21, em cumprimento ao Acórdão nº 4646/2026 da Primeira Câmara do TCU, transformando a VPNI correspondente a 1/5 de FC-05 (quintos). [carece de leitura humana do texto integral]",
+   "unidades": "SESES, DIPROF",
+   "fonte_url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=120&data=01/10/2026",
+   "fonte_titulo": "DOU Seção 2, p. 120"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU — Acórdão 2608/2026-Plenário (sessão 23/09/2026): aprovação de súmula sobre quintos/décimos",
+   "status": "Verbete sumular aprovado. Segundo o sumário: a incorporação ou atualização de quintos/décimos (VPNI, art. 62-A da Lei 8.112/90) só é devida até 8/4/1998 (art. 3º da Lei 9.624/1998), observada a modulação do STF no RE 638.115 (Tema 395 de repercussão geral).",
+   "reflexo": "SESES/SELEP/DIPROF: revisar rotinas de VPNI/quintos e eventuais pagamentos fora da regra. Número da súmula: [verificar nº na fonte]. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780194%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU — Acórdão 2608/2026-Plenário"
+  },
+  {
+   "titulo": "TCU — Pensão/aposentadoria: cumulação de quintos e “opção” (Acórdãos 4885/2026-2ª Câmara; 5101/2026 e 5099/2026-1ª Câmara; 4812, 4828 e 4817/2026-2ª Câmara)",
+   "status": "Sessões de 22 e 29/09/2026. Segundo os sumários: atos registrados com ressalvas quando considerados legais há mais de cinco anos (tese do Acórdão 1.724/2025-Plenário); negativa de registro, com escolha de uma das parcelas, por violação ao art. 193, §2º, da Lei 8.112/90.",
+   "reflexo": "SESES: conferir cálculos de proventos e pensões com quintos/opção. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780324%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU — Acórdão 4885/2026-2ª Câmara (demais: 5101, 5099, 4812, 4828, 4817)"
+  },
+  {
+   "titulo": "TCU — Acórdão 4811/2026-2ª Câmara (22/09/2026): GAJ e adicionais",
+   "status": "Segundo o sumário: sentença judicial reconheceu a GAJ como vencimento básico; adicionais de tempo de serviço e qualificação pagos sobre VB e GAJ — impossibilidade; negativa de registro.",
+   "reflexo": "SESES/SELEP: pertinente à Justiça do Trabalho (GAJ); avaliar reflexo em aposentadorias. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780907%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU — Acórdão 4811/2026-2ª Câmara"
+  },
+  {
+   "titulo": "TCU — Acórdão 4802/2026-2ª Câmara (22/09/2026): proventos de não optante pelo Funpresp",
+   "status": "Segundo o sumário: ingresso anterior a 31/12/2003, servidor não optante por previdência complementar — direito à integralidade e paridade (art. 20 da EC 103/2019); negativa de registro do ato calculado pela média.",
+   "reflexo": "SESES/DIPROF: conferir critério de cálculo em aposentadorias. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779578%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU — Acórdão 4802/2026-2ª Câmara"
+  },
+  {
+   "titulo": "STF — notícia: “Servidor com vínculo público contínuo pode escolher regime previdenciário, decide STF”",
+   "status": "Notícia do site do STF de 24/09 a 01/10/2026; título apenas. Tese e processo: [verificar nº na fonte].",
+   "reflexo": "SESES/DIPROF: possível reflexo no regime (RPPS/Funpresp-Jud) de servidores oriundos de outros entes. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://noticias.stf.jus.br/",
+   "fonte_titulo": "STF Notícias [link aproximado — conferir manualmente]"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 (01/10/2026); DEJT Caderno Administrativo TRT-17 (6 atos, todos triados) e TST (1 ato); acórdãos do TCU (sessões até 30/09/2026); notícias do STF. CNJ: atos de pessoal internos no DOU (sem impacto normativo para o TRT-17).",
+ "fontes_sem_retorno": "DEJT CSJT: sem publicação no Caderno Administrativo na edição utilizada (situação legítima, não erro de coleta). STJ — recursos repetitivos: sem novidades pertinentes na semana."
+}
