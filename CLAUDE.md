@@ -37,9 +37,9 @@ Passos obrigatórios na ordem:
    python3 scripts/send_boletim.py --data <YYYY-MM-DD> --dry-run
    git -C /home/user/rotinas_claude add triagem/ boletins/
    git -C /home/user/rotinas_claude commit -m "Boletim Normativo <YYYY-MM-DD>"
-   git -C /home/user/rotinas_claude push origin main
+   git -C /home/user/rotinas_claude push -u origin HEAD
    ```
-   O push dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho (e o texto do e-mail não deve mais chamá-lo de "rascunho").
+   O `push -u origin HEAD` publica na branch designada à sessão (`claude/*`); a sessão agendada não tem permissão para publicar em `main`. O push (em `main` ou em `claude/**`) dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho (e o texto do e-mail não deve mais chamá-lo de "rascunho").
 7. **Confirmar o envio** consultando o workflow (`mcp__github__actions_list`, `list_workflow_runs` de `send-boletim.yml`) e **reportar ao final** uma síntese curta (3–6 linhas) com: data do boletim, contagem por seção, resultado do envio (conclusão do run), fontes que falharam (se houver) e se houve dispatch do bridge.
 
 Regras de comportamento autônomo:
@@ -47,7 +47,7 @@ Regras de comportamento autônomo:
 - Se a data corrente não tiver JSON ainda, **não** cair silenciosamente para a edição anterior: o passo 2 (`scripts/ensure_bridge_data.sh`) dispara o bridge e aguarda. O JSON mais recente disponível só é usado como fallback quando o dispatch não é possível ou estoura o tempo-limite — e, nesse caso, com escalonamento visível conforme "Garantia de dados frescos do dia (dispatch automático)", sempre declarando a situação no aviso metodológico do boletim.
 - Se `git pull` falhar (rede, autenticação), continuar com os dados locais já presentes e sinalizar no boletim.
 - Se nenhum dos JSONs estiver acessível, ainda assim produzir o boletim com cobertura via WebSearch + disclaimer reforçado de cobertura limitada.
-- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige `git push origin main` manual (ou *Actions → send-boletim → Run workflow* após o push).
+- Se o push falhar, **não** abandonar o boletim: relatar ao operador que os arquivos `boletins/<data>.{html,txt}` foram gerados localmente mas não publicados, e que o envio exige push manual (ou *Actions → send-boletim → Run workflow* após o push).
 
 ## Identidade e contexto
 
@@ -254,19 +254,22 @@ O e-mail sai por SMTP a partir do runner do GitHub Actions — não pelo conecto
 Gmail, que não tem operação de envio. O caminho completo:
 
 ```
-Claude grava boletins/<data>.{html,txt} ──push main──> workflow send-boletim
-                                                              │
-                                                   scripts/send_boletim.py
-                                                              │
-                                                        SMTP ──> leonardo.donato@trt17.jus.br
+Claude grava boletins/<data>.{html,txt} ──push main/claude/*──> workflow send-boletim
+                                                                      │
+                                                           scripts/send_boletim.py
+                                                                      │
+                                                                SMTP ──> leonardo.donato@trt17.jus.br
 ```
 
 **Gatilhos do workflow `send-boletim.yml`:**
-- `push` em `main` tocando `boletins/**` — o caminho normal. Deliberadamente
-  não depende da API do GitHub, que é inalcançável do sandbox do Claude (ver
-  o código `12` em "Garantia de dados frescos do dia").
+- `push` em `main` ou `claude/**` tocando `boletins/**` — o caminho normal (a
+  sessão agendada só publica em `claude/*`). Trava de idempotência: no máximo um
+  envio real por dia; a passagem de reforço (15:10 UTC) também procura o boletim
+  do dia em `claude/*`. Deliberadamente não depende da API do GitHub, que é
+  inalcançável do sandbox do Claude (ver o código `12` em "Garantia de dados
+  frescos do dia").
 - `workflow_dispatch` — reenvio de uma data (`data`) ou validação sem enviar
-  (`dry_run: true`).
+  (`dry_run: true`). Sempre envia, mesmo que já haja envio no dia.
 
 **Secrets** (Settings → Secrets and variables → Actions). Só os três primeiros
 são obrigatórios; os demais têm default e só precisam ser cadastrados para
