@@ -4,8 +4,12 @@ name: send-boletim
 # versionado pela rotina em boletins/<YYYY-MM-DD>.{html,txt}.
 #
 # Três gatilhos:
-#   push      — a rotina commita o boletim do dia em main e o envio dispara
-#               sozinho. Não depende da API do GitHub, que é inalcançável a
+#   push      — a rotina commita o boletim do dia e o envio dispara sozinho.
+#               Vale push em main OU em claude/** : a sessão agendada do
+#               Claude só pode publicar na branch claude/* designada a ela
+#               (nunca em main), e foi isso que deixava o envio pendente.
+#               O e-mail sai uma única vez por dia (trava de idempotência
+#               abaixo), então o posterior merge em main não duplica. Não depende da API do GitHub, que é inalcançável a
 #               partir do sandbox do Claude (ver CLAUDE.md, código 12).
 #   schedule  — passagem de reforço (ver abaixo). Rede de segurança para
 #               quando o push do dia ficou preso na fila de runner do
@@ -18,14 +22,14 @@ name: send-boletim
 
 on:
   push:
-    branches: [main]
+    branches: [main, "claude/**"]
     paths:
       - "boletins/**"
   schedule:
     # 15:10 UTC ~= 12:10 Brasília, dias úteis — cerca de 40min depois do
     # horário nominal de início da sessão diária do Claude (14h30 UTC /
     # 11h30 BRT, ver CLAUDE.md). Só dispara envio se (a) já existir
-    # boletins/<hoje>.{html,txt} no repo e (b) ainda não houver nenhum run
+    # boletins/<hoje>.{html,txt} em main OU em alguma branch claude/* e (b) ainda não houver nenhum run
     # `success` deste workflow hoje — ver passo "Checar…" abaixo. Nos dois
     # casos contrários a passagem termina sem enviar nada (idempotente):
     # nunca duplica o e-mail do dia, só cobre a lacuna de quando o push
@@ -66,36 +70,48 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: "Checar: boletim de hoje pronto e ainda não enviado? (só na passagem de reforço)"
+      - name: "Checar: já enviado hoje? boletim de hoje disponível? (push e reforço)"
         id: check
-        if: github.event_name == 'schedule'
+        if: github.event_name != 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           today="$(date -u +%Y-%m-%d)"
-          if [ ! -f "boletins/${today}.html" ] || [ ! -f "boletins/${today}.txt" ]; then
-            echo "skip=sem boletins/${today}.{html,txt} no repo ainda — nada para a passagem de reforço enviar." >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
+          # Idempotência: no máximo um envio real por dia fora do disparo manual.
           ja_enviado="$(gh run list --repo "${{ github.repository }}" \
             --workflow send-boletim.yml --status success --limit 20 \
             --json createdAt,displayTitle --jq "[.[] | select((.createdAt | startswith(\"${today}\")) and (.displayTitle | startswith(\"[dry-run]\") | not))] | length")"
           if [ "${ja_enviado:-0}" -gt 0 ]; then
-            echo "skip=já existe um run success deste workflow hoje (${today}) — reforço não reenvia." >> "$GITHUB_OUTPUT"
+            echo "skip=já existe um run success deste workflow hoje (${today}) — não reenvia." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ ! -f "boletins/${today}.html" ] || [ ! -f "boletins/${today}.txt" ]; }; then
+            # Rede de segurança: a sessão do Claude publica em claude/*, não em main.
+            git fetch --quiet origin '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
+            achou=""
+            for ref in $(git for-each-ref --sort=-committerdate --format='%(refname)' refs/remotes/origin/claude/); do
+              if git cat-file -e "${ref}:boletins/${today}.html" 2>/dev/null && git cat-file -e "${ref}:boletins/${today}.txt" 2>/dev/null; then
+                git checkout "$ref" -- "boletins/${today}.html" "boletins/${today}.txt"
+                achou="$ref"; break
+              fi
+            done
+            if [ -z "$achou" ]; then
+              echo "skip=sem boletins/${today}.{html,txt} em main nem em claude/* — nada para a passagem de reforço enviar." >> "$GITHUB_OUTPUT"
+            fi
           fi
 
-      - name: Log do motivo de pular (passagem de reforço)
-        if: github.event_name == 'schedule' && steps.check.outputs.skip != ''
+      - name: Log do motivo de pular
+        if: github.event_name != 'workflow_dispatch' && steps.check.outputs.skip != ''
         run: echo "${{ steps.check.outputs.skip }}"
 
       - name: Setup Python
-        if: github.event_name != 'schedule' || steps.check.outputs.skip == ''
+        if: github.event_name == 'workflow_dispatch' || steps.check.outputs.skip == ''
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Enviar boletim
-        if: github.event_name != 'schedule' || steps.check.outputs.skip == ''
+        if: github.event_name == 'workflow_dispatch' || steps.check.outputs.skip == ''
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
