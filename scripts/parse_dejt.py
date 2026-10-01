@@ -68,7 +68,9 @@ def pdf_to_text(pdf_path: Path) -> str:
         return ""
 
 
-ATO_TEXT_MAX_CHARS = 6000
+# Limite por ato guardado no JSON. 6000 cortava atos com tabelas longas (ex.: Ato
+# PRESI 82/2026, Anexo XIII), marcando-os como truncados sem necessidade.
+ATO_TEXT_MAX_CHARS = 15000
 
 
 def split_into_atos(text: str) -> list[dict]:
