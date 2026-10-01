@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-01",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 315,
+      "pdf_text_chars": 33945,
+      "total_atos_detectados": 6,
+      "matched_atos": 6,
+      "headers_sample": [
+        "ATO TRT 17ª PRESI Nº 82/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 455/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 456/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 463/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 459/2026",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 454/2026"
+      ]
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 103,
+      "pdf_text_chars": 3691,
+      "total_atos_detectados": 1,
+      "matched_atos": 1,
+      "headers_sample": [
+        "ATO TST.GP N° 551, DE 29 DE SETEMBRO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 7,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 454/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 454/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        12\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                                                                                   PORTARIA\n\n                                                                           0000303-43.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                   EXONERAR\n\n\n\n                       Antonio Honorio Curto Xavier,\n                       Técnico Judiciário, área Administrativa, do cargo em comissão de Chefe de Divisão - CJ-1, do (a) Divisão de Pesquisa\n                       Patrimonial e Execução - DIPESQ, a partir de 1º/10/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:51, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345354 e o código CRC 36AA7332.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                     1\n    Ato                                                                1\n     Ato PRESI                                                         1             SEÇÃO DE INGRESSO, LOTAÇÃO E                              7\n   SECRETARIA DO TRIBUNAL PLENO                                        3             REMOÇÃO\n    Resolução                                                          3              Portaria                                                 7\n     Resolução Administrativa                                          3               Portaria                                                7\n\n\nCódigo para aferir autenticidade deste caderno: 241166",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 16
+    },
+    {
+      "source": "tst",
+      "orgao": "Tribunal Superior do Trabalho",
+      "identifica": "ATO TST.GP N° 551, DE 29 DE SETEMBRO DE 2026",
+      "text_resumo": "ATO TST.GP N° 551, DE 29 DE SETEMBRO DE 2026\n\n\n\n  Revoga o Ato TST.GP nº 469, de 27 de agosto de 2026, que convocou a Excelentíssima Desembargadora Adriana Goulart de Sena Orsini,\n  integrante do Tribunal Regional do Trabalho da 3ª Região, para atuar na 3ª Turma do Tribunal Superior do Trabalho e na Seção Especializada em\n  Dissídios Coletivos.\n\n\n\n           O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso das atribuições legais e regimentais, ad referendum\n  do Órgão Especial,\n           considerando que o Tribunal Pleno, em sessão realizada em 22 de setembro de 2026, decidiu referendar o despacho proferido pelo\n  Presidente do Tribunal no Processo Administrativo SEI nº 6007699/2025-00, por meio do qual, reconsiderando a autorização anteriormente\n  concedida, foi indeferido o pedido de usufruto de licença-prêmio por tempo de serviço formulado pelo Exmo. Ministro Maurício Godinho Delgado,\n  nos termos da Resolução Administrativa nº 2.996;\n  considerando, em consequência, a permanência do Exmo.Ministro Maurício Godinho Delgado no exercício de suas funções regimentais no\n  período de 9 de novembro a 18 de dezembro de 2026 e a consequente perda de objeto da convocação da Exma. Desembargadora Adriana\n  Goulart de Sena Orsini,\n\n           RESOLVE\n           Art. 1º Fica revogado o Ato TST.GP nº 469, de 27 de agosto de2026.\n           Art. 2º Este Ato entra em vigor na data de sua publicação.\n\n\n\n\n                                                            VIEIRA DE MELLO FILHO\n                                                               Ministro Presidente\n\n\n\n\n                                                                    ÍNDICE\n\n\n\nCódigo para aferir autenticidade deste caderno: 241173\n\f    4556/2026                                                      Tribunal Superior do Trabalho   2\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n   Secretaria-Geral Judiciária                                         1\n    Ato                                                                1\n     Ato_Pres                                                          1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241173",
+      "text_truncated": false,
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO TRT 17ª PRESI Nº 82/2026",
+      "text_resumo": "ATO TRT 17ª PRESI Nº 82/2026\n\n\n                                                                       Altera o anexo XIII do ATO TRT 17ª PRESI Nº 21/2026, que regulamenta a\n                                                                       modalidade de teletrabalho no âmbito do Tribunal Regional do Trabalho da\n                                                                       17.ª Região.\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas\n                       atribuições legais e regimentais,\n\n\n\n                       CONSIDERANDO o disposto no inciso III do artigo 15 do Regimento Interno deste Tribunal;\n\n\n\n                       CONSIDERANDO o ATO TRT 17ª PRESI Nº 21/2026, que regulamenta a modalidade de teletrabalho no âmbito do Tribunal\n                       Regional do Trabalho da 17.ª Região e revoga o Ato TRT 17.ª PRESI/SGP n.º 12/2025;\n\n\n                                                                             RESOLVE\n\n\n                       Art. 1º\n                        Alterar\n                       o ANEXO XIII do ATO TRT 17ª PRESI Nº 21/2026, que passa a ter seguinte redação:\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         2\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                                                     Anexo XIII – Tabela da Quantidade Mínima Presencial das Unidades\n\n\n\n\n                         UNIDADE                                                                                        QTDE. MÍNIMA\n                                                                                                                        PRESENCIAL\n\n\n                         Assessoria de Revista - AREVIS                                                                 2\n\n                         Assessoria Jurídica da Presidência - ASSJUP                                                    2\n\n                         Coordenadoria de Comunicação Social e Cerimonial - CCOM                                        2\n\n                         Coordenadoria de Desenv Organiz de Pessoas - CODOP                                             4\n\n                         Coordenadoria de Infraestrutura e Serviços de TIC - COINF                                      10\n\n                         Coordenadoria de Orçamento e Finanças - COFIN                                                  3\n\n                         Coordenadoria de Planejamento e Apoio à Gestão de TIC - COGTIC                                 5\n\n                         Coordenadoria de Precatórios - COPREC                                                          2\n\n                         Coordenadoria de Soluções e Aplicações - COSIS                                                 11\n\n                         Divisão de Análise Administrativa e Contratações - DIAC                                        2\n\n                         Divisão de Apoio ao Fórum de Vitória - DIAPFOR                                                 4\n\n                         Divisão de Gestão Negocial - DIGEN                                                             1\n\n                         Divisão de Ouvidoria - DOUVID                                                                  2\n\n                         Divisão de Pesquisa Patrimonial e Execução - DIPESQ                                            1\n\n                         Fórum Trabalhista de Cachoeiro de Itapemirim - CITFOR                                          1\n\n                         Gabinetes de Desembargador (a)                                                                 2\n\n                         Secretaria das Turmas - SECTUR                                                                 3\n\n                         Secretaria de Auditoria - SEAUD                                                                3\n\n                         Secretaria de Governança e Gestão Estratégica - SEGEST                                         1\n\n                         Secretaria de Tec da Informação e Comunicações - SETIC                                         2\n\n                         Secretaria do Tribunal Pleno - SETRI                                                           1\n\n                         Varas do Trabalho com lotação paradigma igual ou superior a 10 (dez) servidores                4\n\n\n\n                         Varas do Trabalho com lotação paradigma até 9 (nove) servidores                                3\n\n\n                       Art. 2.º Este Ato entra em vigor na data de sua publicação.\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) – Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17.ª Região.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        3\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 30/09/2026,\n                          às 15:37, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1346232 e o código CRC 9BEBC25D.\n\n\n\n\n                                                   SECRETARIA DO TRIBUNAL PLENO\n              ",
+      "text_truncated": true,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "teletrabalho_jornada"
+      ],
+      "score": 11
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 456/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 456/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                   PORTARIA\n\n                                                                          0001740-22.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                    NOMEAR\n\n\n\n                       Gianfranco Leskewscz Nunes de Castro, Analista Judiciário, área Judiciária, Oficial de Justiça Avaliador Federal, para exercer\n                       o cargo em comissão de Chefe de Divisão - CJ-1 do (a) Divisão de Pesquisa Patrimonial e Execução - DIPESQ, a partir de\n                       1º/10/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:51, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345364 e o código CRC 2F18DB94.\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         9\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 455/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 455/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                   PORTARIA\n\n                                                                          0001739-37.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                   REMOVER\n\n\n\n                       Gianfranco Leskewscz Nunes de Castro,\n                       Analista Judiciário, área Judiciária, Oficial de Justiça Avaliador Federal, do (a) Central de Mandados - CEMAN para lotá-lo(a)\n                       no(a) Divisão de Pesquisa Patrimonial e Execução - DIPESQ, a partir de 1º/10/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:51, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345363 e o código CRC 1BC4BEBD.\n\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                            8\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 459/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 459/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                   PORTARIA\n\n                                                                          0000273-27.2026.5.17.0500\n\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       de suas atribuições legais e regimentais, à vista do disposto no art.37 da Lei nº 8.112/90 e à vista do constante do processo\n                       TRT-17.ª SEI n.º 0000273-27.2026.5.17.0500,\n\n                                                                                    RESOLVE\n\n\n\n                       Art. 1º Cessar os efeitos da PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 54/2025, publicada no DEJT e DOU de 23/01/2025, a\n                       partir de 01/10/2026;\n\n                       Art. 2º Redistribuir um cargo de Técnico Judiciário, área Administrativa, do quadro permanente de pessoal deste Tribunal\n                       Regional do Trabalho da 17ª Região, criado pela Lei nº 10.770/2003, ocupado pelo(a) servidor(a)\n                       Carin Teresinha Vier\n                       , para o quadro de pessoal do Tribunal Regional do Trabalho da 9ª Região, em reciprocidade, mediante triangulação, com um\n                       cargo de Técnico Judiciário, área Administrativa, do Tribunal Superior do Trabalho, criado em decorrência da transformação\n                       de empregos ocupados, na forma do § 1º do art. 243 da Lei nº 8.112/90, ocupado pela servidora\n                       Andrea Vieira\n                       , a partir de 01/10/2026;\n\n                       Art. 3º Acrescer ao Quadro Permanente de Pessoal deste Tribunal um cargo de Técnico Judiciário, área Administrativa,\n                       ocupado pelo(a) servidor(a)\n                       Andrea Vieira, criado em decorrência da transformação de empregos ocupados, na forma do § 1º do art. 243 da Lei nº\n                       8.112/90, originário do Tribunal Superior do Trabalho e redistribuído a partir de 01/10/2026;\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        11\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                       Art. 4º Lotar o(a) servidor(a)\n                       Andrea Vieira\n                       , Técnica Judiciária, área Administrativa, na\n                       Divisão de Governança de Contratações -\n                       DIGOC , a partir de 01/10/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 18:04, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345392 e o código CRC A48A92B6.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 463/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 463/2026\n\n\n\n\n                                                                    PODER JUDICIÁRIO FEDERAL\n                                                                      JUSTIÇA DO TRABALHO\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                   PORTARIA\n\n                                                                          0001435-57.2026.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n                                                                                   EXONERAR\n\n\n\n                       a pedido\n                       , Marcos Alexandre Figur Messer,\n                       do cargo efetivo de\n                       Analista Judiciário, área Apoio Especializado, especialidade Tecnologia da Informação, deste Regional do Trabalho da 17ª\n                       Região, a partir de\n                       12/9/2026.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 30/09/2026,\n                          às 15:29, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\nCódigo para aferir autenticidade deste caderno: 241166\n\f    4556/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         10\n    Data da Disponibilização: Quarta-feira, 30 de Setembro de 2026\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1346096 e o código CRC 020351BF.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    }
+  ]
+}
