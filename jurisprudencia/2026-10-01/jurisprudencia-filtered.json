@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-01T14:33:27Z",
+  "run_utc": "2026-10-01T18:49:36Z",
   "lookback_days": 7,
   "desde": "2026-09-24",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 40,
+      "itens_vistos": 41,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-09-24T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 20212,
-          "inicio": "[{\"id\":166661,\"date\":\"2026-10-01T10:32:39\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-moot-inscricoes-para-julgamento-simulado-terminam-na-segunda-feira-5\\/\",\"title\":{\"rendered\":\"STF Moot: inscri\\u00e7\\u00f5es para julgamento simulado terminam na segunda-feira (5)\"},\"excerpt\":{\"render"
+          "bytes": 20719,
+          "inicio": "[{\"id\":166664,\"date\":\"2026-10-01T15:12:08\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-multa-advogado-por-insercao-de-comando-oculto-de-ia-em-peticao-de-reu-do-8-de-janeiro\\/\",\"title\":{\"rendered\":\"STF multa advogado por inser\\u00e7\\u00e3o de comando oculto de IA em peti\\u00e7\\u00e3o de"
         },
         {
           "amostra_titulos": [
+            "STF multa advogado por inserção de comando oculto de IA em petição de réu do 8 de janeiro",
             "STF Moot: inscrições para julgamento simulado terminam na segunda-feira (5)",
             "Confira a pauta do STF desta quinta-feira (1º)",
             "STF fixa critérios para multa a empresas com dívida tributária que distribuem lucros",
             "Servidor com vínculo público contínuo pode escolher regime previdenciário, decide STF",
-            "Provedores de internet questionam no STF regras da Anatel sobre certificação de empresas",
-            "Decano destaca imparcialidade e serenidade do ministro Fachin no primeiro ano à frente do "
+            "Provedores de internet questionam no STF regras da Anatel sobre certificação de empresas"
           ]
         }
       ]
@@ -40,14 +40,14 @@
           "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
           "http": 403,
           "content_type": "text/html; charset=UTF-8",
-          "bytes": 15657,
+          "bytes": 15636,
           "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
         },
         {
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2587405,
+          "bytes": 2587409,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {

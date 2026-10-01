@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-10-01T14:33:27Z",
+  "run_utc": "2026-10-01T18:49:35Z",
   "lookback_days": 14,
   "cutoff_date": "2026-09-17",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
@@ -7,7 +7,7 @@
   "items_seen": 1500,
   "min_date_seen": "2026-08-19",
   "max_date_seen": "2026-09-30",
-  "total_matched": 25,
+  "total_matched": 35,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2780324",
@@ -269,6 +269,153 @@
       "score": 10
     },
     {
+      "key": "ACORDAO-COMPLETO-2775581",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4910",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4910/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. RECEBIMENTO DAS VANTAGENS QUINTOS E OPÇÃO CUMULATIVAMENTE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. NÃO OCORRÊNCIA DE DECADÊNCIA. AUSÊNCIA DE JURISPRUDÊNCIA QUE AMPARE O PAGAMENTO CUMULATIVO. NÃO PROVIMENTO DO RECURSO. EMBARGOS DE DECLARAÇÃO. NÃO APRESENTAÇÃO DE VÍCIOS DE OMISSÃO, CONTRADIÇÃO OU OBSCURIDADE. REPETIÇÃO DE ARGUMENTOS OFERECIDOS NO PEDIDO DE REEXAME. CONHECIMENTO. REJEIÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775581%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778074",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4907",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4907/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DA PARCELA OPÇÃO. VIOLAÇÃO À EMENDA CONSTITUCIONAL 20/1998. DECISÃO JUDICIAL PROVISÓRIA QUE ASSEGURA O PAGAMENTO DA PARCELA. PAGAMENTO CUMULATIVO DE QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. POSSIBILIDADE DE ESCOLHA DO RECEBIMENTO DE UMA DAS VANTAGENS. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778074%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778273",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4906",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4906/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS APÓS A EDIÇÃO DA LEI 9.624/1998. PAGAMENTO DE QUINTOS NÃO PERMITIDO POR DECISÃO TRANSITADA EM JULGADO. AÇÃO PROPOSTA POR ASSOCIAÇÃO DE CLASSE. NÃO COMPROVAÇÃO DE AUTORIZAÇÃO PARA REPRESENTAÇÃO EM JUÍZO. LEI 14.687/2023. RESPOSTA A CONSULTA. AUSÊNCIA DE ÓBICE LEGAL À INCORPORAÇÃO DE PARCELAS DE QUINTOS IRRESTRITAMENTE. INCIDÊNCIA DA MODULAÇÃO FIXADA PELO STF NO RE 638.115/CE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778273%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2773834",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4905",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4905/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS APÓS A EDIÇÃO DA LEI 9.624/1998. NÃO PERMISSÃO, EM FACE DE DECISÃO TRANSITADA EM JULGADO, DE PAGAMENTO DE QUINTOS. AÇÃO PROPOSTA POR ASSOCIAÇÃO DE CLASSE. NÃO COMPROVAÇÃO DA CONDIÇÃO DE PARTE. LEI 14.687/2023. AUSÊNCIA DE ÓBICE LEGAL À INCORPORAÇÃO DE PARCELAS DE QUINTOS IRRESTRITAMENTE. INCIDÊNCIA DA MODULAÇÃO FIXADA PELO STF NO RE 638.115/CE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2773834%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778272",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4904",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4904/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS APÓS A EDIÇÃO DA LEI 9.624/1998. PAGAMENTO DE QUINTOS. NÃO PERMISSÃO POR DECISÃO TRANSITADA EM JULGADO. AÇÃO PROPOSTA POR ASSOCIAÇÃO DE CLASSE. NÃO COMPROVAÇÃO DA CONDIÇÃO DE PARTE. LEI 14.687/2023. AUSÊNCIA DE ÓBICE LEGAL À INCORPORAÇÃO DE PARCELAS DE QUINTOS IRRESTRITAMENTE. INCIDÊNCIA DA MODULAÇÃO FIXADA PELO STF NO RE 638.115/CE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778272%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2776147",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4902",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4902/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DA VANTAGEM OPÇÃO SEM O EFETIVO EXERCÍCIO DE CARGO POR TEMPO EXIGIDO EM LEI. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776147%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766695",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4901",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4901/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. QUINTOS JUDICIAIS. PORTARIA MEC 474/1987. VALOR SUPERIOR AO ADMITIDO NA JURISPRUDÊNCIA. CUMULATIVIDADE DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. NEGATIVA DE REGISTRO. POSSIBILIDADE DE ESCOLHA DE RECEBIMENTO DE UMA DAS VANTAGENS. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766695%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
       "key": "ACORDAO-COMPLETO-2779581",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "4889",
@@ -444,6 +591,66 @@
       "urlArquivoPDF": null,
       "strong_keywords": [
         "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778275",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4909",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4909/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO CIVIL. INCLUSÃO INDEVIDA DA CHAMADA \"DIFERENÇA DE URV\" (3,17%) NA BASE DE CÁLCULO DOS PROVENTOS. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778275%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778274",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4908",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4908/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO CIVIL. INCLUSÃO INDEVIDA DE HORAS EXTRAS NA BASE DE CÁLCULO DOS PROVENTOS. ABSORÇÃO INCORRETA DO CHAMADO VENCIMENTO BÁSICO COMPLEMENTAR, EM CONTRARIEDADE À LEI 11.091/2005. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778274%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778390",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "4903",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "29/09/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 4903/2026 ATA 33/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. INCIDÊNCIA OBRIGATÓRIA DO ART. 20, §2º, INCISO I, DA EMENDA CONSTITUCIONAL (INTEGRALIDADE E PARIDADE). NEGATIVA DE REGISTRO. DETERMINAÇÕES E RECOMENDAÇÃO. PEDIDO DE REEXAME. CONHECIMENTO. EXERCÍCIO DE OPÇÃO DO APOSENTADO POR INATIVAÇÃO COM NOVO FUNDAMENTO. ATO JÁ REEMITIDO E PENDENTE DE APRECIAÇÃO. ESCLARECIMENTOS. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778390%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
       ],
       "weak_keywords": [],
       "trt17_hits": [],
