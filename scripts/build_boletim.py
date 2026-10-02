@@ -12,7 +12,7 @@ Formato da triagem (todas as listas podem ser vazias):
   {
     "data": "2026-09-30",
     "timestamp": "30/09/2026, 11h35 (Brasília)",
-    "aviso": {"destaque": false, "texto": "..."},      # opcional; destaque=true
+    "aviso": {"destaque": false, "texto": "..."},      # opcional; NÃO é mais renderizado no e-mail; destaque=true
                                                         # => caixa vermelha (fallback)
     "alto":          [{titulo, ementa, unidades, acao, fonte_url, fonte_titulo}],
     "medio":         [idem],   # item pode ter "linhas": [str, ...] — detalhamento em
@@ -98,10 +98,6 @@ def renderizar_html(t: dict) -> str:
     cabeca = tpl.split('<h3 style="color: #c0392b;">')[0]
     marco = '<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">\n<h3 style="margin: 0 0 8px 0; font-size: 14px;">RESUMO ESTATÍSTICO'
     cauda = marco + tpl.split("RESUMO ESTATÍSTICO", 1)[1]
-    aviso = aviso_html(t.get("aviso"))
-    if aviso:
-        h2 = '<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">\n<h2'
-        cabeca = cabeca.replace(h2, aviso + h2, 1)
     partes = [cabeca]
     for chave, titulo, _ in SECOES:
         itens = t.get(chave, [])
@@ -122,12 +118,7 @@ def renderizar_html(t: dict) -> str:
 
 def renderizar_txt(t: dict) -> str:
     L = [f"BOLETIM NORMATIVO — {data_por_extenso(t['data'])}", "",
-         "Prezado(a) servidor(a), segue o Boletim Normativo. Conteúdo gerado por IA; requer revisão humana "
-         "antes da distribuição oficial às unidades da SGP (RA TRT-17 nº 4/2025). Confira números, ementas e links na fonte.", ""]
-    aviso = t.get("aviso") or {}
-    if aviso.get("texto"):
-        rot = "AVISO METODOLÓGICO (DESTAQUE)" if aviso.get("destaque") else "AVISO METODOLÓGICO"
-        L += [f"{rot}: {aviso['texto']}", ""]
+         "Prezado(a) servidor(a), segue o Boletim Normativo.", ""]
     for chave, _, titulo in SECOES:
         L += [titulo, ""]
         itens = t.get(chave, [])
