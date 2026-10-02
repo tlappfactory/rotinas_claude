@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-02T14:32:59Z",
+  "run_utc": "2026-10-02T18:21:53Z",
   "lookback_days": 7,
   "desde": "2026-09-25",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 41,
+      "itens_vistos": 43,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-09-25T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 20538,
-          "inicio": "[{\"id\":166692,\"date\":\"2026-10-02T11:25:25\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-estabelece-regras-para-peticoes-protocoladas-em-processos-ja-existentes\\/\",\"title\":{\"rendered\":\"STF estabelece regras para peti\\u00e7\\u00f5es protocoladas em processos j\\u00e1 existentes\"},\"excerpt\":"
+          "bytes": 21418,
+          "inicio": "[{\"id\":166704,\"date\":\"2026-10-02T15:20:59\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/ministra-carmen-lucia-fala-sobre-democracia-e-eleicoes-a-estudantes-de-belo-horizonte\\/\",\"title\":{\"rendered\":\"Ministra C\\u00e1rmen L\\u00facia fala sobre democracia e elei\\u00e7\\u00f5es a estudantes de Be"
         },
         {
           "amostra_titulos": [
+            "Ministra Cármen Lúcia fala sobre democracia e eleições a estudantes de Belo Horizonte",
+            "Confira os destaques do Plenário Virtual",
             "STF estabelece regras para petições protocoladas em processos já existentes",
             "STF se ilumina de rosa em apoio a campanha de conscientização contra o câncer de mama",
             "STF começa a analisar se créditos presumidos de ICMS podem ser incluídos na base de cálcul",
-            "Nota da Presidência do Supremo Tribunal Federal",
-            "Discussão no STF sobre aplicação do Estatuto da Pessoa Idosa a planos de saúde deve ter so",
-            "Falta de regulamentação da avaliação biopsicossocial de deficiência é objeto de ADO no Sup"
+            "Nota da Presidência do Supremo Tribunal Federal"
           ]
         }
       ]
