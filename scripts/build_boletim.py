@@ -40,20 +40,20 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from send_boletim import data_por_extenso  # noqa: E402
 
 E = html.escape
-SEM_NOVIDADES = '<p><em>Sem novidades pertinentes nesta data.</em></p>'
 CAMPOS = {
     "medio": ("titulo", "ementa", "unidades", "acao", "fonte_url", "fonte_titulo"),
     "alto": ("titulo", "ementa", "unidades", "acao", "fonte_url", "fonte_titulo"),
     "informativo": ("titulo", "ementa", "unidades", "fonte_url", "fonte_titulo"),
     "monitoramento": ("titulo", "status", "reflexo", "fonte_url", "fonte_titulo"),
 }
+# (chave, rótulo HTML, subtítulo HTML, cor, título no texto simples)
 SECOES = [
-    ("alto", '<h3 style="color: #c0392b;">🔴 1. ALTO IMPACTO (ação imediata)</h3>', "1. ALTO IMPACTO"),
-    ("medio", '<h3 style="color: #d68910;">🟡 2. MÉDIO IMPACTO (ciência)</h3>', "2. MÉDIO IMPACTO (ciência)"),
-    ("informativo", '<h3 style="color: #2874a6;">🔵 3. INFORMATIVO (arquivo)</h3>', "3. INFORMATIVO (arquivo)"),
-    ("monitoramento", '<h3 style="color: #1e8449;">🟢 4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)</h3>',
-     "4. EM MONITORAMENTO (TCU / STF / STJ)"),
+    ("alto", "Alto impacto", "Ação imediata", "#9b2c2c", "1. ALTO IMPACTO"),
+    ("medio", "Médio impacto", "Ciência e ajuste de rotina", "#a8650f", "2. MÉDIO IMPACTO (ciência)"),
+    ("informativo", "Informativo", "Para arquivo e consulta", "#2c5282", "3. INFORMATIVO (arquivo)"),
+    ("monitoramento", "Em monitoramento", "TCU, Conselhos, STF e STJ", "#276749", "4. EM MONITORAMENTO (TCU / STF / STJ)"),
 ]
+SANS = "font-family: Arial, Helvetica, sans-serif;"
 ROTULOS = {"ementa": "Ementa", "unidades": "Unidade(s)", "acao": "Ação sugerida",
            "status": "Status", "reflexo": "Possível reflexo"}
 
@@ -71,38 +71,54 @@ def validar(t: dict) -> None:
             sys.exit(f"ERRO: triagem sem o campo '{c}'")
 
 
-def bloco_html(item: dict, chave: str) -> str:
-    mb = "6px" if chave in ("alto", "medio") else "4px"
-    linhas = [f'<p style="margin: 0 0 {mb} 0;"><strong>{E(item["titulo"])}</strong></p>']
-    for c in CAMPOS[chave][1:-2]:
-        linhas.append(f'<p style="margin: 0 0 {mb} 0;"><strong>{ROTULOS[c]}:</strong> {E(item[c])}</p>')
+def _linha(rotulo: str, texto: str) -> str:
+    return (f'<p style="margin: 0 0 8px 0; font-size: 15px; line-height: 1.6; color: #333333;">'
+            f'<span style="{SANS} font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #7a7466;">{rotulo}</span><br>'
+            f'{E(texto)}</p>')
+
+
+def bloco_html(item: dict, chave: str, cor: str) -> str:
+    p = [f'<h3 style="margin: 0 0 8px 0; font-size: 19px; line-height: 1.3; font-weight: bold; color: #1a1a1a;">{E(item["titulo"])}</h3>']
+    if item.get("unidades"):
+        p.append(f'<p style="margin: 0 0 10px 0; {SANS} font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: {cor};">'
+                 f'{E(item["unidades"].replace(", ", " · "))}</p>')
+    if chave == "monitoramento":
+        p.append(_linha("Status", item["status"]))
+        p.append(_linha("Possível reflexo", item["reflexo"]))
+    else:
+        p.append(f'<p style="margin: 0 0 8px 0; font-size: 15px; line-height: 1.6; color: #333333;">{E(item["ementa"])}</p>')
     if item.get("linhas"):
-        lis = "".join(f'<li>{E(x)}</li>' for x in item["linhas"])
-        linhas.append(f'<ul style="margin: 0 0 {mb} 20px; padding: 0;">{lis}</ul>')
-    linhas.append('<p style="margin: 0;"><strong>Fonte:</strong> '
-                  f'<a href="{E(item["fonte_url"])}">{E(item["fonte_titulo"])}</a></p>')
-    return '<div style="margin-bottom: 16px;">\n  ' + '\n  '.join(linhas) + '\n</div>'
+        lis = "".join(f'<li style="margin: 0 0 3px 0;">{E(x)}</li>' for x in item["linhas"])
+        p.append(f'<ul style="margin: 0 0 10px 18px; padding: 0; font-size: 14px; line-height: 1.5; color: #444444;">{lis}</ul>')
+    if item.get("acao"):
+        p.append(f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 4px 0 10px 0;"><tr>'
+                 f'<td style="border-left: 3px solid {cor}; padding: 2px 0 2px 12px; font-size: 15px; line-height: 1.5; font-style: italic; color: #333333;">'
+                 f'<span style="{SANS} font-size: 10px; letter-spacing: 1px; text-transform: uppercase; font-style: normal; color: {cor};">Ação sugerida</span><br>'
+                 f'{E(item["acao"])}</td></tr></table>')
+    p.append(f'<p style="margin: 0; {SANS} font-size: 12px; color: #7a7466;">Fonte: '
+             f'<a href="{E(item["fonte_url"])}" style="color: {cor};">{E(item["fonte_titulo"])}</a></p>')
+    return ('<tr><td style="padding: 0 40px 22px 40px;">\n  ' + "\n  ".join(p) + '\n</td></tr>\n'
+            '<tr><td style="padding: 0 40px 22px 40px;"><div style="border-top: 1px solid #e6e0d0; font-size: 0; line-height: 0;">&nbsp;</div></td></tr>')
 
 
-def aviso_html(aviso: dict | None) -> str:
-    if not aviso or not aviso.get("texto"):
-        return ""
-    if aviso.get("destaque"):
-        return ('<p style="border: 2px solid #c0392b; padding: 10px;">⚠ <strong>Aviso metodológico (em destaque):</strong> '
-                f'{E(aviso["texto"])}</p>\n')
-    return f'<p style="border: 1px solid #888; padding: 8px;"><strong>Aviso metodológico:</strong> {E(aviso["texto"])}</p>\n'
+def secao_html(rotulo: str, sub: str, cor: str, itens: list, chave: str) -> str:
+    topo = (f'<tr><td style="padding: 34px 40px 18px 40px;">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top: 3px solid {cor};">'
+            f'<tr><td style="padding-top: 12px; {SANS} font-size: 13px; letter-spacing: 2px; text-transform: uppercase; font-weight: bold; color: {cor};">'
+            f'{rotulo} <span style="font-weight: normal; letter-spacing: 1px; color: #7a7466;">&nbsp;&middot;&nbsp; {sub}</span></td></tr>'
+            f'</table></td></tr>\n')
+    if not itens:
+        return topo + ('<tr><td style="padding: 0 40px 10px 40px; font-size: 15px; font-style: italic; color: #666255;">'
+                       'Sem novidades pertinentes nesta data.</td></tr>\n')
+    return topo + "\n".join(bloco_html(i, chave, cor) for i in itens) + "\n"
 
 
 def renderizar_html(t: dict) -> str:
     tpl = (ROOT / "boletim-template.html").read_text(encoding="utf-8")
-    cabeca = tpl.split('<h3 style="color: #c0392b;">')[0]
-    marco = '<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">\n<h3 style="margin: 0 0 8px 0; font-size: 14px;">RESUMO ESTATÍSTICO'
-    cauda = marco + tpl.split("RESUMO ESTATÍSTICO", 1)[1]
-    partes = [cabeca]
-    for chave, titulo, _ in SECOES:
-        itens = t.get(chave, [])
-        partes.append(titulo + "\n" + ("\n".join(bloco_html(i, chave) for i in itens) if itens else SEM_NOVIDADES) + "\n")
-    corpo = "".join(partes) + cauda
+    if "<!--SECOES-->" not in tpl:
+        sys.exit("ERRO: marcador <!--SECOES--> ausente no template.")
+    secoes = "".join(secao_html(r, sub, cor, t.get(ch, []), ch) for ch, r, sub, cor, _ in SECOES)
+    corpo = tpl.replace("<!--SECOES-->", secoes)
     subs = {"{{DATA_POR_EXTENSO}}": data_por_extenso(t["data"]),
             "{{N_ALTO}}": str(len(t.get("alto", []))), "{{N_MEDIO}}": str(len(t.get("medio", []))),
             "{{N_INFO}}": str(len(t.get("informativo", []))),
@@ -119,7 +135,7 @@ def renderizar_html(t: dict) -> str:
 def renderizar_txt(t: dict) -> str:
     L = [f"BOLETIM NORMATIVO — {data_por_extenso(t['data'])}", "",
          "Prezado(a) servidor(a), segue o Boletim Normativo.", ""]
-    for chave, _, titulo in SECOES:
+    for chave, _, _, _, titulo in SECOES:
         L += [titulo, ""]
         itens = t.get(chave, [])
         if not itens:

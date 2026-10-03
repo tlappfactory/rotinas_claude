@@ -1,81 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="UTF-8"></head>
-<body style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #222; max-width: 760px;">
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Boletim Normativo — {{DATA_POR_EXTENSO}}</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #ece8df;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ece8df;">
+<tr><td align="center" style="padding: 24px 12px;">
 
-<p>Prezado(a) servidor(a),</p>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 640px; background-color: #fffdf8; font-family: Georgia, 'Times New Roman', serif; color: #222222;">
 
-<p>Segue o Boletim Normativo do dia <strong>{{DATA_POR_EXTENSO}}</strong>.</p>
+<!-- CABEÇALHO (masthead) -->
+<tr><td style="padding: 30px 40px 0 40px;">
+  <p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #7a7466;">Secretaria de Gestão de Pessoas &middot; TRT-17</p>
+  <h1 style="margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 40px; line-height: 1.1; font-weight: normal; color: #1a1a1a;">Boletim Normativo</h1>
+</td></tr>
+<tr><td style="padding: 12px 40px 0 40px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top: 3px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+  <tr><td style="padding: 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: #1a1a1a;">Edição de {{DATA_POR_EXTENSO}}</td></tr>
+  </table>
+</td></tr>
 
-<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">
-<h2 style="margin: 0; font-size: 16px;">BOLETIM NORMATIVO — {{DATA_POR_EXTENSO}}</h2>
-<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">
+<!-- ABERTURA -->
+<tr><td style="padding: 22px 40px 0 40px; font-size: 16px; line-height: 1.6; color: #333333;">
+  <p style="margin: 0 0 6px 0;">Prezado(a) servidor(a),</p>
+  <p style="margin: 0;">segue o Boletim Normativo do dia <strong>{{DATA_POR_EXTENSO}}</strong>.</p>
+</td></tr>
 
-<h3 style="color: #c0392b;">🔴 1. ALTO IMPACTO (ação imediata)</h3>
+<!-- PLACAR DA EDIÇÃO -->
+<tr><td style="padding: 22px 40px 0 40px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f5f1e8;">
+  <tr>
+    <td width="25%" align="center" style="padding: 14px 4px; border-right: 1px solid #ddd6c4;"><span style="font-size: 28px; line-height: 1; color: #9b2c2c;">{{N_ALTO}}</span><br><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #7a7466;">Alto</span></td>
+    <td width="25%" align="center" style="padding: 14px 4px; border-right: 1px solid #ddd6c4;"><span style="font-size: 28px; line-height: 1; color: #a8650f;">{{N_MEDIO}}</span><br><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #7a7466;">Médio</span></td>
+    <td width="25%" align="center" style="padding: 14px 4px; border-right: 1px solid #ddd6c4;"><span style="font-size: 28px; line-height: 1; color: #2c5282;">{{N_INFO}}</span><br><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #7a7466;">Informativo</span></td>
+    <td width="25%" align="center" style="padding: 14px 4px;"><span style="font-size: 28px; line-height: 1; color: #276749;">{{N_MONITORAMENTO}}</span><br><span style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #7a7466;">Monitoramento</span></td>
+  </tr>
+  </table>
+</td></tr>
 
-<!-- BLOCO REPETÍVEL: para cada item, copiar a div abaixo.
-     Se não houver itens nesta seção, substituir o bloco inteiro por:
-     <p><em>Sem novidades pertinentes nesta data.</em></p>
--->
-<div style="margin-bottom: 18px;">
-  <p style="margin: 0 0 6px 0;"><strong>{{NUMERO_E_TIPO_DO_ATO}} — {{ORGAO_EMISSOR}}</strong></p>
-  <p style="margin: 0 0 6px 0;"><strong>Ementa:</strong> {{EMENTA_ATE_25_PALAVRAS}}</p>
-  <p style="margin: 0 0 6px 0;"><strong>Unidade(s):</strong> {{LISTA_UNIDADES}}</p>
-  <p style="margin: 0 0 6px 0;"><strong>Ação sugerida:</strong> {{ACAO_ATE_15_PALAVRAS}}</p>
-  <p style="margin: 0;"><strong>Fonte:</strong> <a href="{{URL_FONTE}}">{{TITULO_FONTE}}</a></p>
-</div>
+<!-- SEÇÕES (geradas por scripts/build_boletim.py a partir de triagem/<data>.json) -->
+<!--SECOES-->
 
-<h3 style="color: #d68910;">🟡 2. MÉDIO IMPACTO (ciência)</h3>
+<!-- RODAPÉ -->
+<tr><td style="padding: 34px 40px 0 40px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top: 3px solid #1a1a1a;">
+  <tr><td style="padding-top: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #1a1a1a;">Fontes desta edição</td></tr>
+  </table>
+</td></tr>
+<tr><td style="padding: 10px 40px 0 40px; font-size: 14px; line-height: 1.6; color: #444444;">
+  <p style="margin: 0 0 8px 0;"><strong>Consultadas com sucesso:</strong> {{LISTA_FONTES_OK}}</p>
+  <p style="margin: 0;"><strong>Sem retorno relevante nesta data:</strong> {{LISTA_FONTES_SEM_RETORNO}}</p>
+</td></tr>
+<tr><td style="padding: 22px 40px 0 40px; font-size: 13px; line-height: 1.6; color: #666255;">
+  <p style="margin: 0 0 6px 0; font-family: Arial, Helvetica, sans-serif; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #1a1a1a;">Conformidade</p>
+  <p style="margin: 0 0 6px 0;">Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado.</p>
+  <p style="margin: 0;">Itens marcados com <em>[verificar nº na fonte]</em> ou <em>[carece de leitura humana do texto integral]</em> exigem conferência direta no documento oficial antes da consolidação do Boletim.</p>
+</td></tr>
+<tr><td style="padding: 22px 40px 30px 40px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top: 1px solid #ddd6c4;">
+  <tr><td style="padding-top: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 1.5; color: #8a8576;">Boletim gerado pela rotina do Boletim Normativo (Claude AI) em {{TIMESTAMP}}. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.</td></tr>
+  </table>
+</td></tr>
 
-<!-- BLOCO REPETÍVEL — mesma estrutura do bloco ALTO IMPACTO -->
-<div style="margin-bottom: 18px;">
-  <p style="margin: 0 0 6px 0;"><strong>{{NUMERO_E_TIPO_DO_ATO}} — {{ORGAO_EMISSOR}}</strong></p>
-  <p style="margin: 0 0 6px 0;"><strong>Ementa:</strong> {{EMENTA_ATE_25_PALAVRAS}}</p>
-  <p style="margin: 0 0 6px 0;"><strong>Unidade(s):</strong> {{LISTA_UNIDADES}}</p>
-  <p style="margin: 0 0 6px 0;"><strong>Ação sugerida:</strong> {{ACAO_ATE_15_PALAVRAS}}</p>
-  <p style="margin: 0;"><strong>Fonte:</strong> <a href="{{URL_FONTE}}">{{TITULO_FONTE}}</a></p>
-</div>
+</table>
 
-<h3 style="color: #2874a6;">🔵 3. INFORMATIVO (arquivo)</h3>
-
-<!-- BLOCO REPETÍVEL — formato mais conciso, sem campo Ação sugerida obrigatório -->
-<div style="margin-bottom: 14px;">
-  <p style="margin: 0 0 4px 0;"><strong>{{NUMERO_E_TIPO_DO_ATO}}</strong></p>
-  <p style="margin: 0 0 4px 0;"><strong>Ementa:</strong> {{EMENTA_RESUMIDA}}</p>
-  <p style="margin: 0 0 4px 0;"><strong>Unidade(s):</strong> {{LISTA_UNIDADES}}</p>
-  <p style="margin: 0;"><strong>Fonte:</strong> <a href="{{URL_FONTE}}">{{TITULO_FONTE}}</a></p>
-</div>
-
-<h3 style="color: #1e8449;">🟢 4. EM MONITORAMENTO (TCU / Conselhos / STF / STJ)</h3>
-
-<!-- BLOCO REPETÍVEL -->
-<div style="margin-bottom: 14px;">
-  <p style="margin: 0 0 4px 0;"><strong>{{NUMERO_PROCESSO_OU_TEMA}} — {{ORGAO}}</strong></p>
-  <p style="margin: 0 0 4px 0;"><strong>Status:</strong> {{MOVIMENTACAO_ENCONTRADA_HOJE}}</p>
-  <p style="margin: 0 0 4px 0;"><strong>Possível reflexo:</strong> {{UNIDADES_E_TEMA}}</p>
-  <p style="margin: 0;"><strong>Fonte:</strong> <a href="{{URL_FONTE}}">{{TITULO_FONTE}}</a></p>
-</div>
-
-<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">
-<h3 style="margin: 0 0 8px 0; font-size: 14px;">RESUMO ESTATÍSTICO</h3>
-<ul style="margin: 0 0 10px 20px; padding: 0;">
-  <li>Itens Alto Impacto: <strong>{{N_ALTO}}</strong></li>
-  <li>Itens Médio Impacto: <strong>{{N_MEDIO}}</strong></li>
-  <li>Itens Informativos: <strong>{{N_INFO}}</strong></li>
-  <li>Itens em Monitoramento: <strong>{{N_MONITORAMENTO}}</strong></li>
-  <li><strong>Fontes consultadas com sucesso:</strong> {{LISTA_FONTES_OK}}</li>
-  <li><strong>Fontes sem retorno relevante nesta data:</strong> {{LISTA_FONTES_SEM_RETORNO}}</li>
-</ul>
-<hr style="border: none; border-top: 2px solid #333; margin: 20px 0;">
-
-<h3 style="margin: 0 0 8px 0; font-size: 14px;">OBSERVAÇÕES DE CONFORMIDADE</h3>
-<ul style="margin: 0 0 14px 20px; padding: 0;">
-  <li>Conteúdo produzido em estrita observância à RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD.</li>
-  <li>Nenhum dado pessoal identificável, processo sigiloso ou matéria sob segredo de justiça foi consultado.</li>
-  <li>Itens marcados com <em>[verificar nº na fonte]</em> ou <em>[carece de leitura humana do texto integral]</em> exigem conferência direta no documento oficial antes da consolidação do Boletim.</li>
-</ul>
-
-<p style="font-size: 12px; color: #666; font-style: italic; border-top: 1px solid #ccc; padding-top: 10px;">Boletim gerado pela rotina do Boletim Normativo (Claude AI) em {{TIMESTAMP}}. Conteúdo sujeito a revisão humana antes de distribuição oficial, nos termos da RA TRT-17 nº 4/2025.</p>
-
+</td></tr>
+</table>
 </body>
 </html>
