@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
-  "total_xml_files": 1087,
-  "matched_articles": 147,
+  "total_xml_files": 1101,
+  "matched_articles": 150,
   "discarded_individual_acts": {
     "total": 47,
     "by_section": {
@@ -2710,6 +2710,61 @@
       "xml_file": "515_20261002_24445179.xml"
     },
     {
+      "id": "51583976",
+      "section": "DO1E",
+      "pub_date": "02/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Previdência Social/Instituto Nacional do Seguro Social/Presidência",
+      "identifica": "PORTARIA PRES/INSS Nº 2.010, DE 21 DE SETEMBRO DE 2026 (*)",
+      "orgao": "",
+      "ementa": "Altera a Tabela 06-A do Anexo I da Portaria PRES/INSS nº 1.286, de 5 de abril de 2021, que estabelece a pontuação para aferição da produtividade na análise de processos e na execução de atividades.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA PRES/INSS Nº 2.010, DE 21 DE SETEMBRO DE 2026 (*) Altera a Tabela 06-A do Anexo I da Portaria PRES/INSS nº 1.286, de 5 de abril de 2021, que estabelece a pontuação para aferição da produtividade na análise de processos e na execução de atividades. A PRESIDENTE DO INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS, no uso das atribuições que lhe confere o Decreto nº 10.995, de 14 de março de 2022, e considerando o que consta no Processo Administrativo nº 35014.304994/2020-18, resolve: Art. 1º A Tabela 06-A do Anexo I da Portaria PRES/INSS nº 1.286, de 5 de abril de 2021, republicada no Diário Oficial da União de 15 de abril de 2021, passa a vigorar na forma do Anexo desta Portaria. Art. 2º Esta Portaria entra em vigor na data de sua publicação. ANA CRISTINA VIANA SILVEIRA ANEXO I Área Fim PORTARIA PRES/INSS Nº 1.286, DE 5 DE ABRIL DE 2021 Tabela 06-A. Pontuação das atividades da área de Serviço Social Atividades do Serviço Social Código Pontuação ao concluir tarefa Pontuação ao fazer exigência Pontuação ao criar primeira subtarefa 1 Avaliação Social LC 142 - Recurso 3275 1,05 0,00 0,00 2 Encaminhamento - Ampliação e Consolidação do Acesso à Previdência Social 3278 0,50 0,00 0,00 3 Encaminhamento - Direito das Pessoas com Deficiência e das Pessoas Idosas 3276 0,50 0,00 0,00 4 Encaminhamento - Segurança e Saúde do Trabalhador 3277 0,50 0,00 0,00 5 Parecer Social - Estudo Social 3283 2,10 0,00 0,00 6 Socialização de Informações - Coletivo (Serviço Social) 1912 2,10 0,00 0,00 7 Socialização de Informações - Individual (Serviço Social) 1932 0,50 0,00 0,00 8 Assistente Técnico da Procuradoria Federal Especializada - Serviço Social 3233 4,27 0,00 0,00 9 Assistente Técnico na SQVT - Serviço Social 15037 4,27 0,00 0,00 10 Atendimento à Rede Socioassistencial - Serviço Social 15018 1,05 0,00 0,00 11 Avaliação Social BPC/LOAS - Externa 15017 1,05 0,00 0,00 12 Avaliação Social LC/142 - Judicial 15035 1,05 0,00 0,00 13 Avaliação Social LC/142 - Revisão 15016 1,05 0,00 0,00 14 Parecer Social - Elaboração 2032 1,05 0,00 0,00 15 Pesquisa Externa - Serviço Social 3288 4,27 0,00 0,00 16 Pesquisa Social 3289 4,27 0,00 0,00 17 Retorno de SIS - Serviço Social 15036 1,05 0,00 0,00 18 Cópia de Laudo Social 16415 0,26 0,00 0,00 19 Avaliação Social BPC/LOAS - Reavaliação (Presencial) 18756 1,05 0,00 0,00 20 Avaliação Social BPC/LOAS - Reavaliação (Remota) 18776 1,40 0,00 0,00 21 Avaliação Social LC 142 - Inicial (Presencial) 3239 1.05 0,00 0,00 22 Avaliação Social LC 142 - Inicial (Remoto) 19016 1.40 0,00 0,00 23 Avaliação Social LC 142 - Recurso (Remoto) 19036 1,40 0,00 0,00 24 Acordo Internacional - Avaliação Social Aposentadoria Pessoa com Deficiência - Inicial (Presencial) 19116 1,05 0,00 0,00 25 Acordo Internacional - Avaliação Social Aposentadoria Pessoa com Deficiência - Inicial (Remota) 19136 1,40 0,00 0,00 26 Acordo Internacional - Avaliação Social da Pessoa com Deficiência - LC 142 - Recurso (Presencial) 19137 1,05 0,00 0,00 27 Acordo Internacional - Avaliação Social da Pessoa com Deficiência - LC 142 - Recurso (Remota) 19156 1,40 0,00 0,00 28 Acordo Internacional - Avaliação Social da Pessoa com Deficiência - LC 142 - Revisão (Presencial) 19157 1,05 0,00 0,00 29 Acordo Internacional - Avaliação Social da Pessoa com Deficiência - LC 142 - Revisão (Remota) 19138 1,40 0,00 0,00 30 Internacional - Aposentadoria da Pessoa com Deficiência - Avaliação Social LC 142 Inicial - (Remota) 19139 1,40 0,00 0,00 31 Internacional - Aposentadoria da Pessoa com Deficiência - Avaliação Social LC 142 - Recurso - (Remota) 19158 1,40 0,00 0,00 32 Internacional - Aposentadoria da Pessoa com Deficiência - Avaliação Social LC 142 - Revisão - (Remota) 19140 1,40 0,00 0,00 33 Avaliação da Pessoa com Deficiência em Requerimentos de Pensão por Morte 19956 1,05 0,00 0,00 34 Avaliação da Pessoa com Deficiência em Requerimentos de Auxílio-Reclusão 19976 1,05 0,00 0,00 Republicada por ter saído, no DOU nº 179, de 22-9-2026, Seção 1, pág. 90, con incorreção no original.",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "12",
+      "edition": "187-A",
+      "url": "https://www.in.gov.br/web/dou/-/PT2010INSS-12126326",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=12&data=02/10/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20261002_24443283.xml"
+    },
+    {
+      "id": "51588883",
+      "section": "DO1E",
+      "pub_date": "02/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria do Patrimônio da União",
+      "identifica": "Portaria SPU/MGI Nº 8.133, DE 29 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "Aprova o Plano Nacional de Incorporação 2027 - PNI 2027, que define metas e estratégias para a incorporação de imóveis ao patrimônio da União no ciclo de novembro de 2026 a dezembro de 2027.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SPU/MGI Nº 8.133, DE 29 DE SETEMBRO DE 2026 Aprova o Plano Nacional de Incorporação 2027 - PNI 2027, que define metas e estratégias para a incorporação de imóveis ao patrimônio da União no ciclo de novembro de 2026 a dezembro de 2027. A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 49 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, tendo em vista o art. 2º da Lei nº 9.636, de 15 de maio de 1998, e o disposto na Instrução Normativa SPU nº 22, de 2017, e na Portaria SPU/MGI nº 4.039, de 13 de maio de 2026, resolve: Art. 1º Aprovar o Plano Nacional de Incorporação 2027 - PNI 2027, que define metas e estratégias para a incorporação de imóveis de uso especial sob responsabilidade do Ministério da Gestão e da Inovação em Serviços Públicos no ciclo de novembro de 2026 a dezembro de 2027. Art. 2º O PNI 2027 poderá ser revisto sempre que necessário, para assegurar seu alinhamento às prioridades e às estratégias institucionais e às mudanças na legislação pertinente. Art. 3º O PNI 2027 ficará disponível para consulta no sítio da SPU na internet. Art. 4º A Coordenação-Geral de Incorporação, da Diretoria de Caracterização e Incorporação de Imóveis, coordenará a execução do PNI 2027, apurará os indicadores e consolidará os resultados. Parágrafo único. As 27 Superintendências do Patrimônio da União executarão as etapas de seleção e de instrução sob sua responsabilidade, conforme as metas e o cronograma previstos no PNI 2027. Art. 5º Esta Portaria entra em vigor na data de sua publicação. CAROLINA GABAS STUCHI",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "7",
+      "edition": "187-A",
+      "url": "https://www.in.gov.br/web/dou/-/GAB - PORTARIA 8133 - 19739.0410-12128098",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=7&data=02/10/2026",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20261002_24445626.xml"
+    },
+    {
       "id": "51576497",
       "section": "DO2",
       "pub_date": "02/10/2026",
@@ -3660,6 +3715,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20261002_24445030.xml"
+    },
+    {
+      "id": "51586406",
+      "section": "DO1E",
+      "pub_date": "02/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Pesca e Aquicultura/Gabinete do Ministro",
+      "identifica": "PORTARIA MPA Nº 762, DE 30 DE SETEMBRO DE 2026",
+      "orgao": "",
+      "ementa": "Submete consulta pública a proposta de ato que estabelece as normas, os critérios e os procedimentos para o monitoramento e a inscrição de pessoa física no Registro Geral da Atividade Pesqueira, para concessão da Licença de Pescador Amador ou Esportivo; e de pessoa jurídica para obtenção da Autorização de Competição de Pesca Amadora ou Esportiva",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MPA Nº 762, DE 30 DE SETEMBRO DE 2026 Submete consulta pública a proposta de ato que estabelece as normas, os critérios e os procedimentos para o monitoramento e a inscrição de pessoa física no Registro Geral da Atividade Pesqueira, para concessão da Licença de Pescador Amador ou Esportivo; e de pessoa jurídica para obtenção da Autorização de Competição de Pesca Amadora ou Esportiva O MINISTRO DE ESTADO DA PESCA E AQUICULTURA, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e em vista do disposto na Lei nº 11.959, de 29 de junho de 2009, na Lei nº 14.600, de 19 de junho de 2023, no Decreto nº 11.624, de 1º de agosto de 2023, e no Decreto nº 12.002, de 22 de abril de 2024, resolve: Art. 1º Fica submetida a consulta pública proposta de ato normativo que estabelece as normas, os critérios e os procedimentos relativos ao monitoramento e à inscrição, no Registro Geral da Atividade Pesqueira, de pessoas físicas e de pessoas jurídicas para, respectivamente, obtenção de licença de pescador amador ou esportivo e obtenção de autorização de competição de pesca amadora ou esportiva. § 1º O procedimento de que trata o caput faz-se em revisão da Instrução Normativa nº 5, de 13 de junho de 2012, do Ministério da Pesca e Aquicultura. § 2º A proposta de ato normativo de que trata o caput consta no anexo desta Portaria. § 3º As informações e os documentos relativos à proposta de ato normativo de que trata o caput estarão disponíveis, a partir da data de publicação desta Portaria, no sítio eletrônico oficial do Ministério da Pesca e Aquicultura e no portal eletrônico Brasil Participativo. Art. 2º As manifestações dos interessados serão recebidas pelo prazo de quarenta e cinco dias , prazo este contado da data de publicação desta Portaria. § 1º As manifestações dos interessados serão recebidas e processadas, exclusivamente, por meio do portal eletrônico Brasil Participativo. § 2º O Ministério da Pesca e Aquicultura: I - não será obrigado a comentar nem a considerar as manifestações recebidas individualmente; II - poderá agrupar as manifestações recebidas por pertinência temática e eliminar aquelas: a) repetitivas; b) de conteúdo não conexo com o objeto em análise; e c) de conteúdo irrelevante para o objeto em análise; III - poderá analisar as manifestações recebidas sem apresentar, naquele momento, conclusões definitivas. § 3º O Ministério da Pesca e Aquicultura divulgará o conteúdo de sua análise em transparência ativa, em seu sítio eletrônico oficial e no portal eletrônico Brasil Participativo. Art. 3º O resultado da consulta pública, segundo análise técnica competente, não vinculará o Ministério da Pesca e Aquicultura. Art. 4º Esta Portaria entra em vigor na data de sua publicação. RIVETLA EDIPO ARAUJO CRUZ ANEXO Portaria MPA nº , de de de 2026 Estabelece as normas, os critérios e os procedimentos administrativos para o monitoramento e a inscrição de pessoa física no Registro Geral da Atividade Pesqueira, para concessão da Licença de Pescador Amador ou Esportivo; e de pessoa jurídica para obtenção da Autorização de Competição de Pesca Amadora ou Esportiva. O MINISTRO DE ESTADO DA PESCA E AQUICULTURA, no uso das atribuições que lhe confere o art. 87, parágrafo único, incisos II e IV, da Constituição, e em vista do disposto na Lei nº 11.959, de 29 de junho de 2009, no Decreto nº 8.425, de 31 de março de 2015, na Instrução Normativa nº 05, de 13 de junho de 2012, do Ministério da Pesca e Aquicultura, e na Portaria nº 616, de 8 de março de 2022 da Secretaria de Aquicultura e Pesca do Ministério da Agricultura, Pecuária e Abastecimento, resolve: Art. 1º Ficam estabelecidas as normas, os critérios e os procedimentos administrativos para o monitoramento e a inscrição de pessoa física no Registro Geral da Atividade Pesqueira e obtenção da Licença de Pescador Amador ou Esportivo, e de pessoa jurídica para obtenção da Autorização de Competição de Pesca Amadora ou Esportiva. CAPÍTULO I DAS DISPOSIÇÕES GERAIS Art. 2º Para efeitos desta Portaria, entende-se por: I - Pesca Amadora ou Esportiva: atividade de pesca praticada por brasileiro ou estrangeiro, com equipamentos ou petrechos previstos em legislação específica, tendo por finalidade o lazer ou esporte, considerada uma atividade de natureza não comercial, no que se refere ao produto de sua captura, sendo vedada a comercialização do recurso pesqueiro por ela capturado; II - Pescador Amador ou Esportivo: pessoa física, brasileira ou estrangeira, licenciada ou dispensada da licença pela autoridade competente, que pratica a pesca, de forma embarcada ou desembarcada, com equipamentos ou petrechos previstos em legislação específica, tendo por finalidade o lazer ou esporte e sem fins comerciais; III - Pescador Amador ou Esportivo embarcado: é aquele que faz uso de embarcação de esporte e ou recreio para a pesca, podendo também atuar na forma desembarcada; IV - Pescador Amador ou Esportivo desembarcado: é aquele que não faz uso de embarcação para pesca, atuando exclusivamente sem apoio de embarcação; V - Pescador Amador ou Esportivo subaquático: é aquele que pratica a pesca por meio de técnicas de mergulho livre, sem aparelhos de respiração artificial, utilizando equipamentos ou petrechos previstos em legislação específica; e VI - Competição de Pesca Amadora ou Esportiva: torneio, gincana, festival, campeonato e demais eventos organizados segundo as normas gerais das práticas desportivas, devidamente autorizados pela autoridade competente. Art. 3º A pessoa física somente poderá exercer a atividade pesqueira na categoria de pescador amador ou esportivo, quando inscrita no Registro Geral da Atividade Pesqueira e portando a Licença de Pescador Amador ou Esportivo, conforme disposto nesta Portaria. § 1º Poderá solicitar a Licença de Pescador Amador ou Esportivo qualquer pessoa física, brasileira ou estrangeira, desde que atenda aos requisitos estabelecidos nesta Portaria. § 2º A Licença de Pescador Amador ou Esportivo q",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "8",
+      "edition": "187-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA MPA NA 762 DE 30 DE SET-12127070",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=8&data=02/10/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20261002_24444185-1.xml"
     },
     {
       "id": "51582992",

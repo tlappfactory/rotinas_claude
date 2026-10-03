@@ -1,0 +1,58 @@
+{
+  "run_utc": "2026-10-03T17:13:42Z",
+  "lookback_days": 7,
+  "desde": "2026-09-26",
+  "fontes": {
+    "stf": {
+      "status": "ok",
+      "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
+      "itens_vistos": 40,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-09-26T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 19860,
+          "inicio": "[{\"id\":166740,\"date\":\"2026-10-03T12:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/julgamento-sobre-aplicacao-do-estatuto-do-idoso-a-planos-de-saude-e-destaque-no-supremo-na-semana\\/\",\"title\":{\"rendered\":\"Julgamento sobre aplica\\u00e7\\u00e3o do estatuto do idoso a planos de sa\\u00fade "
+        },
+        {
+          "amostra_titulos": [
+            "Julgamento sobre aplicação do estatuto do idoso a planos de saúde é destaque no Supremo na",
+            "Subvenção para tarifa social de energia não pode ser tributada pelo ICMS, decide STF",
+            "PDT questiona no STF regra sobre recondução à presidência da Câmara de Salvador",
+            "Presidente do STF recebe missão eleitoral da OEA",
+            "Ministra Cármen Lúcia fala sobre democracia e eleições a estudantes de Belo Horizonte",
+            "Confira os destaques do Plenário Virtual"
+          ]
+        }
+      ]
+    },
+    "stj": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
+          "http": 403,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 13248,
+          "inicio": "<html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:10p"
+        },
+        {
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+          "http": 403,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 12310,
+          "inicio": "<html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:10p"
+        }
+      ]
+    }
+  },
+  "articles": [],
+  "total_matched": 0
+}
