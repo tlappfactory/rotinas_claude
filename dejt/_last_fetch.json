@@ -1,6 +1,6 @@
 {
-  "run_utc": "2026-10-03T17:35:45Z",
-  "expected_publicacao": "2026-10-03",
+  "run_utc": "2026-10-05T14:32:47Z",
+  "expected_publicacao": "2026-10-05",
   "by_label": {
     "trt17": {
       "label": "trt17",
@@ -17,7 +17,7 @@
       "publicacao": "2026-10-02",
       "date": "2026-10-02",
       "status": "pdf_stale",
-      "expected_publicacao": "2026-10-03",
+      "expected_publicacao": "2026-10-05",
       "size_bytes": 146950,
       "content_type": "application/pdf"
     },
