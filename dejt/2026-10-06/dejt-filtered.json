@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-06",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 117,
+      "pdf_text_chars": 12549,
+      "total_atos_detectados": 1,
+      "matched_atos": 1,
+      "headers_sample": [
+        "Resolução Administrativa nº 84, de 12 de"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 103,
+      "pdf_text_chars": 5141,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CSJT.GP.SG N.º 116, DE 2 DE OUTUBRO DE 2026.",
+        "ATO CSJT.GP.SG N.º 115, DE 2 DE OUTUBRO DE 2026."
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 142,
+      "pdf_text_chars": 3155,
+      "total_atos_detectados": 1,
+      "matched_atos": 0,
+      "headers_sample": [
+        "[caderno inteiro — sem cabeçalhos detectados]"
+      ]
+    }
+  },
+  "total_matched": 1,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Resolução Administrativa nº 84, de 12 de",
+      "text_resumo": "Resolução Administrativa nº 84, de 12 de\n                                                                                                          setembro de 2024, para disciplinar o cabimento\n                                                                                                          de agravo regimental contra decisões\n                                                                                                          monocráticas do Relator.\n\n\n\n                        O TRIBUNAL PLENO DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                        , no uso das atribuições que lhe conferem o art. 96,\n                        caput, inciso I, alínea \"a\", da Constituição Federal, e o decidido no SEI 0000529-67.2026.5.17.0500, resolve:\n\n\n                        Art. 1º O Regimento Interno do Tribunal Regional do Trabalho da 17ª Região, aprovado pela Resolução Administrativa nº 84,\n                        de 12 de setembro de 2024, passa a vigorar com as seguintes alterações:\n\n\n                                             \"Art. 237. ………………………………………………………………\n\n\n                                             I - das decisões monocráticas do Relator, desde que dotadas de conteúdo decisório autônomo ou caráter\n                                             excepcional, conforme prevê o art. 1.021 da Lei nº 13.105, de 2015 - Código de Processo Civil;\n\n\n                                             ………………………………………………………………………….\n\n\n                        § 11. Não cabe agravo regimental contra decisões monocráticas do Relator que versem sobre pressupostos de\n                        admissibilidade recursal, inclusive aquelas relativas ao preparo, à deserção, à concessão ou ao indeferimento da justiça\n                        gratuita ou da assistência judiciária gratuita, bem como contra atos de natureza ordinatória ou de mera condução do\n                        procedimento.\" (NR)\n\n\n                        Art. 2º Esta Resolução entra em vigor na data de sua publicação.\n\n\n                        Ausências justificadas dos Desembargadores Marcello Maciel Mancilha e Alzenir Bollesi de Plá Loeffler.\n\n                        Ausência da Desembargadora Marise Medeiros Cavalcanti Chamberlain, em razão de decisão no processo SEI/CNJ nº\n                        13589/2026.\n\n                        Participaram da votação os Excelentíssimos Desembargadores\n                                         Cláudio Armando Couce de Menezes\n                        (Presidente),\n                                         Wanda Lúcia Costa Leite França Decuzzi, Ana Paula Tauceda Branco, Mário Ribeiro Cantarino Neto,\n                        Daniele Corrêa Santa Catarina, Valério Soares Heringer, Valdir Donizetti Caixeta, Luís Cláudio dos Santos Branco e Fátima\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241295\n\f    4559/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        4\n    Data da Disponibilização: Segunda-feira, 05 de Outubro de 2026\n\n\n\n\n                        Gomes Ferreira.\n\n                                           Sala de Sessões, 30 de setembro de 2026.\n\n\n                                                                                 Marcello Canal\n                                                                           Secretário do Tribunal Pleno\n\n\n\n\n                          Documento assinado eletronicamente por Marcello Canal, Técnico Judiciário, em 02/10/2026, às 17:32, conforme art. 1º,\n                          III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1347089 e o código CRC 9F09DC98.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   DIRETORIA GERAL                                                     1\n    Extrato                                                            1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                   1\n   SECRETARIA DO TRIBUNAL PLENO                                        1\n    Pauta                                                              1\n     Pauta Administrativa                                              1\n    Resolução                                                          2\n     Resolução Administrativa                                          2\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241295",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    }
+  ]
+}
