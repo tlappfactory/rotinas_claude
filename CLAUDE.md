@@ -114,7 +114,7 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 - Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
 - Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
-- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo - Edição de [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. O aviso de que o conteúdo foi gerado por IA e requer revisão humana antes da distribuição às unidades permanece no corpo do e-mail (ver template).
+- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo - Edição de [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. Por decisão do operador (02/10/2026), o corpo do e-mail **não** traz o lembrete de revisão humana nem o "Aviso metodológico" (nem em fallback): essas informações vão apenas no relatório final ao operador.
 - **Destinatário:** `leonardo.donato@trt17.jus.br` (secret `BOLETIM_TO`, com esse valor como default no script).
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
 - Se nenhuma seção tiver itens, ainda assim gerar e enviar o boletim — manter a previsibilidade do Boletim.
