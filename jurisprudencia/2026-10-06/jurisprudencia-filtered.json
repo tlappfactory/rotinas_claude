@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-10-06T14:33:39Z",
+  "run_utc": "2026-10-06T18:54:55Z",
   "lookback_days": 7,
   "desde": "2026-09-29",
   "fontes": {
@@ -47,7 +47,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2588830,
+          "bytes": 2588911,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {

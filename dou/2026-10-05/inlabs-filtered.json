@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
-  "total_xml_files": 1150,
-  "matched_articles": 124,
+  "total_xml_files": 1157,
+  "matched_articles": 125,
   "discarded_individual_acts": {
     "total": 76,
     "by_section": {
@@ -3035,6 +3035,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20261005_24447035.xml"
+    },
+    {
+      "id": "51605171",
+      "section": "DO1E",
+      "pub_date": "05/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Defesa/Secretaria-Geral/Centro Gestor e Operacional do Sistema de Proteção da Amazônia",
+      "identifica": "PORTARIA DIGER CSP-CENSIPAM Nº 76, de 1º de outubro de 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre diretrizes e procedimentos para a cautela, utilização, conservação e devolução de aeronaves remotamente pilotadas, antenas de internet via satélite e dispositivos comunicadores via satélite.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DIGER CSP-CENSIPAM Nº 76, de 1º de outubro de 2026 Dispõe sobre diretrizes e procedimentos para a cautela, utilização, conservação e devolução de aeronaves remotamente pilotadas, antenas de internet via satélite e dispositivos comunicadores via satélite. O DIRETOR-GERAL DO CENTRO GESTOR E OPERACIONAL DO SISTEMA DE PROTEÇÃO DA AMAZÔNIA, no uso das atribuições que lhe conferem o art. 53 do Anexo I do Decreto nº 11.337, de 1º de janeiro de 2023, bem como os incisos VIII, XI e XIV do art. 40, Capítulo IV, Anexo XI da Portaria Normativa nº 12, de 14 de fevereiro de 2019, e considerando o que consta no Processo Administrativo nº 60090.000337/2026-24, resolve: CAPÍTULO I DISPOSIÇÕES PRELIMINARES Art. 1° Esta portaria estabelece diretrizes e procedimentos para a cautela, utilização, conservação e devolução de aeronaves remotamente pilotadas, antenas de internet via satélite e dispositivos comunicadores via satélite, com a finalidade de assegurar o uso adequado dos equipamentos e a preservação do patrimônio institucional. Art. 2º Esta Portaria aplica-se às unidades administrativas do Censipam e aos órgãos e entidades públicas aos quais sejam disponibilizados temporariamente os equipamentos de que trata o art. 1º, mediante cautela. Art. 3º Para fins desta Portaria, considera-se: I - Aeronaves Remotamente Pilotadas (ARP): aeronaves não tripuladas, controladas por um piloto a partir de uma estação de pilotagem remota, destinadas a atividades institucionais de interesse público devidamente autorizadas; II - Antenas de Internet via Satélite: equipamentos terminais de recepção e transmissão de sinal que permitem o estabelecimento de conexão de banda larga de alta velocidade via satélite; III - Dispositivos Comunicadores via Satélite: equipamentos portáteis de transmissão e recepção de dados, voz ou coordenadas geográficas; IV - Missões de Campo: atividades institucionais realizadas por unidades administrativas do Censipam ou por órgãos e entidades públicas; V - Cautela de Equipamento: ato administrativo que formaliza a entrega temporária de bem, mediante formalização da responsabilidade por sua guarda, conservação e adequada utilização para fins institucionais; VI - Solicitante Interno: unidades administrativas do Censipam; e VII - Solicitante Externo: órgãos e entidades públicas. Art. 4º São diretrizes para utilização dos equipamentos: I - preservação do patrimônio público; II - segurança operacional; III - conformidade com normas regulatórias aplicáveis; IV - rastreabilidade e responsabilização pelo uso dos equipamentos; V - continuidade das comunicações institucionais em áreas remotas; VI - proteção de dados e informações obtidas; e VII - capacitação dos usuários responsáveis pela operação dos equipamentos. CAPÍTULO II DA DISPONIBILIZAÇÃO E DA AUTORIZAÇÃO Art. 5º Compete ao Diretor-Geral do Censipam autorizar a disponibilização de Aeronaves Remotamente Pilotadas, antenas de internet via satélite e dispositivos comunicadores via satélite a solicitantes externos, após análise da respectiva demanda. Parágrafo único. Compete à chefia imediata do setor detentor dos equipamentos de que trata o caput autorizar sua disponibilização a solicitantes internos, após análise da respectiva demanda. CAPÍTULO III DA CAUTELA Art. 6º A concessão da cautela dos equipamentos objeto desta Portaria dependerá de solicitação formal à autoridade competente, nos termos do art. 5º, com antecedência mínima de 48 (quarenta e oito) horas, observada a disponibilidade dos equipamentos. § 1º Após a autorização, a solicitação será encaminhada à unidade detentora do equipamento para adoção dos procedimentos necessários à formalização da cautela. § 2º Em situações excepcionais, devidamente justificadas, poderá ser dispensada a antecedência mínima prevista no caput. Art. 7º A cautela será formalizada pela unidade detentora do equipamento mediante a assinatura do Termo de Responsabilidade e Cautela de Equipamentos, conforme modelo constante do Anexo I desta Portaria, com o registro, no mínimo: I - do número da cautela e do documento de solicitação; II - da finalidade da utilização, da data prevista e do local de devolução; III - da identificação do responsável pelo recebimento e guarda dos equipamentos; IV - da relação dos equipamentos e acessórios entregues, com quantitativos e números de patrimônio ou de série, quando disponíveis; V - das condições observadas no ato da entrega, inclusive eventuais avarias, acessórios faltantes e testes não realizados; e VI - da identificação do responsável pela entrega e das assinaturas dos envolvidos. § 1º O período da cautela deverá ser previamente definido no Termo de Responsabilidade e Cautela de Equipamentos. § 2º Caso seja constatada a ausência de prazo expressamente estabelecido, a unidade detentora deverá regularizar o registro, observado o prazo máximo de 30 (trinta) dias, contado da entrega do equipamento. § 3º A prorrogação do período da cautela dependerá de justificativa e de nova autorização da autoridade competente, observado o disposto no art. 5º. Art. 8º No ato da retirada, o responsável pela entrega e responsável pelo recebimento e guarda deverão realizar conjuntamente um teste de funcionalidade básica para atestar a integridade operacional do equipamento. Parágrafo único. A impossibilidade de realização do teste deverá ser justificada e registrada no Termo de Responsabilidade e Cautela de Equipamentos. Art. 9º A cautela de Aeronaves Remotamente Pilotadas (ARP) fica condicionada à comprovação, pelo responsável pela operação, do atendimento aos requisitos de habilitação, cadastro, seguro, autorização e demais exigências estabelecidas pela legislação e regulamentação aeronáutica aplicáveis à operação pretendida. Art. 10. A cautela é de caráter pessoal e intransferível, sendo vedada a transferência, cessão ou entrega do equipamento a terceiros sem prévia autorização da autoridade competente. CAPÍTULO IV DA UTILIZAÇÃO DOS EQUIPAMENTOS Art. 11. A utilização dos equipamentos objeto ",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "188-A",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA DIGER CSP-CENSIPAM NA 7-12131153",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=05/10/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20261005_24449299-1.xml"
     },
     {
       "id": "51596742",
