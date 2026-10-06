@@ -1,0 +1,77 @@
+BOLETIM NORMATIVO — 6 de outubro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+
+* TRT-17 — Resolução Administrativa [verificar nº na fonte]: altera o Regimento Interno (RA nº 84/2024) sobre agravo regimental
+  Ementa: O Pleno altera o art. 237 do Regimento Interno para restringir o cabimento de agravo regimental a decisões monocráticas do Relator com conteúdo decisório autônomo ou caráter excepcional, vedando-o contra decisões sobre pressupostos de admissibilidade recursal (preparo, deserção, justiça gratuita) e atos ordinatórios (novo § 11). Vigência na data da publicação. Matéria processual, sem reflexo direto em gestão de pessoas.
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT Caderno Administrativo TRT-17 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 — Extrato de concessão de diárias e Pauta Administrativa do Tribunal Pleno
+  Ementa: O caderno traz ainda, conforme o índice, extrato de concessão de diárias (Diretoria-Geral) e pauta administrativa do Pleno. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT Caderno Administrativo TRT-17 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-6 — Atos TRT6-GP nº 249 a 252/2026: alteração de área/especialidade de cargos vagos de Analista Judiciário
+  Ementa: Atos do TRT-6, com base na Res. CSJT nº 47/2008, alteram a especialidade de cargos vagos de Analista Judiciário (Engenharia Civil/Elétrica; Contabilidade; Estatística; Tecnologia da Informação), a partir de decisão do Pleno de 21/09/2026. Referência de prática de outro Regional para eventual adequação do quadro.
+  Unidade(s): SELEP, SEGECOP
+  Fonte: DOU Seção 2, p. 63 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=63&data=06/10/2026
+
+* MPO — Portaria MPO-SEAID-GAB/MPO nº 422/2026: Programa de Gestão e Desempenho (PGD) da SEAID
+  Ementa: Institui o PGD na Secretaria de Assuntos Internacionais e Desenvolvimento do MPO, com base na IN Conjunta SEGES-SGPRT/MGI nº 24/2023. Ato de órgão do Executivo; referência comparativa para teletrabalho/desempenho. [carece de leitura humana do texto integral — conferir no DOU]
+  Unidade(s): SELIR, SEGEDE
+  Fonte: DOU Seção 1, p. 237 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=237&data=06/10/2026
+
+* Demais atos do DOU Seção 2 — aposentadorias/pensões (DECIPEX/MGI), designações no STF e portarias de outros órgãos
+  Ementa: Selecionados 147 atos pelo filtro temático, em sua maioria atos individuais de pessoal e editais de notificação de aposentados/pensionistas do Executivo, sem aplicação ao TRT-17. Destaque: Portarias SGP nº 194 e 195/2026 do STF (designações de FC). Sem norma geral nova pertinente à SGP.
+  Unidade(s): SGP-direção — ciência
+  Fonte: DOU Seção 2, p. 59 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=59&data=06/10/2026
+
+* DEJT — CSJT e TST
+  Ementa: CSJT: 2 atos detectados (Atos CSJT.GP.SG nº 115 e 116, de 02/10/2026), nenhum pertinente à SGP segundo o filtro temático. TST: 1 ato detectado, nenhum pertinente à SGP segundo o filtro temático.
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT — diario.jt.jus.br — https://diario.jt.jus.br/
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU — Acórdão 2608/2026 (Plenário, sessão 23/09/2026): verbete de súmula sobre quintos/décimos
+  Status: Projeto de súmula aprovado: incorporação/atualização de quintos/décimos (VPNI, art. 62-A da Lei 8.112/1990) só até 8/4/1998; regularização conforme modulação do STF no RE 638.115 (Tema 395). [carece de leitura humana do texto integral — verificar nº da súmula na fonte]
+  Possível reflexo: Possível reflexo em SESES/SELEP/DIPROF na análise de aposentadorias e proventos. Já noticiado na edição de 05/10.
+  Fonte: TCU — Pesquisa de Jurisprudência — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780194%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdãos 4885, 4913, 5098, 5099, 5101/2026 e outros (quintos/opção em aposentadorias e pensões)
+  Status: Série de acórdãos das Câmaras (sessões de 22 e 29/09/2026) sobre cumulação de quintos e opção (art. 193, §2º, Lei 8.112/1990), Acórdão 1.724/2025-Plenário e Lei 14.687/2023. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível reflexo em SESES (instrução de aposentadorias/pensões). Sem novas sessões desde a edição anterior.
+  Fonte: TCU — Acórdão 4885/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780324%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 4811/2026 (2ª Câmara, 22/09/2026): GAJ, adicional de tempo de serviço e de qualificação
+  Status: Negativa de registro: ATS e AQ não podem ser pagos com base em VB e GAJ após sentença que reconheceu natureza de vencimento básico à GAJ; determinação de acompanhar a ação judicial. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível reflexo em SESES/DIPROF (Judiciário da União — GAJ).
+  Fonte: TCU — Acórdão 4811/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780907%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* STF e STJ — jurisprudência vinculante
+  Status: Sem novidades em STF e STJ nesta data: nenhum precedente vinculante selecionado pelo filtro na semana.
+  Possível reflexo: —
+  Fonte: Notícias do STF — https://noticias.stf.jus.br/
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 0
+- Informativos: 6
+- Em Monitoramento: 4
+- Fontes consultadas: DOU Seções 1 e 2 (06/10/2026); DEJT Caderno Administrativo TRT-17, CSJT e TST (publicação 06/10/2026); acórdãos do TCU (sessões de 22/09 a 30/09/2026, 36 selecionados); notícias do STF e do STJ.
+- Sem retorno relevante: Nenhuma falha de acesso.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo (Claude AI) em 06/10/2026, 11h35 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
