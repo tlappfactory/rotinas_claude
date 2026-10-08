@@ -1,14 +1,38 @@
 {
-  "run_utc": "2026-10-08T01:20:29Z",
+  "run_utc": "2026-10-08T14:33:53Z",
   "lookback_days": 14,
   "cutoff_date": "2026-09-24",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
   "pages_fetched": 4,
-  "items_seen": 2100,
+  "items_seen": 2600,
   "min_date_seen": "2024-07-02",
   "max_date_seen": "2026-10-07",
-  "total_matched": 45,
+  "total_matched": 60,
   "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2778383",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5039",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5039/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO CIVIL. MINISTÉRIO DA EDUCAÇÃO. PERCEPÇÃO DA VANTAGEM \"OPÇÃO\" CUMULADA COM \"QUINTOS/DÉCIMOS\" DE FUNÇÃO COMISSIONADA. ATO DE APOSENTADORIA DO INSTITUIDOR QUE CONTINHA A IRREGULARIDADE FOI CONSIDERADO ILEGAL HÁ MAIS DE CINCO ANOS COM BASE EM FUNDAMENTO DISTINTO. AUSÊNCIA DE APLICAÇÃO DO REDUTOR PREVISTO NO ART. 24, § 2º, DA EMENDA CONSTITUCIONAL 103/2019. EVOLUÇÃO DA TESE INAUGURADA COM O ACÓRDÃO 1.724/2025-PLENÁRIO. REGISTRO COM RESSALVAS. DETERMINAÇÃO. O exame de legalidade, para fins de registro, do ato de pensão não pode ultrapassar seus limites objetivos para reanalisar a estrutura de proventos do ato de aposentadoria do instituidor não apenas no caso de atos já registrados pela Corte de Contas há mais de cinco anos, mas também naqueles que, mesmo não registrados em função de outra ilegalidade ou por perda de objeto em julgamento realizado há mais de cinco anos, já continham a rubrica irregular sem que esse fato tenha sido apontado pelo TCU oportunamente.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778383%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 16
+    },
     {
       "key": "ACORDAO-COMPLETO-2778854",
       "tipo": "ACÓRDÃO",
@@ -81,6 +105,29 @@
       "score": 11
     },
     {
+      "key": "ACORDAO-COMPLETO-2779896",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5028",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5028/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME EM APOSENTADORIA. INCORPORAÇÃO DE QUINTOS APÓS A LEI 9.624/1998, SEM COMPROVAÇÃO DE DECISÃO JUDICIAL TRANSITADA EM JULGADO. NEGATIVA DE REGISTRO. DETERMINAÇÕES. CONHECIMENTO DO PEDIDO DE REEXAME. DECISÕES JUDICIAIS TRAZIDAS NO RECURSO NÃO AMPARAM OS QUINTOS ILEGAIS DA RECORRENTE. DIREITO À INCORPORAÇÃO DE 1/10 RESIDUAL DE FC-04. PROVIMENTO PARCIAL.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779896%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
       "key": "ACORDAO-COMPLETO-2780469",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "5156",
@@ -102,6 +149,48 @@
       ],
       "trt17_hits": [],
       "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778234",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5303",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5303/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. CÁLCULO INCORRETO DA RUBRICA DE ANUÊNIOS. PARCELA DE HORA EXTRA JUDICIAL DE ORIGEM CELETISTA. AÇÃO ORDINÁRIA 2006.72.00.009358-8. DECISÃO DO SUPERIOR TRIBUNAL DE JUSTIÇA QUE AFASTA A INCIDÊNCIA DO JULGADO SOBRE OS ATOS DE APOSENTADORIA SUJEITOS A REGISTRO PELO TCU. ENTENDIMENTO FIRMADO NO ACÓRDÃO 942/2026-PLENÁRIO. AUSÊNCIA DE ÓBICE À DETERMINAÇÃO DE SUPRESSÃO DA PARCELA. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778234%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779644",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5298",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5298/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS APÓS A LEI 9.624/1998. PEDIDOS DE REEXAME. FATO NOVO. EDIÇÃO DA LEI 14.983/2024. CONVALIDAÇÃO DAS PARCELAS. REGISTRO DO ATO. PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779644%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
     },
     {
       "key": "ACORDAO-COMPLETO-2775943",
@@ -209,6 +298,69 @@
       "score": 10
     },
     {
+      "key": "ACORDAO-COMPLETO-2781677",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5033",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5033/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME EM PENSÃO CIVIL. SENTENÇA JUDICIAL PASSADA EM JULGADO EM BENEFÍCIO DA INSTITUIDORA QUE SUFRAGOU A PERCEPÇÃO DA VANTAGEM DO ART. 192, II, LEI 8.112/1990. EXTRAPOLAÇÃO DO EFEITO INTER PARTES DAS DECISÕES JUDICIAIS. NEGATIVA DE REGISTRO. CONHECIMENTO DO RECURSO. AUSÊNCIA DE ARGUMENTOS CAPAZES DE ALTERAR A DECISÃO RECORRIDA. NEGATIVA DE PROVIMENTO. Não cabe a transposição automática e incondicional de vantagem obtida por meio de decisão judicial por servidor ativo ou aposentado para a pensão por ele instituída, pois a relação jurídica estabelecida entre o pensionista e a Administração é distinta daquela amparada na sentença judicial antecedente.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781677%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2782402",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5031",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5031/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. PROVENTOS INDEVIDAMENTE CALCULADOS COM BASE NA MÉDIA DE REMUNERAÇÕES PRETÉRITAS. INGRESSO NO SERVIÇO PÚBLICO FEDERAL ANTERIOR A 31/12/2003. SERVIDOR NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. DIREITO À INTEGRALIDADE E À PARIDADE, CONFORME ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES. CONHECIMENTO DO PEDIDO DE REEXAME. IMPOSSIBILIDADE DE ESCOLHA, DEVENDO-SE APLICAR A REGRA DE PARIDADE. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782402%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2781871",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5030",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5030/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CONTAGEM DE TEMPO ESPECIAL DE PROFISSIONAL DE SAÚDE SEM NECESSIDADE DE LAUDO PERICIAL. LEGALIDADE. OPÇÃO DO INTERESSADO PELO FUNDAMENTO DE CÁLCULO PELA MÉDIA DAS REMUNERAÇÕES, EMBORA PREENCHIDOS OS REQUISITOS DO ART. 6º DA EMENDA CONSTITUCIONAL 41/2003. EXERCÍCIO DE DIREITO SUBJETIVO. IRREGULARIDADE NO CÁLCULO E NO REAJUSTAMENTO DOS PROVENTOS. DIVERGÊNCIA ENTRE O VALOR PAGO E O VALOR DEVIDO. ILEGALIDADE DO ATO. RECUSA DE REGISTRO. DISPENSA DE DEVOLUÇÃO DOS VALORES RECEBIDOS DE BOA-FÉ (SÚMULA 106). DETERMINAÇÕES. É ilegal, com a consequente recusa de registro, o ato de aposentadoria cujos proventos, calculados pela média das remunerações, divergem do valor apurado em análise automatizada do Tribunal e não foram reajustados na mesma data e índices aplicados aos benefícios do Regime Geral de Previdência Social, em afronta ao art. 15 da Lei 10.887/2004 e ao § 7º do art. 26 da Emenda Constitucional 103/2019.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781871%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "averbacao_tempo"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
       "key": "ACORDAO-COMPLETO-2778417",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "5025",
@@ -220,6 +372,27 @@
       "titulo": "ACÓRDÃO 5025/2026 ATA 34/2026 - SEGUNDA CÂMARA",
       "sumario": "PESSOAL. APOSENTADORIA. PAGAMENTO DA VANTAGEM DE \"QUINTOS/DÉCIMOS\" DECORRENTES DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS, EM PARTE, ENTRE 8/4/1998 E 4/9/2001. AUSÊNCIA DE COMPROVAÇÃO DE QUE A INTERESSADA FOI ABRANGIDA PELA DECISÃO JUDICIAL TRANSITADA EM JULGADO. ENTENDIMENTO DO STF NO RE 638.115/CE, COM MODULAÇÃO DE EFEITOS. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778417%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2782187",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5011",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5011/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PAGAMENTO DE \"QUINTOS\" COM \"OPÇÃO\". EXISTÊNCIA DE SENTENÇA JUDICIAL NÃO TRANSITADA EM JULGADO QUE AMPARA O PAGAMENTO DA \"OPÇÃO\". ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. ARGUMENTOS INCAPAZES DE ALTERAR O ACÓRDÃO RECORRIDO. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782187%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria",
@@ -650,6 +823,26 @@
       "score": 10
     },
     {
+      "key": "ACORDAO-COMPLETO-2776495",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5299",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "WALTON ALENCAR RODRIGUES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5299/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. COMANDO DA AERONÁUTICA. PENSÃO CIVIL. PERCEPÇÃO DE PENSÃO NA CONDIÇÃO DE FILHA MAIOR SOLTEIRA (LEI 3.373/1958). UNIÃO ESTÁVEL NÃO COMUNICADA À ADMINISTRAÇÃO. RECEBIMENTO INDEVIDO. CITAÇÃO. REVELIA. CONTAS IRREGULARES. DÉBITO. MULTA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776495%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
       "key": "ACORDAO-COMPLETO-2778441",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "5279",
@@ -681,6 +874,126 @@
       "titulo": "ACÓRDÃO 5278/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
       "sumario": "APOSENTADORIA. INCLUSÃO DE PARCELA JUDICIAL DESTACADA RELATIVA À GRATIFICAÇÃO ESPECÍFICA DE ATIVIDADE DOCENTE (GEAD). EXTINÇÃO DA RUBRICA PELA LEGISLAÇÃO SUPERVENIENTE. INEXISTÊNCIA DE DIREITO ADQUIRIDO A REGIME JURÍDICO. GARANTIA EXCLUSIVA DA IRREDUTIBILIDADE REMUNERATÓRIA. AUSÊNCIA DE DECESSO REMUNERATÓRIO NO CASO CONCRETO. NEGATIVA DE REGISTRO. DETERMINAÇÕES. CIÊNCIA.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2775540%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769456",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5271",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "ODAIR CUNHA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5271/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. RECEBIMENTO INDEVIDO DE BENEFÍCIOS DE PREVIDÊNCIA COMPLEMENTAR E AUXÍLIO MORADIA. CITAÇÃO. CONTAS REGULARES COM RESSALVA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769456%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2781172",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5036",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5036/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. IFPB. PAGAMENTO DE RUBRICAS JUDICIAIS REFERENTES A PLANOS ECONÔMICOS. AUSÊNCIA DE ABSORÇÃO DAS VANTAGENS PELAS ALTERAÇÕES SUPERVENIENTES DA ESTRUTURA REMUNERATÓRIA. PRECEDENTES JUDICIAIS E DO TCU. NEGATIVA DE REGISTRO. DETERMINAÇÕES. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781172%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779577",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5034",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5034/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. MINISTÉRIO DA SAÚDE. PARCELA \"DIFERENÇA INDIVIDUAL\" DA LEI 12.998/2014, ORIUNDA DO ANTIGO PLANO DE CLASSIFICAÇÃO DE CARGOS E SALÁRIOS, NÃO ABSORVIDA PELOS REAJUSTES DECORRENTES DAS LEIS 11.355/2006 E 11.784/2008. DETERMINAÇÃO ANTERIOR DESTA CORTE À MESMA UNIDADE PARA CESSAÇÃO DO PAGAMENTO DA RUBRICA. VALOR REDUZIDO DA PARCELA PAGA INDEVIDAMENTE. REGISTRO COM RESSALVA. DETERMINAÇÃO AO ÓRGÃO DE ORIGEM PARA REGULARIZAR A SITUAÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779577%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778301",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5032",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5032/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. INGRESSO DO SERVIDOR NO SERVIÇO PÚBLICO ANTES DE 2003. APLICAÇÃO DA REGRA DE TRANSIÇÃO DA EMENDA CONSTITUCIONAL 103/2019. INTEGRALIDADE E PARIDADE DE REMUNERAÇÃO. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO. CONHECIMENTO DO RECURSO. INSUFICIÊNCIA DOS ARGUMENTOS APRESENTADOS PARA ALTERAR O JUÍZO ANTERIOR. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778301%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2781328",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2781",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "07/10/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2781/2026 ATA 39/2026 - PLENÁRIO",
+      "sumario": "AUDITORIA. PROCEDIMENTOS DE RECUPERAÇÃO JUDICIAL. FRAGILIDADES ESTRUTURAIS E OPERACIONAIS. EXTRAPOLAÇÃO DO PRAZO NORMATIVO PARA AJUIZAMENTO DE AÇÕES. BAIXA QUALIDADE NA INSTRUÇÃO INICIAL. AUSÊNCIA DE CRITÉRIOS POR FAIXA DE VALOR PARA A REALIZAÇÃO DE TESTES DE COMPLIANCE DE PRODUTO (TCP). RISCOS REFERENTES À CESSÃO DE CRÉDITOS. ESTRUTURA ATUAL DAS GERÊNCIAS DE CONTENCIOSO INSUFICIENTE PARA ACOMPANHAR O VOLUME DE PROCESSOS SOB RESPONSABILIDADE DE TERCEIROS. DESCUMPRIMENTO DE PRAZOS PARA VISITAS GERENCIAIS. CARÊNCIA DE AUTOMAÇÃO NA INTEGRAÇÃO DE SISTEMAS. INEXISTÊNCIA DE INDICADORES DE DESEMPENHO. DETERMINAÇÃO. RECOMENDAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781328%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780230",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2772",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "07/10/2026",
+      "relator": "JORGE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2772/2026 ATA 39/2026 - PLENÁRIO",
+      "sumario": "CONSULTA FORMULADA PELO PRESIDENTE DA COMISSÃO DE SEGURANÇA PÚBLICA E COMBATE AO CRIME ORGANIZADO DA CÂMARA DOS DEPUTADOS. ART. 22, PARÁGRAFO ÚNICO, INCISO IV, DA LEI COMPLEMENTAR 101/2000. ALCANCE DA EXPRESSÃO \"SERVIDORES DA ÁREA DE SEGURANÇA\". CARGOS EFETIVOS DA ESPECIALIDADE POLÍCIA JUDICIAL NO ÂMBITO DO PODER JUDICIÁRIO DA UNIÃO. CONHECIMENTO. RESPOSTA AO CONSULENTE PELO ENQUADRAMENTO, NAS CONDIÇÕES INDICADAS. EFICÁCIA RESTRITA À APLICAÇÃO DA NORMA FISCAL. ARQUIVAMENTO. 1. A ressalva prevista no art. 22, parágrafo único, inciso IV, da Lei Complementar 101/2000 não se limita aos servidores dos órgãos de segurança pública enumerados no art. 144 da Constituição Federal, alcançando também os ocupantes de cargos públicos efetivos aos quais a lei tenha atribuído funções de segurança institucional. A referência legal a \"servidores\" impõe, contudo, que se trate de cargo efetivo criado por lei e dotado de atribuições legalmente definidas de segurança, não bastando a lotação em unidade de segurança, a designação administrativa interna ou o exercício eventual de atividade correlata. 2. Os cargos efetivos enquadrados na especialidade Polícia Judicial, disciplinada na Lei 11.416/2006 com a ",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780230%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria"
