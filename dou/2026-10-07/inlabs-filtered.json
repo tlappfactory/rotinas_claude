@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "total_xml_files": 1107,
-  "matched_articles": 137,
+  "total_xml_files": 1110,
+  "matched_articles": 138,
   "discarded_individual_acts": {
     "total": 56,
     "by_section": {
@@ -2715,6 +2715,35 @@
       ],
       "score": 6,
       "xml_file": "515_20261007_24460768-6.xml"
+    },
+    {
+      "id": "51635672",
+      "section": "DO1E",
+      "pub_date": "07/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Educação/Gabinete do Ministro",
+      "identifica": "PORTARIA MEC Nº 745, DE 5 DE OUTUBRO DE 2026",
+      "orgao": "",
+      "ementa": "Institui o Comitê Nacional de Educação Digital e Midiática, Inovação e Conectividade - Cnedic e a Rede Nacional de Articuladores de Educação Digital e Midiática, Inovação e Conectividade - Renedic e dispõe sobre suas atribuições, composição e funcionamento.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA MEC Nº 745, DE 5 DE OUTUBRO DE 2026 Institui o Comitê Nacional de Educação Digital e Midiática, Inovação e Conectividade - Cnedic e a Rede Nacional de Articuladores de Educação Digital e Midiática, Inovação e Conectividade - Renedic e dispõe sobre suas atribuições, composição e funcionamento. O MINISTRO DE ESTADO DA EDUCAÇÃO, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II, da Constituição, e tendo em vista o disposto na Lei nº 14.180, de 1º de julho de 2021, na Lei nº 14.533, de 11 de janeiro de 2023, e no Decreto nº 11.713, de 26 de setembro de 2023, resolve: CAPÍTULO I DISPOSIÇÕES GERAIS Art. 1º Ficam instituídos o Comitê Nacional de Educação Digital e Midiática, Inovação e Conectividade - Cnedic e a Rede Nacional de Articuladores de Educação Digital e Midiática, Inovação e Conectividade - Renedic, instâncias de governança destinadas a apoiar a implementação da Política de Inovação Educação Conectada - Piec, instituída pela Lei nº 14.180, de 1º de julho de 2021, da Política Nacional de Educação Digital - Pned, instituída pela Lei nº 14.533, de 11 de janeiro de 2023, da Estratégia Nacional de Escolas Conectadas - Enec, instituída pelo Decreto nº 11.713, de 26 de setembro de 2023, e das Diretrizes Operacionais Nacionais sobre o uso de dispositivos digitais em espaços escolares e integração curricular de educação digital e midiática, instituídas pela Resolução CNE/CEB nº 2, de 21 de março de 2025. § 1º O Cnedic é colegiado de caráter consultivo e de articulação, e a Renedic é rede de cooperação técnica, sem competência deliberativa, ambos de caráter permanente e com atuação complementar e integrada. § 2º Para fins desta Portaria, consideram-se políticas de educação digital e midiática, inovação e conectividade os instrumentos referidos no caput. Art. 2º A composição e o funcionamento do Cnedic e da Renedic orientam-se pelo reconhecimento e pelo fortalecimento do regime de colaboração entre a União, os estados, o Distrito Federal e os municípios, nos termos do art. 211, § 4º, da Constituição, e do art. 9º, inciso III, da Lei nº 9.394, de 20 de dezembro de 1996. Parágrafo único. A participação dos estados, do Distrito Federal e dos municípios na Renedic é voluntária e será formalizada mediante a indicação prevista no art. 14, respeitadas a autonomia dos sistemas de ensino e as competências dos respectivos entes federativos. Art. 3º O Cnedic e a Renedic atuarão de forma complementar e integrada com o Comitê Executivo da Estratégia Nacional de Escolas Conectadas - Cenec, instituído pelo art. 6º do Decreto nº 11.713, de 26 de setembro de 2023, observadas as seguintes atribuições: I - ao Cnedic compete promover a articulação federativa, o acompanhamento e a formulação de recomendações para a implementação e o aperfeiçoamento das políticas de educação digital e midiática, inovação e conectividade, com participação dos segmentos representados em sua composição; II - à Renedic compete apoiar a implementação das políticas e ações de educação digital e midiática, inovação e conectividade nos territórios, em caráter não deliberativo, por meio da articulação interfederativa, do apoio técnico às redes de ensino, do monitoramento, da formação e da disseminação de orientações e boas práticas relacionadas à educação digital e midiática, à inovação e à conectividade nas escolas públicas de educação básica; e III - ao Cenec compete exercer as atribuições previstas no art. 6º do Decreto nº 11.713, de 26 de setembro de 2023. Parágrafo único. A articulação entre o Cnedic e o Cenec observará as competências de cada instância e terá por finalidade promover a convergência entre as orientações pedagógicas e as ações de conectividade e infraestrutura tecnológica. Art. 4º A atuação do Cnedic e da Renedic será organizada a partir dos seguintes eixos estratégicos integrados: I - educação digital e midiática e inovação pedagógica: promoção do desenvolvimento de competências relativas ao uso de tecnologias digitais, comunicação, reflexão e análise de informações e mídias, cultura digital, mundo digital e pensamento computacional, de acordo com diretrizes nacionais de educação digital e midiática, e promoção de práticas pedagógicas inovadoras com o uso de tecnologias digitais; e II - conectividade, dispositivos e infraestrutura educacional: promoção da conectividade para fins pedagógicos e da adoção planejada e equilibrada de dispositivos e tecnologias digitais nas escolas públicas, por meio do apoio técnico à implementação, ao monitoramento e à qualificação das condições de conectividade e da infraestrutura tecnológica das escolas públicas. Parágrafo único. Na atuação prevista neste artigo, serão observadas a equidade territorial, a acessibilidade, as especificidades das etapas e modalidades de ensino e a proteção dos direitos de crianças e adolescentes. CAPÍTULO II DO CNEDIC Seção I Da Natureza e dos Objetivos Art. 5º Ao Cnedic compete: I - assessorar o Ministério da Educação na formulação, na implementação, no acompanhamento e na avaliação das políticas nacionais de educação digital e midiática, inovação e conectividade; II - acompanhar a implementação e propor aprimoramentos às diretrizes estratégicas, às prioridades e aos planos de ação relacionados às políticas de educação digital e midiática, inovação e conectividade e à Enec; III - acompanhar e avaliar os resultados, impactos e evidências produzidas no âmbito da implementação das políticas de educação digital e midiática, inovação e conectividade, propondo recomendações e orientações para o seu aperfeiçoamento; IV - promover a articulação e o diálogo entre órgãos governamentais, redes de ensino, instituições acadêmicas, entidades representativas e organizações da sociedade civil; V - aprovar seu plano de trabalho anual; e VI - apresentar à Secretaria de Educação Básica do Ministério da Educação relatório anual de atividades e recomendações. Seção II Da Composição Art. 6º O Cnedic será composto por representantes das seguinte",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "190-A",
+      "url": "https://www.in.gov.br/web/dou/-/1 Port. nA 745 - Institui o Cned-12138115",
+      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=600&pagina=1&data=07/10/2026",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 6,
+      "xml_file": "600_20261007_24458060.xml"
     },
     {
       "id": "51649393",
