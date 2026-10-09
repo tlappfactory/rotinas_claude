@@ -275,20 +275,17 @@ def parse_xml_file(path: Path) -> dict | None:
     elif name_slug:
         url = f"https://www.in.gov.br/web/dou/-/{name_slug}"
 
-    # URL confiável para conferência humana: o visualizador de PDF do portal
-    # de pesquisa (pesquisa.in.gov.br), que abre a PÁGINA exata da edição —
-    # não a matéria individual, mas garante a localização certa, ao contrário
-    # da URL "amigável" acima. Usa o código do jornal (prefixo numérico do
-    # nome do arquivo XML entregue pelo INLabs — 515=DO1, 529=DO2 nesta
-    # coleta; o código varia por seção/edição extra e é sempre extraído do
-    # próprio arquivo, nunca fixado aqui), a página e a data de publicação
-    # (já no formato DD/MM/AAAA no atributo pubDate do XML).
-    jornal_code = path.name.split("_", 1)[0] if "_" in path.name else ""
+    # URL para conferência humana: o índice público da edição no in.gov.br
+    # (leiturajornal), que abre sem captcha. O visualizador de PDF do portal de
+    # pesquisa (pesquisa.in.gov.br/.../INPDFViewer) passou a exigir captcha em
+    # 09/10/2026 e não serve mais como link. O índice abre a edição/seção, não a
+    # matéria individual; a página fica no campo "page". O nome do campo foi
+    # mantido (url_pagina_pesquisa) por compatibilidade com a triagem.
     url_pagina_pesquisa = ""
-    if jornal_code.isdigit() and number_page and pub_date:
+    if pub_name and pub_date:
         url_pagina_pesquisa = (
-            "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer"
-            f"?jornal={jornal_code}&pagina={number_page}&data={pub_date}"
+            "https://www.in.gov.br/leiturajornal"
+            f"?data={pub_date.replace('/', '-')}&secao={pub_name.lower()}"
         )
 
     texto_full = strip_html(texto) or article_full_text(root)
