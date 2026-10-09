@@ -48,27 +48,27 @@ Sem novidades pertinentes nesta data.
 * ATO TRT6/GP nº 254/2026 — alteração de especialidade de cargos vagos de Técnico Judiciário
   Ementa: Altera para Área Administrativa, sem especialidade, 6 cargos vagos de Técnico Judiciário em decorrência de aposentadorias voluntárias, com base na Res. CSJT 47/2008.
   Unidade(s): SEGECOP, SELEP
-  Fonte: DOU Seção 2, 09/10/2026, p. 71 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=71&data=09/10/2026
+  Fonte: DOU Seção 2, 09/10/2026, p. 71 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do2
 
 * CNJ — Portaria nº 391/2026: requisição de servidora do TJGO
   Ementa: Requisita analista judiciária do TJ de Goiás para o CNJ, com base na IN CNJ 108/2025. Sem efeito direto sobre o TRT-17; registro de referência sobre requisição.
   Unidade(s): SELIR
-  Fonte: DOU Seção 2, 09/10/2026, p. 67 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=09/10/2026
+  Fonte: DOU Seção 2, 09/10/2026, p. 67 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do2
 
 * STF — Portaria SGP nº 196/2026: designação para encargo de Gerente Adjunto FC-5
   Ementa: Designa técnico judiciário para encargo FC-5 até 12/10/2026, com base no art. 38 da Lei 8.112/1990 e na Res. STF 776/2022.
   Unidade(s): SELEP
-  Fonte: DOU Seção 2, 09/10/2026, p. 66 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=66&data=09/10/2026
+  Fonte: DOU Seção 2, 09/10/2026, p. 66 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do2
 
 * MGI — Edital DGP/MGI nº 76/2026: aposentados e pensionistas com benefício suspenso por falta de prova de vida
   Ementa: Relação de aniversariantes de julho/2026 com pagamento suspenso por não atendimento à convocação de prova de vida entre 01/07 e 30/09/2026. Âmbito do Executivo federal.
   Unidade(s): SESES
-  Fonte: DOU Seção 2, 09/10/2026, p. 75 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=75&data=09/10/2026
+  Fonte: DOU Seção 2, 09/10/2026, p. 75 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do2
 
 * DOU — demais atos de pessoal do Executivo federal e de outros órgãos (aposentadorias, pensões, retificações)
   Ementa: Portarias CGBEN/DECIPEX, SSC/MGI, DEPRO e atos do STJ, TCU e outros órgãos sobre concessão de aposentadoria e pensão, sem aplicação direta ao TRT-17. TCU/SECPESSOAS nº 137/2026 concede pensão por morte (TCU). Disponíveis na edição para consulta.
   Unidade(s): SESES
-  Fonte: DOU Seção 2, 09/10/2026 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=09/10/2026
+  Fonte: DOU Seção 2, 09/10/2026 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do2
 
 4. EM MONITORAMENTO (TCU / STF / STJ)
 
@@ -80,12 +80,12 @@ Sem novidades pertinentes nesta data.
 * TCU — Plenário (DOU 09/10/2026): Acórdãos 2648/2026, 2666/2026 e Ata nº 38
   Status: Publicados no DOU; temas de FUNPRESP e cessão/remoção apontados pelo filtro, sem vínculo direto verificado com a SGP.
   Possível reflexo: [carece de leitura humana do texto integral]
-  Fonte: DOU Seção 1, 09/10/2026 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=1&data=09/10/2026
+  Fonte: DOU Seção 1, 09/10/2026 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do1
 
 * STF — ADI 6042 (Plenário): decisão publicada no DOU
   Status: Julgada procedente a ação para declarar a inconstitucionalidade formal da Lei distrital nº 6.200/2018.
   Possível reflexo: Sem pertinência aparente à SGP. [carece de leitura humana do texto integral]
-  Fonte: DOU Seção 1, 09/10/2026, p. 2 — https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=2&data=09/10/2026
+  Fonte: DOU Seção 1, 09/10/2026, p. 2 — https://www.in.gov.br/leiturajornal?data=09-10-2026&secao=do1
 
 * STJ — recursos repetitivos
   Status: Sem novidades em STJ nesta data.
