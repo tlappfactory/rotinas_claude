@@ -1,13 +1,13 @@
 {
-  "run_utc": "2026-10-09T14:32:55Z",
+  "run_utc": "2026-10-09T18:46:05Z",
   "lookback_days": 14,
   "cutoff_date": "2026-09-25",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
   "pages_fetched": 4,
-  "items_seen": 3000,
-  "min_date_seen": "2024-09-17",
+  "items_seen": 2000,
+  "min_date_seen": "2026-08-19",
   "max_date_seen": "2026-10-07",
-  "total_matched": 67,
+  "total_matched": 76,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2778383",
@@ -82,6 +82,28 @@
       "score": 16
     },
     {
+      "key": "ACORDAO-COMPLETO-2776869",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5023",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5023/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "PENSÃO. APOSENTADORIA. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. NEGATIVA DE REGISTRO. POSSIBILIDADE DE ESCOLHA ENTRE O RECEBIMENTO DE UMA OU DE OUTRA VANTAGEM. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776869%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 15
+    },
+    {
       "key": "ACORDAO-COMPLETO-2776211",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "5288",
@@ -123,6 +145,29 @@
       ],
       "weak_keywords": [
         "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 11
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2782457",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "2799",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "07/10/2026",
+      "relator": "MARCOS BEMQUERER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 2799/2026 ATA 39/2026 - PLENÁRIO",
+      "sumario": "REPRESENTAÇÃO. IRREGULARIDADES RELACIONADAS AO VAZAMENTO DE DADOS SIGILOSOS DE APOSENTADOS E PENSIONISTAS DO INSTITUTO NACIONAL DO SEGURO SOCIAL E A PRÁTICAS ABUSIVAS E FRAUDULENTAS NOS EMPRÉSTIMOS CONSIGNADOS. DEFERIMENTO DE MEDIDA CAUTELAR PARA SUSPENDER NOVAS AVERBAÇÕES DE EMPRÉSTIMOS PESSOAIS CONSIGNADOS ATÉ QUE SEJAM IMPLANTADOS OS CONTROLES MÍNIMOS NECESSÁRIOS PARA MITIGAR O RISCO DE CONSIGNAÇÕES INDEVIDAS. AGRAVO CONTRA A MEDIDA CAUTELAR. EVOLUÇÃO NA IMPLEMENTAÇÃO DE TRAVAS DE SEGURANÇA NO SISTEMA DE CONSIGNADOS. REDUÇÃO DO RISCO OPERACIONAL. PROVIMENTO DO AGRAVO. REVOGAÇÃO DA CAUTELAR. MANUTENÇÃO DA SUSPENSÃO DAS MODALIDADES DE CARTÃO. CONTINUIDADE DO MONITORAMENTO E DA INSPEÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782457%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "pensao"
+      ],
+      "weak_keywords": [
+        "folha_esocial"
       ],
       "trt17_hits": [],
       "score": 11
@@ -456,6 +501,90 @@
       "titulo": "ACÓRDÃO 5025/2026 ATA 34/2026 - SEGUNDA CÂMARA",
       "sumario": "PESSOAL. APOSENTADORIA. PAGAMENTO DA VANTAGEM DE \"QUINTOS/DÉCIMOS\" DECORRENTES DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS, EM PARTE, ENTRE 8/4/1998 E 4/9/2001. AUSÊNCIA DE COMPROVAÇÃO DE QUE A INTERESSADA FOI ABRANGIDA PELA DECISÃO JUDICIAL TRANSITADA EM JULGADO. ENTENDIMENTO DO STF NO RE 638.115/CE, COM MODULAÇÃO DE EFEITOS. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778417%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779630",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5020",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5020/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS APÓS A EDIÇÃO DA LEI 9.624/1998. NÃO PERMISSÃO DE PAGAMENTO DE QUINTOS EM FACE DE DECISÃO TRANSITADA EM JULGADO. AÇÃO PROPOSTA POR ASSOCIAÇÃO DE CLASSE. NÃO COMPROVAÇÃO DA CONDIÇÃO DE PARTE. LEI 14.687/2023. AUSÊNCIA DE ÓBICE LEGAL À INCORPORAÇÃO DE PARCELAS DE QUINTOS IRRESTRITAMENTE. INCIDÊNCIA DA MODULAÇÃO FIXADA PELO STF NO RE 638.115/CE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779630%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779629",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5018",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5018/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. VENCIMENTO BÁSICO COMPLEMENTAR (VBC). NÃO ABSORÇÃO CONFORME PREVISTO NA LEI 11.091/2005. REFLEXOS INDEVIDOS NO ADICIONAL POR TEMPO DE SERVIÇO (ATS) E NO INCENTIVO À QUALIFICAÇÃO (IQ). SENTENÇA JUDICIAL PROVISÓRIA QUE AMPARA O PAGAMENTO DA RUBRICA VBC, MAS NÃO A SUA INCLUSÃO NO CÁLCULO DO ATS E DO IQ. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779629%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779626",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5014",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5014/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DA PARCELA OPÇÃO. VIOLAÇÃO À EMENDA CONSTITUCIONAL 20/1998. PAGAMENTO CUMULATIVO DE QUINTOS E OPÇÃO. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. INCIDENTE DE UNIFORMIZAÇÃO DE JURISPRUDÊNCIA (ACÓRDÃOS 514/2025 E 2.260/2026, AMBOS DO PLENÁRIO). ARGUMENTOS INSUFICIENTES À REFORMA DA DELIBERAÇÃO RECORRIDA. CONHECIMENTO. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779626%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778388",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5013",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5013/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS APÓS A EDIÇÃO DA LEI 9.624/1998. RUBRICA NÃO ASSEGURADA POR SENTENÇA JUDICIAL TRANSITADA EM JULGADO. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. EXISTÊNCIA DE DECISÃO JUDICIAL QUE NÃO BENEFICIA A RECORRENTE. CONHECIMENTO. NÃO PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778388%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria",
@@ -1078,6 +1207,66 @@
       "titulo": "ACÓRDÃO 5032/2026 ATA 34/2026 - SEGUNDA CÂMARA",
       "sumario": "PEDIDO DE REEXAME. APOSENTADORIA. INGRESSO DO SERVIDOR NO SERVIÇO PÚBLICO ANTES DE 2003. APLICAÇÃO DA REGRA DE TRANSIÇÃO DA EMENDA CONSTITUCIONAL 103/2019. INTEGRALIDADE E PARIDADE DE REMUNERAÇÃO. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES. IMPOSSIBILIDADE. NEGATIVA DE REGISTRO. CONHECIMENTO DO RECURSO. INSUFICIÊNCIA DOS ARGUMENTOS APRESENTADOS PARA ALTERAR O JUÍZO ANTERIOR. NEGATIVA DE PROVIMENTO.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778301%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779744",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5019",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5019/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. PAGAMENTO DE RETRIBUIÇÃO POR TITULAÇÃO. AUSÊNCIA DE DOCUMENTAÇÃO COMPROBATÓRIA DA NECESSÁRIA REVALIDAÇÃO DE DIPLOMA ESTRANGEIRO. PAGAMENTO DA RUBRICA JUDICIAL URV (3,17%), SEM A DEVIDA ABSORÇÃO.NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779744%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2769770",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5016",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5016/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. VENCIMENTO BÁSICO COMPLEMENTAR (VBC). NÃO ABSORÇÃO CONFORME PREVISTO NA LEI 11.091/2005. BAIXA MATERIALIDADE DO VALOR IMPUGNADO. PRINCÍPIO DO COLEGIADO. REGISTRO COM RESSALVA. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2769770%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2766556",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5015",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5015/2026 ATA 34/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. CONCESSÃO FUNDAMENTADA NO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. NÃO INTEGRALIZAÇÃO DO PERÍODO ADICIONAL DE CONTRIBUIÇÃO PREVIDENCIÁRIA PREVISTO NAQUELE DISPOSITIVO (PEDÁGIO). EXIGUIDADE DO TEMPO FALTANTE. VENCIMENTO BÁSICO COMPLEMENTAR (VBC). NÃO ABSORÇÃO CONFORME PREVISTO NA LEI 11.091/2005. BAIXA MATERIALIDADE DO VALOR IMPUGNADO. PRINCÍPIO DO COLEGIADO. REGISTRO COM RESSALVA. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2766556%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria"

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "total_xml_files": 927,
-  "matched_articles": 124,
+  "total_xml_files": 961,
+  "matched_articles": 128,
   "discarded_individual_acts": {
     "total": 69,
     "by_section": {
@@ -75,7 +75,7 @@
       "page": "82",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_003-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=82&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -109,7 +109,7 @@
       "page": "84",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_004-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=84&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -142,7 +142,7 @@
       "page": "76",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_001-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=76&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -175,7 +175,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.330_24467531-12145992",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -206,7 +206,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.276_24467213-12145685",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -237,7 +237,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.300_24467175-12145643",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -268,7 +268,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.239_24467496-12145972",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -299,7 +299,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 11.878_24468287-12146663",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -330,7 +330,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 11.894_24468344-12146695",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -361,7 +361,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.017_24468438-12146747",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -392,7 +392,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.036_24468265-12146624",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -423,7 +423,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.165_24468151-12146515",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -454,7 +454,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.187_24468199-12146561",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -485,7 +485,7 @@
       "page": "87",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_005-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=87&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -515,7 +515,7 @@
       "page": "93",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_007-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=93&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -545,7 +545,7 @@
       "page": "96",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_008-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=96&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -575,7 +575,7 @@
       "page": "101",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=101&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -603,7 +603,7 @@
       "page": "101",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=101&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -631,7 +631,7 @@
       "page": "101",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=101&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -659,7 +659,7 @@
       "page": "101",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=101&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -687,7 +687,7 @@
       "page": "102",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=102&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -715,7 +715,7 @@
       "page": "98",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=98&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -743,7 +743,7 @@
       "page": "98",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=98&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -771,7 +771,7 @@
       "page": "99",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=99&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -799,7 +799,7 @@
       "page": "99",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=99&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -827,7 +827,7 @@
       "page": "99",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=99&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -855,7 +855,7 @@
       "page": "100",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=100&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -883,7 +883,7 @@
       "page": "100",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=100&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -911,7 +911,7 @@
       "page": "100",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=100&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -939,7 +939,7 @@
       "page": "97",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/55 - ATO CONJUNTO TST.CSJT.GP.SG-12146207",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=97&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "conselho superior da justica do trabalho",
         "tribunal superior do trabalho"
@@ -967,7 +967,7 @@
       "page": "34",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO DE DESPACHO NA -64983013- Af-12146602",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=34&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -997,7 +997,7 @@
       "page": "72",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 245-12146140",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1027,7 +1027,7 @@
       "page": "72",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 248-12146140",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1057,7 +1057,7 @@
       "page": "72",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO EDITAL DE NOTIFICACAO NA 82 -12146951",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1087,7 +1087,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.269_24467471-12145932",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1117,7 +1117,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.270_24467333-12145835",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1147,7 +1147,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.275_24467430-12145906",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1177,7 +1177,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.295_24467130-12145653",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1207,7 +1207,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.298_24467750-12146188",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1237,7 +1237,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.309_24467638-12146098",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1267,7 +1267,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.311_24467691-12146130",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1297,7 +1297,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.322_24467906-12146312",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1327,7 +1327,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 11.541_24467546-12146067",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1357,7 +1357,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.337_24468595-12146863",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1387,7 +1387,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.339_24468555-12146803",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1417,7 +1417,7 @@
       "page": "37",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIAS DE 051026-12143365",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=37&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1447,7 +1447,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-07/12147266/SIGEPE_24469-12147266",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1477,7 +1477,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-07/12147266/SIGEPE_24469-12147266",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1507,7 +1507,7 @@
       "page": "36",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-07/12147266/SIGEPE_24469-12147266",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=36&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1537,7 +1537,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-07/12147298/SIGEPE_24469-12147298",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1567,7 +1567,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 813_24464331-12143301",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -1598,7 +1598,7 @@
       "page": "90",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_006-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=90&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -1627,7 +1627,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.106_24468466-12146774",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1656,7 +1656,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.306_24468607-12146895",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1686,7 +1686,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.332_24468653-12146901",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1716,7 +1716,7 @@
       "page": "1",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ADI 08 10 2026-12143092",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=1&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -1745,7 +1745,7 @@
       "page": "68",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO-GDGSET.GP-560-12147181",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1774,7 +1774,7 @@
       "page": "68",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-06/12141919/andrev_24462-12141919",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1803,7 +1803,7 @@
       "page": "68",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/2026-10-07/12146406/andrev_24468-12146406",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "tribunal superior do trabalho"
       ],
@@ -1832,7 +1832,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Despacho nA 11184-12145675",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1861,7 +1861,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Despacho nA 11189-12143752",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1890,7 +1890,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.310_24468493-12146761",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1919,7 +1919,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.313_24468471-12146732",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1948,7 +1948,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.288_24465130-12143785",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -1977,7 +1977,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 895_24464416-12143387",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2006,7 +2006,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 899_24466198-12144820",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2035,7 +2035,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 900_24466167-12144866",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2064,7 +2064,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 904_24467412-12145874",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2093,7 +2093,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 905_24467210-12145682",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2122,7 +2122,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 906_24467283-12145790",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2151,7 +2151,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 907_24467153-12145667",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2180,7 +2180,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 828_24465029-12143804",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2209,7 +2209,7 @@
       "page": "70",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/MODELO_dispensas_designacoes_nom-12146922",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "tribunal regional do trabalho da 17"
       ],
@@ -2238,7 +2238,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/855 - CLARISSA E NILVA - DIS-DES-12146008",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2267,7 +2267,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/856 - NILVA - FC-6-12146881",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2296,7 +2296,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/912 - HERMANN- DES-12146814",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "superior tribunal de justica"
       ],
@@ -2325,7 +2325,7 @@
       "page": "79",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Ata nA 33 - 1C_002-12145377",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=79&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [
         "tribunal de contas da uniao"
       ],
@@ -2333,6 +2333,34 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20261008_24466808-2.xml"
+    },
+    {
+      "id": "51682510",
+      "section": "DO1E",
+      "pub_date": "08/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Planejamento e Orçamento/Gabinete do Ministro",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 26 331 1.040.922 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 26 331 1.040.922 F 3-ODC 1 90 0 1000 1.040.922 TOTAL - FISCAL 1.040.922 TOTAL - SEGURIDADE 0 TOTAL - GERAL 1.040.922 ÓRGÃO: 68000 - Ministério de Portos e Aeroportos UNIDADE: 68213 - Agência Nacional de Aviação Civil - ANAC ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 3.481.556 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 26 331 461.351 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 26 331 461.351 F 3-ODC 1 90 0 1000 461.351 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 26 331 3.020.205 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 26 331 3.013.855 F 3-ODC 1 90 0 1000 3.013.855 0032 212B 0002 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Exterior 26 331 6.350 F 3-ODC 1 90 0 1000 6.350 TOTAL - FISCAL 3.481.556 TOTAL - SEGURIDADE 0 TOTAL - GERAL 3.481.556 ÓRGÃO: 69000 - Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte UNIDADE: 69101 - Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte - Administração direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 220.000 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 23 331 20.000 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 23 331 20.000 F 3-ODC 1 90 0 1000 20.000 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 23 331 200.000 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 23 331 200.000 F 3-ODC 1 90 0 1000 200.000 TOTAL - FISCAL 220.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 220.000 ÓRGÃO: 71000 - Encargos Financeiros da União UNIDADE: 71102 - Recursos sob Supervisão do Ministério do Planejamento e Orçamento ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 20.000.000 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 04 331 20.000.000 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 04 331 20.000.000 F 3-ODC 1 90 0 1000 20.000.000 TOTAL - FISCAL 20.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 20.000.000 ÓRGÃO: 73000 - Transferências a Estados, Distrito Federal e Municípios UNIDADE: 73113 - Recursos sob Supervisão do Ministério da Gestão e Inovação em Serviços Públicos ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 680.000 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 04 331 680.000 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 04 331 680.000 F 3-ODC 1 90 0 1000 680.000 TOTAL - FISCAL 680.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 680.000 ÓRGÃO: 73000 - Transferências a Estados, Distrito Federal e Municípios UNIDADE: 73901 - Fundo Constitucional do Distrito Federal - FCDF ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0903 Operações Especiais: Transferências Constitucionais e as Decorrentes de Legislação Específica 436.103.585 Operações Especiais 0903 009T Serviços Públicos de Saúde do Distrito Federal 28 845 125.988.974 0903 009T 0053 Serviços Públicos de Saúde do Distrito Federal - No Distrito Federal 28 845 125.988.974 F 3-ODC 1 90 0 1000 125.988.974 0903 00FM Assistência Médica e Odontológica às Polícias Civil, Militar e ao Corpo de Bombeiros do Distrito Federal 28 845 19.412.257 0903 00FM 0053 Assistência Médica e Odontológica às Polícias Civil, Militar e ao Corpo de Bombeiros do Distrito Federal - No Distrito Federal 28 845 19.412.257 S 3-ODC 1 90 0 1000 18.968.879 S 3-ODC 1 90 0 1006 443.378 0903 00NR Manutenção das Polícias Civil, Polícia Militar e do Corpo de Bombeiros do Distrito Federal 28 845 148.000.000 0903 00NR 0053 Manutenção das Polícias Civil, Polícia Militar e do Corpo de Bombeiros do Distrito Federal - No Distrito Federal 28 845 148.000.000 F 3-ODC 1 90 0 1000 70.000.000 F 4-INV 1 90 0 1000 78.000.000 0903 00NS Inativos da Polícia Militar e do Corpo de Bombeiros do Distrito Federal 28 845 13.500.000 0903 00NS 0053 Inativos da Polícia Militar e do Corpo de Bombeiros do Distrito Federal - No Distrito Federal 28 845 13.500.000 S 1-PES 1 90 0 1024 13.500.000 0903 00Q2 Pensionistas da Polícia Militar e do Corpo de Bombeiros do Distrito Federal 28 845 9.615.964 0903 00Q2 0053 Pensionistas da Polícia Militar e do Corpo de Bombeiros do Distrito Federal - No Distrito Federal 28 845 9.615.",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "42",
+      "edition": "191-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria MPO nA 432 de 7 de outu-12147479",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "ajuda_custo_transporte",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "600_20261008_24469399-20.xml"
     },
     {
       "id": "51664136",
@@ -2352,7 +2380,7 @@
       "page": "68",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO NA 4938-12144492",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria",
@@ -2380,7 +2408,7 @@
       "page": "34",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO DE DESPACHO NA -64996266- Af-12146602",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=34&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2407,7 +2435,7 @@
       "page": "34",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO DE DESPACHO NA -64999919- Af-12146602",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=34&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2434,7 +2462,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/RICARDO LEE NAMBA-12145978",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2461,7 +2489,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/EDUARDO CARLOS COSTANTIN-12145960",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2488,7 +2516,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.272_24468386-12146728",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2515,7 +2543,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.305_24468394-12146712",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2542,7 +2570,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.283_24464951-12143755",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2569,7 +2597,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.284_24465074-12143824",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2596,7 +2624,7 @@
       "page": "38",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 12.285_24465125-12143889",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=38&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2623,7 +2651,7 @@
       "page": "67",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO Portaria PRES NA 201-12146965",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=67&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "supremo tribunal federal"
       ],
@@ -2650,7 +2678,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORT_PESSOAL_AN_MGI_190_2026-12145209",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2677,7 +2705,7 @@
       "page": "35",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORT_PESSOAL_AN_MGI_191_2026-12145271",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=35&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [
         "ministerio da gestao"
       ],
@@ -2704,7 +2732,7 @@
       "page": "27",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/1 Port. nA 750 - Permuta de CCE -12146834",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=27&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2733,7 +2761,7 @@
       "page": "4",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/RESOLUCAO SUBEX-CIM nA 10 de 01 -12147036",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=4&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -2762,7 +2790,7 @@
       "page": "69",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 243 - 07.10.2026-12147283",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=69&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2791,7 +2819,7 @@
       "page": "71",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATA342-12146527",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=71&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2818,7 +2846,7 @@
       "page": "54",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/07.10.2026 -DECISAO DA DIRETORIA-12144028",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=54&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "funpresp"
@@ -2845,7 +2873,7 @@
       "page": "45",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Port 377_2026.__Z55E51-12144061",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=45&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2872,7 +2900,7 @@
       "page": "54",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Portaria Funai 1470 - 05-10-2026-12146349",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=54&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2899,7 +2927,7 @@
       "page": "30",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA MF 3.022-12146719",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=30&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -2926,7 +2954,7 @@
       "page": "54",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/07.10.2026 -Portaria Previc NA 7-12143861",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=54&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "funpresp"
@@ -2953,7 +2981,7 @@
       "page": "54",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/07.10.2026 -Portaria Previc NA 7-12143861",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=54&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "funpresp"
@@ -2961,6 +2989,87 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "515_20261008_24465171.xml"
+    },
+    {
+      "id": "51682492",
+      "section": "DO1E",
+      "pub_date": "08/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Planejamento e Orçamento/Gabinete do Ministro",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 25 331 249.424 0032 212B 0053 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - No Distrito Federal 25 331 249.424 F 3-ODC 1 90 0 1000 249.424 TOTAL - FISCAL 249.424 TOTAL - SEGURIDADE 0 TOTAL - GERAL 249.424 ÓRGÃO: 32000 - Ministério de Minas e Energia UNIDADE: 32265 - Agência Nacional do Petróleo, Gás Natural e Biocombustíveis - ANP ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 1.920.000 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 25 331 1.920.000 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 25 331 1.920.000 F 3-ODC 1 90 0 1000 1.920.000 TOTAL - FISCAL 1.920.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 1.920.000 ÓRGÃO: 32000 - Ministério de Minas e Energia UNIDADE: 32266 - Agência Nacional de Energia Elétrica - ANEEL ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 873.777 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 25 331 873.777 0032 212B 0053 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - No Distrito Federal 25 331 873.777 F 3-ODC 1 90 0 1052 873.777 TOTAL - FISCAL 873.777 TOTAL - SEGURIDADE 0 TOTAL - GERAL 873.777 ÓRGÃO: 32000 - Ministério de Minas e Energia UNIDADE: 32314 - Empresa de Pesquisa Energética - EPE ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 186.659 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 25 331 186.659 0032 2004 0033 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - No Estado do Rio de Janeiro 25 331 186.659 F 3-ODC 1 90 0 1000 186.659 TOTAL - FISCAL 186.659 TOTAL - SEGURIDADE 0 TOTAL - GERAL 186.659 ÓRGÃO: 32000 - Ministério de Minas e Energia UNIDADE: 32396 - Agência Nacional de Mineração - ANM ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 2.652.723 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 22 331 2.652.723 0032 212B 0053 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - No Distrito Federal 22 331 2.652.723 F 3-ODC 1 90 0 1000 2.652.723 TOTAL - FISCAL 2.652.723 TOTAL - SEGURIDADE 0 TOTAL - GERAL 2.652.723 ÓRGÃO: 33000 - Ministério da Previdência Social UNIDADE: 33101 - Ministério da Previdência Social - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 1.060.953 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 09 331 1.060.953 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 09 331 1.060.953 S 3-ODC 1 90 0 1000 1.060.953 TOTAL - FISCAL 0 TOTAL - SEGURIDADE 1.060.953 TOTAL - GERAL 1.060.953 ÓRGÃO: 33000 - Ministério da Previdência Social UNIDADE: 33201 - Instituto Nacional do Seguro Social ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 42.641.241 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 09 331 11.060.557 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 09 331 11.060.557 S 3-ODC 1 90 0 1000 11.060.557 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 09 331 31.580.684 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 09 331 31.580.684 S 3-ODC 1 90 0 1000 31.580.684 0901 Operações Especiais: Cumprimento de Sentenças Judiciais 156.259.001 Operações Especiais 0901 00SA Pagamento de honorários periciais nas ações em que o INSS figure como parte 28 846 156.259.001 0901 00SA 0001 Pagamento de honorários periciais nas ações em que o INSS figure como parte - Nacional 28 846 156.259.001 S 3-ODC 1 90 0 1000 156.259.001 TOTAL - FISCAL 0 TOTAL - SEGURIDADE 198.900.242 TOTAL - GERAL 198.900.242 ÓRGÃO: 33000 - Ministério da Previdência Social UNIDADE: 33206 - Superintendência Nacional de Previdência Complementar ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO ( SUPLEMENTAÇÃO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 227.000 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 09 331 100.000 0032 2004 0001 Assistência Médica e Odontológica aos Ser",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "29",
+      "edition": "191-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria MPO nA 432 de 7 de outu-12147479",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20261008_24469399-14.xml"
+    },
+    {
+      "id": "51682519",
+      "section": "DO1E",
+      "pub_date": "08/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Planejamento e Orçamento/Gabinete do Ministro",
+      "identifica": "",
+      "orgao": "",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ÓRGÃO: 53000 - Ministério da Integração e do Desenvolvimento Regional UNIDADE: 53202 - Superintendência do Desenvolvimento da Amazônia ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 40.000 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 04 331 40.000 0032 2004 6000 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Na Amazônia Legal 04 331 40.000 F 3-ODC 1 90 0 1000 40.000 TOTAL - FISCAL 40.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 40.000 ÓRGÃO: 56000 - Ministério das Cidades UNIDADE: 56201 - Empresa de Trens Urbanos de Porto Alegre S.A. - TRENSURB ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 1.049.126 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 15 331 1.049.126 0032 2004 0043 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - No Estado do Rio Grande do Sul 15 331 1.049.126 F 3-ODC 1 90 0 1000 1.049.126 TOTAL - FISCAL 1.049.126 TOTAL - SEGURIDADE 0 TOTAL - GERAL 1.049.126 ÓRGÃO: 56000 - Ministério das Cidades UNIDADE: 56202 - Companhia Brasileira de Trens Urbanos - CBTU ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 3.313.779 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 15 331 3.313.779 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 15 331 3.313.779 F 3-ODC 1 90 0 1000 3.313.779 TOTAL - FISCAL 3.313.779 TOTAL - SEGURIDADE 0 TOTAL - GERAL 3.313.779 ÓRGÃO: 63000 - Advocacia-Geral da União UNIDADE: 63101 - Advocacia-Geral da União ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 3.000.000 Atividades 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 03 331 3.000.000 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 03 331 3.000.000 F 3-ODC 1 90 0 1000 3.000.000 TOTAL - FISCAL 3.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 3.000.000 ÓRGÃO: 71000 - Encargos Financeiros da União UNIDADE: 71102 - Recursos sob Supervisão do Ministério do Planejamento e Orçamento ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 610.151.300 Atividades 0032 2004 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes 04 331 259.219.329 0032 2004 0001 Assistência Médica e Odontológica aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 04 331 259.219.329 F 3-ODC 1 90 0 1000 259.219.329 0032 212B Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes 04 331 350.931.971 0032 212B 0001 Benefícios Obrigatórios aos Servidores Civis, Empregados, Militares e seus Dependentes - Nacional 04 331 350.931.971 F 3-ODC 1 90 0 1000 350.931.971 0901 Operações Especiais: Cumprimento de Sentenças Judiciais 166.243.284 Operações Especiais 0901 0022 Sentenças Judiciais Devidas por Empresas Estatais 28 846 22.126.742 0901 0022 0001 Sentenças Judiciais Devidas por Empresas Estatais - Nacional 28 846 22.126.742 F 1-PES 1 90 0 1000 8.000.000 F 3-ODC 1 90 0 1000 14.126.742 0901 00QG Anistiados Políticos - Retroativos Concedidos por Decisões Judiciais 28 846 76.558.271 0901 00QG 0001 Anistiados Políticos - Retroativos Concedidos por Decisões Judiciais - Nacional 28 846 76.558.271 S 1-PES 1 90 0 1000 76.558.271 0901 00QY Acordos referentes a passivos atuariais de estatais dependentes 28 846 67.558.271 0901 00QY 0001 Acordos referentes a passivos atuariais de estatais dependentes - Nacional 28 846 67.558.271 F 1-PES 1 90 0 1000 67.558.271 0909 Operações Especiais: Outros Encargos Especiais 9.157.742 Operações Especiais 0909 00OM Indenização a Servidores em Exercício em Localidades de Fronteira (Lei nº 12.855, de 2013) 28 846 7.692.420 0909 00OM 0001 Indenização a Servidores em Exercício em Localidades de Fronteira (Lei nº 12.855, de 2013) - Nacional 28 846 7.692.420 F 3-ODC 1 90 0 1000 7.692.420 0909 0536 Benefícios de Legislação Especial 28 846 1.465.322 0909 0536 0001 Benefícios de Legislação Especial - Nacional 28 846 1.465.322 S 3-ODC 1 90 0 1000 1.465.322 TOTAL - FISCAL 707.528.733 TOTAL - SEGURIDADE 78.023.593 TOTAL - GERAL 785.552.326 ÓRGÃO: 73000 - Transferências a Estados, Distrito Federal e Municípios UNIDADE: 73901 - Fundo Constitucional do Distrito Federal - FCDF ANEXO II Crédito Suplementar PROGRAMA DE TRABALHO ( CANCELAMENTO ) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0903 Operações Especiais: Transferências Constitucionais e as Decorrentes de Legislação Específica 392.493.220 Operações Especiais 0903 009T Serviços Públicos de Saúde do Distrito Federal 28 845 886.390 0903 009T 0053 Serviços Públicos de Saúde do Distrito Federal - No Distrito Federal 28 845 886.390 F 3-ODC 1 90 0",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "48",
+      "edition": "191-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria MPO nA 432 de 7 de outu-12147479",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20261008_24469399-23.xml"
+    },
+    {
+      "id": "51682453",
+      "section": "DO1E",
+      "pub_date": "08/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério do Planejamento e Orçamento/Gabinete do Ministro",
+      "identifica": "PORTARIA GM/MPO Nº 432, DE 7 DE OUTUBRO DE 2026",
+      "orgao": "",
+      "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos órgãos do Poder Executivo Federal; de Encargos Financeiros da União; e de Transferências a Estados, Distrito Federal e Municípios, crédito suplementar no valor de R$ 1.420.004.838,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA GM/MPO Nº 432, DE 7 DE OUTUBRO DE 2026 Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos órgãos do Poder Executivo Federal; de Encargos Financeiros da União; e de Transferências a Estados, Distrito Federal e Municípios, crédito suplementar no valor de R$ 1.420.004.838,00, para reforço de dotações constantes da Lei Orçamentária vigente. O MINISTRO DE ESTADO DO PLANEJAMENTO E ORÇAMENTO, no uso da competência que lhe foi delegada pelo art. 1º, inciso II, do Decreto nº 12.813, de 9 de janeiro de 2026, e tendo em vista as autorizações contidas no art. 4º, § 1º, incisos I, e II, alínea \"c\"; § 2º, incisos II, III e V, da Lei nº 15.346, de 14 de janeiro de 2026, e no art. 53, § 2º, da Lei nº 15.321, de 31 de dezembro de 2025, resolve: Art. 1º Abrir aos Orçamentos Fiscal e da Seguridade Social da União (Lei nº 15.346, de 14 de janeiro de 2026), em favor de diversos órgãos do Poder Executivo Federal; de Encargos Financeiros da União; e de Transferências a Estados, Distrito Federal e Municípios, crédito suplementar no valor de R$ 1.420.004.838,00 (um bilhão, quatrocentos e vinte milhões, quatro mil, oitocentos e trinta e oito reais) para atender às programações constantes do Anexo I. Art. 2º Os recursos necessários à abertura do crédito de que trata o art. 1º decorrem de: I - excesso de arrecadação, no montante de R$ 988.108,00 (novecentos e oitenta e oito mil, cento e oito reais), relativo a Pensões Militares e Remuneração dos Inativos Militares do FCDF; e II - anulação de dotações orçamentárias, em R$ 1.419.016.730,00 (um bilhão, quatrocentos e dezenove milhões, dezesseis mil, setecentos e trinta reais), conforme indicado no Anexo II. Art. 3º Esta Portaria entra em vigor na data de sua publicação. BRUNO MORETTI ANEXOS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "191-A",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria MPO nA 432 de 7 de outu-12147479",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "600_20261008_24469399-1.xml"
     },
     {
       "id": "51663887",
@@ -2980,7 +3089,7 @@
       "page": "69",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO NA 4949-12144393",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=69&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -3007,7 +3116,7 @@
       "page": "68",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/presatta0810a-12145349",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=68&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3034,7 +3143,7 @@
       "page": "70",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/214-12145397",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=70&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3061,7 +3170,7 @@
       "page": "26",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Reitora Afastamentos----Despacho-12146837",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=26&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3088,7 +3197,7 @@
       "page": "72",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Edital DIDES 005- Restabelecimen-12145804",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3115,7 +3224,7 @@
       "page": "72",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/EDITAL DE NOTIFICACAO__2DLIKE-12143213",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=72&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3142,7 +3251,7 @@
       "page": "9",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Portaria AC 11-12147088",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=9&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3169,7 +3278,7 @@
       "page": "19",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/CORREIO ELETRONICO GR - 07.10.20-12144123",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3196,7 +3305,7 @@
       "page": "13",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/IFBA_RTF_Portaria_2028-12145525",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=13&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3223,7 +3332,7 @@
       "page": "55",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 2.593_24466569-12145155",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=55&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3250,7 +3359,7 @@
       "page": "55",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 2.611_24466639-12145206",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=55&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3277,7 +3386,7 @@
       "page": "69",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Portaria 235 - 02.10.2026-12147283",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=69&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -3304,7 +3413,7 @@
       "page": "19",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/IFSERTAOPE_RTF_Portarias_07-10-2-12146601",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=19&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3331,7 +3440,7 @@
       "page": "15",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/IFMT_RTF_Portaria_4350-12145923",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=15&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3358,7 +3467,7 @@
       "page": "18",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Portaria_IFSP_2026_7064_RETIFICA-12147244",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=18&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3385,7 +3494,7 @@
       "page": "18",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/IFSP_RTF_Portaria_7066-12146945",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=18&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "licencas_servidor"
@@ -3412,7 +3521,7 @@
       "page": "51",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PT 1433 de 06.10.2026-12143231",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3439,7 +3548,7 @@
       "page": "51",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA N 54_24467925-12146338",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=51&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "aposentadoria"
@@ -3466,7 +3575,7 @@
       "page": "8",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/Restabelecer pagto de pensionist-12145312",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=8&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3493,7 +3602,7 @@
       "page": "23",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 4206- 07.10.2025 - A-12145595",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=23&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3520,7 +3629,7 @@
       "page": "23",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 4211- 07.10.2025 - P-12144731",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=23&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "pensao"
@@ -3547,7 +3656,7 @@
       "page": "20",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO Portaria NA 1982-12145313",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=20&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -3574,7 +3683,7 @@
       "page": "21",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO Portaria NA 1988-12145609",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=21&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"
@@ -3601,7 +3710,7 @@
       "page": "21",
       "edition": "191",
       "url": "https://www.in.gov.br/web/dou/-/ATO Portaria NA 2043-12145313",
-      "url_pagina_pesquisa": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=529&pagina=21&data=08/10/2026",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=08-10-2026&secao=do2",
       "orgao_emissor_hits": [],
       "strong_keywords": [
         "cessao_remocao_permuta"

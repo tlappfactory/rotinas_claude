@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-09T14:32:55Z",
+  "run_utc": "2026-10-09T18:46:06Z",
   "lookback_days": 7,
   "desde": "2026-10-02",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 36,
+      "itens_vistos": 38,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-02T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 17898,
-          "inicio": "[{\"id\":166875,\"date\":\"2026-10-09T11:02:53\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/confira-os-destaques-do-plenario-virtual-29\\/\",\"title\":{\"rendered\":\"Confira os destaques do Plen\\u00e1rio Virtual\\u00a0\"},\"excerpt\":{\"rendered\":\"<p>Sess\\u00e3o virtual come\\u00e7ou \\u00e0s 11h desta sext"
+          "bytes": 18996,
+          "inicio": "[{\"id\":166890,\"date\":\"2026-10-09T14:42:59\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/fachin-defende-fortalecimento-da-magistratura-e-preservacao-das-garantias-constitucionais\\/\",\"title\":{\"rendered\":\"Fachin defende fortalecimento da magistratura e preserva\\u00e7\\u00e3o das garantias const"
         },
         {
           "amostra_titulos": [
+            "Fachin defende fortalecimento da magistratura e preservação das garantias constitucionais",
+            "Comissão de Veneza elege ministra Cármen Lúcia para presidir Subcomissão para a América La",
             "Confira os destaques do Plenário Virtual",
             "‘Direito sem juridiquês’: você sabe o que é e para que serve uma liminar?",
             "STF rejeita pedido de coligação e mantém decisão do TSE que invalidou votos de Anthony Gar",
-            "STF avança em julgamento sobre inclusão de expurgos inflacionários na correção de depósito",
-            "Roda de conversa do STF destaca papel das mulheres na elaboração da Constituição de 1988",
-            "Ministra Cármen Lúcia cumpre agenda institucional em Veneza"
+            "STF avança em julgamento sobre inclusão de expurgos inflacionários na correção de depósito"
           ]
         }
       ]
