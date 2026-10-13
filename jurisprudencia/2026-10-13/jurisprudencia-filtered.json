@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-13T14:33:30Z",
+  "run_utc": "2026-10-13T19:50:40Z",
   "lookback_days": 7,
   "desde": "2026-10-06",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 28,
+      "itens_vistos": 29,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-06T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 14074,
-          "inicio": "[{\"id\":166912,\"date\":\"2026-10-13T09:11:35\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-vai-decidir-se-agentes-de-saude-e-endemias-podem-ser-efetivados-no-servico-publico\\/\",\"title\":{\"rendered\":\"STF vai decidir se agentes de sa\\u00fade e endemias podem ser efetivados no servi\\u00e7o p\\u"
+          "bytes": 14594,
+          "inicio": "[{\"id\":166934,\"date\":\"2026-10-13T14:24:09\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/dialogos-institucionais-do-cestf-debate-constitucionalismo-digital-com-o-professor-ingo-sarlet\\/\",\"title\":{\"rendered\":\"Professor Ingo Sarlet debate constitucionalismo digital em evento do CESTF\"},\"excerp"
         },
         {
           "amostra_titulos": [
+            "Professor Ingo Sarlet debate constitucionalismo digital em evento do CESTF",
             "STF vai decidir se agentes de saúde e endemias podem ser efetivados no serviço público",
             "Reclamações representam quase metade dos novos processos originários no STF",
             "STF manifesta pesar pelo falecimento do pai do ministro Cristiano Zanin",
             "Validade de lei que amplia tempo gratuito em estacionamentos privados para PcDs é destaque",
-            "STF reafirma aplicação de novos prazos a registros de armas expedidos antes de decreto de ",
-            "Rede questiona no STF uso de métricas de plataformas digitais na avaliação de profissionai"
+            "STF reafirma aplicação de novos prazos a registros de armas expedidos antes de decreto de "
           ]
         }
       ]

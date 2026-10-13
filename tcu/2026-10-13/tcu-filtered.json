@@ -1,14 +1,38 @@
 {
-  "run_utc": "2026-10-13T14:33:30Z",
+  "run_utc": "2026-10-13T19:50:40Z",
   "lookback_days": 14,
   "cutoff_date": "2026-09-29",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
   "pages_fetched": 4,
-  "items_seen": 3000,
-  "min_date_seen": "2025-10-07",
-  "max_date_seen": "2026-10-07",
-  "total_matched": 76,
+  "items_seen": 2000,
+  "min_date_seen": "2026-08-19",
+  "max_date_seen": "2026-10-13",
+  "total_matched": 78,
   "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2768302",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5290",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "WEDER DE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5290/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. AVERBAÇÃO DE TEMPO DE SERVIÇO COMO ALUNO-APRENDIZ PARA FINS DE CONTAGEM DE TEMPO DE CONTRIBUIÇÃO PARA A APOSENTADORIA INTEGRAL, SEM COMPROVAÇÃO DE RETRIBUIÇÃO PECUNIÁRIA OU DE LABOR NA EXECUÇÃO DE ENCOMENDAS RECEBIDAS PELA ESCOLA. RECEBIMENTO DE DIFERENÇAS REMUNERATÓRIAS DECORRENTES DO PAGAMENTO DA GRATIFICAÇÃO DE DESEMPENHO DE ATIVIDADE DE CIÊNCIA E TECNOLOGIA (GDACT) COM BASE EM DECISÃO JUDICIAL TRANSITADA EM JULGADO. NÃO ABSORÇÃO DA RUBRICA \"DIF.VENC.DECISAO TCU 068/98\". INCLUSÃO, NOS PROVENTOS, DA VANTAGEM \"OPÇÃO\" DE FORMA CUMULATIVA COM A VANTAGEM \"QUINTOS/DÉCIMOS\" DE INCORPORAÇÃO DE FUNÇÃO COMISSIONADA. LONGO TEMPO DECORRIDO DESDE A VIGÊNCIA DO ATO ATÉ O SEU INGRESSO NESTA CORTE. SITUAÇÃO JURÍDICA E REMUNERATÓRIA IRREGULAR CONSOLIDADA. EXCEPCIONALIDADE DA SITUAÇÃO. PRINCÍPIOS DA SEGURANÇA JURÍDICA, DA RAZOABILIDADE, DA PROPORCIONALIDADE E DA PROTEÇÃO DA CONFIANÇA EM DETRIMENTO DO PRINCÍPIO DA LEGALIDADE. BOA-FÉ DA BENEFICIÁRIA. REGISTRO. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2768302%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "averbacao_tempo",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "trt17_hits": [],
+      "score": 16
+    },
     {
       "key": "ACORDAO-COMPLETO-2778383",
       "tipo": "ACÓRDÃO",
@@ -312,6 +336,27 @@
       "titulo": "ACÓRDÃO 5292/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
       "sumario": "PESSOAL. APOSENTADORIA. VANTAGEM DE QUINTOS EM RAZÃO DO EXERCÍCIO DE FUNÇÕES COMISSIONADAS APÓS O ADVENTO DA LEI 9.624/1998. INCORPORAÇÃO AMPARADA EM DECISÃO JUDICIAL TRANSITADA EM JULGADO PROPOSTA POR ASSOCIAÇÃO DE CLASSE. NÃO COMPROVAÇÃO DE QUE A APOSENTADA INTEGRAVA A RELAÇÃO PROCESSUAL DA AÇÃO DE CONHECIMENTO. NEGATIVA DE REGISTRO. ADEQUAÇÃO À MODULAÇÃO DO STF NO RE 638.115/CE. SUPERVENIÊNCIA DA LEI 14.687/2023. NOVO QUADRO NORMATIVO. NÃO RETROATIVIDADE. POSSIBILIDADE DE ABSORÇÃO ATÉ 1.2.2023, CONFORME ACÓRDÃO 2533/2024-2ª CÂMARA. DETERMINAÇÕES. ARQUIVAMENTO.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780411%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2772769",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5291",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "06/10/2026",
+      "relator": "WEDER DE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5291/2026 ATA 34/2026 - PRIMEIRA CÂMARA",
+      "sumario": "APOSENTADORIA PAGAMENTO EM CUMULATIVIDADE DA VANTAGEM DENOMINADA \"OPÇÃO\" COM PARCELAS GARANTIDAS PELO ART. 2º DA LEI 6.732/1979 (\"QUINTOS\"). ILEGALIDADE. LONGO TEMPO DECORRIDO DESDE A VIGÊNCIA DO ATO ATÉ O SEU INGRESSO NESTA CORTE. SITUAÇÃO JURÍDICA E REMUNERATÓRIA IRREGULAR CONSOLIDADA. EXCEPCIONALIDADE DA SITUAÇÃO. PRINCÍPIOS DA SEGURANÇA JURÍDICA, DA RAZOABILIDADE, DA PROPORCIONALIDADE E DA PROTEÇÃO DA CONFIANÇA EM DETRIMENTO DO PRINCÍPIO DA LEGALIDADE. BOA-FÉ DA BENEFICIÁRIA. REGISTRO. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2772769%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria",
