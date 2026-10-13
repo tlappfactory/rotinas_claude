@@ -1,0 +1,61 @@
+BOLETIM NORMATIVO — 13 de outubro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* TCU — Acórdão 5039/2026 (2ª Câmara): pensão com "opção" cumulada com quintos/décimos; evolução da tese do Acórdão 1.724/2025-Plenário
+  Ementa: Sumário oficial: registro com ressalvas e determinação; o exame de legalidade do ato de pensão não pode reanalisar a estrutura de proventos da aposentadoria do instituidor quando o ato continha a rubrica irregular sem apontamento oportuno pelo TCU. Acórdãos correlatos da mesma sessão (5027/2026 e 4885/2026) aplicam a mesma linha. [carece de leitura humana do texto integral]
+  Unidade(s): SESES, SELEP
+  Ação sugerida: Ciência; conferir impacto em análises de pensão com quintos/opção e ajustar rotina se couber.
+  Fonte: Acórdão TCU 5039/2026 – 2ª Câmara (sessão 06/10/2026) — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778383%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+3. INFORMATIVO (arquivo)
+
+* TRT-11 — aposentadorias voluntárias concedidas (Resoluções Administrativas 267, 268, 269, 270, 271 e 272/2026)
+  Ementa: Concessão de aposentadoria voluntária a servidores do TRT da 11ª Região (Técnicos e Analista Judiciários) com fundamento na EC 103/2019 e na Lei 8.112/1990; regras de transição e cálculo de proventos variam por ato (integrais ou pela média). Úteis como referência de fundamentação.
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, pp. 80–81 — https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2
+
+* MGI/SGP — portarias de aposentadoria, pensão e pessoal (CGBEN/DECIPEX, DICAT, SSC, SEGES; Portarias SGP/MGI 12.438 e 12.479/2026)
+  Ementa: Lote de atos individuais de concessão de aposentadoria e de pessoal do Poder Executivo federal e designação/dispensa de substitutos eventuais na Secretaria de Gestão de Pessoas do MGI. Sem reflexo direto no TRT-17.
+  Unidade(s): SESES, SGP-direção
+  Fonte: DOU Seção 2, pp. 45–47 e seguintes — https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2
+
+* TRT-23 e TRT-6 — nomeações de concursados (Atos TRT/SGH/DG/GP 69 e 70/2026; Ato TRT6-GP 257/2026)
+  Ementa: Nomeação de candidatos aprovados em concurso para Analista Judiciário nos TRT-23 e TRT-6; o ato do TRT-6 cita o Ofício Circular CSJT.GP.SG.SGPES nº 80/2026, que autoriza o provimento de cargos na Justiça do Trabalho (conteúdo do ofício não consultado).
+  Unidade(s): SELEP, SGP-direção
+  Fonte: DOU Seção 2, pp. 79 e 82 — https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2
+
+* Portaria-SECPESSOAS nº 138/2026 — habilitação provisória à pensão por morte (art. 219, §2º, Lei 8.112/1990)
+  Ementa: Ato do TCU autorizando habilitação provisória à pensão por morte, com fundamento no §2º do art. 219 da Lei 8.112/1990.
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, p. 70 — https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU — quintos/décimos, opção e cálculo de proventos: acórdãos das sessões de 29/09 a 07/10/2026 (76 selecionados)
+  Status: Acórdãos das Câmaras em atos de aposentadoria e pensão, a maioria sobre quintos/décimos pós-Lei 9.624/1998, parcela "opção", ATS/anuênios, tempo especial/insalubre, VBC e RSC (ex.: 5023, 5028, 5281, 5289, 5292, 5298, 5303/2026).
+  Possível reflexo: Possível reflexo em análises de aposentadoria/pensão da SESES; [carece de leitura humana do texto integral].
+  Fonte: TCU — Pesquisa de Jurisprudência — https://contas.tcu.gov.br/pesquisaJurisprudencia/
+
+* STF — repercussão geral: aposentadoria especial de agentes de saúde (notícia de 08/10/2026)
+  Status: Repercussão geral reconhecida sobre se a aposentadoria especial depende de regulamentação; data do julgamento de mérito ainda não definida.
+  Possível reflexo: Acompanhar; tese ainda inexistente. [carece de leitura humana do texto integral]
+  Fonte: STF Notícias, 08/10/2026 — https://noticias.stf.jus.br/postsnoticias/stf-vai-decidir-se-aposentadoria-especial-para-agentes-de-saude-depende-de-regulamentacao/
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 1
+- Informativos: 4
+- Em Monitoramento: 2
+- Fontes consultadas: DOU Seções 1 e 2 (13/10/2026): 146 atos selecionados, 2 atos individuais de pessoal de outros órgãos descartados. Acórdãos do TCU das sessões de 29/09 a 07/10/2026: 76 selecionados. Jurisprudência do STF consultada; STJ sem itens na janela. CNJ: sem atos pertinentes identificados no DOU Seção 1 nesta data.
+- Sem retorno relevante: DEJT Caderno Administrativo TRT-17, CSJT e TST, publicação 13/10/2026: edição não consultada pela rotina automatizada — conferência manual em diario.jt.jus.br. A edição de 12/10/2026 não teve publicação nos cadernos.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo (Claude AI) em 13/10/2026, 11h35 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.

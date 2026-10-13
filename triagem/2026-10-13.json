@@ -1,0 +1,67 @@
+{
+ "data": "2026-10-13",
+ "timestamp": "13/10/2026, 11h35 (Brasília)",
+ "aviso": {
+  "destaque": true,
+  "texto": "A edição de 13/10/2026 do DEJT (publicação) ainda não estava disponível; DEJT TRT-17, CSJT e TST não consultados nesta edição (última publicação com caderno: 09/10/2026; 12/10 sem publicação). DOU 13/10/2026: 146 atos selecionados, 2 atos individuais de pessoal de outros órgãos descartados. TCU: sessões até 07/10/2026, 76 selecionados. STF consultado; STJ sem itens. Conferência humana recomendada."
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TCU — Acórdão 5039/2026 (2ª Câmara): pensão com \"opção\" cumulada com quintos/décimos; evolução da tese do Acórdão 1.724/2025-Plenário",
+   "ementa": "Sumário oficial: registro com ressalvas e determinação; o exame de legalidade do ato de pensão não pode reanalisar a estrutura de proventos da aposentadoria do instituidor quando o ato continha a rubrica irregular sem apontamento oportuno pelo TCU. Acórdãos correlatos da mesma sessão (5027/2026 e 4885/2026) aplicam a mesma linha. [carece de leitura humana do texto integral]",
+   "unidades": "SESES, SELEP",
+   "acao": "Ciência; conferir impacto em análises de pensão com quintos/opção e ajustar rotina se couber.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778383%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão TCU 5039/2026 – 2ª Câmara (sessão 06/10/2026)"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-11 — aposentadorias voluntárias concedidas (Resoluções Administrativas 267, 268, 269, 270, 271 e 272/2026)",
+   "ementa": "Concessão de aposentadoria voluntária a servidores do TRT da 11ª Região (Técnicos e Analista Judiciários) com fundamento na EC 103/2019 e na Lei 8.112/1990; regras de transição e cálculo de proventos variam por ato (integrais ou pela média). Úteis como referência de fundamentação.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 80–81"
+  },
+  {
+   "titulo": "MGI/SGP — portarias de aposentadoria, pensão e pessoal (CGBEN/DECIPEX, DICAT, SSC, SEGES; Portarias SGP/MGI 12.438 e 12.479/2026)",
+   "ementa": "Lote de atos individuais de concessão de aposentadoria e de pessoal do Poder Executivo federal e designação/dispensa de substitutos eventuais na Secretaria de Gestão de Pessoas do MGI. Sem reflexo direto no TRT-17.",
+   "unidades": "SESES, SGP-direção",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 45–47 e seguintes"
+  },
+  {
+   "titulo": "TRT-23 e TRT-6 — nomeações de concursados (Atos TRT/SGH/DG/GP 69 e 70/2026; Ato TRT6-GP 257/2026)",
+   "ementa": "Nomeação de candidatos aprovados em concurso para Analista Judiciário nos TRT-23 e TRT-6; o ato do TRT-6 cita o Ofício Circular CSJT.GP.SG.SGPES nº 80/2026, que autoriza o provimento de cargos na Justiça do Trabalho (conteúdo do ofício não consultado).",
+   "unidades": "SELEP, SGP-direção",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 79 e 82"
+  },
+  {
+   "titulo": "Portaria-SECPESSOAS nº 138/2026 — habilitação provisória à pensão por morte (art. 219, §2º, Lei 8.112/1990)",
+   "ementa": "Ato do TCU autorizando habilitação provisória à pensão por morte, com fundamento no §2º do art. 219 da Lei 8.112/1990.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 70"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU — quintos/décimos, opção e cálculo de proventos: acórdãos das sessões de 29/09 a 07/10/2026 (76 selecionados)",
+   "status": "Acórdãos das Câmaras em atos de aposentadoria e pensão, a maioria sobre quintos/décimos pós-Lei 9.624/1998, parcela \"opção\", ATS/anuênios, tempo especial/insalubre, VBC e RSC (ex.: 5023, 5028, 5281, 5289, 5292, 5298, 5303/2026).",
+   "reflexo": "Possível reflexo em análises de aposentadoria/pensão da SESES; [carece de leitura humana do texto integral].",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — Pesquisa de Jurisprudência"
+  },
+  {
+   "titulo": "STF — repercussão geral: aposentadoria especial de agentes de saúde (notícia de 08/10/2026)",
+   "status": "Repercussão geral reconhecida sobre se a aposentadoria especial depende de regulamentação; data do julgamento de mérito ainda não definida.",
+   "reflexo": "Acompanhar; tese ainda inexistente. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-decidir-se-aposentadoria-especial-para-agentes-de-saude-depende-de-regulamentacao/",
+   "fonte_titulo": "STF Notícias, 08/10/2026"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 (13/10/2026): 146 atos selecionados, 2 atos individuais de pessoal de outros órgãos descartados. Acórdãos do TCU das sessões de 29/09 a 07/10/2026: 76 selecionados. Jurisprudência do STF consultada; STJ sem itens na janela. CNJ: sem atos pertinentes identificados no DOU Seção 1 nesta data.",
+ "fontes_sem_retorno": "DEJT Caderno Administrativo TRT-17, CSJT e TST, publicação 13/10/2026: edição não consultada pela rotina automatizada — conferência manual em diario.jt.jus.br. A edição de 12/10/2026 não teve publicação nos cadernos."
+}
