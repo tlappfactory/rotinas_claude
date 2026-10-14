@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "total_xml_files": 1267,
-  "matched_articles": 157,
+  "total_xml_files": 1282,
+  "matched_articles": 161,
   "discarded_individual_acts": {
     "total": 73,
     "by_section": {
@@ -964,6 +964,37 @@
       "xml_file": "529_20261013_24481202.xml"
     },
     {
+      "id": "51706386",
+      "section": "DO1E",
+      "pub_date": "13/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Arquivo Nacional",
+      "identifica": "Portaria AN/MGI Nº 297, DE 8 DE outubro DE 2026",
+      "orgao": "",
+      "ementa": "Institui a Política Editorial do Arquivo Nacional e o Conselho Editorial do Arquivo Nacional.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria AN/MGI Nº 297, DE 8 DE outubro DE 2026 Institui a Política Editorial do Arquivo Nacional e o Conselho Editorial do Arquivo Nacional. A DIRETORA-GERAL DO ARQUIVO NACIONAL DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 64, caput, inciso IV, do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, considerando o que consta do Processo SEI-AN nº 08227.003413/2024-89, resolve: Art. 1º Esta Portaria institui a Política Editorial do Arquivo Nacional e o Conselho Editorial do Arquivo Nacional. Art. 2º A Política Editorial do Arquivo Nacional tem por finalidade orientar a produção, a edição, a distribuição, a comercialização, a preservação e o acesso às publicações institucionais com vistas à promoção do conhecimento aberto, da livre circulação das informações públicas e da democratização do acesso à cultura, à educação e à memória. Art. 3º A Política Editorial do Arquivo Nacional observará os seguintes princípios e diretrizes: I - promoção do conhecimento aberto, com acesso livre e gratuito às publicações digitais; II - adoção preferencial de modelos abertos de licenciamento; III - valorização da diversidade regional, étnico-racial, de gênero e temática; IV - estímulo à produção de conteúdo voltado a públicos diversos; V - integração com a missão institucional do Arquivo Nacional; VI - transparência nos processos de seleção, edição, distribuição e comercialização; e VII - adoção de padrões de acessibilidade, observadas as diretrizes governamentais e as normas técnicas aplicáveis. Art. 4º Consideram-se publicações institucionais os produtos editoriais do Arquivo Nacional, de caráter técnico, científico, educativo, histórico ou cultural, editados ou coeditados pelo Arquivo Nacional, destinados à difusão de conhecimento e ao acesso público à informação, em suporte impresso ou digital. Art. 5º O programa editorial do Arquivo Nacional é composto por: I - obras decorrentes de concursos, regidas por editais específicos e submetidas à avaliação de comissões julgadoras próprias; II - periódicos científicos, com normas de submissão e conselho editorial próprios; III - publicações institucionais de caráter histórico, técnico, educativo e de difusão cultural; e IV - reedições e reimpressões de publicações. Art. 6º As publicações do Arquivo Nacional serão, preferencialmente, licenciadas sob modelos abertos, em conformidade com boas práticas de conhecimento aberto e respeitados os direitos autorais. § 1º O termo de licença de direitos autorais e de responsabilidade pelo conteúdo, a ser assinado pelas pessoas autoras, poderá ser adaptado às especificidades de cada publicação, edital de seleção de obras, coedição ou projeto editorial, observada a legislação aplicável. § 2º A Direção-Geral do Arquivo Nacional poderá editar diretriz específica sobre o uso de ferramentas de inteligência artificial na elaboração das obras, com apoio do Conselho Editorial e das unidades competentes, inclusive quanto à obrigatoriedade de declaração de uso dessas tecnologias pelas pessoas autoras. Art. 7º O Arquivo Nacional poderá realizar coedições com instituições públicas ou privadas, nacionais ou internacionais, com vistas à ampliação da difusão de seu acervo e de suas publicações, bem como à otimização de recursos. § 1º As coedições deverão observar os princípios e as diretrizes da Política Editorial, garantidos o alinhamento à missão institucional, a transparência e a qualidade técnica. § 2º Os termos e as responsabilidades das partes serão definidos em instrumento específico, aprovado pela Direção-Geral. Art. 8º O Conselho Editorial do Arquivo Nacional é colegiado permanente, de natureza estratégica, e possui a finalidade de avaliar, em conformidade com a Política Editorial do Arquivo Nacional, as propostas de publicação de que tratam os incisos III e IV do caput do art. 5º. Parágrafo único. O Conselho Editorial do Arquivo Nacional atuará como instância consultiva e suas deliberações serão encaminhadas à Direção-Geral. Art. 9º Compete ao Conselho Editorial do Arquivo Nacional: I - avaliar as propostas de publicação de sua competência, nos termos do art. 8º; II - emitir parecer sobre o mérito editorial, técnico, científico e cultural e o alinhamento à missão institucional das propostas submetidas; III - deliberar sobre a recomendação de aprovação, rejeição ou adequação das propostas de publicação; IV - propor à Direção-Geral temas, linhas editoriais, séries, coleções e projetos estratégicos voltados à difusão do acervo e do conhecimento técnico-científico produzido pelo Arquivo Nacional; V - propor, quando cabível, o enquadramento das obras aprovadas em séries ou coleções editoriais; VI - orientar, em articulação com a Divisão de Produção e Logística Editorial da Coordenação de Pesquisa e Difusão do Acervo, a padronização editorial e a identidade visual de séries e coleções; VII - zelar pela qualidade, pela originalidade, pela diversidade temática, pela pluralidade de perspectivas e pelo rigor técnico-científico da produção editorial institucional; VIII - colaborar na revisão periódica da Política Editorial do Arquivo Nacional; e IX - aprovar relatório anual de atividades do Conselho Editorial do Arquivo Nacional, a ser encaminhado à Direção-Geral. Art. 10. O Conselho Editorial do Arquivo Nacional será composto por: I - uma pessoa representante da Direção-Geral, que o presidirá; II - quatro pessoas representantes da Diretoria de Processamento Técnico, Preservação e Acesso ao Acervo; III - uma pessoa representante da Diretoria de Gestão de Documentos e Arquivos; IV - uma pessoa especialista externa com atuação na área de arquivologia; V - uma pessoa especialista externa com atuação na área de ciências sociais; e VI - uma pessoa especialista externa com atuação na área de história. § 1º Entre as pessoas de que trata o inciso II do caput, serão indicadas, preferencialmente: I - duas representantes das unidades responsáveis pela elaboração de produtos de difusão; II",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "193-C",
+      "url": "https://www.in.gov.br/web/dou/-/Portaria 297-12154327",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do1e",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [
+        "folha_esocial"
+      ],
+      "score": 16,
+      "xml_file": "602_20261013_24477639.xml"
+    },
+    {
       "id": "51709452",
       "section": "DO2",
       "pub_date": "13/10/2026",
@@ -1177,6 +1208,35 @@
       "weak_keywords": [],
       "score": 15,
       "xml_file": "515_20261013_24481003.xml"
+    },
+    {
+      "id": "51720186",
+      "section": "DO1E",
+      "pub_date": "13/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério dos Direitos Humanos e da Cidadania/Gabinete da Ministra",
+      "identifica": "PORTARIA Nº 2.785, DE 9 DE OUTUBRO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre os limites e instâncias de governança aplicáveis à contratação de bens e serviços, à celebração de parcerias e ao exercício de competências em matéria de pessoal, no âmbito do Ministério dos Direitos Humanos e da Cidadania, e dá outras providências.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 2.785, DE 9 DE OUTUBRO DE 2026 Dispõe sobre os limites e instâncias de governança aplicáveis à contratação de bens e serviços, à celebração de parcerias e ao exercício de competências em matéria de pessoal, no âmbito do Ministério dos Direitos Humanos e da Cidadania, e dá outras providências. A MINISTRA DE ESTADO DOS DIREITOS HUMANOS E DA CIDADANIA, no uso das atribuições que lhe confere o art. 87, parágrafo único, incisos I e II, da Constituição, e tendo em vista o disposto na Lei nº 9.784, de 29 de janeiro de 1999, na Lei nº 14.133, de 1º de abril de 2021, nos Decretos nº 9.794, de 14 de maio de 2019, nº 10.193, de 27 de dezembro de 2019, e nº 11.123, de 7 de julho de 2022, na Portaria ME nº 7.828, de 30 de agosto de 2022, e na Portaria CC/PR nº 725, de 23 de julho de 2025, da Casa Civil da Presidência da República, resolve: CAPÍTULO I DAS DISPOSIÇÕES GERAIS Art. 1º Esta Portaria estabelece limites e instâncias de governança aplicáveis à contratação de bens e serviços, à celebração de parcerias e ao exercício de competências em matéria de pessoal no âmbito do Ministério dos Direitos Humanos e da Cidadania. Parágrafo único. Para fins de aplicação desta Portaria, serão observadas, no que couber, as disposições da Portaria ME nº 7.828, de 30 de agosto de 2022, inclusive aquelas relativas à definição e à apuração dos valores das contratações, ressalvado o disposto em seu art. 5º. Art. 2º Os processos de contratação de bens e serviços e de celebração de parcerias no âmbito do Ministério dos Direitos Humanos e da Cidadania deverão ser instruídos com manifestação prévia da Consultoria Jurídica. Art. 3º Nos contratos cujo valor seja igual ou superior a R$ 10.000.000,00 (dez milhões de reais), os autos deverão ser instruídos com manifestação prévia da Assessoria Especial de Controle Interno, ficando a critério do titular da Secretaria-Executiva solicitar a referida manifestação para contratos cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais). § 1º Nos casos em que necessária ou solicitada a manifestação da Assessoria Especial de Controle Interno, os autos deverão ser encaminhados ao órgão com a manifestação da Consultoria Jurídica e o Parecer Técnico da área competente, o qual deve atestar o cumprimento das proposições exaradas pela Consultoria Jurídica ou justificar motivadamente o seu não cumprimento. § 2º A manifestação da Assessoria Especial de Controle Interno abrangerá os aspectos de governança, gerenciamento de riscos e controles internos administrativos da gestão da contratação. CAPÍTULO II DOS CONTRATOS ADMINISTRATIVOS Art. 4º Compete ao(à) Ministro(a) de Estado dos Direitos Humanos e da Cidadania autorizar a celebração e a assinatura de novos contratos administrativos, bem como a prorrogação de contratos administrativos em vigor, quando o valor for igual ou superior a R$ 10.000.000,00 (dez milhões de reais), inclusive nas hipóteses em que a contratação seja formalizada por instrumento que substitua o contrato, nos termos do art. 95 da Lei nº 14.133, de 1º de abril de 2021, observado o disposto no art. 3º do Decreto nº 10.193, de 27 de dezembro de 2019. Parágrafo único. Fica delegada ao titular da Secretaria-Executiva, vedada a subdelegação, a competência para celebrar e assinar os contratos administrativos e os termos aditivos de prorrogação previamente autorizados na forma do caput, bem como para emitir ou subscrever os instrumentos que substituam o contrato nas hipóteses previstas no art. 95 da Lei nº 14.133, de 1º de abril de 2021, além de assinar os apostilamentos aos contratos, observado o previsto no art. 6º. Art. 5º Fica delegada ao titular da Secretaria-Executiva, vedada a subdelegação, a competência para, nas contratações de valor inferior a R$ 10.000.000,00 (dez milhões de reais), autorizar a celebração e a assinatura de novos contratos administrativos, bem como a prorrogação de contratos administrativos em vigor, inclusive nas hipóteses em que a contratação seja formalizada por instrumento que substitua o contrato, nos termos do art. 95 da Lei nº 14.133, de 1º de abril de 2021, observado o disposto no art. 3º do Decreto nº 10.193, de 27 de dezembro de 2019. § 1º Fica delegada aos titulares dos órgãos de assistência direta e imediata ao(à) Ministro(a) de Estado dos Direitos Humanos e da Cidadania, exceto ao titular da Secretaria-Executiva, vedada a subdelegação, a competência para celebrar e assinar os contratos administrativos e os termos aditivos de prorrogação previamente autorizados na forma do caput, bem como para emitir ou subscrever os instrumentos que substituam o contrato nas hipóteses previstas no art. 95 da Lei nº 14.133, de 1º de abril de 2021, além de assinar os apostilamentos aos contratos, observado o previsto no art. 6º, quando o objeto estiver diretamente vinculado aos programas, às ações, aos projetos e às atividades das respectivas unidades administrativas. § 2º Fica delegada aos titulares dos órgãos específicos singulares, vedada a subdelegação, a competência para celebrar e assinar os contratos administrativos e os termos aditivos de prorrogação previamente autorizados na forma do caput, bem como para emitir ou subscrever os instrumentos que substituam o contrato nas hipóteses previstas no art. 95 da Lei nº 14.133, de 1º de abril de 2021, além de assinar os apostilamentos aos contratos, observado o previsto no art. 6º, quando o objeto estiver direta e exclusivamente vinculado aos programas, às ações, aos projetos e às atividades das respectivas unidades administrativas. § 3º Fica delegada ao titular da Subsecretaria de Planejamento, Orçamento e Administração, vedada a subdelegação, a competência para celebrar e assinar os contratos administrativos e os termos aditivos de prorrogação previamente autorizados na forma do caput, bem como para emitir ou subscrever os instrumentos que substituam o contrato nas hipóteses previstas no art. 95 da Lei nº 14.133, de 1º de abril de 2021, além de assinar os apostilamentos aos contratos, o",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "2",
+      "edition": "193-C",
+      "url": "https://www.in.gov.br/web/dou/-/PORTARIA NA 2.785 DE 9 DE OUTUBR-12157961",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "cessao_remocao_permuta",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 15,
+      "xml_file": "602_20261013_24482817.xml"
     },
     {
       "id": "51707688",
@@ -2623,6 +2683,60 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "515_20261013_24477918.xml"
+    },
+    {
+      "id": "51706944",
+      "section": "DO1E",
+      "pub_date": "13/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria do Patrimônio da União",
+      "identifica": "Portaria SPU/MGI Nº 6.906, DE 24 DE AGOSTO DE 2026",
+      "orgao": "",
+      "ementa": "Dispõe sobre a Plataforma Integrada de Gestão do Patrimônio da União - SPUnet, estabelece diretrizes para a gestão digital do patrimônio imobiliário da União e disciplina a integração dos sistemas patrimoniais federais.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SPU/MGI Nº 6.906, DE 24 DE AGOSTO DE 2026 Dispõe sobre a Plataforma Integrada de Gestão do Patrimônio da União - SPUnet, estabelece diretrizes para a gestão digital do patrimônio imobiliário da União e disciplina a integração dos sistemas patrimoniais federais. A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem os arts. 49 e 70 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no Decreto nº 99.672, de 6 de novembro de 1990, na Lei nº 9.636, de 15 de maio de 1998, e na Lei nº 14.129, de 29 de março de 2021, resolve: Art. 1º Fica instituída a Plataforma Integrada de Gestão do Patrimônio da União - SPUnet, como plataforma digital oficial, centralizada, interoperável e de uso obrigatório para a gestão, o cadastro, a destinação, a regularização, a avaliação, a fiscalização, a formalização contratual, a gestão geoespacial, a gestão documental, a gestão de receitas e a governança dos imóveis da União. Parágrafo único. O SPUnet constitui instrumento operacional do Cadastro Nacional de Bens Imóveis da União, instituído pelo Decreto nº 99.672, de 6 de novembro de 1990. CAPÍTULO I DEFINIÇÕES Art. 2º Para fins desta Portaria, considera-se: módulo: conjunto de funcionalidades destinadas à execução de processos específicos da gestão patrimonial; sistema legado: sistema anteriormente utilizado para execução de processos patrimoniais incorporados ao SPUnet; interoperabilidade: capacidade de integração, compartilhamento e sincronização de dados e serviços entre sistemas; Registro Imobiliário Patrimonial - RIP: identificador único do imóvel da União; base oficial de dados: conjunto de informações patrimoniais utilizado como referência institucional para fins administrativos, operacionais e contábeis; usuário: agente público ou representante autorizado habilitado a acessar e operar o SPUnet. CAPÍTULO II FINALIDADES E PRINCÍPIOS Art. 3º O SPUnet tem por finalidade: I - unificar as bases cadastrais, financeiras, contábeis e operacionais dos imóveis da União; II - promover racionalização, eficiência, integridade e transparência na gestão patrimonial; III - viabilizar serviços digitais relacionados à destinação, regularização, utilização e gestão de imóveis da União; IV - facilitar a atualização cadastral contínua e tempestiva; V - promover a integração de dados, informações e serviços relativos ao patrimônio imobiliário da União, incluindo bases patrimoniais, geoespaciais, documentais, operacionais e contábeis; VI - subsidiar políticas públicas patrimoniais por meio de dados estruturados e atualizados; VII - promover interoperabilidade com sistemas estruturantes da Administração Pública Federal; VIII - viabilizar gestão digital integrada dos processos patrimoniais da União; IX - ampliar a transparência e a disponibilização de informações geoespaciais e temáticas relativas ao patrimônio da União; e X - apoiar a governança patrimonial e a tomada de decisão institucional. Art. 4º O SPUnet observará os seguintes princípios e diretrizes: I - transformação digital; II - simplificação administrativa; III - interoperabilidade entre sistemas; IV - governança e integridade dos dados; V - rastreabilidade das informações; VI - segurança da informação; VII - transparência ativa; VIII - eficiência administrativa; IX - padronização de procedimentos; X - continuidade dos serviços públicos digitais; XI - integração geoespacial; XII - continuidade operacional; XIII - autenticidade documental; e XIV - segurança jurídica. CAPÍTULO III DISPOSIÇÕES GERAIS Art. 5º O SPUnet será utilizado pelos órgãos e entidades da administração pública federal direta, autárquica e fundacional para a gestão dos imóveis da União sob sua responsabilidade. Parágrafo único. A utilização do SPUnet poderá ser estendida a outros órgãos, entidades ou instituições mediante ato da Secretaria do Patrimônio da União. Art. 6º A base de dados do SPUnet constitui fonte oficial e primária de informações patrimoniais para fins administrativos, operacionais e contábeis. § 1º Os imóveis da União serão identificados no SPUnet por meio do Registro Imobiliário Patrimonial - RIP. § 2º As informações registradas no SPUnet deverão permanecer atualizadas, íntegras, rastreáveis e compatíveis com os sistemas estruturantes da Administração Pública Federal. § 3º Os registros patrimoniais e contábeis do SPUnet deverão observar compatibilidade contínua com o Sistema Integrado de Administração Financeira do Governo Federal - SIAFI. § 4º O SPUnet poderá manter integração com bases cartográficas, sistemas geoespaciais, plataformas de serviços digitais, sistemas processuais, sistemas financeiros e demais soluções tecnológicas necessárias à gestão patrimonial da União. CAPÍTULO IV GOVERNANÇA E COMPETÊNCIAS Art. 7º Compete à Secretaria do Patrimônio da União: I - definir diretrizes, normas e padrões operacionais do SPUnet; II - promover a governança da plataforma e dos dados patrimoniais; III - gerenciar a evolução tecnológica e funcional do sistema; IV - definir requisitos de interoperabilidade; V - coordenar processos de migração de sistemas legados; VI - garantir a disponibilidade, integridade e segurança da plataforma; VII - promover capacitação e orientação técnica aos usuários; VIII - editar normas complementares necessárias à execução desta Portaria; IX - promover governança geoespacial e padronização de dados territoriais; X - definir políticas de segurança, integridade e autenticidade documental; e XI - disciplinar integrações com plataformas geoespaciais e sistemas estruturantes federais. Art. 8º Compete aos órgãos e entidades usuárias alimentar, validar e manter atualizadas as informações no SPUnet, quanto aos imóveis da União sob sua responsabilidade. Parágrafo único. No exercício da competência de que trata o caput, deverão os órgãos e entidades usuários: I - assegurar integridade, veracidade e tempestividade dos dados; II - observar padrões técn",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "5",
+      "edition": "193-C",
+      "url": "https://www.in.gov.br/web/dou/-/GAB Portaria 6906 - 19739.037645-12154496",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do1e",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "602_20261013_24477917.xml"
+    },
+    {
+      "id": "51713189",
+      "section": "DO1E",
+      "pub_date": "13/10/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria do Patrimônio da União",
+      "identifica": "Portaria SPU/MGI Nº 8.192, DE 30 de setembro de 2026",
+      "orgao": "",
+      "ementa": "Institui os prazos para preenchimento e submissão do Relatório Anual de Gestão de Praias - RAGP pelos Municípios signatários do Termo de Adesão à Gestão de Praias - TAGP e estabelece procedimento excepcional para regularização de relatórios referentes a exercícios anteriores.",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria SPU/MGI Nº 8.192, DE 30 de setembro de 2026 Institui os prazos para preenchimento e submissão do Relatório Anual de Gestão de Praias - RAGP pelos Municípios signatários do Termo de Adesão à Gestão de Praias - TAGP e estabelece procedimento excepcional para regularização de relatórios referentes a exercícios anteriores. A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO, DO MINISTÉRIO DA GESTÃO E INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem os arts. 49 e 70 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no artigo 14 da Lei nº 13.240, de 30 de dezembro de 2015, e no Decreto-Lei nº 2.398, de 21 de dezembro de 1987, resolve: Art. 1º Esta Portaria institui os prazos para preenchimento e submissão, no Sistema SPUnet, do Relatório Anual de Gestão de Praias - RAGP pelos Municípios signatários do Termo de Adesão à Gestão de Praias - TAGP. Parágrafo único. O RAGP é o instrumento destinado ao monitoramento e à avaliação periódica das condições ambientais, dos usos, da infraestrutura e da governança das orlas e praias marítimas, estuarinas, lacustres e fluviais federais, inclusive das áreas de bens de uso comum com exploração econômica, tais como calçadões, praças e parques públicos, bem como das ações implementadas no âmbito do TAGP. Art. 2º O RAGP corresponderá ao período compreendido entre 1º de janeiro e 31 de dezembro de cada exercício e deverá ser submetido eletronicamente no Sistema SPUnet até 30 de abril do exercício subsequente. Art. 3º Excepcionalmente, o RAGP referente ao exercício de 2025 deverá ser submetido eletronicamente no Sistema SPUnet no prazo de 60 (sessenta) dias, contado da data de publicação desta Portaria. Art. 4º Os Municípios signatários do TAGP com RAGPs pendentes relativos aos exercícios anteriores a 2025 ficam dispensados de apresentá-los. Art. 5º O descumprimento dos prazos estabelecidos nesta Portaria sujeita o Município às consequências previstas no TAGP e na regulamentação aplicável. Art. 6º Esta Portaria entra em vigor na data de sua publicação. CAROLINA GABAS STUCHI",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "6",
+      "edition": "193-C",
+      "url": "https://www.in.gov.br/web/dou/-/GAB Portaria 8192 - 19739.135448-12156916",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=13-10-2026&secao=do1e",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "602_20261013_24481004.xml"
     },
     {
       "id": "51707682",

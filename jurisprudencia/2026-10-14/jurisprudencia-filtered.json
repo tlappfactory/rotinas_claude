@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-14T14:33:12Z",
+  "run_utc": "2026-10-14T17:56:08Z",
   "lookback_days": 7,
   "desde": "2026-10-07",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 27,
+      "itens_vistos": 28,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-07T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 13048,
-          "inicio": "[{\"id\":166958,\"date\":\"2026-10-14T09:57:34\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/confira-a-pauta-do-stf-desta-quarta-feira-14\\/\",\"title\":{\"rendered\":\"Confira a pauta do STF desta quarta-feira (14)\"},\"excerpt\":{\"rendered\":\"<p>Sess\\u00e3o ser\\u00e1 transmitida ao vivo pela TV e R\\u00e1"
+          "bytes": 13608,
+          "inicio": "[{\"id\":166967,\"date\":\"2026-10-14T14:52:21\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/relator-autoriza-levar-discussao-sobre-nr-1-a-forum-da-agu-para-viabilizar-conciliacao\\/\",\"title\":{\"rendered\":\"Relator autoriza levar discuss\\u00e3o sobre NR-1 a f\\u00f3rum da AGU para viabilizar concili"
         },
         {
           "amostra_titulos": [
+            "Relator autoriza levar discussão sobre NR-1 a fórum da AGU para viabilizar conciliação",
             "Confira a pauta do STF desta quarta-feira (14)",
             "Informe à Imprensa",
             "STF define alcance de decisão sobre alíquota de IPTU com base na área do imóvel",
             "STF recebe ação contra política de preço mínimo dos cigarros no Brasil",
-            "Professor Ingo Sarlet debate constitucionalismo digital em evento do CESTF",
-            "STF vai decidir se agentes de saúde e endemias podem ser efetivados no serviço público"
+            "Professor Ingo Sarlet debate constitucionalismo digital em evento do CESTF"
           ]
         }
       ]
