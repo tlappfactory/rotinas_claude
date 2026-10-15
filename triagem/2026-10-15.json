@@ -1,0 +1,83 @@
+{
+ "data": "2026-10-15",
+ "timestamp": "15/10/2026, 11h35 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": "DOU de 15/10/2026 (92 atos selecionados; 58 atos individuais de pessoal de outros órgãos descartados), DEJT Caderno Administrativo TRT-17 (publicação 15/10/2026, disponibilizado em 14/10: 5 atos, todos triados), CSJT (1 ato detectado, nenhum pertinente à SGP) e TST (sem publicação), acórdãos do TCU das sessões de 06/10 a 14/10/2026 (60 selecionados), STF/STJ consultados. Conferência humana recomendada."
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TRT-17 — funções comissionadas: lotações e designações em gabinetes (Portarias 557, 558, 559 e 560/2026) e vacância de FC-03 na SETIC (Portaria 561/2026)",
+   "ementa": "Lotação e designação para FC-05 Assistente de Gabinete em dois gabinetes de desembargador, e declaração de vacância de FC-03 Assistente na SETIC.",
+   "unidades": "SELEP, DIPROF, CODOP, SELIR",
+   "acao": "Atualizar cadastro de FC e lotações; conferir vigência e reflexos em folha.",
+   "linhas": [
+    "Portaria nº 557/2026 — LOTAR Amanda Vieira Souto, Analista Judiciária, no Gabinete do Des. Cláudio Armando Couce de Menezes, a partir de 09/10/2026",
+    "Portaria nº 558/2026 — DESIGNAR Amanda Vieira Souto para a FC-05 Assistente de Gabinete (mesmo gabinete)",
+    "Portaria nº 559/2026 — LOTAR Giovana Saraiva Neves de Souza, Técnica Judiciária, no Gabinete do Des. Marcello Maciel Mancilha, a partir de 09/10/2026",
+    "Portaria nº 560/2026 — DESIGNAR Giovana Saraiva Neves de Souza para a FC-05 Assistente de Gabinete (mesmo gabinete)",
+    "Portaria nº 561/2026 — Declarar a vacância da FC-03 Assistente da SETIC, ocupada por servidor removido para o Tribunal, em razão de falecimento, a partir de 10/10/2026"
+   ],
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação 15/10/2026"
+  },
+  {
+   "titulo": "TCU — Primeira Câmara (13/10) e Plenário (14/10): quintos (1998–2001), \"opção\" e parcela compensatória (Acórdãos 5473, 5465, 5461 e 2851/2026)",
+   "ementa": "Pedidos de reexame e negativas de registro de aposentadorias tratam de quintos exercidos entre 8/4/1998 e 4/9/2001 (incidência do Tema 395 da repercussão geral e conversão em parcela compensatória absorvível), cumulação de \"opção\" com quintos e quintos posteriores à Lei 9.624/1998 (RE 638.115). [carece de leitura humana do texto integral]",
+   "unidades": "SESES, SELEP, DIPROF",
+   "acao": "Conferir casos análogos de proventos com quintos/opção e a aplicação da parcela compensatória.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência (acórdãos 5473, 5465, 5461 e 2851/2026)"
+  },
+  {
+   "titulo": "TRT-21 (Ato GP nº 122/2026) e TRT-23 (Ato GP nº 140/2026): cumprimento de acórdãos do TCU em proventos e pensão",
+   "ementa": "TRT-21 suspendeu a revisão de proventos que restabelecia a VPNI de 1/5 de FC-05 (quintos 1998–2001), em razão do efeito suspensivo de pedido de reexame ao Acórdão 4646/2026-TCU-1ª Câmara. TRT-23 retificou ato de pensão para destacar 1/10 de FC-1 como parcela compensatória absorvível, em cumprimento ao Acórdão 4.909/2026-TCU-1ª Câmara.",
+   "unidades": "SESES, SELEP, DIPROF",
+   "acao": "Ciência da prática de outros Regionais; avaliar impacto em revisões de proventos e pensões do TRT-17.",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=15-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 75"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-16, TRT-18 e TRT-23 — nomeações e tornadas sem efeito em concursos (Portarias TRT16 nº 798, TRT18 nº 2.945 e Ato TRT23 nº 72/2026)",
+   "ementa": "Nomeações de candidatos aprovados e desistências, com base na autorização de provimento do Ofício Circular CSJT.GP.SG.SGPES nº 80/2026.",
+   "unidades": "COREP, SELIR",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=15-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 74–75"
+  },
+  {
+   "titulo": "TRT-18 — Edital SCR/DGMAG nº 11/2026: vaga de Desembargador por antiguidade",
+   "ementa": "Declara a existência de vaga em razão de aposentadoria, com prazo de 15 dias para pedidos de promoção.",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=15-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 76"
+  },
+  {
+   "titulo": "Atos de pessoal de outros órgãos (STJ, TST, CNJ, TCU, TRT-10)",
+   "ementa": "Designações/dispensas de funções de confiança e trânsito (STJ, TST Ato nº 571/2026, CNJ Portaria DG nº 283/2026, TCU Portarias DIADI) e Resolução TRT-10 nº 58/2026 [verificar objeto na fonte]. Sem demanda direta à SGP.",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=15-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 40–73"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "STF — repercussão geral: aposentadoria especial de agentes de saúde (dependência de regulamentação)",
+   "status": "Repercussão geral reconhecida; data do julgamento de mérito ainda a definir.",
+   "reflexo": "Possível reflexo em aposentadoria especial no serviço público. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-decidir-se-aposentadoria-especial-para-agentes-de-saude-depende-de-regulamentacao/",
+   "fonte_titulo": "STF — Notícias, 08/10/2026"
+  },
+  {
+   "titulo": "TCU — demais acórdãos de pessoal (Câmaras e Plenário, sessões de 06 a 14/10/2026)",
+   "status": "Acórdãos em atos de pessoal de outros órgãos: ATS, GQ/gratificação de desempenho, pensões (DL 2.438/1988), art. 20 e 26 da EC 103/2019, cômputo de tempo de advocacia de magistrado (ex.: 2777, 5474, 5478, 5455, 5144/2026).",
+   "reflexo": "Possível reflexo em cálculo de proventos e averbação. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2; DEJT Caderno Administrativo TRT-17; DEJT CSJT (Ato CSJT.GP nº 126, de 13/10/2026 detectado, nenhum pertinente à SGP); acórdãos do TCU; STF. DEJT TST: sem publicação no Caderno Administrativo na edição utilizada.",
+ "fontes_sem_retorno": "Sem novidades em STJ (recursos repetitivos) nesta data."
+}
