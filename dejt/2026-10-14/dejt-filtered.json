@@ -8,14 +8,7 @@
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 104,
-      "pdf_text_chars": 6263,
-      "total_atos_detectados": 1,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO TST.GP N° 568, DE 08 DE outubro DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
   "total_matched": 0,
