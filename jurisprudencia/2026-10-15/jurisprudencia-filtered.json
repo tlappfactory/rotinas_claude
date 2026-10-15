@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-15T14:32:57Z",
+  "run_utc": "2026-10-15T17:44:22Z",
   "lookback_days": 7,
   "desde": "2026-10-08",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 29,
+      "itens_vistos": 30,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-08T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 14270,
-          "inicio": "[{\"id\":166996,\"date\":\"2026-10-15T10:38:49\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/confira-a-pauta-do-stf-desta-quinta-feira-15\\/\",\"title\":{\"rendered\":\"Confira a pauta do STF desta quinta-feira (15)\"},\"excerpt\":{\"rendered\":\"<p>Sess\\u00e3o come\\u00e7a \\u00e0s 14h e ser\\u00e1 transmitida"
+          "bytes": 14820,
+          "inicio": "[{\"id\":166998,\"date\":\"2026-10-15T14:44:09\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-decreta-prisao-de-seis-investigados-por-suspeita-de-ligacao-com-crime-organizado-no-rj\\/\",\"title\":{\"rendered\":\"STF decreta pris\\u00e3o de seis investigados por suspeita de liga\\u00e7\\u00e3o com crime"
         },
         {
           "amostra_titulos": [
+            "STF decreta prisão de seis investigados por suspeita de ligação com crime organizado no RJ",
             "Confira a pauta do STF desta quinta-feira (15)",
             "PSD pede ao STF realização de segundo turno para governador do Rio de Janeiro",
             "Correção monetária de depósitos judiciais deve seguir índices previstos na legislação da é",
             "Revista Sophia: STF abre chamada de artigos para primeira edição da publicação científica ",
-            "Presidente do STF recebe convite para evento da Associação dos Magistrados Brasileiros",
-            "Relator dá 48 horas para Anatel explicar falhas em acesso gratuito à Justiça Eleitoral no "
+            "Presidente do STF recebe convite para evento da Associação dos Magistrados Brasileiros"
           ]
         }
       ]
