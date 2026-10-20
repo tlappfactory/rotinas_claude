@@ -1,0 +1,94 @@
+{
+ "data": "2026-10-20",
+ "timestamp": "20/10/2026, 11h45 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": ""
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TCU — série de acórdãos sobre incorporação de quintos/décimos e parcela “opção” em aposentadorias (sessões de 06 e 13/10/2026)",
+   "ementa": "Diversas Câmaras do TCU (ex.: Acórdãos 5290, 5028, 5020, 5014, 5011/2026 e 5473, 5465/2026) apreciam aposentadorias e pensões com quintos/décimos de funções comissionadas e a parcela “opção”, inclusive pagamento cumulativo. Teses específicas por julgado: [carece de leitura humana do texto integral].",
+   "unidades": "SESES, SELEP, DIPROF",
+   "acao": "Conferir se há proventos/pensões do TRT-17 com quintos e “opção” cumulados.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779630%22/DTRELE",
+   "fonte_titulo": "Acórdão TCU 5020/2026 – 2ª Câmara (exemplo da série)"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "Ato SECOR nº 83/2026 e acórdão do Tribunal Pleno — caderno administrativo do TRT-17",
+   "ementa": "Ato da Presidência/Corregedoria designando Juíza do Trabalho Substituta para auxiliar na 14ª Vara do Trabalho de Vitória em 23/10/2026; e acórdão do Pleno que negou provimento a recurso administrativo contra penalidade aplicada a empresa em licitação (multa e impedimento de licitar por 3 meses).",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "Portaria MGI nº 8.735/2026",
+   "ementa": "Altera a Portaria MGI nº 2.224/2026, que institui o Comitê de Acompanhamento e Avaliação das Reservas de Vagas no Serviço Público Federal. [carece de leitura humana do texto integral]",
+   "unidades": "COREP, SELEP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=20-10-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 50"
+  },
+  {
+   "titulo": "Portaria MPS nº 1.491/2026",
+   "ementa": "Fixa a meta global da avaliação de desempenho institucional do Ministério da Previdência Social para o ciclo de 01/10/2026 a 30/09/2027.",
+   "unidades": "SEGEDE",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=20-10-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 86"
+  },
+  {
+   "titulo": "Portaria Conjunta MGI/MPO nº 70/2026",
+   "ementa": "Autoriza o IBGE a realizar processo seletivo simplificado para contratação por tempo determinado (Lei 8.745/1993).",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=20-10-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 50"
+  },
+  {
+   "titulo": "Atos de pessoal de outros tribunais (TST, STJ, CJF, TRT6, TRT13, TRT21, TRF1)",
+   "ementa": "Lote de atos de designação para funções comissionadas, aposentadoria e provimento por concurso (inclusive Ato TRT21-GP nº 124/2026, que cita ofício circular do CSJT sobre autorizações de provimento). Sem efeito direto sobre o TRT-17.",
+   "unidades": "SELEP, SESES",
+   "linhas": [
+    "TST — Atos nº 667 a 671/2026 (DOU Seção 2, pp. 57-58): designações para FC",
+    "STJ — Portarias GP nº 861 a 870/2026 e GDG nº 876, 949 a 951/2026 (DOU Seção 2, p. 56-57)",
+    "CJF — Portaria nº 688/2026 (DOU Seção 2, p. 57)",
+    "TRT13 — Ato CGP nº 70/2026 (aposentadoria); TRT6 — Ato GP nº 263/2026 (aposentadoria); TRT21 — Ato GP nº 124/2026 (provimento)"
+   ],
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=20-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 56-61"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "STF — cancelada repercussão geral sobre competência da Justiça do Trabalho em ação de servidores públicos (15/10/2026)",
+   "status": "Plenário manteve decisão no caso concreto, mas afastou a fixação de tese para outros processos. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo na competência para ações de servidores vinculados ao Tribunal; avaliar com a assessoria jurídica.",
+   "fonte_url": "https://noticias.stf.jus.br/postsnoticias/stf-cancela-repercussao-geral-sobre-competencia-da-justica-do-trabalho-em-acao-de-servidores-publicos/",
+   "fonte_titulo": "Notícias do STF"
+  },
+  {
+   "titulo": "STJ — Tema repetitivo 1.472: indenização por demora na análise de aposentadoria (afetado; sem tese)",
+   "status": "Primeira Seção afetou REsp 2.258.325 e 2.254.394 e determinou suspensão dos processos. Notícia secundária, não confirmada em fonte oficial: [carece de leitura humana do texto integral].",
+   "reflexo": "Eventual impacto em prazos de análise de aposentadorias (SESES).",
+   "fonte_url": "https://www.sedep.com.br/?p=168494",
+   "fonte_titulo": "Sedep (cobertura indexada)"
+  },
+  {
+   "titulo": "TCU — Acórdão 2799/2026 (Plenário, 07/10/2026): vazamento de dados sigilosos de aposentados e pensionistas",
+   "status": "Representação sobre irregularidades relacionadas ao vazamento; resultado: [carece de leitura humana do texto integral].",
+   "reflexo": "Atenção à proteção de dados (LGPD) em folha e benefícios (DIPROF/SESES).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782457%22/DTRELE",
+   "fonte_titulo": "Acórdão TCU 2799/2026 – Plenário"
+  },
+  {
+   "titulo": "TCU — demais acórdãos de pessoal das sessões de 06 a 14/10/2026",
+   "status": "Predominam apreciações de atos individuais de aposentadoria e pensão (tempo especial, aluno-aprendiz, EC 103/2019 art. 20, adicionais), sem vínculo identificado com o TRT-17.",
+   "reflexo": "Consulta futura pelas unidades; ex.: Acórdão 5290/2026 (tempo de aluno-aprendiz) e 5030/2026 (tempo especial de profissional de saúde).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2768302%22/DTRELE",
+   "fonte_titulo": "Acórdão TCU 5290/2026 – 1ª Câmara"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 20/10/2026: 108 atos selecionados, 55 atos individuais de pessoal de outros órgãos descartados pelo filtro. DEJT Caderno Administrativo TRT-17 (publicação 20/10/2026): 1 ato, triado integralmente. DEJT CSJT (publicação 20/10/2026): 5 atos detectados (Atos Conjuntos TST.CSJT.GP nº 53 e 58/2026; Atos CSJT.GP.SG nº 127, 128 e 129/2026), nenhum pertinente à SGP segundo o filtro temático. DEJT TST: sem publicação no Caderno Administrativo na edição utilizada. Acórdãos do TCU das sessões de 06/10/2026 a 14/10/2026: 60 selecionados. Jurisprudência do STF (últimos 7 dias): 1 notícia selecionada.",
+ "fontes_sem_retorno": "Jurisprudência do STJ: fonte oficial não acessível pela ferramenta automatizada — conferência manual em stj.jus.br. Atos do CNJ: nenhum identificado no DOU Seção 1 desta data."
+}
