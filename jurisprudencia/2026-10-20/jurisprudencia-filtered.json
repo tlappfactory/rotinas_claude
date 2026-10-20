@@ -1,0 +1,71 @@
+{
+  "run_utc": "2026-10-20T14:45:16Z",
+  "lookback_days": 7,
+  "desde": "2026-10-13",
+  "fontes": {
+    "stf": {
+      "status": "ok",
+      "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
+      "itens_vistos": 26,
+      "fora_da_janela": 0,
+      "selecionados": 1,
+      "probe": [
+        {
+          "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-13T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 12915,
+          "inicio": "[{\"id\":167101,\"date\":\"2026-10-19T19:39:45\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-proibe-contratacao-temporaria-para-funcoes-da-policia-penal-em-goias\\/\",\"title\":{\"rendered\":\"STF\\u00a0pro\\u00edbe\\u00a0contrata\\u00e7\\u00e3o\\u00a0tempor\\u00e1ria\\u00a0para fun\\u00e7\\u00f5es da pol\\u0"
+        },
+        {
+          "amostra_titulos": [
+            "STF proíbe contratação temporária para funções da polícia penal em Goiás",
+            "STF divulga inscrições homologadas para segunda edição do STF Moot",
+            "STF dá prazo para que Secretaria de Cultura do RJ reestruture quadro de servidores",
+            "Presidência do STF recebe mais de quatro mil recursos por mês para análise inicial",
+            "Supremo na Semana discute decisão sobre contribuição para o Funrural antes de janeiro de 2",
+            "STF vai decidir índice de correção de dívidas da Fazenda Pública após alterações constituc"
+          ]
+        }
+      ]
+    },
+    "stj": {
+      "status": "error",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
+          "http": 403,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 15625,
+          "inicio": "\r <html>\r <style>html,body{margin:0;background-color:#FFFFFF;font-family:arial,sans-serif}.banner{width:100%;background-color:#FFFFFF;padding:15px}.logo{margin-left:23%}.header{padding-top:20px;margin-left:23%;padding-bottom:5px;padding-left:15px;color:#215197;font-weight:bold}.content{padding-top:1"
+        },
+        {
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+          "erro": "ReadTimeout: HTTPSConnectionPool(host='dadosabertos.web.stj.jus.br', port=443): Read timed out. (read timeout=150)",
+          "tentativas": 3
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "STF",
+      "data": "2026-10-15",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-cancela-repercussao-geral-sobre-competencia-da-justica-do-trabalho-em-acao-de-servidores-publicos/",
+      "titulo": "STF cancela repercussão geral sobre competência da Justiça do Trabalho em ação de servidores públicos",
+      "resumo": "Plenário manteve decisão anterior sobre o caso concreto, mas afastou a fixação de tese com aplicação a outros processos",
+      "sinais_vinculantes": [
+        "repercussao geral"
+      ],
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 1
+}
