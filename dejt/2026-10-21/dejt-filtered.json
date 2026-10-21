@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-21",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 157,
+      "pdf_text_chars": 18284,
+      "total_atos_detectados": 3,
+      "matched_atos": 3,
+      "headers_sample": [
+        "EDITAL Nº 01/2026",
+        "DESPACHO PRESI/SEGEP/ASSJUP N° 786/2026, exarado nos autos do SEI n.º 0000438-79",
+        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 450/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 124,
+      "pdf_text_chars": 32783,
+      "total_atos_detectados": 4,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CONJUNTO TST.CSJT.GP N° 59, DE 19 DE OUTUBRO DE 2026",
+        "ATO CONJUNTO TST.CSJT.GP N.º 57, DE 16 DE OUTUBRO de 2026.",
+        "ATO CSJT.GP.SG.SEJUR N.º 130, DE 16 DE OUTUBRO DE 2026.",
+        "ATO CSJT.GP.SG.SEJUR N.º 131, DE 16 DE OUTUBRO DE 2026."
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 102,
+      "pdf_text_chars": 4151,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP N.º 587, DE 20 DE OUTUBRO DE 2026",
+        "ATO GDGSET.GP N° 583, DE 20 DE OUTUBRO DE 2026"
+      ]
+    }
+  },
+  "total_matched": 3,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "DESPACHO PRESI/SEGEP/ASSJUP N° 786/2026, exarado nos autos do SEI n.º 0000438-79.2023.5.17.0500, torna público o",
+      "text_resumo": "DESPACHO PRESI/SEGEP/ASSJUP N° 786/2026, exarado nos autos do SEI n.º 0000438-79.2023.5.17.0500, torna público o\n                       presente EDITAL de abertura de inscrições para o 1º Processo Seletivo de Remoção Interna de Oficiais de Justiça/2026,\n                       consoante as normas a seguir.\n\n                            1. DAS DISPOSIÇÕES PRELIMINARES\n\n                       1.1 O processo seletivo visa ao preenchimento de 1 (um) claro de lotação no Fórum Trabalhista de Cachoeiro de Itapemirim -\n                       CITFOR, conforme DESPACHO PRESI/SEGEP/ASSJUP N° 786/2026, anexado aos autos 0001550-78.2026.5.17.0500.\n                       1.2 As atividades a serem desempenhadas pelo servidor são as inerentes ao cargo de analista judiciário, área judiciária,\n                       especialidade oficial de\n                       justiça avaliador federal.\n                       1.3 Poderão ocorrer remoções sucessivas em decorrência deste processo seletivo, caso haja interessados inscritos para\n                       outras localidades. Todas as remoções observarão as regras deste edital.\n                       1.4 O claro de lotação final que remanescer será preenchido por novo servidor, recém-nomeado.\n\n                       2. DOS REQUISITOS VEDATÓRIOS PARA PARTICIPAÇÃO\n\n                       2.1 Ressalvadas as situações de excepcional interesse público devidamente justificado, não poderá participar o servidor que:\n                       2.1.1 Tenha sido nomeado em decorrência de decisão judicial não transitada em julgado;\n                       2.1.2 Esteja submetido a restrição contida em edital de concurso público para provimento de cargo efetivo;\n                       2.1.3 Tenha menos de 1 (um) ano de exercício no âmbito deste Regional, salvo previsão diversa no Edital do concurso para\n                       provimento de cargos deste Tribunal;\n                       2.1.4 Tenha sido removido há menos de 1 (um) ano em razão de processo seletivo de remoção interna.\n\n                       3.\n                       DAS INSCRIÇÕES E DESISTÊNCIAS\n\n                       3.1 A inscrição do candidato implicará o conhecimento das regras estabelecidas neste Edital, em relação às quais não poderá\n                       alegar desconhecimento.\n                       3.2 O interessado terá o prazo improrrogável de\n                       5 (cinco) dias úteis\n                       , a contar da publicação deste edital no DEJT, para enviar sua inscrição ao e-mail\n                       selir@trt17.jus.br\n                       .\n                       3.3 No ato da inscrição, o candidato poderá indicar outras unidades em que deseje atuar como Oficial de Justiça, listando-as\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241724\n\f    4569/2026                                                Tribunal Regional do Trabalho da 17ª Região                                             3\n    Data da Disponibilização: Terça-feira, 20 de Outubro de 2026\n\n\n\n                       por ordem de preferência, tendo em vista a possibilidade de surgirem claros de lotação decorrentes das remoções sucessivas\n                       ao fim do certame.\n                       3.4 A inscrição do candidato não garante automaticamente o direito à remoção.\n                       3.5 O servidor poderá desistir de sua participação a qualquer momento durante o prazo de inscrição. Após a publicação do\n                       resultado preliminar, o pedido de desistência deverá ser enviado ao e-mail\n                       selir@trt17.jus.br\n                        em até\n                       2 (dois) dias\n                       . Findo este prazo, decairá o direito, não sendo aceitos pedidos extemporâneos.\n\n                       4. DA SELEÇÃO E DOS CRITÉRIOS DE CLASSIFICAÇÃO\n                       4.1 Havendo mais de um interessado, a SGP formará lista de classificação.\n                       4.2 A classificação observará os seguintes critérios, pela ordem, ressalvadas as situações previstas em lei:\n                       4.2.1 Maior tempo de serviço no cargo efetivo de Analista Judiciário, área judiciária, especialidade Oficial de Justiça Avaliador\n                       Federal no âmbito da Justiça do Trabalho da 17ª Região;\n                       4.2.2 Maior tempo de serviço em cargo efetivo de Analista Judiciário, área judiciária, especialidade Oficial de Justiça Avaliador\n                       Federal no âmbito da Justiça do Trabalho, averbado ou registrado, nos casos de servidores removidos, ou ainda comprovado\n                       por declaração do órgão de origem, até a data de inscrição no certame;\n                       4.2.3 Maior tempo de serviço em cargo efetivo no Poder Judiciário da União, averbado até a data de inscrição no certame;\n                       4.2.4 Maior tempo de serviço em cargo efetivo na administração pública federal, incluindo autarquias, empresas públicas,\n                       sociedades de economia mista e fundação pública, averbado até a data de inscrição no certame;\n                       4.2.5 Maior tempo de efetivo exercício no serviço público, averbado até a data de inscrição no certame;\n                       4.2.6 Maior quantidade de filhos menores ou filhos com deficiência ou pessoa sob guarda, tutela ou curatela;\n                       4.2.7 Candidato com maior idade.\n                       4.3 Para fins de classificação e desempate, serão contabilizadas apenas as averbações já cadastradas no Sistema de\n                       Cadastro deste Regional até o término do prazo das inscrições.\n\n                       5. DAS IMPUGNAÇÕES E DOS RECURSOS\n                       5.1 O candidato terá\n                       2 (dois) dias\n                       , após a publicação no DEJT, para apresentar à SGP impugnação às regras deste Edital. A SGP decidirá em até 2 (dois) dias.\n                       5.2 Contra o resultado preliminar, caberá pedido de reconsideração à autoridade prolatora, no prazo de\n                       2 (dois) dias\n                       , que decidirá em igual prazo.\n                       5.3 Indeferido o pedido de reconsideração, o candidato poderá interpor recurso em até\n                       2 (dois) dias\n                        à autoridade imediatamente superior. O recurso deverá conter as razões da impugnação e estar instruído com documentação\n                       comprobatória.\n\n                       6. DOS RESULTADOS E DAS REMOÇÕES\n                       6.1 O resultado preliminar será publicado no DEJT e enviado aos e-mails institucionais dos inscritos. Esta divulgação\n                       preliminar não garante a remoção, considerando a possibilidade de alterações por recursos e/ou desistências.\n                       6.2 Não havendo candidatos, não haverá divulgação de resultado preliminar, sendo publicado de imediato o resultado final.\n                       6.3 Após análise de eventuais recursos, o resultado final será publicado no DEJT e enviado por e-mail dos servidores inscritos.\n                       6.4 O processo é finalizado formalmente mediante a publicação da Portaria de Remoção no DEJT. A data de remoção do\n                       servidor será acordada entre a SGP e as unidades envolvidas.\n                       6.5 Para resguardar a continuidade da prestação jurisdicional, a remoção somente ocorrerá em quantitativo que assegure a\n                       permanência mínima de\n                       50% do total de servidores\n                        ocupantes do cargo em questão na Unidade de origem. O direito à remoção será mantido para os classificados conforme a\n                       ordem definida no item 4 deste edital.\n\n                       7. DAS DISPOSIÇÕES FINAIS\n                       7.1 Não haverá qualquer pagamento a título de ajuda de custo ou indenização de transporte decorrente de mudança de\n                       domicílio, nos termos do art. 53, § 3º, da Lei n.º 8.112/1990.\n                       7.2 Manifestações contrárias ao resultado serão remetidas à Presidência para análise quanto ao interesse da Administração.\n                       7.3 Os casos omissos serão resolvidos diretamente pela Presidência do Tribunal.\n\n\n                                                                           Alzenir Bollesi de Plá Loeffler\n                                                                           Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 20/10/2026,\n                          às 16:49, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\nCódigo para aferir autenticidade deste caderno: 241724\n\f    4569/2026                                                Tribunal Regional do Trabalho da 17ª Região                                             4\n    Data da Disponibilização: Terça-feira, 20 de Outubro de 2026\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1350579 e o código CRC 976CD4C2.\n\n\n\n\n                                                                     Portaria\n                                                                     Portaria\n                                                          Publicação DEJT SEI - Portaria",
+      "text_truncated": false,
+      "strong_keywords": [
+        "ajuda_custo_transporte",
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 450/2026",
+      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 450/2026\n\n\n\n\n                                                                     PODER JUDICIÁRIO FEDERAL\n                                                                       JUSTIÇA DO TRABALHO\n                                                            TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                                    PORTARIA\n\n                                                                           0000438-79.2023.5.17.0500\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       de suas atribuições legais e regimentais e à vista do constante do processo TRT-17.ª SEI n.º 0000438-79.2023.5.17.0500,\n                       resolve:\n\n\n\n                                                                                     NOMEAR\n\n\n\n                       o/a candidato(a) abaixo, aprovado(a) para a Categoria Funcional de Analista Judiciário - Área Judiciária – especialidade Oficial\n                       de Justiça Avaliador Federal, Classe A, Padrão 1, do Quadro Permanente de Pessoal deste Tribunal, respeitada a ordem\n                       classificatória observada no concurso público, cuja homologação foi publicada no Diário Oficial da União, Seção 1, de\n                       25/4/2023, em vaga da lista de ampla concorrência, para ocupar o cargo criado pela Lei nº 7.872/1989, vago em decorrência\n                       de aposentadoria de Eustáquio Mendonça.\n\n\n\n\n                         CLASSIFICAÇÃO                    NOME\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241724\n\f    4569/2026                                                Tribunal Regional do Trabalho da 17ª Região                                        5\n    Data da Disponibilização: Terça-feira, 20 de Outubro de 2026\n\n\n\n\n                         3º                               JULIANA THOMPSON VIEGAS LERARIO\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n                                                                        Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 28/09/2026,\n                          às 15:12, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1345267 e o código CRC 7C7181C2.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                          1\n   REGIONAL\n    Relatório                                                          1\n     Relatório ESTATÍSTICA                                             1\n   DIRETORIA GERAL                                                     1\n    Extrato                                                            1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                   1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                        2\n   REMOÇÃO\n    Edital                                                             2\n     Edital                                                            2\n    Portaria                                                           4\n     Portaria                                                          4\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241724",
+      "text_truncated": false,
+      "strong_keywords": [
+        "aposentadoria",
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 20
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "EDITAL Nº 01/2026",
+      "text_resumo": "EDITAL Nº 01/2026\n\n                       1° PROCESSO SELETIVO DE REMOÇÃO INTERNA DE OFICIAIS DE JUSTIÇA DO TRT 17.ª REGIÃO/2026\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas\n                       atribuições, tendo em vista o disposto no art. 36, parágrafo único, III, \"c\", da Lei n.º 8.112/1990 e considerando os termos do",
+      "text_truncated": false,
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15
+    }
+  ]
+}

@@ -2,34 +2,16 @@
   "date": "2026-10-20",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 112,
-      "pdf_text_chars": 5979,
-      "total_atos_detectados": 1,
-      "matched_atos": 1,
-      "headers_sample": [
-        "Ato SECOR N° 83/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 111,
-      "pdf_text_chars": 14786,
-      "total_atos_detectados": 5,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CONJUNTO TST.CSJT.GP N° 53, DE 15 DE OUTUBRO DE 2026",
-        "ATO CONJUNTO TST.CSJT.GP N.º 58, DE 19 DE OUTUBRO DE 2026.",
-        "ATO CSJT.GP.SG N.º 129, DE 16 DE OUTUBRO DE 2026.",
-        "ATO CSJT.GP.SG N. 127, DE 16 DE OUTUBRO DE 2026.",
-        "ATO CSJT.GP.SG N.º 128, DE 16 DE OUTUBRO DE 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
       "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -55,16 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Ato SECOR N° 83/2026",
-      "text_resumo": "Ato SECOR N° 83/2026\n\n\n\n\n                                                         TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n                                                                              SECOR\n                                                                                  –\n                                                                Secretaria da Corregedoria Regional\n\n                      Processo: 0000029-98.2026.5.17.0500\n                      Assunto(s):\n                      Normatização. Regulamentação\n                      Especificação:\n                      ATOS PRESI SECOR 2026\n                      Interessado(s):\n\n\n\n                                                                   O PRESI SECOR Nº 75/2026\n\n\n\n                          A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n                      REGIÃO, no uso de suas atribuições legais e regimentais,\n\n                           CONSIDERANDO\n                      o teor da mensagem eletrônica encaminhada pela Diretora de Secretaria da 14ª Vara do Trabalho de Vitória à Corregedoria\n                      Regional, em 09/10/2026, resolve\n\n                                                                           DESIGNAR\n\n                      ALDA PEREIRA DOS SANTOS BOTELHO, Juíza do Trabalho Substituta, para auxiliar na 14ª Vara do Trabalho de Vitória em\n                      23/10/2026, sem prejuízo das designações anteriores.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241682\n\f    4568/2026                                               Tribunal Regional do Trabalho da 17ª Região                                        2\n    Data da Disponibilização: Segunda-feira, 19 de Outubro de 2026\n\n\n\n\n                            Publique-se.\n\n                                                                       Alzenir Bollesi de Plá Loeffler\n                                                                  Desembargadora-Presidente e Corregedora\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 15/10/2026,\n                          às 19:40, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1349945 e o código CRC 539DFA4D.\n\n\n\n\n                                                     SECRETARIA DO TRIBUNAL PLENO\n                                                                Acórdão\n                                                                Acórdão\n\n\n                                                                        ACÓRDÃO\n                                                             SEI 00001603-93.2025.5.17.0500\n\n\n  Recorrente:\n  VCS IMPLEMENTOS E VEÍCULOS LTDA.\n\n  (Adv. Tiago Branco Abreu – OAB/ES nº 13.930)\n\n  Assunto:\n  RECURSO ADMINISTRATIVO\n\n  Origem:\n  TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n  Relatora:\n   DESEMBARGADORA DANIELE CORRÊA SANTA CATARINA\n\n\n  Procurador do Trabalho:\n   DR. JOÃO HILÁRIO VALENTIM\n\n\n\n  CONCLUSÃO:\n\n\n\nCódigo para aferir autenticidade deste caderno: 241682\n\f    4568/2026                                               Tribunal Regional do Trabalho da 17ª Região                                         3\n    Data da Disponibilização: Segunda-feira, 19 de Outubro de 2026\n\n\n\n\n   “… por unanimidade, conhecer do recurso administrativo interposto pela empresa VCS IMPLEMENTOS E VEÍCULOS LTDA., rejeitar a preliminar\n  de nulidade por vício de motivação e, no mérito, negar-lhe provimento, mantendo na íntegra a decisão exarada no Despacho PRESI nº 255/2026\n  (Doc. 1309144), que aplicou as penalidades de: a) multa de 5% (cinco por cento) incidente sobre o valor da última proposta apresentada no Lote 1,\n  perfazendo o montante condenatório de R$ 11.749,50; e b) impedimento de licitar e contratar no âmbito da Administração Pública direta e indireta\n  da União, pelo prazo de 3 (três) meses”.\n\n\n\n\n                                                                           ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                          1\n   REGIONAL\n    Ato                                                                1\n     Ato                                                               1\n   SECRETARIA DO TRIBUNAL PLENO                                        2\n    Acórdão                                                            2\n     Acórdão                                                           2\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 241682",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    }
-  ]
+  "articles": []
 }
