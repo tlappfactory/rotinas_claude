@@ -1,0 +1,96 @@
+{
+ "data": "2026-10-21",
+ "timestamp": "21/10/2026, 11h47 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": "Edição de 21/10/2026 das fontes oficiais consultada."
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TRT-17 — Edital nº 01/2026: 1º Processo Seletivo de Remoção Interna de Oficiais de Justiça (Despacho PRESI/SEGEP/ASSJUP nº 786/2026)",
+   "ementa": "Abre inscrições para 1 claro de lotação no Fórum Trabalhista de Cachoeiro de Itapemirim, com possibilidade de remoções sucessivas. Inscrições por e-mail à SELIR no prazo improrrogável de 5 dias úteis, contados da publicação no DEJT (21/10/2026). Requisitos vedatórios incluem menos de 1 ano de exercício no Regional e remoção interna há menos de 1 ano.",
+   "unidades": "SELIR, CODOP, SELEP",
+   "acao": "Receber e conferir inscrições até o fim do prazo; preparar resultado e atos de remoção.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação 21/10/2026"
+  },
+  {
+   "titulo": "TRT-17 — Portaria PRESI/DIGER/SGP/CODOP/SELIR nº 450/2026: nomeação de Oficial de Justiça Avaliador Federal",
+   "ementa": "Nomeia a 3ª classificada do concurso homologado no DOU de 25/4/2023 (lista de ampla concorrência), Analista Judiciário – Oficial de Justiça Avaliador Federal, Classe A, Padrão 1, para vaga decorrente de aposentadoria. Também publicada no DOU Seção 2 de 21/10/2026, p. 62.",
+   "unidades": "CODOP, SELEP, SELIR, DIPROF",
+   "acao": "Acompanhar posse e exercício; atualizar cadastro, lotação e folha.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação 21/10/2026"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "DOU Seção 2 — Decreto de 20/10/2026: aposentadoria de Juiz do TRT da 2ª Região",
+   "ementa": "Concede aposentadoria, a partir de 30/09/2026, a Orlando Apuene Bertão, Juiz do TRT da 2ª Região (art. 20, § 2º, I, da EC 103/2019).",
+   "unidades": "SESES, SGP-direção (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=21-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 1"
+  },
+  {
+   "titulo": "DOU Seção 1 — Portaria Conjunta MGI/MPO nº 71/2026",
+   "ementa": "Altera os Anexos I e II da Portaria Conjunta MGI/MPO nº 61/2023 (limites anuais de reembolso com cessões, requisições e alterações de exercício) e revoga a Portaria Conjunta MGI/MPO nº 98/2025. Aplicação direta ao TRT-17 não verificada. [carece de leitura humana do texto integral]",
+   "unidades": "SELIR, SELEP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=21-10-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 38"
+  },
+  {
+   "titulo": "DOU Seção 2 — Portaria GP nº 1.341/2026 do TRT-14: cessão de servidor",
+   "ementa": "Trata de cessão de servidor aprovado em edital, no âmbito do TRT da 14ª Região. [verificar condições na fonte]",
+   "unidades": "SELIR",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=21-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 62"
+  },
+  {
+   "titulo": "DOU Seção 2 — Atos de pessoal de outros órgãos do Judiciário (STF, STJ, CJF, TCU)",
+   "ementa": "Portarias de designação/dispensa de funções comissionadas e de prorrogação de cessão: STF Portaria SGP nº 201/2026 (FC-3); STJ/GP nºs 860, 880 e 881/2026; TCU Portarias-DIADI nº 200 e SECPESSOAS nº 142/2026. Sem efeito direto no TRT-17.",
+   "unidades": "SELEP, SELIR",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=21-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 55–58"
+  },
+  {
+   "titulo": "DOU Seção 2 — Concessões de aposentadoria e pensão do Executivo federal (MGI/DECIPEX)",
+   "ementa": "27 portarias de concessão de benefícios (CGBEN/MGI), 5 editais de notificação de pensionistas e a Portaria SGP/MGI nº 12.711/2026 (substituto eventual de FCE na DECIPEX). Servidores de outros órgãos; sem aplicação direta ao TRT-17.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=21-10-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, pp. 36–39 e 65"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU — Primeira Câmara (13/10/2026) e Plenário (14/10/2026): quintos/décimos e “opção” em aposentadorias (Acórdãos 5473, 5465, 5461 e 2851/2026)",
+   "status": "Acórdãos em atos de pessoal de outros órgãos tratam de incorporação de quintos (8/4/1998 a 4/9/2001 e funções posteriores à Lei 9.624/1998) e da cumulação de “opção” com quintos. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES, SELEP e DIPROF podem conferir casos análogos em proventos e no cálculo de aposentadorias.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência"
+  },
+  {
+   "titulo": "TCU — Primeira e Segunda Câmaras (13/10/2026) e Plenário (07/10/2026): cálculo de proventos, ATS e gratificações (Acórdãos 5478, 5455, 5474, 5144, 5459 e 2777/2026)",
+   "status": "Temas: coeficiente do art. 26, § 2º, II, da EC 103/2019; art. 20 da EC 103/2019 sem a opção do § 16 do art. 40; cômputo de tempo de advocacia na magistratura; ATS; adicional de qualificação; paridade de gratificação de desempenho. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES e SELEP: possível referência para pareceres de aposentadoria e revisão de proventos.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência"
+  },
+  {
+   "titulo": "TCU — Plenário (07/10/2026), Acórdão 2799/2026: consignados de aposentados e pensionistas do INSS",
+   "status": "Agravo provido e cautelar revogada, com manutenção da suspensão das modalidades de cartão e continuidade do monitoramento. [carece de leitura humana do texto integral]",
+   "reflexo": "DIPROF e COREP: acompanhar controles de consignações, por analogia.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência"
+  },
+  {
+   "titulo": "STF (15/10/2026) — cancelamento de repercussão geral sobre competência da Justiça do Trabalho em ações de servidores públicos",
+   "status": "Segundo a notícia do STF, o Plenário manteve a decisão no caso concreto e afastou a fixação de tese com aplicação a outros processos. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo em demandas de servidores sobre competência; avaliar com a assessoria jurídica.",
+   "fonte_url": "https://noticias.stf.jus.br/postsnoticias/stf-cancela-repercussao-geral-sobre-competencia-da-justica-do-trabalho-em-acao-de-servidores-publicos/",
+   "fonte_titulo": "Notícias do STF, 15/10/2026"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 21/10/2026 (97 atos selecionados; 37 atos individuais de pessoal de outros órgãos descartados); DEJT Caderno Administrativo TRT-17, publicação 21/10/2026 (disponibilizado em 20/10; todos os atos triados); acórdãos do TCU das sessões de 07/10 a 14/10/2026 (21 selecionados); notícias do STF. Conferência humana recomendada.",
+ "fontes_sem_retorno": "DEJT CSJT publicação 21/10/2026: 4 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos conjuntos TST/CSJT e atos da SEJUR). DEJT TST publicação 21/10/2026: 2 atos detectados, nenhum pertinente à SGP. STJ: sem novidades de precedentes vinculantes nesta data."
+}
