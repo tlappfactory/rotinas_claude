@@ -86,6 +86,11 @@ def _resumo_resposta(resp: requests.Response, email: str, password: str) -> str:
             f"cookies recebidos: {cookies}, corpo: {corpo!r}")
 
 
+def _em_manutencao(resp: requests.Response) -> bool:
+    """O INLabs responde 404 com a página "Sistema em Manutenção" durante janelas de manutenção."""
+    return b"Sistema em Manuten" in resp.content
+
+
 def login(session: requests.Session, email: str, password: str) -> str:
     payload = {"email": email, "password": password}
     headers = {
@@ -97,6 +102,9 @@ def login(session: requests.Session, email: str, password: str) -> str:
         try:
             resp = session.post(LOGIN_URL, data=payload, headers=headers, timeout=30)
             cookie = session.cookies.get("inlabs_session_cookie")
+            if not cookie and _em_manutencao(resp):
+                sys.exit("ERRO: INLabs em manutenção (página 'Sistema em Manutenção'); "
+                         "repetir o login agora é inútil. Disparar o workflow de novo quando o site voltar.")
         except requests.RequestException as exc:
             cookie = None
             last_error = f"erro de rede ({exc})"
