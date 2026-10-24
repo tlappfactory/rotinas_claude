@@ -74,6 +74,18 @@ def load_credentials() -> tuple[str, str]:
     return email, pwd
 
 
+def _resumo_resposta(resp: requests.Response, email: str, password: str) -> str:
+    """Diagnóstico do login sem vazar credenciais: status, destino final, cookies e trecho do corpo."""
+    corpo = " ".join(resp.text.split())[:300]
+    for segredo in (email, password):
+        if segredo:
+            corpo = corpo.replace(segredo, "***")
+    cookies = ",".join(sorted(resp.cookies.keys())) or "nenhum"
+    historico = ">".join(str(r.status_code) for r in resp.history) or "-"
+    return (f"HTTP {resp.status_code}, redirecionamentos {historico}, url final {resp.url}, "
+            f"cookies recebidos: {cookies}, corpo: {corpo!r}")
+
+
 def login(session: requests.Session, email: str, password: str) -> str:
     payload = {"email": email, "password": password}
     headers = {
@@ -83,14 +95,15 @@ def login(session: requests.Session, email: str, password: str) -> str:
     last_error = "motivo desconhecido"
     for attempt in range(1, LOGIN_MAX_ATTEMPTS + 1):
         try:
-            session.post(LOGIN_URL, data=payload, headers=headers, timeout=30)
+            resp = session.post(LOGIN_URL, data=payload, headers=headers, timeout=30)
             cookie = session.cookies.get("inlabs_session_cookie")
         except requests.RequestException as exc:
             cookie = None
             last_error = f"erro de rede ({exc})"
         else:
             if not cookie:
-                last_error = "cookie 'inlabs_session_cookie' ausente na resposta"
+                last_error = ("cookie 'inlabs_session_cookie' ausente na resposta "
+                              f"[{_resumo_resposta(resp, email, password)}]")
 
         if cookie:
             if attempt > 1:
