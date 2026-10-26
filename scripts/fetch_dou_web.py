@@ -13,6 +13,8 @@ Escopo deliberado: apenas a edição pedida (por padrão, a de hoje em Brasília
 Não reconstrói edições anteriores.
 
 Diferenças em relação ao INLabs:
+  - o texto é só um trecho (~400 caracteres): todo ato sai com texto_truncated=true
+    e o filtro por palavra-chave enxerga apenas esse trecho (cobertura menor);
   - sem DO1E/DO2E garantidos (tenta-se; seção sem retorno não é erro);
   - `assina`/`cargo`/`ementa` não vêm separados (ficam dentro do texto);
   - o link do ato é o real (`urlTitle` já contém o content-id do portal).
@@ -100,6 +102,8 @@ def to_xml(item: dict, pub_name: str, pub_date: str) -> bytes:
         "artCategory": categoria,
         "numberPage": clean(str(item.get("numberPage", ""))),
         "editionNumber": clean(str(item.get("editionNumber", ""))),
+        # O índice traz só um trecho (~400 caracteres) do ato, não o texto integral.
+        "textoParcial": "1",
     })
     body = ET.SubElement(art, "body")
     for tag, valor in (("Identifica", item.get("title", "")),
