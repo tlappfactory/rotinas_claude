@@ -1,0 +1,34 @@
+name: probe-dou-web
+
+# Sonda temporária: verifica se o runner alcança o índice público do DOU
+# (in.gov.br/leiturajornal), como plano B para quando o INLabs cai.
+# Não grava nada no repositório e não usa secrets.
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - ".github/workflows/probe-dou-web.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Consultar índice público do DOU
+        run: |
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          for sec in do1 do2; do
+            url="https://www.in.gov.br/leiturajornal?data=22-10-2026&secao=${sec}"
+            echo "=== ${url}"
+            curl -sS -m 60 -A "$UA" -o body.html -D headers.txt -w "http=%{http_code} bytes=%{size_download} tempo=%{time_total}s\n" "$url" || echo "curl falhou ($?)"
+            head -n 1 headers.txt || true
+            echo "contém jsonArray: $(grep -c 'jsonArray' body.html || true)"
+            echo "contém captcha: $(grep -ci 'captcha' body.html || true)"
+            echo "título: $(grep -o '<title>[^<]*</title>' body.html | head -n 1)"
+            echo "--- amostra do corpo (300 caracteres)"
+            tr -s '[:space:]' ' ' < body.html | head -c 300; echo
+          done
