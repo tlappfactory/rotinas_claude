@@ -1,0 +1,57 @@
+name: probe-dou-web
+
+# Sonda temporária: páginas individuais dos atos do DOU (texto integral?).
+# Não grava nada no repositório e não usa secrets.
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - ".github/workflows/probe-dou-web.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Abrir páginas individuais de atos
+        run: |
+          python3 - <<'PY'
+          import json, re, time, urllib.request
+          UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          def get(url):
+              t0 = time.time()
+              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      return r.status, r.read().decode("utf-8", "replace"), time.time() - t0
+              except Exception as e:
+                  return getattr(e, "code", 0), str(e), time.time() - t0
+          st, html, dt = get("https://www.in.gov.br/leiturajornal?data=26-10-2026&secao=do2")
+          arr = json.loads(re.search(r'<script[^>]*id="params"[^>]*>(.*?)</script>', html, re.S).group(1))["jsonArray"]
+          print("índice:", st, len(arr), "atos")
+          # amostra: 3 atos com texto mais longo no trecho e 3 aleatórios
+          import random
+          random.seed(1)
+          amostra = random.sample(arr, 5)
+          for it in amostra:
+              url = "https://www.in.gov.br/web/dou/-/" + it["urlTitle"]
+              st, h, dt = get(url)
+              txt = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S)
+              txt = re.sub(r"<[^>]+>", " ", txt)
+              txt = re.sub(r"\s+", " ", txt)
+              print("====", it["title"][:70])
+              print("http", st, "bytes", len(h), "tempo %.2fs" % dt, "| trecho do índice:", len(it["content"]), "chars")
+              marc = [m for m in ("texto-dou", "dou-paragraph", "identifica", "publicado-dou-data", "materia") if m in h]
+              print("marcadores no HTML:", marc)
+              i = txt.find(it["title"][:30])
+              print("texto na página a partir do título (400 chars):", txt[i:i+400] if i >= 0 else txt[:400])
+              m = re.search(r'class="texto-dou"[^>]*>(.*?)</div>\s*</div>', h, re.S)
+              if m:
+                  corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(1)))
+                  print("corpo .texto-dou:", len(corpo), "chars")
+              time.sleep(1)
+          PY
