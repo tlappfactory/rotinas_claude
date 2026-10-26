@@ -1,6 +1,7 @@
 name: probe-dou-web
 
-# Sonda temporária: páginas individuais dos atos do DOU (texto integral?).
+# Teste temporário do plano B com texto integral: roda fetch_dou_web.py +
+# parse_dou.py em diretório temporário e imprime estatísticas.
 # Não grava nada no repositório e não usa secrets.
 
 on:
@@ -17,44 +18,33 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Abrir páginas individuais de atos
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Coletar (texto integral) e filtrar
+        env:
+          DOU_ROOT: ${{ runner.temp }}/dou
+          FETCH_LOG: ${{ runner.temp }}/fetch_dou_web.log
         run: |
+          mkdir -p "$DOU_ROOT"
+          start=$(date +%s)
+          python scripts/fetch_dou_web.py 2026-10-26
+          echo "coleta: $(( $(date +%s) - start ))s"
+          python scripts/parse_dou.py --force
           python3 - <<'PY'
-          import json, re, time, urllib.request
-          UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          import subprocess
-          def get(url):
-              t0 = time.time()
-              r = subprocess.run(["curl", "-sSL", "-m", "60", "-A", UA, "-w", "\n%{http_code}", url],
-                                 capture_output=True, text=True)
-              body, _, code = r.stdout.rpartition("\n")
-              return int(code or 0), body or r.stderr, time.time() - t0
-          st, html, dt = get("https://www.in.gov.br/leiturajornal?data=26-10-2026&secao=do2")
-          m0 = re.search(r'<script[^>]*id="params"[^>]*>(.*?)</script>', html, re.S)
-          if not m0:
-              print("índice sem params; http", st, "bytes", len(html), html[:300].replace("\n", " "))
-              raise SystemExit(1)
-          arr = json.loads(m0.group(1))["jsonArray"]
-          print("índice:", st, len(arr), "atos")
-          # amostra: 3 atos com texto mais longo no trecho e 3 aleatórios
-          import random
-          random.seed(1)
-          amostra = random.sample(arr, 5)
-          for it in amostra:
-              url = "https://www.in.gov.br/web/dou/-/" + it["urlTitle"]
-              st, h, dt = get(url)
-              txt = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S)
-              txt = re.sub(r"<[^>]+>", " ", txt)
-              txt = re.sub(r"\s+", " ", txt)
-              print("====", it["title"][:70])
-              print("http", st, "bytes", len(h), "tempo %.2fs" % dt, "| trecho do índice:", len(it["content"]), "chars")
-              marc = [m for m in ("texto-dou", "dou-paragraph", "identifica", "publicado-dou-data", "materia") if m in h]
-              print("marcadores no HTML:", marc)
-              i = txt.find(it["title"][:30])
-              print("texto na página a partir do título (400 chars):", txt[i:i+400] if i >= 0 else txt[:400])
-              m = re.search(r'class="texto-dou"[^>]*>(.*?)</div>\s*</div>', h, re.S)
-              if m:
-                  corpo = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(1)))
-                  print("corpo .texto-dou:", len(corpo), "chars")
-              time.sleep(1)
+          import json, os, collections
+          d = json.load(open(os.environ["DOU_ROOT"] + "/2026-10-26/inlabs-filtered.json"))
+          arts = d["articles"]
+          print("atos no índice:", d["total_xml_files"], "| selecionados:", d["matched_articles"],
+                "| descartados (pessoal de outros órgãos):", d["discarded_individual_acts"]["total"])
+          print("origem:", json.dumps(d["origem"], ensure_ascii=False))
+          print("com texto parcial:", sum(a["texto_truncated"] for a in arts), "de", len(arts))
+          L = [len(a["texto_resumo"]) for a in arts]
+          print("tamanho do texto: min", min(L), "máx", max(L), "média", sum(L)//len(L))
+          print("seções:", dict(collections.Counter(a["section"] for a in arts)))
+          for a in arts[:5]:
+              print("-", a["identifica"][:60], "|", a["orgao"][:40], "|", len(a["texto_resumo"]), "chars | kw:", a["strong_keywords"])
           PY

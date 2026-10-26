@@ -13,8 +13,9 @@ Escopo deliberado: apenas a edição pedida (por padrão, a de hoje em Brasília
 Não reconstrói edições anteriores.
 
 Diferenças em relação ao INLabs:
-  - o texto é só um trecho (~400 caracteres): todo ato sai com texto_truncated=true
-    e o filtro por palavra-chave enxerga apenas esse trecho (cobertura menor);
+  - o índice traz só um trecho (~400 caracteres) de cada ato; o texto integral é
+    buscado na página individual (/web/dou/-/<urlTitle>). Ato cuja página não
+    abriu fica com o trecho e texto_truncated=true (o filtro enxerga só o trecho);
   - sem DO1E/DO2E garantidos (tenta-se; seção sem retorno não é erro);
   - `assina`/`cargo`/`ementa` não vêm separados (ficam dentro do texto);
   - o link do ato é o real (`urlTitle` já contém o content-id do portal).
@@ -28,7 +29,9 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
@@ -46,6 +49,12 @@ USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like G
               "Chrome/124.0 Safari/537.36")
 MAX_ATTEMPTS = int(os.environ.get("DOU_WEB_MAX_ATTEMPTS", "3"))
 RETRY_DELAY_SECS = int(os.environ.get("DOU_WEB_RETRY_DELAY_SECS", "20"))
+
+ARTICLE_URL = "https://www.in.gov.br/web/dou/-/{slug}"
+ENRICH_WORKERS = int(os.environ.get("DOU_WEB_WORKERS", "6"))
+# Teto de tempo para buscar o texto integral dos atos; o que não der tempo
+# fica com o trecho do índice (marcado como parcial).
+ENRICH_BUDGET_SECS = int(os.environ.get("DOU_WEB_ENRICH_BUDGET_SECS", "900"))
 
 PARAMS_RE = re.compile(r'<script[^>]*id="params"[^>]*>(.*?)</script>', re.S)
 # Caracteres de controle proibidos em XML 1.0.
@@ -89,6 +98,88 @@ def fetch_section(session: requests.Session, dia_url: str, secao: str) -> list[d
     return None
 
 
+class _TextoDou(HTMLParser):
+    """Extrai o texto da <div class="texto-dou"> (corpo do ato) de uma página do portal."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.depth = 0
+        self.done = False
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        if self.done:
+            return
+        if tag == "div":
+            classes = (dict(attrs).get("class") or "").split()
+            if self.depth == 0 and "texto-dou" in classes:
+                self.depth = 1
+            elif self.depth:
+                self.depth += 1
+        elif self.depth and tag in ("p", "br", "tr", "li"):
+            self.parts.append(" ")
+
+    def handle_endtag(self, tag):
+        if self.done or not self.depth:
+            return
+        if tag == "div":
+            self.depth -= 1
+            if self.depth == 0:
+                self.done = True
+        elif tag in ("p", "tr", "li", "td", "th"):
+            self.parts.append(" ")
+
+    def handle_data(self, data):
+        if self.depth and not self.done:
+            self.parts.append(data)
+
+    def texto(self) -> str:
+        return re.sub(r"\s+", " ", "".join(self.parts)).strip()
+
+
+def fetch_full_text(slug: str) -> str | None:
+    """Texto integral do ato pela página individual; None se não deu para obter."""
+    url = ARTICLE_URL.format(slug=slug)
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=45)
+            if resp.status_code == 200:
+                parser = _TextoDou()
+                parser.feed(resp.text)
+                texto = parser.texto()
+                if texto:
+                    return texto
+        except requests.RequestException:
+            pass
+        if attempt < MAX_ATTEMPTS:
+            time.sleep(2 * attempt)
+    return None
+
+
+def enrich_items(itens: list[dict]) -> int:
+    """Troca o trecho de `content` pelo texto integral; devolve quantos atos foram enriquecidos.
+
+    Atos sem texto integral (falha ou tempo esgotado) ficam com o trecho e
+    recebem `_parcial=True`."""
+    deadline = time.time() + ENRICH_BUDGET_SECS
+
+    def um(item: dict) -> bool:
+        if time.time() > deadline or not item.get("urlTitle"):
+            return False
+        texto = fetch_full_text(str(item["urlTitle"]))
+        if texto and len(texto) >= len(item.get("content") or ""):
+            item["content"] = texto
+            return True
+        return False
+
+    with ThreadPoolExecutor(max_workers=ENRICH_WORKERS) as pool:
+        resultados = list(pool.map(um, itens))
+    for item, ok in zip(itens, resultados):
+        if not ok:
+            item["_parcial"] = True
+    return sum(resultados)
+
+
 def to_xml(item: dict, pub_name: str, pub_date: str) -> bytes:
     """Ato do índice -> XML no formato que parse_dou.parse_xml_file entende."""
     categoria = clean(item.get("hierarchyStr", ""))
@@ -102,9 +193,10 @@ def to_xml(item: dict, pub_name: str, pub_date: str) -> bytes:
         "artCategory": categoria,
         "numberPage": clean(str(item.get("numberPage", ""))),
         "editionNumber": clean(str(item.get("editionNumber", ""))),
-        # O índice traz só um trecho (~400 caracteres) do ato, não o texto integral.
-        "textoParcial": "1",
     })
+    # Sem o texto integral da página do ato, resta o trecho (~400 caracteres) do índice.
+    if item.get("_parcial", True):
+        art.set("textoParcial", "1")
     body = ET.SubElement(art, "body")
     for tag, valor in (("Identifica", item.get("title", "")),
                        ("Titulo", item.get("titulo", "")),
@@ -135,12 +227,17 @@ def main() -> None:
     session = requests.Session()
     por_secao: dict[str, int] = {}
     falhas: list[str] = []
+    completos = 0
     for secao in SECTIONS:
         itens = fetch_section(session, dia_url, secao)
         if itens is None:
             falhas.append(secao)
             continue
         pub_name = secao.upper()
+        t0 = time.time()
+        ok = enrich_items(itens)
+        log(f"{secao}: texto integral de {ok}/{len(itens)} atos em {time.time() - t0:.0f}s")
+        completos += ok
         for n, item in enumerate(itens):
             nome = f"{pub_name}_{n:04d}.xml"
             (extracted / nome).write_bytes(to_xml(item, pub_name, pub_date))
@@ -156,6 +253,7 @@ def main() -> None:
         "origem": "in.gov.br/leiturajornal (índice público; INLabs indisponível)",
         "coleta_alternativa": True,
         "atos_por_secao": por_secao,
+        "atos_com_texto_integral": completos,
         "secoes_com_falha": falhas,
         "coletado_em": datetime.now(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }, ensure_ascii=False, indent=2), encoding="utf-8")
