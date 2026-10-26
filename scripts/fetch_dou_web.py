@@ -195,7 +195,7 @@ def to_xml(item: dict, pub_name: str, pub_date: str) -> bytes:
         "editionNumber": clean(str(item.get("editionNumber", ""))),
     })
     # Sem o texto integral da página do ato, resta o trecho (~400 caracteres) do índice.
-    if item.get("_parcial", True):
+    if item.get("_parcial"):
         art.set("textoParcial", "1")
     body = ET.SubElement(art, "body")
     for tag, valor in (("Identifica", item.get("title", "")),
