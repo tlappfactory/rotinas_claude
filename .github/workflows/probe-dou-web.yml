@@ -1,6 +1,6 @@
 name: probe-dou-web
 
-# Teste temporário do plano B com texto integral: roda fetch_dou_web.py +
+# Teste temporário (2ª rodada) do plano B com texto integral: roda fetch_dou_web.py +
 # parse_dou.py em diretório temporário e imprime estatísticas.
 # Não grava nada no repositório e não usa secrets.
 
