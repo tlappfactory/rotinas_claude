@@ -39,6 +39,10 @@ on:
         description: "Dias de catch-up quando 'data' está vazia"
         required: false
         default: "7"
+      forcar_web:
+        description: "Teste: pular o INLabs e usar só a coleta alternativa do DOU (true/false)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -72,12 +76,22 @@ jobs:
           INLABS_PASSWORD: ${{ secrets.INLABS_PASSWORD }}
           INPUT_DATA: ${{ inputs.data }}
           INPUT_CATCHUP: ${{ inputs.catchup || '7' }}
+          FORCAR_WEB: ${{ inputs.forcar_web }}
         run: |
           mkdir -p dou logs
-          if [ -n "$INPUT_DATA" ]; then
-            python scripts/fetch_inlabs.py "$INPUT_DATA"
+          # Plano B: se o INLabs falhar (manutenção, login), lê o índice público
+          # do DOU (scripts/fetch_dou_web.py) — só a edição de INPUT_DATA ou de
+          # hoje; não reconstrói edições anteriores. parse_dou.py registra a
+          # origem no JSON.
+          if [ "$FORCAR_WEB" = "true" ]; then
+            echo "forcar_web=true: pulando o INLabs."
+            python scripts/fetch_dou_web.py $INPUT_DATA
+          elif [ -n "$INPUT_DATA" ]; then
+            python scripts/fetch_inlabs.py "$INPUT_DATA" \
+              || { echo "::warning::INLabs falhou; usando a coleta alternativa do DOU (índice público)."; python scripts/fetch_dou_web.py "$INPUT_DATA"; }
           else
-            python scripts/fetch_inlabs.py --catchup "$INPUT_CATCHUP"
+            python scripts/fetch_inlabs.py --catchup "$INPUT_CATCHUP" \
+              || { echo "::warning::INLabs falhou; usando a coleta alternativa do DOU (índice público)."; python scripts/fetch_dou_web.py; }
           fi
 
       - name: Parse DOU

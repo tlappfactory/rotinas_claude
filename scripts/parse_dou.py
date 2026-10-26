@@ -24,7 +24,7 @@ Score heurístico:
   - +5 por keyword forte
   - +1 por keyword fraca
 
-Lê:    <DOU_ROOT>/<YYYY-MM-DD>/extracted/*.xml
+Lê:    <DOU_ROOT>/<YYYY-MM-DD>/extracted/*.xml (e origem.json, se vier de fetch_dou_web.py)
 Grava: <DOU_ROOT>/<YYYY-MM-DD>/inlabs-filtered.json (ordenado por score desc)
 """
 import argparse
@@ -359,6 +359,11 @@ def process_date(day_dir: Path, force: bool) -> dict:
         "priority_orgaos": PRIORITY_ORGAOS_EMISSOR,
         "articles": matches,
     }
+    # Coleta alternativa (fetch_dou_web.py): registra a origem para que a rotina
+    # do Boletim declare a cobertura reduzida. Ausente = INLabs (caminho normal).
+    origem_path = day_dir / "origem.json"
+    if origem_path.exists():
+        payload["origem"] = json.loads(origem_path.read_text(encoding="utf-8"))
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
                         encoding="utf-8")
     return {"date": day_dir.name, "status": "ok", "matches": len(matches),
