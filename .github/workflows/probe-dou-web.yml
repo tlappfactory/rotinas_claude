@@ -1,7 +1,7 @@
 name: probe-dou-web
 
-# Sonda temporária: verifica se o runner alcança o índice público do DOU
-# (in.gov.br/leiturajornal), como plano B para quando o INLabs cai.
+# Sonda temporária: verifica se o runner alcança a base de dados abertos do DOU
+# (plano B para quando o INLabs cai) e o índice público da edição.
 # Não grava nada no repositório e não usa secrets.
 
 on:
@@ -18,17 +18,18 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Consultar índice público do DOU
+      - name: Consultar dados abertos e índice do DOU
         run: |
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          for sec in do1 do2; do
-            url="https://www.in.gov.br/leiturajornal?data=22-10-2026&secao=${sec}"
-            echo "=== ${url}"
-            curl -sS -m 60 -A "$UA" -o body.html -D headers.txt -w "http=%{http_code} bytes=%{size_download} tempo=%{time_total}s\n" "$url" || echo "curl falhou ($?)"
-            head -n 1 headers.txt || true
-            echo "contém jsonArray: $(grep -c 'jsonArray' body.html || true)"
-            echo "contém captcha: $(grep -ci 'captcha' body.html || true)"
+          probe() {
+            echo "=== $1"
+            curl -sSL -m 60 -A "$UA" -o body.html -D headers.txt -w "http=%{http_code} bytes=%{size_download} tempo=%{time_total}s final=%{url_effective}\n" "$1" || echo "curl falhou ($?)"
             echo "título: $(grep -o '<title>[^<]*</title>' body.html | head -n 1)"
-            echo "--- amostra do corpo (300 caracteres)"
-            tr -s '[:space:]' ' ' < body.html | head -c 300; echo
-          done
+          }
+          probe "https://www.in.gov.br/acesso-a-informacao/dados-abertos/base-de-dados"
+          echo "--- links com dados/zip/xml/inlabs/dados.gov (até 40)"
+          grep -oiE 'href="[^"]*(zip|xml|dados\.gov|inlabs|ckan|base-de-dados|download)[^"]*"' body.html | sort -u | head -n 40 || true
+          echo "--- trecho de texto da página (600 caracteres)"
+          sed -e 's/<script[^>]*>.*<\/script>//g' -e 's/<[^>]*>/ /g' body.html | tr -s '[:space:]' ' ' | head -c 600; echo
+          probe "https://www.in.gov.br/leiturajornal?data=22-10-2026&secao=do2"
+          echo "contém jsonArray: $(grep -c 'jsonArray' body.html || true)"
