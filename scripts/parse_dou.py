@@ -301,7 +301,8 @@ def parse_xml_file(path: Path) -> dict | None:
         "titulo": titulo,
         "subtitulo": subtitulo,
         "texto_resumo": texto_full[:TEXTO_RESUMO_MAX_CHARS],
-        "texto_truncated": len(texto_full) > TEXTO_RESUMO_MAX_CHARS,
+        "texto_truncated": (len(texto_full) > TEXTO_RESUMO_MAX_CHARS
+                            or attrs.get("textoParcial") == "1"),
         "assina": assina,
         "cargo": cargo,
         "page": number_page,
