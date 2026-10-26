@@ -1,0 +1,59 @@
+{
+  "run_utc": "2026-10-26T19:40:58Z",
+  "lookback_days": 7,
+  "desde": "2026-10-19",
+  "fontes": {
+    "stf": {
+      "status": "ok",
+      "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
+      "itens_vistos": 31,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-19T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 15479,
+          "inicio": "[{\"id\":167251,\"date\":\"2026-10-26T15:34:58\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-reafirma-jornada-maxima-de-30-horas-semanais-para-fisioterapeutas-e-terapeutas-ocupacionais\\/\",\"title\":{\"rendered\":\"STF reafirma jornada m\\u00e1xima de 30 horas semanais para fisioterapeutas e terape"
+        },
+        {
+          "amostra_titulos": [
+            "STF reafirma jornada máxima de 30 horas semanais para fisioterapeutas e terapeutas ocupaci",
+            "Ambiente virtual concentra maior parte das decisões colegiadas do STF",
+            "Nota da Presidência do Supremo Tribunal Federal",
+            "STF prorroga votação até as 19h em locais onde urnas permaneceram abertas após as 17h",
+            "Presidente do STF defende respeito à soberania popular e pede paz nas eleições",
+            "Supremo na Semana comenta exclusão do ISS da base de cálculo do PIS e da Cofins"
+          ]
+        }
+      ]
+    },
+    "stj": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
+          "http": 200,
+          "content_type": "text/html;charset=UTF-8",
+          "bytes": 15306,
+          "inicio": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r \r         <!-- ################################################################################################# -->\r       ",
+          "parse_erro": "mismatched tag: line 158, column 2"
+        },
+        {
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+          "http": 504,
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 913,
+          "inicio": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-504/\",\"title\":\"Error 504: Gateway time-out\",\"status\":504,\"detail\":\"The origin web server did not respond to Cloudflare within the allowed time. This typically means the origin is overload"
+        }
+      ]
+    }
+  },
+  "articles": [],
+  "total_matched": 0
+}
