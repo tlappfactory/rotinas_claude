@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-10-27T15:04:20Z",
+  "run_utc": "2026-10-27T18:39:34Z",
   "lookback_days": 7,
   "desde": "2026-10-20",
   "fontes": {
@@ -14,12 +14,12 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-20T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 15641,
-          "inicio": "[{\"id\":167265,\"date\":\"2026-10-27T11:13:04\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-realizara-audiencia-publica-sobre-mp-que-trata-de-apostas-esportivas\\/\",\"title\":{\"rendered\":\"STF realizar\\u00e1 audi\\u00eancia p\\u00fablica sobre MP que trata de apostas esportivas\"},\"excerpt\":{\"rend"
+          "bytes": 15618,
+          "inicio": "[{\"id\":167265,\"date\":\"2026-10-27T11:13:04\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-realizara-audiencia-publica-sobre-mp-que-trata-de-apostas-esportivas\\/\",\"title\":{\"rendered\":\"STF realizar\\u00e1 audi\\u00eancia p\\u00fablica sobre MP das bets\"},\"excerpt\":{\"rendered\":\"<p>Encontro ser\\"
         },
         {
           "amostra_titulos": [
-            "STF realizará audiência pública sobre MP que trata de apostas esportivas",
+            "STF realizará audiência pública sobre MP das bets",
             "Confederação questiona no STF lei que obriga seguradoras a comunicar recusa de propostas",
             "STF define prazo para aplicação do piso nacional do magistério a professores temporários",
             "STF lança nova edição de publicação trilíngue com resumos de julgamentos",

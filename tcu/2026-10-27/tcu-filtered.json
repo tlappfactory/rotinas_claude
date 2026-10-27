@@ -1,13 +1,13 @@
 {
-  "run_utc": "2026-10-27T15:04:20Z",
+  "run_utc": "2026-10-27T18:39:34Z",
   "lookback_days": 14,
   "cutoff_date": "2026-10-13",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
-  "pages_fetched": 3,
-  "items_seen": 1500,
-  "min_date_seen": "2026-09-15",
-  "max_date_seen": "2026-10-21",
-  "total_matched": 45,
+  "pages_fetched": 4,
+  "items_seen": 2000,
+  "min_date_seen": "2026-09-01",
+  "max_date_seen": "2026-10-27",
+  "total_matched": 47,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2781236",
@@ -940,6 +940,46 @@
       "urlArquivoPDF": null,
       "strong_keywords": [
         "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2783654",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5245",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "27/10/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5245/2026 ATA 37/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. FUNDAMENTO NO ART. 20 DA EC 103/2019. SERVIDOR QUE INGRESSOU NO SERVIÇO PÚBLICO EM CARGO EFETIVO ATÉ 31 DE DEZEMBRO DE 2003 E QUE NÃO FEZ A OPÇÃO DE QUE TRATA O § 16 DO ART. 40 DA CONSTITUIÇÃO FEDERAL. PROVENTOS QUE DEVEM CORRESPONDER À TOTALIDADE DA REMUNERAÇÃO DO CARGO, COM REAJUSTE PELA REGRA DA PARIDADE. ILEGALIDADE. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. CONHECIMENTO. ARGUMENTOS INCAPAZES DE ALTERAR O ACÓRDÃO RECORRIDO. NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783654%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2778852",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5240",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "27/10/2026",
+      "relator": "MARCOS BEMQUERER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5240/2026 ATA 37/2026 - SEGUNDA CÂMARA",
+      "sumario": "PESSOAL. APOSENTADORIA. ATO DE ALTERAÇÃO. CONTAGEM PONDERADA DE TEMPO DE SERVIÇO ALEGADAMENTE PRESTADO EM CONDIÇÕES INSALUBRES. NÃO APRESENTAÇÃO DA DOCUMENTAÇÃO COMPROBATÓRIA PERTINENTE. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778852%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
       ],
       "weak_keywords": [],
       "trt17_hits": [],
