@@ -1,0 +1,96 @@
+BOLETIM NORMATIVO — 29 de outubro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* Resolução Administrativa TRT-17 nº 91/2026 (retificada) — Emenda Regimental nº 1 ao Regimento Interno
+  Ementa: Aprovada em sessão de 16/09/2026 e publicada no DEJT de 28/10/2026, a Emenda Regimental nº 1 altera o Regimento Interno (RA nº 84/2024) para instituir a Corregedoria Regional com estrutura autônoma, criar os cargos de Corregedor Regional e de Vice-Corregedor Regional e transferir à Vice-Presidência o juízo de admissibilidade dos recursos de revista. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SGP-direção, SELIR, SEGECOP
+  Ação sugerida: Avaliar reflexos em lotação, funções e estrutura; conferir texto integral.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 29/10/2026 (disponibilizado em 28/10) — https://diario.jt.jus.br
+
+* Ato TRT 17ª PRESI nº 90/2026 — composição do Subcomitê de Aposentadoria e Suporte aos Aposentados (SUBCOASA)
+  Ementa: Altera o inciso I do art. 26 do Ato TRT 17ª PRESI nº 04/2024, que passa a indicar o Juiz Ney Alvares Pimenta Filho, indicado pela Presidência, como coordenador do SUBCOASA. Vigência na data da publicação.
+  Unidade(s): SESES, SGP-direção
+  Ação sugerida: Ciência; atualizar contatos e referências ao coordenador do SUBCOASA.
+  Fonte: DEJT Caderno Administrativo TRT-17, Ato PRESI nº 90/2026 — https://diario.jt.jus.br
+
+* Provimento de cargos — Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 584, 585, 586 e 587/2026
+  Ementa: Lote do concurso (processo SEI 0000438-79.2023.5.17.0500): três nomeações tornadas sem efeito por desistência expressa e uma nova nomeação de Técnico Judiciário, apoio especializado/TI, em vaga da lista de candidatos com deficiência (vacância por aposentadoria).
+  Unidade(s): SELIR, CODOP, COREP
+  Ação sugerida: Acompanhar posse e chamada dos próximos classificados; ajustar controle de vagas.
+    - Nº 584 — torna sem efeito a nomeação de Técnico Judiciário, Área Administrativa (Portaria nº 445/2026), por desistência.
+    - Nº 585 — torna sem efeito a nomeação de Analista Judiciário, Área Administrativa (Portaria nº 448/2026), por desistência.
+    - Nº 586 — torna sem efeito a nomeação de Técnico Judiciário, TI (Portaria nº 442/2026), por desistência.
+    - Nº 587 — nomeia o 5º classificado na lista de candidatos com deficiência para Técnico Judiciário, apoio especializado/TI, Classe A, Padrão 1.
+  Fonte: DOU Seção 2, p. 93 (Portarias de 27/10/2026) e DEJT TRT-17 — https://www.in.gov.br/leiturajornal?data=29-10-2026&secao=do2
+
+* TCU — acórdãos sobre quintos/décimos e vantagem «opção» em aposentadorias e pensões
+  Ementa: Série de acórdãos das Primeira e Segunda Câmaras (sessões de 20 e 27/10/2026) apreciando atos de aposentadoria e pensão com quintos/décimos de função comissionada e parcela «opção» (art. 193 da Lei 8.112/1990). Pelos sumários: negativa de registro quando há pagamento cumulativo de quintos e opção (5252, 5260, 5590, 5592), quintos de funções exercidas após a Lei 9.624/1998 (5591, 5593, 5608) e registro com ressalva quando amparado em decisão judicial transitada em julgado (5606). [carece de leitura humana do texto integral]
+  Unidade(s): SESES, SELEP
+  Ação sugerida: Cotejar com concessões e revisões internas de proventos com quintos/opção.
+    - Ac. 5617/2026 — 1ª Câmara, 20/10: quintos/décimos de FC; proporção paga superior à devida após absorção de parcela compensatória; negativa de registro.
+    - Ac. 5606/2026 — 1ª Câmara, 20/10: quintos em decisão judicial transitada em julgado; ilegalidade com registro com ressalva (Res.-TCU 353/2023, art. 7º, III).
+    - Ac. 5236/2026 — 2ª Câmara, 27/10: alteração de aposentadoria com pagamento cumulativo de opção e quintos (art. 193, §2º, Lei 8.112/1990).
+    - Ac. 5252, 5260/2026 — 2ª Câmara, 27/10: pagamento cumulativo de quintos e opção.
+    - Ac. 5590, 5592/2026 — 1ª Câmara, 20/10: pedidos de reexame sobre inclusão cumulativa de quintos e opção.
+    - Ac. 5591, 5593, 5608/2026 — 1ª Câmara, 20/10: quintos de funções exercidas após a Lei 9.624/1998.
+  Fonte: TCU, Acórdão 5617/2026 — 1ª Câmara (demais acórdãos na pesquisa de jurisprudência do TCU) — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781236%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+3. INFORMATIVO (arquivo)
+
+* TCU — Acórdão 5253/2026 (2ª Câmara, 27/10): aposentadoria, EC 103/2019, art. 20, ingresso até 31/12/2003
+  Ementa: Aposentadoria de servidor que ingressou até 31/12/2003 e não fez a opção pelo regime de previdência complementar; sumário refere direito à integralidade. [carece de leitura humana do texto integral]
+  Unidade(s): SESES
+  Fonte: TCU, pesquisa de jurisprudência (Ac. 5253/2026 — conferir) — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782214%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — demais acórdãos de pessoal das sessões de 20 a 27/10/2026
+  Ementa: Acórdãos 5605 (averbação de tempo ficto sem comprovação), 5240 (contagem ponderada de tempo insalubre sem documentação), 5174 e 5171 (vantagem opção), 5176 (revisão de ofício após registro tácito), 5234 e 5264 (diferença individual/PCCS), 5178 (pensão de juiz classista) e outros; sem indicação de TRT-17 nos resultados. [carece de leitura humana do texto integral]
+  Unidade(s): SESES, SELEP
+  Fonte: TCU, pesquisa de jurisprudência — acórdãos listados — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781236%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TST — Atos nº 582 e 608/2026: redistribuição de cargos de Técnico Judiciário para os TRTs da 10ª e da 6ª Região
+  Ementa: Redistribuição, a contar de 1º/11/2026, de cargos vagos do TST, em reciprocidade com cargos ocupados por servidores dos TRTs de destino, nos termos da Resolução CNJ nº 146/2012. Sem efeito direto sobre o TRT-17; útil como referência de procedimento.
+  Unidade(s): SELIR
+  Fonte: DOU Seção 2, p. 87 — https://www.in.gov.br/leiturajornal?data=29-10-2026&secao=do2
+
+* TRF-2 — Ato PRES nº 592/2026: alteração de ato de aposentadoria por decisão judicial transitada em julgado
+  Ementa: Altera ato de aposentadoria voluntária de 2016 em cumprimento de decisão judicial transitada em julgado em 16/06/2026. [carece de leitura humana do texto integral]
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, p. 88 — https://www.in.gov.br/leiturajornal?data=29-10-2026&secao=do2
+
+* DEJT TRT-17 — Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 588 e 589/2026: dispensa/designação de FC-05 e remoção
+  Ementa: Dispensa de Analista Judiciária da FC-05 de Assistente de Gabinete no Gabinete da Des. Fátima Gomes Ferreira e designação para a mesma função no Gabinete do Des. Mário Ribeiro Cantarino Neto, com a respectiva remoção.
+  Unidade(s): SELEP, SELIR
+  Fonte: DEJT Caderno Administrativo TRT-17 — https://diario.jt.jus.br
+
+* DEJT TRT-17 — Edital de Correição Ordinária
+  Ementa: Edital da Secretaria de Corregedoria Regional publicado no caderno; matéria sem relação direta com a SGP. [carece de leitura humana do texto integral]
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT Caderno Administrativo TRT-17 — https://diario.jt.jus.br
+
+* DOU Seção 2 — atos de pessoal do MGI/DECIPEX (aposentadorias, pensões e gratificações GSISTE)
+  Ementa: Portarias de concessão de aposentadoria e pensão do Executivo federal (CGBEN, CGCAF, DECIPEX), designações e gratificações do MGI e retificação de portaria de pensão. Sem vínculo com o TRT-17; arquivadas para consulta.
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, pp. 54–59 — https://www.in.gov.br/leiturajornal?data=29-10-2026&secao=do2
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+Sem novidades pertinentes nesta data.
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 4
+- Informativos: 7
+- Em Monitoramento: 0
+- Fontes consultadas: DOU Seções 1 e 2 de 29/10/2026 (123 atos selecionados — 9 da Seção 1 e 114 da Seção 2 —; 150 atos individuais de pessoal de outros órgãos descartados pelo filtro; edições extras sem atos). DEJT Caderno Administrativo TRT-17, publicação de 29/10/2026: 8 atos detectados, todos triados. DEJT TST publicação de 29/10/2026: 2 atos detectados (Atos GDGSET.GP nº 620 e 621/2026), nenhum pertinente à SGP segundo o filtro temático. Acórdãos do TCU das sessões de 22/09 a 28/10/2026: 39 selecionados. Jurisprudência do STF e do STJ: fontes consultadas, nenhum item selecionado.
+- Sem retorno relevante: DEJT Caderno Administrativo do CSJT: sem publicação no Caderno Administrativo na edição utilizada (situação legítima, não erro de coleta). CNJ: nenhum ato normativo pertinente na Seção 1 desta data. Sem novidades em STF/STJ nesta data.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo (Claude AI) em 29/10/2026, 12h (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
