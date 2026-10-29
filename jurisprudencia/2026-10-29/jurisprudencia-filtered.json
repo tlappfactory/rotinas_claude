@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-10-29T18:55:04Z",
+  "run_utc": "2026-10-29T19:12:50Z",
   "lookback_days": 7,
   "desde": "2026-10-22",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 33,
+      "itens_vistos": 34,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-22T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 16583,
-          "inicio": "[{\"id\":167348,\"date\":\"2026-10-29T10:05:25\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-determina-arquivamento-de-mais-cinco-investigacoes-ligadas-ao-inquerito-das-fake-news\\/\",\"title\":{\"rendered\":\"STF determina arquivamento de mais cinco investiga\\u00e7\\u00f5es ligadas ao inqu\\u00e9rit"
+          "bytes": 17157,
+          "inicio": "[{\"id\":167349,\"date\":\"2026-10-29T16:03:52\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-abre-consulta-sobre-propostas-preliminares-relativas-ao-contencioso-judicial-da-reforma-tributaria-do-consumo\\/\",\"title\":{\"rendered\":\"STF abre consulta sobre propostas preliminares relativas ao conte"
         },
         {
           "amostra_titulos": [
+            "STF abre consulta sobre propostas preliminares relativas ao contencioso judicial da reform",
             "STF determina arquivamento de mais cinco investigações ligadas ao inquérito das fake news",
             "Confira a pauta do STF desta quinta-feira (29)",
             "Dia do Servidor e feriado de Finados alteram expediente no STF",
             "STF avança em julgamento sobre fretamento de ônibus por aplicativos em Minas Gerais",
-            "STF começa a julgar diferença de tratamento entre homens e mulheres na previdência complem",
-            "STF divulga cronograma de audiência pública sobre proibição das bets"
+            "STF começa a julgar diferença de tratamento entre homens e mulheres na previdência complem"
           ]
         }
       ]
