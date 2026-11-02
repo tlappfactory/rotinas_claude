@@ -25,6 +25,10 @@
 #       (HTTP 4xx/5xx que não é bloqueio de ambiente). Tratar como o 10
 #       (escalar), mas o motivo está na linha "resposta:" do log — não é
 #       problema de credencial ausente.
+#   14  a data-alvo é fim de semana ou feriado nacional: não há edição ordinária
+#       do DOU esperada (scripts/calendario.py). NÃO é falha do bridge — a
+#       rotina não deve dizer "edição indisponível"; deve declarar "sem edição
+#       do DOU em <data> (<motivo>)" e usar a edição útil mais recente.
 #   12  a API do GitHub não é alcançável a partir desta sessão (chamadas a
 #       api.github.com são interceptadas pelo ambiente e respondem 403). O
 #       token, se houver, sequer chega ao GitHub. NÃO adianta trocar o token:
@@ -94,6 +98,10 @@ wait_for_data() {
 }
 
 sync_repo
+if ! have_data && MOTIVO="$(python3 "$ROOT/scripts/calendario.py" "$TARGET_DATE")"; then
+  log "sem edição ordinária do DOU em $TARGET_DATE ($MOTIVO); não há o que disparar."
+  exit 14
+fi
 if have_data; then
   log "dados de $TARGET_DATE já presentes no bridge."
   exit 0

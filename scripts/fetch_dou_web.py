@@ -246,6 +246,18 @@ def main() -> None:
 
     # DO1 e DO2 são obrigatórias; falha só nas extras (do1e/do2e) é tolerada.
     if not por_secao.get("DO1") and not por_secao.get("DO2"):
+        # Índice respondeu (nenhuma seção com falha) mas sem atos, em dia sem
+        # edição esperada (fim de semana/feriado): não é erro.
+        from calendario import motivo_sem_edicao
+        motivo = motivo_sem_edicao(datetime(int(ano), int(mes), int(d)).date())
+        if motivo and not falhas:
+            log(f"OK: sem edição ordinária do DOU em {dia} ({motivo}); nada a coletar.")
+            try:
+                extracted.rmdir()
+                day_dir.rmdir()
+            except OSError:
+                pass
+            return
         sys.exit(f"ERRO: índice público do DOU de {dia} indisponível ou vazio "
                  f"(seções com falha: {', '.join(falhas) or 'nenhuma — edição sem atos'}).")
 
