@@ -23,6 +23,10 @@ on:
     # vazio (git diff --staged --quiet) — o job de reforço apenas confirma
     # que os dados já estão lá e termina rápido.
     - cron: "38 13 * * 1-5"
+    # Reforços tardios (INLabs em manutenção costuma voltar em poucas horas):
+    # só trabalham se o dia ainda estiver sem dados; senão terminam rápido.
+    - cron: "33 15 * * 1-5"
+    - cron: "3 17 * * 1-5"
     # Execução de sábado (principal + reforço): o DEJT disponibilizado sexta
     # ~19h tem publicação na segunda-feira (Lei 11.419/2006, art. 4º, §3º).
     # Sem este run, essa edição só seria capturada pelo cron de segunda —
