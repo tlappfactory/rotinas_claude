@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "total_xml_files": 1347,
+  "total_xml_files": 1349,
   "matched_articles": 124,
   "discarded_individual_acts": {
     "total": 92,
@@ -1140,7 +1140,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO1_0128.xml"
+      "xml_file": "DO1_0129.xml"
     },
     {
       "id": "edital-n-7/sprev/dap/progepe-de-3-de-novembro-de-2026-741564161",
@@ -1371,7 +1371,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO1_0237.xml"
+      "xml_file": "DO1_0238.xml"
     },
     {
       "id": "decisoes-741519979",
@@ -1398,7 +1398,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO1_0458.xml"
+      "xml_file": "DO1_0459.xml"
     },
     {
       "id": "ato-n-635-de-29-de-outubro-de-2026-741609831",
@@ -2323,7 +2323,7 @@
         "substituicao_fc_cc"
       ],
       "score": 6,
-      "xml_file": "DO1_0263.xml"
+      "xml_file": "DO1_0264.xml"
     },
     {
       "id": "edital-de-redistribuicao-n-30-de-3-de-novembro-de-2026-741607056",
@@ -2522,7 +2522,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0466.xml"
+      "xml_file": "DO1_0467.xml"
     },
     {
       "id": "decisao-coren-am-n-246-de-27-de-outubro-de-2025-741524781",
@@ -2549,7 +2549,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0464.xml"
+      "xml_file": "DO1_0465.xml"
     },
     {
       "id": "despacho-741549811",
@@ -2576,7 +2576,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0267.xml"
+      "xml_file": "DO1_0268.xml"
     },
     {
       "id": "despacho-741540264",
@@ -2603,7 +2603,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0400.xml"
+      "xml_file": "DO1_0401.xml"
     },
     {
       "id": "portaria-gm-md-n-5.359-de-28-de-outubro-de-2026-741527723",
@@ -3555,13 +3555,13 @@
     "origem": "in.gov.br/leiturajornal (índice público; INLabs indisponível)",
     "coleta_alternativa": true,
     "atos_por_secao": {
-      "DO1": 479,
+      "DO1": 480,
       "DO2": 868,
-      "DO1E": 0,
+      "DO1E": 1,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1347,
+    "atos_com_texto_integral": 1349,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-04T14:44:56Z"
+    "coletado_em": "2026-11-04T20:22:50Z"
   }
 }
