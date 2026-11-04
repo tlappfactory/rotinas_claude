@@ -2,41 +2,16 @@
   "date": "2026-11-04",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 103,
-      "pdf_text_chars": 4348,
-      "total_atos_detectados": 1,
-      "matched_atos": 1,
-      "headers_sample": [
-        "[caderno inteiro — sem cabeçalhos detectados]"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 104,
-      "pdf_text_chars": 5670,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO CONJUNTO TST.CSJT.CGJT N° 62, DE 29 DE OUTUBRO DE 2026.",
-        "Ato Conjunto TST.CSJT.CGJT nº 40, de 2 de julho de 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 105,
-      "pdf_text_chars": 7036,
-      "total_atos_detectados": 4,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP.N.º 645, DE 29 DE OUTUBRO DE 2026",
-        "ATO GDGSET.GP.N.º 632, DE 29 DE OUTUBRO DE 2026",
-        "ATO GDGSET.GP.N.º 647, DE 3 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP.N.º 640, DE 29 DE OUTUBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 1,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -62,16 +37,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "[caderno inteiro — sem cabeçalhos detectados]",
-      "text_resumo": "                                                    Caderno Administrativo\n                                          Tribunal Regional do Trabalho da 17ª Região\n\n                           DIÁRIO ELETRÔNICO DA JUSTIÇA DO TRABALHO\n    PODER JUDICIÁRIO                               REPÚBLICA FEDERATIVA DO BRASIL\n\n\n       Nº4578/2026                        Data da disponibilização: Terça-feira, 03 de Novembro de 2026.\n\n\n\n             Tribunal Regional do Trabalho da 17ª Região\n                                                                            Av. Nossa Senhora dos Navegantes, 1245, Enseada do Suá,\n                   Alzenir Bollesi de Plá Loeffler                                                 Vitória/ES\n              Desembargadora Presidente e Corregedora                                           CEP: 29050912\n\n\n               Marise Medeiros Cavalcanti Chamberlain                                         Telefone(s) : (27) 3321-2400\n                  Desembargadora Vice-Presidente\n\n\n\n\n                                                       DIRETORIA GERAL\n                                                            Extrato\n                                               EXTRATO DE CONCESSÃO DE DIÁRIAS\n                                                      Concessão de Diárias\n  O Diretor-Geral Substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao beneficiário indicado diárias\n  nos seguintes termos:\n\n\n  Processo nº 833/2026\n  - LUCIANO MAGNO BRAMBILA, TÉCNICO JUDICIÁRIO SECRETÁRIO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de\n  Participar do 20º Encontro Nacional do Poder Judiciário, promovido pelo Conselho Nacional de Justiça, referente ao(s) seguinte(s) período(s):\n  #2: Vitória/ES - Fortaleza/CE no período de 29/11/2026 a 02/12/2026, totalizando 3,50 diária(s).\n                                                           Concessão de Diárias\n  O Diretor-Geral Substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao beneficiário indicado diária nos\n  seguintes termos:\n\n\n  Processo nº 827/2026 (Retificação 1)\n  - ARNALDO GOMES SOARES, TÉCNICO JUDICIÁRIO CHEFE DE SEÇÃO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de\n  Vistoria técnica das instalações prediais e equipamentos. Ação de apoio à fiscalização do Contrato TRT17 nº 17/2023, com acompanhamento e\n  programação das atividades para a equipe de manutenção predial., referente ao(s) seguinte(s) período(s):\n  #1: Vitória/ES - Colatina/ES no período de 28/10/2026 a 29/10/2026, totalizando 1,50 diária(s).\n                                                           Concessão de Diárias\n  O Diretor-Geral Substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao beneficiário indicado diária nos\n  seguintes termos:\n\n\n  Processo nº 831/2026\n  - MARCELO CALIMAN PIMENTEL, TÉCNICO JUDICIÁRIO SECRETÁRIO DA CORREGEDORIA REGIONAL do Tribunal Regional do Trabalho\n  da 17ª Região, com a finalidade de Correição ordinária nas Varas do Trabalho de Guarapari e Venda Nova do Imigrante nos dias 9 e 10/11/2026,\n  respectivamente., referente ao(s) seguinte(s) período(s):\n  #2: Vitória/ES - Venda Nova do Imigrante/ES no período de 09/11/2026 a 10/11/2026, totalizando 1,50 diária(s).\n\n\n\n\n                                                                     ÍNDICE\n\n\n\nCódigo para aferir autenticidade deste caderno: 242077\n\f    4578/2026                                              Tribunal Regional do Trabalho da 17ª Região   2\n    Data da Disponibilização: Terça-feira, 03 de Novembro de 2026\n\n\n\n   DIRETORIA GERAL                                                    1\n    Extrato                                                           1\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242077\n\f",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    }
-  ]
+  "articles": []
 }
