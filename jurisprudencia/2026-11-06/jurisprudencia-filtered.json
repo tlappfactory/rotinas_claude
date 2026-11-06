@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-06T14:45:39Z",
+  "run_utc": "2026-11-06T19:56:05Z",
   "lookback_days": 7,
   "desde": "2026-10-30",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 32,
+      "itens_vistos": 33,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-10-30T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 16228,
-          "inicio": "[{\"id\":167581,\"date\":\"2026-11-06T11:27:17\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/centro-de-estudos-constitucionais-do-stf-fara-audiencia-academica-no-rio-de-janeiro-na-terca-10\\/\",\"title\":{\"rendered\":\"Centro de Estudos Constitucionais do STF far\\u00e1 audi\\u00eancia acad\\u00eamica no"
+          "bytes": 16691,
+          "inicio": "[{\"id\":167593,\"date\":\"2026-11-06T16:18:55\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/confira-os-destaques-da-pauta-do-plenario-do-stf-para-novembro\\/\",\"title\":{\"rendered\":\"Confira os destaques da pauta do Plen\\u00e1rio do STF para novembro\\u00a0\"},\"excerpt\":{\"rendered\":\"<p>Julgamentos pr"
         },
         {
           "amostra_titulos": [
+            "Confira os destaques da pauta do Plenário do STF para novembro",
             "Centro de Estudos Constitucionais do STF fará audiência acadêmica no Rio de Janeiro na ter",
             "Confira os destaques do Plenário Virtual desta semana",
             "Relator convoca representantes da indústria para audiência de conciliação sobre nova jorna",
             "‘Direito sem juridiquês’: entenda o que significa ‘in dubio pro reo’",
-            "Pesquisa de jurisprudência no portal do STF ficará indisponível neste sábado (7)",
-            "STF rejeita recurso de ex-prefeito de Duque de Caxias (RJ) condenado por crime ambiental"
+            "Pesquisa de jurisprudência no portal do STF ficará indisponível neste sábado (7)"
           ]
         }
       ]
