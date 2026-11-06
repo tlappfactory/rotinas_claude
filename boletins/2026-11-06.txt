@@ -1,0 +1,115 @@
+BOLETIM NORMATIVO — 6 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* STF — ADI 6336: constitucionalidade do art. 35, I, "a", da EC 103/2019 (decisão publicada no DOU)
+  Ementa: Segundo a decisão publicada, o Tribunal, por maioria, julgou improcedente o pedido, declarando a constitucionalidade do art. 35, I, "a", da EC nº 103/2019, e fixou a tese: "É válida a revogação da não incidência tributária contida no art. 40, § 21, da CF/1988, não havendo ofensa aos princípios da isonomia, da dignidade humana e da vedação ao retrocesso". Efeitos práticos e eventual modulação: [carece de leitura humana do texto integral]
+  Unidade(s): SESES, DIPROF, SGP-direção
+  Ação sugerida: Avaliar reflexo em proventos de aposentados e pensionistas; aguardar leitura integral do acórdão.
+  Fonte: DOU Seção 1, p. 1 — Decisões do STF (ADI 6336) — https://www.in.gov.br/leiturajornal?data=06-11-2026&secao=do1
+
+* TRT-15 — Ato nº 106 DLP/2026: exclusão da vantagem "Opção" (art. 193 da Lei 8.112/1990) de aposentadoria, em cumprimento ao Acórdão 4718/2026-TCU-Segunda Câmara
+  Ementa: Segundo o texto publicado, o ato exclui a vantagem "Opção" do fundamento legal de aposentadoria voluntária, com efeitos financeiros a partir de 17/9/2026 (dia seguinte à ciência do acórdão do TCU). Exemplo prático do tratamento dado pelos tribunais à cumulação de "Opção" com outras parcelas. [carece de leitura humana do texto integral]
+  Unidade(s): SESES, DIPROF
+  Ação sugerida: Conferir se há aposentadorias do TRT-17 com "Opção" sob o mesmo entendimento do TCU.
+  Fonte: DOU Seção 2, p. 71 — https://www.in.gov.br/leiturajornal?data=06-11-2026&secao=do2
+
+3. INFORMATIVO (arquivo)
+
+* TRT-17 — Portarias nº 595, 596, 597 e 602/2026: dispensa/designação de funções comissionadas e remoção
+  Ementa: Lote de movimentações de servidores.
+  Unidade(s): SELIR, SELEP
+    - Nº 595: dispensa de servidora da FC-05 (Assistente de Juiz) e designação para a FC-04 (Assistente de Gabinete de 1º Grau), ambas na 3ª Vara do Trabalho de Vitória.
+    - Nº 596: dispensa de servidora da FC-04 (Assistente de Gabinete de 1º Grau) e designação para a FC-05 (Assistente de Juiz), ambas na 3ª Vara do Trabalho de Vitória.
+    - Nº 597: dispensa de analista judiciária da FC-05 (Assistente de Juiz) do GAJUS e designação para a FC-05 na Vara do Trabalho de Aracruz.
+    - Nº 602: remoção da mesma servidora, do GAJUS para a lotação na Vara do Trabalho de Aracruz.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação 06/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 — Portarias nº 598, 599, 600 e 601/2026: convalidação de atos de substituição em função comissionada (férias do titular)
+  Ementa: Convalidam atos praticados por substitutos, com direito ao pagamento da substituição.
+  Unidade(s): SELEP, DIPROF, COREP
+    - Nº 598: Coordenadoria de Registro e Pagamento (COREP), CJ-02, em 26/10/2026 (1 dia).
+    - Nº 599: Núcleo de Atendimento a Usuários de TIC (NUATE), FC-06, de 28/09 a 8/10/2026 (11 dias).
+    - Nº 600: Coordenadoria de Gerenciamento de Precedentes e Ações Coletivas (COGEPAC), CJ-02, de 5 a 6/10/2026 (2 dias).
+    - Nº 601: Fórum Trabalhista de Cachoeiro de Itapemirim, Chefe de Seção FC-05, de 13 a 29/10/2026 (17 dias; substituto requisitado).
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação 06/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 — Despacho PRESI/DIGER/SGP/CODOP/SEGEDE nº 55/2026: homologação da Avaliação de Desempenho Anual 2026 (servidores de outros órgãos em exercício no TRT-17)
+  Ementa: Homologa o resultado da avaliação de desempenho (RA TRT 17ª nº 13/2021) dos servidores de outros órgãos que prestam serviço no Tribunal (removidos, requisitados e ocupantes exclusivos de cargo em comissão).
+  Unidade(s): SEGEDE, SELEP
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação 06/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 — Atos PRESI SECOR nº 80, 81 e 82/2026 e Atos SECOR nº 91, 92 e 93/2026: magistratura de 1º grau
+  Ementa: Designações de juízes substitutos para auxílio em Varas do Trabalho (Nova Venécia, 12ª VT de Vitória, 13ª/10ª/8ª VT de Vitória e Colatina), em razão de promoções de juízes titulares (Cachoeiro de Itapemirim e Linhares). Atos SECOR nº 91 a 93: texto não trazido pela fonte [carece de leitura humana do texto integral].
+  Unidade(s): SGP-direção (ciência), SELIR
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação 06/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* Ato Conjunto TST.CSJT.GP.SG.SEOFI nº 64/2026: abertura de crédito suplementar em favor de Tribunais Regionais do Trabalho
+  Ementa: Abre crédito suplementar a TRTs (LDO 2026 e LOA 2026). Valores e eventual beneficiário TRT-17 não verificados. [carece de leitura humana do texto integral]
+  Unidade(s): SGP-direção (ciência), DIPROF
+  Fonte: DOU Seção 1, p. 151 — https://www.in.gov.br/leiturajornal?data=06-11-2026&secao=do1
+
+* Receita Federal — Solução de Consulta nº 217/2026: IRRF sobre abono anual pago por entidade fechada de previdência complementar
+  Ementa: Segundo o texto, para assistido não optante pela tributação exclusiva, o abono anual com característica de 13º salário segue regra idêntica à do 13º pago a trabalhadores e aposentados do regime geral. Alcance integral: [carece de leitura humana do texto integral]
+  Unidade(s): DIPROF, COREP
+  Fonte: DOU Seção 1, p. 61 — https://www.in.gov.br/leiturajornal?data=06-11-2026&secao=do1
+
+* Outros Tribunais — atos de pessoal publicados no DOU
+  Ementa: TST: Portaria nº 37/2026 (cessa efeitos de remoção por permuta com o TRT-1) e Ato nº 658/2026 (pensão vitalícia). CNJ: Portaria nº 497/2026 (requisição de servidor do TRT-11). Sem relação direta com o TRT-17; registro para consulta.
+  Unidade(s): SELIR, SESES
+  Fonte: DOU Seção 2, p. 66–67 — https://www.in.gov.br/leiturajornal?data=06-11-2026&secao=do2
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU — Acórdão 5353/2026 (Segunda Câmara, sessão 03/11/2026)
+  Status: Sumário da fonte: PEDIDO DE REEXAME. APOSENTADORIA. SUPERIOR TRIBUNAL DE JUSTIÇA. CÁLCULO DE "QUINTOS" COM BASE EM FUNÇÃO TRANSFORMADA. PAGAMENTO CONCOMITANTE DE "QUINTOS" COM "OPÇÃO". EXISTÊNCIA DE SENTENÇA JUDICIAL NÃO TRANSITADA EM JULGADO QUE AMPARA O PAGAMENTO DA "OPÇÃO". ATO PUBLICADO APÓS 19/7/2019. INAPLICABILIDADE DA SENTENÇA AO RECORRENTE. ILEGALIDADE. NEGATIVA DE REGISTRO. DETERMINAÇÕES. POSSIBILIDADE DE ESCOLHA ENTRE UMA DAS DUAS VANTAGENS. COMUNICAÇÕES. CONHECIMENTO DO RECURSO. AUSÊNCIA DE VIOLAÇÃO AOS PRINCÍPIOS DA SEGURANÇA JURÍDICA, DA ISONOMIA, DO DIREITO ADQUIRIDO E DA IRREDUTIBILIDADE DOS PROVENTOS. NEGATIVA DE PROVIMENTO. [carece de leitura humana do texto integral]
+  Possível reflexo: Quintos x "Opção" em aposentadoria de tribunal superior (STJ), com sentença não transitada: entendimento do TCU pela escolha de uma das vantagens. Unidade(s): SESES
+  Fonte: TCU, Acórdão 5353/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783669%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5351/2026 (Segunda Câmara, sessão 03/11/2026)
+  Status: Sumário da fonte: REVISÃO DE OFÍCIO. PENSÃO CIVIL. TRIBUNAL SUPERIOR DO TRABALHO. REGISTRO CONCEDIDO COM BASE EM ANÁLISE AUTOMATIZADA PREJUDICADA POR PREENCHIMENTO INCOMPLETO DA FICHA FINANCEIRA DO ATO. OMISSÃO DAS RUBRICAS "OPÇÃO" E "QUINTOS/DÉCIMOS", QUE INTEGRAVAM A BASE DE CÁLCULO DO BENEFÍCIO. CABIMENTO DA REVISÃO DE OFÍCIO. OITIVA DO MINISTÉRIO PÚBLICO E DO BENEFICIÁRIO. PERCEPÇÃO CUMULATIVA DE "OPÇÃO" E "QUINTOS/DÉCIMOS". VEDAÇÃO NÃO TRATADA NA AÇÃO JUDICIAL QUE AMPARA A PERCEPÇÃO DA "OPÇÃO". ILEGALIDADE. NEGATIVA DE REGISTRO. POSSIBILIDADE DE ESCOLHA ENTRE UMA DAS DUAS VANTAGENS. DISPENSA DE RESSARCIMENTO. DETERMINAÇÕES. [carece de leitura humana do texto integral]
+  Possível reflexo: Revisão de ofício de pensão do TST por omissão das rubricas "Opção" e "Quintos/Décimos" na ficha financeira: atenção ao preenchimento da ficha enviada ao TCU. Unidade(s): SESES, DIPROF
+  Fonte: TCU, Acórdão 5351/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783840%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5252/2026 (Segunda Câmara, sessão 27/10/2026)
+  Status: Sumário da fonte: APOSENTADORIA. PAGAMENTO CUMULATIVO DAS PARCELAS QUINTOS E OPÇÃO. VIOLAÇÃO AO ART. 193, §2º, DA LEI 8.112/1990. POSSIBILIDADE DE ESCOLHER O RECEBIMENTO DE UMA DAS VANTAGENS. INTEGRALIZAÇÃO DE PROVENTOS COM FUNDAMENTO NO ART. 190 DA LEI 8.112/1990. INVALIDEZ POSTERIOR À EMENDA CONSTITUCIONAL 103/2019, QUE NÃO RECEPCIONOU O DISPOSITIVO. INEXISTÊNCIA DE DIREITO ADQUIRIDO A REGIME JURÍDICO. NEGATIVA DE REGISTRO. DETERMINAÇÕES. PEDIDO DE REEXAME. INCIDÊNCIA DA DECADÊNCIA QUANTO À VEDAÇÃO DA ACUMULAÇÃO DE QUINTOS COM A "OPÇÃO". PROVIMENTO PARCIAL. COMUNICAÇÕES. [carece de leitura humana do texto integral]
+  Possível reflexo: Cumulação de quintos e "Opção" (art. 193, §2º, Lei 8.112/1990) em aposentadorias. Unidade(s): SESES, DIPROF
+  Fonte: TCU, Acórdão 5252/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783736%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5715/2026 (Primeira Câmara, sessão 27/10/2026)
+  Status: Sumário da fonte: APOSENTADORIA. REGRA DE TRANSIÇÃO DO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. SERVIDORA QUE INGRESSOU NO SERVIÇO PÚBLICO ANTES DE 31.12.2003 E NÃO OPTOU PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. CÁLCULO DOS PROVENTOS PELA MÉDIA CONTRIBUTIVA. INCOMPATIBILIDADE COM A REGRA DE INTEGRALIDADE E PARIDADE. NEGATIVA DE REGISTRO. DETERMINAÇÕES. DISPENSA DE REPOSIÇÃO DOS VALORES RECEBIDOS DE BOA-FÉ. [carece de leitura humana do texto integral]
+  Possível reflexo: Regra de transição do art. 20 da EC 103/2019: cálculo pela média contributiva x integralidade/paridade. Unidade(s): SESES
+  Fonte: TCU, Acórdão 5715/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779741%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5253/2026 (Segunda Câmara, sessão 27/10/2026)
+  Status: Sumário da fonte: PESSOAL. APOSENTADORIA. SERVIDOR PÚBLICO QUE INGRESSOU ANTERIORMENTE A 31/12/2003 E QUE NÃO FEZ A OPÇÃO PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. DIREITO À INTEGRALIDADE E À PARIDADE. EMENDA CONSTITUCIONAL 103/2019, ART. 20. INADEQUAÇÃO DO USO DA MÉDIA DAS CONTRIBUIÇÕES. NEGATIVA DE REGISTRO. PEDIDO DE REEXAME. ELEMENTOS INSUFICIENTES PARA ALTERAR A DELIBERAÇÃO RECORRIDA. CONHECIMENTO. NEGATIVA DE PROVIMENTO. [carece de leitura humana do texto integral]
+  Possível reflexo: Mesma matéria do Acórdão 5715/2026, em pedido de reexame (art. 20 da EC 103/2019). Unidade(s): SESES
+  Fonte: TCU, Acórdão 5253/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783474%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5716/2026 (Primeira Câmara, sessão 27/10/2026)
+  Status: Sumário da fonte: APOSENTADORIA. INCLUSÃO INDEVIDA DO VENCIMENTO BÁSICO COMPLEMENTAR (VBC) NA BASE DE CÁLCULO DO ADICIONAL POR TEMPO DE SERVIÇO (ATS). NEGATIVA DE REGISTRO. DETERMINAÇÃO AO ÓRGÃO DE ORIGEM. [carece de leitura humana do texto integral]
+  Possível reflexo: VBC (Lei 11.091/2005) na base de cálculo do ATS: possível reflexo em revisões de proventos. Unidade(s): SESES, DIPROF
+  Fonte: TCU, Acórdão 5716/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779743%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU — Acórdão 5240/2026 (Segunda Câmara, sessão 27/10/2026)
+  Status: Sumário da fonte: PESSOAL. APOSENTADORIA. ATO DE ALTERAÇÃO. CONTAGEM PONDERADA DE TEMPO DE SERVIÇO ALEGADAMENTE PRESTADO EM CONDIÇÕES INSALUBRES. NÃO APRESENTAÇÃO DA DOCUMENTAÇÃO COMPROBATÓRIA PERTINENTE. NEGATIVA DE REGISTRO. DETERMINAÇÕES. [carece de leitura humana do texto integral]
+  Possível reflexo: Contagem ponderada de tempo insalubre: exigência de documentação comprobatória. Unidade(s): SESES
+  Fonte: TCU, Acórdão 5240/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778852%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 2
+- Informativos: 7
+- Em Monitoramento: 7
+- Fontes consultadas: DOU Seções 1 e 2 de 06/11/2026 (1.076 matérias examinadas, 135 selecionadas; 85 atos individuais de pessoal de outros órgãos descartados; as portarias de aposentadoria e pensão do Ministério da Gestão, relativas ao Poder Executivo, não afetam o TRT-17 e não foram detalhadas); DEJT Caderno Administrativo TRT-17, publicação 06/11/2026 (15 atos, todos triados e consolidados em lotes); DEJT TST, publicação 06/11/2026: 5 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos da Presidência do TST); DEJT CSJT: sem publicação no Caderno Administrativo na edição utilizada (situação legítima); acórdãos do TCU das sessões de 29/09/2026 a 04/11/2026 (35 selecionados, 7 destacados); notícias do STF e do STJ de 30/10 a 06/11/2026: nenhum item selecionado além da ADI 6336, publicada no DOU. Sem novidades em Resoluções/Recomendações do CNJ no DOU nesta data.
+- Sem retorno relevante: Nenhuma fonte primária com falha de acesso nesta edição.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo (Claude AI) em 06/11/2026, 11h45 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
