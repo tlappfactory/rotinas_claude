@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-09T14:46:43Z",
+  "run_utc": "2026-11-09T22:59:32Z",
   "lookback_days": 7,
   "desde": "2026-11-02",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 41,
+      "itens_vistos": 45,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-02T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 20837,
-          "inicio": "[{\"id\":167636,\"date\":\"2026-11-09T10:54:01\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/fachin-defende-cooperacao-entre-tribunais-constitucionais-durante-curso-internacional-no-stf\\/\",\"title\":{\"rendered\":\"Fachin defende coopera\\u00e7\\u00e3o entre tribunais constitucionais durante curso inte"
+          "bytes": 23023,
+          "inicio": "[{\"id\":167665,\"date\":\"2026-11-09T19:58:27\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/presidente-do-stf-arquiva-inquerito-das-fake-news-inquerito-4-781\\/\",\"title\":{\"rendered\":\"Presidente do STF arquiva inqu\\u00e9rito das fake news (Inqu\\u00e9rito 4.781)\"},\"excerpt\":{\"rendered\":\"<p>Decis\\u"
         },
         {
           "amostra_titulos": [
-            "Fachin defende cooperação entre tribunais constitucionais durante curso internacional no S",
-            "STF acolhe, em recursos extraordinários, 10 vezes mais pedidos do que em agravos",
-            "STF suspende processos que questionam constitucionalidade de MP das bets",
-            "STF promove curso internacional de direito constitucional para magistrados de países de lí",
-            "Supremo na Semana destaca audiência pública sobre proibição das bets",
-            "Ministra Cármen Lúcia critica baixa representação feminina na política"
+            "Presidente do STF arquiva inquérito das fake news (Inquérito 4.781)",
+            "Ouvidoria da Mulher do STF compartilha experiências de acolhimento e proteção em encontro ",
+            "STF lança programa de incentivo à preparação de pessoas negras, indígenas e quilombolas pa",
+            "STF suspende punição aplicada pelo CNJ à juíza Gabriela Hardt",
+            "Em curso internacional no STF, Fachin defende cooperação entre tribunais constitucionais",
+            "STF acolhe, em recursos extraordinários, 10 vezes mais pedidos do que em agravos"
           ]
         }
       ]

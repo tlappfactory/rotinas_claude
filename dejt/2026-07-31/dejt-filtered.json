@@ -28,7 +28,8 @@
     "licencas_servidor",
     "ajuda_custo_transporte",
     "insalubridade_periculosidade",
-    "cessao_remocao_permuta"
+    "cessao_remocao_permuta",
+    "tributario_folha"
   ],
   "weak_keyword_tags": [
     "substituicao_fc_cc",
