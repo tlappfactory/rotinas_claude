@@ -87,6 +87,18 @@ STRONG_KEYWORDS: dict[str, list[str]] = {
                                      r"\binsalubridade\b", r"\bpericulosidade\b"],
     "cessao_remocao_permuta": [r"\bcessao\b", r"\bcessoes\b", r"\bredistribuicao\b",
                                 r"\bremocao\b", r"\bpermuta\b"],
+    # Tributação incidente sobre folha/rendimentos de servidores (DIPROF/COREP):
+    # normas da Receita Federal e do Ministério da Fazenda que o filtro de órgãos
+    # não captura (esses órgãos NÃO são prioritários, para não trazer todo o seu
+    # volume de atos aduaneiros/fiscais). Entram só quando o texto casa.
+    "tributario_folha": [r"\bimposto de renda retido na fonte\b", r"\bimposto sobre a renda retido\b",
+                         r"\birrf\b", r"\bdirf\b", r"\befd-reinf\b", r"\breinf\b",
+                         r"\bdctfweb\b", r"\btabela progressiva\b",
+                         r"\brendimentos tributaveis\b", r"\brendimentos do trabalho\b",
+                         r"\bimposto de renda da pessoa fisica\b", r"\bimposto sobre a renda da pessoa fisica\b",
+                         r"\birpf\b", r"\bdeclaracao de ajuste anual\b",
+                         r"\bretencao na fonte\b", r"\bcontribuicao previdenciaria\b",
+                         r"\bcontribuicao do servidor\b"],
 }
 
 # Keywords FRACAS — só ajudam na classificação; sozinhas NÃO bastam para incluir

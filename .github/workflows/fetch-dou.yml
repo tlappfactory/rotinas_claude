@@ -47,6 +47,10 @@ on:
         description: "Teste: pular o INLabs e usar só a coleta alternativa do DOU (true/false)"
         required: false
         default: "false"
+      sonda_diarios:
+        description: "Teste: rodar SÓ a coleta do DJEN/DJe-CNJ, sem commitar (diagnóstico de endpoints; true/false)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -75,6 +79,7 @@ jobs:
           sudo apt-get install -y -qq poppler-utils
 
       - name: Fetch INLabs (DOU XML)
+        if: ${{ inputs.sonda_diarios != 'true' }}
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_PASSWORD: ${{ secrets.INLABS_PASSWORD }}
@@ -99,9 +104,11 @@ jobs:
           fi
 
       - name: Parse DOU
+        if: ${{ inputs.sonda_diarios != 'true' }}
         run: python scripts/parse_dou.py --force
 
       - name: Fetch DEJT (PDFs TRT-17 / CSJT / TST)
+        if: ${{ inputs.sonda_diarios != 'true' }}
         env:
           # Convenção: o DEJT é disponibilizado às 19h Brasília do dia D-1 e
           # considerado PUBLICADO no primeiro dia útil seguinte (Lei 11.419/2006,
@@ -126,21 +133,34 @@ jobs:
           python scripts/fetch_dejt.py
 
       - name: Parse DEJT
+        if: ${{ inputs.sonda_diarios != 'true' }}
         run: python scripts/parse_dejt.py --force
 
       - name: Fetch+filter TCU (acórdãos via API JSON dados-abertos)
+        if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           mkdir -p tcu
           python scripts/fetch_tcu.py --lookback 14 || \
             echo "AVISO: fetch_tcu.py falhou — TCU será marcado como fonte indisponível neste run."
 
       - name: Fetch+filter STF/STJ (feeds oficiais de notícias — sinal de precedente vinculante)
+        if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           mkdir -p jurisprudencia
           python scripts/fetch_jurisprudencia.py --lookback 7 || \
             echo "AVISO: fetch_jurisprudencia.py falhou — STF/STJ seguem por busca complementar."
 
+      - name: Fetch+filter DJEN (CSJT) e DJe/CNJ
+        # Lacuna fechada em 09/11/2026: acórdãos do CSJT no DJEN e decisões do
+        # CNJ fora do DOU. Falha aqui não derruba o run; o status por fonte fica
+        # no JSON (ok | no_feed | error) e `probe` guarda o HTTP de cada tentativa.
+        run: |
+          mkdir -p diarios
+          python scripts/fetch_diarios.py --lookback 4 || \
+            echo "AVISO: fetch_diarios.py falhou — DJEN/DJe-CNJ serão marcados como fontes não consultadas."
+
       - name: Commit JSONs filtrados
+        if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           set -e
           git config user.name "github-actions[bot]"
@@ -148,7 +168,8 @@ jobs:
           git add 'dou/*/inlabs-filtered.json' \
                   'dejt/*/dejt-filtered.json' 'dejt/_last_fetch.json' \
                   'tcu/*/tcu-filtered.json' \
-                  'jurisprudencia/*/jurisprudencia-filtered.json'
+                  'jurisprudencia/*/jurisprudencia-filtered.json' \
+                  'diarios/*/diarios-filtered.json'
           if git diff --staged --quiet; then
             echo "Nenhuma novidade a commitar."
             exit 0
