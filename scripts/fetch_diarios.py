@@ -215,14 +215,8 @@ def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
 # Vias ALTERNATIVAS legítimas (mesmos sites públicos, sem disfarce): só sondagem,
 # para descobrir se vale implementar coleta. Nenhuma é usada pelo boletim ainda.
 DIAGNOSTICO = [
-    "https://diario.jt.jus.br/cadernos/Diario_J_CSJT.pdf",
-    "https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf",
-    "https://sintse.tse.jus.br/documentos/{ano}/{mes}/{dia}/diario-da-justica-eletronico-cnj",
-    "https://sintse.tse.jus.br/documentos/{ano}/{mes}/",
+    "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
     "https://atos.cnj.jus.br/atos",
-    "https://atos.cnj.jus.br/atos/detalhar/6972",
-    "https://www.cnj.jus.br/dje",
-    "https://comunica.pje.jus.br/",
 ]
 MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
@@ -234,7 +228,12 @@ def diagnostico() -> None:
         try:
             r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
             corpo = next(r.iter_content(600), b"")
-            links = ""
+            if r.status_code == 200 and "html" in r.headers.get("content-type", ""):
+                html_txt = (corpo + r.raw.read(400000, decode_content=True)).decode("utf-8", "replace")
+                refs = sorted(set(re.findall(r'(?:href|action|src)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt) and
+                                  [x or y for x, y in re.findall(r'(?:href|action)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt)]))
+                print("DIAG_REFS", json.dumps(refs[:60], ensure_ascii=False))
+                print("DIAG_FORM", json.dumps(re.findall(r"<(?:input|select)[^>]*name=\"([^\"]+)\"", html_txt)[:30]))
             print("DIAG", json.dumps({"url": url, "final": r.url[:200], "http": r.status_code,
                                       "content_type": r.headers.get("content-type", ""),
                                       "length": r.headers.get("content-length"),
