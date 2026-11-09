@@ -178,7 +178,12 @@ def coletar_cnj_portal() -> dict:
         r = probe_get(url, probe)
         if r is None:
             continue
+        if kind == "html":
+            links = sorted(set(re.findall(r'href="([^"]+)"', r.text)))
+            links = [l for l in links if re.search(r"dje|diario|\.pdf|caderno", l, re.I)]
+            probe.append({"links_candidatos": links[:40]})
         if kind == "rss":
+            r._content = re.sub(rb"&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)", b"&amp;", r.content)
             try:
                 itens = parse_rss(r)
             except ET.ParseError as exc:
