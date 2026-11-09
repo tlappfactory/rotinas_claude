@@ -220,7 +220,24 @@ DIAGNOSTICO = [
 MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
 
+def diagnostico_dje_cnj() -> None:
+    """Imprime o corpo (não só o início) da página do DJe do CNJ e o JS do calendário,
+    para descobrir como a listagem por data é consultada. Só GET públicos."""
+    base = "https://www.cnj.jus.br/dje/"
+    for rel in ("djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+                "infra/js/calendario.js"):
+        try:
+            r = requests.get(base + rel, headers=HEADERS, timeout=TIMEOUT)
+            txt = re.sub(r"\s+", " ", r.text)
+            print("DJE_CORPO", rel[:40], r.status_code, len(r.text))
+            for i in range(0, min(len(txt), 9000), 1500):
+                print("DJE_CORPO", i, txt[i:i + 1500])
+        except requests.RequestException as exc:
+            print("DJE_CORPO erro", rel[:40], f"{type(exc).__name__}: {exc}"[:150])
+
+
 def diagnostico() -> None:
+    diagnostico_dje_cnj()
     hoje = date.today()
     for tmpl in DIAGNOSTICO:
         url = tmpl.format(ano=hoje.year, mes=MESES[hoje.month - 1], dia=hoje.day)
