@@ -212,11 +212,48 @@ def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
     return sel, fora
 
 
+# Vias ALTERNATIVAS legítimas (mesmos sites públicos, sem disfarce): só sondagem,
+# para descobrir se vale implementar coleta. Nenhuma é usada pelo boletim ainda.
+DIAGNOSTICO = [
+    "https://diario.jt.jus.br/cadernos/Diario_J_CSJT.pdf",
+    "https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf",
+    "https://sintse.tse.jus.br/documentos/{ano}/{mes}/{dia}/diario-da-justica-eletronico-cnj",
+    "https://sintse.tse.jus.br/documentos/{ano}/{mes}/",
+    "https://atos.cnj.jus.br/atos",
+    "https://atos.cnj.jus.br/atos/detalhar/6972",
+    "https://www.cnj.jus.br/dje",
+    "https://comunica.pje.jus.br/",
+]
+MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+
+
+def diagnostico() -> None:
+    hoje = date.today()
+    for tmpl in DIAGNOSTICO:
+        url = tmpl.format(ano=hoje.year, mes=MESES[hoje.month - 1], dia=hoje.day)
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
+            corpo = next(r.iter_content(600), b"")
+            links = ""
+            print("DIAG", json.dumps({"url": url, "final": r.url[:200], "http": r.status_code,
+                                      "content_type": r.headers.get("content-type", ""),
+                                      "length": r.headers.get("content-length"),
+                                      "last_modified": r.headers.get("last-modified"),
+                                      "inicio": corpo[:300].decode("latin-1").replace("\n", " ")}, ensure_ascii=False))
+            r.close()
+        except requests.RequestException as exc:
+            print("DIAG", json.dumps({"url": url, "erro": f"{type(exc).__name__}: {exc}"[:200]}, ensure_ascii=False))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--diagnostico", action="store_true", help="só sonda vias alternativas e imprime")
     ap.add_argument("--lookback", type=int, default=4)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if a.diagnostico:
+        diagnostico()
+        return
     hoje = date.today()
     ini = (hoje - timedelta(days=a.lookback)).isoformat()
     fim = hoje.isoformat()

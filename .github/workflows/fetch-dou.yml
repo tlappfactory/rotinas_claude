@@ -156,6 +156,7 @@ jobs:
         # no JSON (ok | no_feed | error) e `probe` guarda o HTTP de cada tentativa.
         run: |
           mkdir -p diarios
+          if [ "${{ inputs.sonda_diarios }}" = "true" ]; then python scripts/fetch_diarios.py --diagnostico; fi
           python scripts/fetch_diarios.py --lookback 4 || \
             echo "AVISO: fetch_diarios.py falhou — DJEN/DJe-CNJ serão marcados como fontes não consultadas."
 
