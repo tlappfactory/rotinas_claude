@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-09T22:59:32Z",
+  "run_utc": "2026-11-09T23:10:13Z",
   "lookback_days": 7,
   "desde": "2026-11-02",
   "fontes": {
@@ -14,12 +14,12 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-02T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 23023,
-          "inicio": "[{\"id\":167665,\"date\":\"2026-11-09T19:58:27\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/presidente-do-stf-arquiva-inquerito-das-fake-news-inquerito-4-781\\/\",\"title\":{\"rendered\":\"Presidente do STF arquiva inqu\\u00e9rito das fake news (Inqu\\u00e9rito 4.781)\"},\"excerpt\":{\"rendered\":\"<p>Decis\\u"
+          "bytes": 23022,
+          "inicio": "[{\"id\":167665,\"date\":\"2026-11-09T19:58:27\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/presidente-do-stf-arquiva-inquerito-das-fake-news-inquerito-4-781\\/\",\"title\":{\"rendered\":\"Presidente do STF arquiva inqu\\u00e9rito das fake news (Inqu\\u00e9rito 4781)\"},\"excerpt\":{\"rendered\":\"<p>Decis\\u0"
         },
         {
           "amostra_titulos": [
-            "Presidente do STF arquiva inquérito das fake news (Inquérito 4.781)",
+            "Presidente do STF arquiva inquérito das fake news (Inquérito 4781)",
             "Ouvidoria da Mulher do STF compartilha experiências de acolhimento e proteção em encontro ",
             "STF lança programa de incentivo à preparação de pessoas negras, indígenas e quilombolas pa",
             "STF suspende punição aplicada pelo CNJ à juíza Gabriela Hardt",
