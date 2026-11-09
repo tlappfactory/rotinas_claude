@@ -216,7 +216,6 @@ def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
 # para descobrir se vale implementar coleta. Nenhuma é usada pelo boletim ainda.
 DIAGNOSTICO = [
     "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-    "https://atos.cnj.jus.br/atos",
 ]
 MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
@@ -232,6 +231,9 @@ def diagnostico() -> None:
                 html_txt = (corpo + r.raw.read(400000, decode_content=True)).decode("utf-8", "replace")
                 refs = sorted(set(re.findall(r'(?:href|action|src)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt) and
                                   [x or y for x, y in re.findall(r'(?:href|action)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt)]))
+                colapsado = re.sub(r"\s+", " ", html_txt)
+                for i in range(0, min(len(colapsado), 24000), 1500):
+                    print("DIAG_HTML", i, colapsado[i:i + 1500])
                 print("DIAG_REFS", json.dumps(refs[:60], ensure_ascii=False))
                 print("DIAG_FORM", json.dumps(re.findall(r"<(?:input|select)[^>]*name=\"([^\"]+)\"", html_txt)[:30]))
             print("DIAG", json.dumps({"url": url, "final": r.url[:200], "http": r.status_code,
