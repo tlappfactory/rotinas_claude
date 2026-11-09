@@ -34,10 +34,10 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
-import xml.etree.ElementTree as ET
+import tempfile
 from datetime import date, datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import requests
@@ -56,14 +56,8 @@ HEADERS = {"User-Agent": "rotinas-claude-trt17/1.0 (+boletim-normativo)",
            "Accept": "application/json, application/rss+xml, application/xml, text/html;q=0.8, */*;q=0.5"}
 
 DJEN_API = "https://comunicaapi.pje.jus.br/api/v1/comunicacao"
-DJEN_SIGLAS = {"djen_csjt": "CSJT", "djen_cnj": "CNJ"}
-
-# Portal do CNJ: candidatas sondadas (o formato exato é descoberto pelo `probe`).
-CNJ_CANDIDATAS = [
-    ("rss", "https://www.cnj.jus.br/feed/"),
-    ("html", "https://www.cnj.jus.br/diario-da-justica-eletronico/"),
-    ("html", "https://www.cnj.jus.br/atos-normativos/"),
-]
+# O CNJ deixou de publicar no DJEN em 2020; seu DJe é o sistema próprio em cnj.jus.br/dje.
+DJEN_SIGLAS = {"djen_csjt": "CSJT"}
 
 TEMA_EXTRA = [
     r"\bservidor(?:es)? public", r"\bmagistrad", r"\bteto\b", r"\bremuneracao\b", r"\bvencimentos?\b",
@@ -153,47 +147,81 @@ def coletar_djen(sigla: str, ini: str, fim: str) -> dict:
     return {"status": status, "endpoint": DJEN_API, "itens": itens, "probe": probe}
 
 
-def parse_rss(r: requests.Response) -> list[dict]:
+DJE_CNJ_URL = "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData"
+PDF_MAX_BYTES = 60 * 1024 * 1024
+BLOCOS_MAX = 40
+
+
+def extrair_ultima_edicao(html_txt: str) -> dict | None:
+    """Lê a tabela "Última Edição - DJ-e" da página pública do DJe do CNJ."""
+    linha = re.search(r"<tbody>\s*<tr>(.*?)</tr>", html_txt, re.S)
+    if not linha:
+        return None
+    tds = re.findall(r"<td[^>]*>(.*?)</td>", linha.group(1), re.S)
+    if len(tds) < 4:
+        return None
+    link = re.search(r"href\s*=\s*'([^']+)'", tds[3])
+    if not link:
+        return None
+    ano, numero, data = (strip_html(t) for t in tds[:3])
+    dd, mm, aaaa = data.split("/")
+    pdf = html.unescape(link.group(1)).replace("http://www.cnj.jus.br:80", "https://www.cnj.jus.br")
+    return {"ano": ano, "numero": numero, "data": f"{aaaa}-{mm}-{dd}", "pdf": pdf}
+
+
+def blocos_tematicos(texto: str) -> list[str]:
+    """Separa o texto do caderno em blocos e fica com os que casam com o vocabulário SGP."""
     out = []
-    root = ET.fromstring(r.content)
-    for it in root.iter():
-        if it.tag.split("}")[-1] not in ("item", "entry"):
+    for b in re.split(r"\n\s*\n", texto):
+        b = re.sub(r"\s+", " ", b).strip()
+        if len(b) < 80:
             continue
-        g = lambda n: next((strip_html(e.text or "") for e in it if e.tag.split("}")[-1] == n and (e.text or "").strip()), "")
-        link = g("link") or next((e.attrib.get("href", "") for e in it if e.tag.split("}")[-1] == "link"), "")
-        raw = g("pubDate") or g("published") or g("updated")
-        try:
-            d = parsedate_to_datetime(raw).date().isoformat()
-        except (TypeError, ValueError):
-            d = raw[:10]
-        out.append({"fonte": "DJE_CNJ", "id": link, "data": d, "tipo": "", "classe": "", "orgao": "CNJ",
-                    "numero_processo": "", "titulo": g("title"),
-                    "resumo": (g("description") or g("summary"))[:TRECHO_MAX], "texto_truncated": False, "url": link})
+        n = normalize(b)
+        if SIGILO.search(n):
+            continue
+        if match_patterns(n, STRONG_KEYWORDS) or any(re.search(p, n) for p in TEMA_EXTRA):
+            out.append(b)
     return out
 
 
-def coletar_cnj_portal() -> dict:
+def coletar_dje_cnj() -> dict:
+    """DJe do CNJ: baixa o PDF assinado da última edição (página pública) e extrai blocos temáticos."""
     probe: list = []
-    for kind, url in CNJ_CANDIDATAS:
-        r = probe_get(url, probe)
-        if r is None:
-            continue
-        if kind == "html":
-            links = sorted(set(re.findall(r'href="([^"]+)"', r.text)))
-            links = [l for l in links if re.search(r"dje|diario|\.pdf|caderno", l, re.I)]
-            probe.append({"links_candidatos": links[:40]})
-        if kind == "rss":
-            r._content = re.sub(rb"&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)", b"&amp;", r.content)
-            try:
-                itens = parse_rss(r)
-            except ET.ParseError as exc:
-                probe.append({"erro": f"RSS inválido: {exc}"[:150]})
-                continue
-            if itens:
-                return {"status": "ok", "endpoint": url, "itens": itens, "probe": probe}
-        # HTML: só registra no probe (formato a descobrir); não infere itens de páginas livres.
-    houve_erro = any("erro" in p or p.get("http", 200) >= 400 for p in probe)
-    return {"status": "error" if houve_erro else "no_feed", "endpoint": None, "itens": [], "probe": probe}
+    r = probe_get(DJE_CNJ_URL, probe)
+    if r is None:
+        return {"status": "error", "endpoint": DJE_CNJ_URL, "itens": [], "probe": probe}
+    ed = extrair_ultima_edicao(r.text)
+    if not ed:
+        probe.append({"erro": "tabela da última edição não encontrada (layout mudou?)"})
+        return {"status": "error", "endpoint": DJE_CNJ_URL, "itens": [], "probe": probe}
+    probe.append({"edicao": ed})
+    try:
+        pdf = requests.get(ed["pdf"], headers=HEADERS, timeout=120)
+    except requests.RequestException as exc:
+        probe.append({"erro": f"download do PDF: {type(exc).__name__}: {exc}"[:200]})
+        return {"status": "error", "endpoint": DJE_CNJ_URL, "itens": [], "probe": probe}
+    probe.append({"pdf_http": pdf.status_code, "bytes": len(pdf.content)})
+    if pdf.status_code != 200 or not pdf.content.startswith(b"%PDF") or len(pdf.content) > PDF_MAX_BYTES:
+        probe.append({"erro": "PDF inválido, ausente ou grande demais"})
+        return {"status": "error", "endpoint": DJE_CNJ_URL, "itens": [], "probe": probe}
+    with tempfile.TemporaryDirectory() as tmp:
+        f = Path(tmp) / "dje.pdf"
+        f.write_bytes(pdf.content)
+        try:
+            txt = subprocess.run(["pdftotext", "-layout", str(f), "-"], capture_output=True, text=True,
+                                 timeout=180, check=True).stdout
+        except (OSError, subprocess.SubprocessError) as exc:
+            probe.append({"erro": f"pdftotext: {type(exc).__name__}: {exc}"[:200]})
+            return {"status": "error", "endpoint": DJE_CNJ_URL, "itens": [], "probe": probe}
+    blocos = blocos_tematicos(txt)
+    probe.append({"chars_texto": len(txt), "blocos_tematicos": len(blocos)})
+    itens = [{"fonte": "DJE_CNJ", "id": f"DJ{ed['numero']}_{ed['ano']}#{i}", "data": ed["data"],
+              "tipo": "Diário da Justiça Eletrônico do CNJ", "classe": "", "orgao": "CNJ", "numero_processo": "",
+              "titulo": f"DJe CNJ nº {ed['numero']}/{ed['ano']}",
+              "resumo": b[:TRECHO_MAX], "texto_truncated": len(b) > TRECHO_MAX, "url": ed["pdf"]}
+             for i, b in enumerate(blocos[:BLOCOS_MAX], 1)]
+    return {"status": "ok", "endpoint": DJE_CNJ_URL, "itens": itens, "probe": probe,
+            "edicao": f"{ed['numero']}/{ed['ano']}", "data_edicao": ed["data"]}
 
 
 def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
@@ -212,78 +240,24 @@ def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
     return sel, fora
 
 
-# Vias ALTERNATIVAS legítimas (mesmos sites públicos, sem disfarce): só sondagem,
-# para descobrir se vale implementar coleta. Nenhuma é usada pelo boletim ainda.
-DIAGNOSTICO = [
-    "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-]
-MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
-
-
-def diagnostico_dje_cnj() -> None:
-    """Imprime o corpo (não só o início) da página do DJe do CNJ e o JS do calendário,
-    para descobrir como a listagem por data é consultada. Só GET públicos."""
-    base = "https://www.cnj.jus.br/dje/"
-    for rel in ("djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-                "infra/js/calendario.js"):
-        try:
-            r = requests.get(base + rel, headers=HEADERS, timeout=TIMEOUT)
-            txt = re.sub(r"\s+", " ", r.text)
-            print("DJE_CORPO", rel[:40], r.status_code, len(r.text))
-            for i in range(0, min(len(txt), 9000), 1500):
-                print("DJE_CORPO", i, txt[i:i + 1500])
-        except requests.RequestException as exc:
-            print("DJE_CORPO erro", rel[:40], f"{type(exc).__name__}: {exc}"[:150])
-
-
-def diagnostico() -> None:
-    diagnostico_dje_cnj()
-    hoje = date.today()
-    for tmpl in DIAGNOSTICO:
-        url = tmpl.format(ano=hoje.year, mes=MESES[hoje.month - 1], dia=hoje.day)
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
-            corpo = next(r.iter_content(600), b"")
-            if r.status_code == 200 and "html" in r.headers.get("content-type", ""):
-                html_txt = (corpo + r.raw.read(400000, decode_content=True)).decode("utf-8", "replace")
-                refs = sorted(set(re.findall(r'(?:href|action|src)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt) and
-                                  [x or y for x, y in re.findall(r'(?:href|action)="([^"]+)"|url\s*:\s*[\'"]([^\'"]+)', html_txt)]))
-                colapsado = re.sub(r"\s+", " ", html_txt)
-                for i in range(0, min(len(colapsado), 24000), 1500):
-                    print("DIAG_HTML", i, colapsado[i:i + 1500])
-                print("DIAG_REFS", json.dumps(refs[:60], ensure_ascii=False))
-                print("DIAG_FORM", json.dumps(re.findall(r"<(?:input|select)[^>]*name=\"([^\"]+)\"", html_txt)[:30]))
-            print("DIAG", json.dumps({"url": url, "final": r.url[:200], "http": r.status_code,
-                                      "content_type": r.headers.get("content-type", ""),
-                                      "length": r.headers.get("content-length"),
-                                      "last_modified": r.headers.get("last-modified"),
-                                      "inicio": corpo[:300].decode("latin-1").replace("\n", " ")}, ensure_ascii=False))
-            r.close()
-        except requests.RequestException as exc:
-            print("DIAG", json.dumps({"url": url, "erro": f"{type(exc).__name__}: {exc}"[:200]}, ensure_ascii=False))
-
-
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--diagnostico", action="store_true", help="só sonda vias alternativas e imprime")
     ap.add_argument("--lookback", type=int, default=4)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    if a.diagnostico:
-        diagnostico()
-        return
     hoje = date.today()
     ini = (hoje - timedelta(days=a.lookback)).isoformat()
     fim = hoje.isoformat()
     payload = {"run_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                "lookback_days": a.lookback, "desde": ini, "ate": fim, "fontes": {}, "articles": []}
     resultados = {k: coletar_djen(s, ini, fim) for k, s in DJEN_SIGLAS.items()}
-    resultados["dje_cnj"] = coletar_cnj_portal()
+    resultados["dje_cnj"] = coletar_dje_cnj()
     for nome, res in resultados.items():
         sel, fora = filtrar(res["itens"], ini)
         payload["fontes"][nome] = {"status": res["status"], "endpoint": res.get("endpoint"),
                                    "itens_vistos": len(res["itens"]), "fora_da_janela": fora,
-                                   "selecionados": len(sel), "probe": res["probe"]}
+                                   "selecionados": len(sel), "probe": res["probe"],
+                                   **{k: res[k] for k in ("edicao", "data_edicao") if k in res}}
         payload["articles"] += [{"origem": nome, **s} for s in sel]
         print(f"{nome}: {res['status']} vistos={len(res['itens'])} selecionados={len(sel)}")
         for p in res["probe"]:
