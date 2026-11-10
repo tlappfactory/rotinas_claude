@@ -1,12 +1,12 @@
 {
   "date": "2026-11-10",
   "total_xml_files": 1179,
-  "matched_articles": 149,
+  "matched_articles": 148,
   "discarded_individual_acts": {
-    "total": 84,
+    "total": 82,
     "by_section": {
       "DO1": 4,
-      "DO2": 80
+      "DO2": 78
     }
   },
   "parse_errors": [],
@@ -1751,35 +1751,6 @@
       "xml_file": "DO2_0339.xml"
     },
     {
-      "id": "portaria-de-pessoal-ssc/mgi-n-13.464-de-9-de-novembro-de-2026-743324133",
-      "section": "DO2",
-      "pub_date": "10/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
-      "identifica": "PORTARIA DE PESSOAL SSC/MGI Nº 13.464, DE 9 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL SSC/MGI Nº 13.464, DE 9 DE NOVEMBRO DE 2026 A SECRETÁRIA DE SERVIÇOS COMPARTILHADOS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pelo art. 12 da Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026, e demais informações que constam do Processo nº 12804.002711/2026-90, resolve: Art. 1º Dispensar, a contar de 5 de novembro de 2026, LUIS OCTAVIO JORGE DE VASCONCELOS LIMA, matrícula Siape nº 1749784, do encargo de substituto eventual da Função Comissionada Executiva de Coordenador de Inteligência em Serviços Compartilhados, código FCE 1.10, da Coordenação-Geral de Inteligência e Governança Digital da Diretoria de Tecnologia da Informação da Secretaria de Serviços Compartilhados deste Ministério. Art. 2º Esta Portaria entra em vigor na data de sua publicação. ISABELA GOMES GEBRIM",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "46",
-      "edition": "211",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-ssc/mgi-n-13.464-de-9-de-novembro-de-2026-743324133",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11,
-      "xml_file": "DO2_0014.xml"
-    },
-    {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.465-de-9-de-novembro-de-2026-743284344",
       "section": "DO2",
       "pub_date": "10/11/2026",
@@ -2613,6 +2584,33 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "DO2_0460.xml"
+    },
+    {
+      "id": "portaria-de-pessoal-ssc/mgi-n-13.464-de-9-de-novembro-de-2026-743324133",
+      "section": "DO2",
+      "pub_date": "10/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
+      "identifica": "PORTARIA DE PESSOAL SSC/MGI Nº 13.464, DE 9 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DE PESSOAL SSC/MGI Nº 13.464, DE 9 DE NOVEMBRO DE 2026 A SECRETÁRIA DE SERVIÇOS COMPARTILHADOS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pelo art. 12 da Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026, e demais informações que constam do Processo nº 12804.002711/2026-90, r...",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "46",
+      "edition": "211",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-ssc/mgi-n-13.464-de-9-de-novembro-de-2026-743324133",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "DO2_0014.xml"
     },
     {
       "id": "portaria-depro/sgp/mgi-n-13.339-de-4-de-novembro-de-2026-743289841",
@@ -3870,33 +3868,6 @@
       "xml_file": "DO2_0205.xml"
     },
     {
-      "id": "portaria-n-2.566-de-4-de-novembro-de-2026-743296739",
-      "section": "DO2",
-      "pub_date": "10/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Educação/Universidade Federal Fluminense",
-      "identifica": "PORTARIA Nº 2.566, DE 4 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Educação/Universidade Federal Fluminense",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 2.566, DE 4 DE NOVEMBRO DE 2026 O REITOR EM EXERCÍCIO DA UNIVERSIDADE FEDERAL FLUMINENSE, no uso de suas atribuições resolve: Retificar a Portaria nº 1.550 de 31/08/2026, publicada no DOU de 22/09/2026, seção 2, página 27, referente à nomeação de EMILIA JOMALINIS DE MEDEIROS SILVA, onde se lê: no código de vaga 916999, destinado ao provimento, é oriundo de vacância (Resolução CEPEx/UFF nº 1.932/2023). A vacância corresponde à redistribuição do(a) docente Antonio Henrique Bernardes, publicada pela Portaria nº 335, DOU nº 91, seção 2, página 25, em 18/05/2026; leia-se: no código de vaga 929479, destinado ao provimento, é oriundo de vacância. A vacância corresponde à redistribuição do(a) docente Antonio Henrique Bernardes, publicada pela Portaria Conjunta SGA-MEC/SGP-MGI nº 337, de 14/05/2026, DOU nº 91, seção 2, página 25, em 18/05/2026. FABIO BARBOZA PASSOS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "24",
-      "edition": "211",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-2.566-de-4-de-novembro-de-2026-743296739",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0001.xml"
-    },
-    {
       "id": "portaria-n-284/mb/md-de-9-de-novembro-de-2026-743316236",
       "section": "DO2",
       "pub_date": "10/11/2026",
@@ -4311,8 +4282,8 @@
       "DO1E": 0,
       "DO2E": 1
     },
-    "atos_com_texto_integral": 1179,
+    "atos_com_texto_integral": 1155,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-10T20:23:46Z"
+    "coletado_em": "2026-11-10T20:38:10Z"
   }
 }
