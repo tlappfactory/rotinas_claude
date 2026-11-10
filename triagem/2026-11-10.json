@@ -1,0 +1,107 @@
+{
+ "data": "2026-11-10",
+ "timestamp": "10/11/2026, 11h30 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": ""
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "Ato TRT-17 nº 28, de 06/11/2026 — aposentadoria por incapacidade permanente (Técnico Judiciário, Polícia Judicial)",
+   "ementa": "Concede aposentadoria por incapacidade permanente a servidor do quadro do TRT-17, com efeitos financeiros a partir da publicação (art. 188 da Lei 8.112/1990). Publicado também no DEJT (Ato PRESI/DIGER/SGP/COLEP/SESES nº 17/2026, disponibilizado em 09/11).",
+   "unidades": "SESES, SELEP, DIPROF",
+   "acao": "Providenciar rotinas de inativação, proventos e baixa de rubricas ativas.",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 78"
+  },
+  {
+   "titulo": "Portarias TRT-17 nº 608 a 617/2026 — dispensas, designações, nomeação e exoneração de funções comissionadas (Vara do Trabalho de Linhares e 13ª VT de Vitória)",
+   "ementa": "Lote de atos de movimentação de FC/CC publicado no DEJT e no DOU (Portarias de 06/11/2026).",
+   "unidades": "SELEP, SELIR, CODOP",
+   "acao": "Atualizar registros funcionais e pagamento de FC/CC conforme as datas de vigência.",
+   "linhas": [
+    "Nº 609 — dispensa e designação simultânea de FC-05 (Assistente de Juiz): 13ª VT Vitória → VT Linhares",
+    "Nº 611 — dispensa de FC-04 (Assistente de Gabinete de 1º Grau), 13ª VT Vitória",
+    "Nº 612 — nomeação para CJ-03 (Diretor de Secretaria), VT Linhares",
+    "Nº 613 — exoneração de CJ-03 (Diretor de Secretaria), VT Linhares",
+    "Nº 614 — designação para FC-04 (Assistente de Secretaria), VT Linhares",
+    "Nº 615 — dispensa de FC-05 (Assistente de Juiz), VT Linhares",
+    "Nº 616 — dispensa de FC-04 (Assistente de Secretaria) e designação simultânea de FC-04 (Calculista), servidor requisitado, VT Linhares",
+    "Nº 617 — dispensa de FC-04 (Calculista) e designação simultânea de FC-04 (Assistente de Gabinete de 1º Grau), VT Linhares",
+    "Nºs 608 e 610 — constam do DEJT; [carece de leitura humana do texto integral — conferir no DEJT]"
+   ],
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (disponibilização 09/11) / DOU Seção 2, p. 77"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "Edital TRT-17 nº 13/2026 — promoção por merecimento ao cargo de Juiz Titular da VT de São Mateus",
+   "ementa": "Abertura de promoção por merecimento (CF art. 93; Res. CNJ 106/2010; RA TRT-17 139/2022), em razão de vacância decorrente de cadeia de remoções.",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "Edital TRT-17 nº 02/2026 — fixação de Juízes Substitutos (12ª e 13ª VTs de Vitória)",
+   "ementa": "Prazo de 5 dias para manifestação de interesse dos magistrados à Corregedoria Regional, por antiguidade (RA 18/2015).",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "Solução de Consulta RFB nº 219, de 06/11/2026 — CPRB: retenção em contratação de serviços com cessão de mão de obra",
+   "ementa": "Entre 01/01/2025 e 31/12/2027, retenção de 3,5% do valor bruto da nota fiscal na contratação de empresas sujeitas à CPRB; a partir de 01/01/2028, 11%. [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "DIPROF, COREP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 45"
+  },
+  {
+   "titulo": "Portaria TCU nº 167/2026 e Portaria TRT-2 DG/SGP nº 907/2026 — reversão de aposentadoria",
+   "ementa": "Atos de reversão de aposentadoria (art. 25 da Lei 8.112/1990) em outros órgãos (TCU, inciso II; TRT-2, inciso I). Referência para a prática de reversão.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 69 e p. 75"
+  },
+  {
+   "titulo": "Atos de outros órgãos do Judiciário — designações e requisições",
+   "ementa": "Portaria STF/SGP nº 211 (designação de FC-6, substituição); Ato TST nº 673 (substituto de CJ-3); Ato CSJT.GP.SG nº 143 (convocação de Juíza Auxiliar da Presidência do CSJT); Portaria CN/CNJ nº 130 (requisição de servidora de TJ).",
+   "unidades": "SELEP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 71–72; Ato CSJT.GP.SG nº 143"
+  },
+  {
+   "titulo": "Ato TRT-11 nº 86/SGP, de 09/11/2026 — provimento de cargos de concurso (Ofício Circular CSJT.GP.SG.SGPES nº 80/2026)",
+   "ementa": "Faz referência à distribuição, pelo CSJT, de autorização de provimento de cargos entre Regionais. [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "SGP-direção, COREP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 76"
+  },
+  {
+   "titulo": "Portaria GP nº 1.421/2026 (TRT-14) — gestão estratégica e capital humano / competências",
+   "ementa": "Ato de outro Regional sobre instrumentos de gestão e capital humano. [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "SEGECOP, SEGEDE",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 77"
+  },
+  {
+   "titulo": "Portarias CGBEN/DECIPEX/SGP/MGI — concessões de aposentadoria e pensão do Executivo federal",
+   "ementa": "Cerca de 30 portarias de concessão/revisão de benefícios (Portarias CGBEN/DECIPEX/SGP/MGI de 30/09 a 09/11/2026), de servidores de outros órgãos; sem relação direta com o quadro do TRT-17. Outros atos de pessoal do Executivo, IFs e universidades também selecionados e sem pertinência direta.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=10-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 43–46"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "Acórdãos do TCU — apreciação de atos de aposentadoria e pensão (sessões de 27/10 a 04/11/2026)",
+   "status": "48 acórdãos selecionados pelo filtro. Predominam: cumulação indevida de quintos/décimos com a parcela \"opção\" (Ac. 5711, 5708, 5793, 5785, 5776, 5260, 5252 e outros, 1ª e 2ª Câmaras); vencimento básico complementar (VBC) da Lei 11.091/2005 e reflexo no ATS (Ac. 5716, 5713, 5707, 5341, 5337); regra de transição do art. 20 da EC 103/2019 (Ac. 5775, 5715, 5253, 5782); URP de fevereiro/1989 (Ac. 5774, 5702); pensão civil, incluindo reexame envolvendo o TST (Ac. 5351/2026, 2ª Câmara). Ac. 3006/2026 (Plenário, 04/11): filiação socioafetiva post mortem e pensão civil. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo em quintos/ATS, VBC e instrução de aposentadorias e pensões (SESES/SELEP). Triar por interesse — acórdãos decididos caso a caso.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "TCU — pesquisa de jurisprudência (acórdãos das sessões de 27/10 a 04/11/2026; 48 selecionados)"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 10/11/2026 (149 atos selecionados; 84 atos individuais de pessoal de outros órgãos descartados pelo filtro; Seções Extras sem edição); DEJT Caderno Administrativo TRT-17, publicação 10/11/2026: 13 atos, todos triados; DEJT CSJT publicação 10/11/2026: 3 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos de gestão do CSJT); DEJT TST publicação 10/11/2026: 6 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos de gestão do TST); acórdãos do TCU das sessões de 27/10 a 04/11/2026 (48 selecionados); DJe do CNJ, edição 267/2026 de 10/11/2026: sem blocos pertinentes à SGP; jurisprudência do STF e do STJ (7 dias): sem precedente vinculante pertinente à SGP identificado.",
+ "fontes_sem_retorno": "DJEN/CSJT (acórdãos do CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br."
+}
