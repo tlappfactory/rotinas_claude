@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-10T00:36:55Z",
+  "run_utc": "2026-11-10T14:46:16Z",
   "lookback_days": 7,
   "desde": "2026-11-03",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 45,
+      "itens_vistos": 46,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-03T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 23087,
-          "inicio": "[{\"id\":167659,\"date\":\"2026-11-09T21:07:55\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-realiza-escuta-territorializada-com-comunidades-ribeirinhas-nas-ilhas-de-ananindeua-pa\\/\",\"title\":{\"rendered\":\"STF realiza escuta territorializada com comunidades ribeirinhas nas ilhas de Ananindeua "
+          "bytes": 23521,
+          "inicio": "[{\"id\":167669,\"date\":\"2026-11-10T10:00:32\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-lanca-podcast-com-entrevistas-e-debates-sobre-direito-constitucional\\/\",\"title\":{\"rendered\":\"STF lan\\u00e7a podcast com entrevistas e debates sobre direito constitucional\"},\"excerpt\":{\"rendered\":\"<p>"
         },
         {
           "amostra_titulos": [
+            "STF lança podcast com entrevistas e debates sobre direito constitucional",
             "STF realiza escuta territorializada com comunidades ribeirinhas nas ilhas de Ananindeua (P",
             "Presidente do STF arquiva inquérito das fake news (Inquérito 4781)",
             "Ouvidoria da Mulher do STF compartilha experiências de acolhimento e proteção em encontro ",
             "STF lança programa de incentivo à preparação de pessoas negras, indígenas e quilombolas pa",
-            "STF suspende punição aplicada pelo CNJ à juíza Gabriela Hardt",
-            "Em curso internacional no STF, Fachin defende cooperação entre tribunais constitucionais"
+            "STF suspende punição aplicada pelo CNJ à juíza Gabriela Hardt"
           ]
         }
       ]
