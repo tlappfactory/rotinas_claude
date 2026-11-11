@@ -241,7 +241,7 @@
       ],
       "weak_keywords": [],
       "score": 25,
-      "xml_file": "DO2_0167.xml"
+      "xml_file": "DO2_0187.xml"
     },
     {
       "id": "ato-n-675-de-10-de-novembro-de-2026-743638158",
@@ -271,7 +271,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0260.xml"
+      "xml_file": "DO2_0182.xml"
     },
     {
       "id": "edital-de-notificacao-n-128/2026-743602496",
@@ -571,7 +571,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0245.xml"
+      "xml_file": "DO2_0167.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-13.576-de-10-de-novembro-de-2026-743584086",
@@ -811,7 +811,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0228.xml"
+      "xml_file": "DO2_0248.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.579-de-10-de-novembro-de-2026-743609342",
@@ -931,7 +931,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0263.xml"
+      "xml_file": "DO2_0185.xml"
     },
     {
       "id": "portaria/mgi-n-8.700-de-16-de-outubro-de-2026-743634611",
@@ -1532,7 +1532,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0229.xml"
+      "xml_file": "DO2_0249.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.577-de-10-de-novembro-de-2026-743607392",
@@ -1590,7 +1590,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0225.xml"
+      "xml_file": "DO2_0245.xml"
     },
     {
       "id": "portaria-sgp-n-212-de-9-de-novembro-de-2026-743615748",
@@ -1648,7 +1648,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0177.xml"
+      "xml_file": "DO2_0197.xml"
     },
     {
       "id": "portaria-stj/gdg-n-1.007-de-9-de-novembro-de-2026-743609211",
@@ -1735,7 +1735,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0255.xml"
+      "xml_file": "DO2_0177.xml"
     },
     {
       "id": "portaria-stj/gp-n-941-de-6-de-novembro-de-2026-743613403",
@@ -1846,7 +1846,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0218.xml"
+      "xml_file": "DO2_0238.xml"
     },
     {
       "id": "ato-n-4.950-de-9-de-novembro-de-2026-743626567",
@@ -2225,7 +2225,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0233.xml"
+      "xml_file": "DO2_0253.xml"
     },
     {
       "id": "portaria-n-521-de-21-de-outubro-de-2026-743623967",
@@ -2333,7 +2333,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0261.xml"
+      "xml_file": "DO2_0183.xml"
     },
     {
       "id": "portaria-n-2.575-de-5-de-novembro-de-2026-743630524",
@@ -3400,7 +3400,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO2_0248.xml"
+      "xml_file": "DO2_0170.xml"
     },
     {
       "id": "portaria-de-pessoal-n-8-de-6-de-novembro-de-2026-743625901",
@@ -3441,6 +3441,6 @@
     },
     "atos_com_texto_integral": 1185,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-11T22:14:27Z"
+    "coletado_em": "2026-11-11T23:23:39Z"
   }
 }
