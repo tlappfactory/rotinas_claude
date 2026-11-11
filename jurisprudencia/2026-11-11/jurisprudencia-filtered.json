@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-11T16:55:33Z",
+  "run_utc": "2026-11-11T20:06:55Z",
   "lookback_days": 7,
   "desde": "2026-11-04",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 45,
+      "itens_vistos": 48,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-04T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 22740,
-          "inicio": "[{\"id\":167737,\"date\":\"2026-11-11T13:16:27\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-conquista-pela-primeira-vez-selo-diamante-de-transparencia-publica\\/\",\"title\":{\"rendered\":\"STF conquista pela primeira vez Selo Diamante de Transpar\\u00eancia P\\u00fablica\"},\"excerpt\":{\"rendered\":\"<p"
+          "bytes": 24220,
+          "inicio": "[{\"id\":167751,\"date\":\"2026-11-11T16:32:58\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/provedores-de-internet-questionam-lei-de-mt-que-exige-informacoes-de-velocidade-nas-faturas\\/\",\"title\":{\"rendered\":\"Provedores de internet questionam lei de MT que exige informa\\u00e7\\u00f5es de velocida"
         },
         {
           "amostra_titulos": [
+            "Provedores de internet questionam lei de MT que exige informações de velocidade nas fatura",
+            "Presidente do STF cumprimenta ministra Cármen Lúcia por prêmio do Conselho da Europa",
+            "Presidente do STF recebe presidente da Suprema Corte da Índia",
             "STF conquista pela primeira vez Selo Diamante de Transparência Pública",
             "Confira a pauta do STF desta quarta-feira (11)",
-            "Escala 5×2: relator decidirá sobre implementação da nova jornada até sexta-feira (13)",
-            "Associação questiona regras do CNJ sobre leilões judiciais",
-            "Companhia de saneamento do RJ deve pagar dívidas judiciais por precatórios, decide STF",
-            "STF autoriza buscas em investigação sobre suspeitas de desvio de emendas parlamentares na "
+            "Escala 5×2: relator decidirá sobre implementação da nova jornada até sexta-feira (13)"
           ]
         }
       ]
