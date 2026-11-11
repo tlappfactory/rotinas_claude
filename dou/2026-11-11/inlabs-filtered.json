@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "total_xml_files": 1182,
+  "total_xml_files": 1185,
   "matched_articles": 118,
   "discarded_individual_acts": {
     "total": 57,
@@ -3436,11 +3436,11 @@
     "atos_por_secao": {
       "DO1": 471,
       "DO2": 711,
-      "DO1E": 0,
+      "DO1E": 3,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1182,
+    "atos_com_texto_integral": 1185,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-11T20:06:26Z"
+    "coletado_em": "2026-11-11T22:14:27Z"
   }
 }
