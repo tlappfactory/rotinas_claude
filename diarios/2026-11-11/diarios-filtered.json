@@ -1,0 +1,310 @@
+{
+  "run_utc": "2026-11-11T16:55:37Z",
+  "lookback_days": 4,
+  "desde": "2026-11-07",
+  "ate": "2026-11-11",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-07&dataDisponibilizacaoFim=2026-11-11&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 17,
+      "fora_da_janela": 0,
+      "selecionados": 13,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13086,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "269",
+            "data": "2026-11-11",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 655284
+        },
+        {
+          "chars_texto": 151803,
+          "blocos_tematicos": 17
+        }
+      ],
+      "edicao": "269/2026",
+      "data_edicao": "2026-11-11"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#1",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "d) Convergência com as políticas judiciárias do CNJ O Conselho Nacional de Justiça já desenvolve ações diretamente alinhadas ao Acordo: • a Política Nacional do Poder Judiciário para o Meio Ambiente (Resolução CNJ nº 433/2021); • a Política de Sustentabilidade do Poder Judiciário, instituída pela Resolução CNJ nº 400/2021, que estabelece diretrizes para a gestão sustentável dos órgãos judiciais, incluindo a dimensão socioambiental das atividades institucionais, a gestão de recursos e a elaboração dos Planos de Logística Sustentável (PLS); • a Meta 6 das Metas Nacionais, que prioriza o julgamento das ações ambientais no Superior Tribunal de Justiça, na Justiça Estadual e na Justiça Federal, em consonância com a exigência de procedimentos oportunos (art. 8.3); • o SireneJud, painel que cruza, por georreferenciamento, dados das ações judiciais ambientais com informações sobre desmatamento, Cadastro Ambiental Rural, terras indígenas e unidades de conservação, em sintonia com os deveres de geração e difusão de informação (arts. 6º e 8.4); • a Resolução CNJ nº 646/2025, que institui o Protocolo de Crise Socioambiental do Poder Judiciário e determina a cada tribunal a elaboração de Plano de Contingência Socioambiental; • a Resolução CNJ nº 454/2022, que estabelece diretrizes para o acesso à justiça dos povos indígenas, e a Resolução CNJ nº 599/2024, que institui a Política Judiciária de Atenção às Comunidades Quilombolas, ambas relevantes para a remoção de barreiras específicas ao a",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#3",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "requerente questionou a cessão e a requisição de servidores pertencentes a órgãos de segurança pública externos para guarnecer as instalações do Poder Judiciário e para garantir a segurança institucional e pessoal de magistrados e servidores, sustentando que, sobretudo a partir da Lei n. 15.285/2025, as funções de segurança e de polícia institucional devem ser ocupadas por integrantes da carreira de Polícia Judicial dos próprios quadros. Por bem resumir o objeto deste Pedido de Providências, transcrevo o relatório da decisão recorrida (Id 6525781): Trata-se de Pedido de Providências (PP), com pedido liminar, proposto pela ASSOCIAÇÃO DOS SERVIDORES DA JUSTIÇA DO DISTRITO FEDERAL (ASSEJUS), no qual se questiona a cessão e a requisição de servidores pertencentes a órgãos de segurança pública externos para guarnecer as instalações do Poder Judiciário e garantir a segurança institucional e pessoal de magistrados e servidores. Afirma a requerente que, com a evolução normativa, em especial a partir da edição da Lei n. 15.285/2025, houve consolidação da Polícia Judicial como carreira específica e estruturada no âmbito do Poder Judiciário da União, com enquadramento dos cargos da área de segurança na área de apoio especializado e previsão de denominações funcionais próprias. Argumenta que as atividades de segurança institucional do Judiciário possuem natureza própria e distinta daquelas desempenhadas pelas demais forças de segurança pública, razão pela qual os cargos e funções corresp",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#4",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "órgãos de segurança pública externos. Ao contrário, a Resolução CNJ n. 435/2021, que dispõe sobre a política e o sistema nacional de segurança do Poder Judiciário, prevê expressamente essa possibilidade. Confira-se: Art. 21. Os(As) policiais federais, civis e militares da ativa, nomeados(as) ou designados(as) para atuarem em órgãos de segurança do Poder Judiciário, exercerão função de natureza estritamente policial para todos os fins e efeitos legais. § 1º Somente mediante previsão em lei ou convênio específico será admitida a atuação de policiais e bombeiros(as) militares nos tribunais, sujeita à fiscalização e ao controle deste Conselho e de todos os demais órgãos a ele subordinados. § 2º Em qualquer hipótese, a atuação dos(as) policiais e bombeiros(as) militares nos tribunais é restrita à segurança institucional e à segurança dos(as) magistrados(as) ameaçados(as). Como se vê, o próprio regime atualmente vigente admite a colaboração institucional de agentes externos, desde que observados os condicionamentos estabelecidos na regulamentação aplicável, notadamente a existência de previsão legal ou convênio específico e a limitação material de suas atribuições. Não há, portanto, base normativa para impor a exclusividade ampla pretendida pela requerente. Acolher o pedido significaria, em última análise, extrair das normas em vigor comando mais restritivo do que aquele efetivamente nelas contido e, por essa via, substituir o regime atualmente estabelecido por outro, de feição div",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "substituicao_fc_cc",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#7",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "e de tratamento desigual conferido a candidatos paradigma. As ações de exibição de documentos ajuizadas pelo recorrente têm justamente por objeto obter logs de sistema, metadados, pareceres técnicos revisionais e comunicações entre a Secretaria de Gestão de Pessoas do TJSP e a Fundação VUNESP relacionadas à análise documental e ao deferimento de recursos de outros candidatos. Trata-se, assim, de providência jurisdicional destinada a produzir prova sobre o mesmo conjunto de fatos que sustenta o presente PCA. Cumpre acentuar que a alegada quebra de isonomia no exame dos recursos administrativos foi esclarecida nos autos. Conforme a manifestação da Fundação VUNESP (Id 6610348), os candidatos indicados na petição inicial tiveram suas inscrições inicialmente indeferidas por suposto descumprimento da alínea \"c2\" do item 1.1 do Capítulo IV do edital de abertura, e o posterior deferimento de seus recursos decorreu da constatação de que a documentação exigida havia sido efetivamente encaminhada dentro do período de inscrições, conforme demonstram capturas de tela extraídas da área do candidato e reproduzidos naquela manifestação. O desfecho diverso tem causa, portanto, em situação fática distinta daquela em que se encontra o recorrente, que deixou de encaminhar o documento informado na autodeclaração. Nesse quadro, inexiste elemento nos autos capaz de indicar falha do TJSP no dever de fiscalização do contrato celebrado com a banca examinadora, cuja atuação, no ponto questionado, limit",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#9",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "A Corregedoria Nacional de Justiça do Conselho Nacional de Justiça comunica republicação da Instrução Normativa Corregedoria Nacional de Justiça nº 37, de 28 de outubro de 2026, disponibilizada no DJe/CNJ nº 259/2026, de 3 de novembro de 2026, p. 31, em razão de erro material. No Anexo, Parte A, Item 1, linha \"Reflexo do Abono de Permanência na Base de Cálculo da Gratificação Natalina\" (TRU-1021), campo \"Submissão ao teto\": onde se lê: \"Não se submete\"; leia-se: \"Cômputo isolado\".",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "abono_permanencia",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#10",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "§ 3º A inclusão de rubrica na TRU tem finalidade exclusivamente classificatória e não constitui autorização de pagamento nem reconhecimento da validade da parcela, que permanece condicionada ao respectivo fundamento normativo, à observância das teses fixadas pelo Supremo Tribunal Federal no julgamento dos Temas 966 e 976 da Repercussão Geral e aos controles do Sistema de Governança do Teto Constitucional (SISTETO), instituído pelo Provimento CN/CNJ nº 245/2026.\" (NR)",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao",
+        "teto_remuneratorio"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#11",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Art. 2º O Anexo I da Instrução Normativa CN/CNJ nº 36/2026 passa a vigorar acrescido: I – na Seção I, das linhas constantes do item 1 da Parte A do Anexo desta Instrução Normativa, inseridas após a linha \"Abono de Permanência — Decisões Judiciais Não Transitadas em Julgado\"; II – na Seção II, da linha constante do item 2 da Parte A do Anexo desta Instrução Normativa, inserida após a linha \"VPNI — Decisões Judiciais Não Transitadas em Julgado (Indenizatória)\"; III – na Seção VI, da linha constante do item 3 da Parte A do Anexo desta Instrução Normativa, inserida após a linha \"Descontos Previdenciários sobre Rendimentos Recebidos Acumuladamente (RRA)\"; e IV – da Nota 8, constante da Parte A do Anexo desta Instrução Normativa, inserida após a Nota 7.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "abono_permanencia",
+        "quintos_anuenios_ats"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#12",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "ANEXO — Parte A: inclusões no Anexo I da Instrução Normativa CN/CNJ nº 36/2026 Item 1 — Seção I — TRU-1NNN — Receitas de natureza remuneratória (linhas acrescidas após a linha \"Abono de Permanência — Decisões Judiciais Não Transitadas em Julgado\"): Nome da Verba Ativos Aposentados AposentadosBeneficiários Natureza da Submissão Habitualidade Base provisórios de pensão civil verba ao teto normativa Adicional de TRU-1020N/A N/A N/A Remuneratória Integral Permanente MP nº Permanência 2.215-10/2001, (Militar) art. 3º, VI, e Anexo II, Tabela VI; legislação estadual aplicável aos militares estaduais Reflexo do TRU-1021N/A N/A N/A Remuneratória Cômputo Anual CF, art. 7º, Abono de isolado VIII, c/c art. Permanência 39, § 3º, na Base de e art. 40, Cálculo da § 19; Tema Gratificação Repetitivo Natalina 1.233 do STJ; Res. Conjunta nº 14/2026, art. 4º, parágrafo único; Tema 966, item 6 Abono de TRU-1022N/A N/A N/A Remuneratória Não se Anual CF, art. 40, Permanência submete § 19; Tema — Gratificação 966, item 6 Natalina",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "abono_permanencia",
+        "aposentadoria",
+        "pensao",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#13",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Item 2 — Seção II — TRU-2NNN — Receitas de natureza indenizatória (linha acrescida após a linha \"VPNI — Decisões Judiciais Não Transitadas em Julgado (Indenizatória)\"):",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "quintos_anuenios_ats"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#14",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Nome da Ativos Aposentados Aposentados Beneficiários Natureza da Submissão Habitualidade Base Verba provisórios de pensão civil verba ao teto normativa Indenização TRU-2017 N/A N/A N/A Indenizatória Não se Transitória Resolução por Perdas submete STF nº Decorrentes 862/2025, da art. 4º, VII; Convocação Resolução (Res. STF nº STJ/GP nº 862/2025) 51/2026",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "aposentadoria",
+        "pensao",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#15",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Nome da Ativos Aposentados Aposentados Beneficiários Natureza da Submissão Habitualidade Base Verba provisórios de pensão civil verba ao teto normativa Abate TRU-9021 TRU-9021 TRU-9021 TRU-9021 Dedução Não se Anual CF, art. 37, Teto — (comum a obrigatória aplica XI e § 11; 13º todas as (constitucional) Temas 257 Salário situações) e 966",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "aposentadoria",
+        "pensao",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#16",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Nota 8 — Rubricas de utilização restrita: a) a rubrica \"Adicional de Permanência (Militar)\" (TRU-1020) destina-se exclusivamente ao adicional de permanência devido, na forma da legislação militar, aos magistrados oriundos das carreiras militares, e não se confunde com o abono de permanência (TRU-1014, TRU-1018 e TRU-1019); b) a rubrica \"Indenização por Perdas Decorrentes da Convocação (Res. STF nº 862/2025)\" (TRU-2017) é de utilização exclusiva do Superior Tribunal de Justiça, para os magistrados convocados como juízes auxiliares ou instrutores na forma da Resolução STJ/GP nº 51/2026; c) a rubrica \"Abate Teto — 13º Salário\" (TRU-9021) registra a redução decorrente da limitação ao teto constitucional da base de cálculo da gratificação natalina (TRU-1006 e códigos correspondentes por situação), apurada separadamente da remuneração mensal, vedado o lançamento dessa redução na TRU-9001; d) a rubrica \"Reflexo do Abono de Permanência na Base de Cálculo da Gratificação Natalina\" (TRU-1021) registra o acréscimo da gratificação natalina decorrente da inclusão do abono de permanência (TRU-1014) em sua base de cálculo, vedado o seu lançamento na TRU-1006, e não integra a base de cálculo da contribuição previdenciária nem a do abono de permanência (no âmbito da União, Lei nº 10.887/2004, art. 4º, § 1º, IX; nos demais entes, a legislação previdenciária correspondente); e) a rubrica \"Abono de Permanência — Gratificação Natalina\" (TRU-1022) corresponde ao valor da contribuição previdenciári",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "abono_permanencia",
+        "tema_servidor_remuneracao",
+        "teto_remuneratorio",
+        "tributario_folha"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ269_2026#17",
+      "data": "2026-11-11",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 269/2026",
+      "resumo": "Grupo Código TRU Rubrica Valor (R$) PARCELAS REMUNERATÓRIAS TRU-1020 Adicional de X.XXX,XX Permanência (Militar) PARCELAS REMUNERATÓRIAS TRU-1021 Reflexo do Abono X.XXX,XX de Permanência na Base de Cálculo da Gratificação Natalina PARCELAS REMUNERATÓRIAS TRU-1022 Abono de X.XXX,XX Permanência — Gratificação Natalina PARCELAS INDENIZATÓRIAS TRU-2017 Indenização por X.XXX,XX Perdas Decorrentes da Convocação (Res. STF nº 862/2025) DESCONTOS TRU-9021 Abate Teto — 13º X.XXX,XX Salário",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ269_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 13
+}
