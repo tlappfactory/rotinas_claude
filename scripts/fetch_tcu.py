@@ -43,6 +43,7 @@ TCU_ROOT = Path(os.environ.get("TCU_ROOT", REPO_ROOT / "tcu"))
 
 sys.path.insert(0, str(SCRIPT_DIR))
 from parse_dou import STRONG_KEYWORDS, WEAK_KEYWORDS, normalize, match_patterns  # noqa: E402
+from perfis import CFG as PERFIL_CFG, PERFIL, arquivo  # noqa: E402
 
 API_URL = "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos"
 PAGE_SIZE = 500
@@ -203,7 +204,7 @@ def run(lookback_days: int, dry_run: bool) -> dict:
 
     out_dir = TCU_ROOT / today.isoformat()
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "tcu-filtered.json"
+    out_path = out_dir / arquivo("tcu-filtered")
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
                         encoding="utf-8")
     print(f"GRAVADO: {out_path.relative_to(REPO_ROOT)} "

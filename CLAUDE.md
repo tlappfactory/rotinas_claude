@@ -1,6 +1,23 @@
-# Boletim Normativo — TRT-17
+# Boletim Normativo Diário - SGP — TRT-17
 
-## EXECUÇÃO AUTÔNOMA (sessão diária agendada)
+## Dois boletins, um repositório (leia primeiro)
+
+Este repositório produz **dois** boletins, que compartilham as fontes e o bridge
+mas têm filtro temático, triagem, arquivos e envio independentes (perfis em
+`scripts/perfis.py`):
+
+| Boletim | Runbook | Perfil | Triagem / saída | Workflow de envio |
+|---|---|---|---|---|
+| **Boletim Normativo Diário - SGP** | **este arquivo** | `sgp` (default) | `triagem/`, `boletins/` | `send-boletim.yml` |
+| **Boletim Normativo Diário - SEGEST** | `CLAUDE-SEGEST.md` | `segest` | `triagem-segest/`, `boletins-segest/` | `send-boletim-segest.yml` |
+
+**Regra de seleção:** se o prompt da sessão pedir o boletim da **SEGEST**
+(ou citar `CLAUDE-SEGEST.md`), siga **somente** `CLAUDE-SEGEST.md` — ele remete
+a este arquivo apenas para as regras comuns (conformidade, anti-alucinação,
+linguagem limpa, bridge e códigos de saída) — e **não** execute o pipeline da SGP
+descrito abaixo. Em qualquer outro caso, a sessão executa o boletim da SGP.
+
+## EXECUÇÃO AUTÔNOMA (sessão diária agendada — SGP)
 
 Esta rotina é disparada automaticamente todo dia útil pela plataforma Claude.ai por volta das **11h30 BRT (14h30 UTC)** — antes do início do expediente da SGP às 12h BRT. Quando uma sessão se inicia neste diretório, **executar o pipeline ponta-a-ponta imediatamente, sem pedir confirmação ao usuário e sem aguardar comando do tipo "boletim de hoje"**. A presença desta CLAUDE.md já constitui a instrução de execução.
 
@@ -36,7 +53,7 @@ Passos obrigatórios na ordem:
    python3 scripts/build_boletim.py --data <YYYY-MM-DD>   # gera boletins/<data>.html e .txt
    python3 scripts/send_boletim.py --data <YYYY-MM-DD> --dry-run
    git -C /home/user/rotinas_claude add triagem/ boletins/
-   git -C /home/user/rotinas_claude commit -m "Boletim Normativo <YYYY-MM-DD>"
+   git -C /home/user/rotinas_claude commit -m "Boletim Normativo Diário - SGP <YYYY-MM-DD>"
    git -C /home/user/rotinas_claude push -u origin HEAD
    ```
    O `push -u origin HEAD` publica na branch designada à sessão (`claude/*`); a sessão agendada não tem permissão para publicar em `main`. O push (em `main` ou em `claude/**`) dispara o workflow `send-boletim`, que envia o e-mail. **Não** usar `mcp__Gmail__create_draft`: o boletim deixou de ser rascunho (e o texto do e-mail não deve mais chamá-lo de "rascunho").
@@ -119,7 +136,7 @@ Aposentadoria, pensão, abono de permanência, reversão (SESES) · Averbação 
 
 - Gravar o template preenchido (placeholders `{{...}}` substituídos) em **`boletins/<YYYY-MM-DD>.html`**.
 - Gravar em **`boletins/<YYYY-MM-DD>.txt`** uma versão plain-text equivalente (alternativa para clientes sem HTML). Os dois arquivos são obrigatórios: `send_boletim.py` aborta se qualquer um faltar ou estiver vazio.
-- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo - Edição de [DATA POR EXTENSO]`. Não precisa ser escrito no arquivo. Por decisão do operador (02/10/2026), o corpo do e-mail **não** traz o lembrete de revisão humana nem o "Aviso metodológico" (nem em fallback): essas informações vão apenas no relatório final ao operador.
+- **Assunto:** derivado automaticamente da data por `send_boletim.py`, no formato `Boletim Normativo Diário - SGP - Edição de [DATA POR EXTENSO]` (o da SEGEST usa `... - SEGEST - ...`; renomeado em 12/11/2026, antes era `Boletim Normativo - Edição de ...`). Não precisa ser escrito no arquivo. Por decisão do operador (02/10/2026), o corpo do e-mail **não** traz o lembrete de revisão humana nem o "Aviso metodológico" (nem em fallback): essas informações vão apenas no relatório final ao operador.
 - **Destinatário:** `leonardo.donato@trt17.jus.br` (secret `BOLETIM_TO`, com esse valor como default no script).
 - Para seções sem itens, substituir o bloco repetível por `<p><em>Sem novidades pertinentes nesta data.</em></p>`.
 - Se nenhuma seção tiver itens, ainda assim gerar e enviar o boletim — manter a previsibilidade do Boletim.

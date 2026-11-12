@@ -3,6 +3,7 @@
 
 Entrada:  triagem/<YYYY-MM-DD>.json   (itens já triados pela rotina)
 Saída:    boletins/<YYYY-MM-DD>.html  e  boletins/<YYYY-MM-DD>.txt
+          (perfil segest: triagem-segest/ e boletins-segest/; ver perfis.py)
 
 A triagem fica FORA de boletins/ de propósito: o workflow send-boletim
 dispara em push que toque boletins/**, e só o par html/txt deve fazê-lo.
@@ -32,11 +33,20 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import sys
 from pathlib import Path
 
+# O perfil (sgp | segest) precisa estar no ambiente ANTES de importar perfis.py.
+for _i, _arg in enumerate(sys.argv):
+    if _arg == "--perfil" and _i + 1 < len(sys.argv):
+        os.environ["BOLETIM_PERFIL"] = sys.argv[_i + 1]
+    elif _arg.startswith("--perfil="):
+        os.environ["BOLETIM_PERFIL"] = _arg.split("=", 1)[1]
+
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+from perfis import CFG, PERFIL  # noqa: E402
 from send_boletim import data_por_extenso  # noqa: E402
 
 E = html.escape
@@ -120,6 +130,7 @@ def renderizar_html(t: dict) -> str:
     secoes = "".join(secao_html(r, sub, cor, t.get(ch, []), ch) for ch, r, sub, cor, _ in SECOES)
     corpo = tpl.replace("<!--SECOES-->", secoes)
     subs = {"{{DATA_POR_EXTENSO}}": data_por_extenso(t["data"]),
+            "{{TITULO_BOLETIM}}": E(CFG["titulo"]), "{{SECRETARIA}}": E(CFG["secretaria"]),
             "{{N_ALTO}}": str(len(t.get("alto", []))), "{{N_MEDIO}}": str(len(t.get("medio", []))),
             "{{N_INFO}}": str(len(t.get("informativo", []))),
             "{{N_MONITORAMENTO}}": str(len(t.get("monitoramento", []))),
@@ -133,8 +144,8 @@ def renderizar_html(t: dict) -> str:
 
 
 def renderizar_txt(t: dict) -> str:
-    L = [f"BOLETIM NORMATIVO — {data_por_extenso(t['data'])}", "",
-         "Prezado(a) servidor(a), segue o Boletim Normativo.", ""]
+    L = [f"{CFG['titulo'].upper()} — {data_por_extenso(t['data'])}", "",
+         f"Prezado(a) servidor(a), segue o {CFG['titulo']}.", ""]
     for chave, _, _, _, titulo in SECOES:
         L += [titulo, ""]
         itens = t.get(chave, [])
@@ -153,7 +164,7 @@ def renderizar_txt(t: dict) -> str:
           "CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo "
           "sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] "
           "ou [verificar nº na fonte] exigem conferência na fonte.", "",
-          f"Boletim gerado pela rotina do Boletim Normativo (Claude AI) em {t['timestamp']}. Conteúdo sujeito a revisão "
+          f"Boletim gerado pela rotina do {CFG['titulo']} (Claude AI) em {t['timestamp']}. Conteúdo sujeito a revisão "
           "humana antes de distribuição oficial."]
     return "\n".join(L) + "\n"
 
@@ -162,9 +173,12 @@ def main() -> None:
     p = argparse.ArgumentParser(description="Renderiza boletins/<data>.{html,txt} a partir da triagem.")
     p.add_argument("arquivo", nargs="?", help="triagem/<data>.json")
     p.add_argument("--data", help="atalho: usa triagem/<data>.json")
-    p.add_argument("--saida", default=str(ROOT / "boletins"), help="diretório de saída (default: boletins/)")
+    p.add_argument("--perfil", choices=["sgp", "segest"], default=PERFIL,
+                   help="perfil do boletim (default: BOLETIM_PERFIL ou sgp)")
+    p.add_argument("--saida", default=str(ROOT / CFG["boletins_dir"]),
+                   help=f"diretório de saída (default: {CFG['boletins_dir']}/)")
     a = p.parse_args()
-    caminho = Path(a.arquivo) if a.arquivo else ROOT / "triagem" / f"{a.data}.json" if a.data else None
+    caminho = Path(a.arquivo) if a.arquivo else ROOT / CFG["triagem_dir"] / f"{a.data}.json" if a.data else None
     if not caminho or not caminho.is_file():
         sys.exit("ERRO: informe o arquivo de triagem (ou --data) existente.")
     t = json.loads(caminho.read_text(encoding="utf-8"))

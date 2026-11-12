@@ -107,6 +107,14 @@ jobs:
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: python scripts/parse_dou.py --force
 
+      # Boletim SEGEST: mesmo material bruto (XMLs já extraídos), filtro temático
+      # próprio (scripts/perfis.py) -> inlabs-filtered-segest.json.
+      - name: Parse DOU (perfil SEGEST)
+        if: ${{ inputs.sonda_diarios != 'true' }}
+        env:
+          BOLETIM_PERFIL: segest
+        run: python scripts/parse_dou.py --force
+
       - name: Fetch DEJT (PDFs TRT-17 / CSJT / TST)
         if: ${{ inputs.sonda_diarios != 'true' }}
         env:
@@ -136,19 +144,29 @@ jobs:
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: python scripts/parse_dejt.py --force
 
+      - name: Parse DEJT (perfil SEGEST)
+        if: ${{ inputs.sonda_diarios != 'true' }}
+        env:
+          BOLETIM_PERFIL: segest
+        run: python scripts/parse_dejt.py --force
+
       - name: Fetch+filter TCU (acórdãos via API JSON dados-abertos)
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           mkdir -p tcu
-          python scripts/fetch_tcu.py --lookback 14 || \
-            echo "AVISO: fetch_tcu.py falhou — TCU será marcado como fonte indisponível neste run."
+          for perfil in sgp segest; do
+            BOLETIM_PERFIL=$perfil python scripts/fetch_tcu.py --lookback 14 || \
+              echo "AVISO: fetch_tcu.py ($perfil) falhou — TCU será marcado como fonte indisponível neste run."
+          done
 
       - name: Fetch+filter STF/STJ (feeds oficiais de notícias — sinal de precedente vinculante)
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           mkdir -p jurisprudencia
-          python scripts/fetch_jurisprudencia.py --lookback 7 || \
-            echo "AVISO: fetch_jurisprudencia.py falhou — STF/STJ seguem por busca complementar."
+          for perfil in sgp segest; do
+            BOLETIM_PERFIL=$perfil python scripts/fetch_jurisprudencia.py --lookback 7 || \
+              echo "AVISO: fetch_jurisprudencia.py ($perfil) falhou — STF/STJ seguem por busca complementar."
+          done
 
       - name: Fetch+filter DJEN (CSJT) e DJe/CNJ
         # Lacuna fechada em 09/11/2026: acórdãos do CSJT no DJEN e decisões do
@@ -156,8 +174,10 @@ jobs:
         # no JSON (ok | no_feed | error) e `probe` guarda o HTTP de cada tentativa.
         run: |
           mkdir -p diarios
-          python scripts/fetch_diarios.py --lookback 4 || \
-            echo "AVISO: fetch_diarios.py falhou — DJEN/DJe-CNJ serão marcados como fontes não consultadas."
+          for perfil in sgp segest; do
+            BOLETIM_PERFIL=$perfil python scripts/fetch_diarios.py --lookback 4 || \
+              echo "AVISO: fetch_diarios.py ($perfil) falhou — DJEN/DJe-CNJ serão marcados como fontes não consultadas."
+          done
 
       - name: Commit JSONs filtrados
         if: ${{ inputs.sonda_diarios != 'true' }}
@@ -165,11 +185,15 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'dou/*/inlabs-filtered.json' \
-                  'dejt/*/dejt-filtered.json' 'dejt/_last_fetch.json' \
-                  'tcu/*/tcu-filtered.json' \
-                  'jurisprudencia/*/jurisprudencia-filtered.json' \
-                  'diarios/*/diarios-filtered.json'
+          # Um pathspec sem correspondência faria o git add falhar (set -e):
+          # os JSONs "-segest" podem faltar se a fonte correspondente falhou.
+          for pathspec in 'dou/*/inlabs-filtered.json' 'dou/*/inlabs-filtered-segest.json' \
+                          'dejt/*/dejt-filtered.json' 'dejt/*/dejt-filtered-segest.json' 'dejt/_last_fetch.json' \
+                          'tcu/*/tcu-filtered.json' 'tcu/*/tcu-filtered-segest.json' \
+                          'jurisprudencia/*/jurisprudencia-filtered.json' 'jurisprudencia/*/jurisprudencia-filtered-segest.json' \
+                          'diarios/*/diarios-filtered.json' 'diarios/*/diarios-filtered-segest.json'; do
+            git add -- "$pathspec" 2>/dev/null || echo "sem arquivos para $pathspec"
+          done
           if git diff --staged --quiet; then
             echo "Nenhuma novidade a commitar."
             exit 0

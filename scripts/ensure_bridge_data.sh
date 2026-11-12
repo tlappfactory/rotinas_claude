@@ -9,6 +9,7 @@
 # Uso:
 #   scripts/ensure_bridge_data.sh [YYYY-MM-DD]              # default: hoje (UTC)
 #   scripts/ensure_bridge_data.sh [YYYY-MM-DD] --wait-only  # só aguarda, não dispara
+#   scripts/ensure_bridge_data.sh [YYYY-MM-DD] --perfil=segest  # boletim SEGEST (JSONs "-segest")
 #
 # O modo --wait-only existe para o caso em que quem dispara o workflow é a
 # própria sessão do Claude, pela ferramenta MCP do GitHub
@@ -55,14 +56,24 @@ POLL_INTERVAL_SECS="${POLL_INTERVAL_SECS:-30}"
 
 TARGET_DATE=""
 WAIT_ONLY=0
+# Perfil do boletim: sgp (default) ou segest. O perfil segest confere os JSONs
+# com sufixo "-segest" (inlabs-filtered-segest.json etc.). Via --perfil ou
+# BOLETIM_PERFIL.
+PERFIL="${BOLETIM_PERFIL:-sgp}"
 for arg in "$@"; do
   case "$arg" in
     --wait-only) WAIT_ONLY=1 ;;
+    --perfil=*) PERFIL="${arg#--perfil=}" ;;
     -*) echo "ensure_bridge_data: opção desconhecida: $arg" >&2; exit 2 ;;
     *) TARGET_DATE="$arg" ;;
   esac
 done
 TARGET_DATE="${TARGET_DATE:-$(date -u +%Y-%m-%d)}"
+case "$PERFIL" in
+  sgp) SUF="" ;;
+  segest) SUF="-segest" ;;
+  *) echo "ensure_bridge_data: perfil desconhecido: $PERFIL (use sgp ou segest)" >&2; exit 2 ;;
+esac
 
 log() { echo "ensure_bridge_data: $*"; }
 
@@ -75,8 +86,8 @@ sync_repo() {
 # falhar num dia e a ausência dele é tratada pela rotina como "fonte não
 # acessível" — não deve, sozinha, forçar um redisparo.
 have_data() {
-  [ -f "$ROOT/dou/$TARGET_DATE/inlabs-filtered.json" ] \
-    && [ -f "$ROOT/dejt/$TARGET_DATE/dejt-filtered.json" ]
+  [ -f "$ROOT/dou/$TARGET_DATE/inlabs-filtered$SUF.json" ] \
+    && [ -f "$ROOT/dejt/$TARGET_DATE/dejt-filtered$SUF.json" ]
 }
 
 # Aguarda os JSONs chegarem, sincronizando o repo a cada rodada.

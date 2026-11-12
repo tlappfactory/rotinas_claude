@@ -47,6 +47,7 @@ REPO_ROOT = SCRIPT_DIR.parent
 DIARIOS_ROOT = Path(os.environ.get("DIARIOS_ROOT", REPO_ROOT / "diarios"))
 sys.path.insert(0, str(SCRIPT_DIR))
 from parse_dou import STRONG_KEYWORDS, WEAK_KEYWORDS, normalize, match_patterns  # noqa: E402
+from perfis import CFG as PERFIL_CFG, PERFIL, arquivo  # noqa: E402
 
 TIMEOUT = 40
 PAGINA_MAX = 100         # itens por página do DJEN
@@ -66,6 +67,8 @@ TEMA_EXTRA = [
     r"\bquadro de pessoal\b", r"\bgestao de pessoas\b", r"\bfuncao comissionada\b",
     r"\bcargo em comissao\b", r"\bplano de cargos\b", r"\bpolitica de pessoal\b",
 ]
+if PERFIL != "sgp":
+    TEMA_EXTRA = PERFIL_CFG["tema_extra"]
 SIGILO = re.compile(r"segredo de justica|sigilo|tramita em segredo|sob sigilo")
 
 
@@ -268,8 +271,8 @@ def main() -> None:
         return
     out = DIARIOS_ROOT / hoje.isoformat()
     out.mkdir(parents=True, exist_ok=True)
-    (out / "diarios-filtered.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"gravado: {out}/diarios-filtered.json")
+    (out / arquivo("diarios-filtered")).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"gravado: {out}/{arquivo('diarios-filtered')}")
 
 
 if __name__ == "__main__":

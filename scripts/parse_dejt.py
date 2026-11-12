@@ -26,6 +26,7 @@ DEJT_ROOT = Path(os.environ.get("DEJT_ROOT", REPO_ROOT / "dejt"))
 
 # Reutiliza vocabulário e helpers do parse_dou.py
 sys.path.insert(0, str(SCRIPT_DIR))
+from perfis import arquivo  # noqa: E402
 from parse_dou import (  # noqa: E402
     STRONG_KEYWORDS, WEAK_KEYWORDS, normalize, match_patterns,
 )
@@ -157,7 +158,7 @@ def load_last_fetch_status() -> dict:
 
 
 def process_date_dir(date_dir: Path, force: bool, last_fetch: dict) -> dict:
-    out_path = date_dir / "dejt-filtered.json"
+    out_path = date_dir / arquivo("dejt-filtered")
     if out_path.exists() and not force:
         return {"date": date_dir.name, "status": "already_parsed"}
 
