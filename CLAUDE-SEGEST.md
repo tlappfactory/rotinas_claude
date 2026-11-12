@@ -154,7 +154,7 @@ Itens sem unidade clara: **"SEGEST-direção — ciência"**.
 - Triagem no mesmo formato de `scripts/build_boletim.py` (campos `alto`, `medio`, `informativo`,
   `monitoramento`, `fontes_ok`, `fontes_sem_retorno`, `timestamp`), em `triagem-segest/<data>.json`.
 - Mesmo `boletim-template.html`; o cabeçalho sai como **Boletim Normativo Diário - SEGEST** automaticamente.
-- Assunto (automático): `Boletim Normativo Diário - SEGEST - Edição de [DATA POR EXTENSO]`.
+- Assunto (automático): `Boletim Normativo SEGEST - Edição de [DATA POR EXTENSO]` (prefixo fixo, usado em filtros de e-mail).
 - Mesmas regras da SGP: sem lembrete de revisão nem "aviso metodológico" no corpo; sem jargão técnico;
   o diagnóstico técnico (EXIT_CODE, dispatch, runs) só vai ao relatório final ao operador.
 - Seção sem itens: `Sem novidades pertinentes nesta data.`; sem nenhuma seção com itens, ainda assim gerar e enviar.

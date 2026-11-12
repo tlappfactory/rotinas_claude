@@ -119,6 +119,7 @@ PERFIS: dict[str, dict] = {
     "sgp": {
         "sigla": "SGP",
         "titulo": "Boletim Normativo Diário - SGP",
+        "assunto": "Boletim Normativo SGP",   # prefixo fixo do assunto (filtros de e-mail)
         "secretaria": "Secretaria de Gestão de Pessoas",
         "sufixo": "",                      # inlabs-filtered.json, dejt-filtered.json…
         "triagem_dir": "triagem",
@@ -130,6 +131,7 @@ PERFIS: dict[str, dict] = {
     "segest": {
         "sigla": "SEGEST",
         "titulo": "Boletim Normativo Diário - SEGEST",
+        "assunto": "Boletim Normativo SEGEST",
         "secretaria": "Secretaria de Governança e Gestão Estratégica",
         "sufixo": "-segest",              # inlabs-filtered-segest.json…
         "triagem_dir": "triagem-segest",
