@@ -42,6 +42,7 @@ confirmação, e **sem** rodar o pipeline da SGP:
    | Acórdãos do TCU | `tcu/<YYYY-MM-DD>/tcu-filtered-segest.json` |
    | DJe do CNJ / DJEN (CSJT) | `diarios/<YYYY-MM-DD>/diarios-filtered-segest.json` |
    | Notícias STF/STJ | `jurisprudencia/<YYYY-MM-DD>/jurisprudencia-filtered-segest.json` |
+   | Notícias CNJ / CSJT / TST | `institucional/<YYYY-MM-DD>/institucional-filtered-segest.json` |
 
    Os campos e o significado de `status` são os mesmos dos JSONs da SGP
    (`CLAUDE.md`, "Fontes a consultar"). **Não** ler os JSONs sem sufixo: são do
@@ -117,7 +118,7 @@ Itens sem unidade clara: **"SEGEST-direção — ciência"**.
   (perfil `descarta_individuais_de_prioritarios`), e portarias de pessoal, editais de notificação e atas
   de órgãos não prioritários são ignorados. Declare "N selecionados, M atos individuais descartados"
   usando `discarded_individual_acts`. Órgãos prioritários da SEGEST: **CNJ, CSJT e TRT-17**
-  (TST, TCU, STF e STJ entram só pelo vocabulário). Resoluções/Recomendações do CNJ no DOU S1
+  (a CGU também é prioritária; TST, TCU, STF e STJ entram só pelo vocabulário). Resoluções/Recomendações do CNJ no DOU S1
   são a principal fonte de normas de governança do Judiciário.
 - **DEJT Caderno Administrativo do TRT-17:** continua **sem filtro temático** (todos os
   atos, como no boletim da SGP). Atos que não são da SEGEST entram como INFORMATIVO
@@ -127,11 +128,18 @@ Itens sem unidade clara: **"SEGEST-direção — ciência"**.
   CSJT e TST seguem o filtro temático.
 - **TCU:** acórdãos que casem com o vocabulário da SEGEST (auditorias de governança,
   gestão de riscos, planejamento…) vão para EM MONITORAMENTO. Declare a janela de sessões
-  (`min_date_seen`–`max_date_seen`). Atenção: o filtro (≥2 termos fracos) pode trazer
+  (`min_date_seen`–`max_date_seen`). Atenção: para a SEGEST o filtro exige TRT-17 explícito ou termo forte; ainda pode trazer
   ruído — na dúvida, descarte e declare "N selecionados".
 - **DJe do CNJ / DJEN:** como em `CLAUDE.md` (`status` ≠ `ok` ⇒ "não consultado — conferência manual").
   O DJe do CNJ costuma trazer decisões do plenário e atos de governança do CNJ: itens `ok`
   vão a EM MONITORAMENTO (ou MÉDIO/INFORMATIVO), sempre `[carece de leitura humana do texto integral]`.
+- **Notícias institucionais do CNJ, CSJT e TST** (`scripts/fetch_institucional.py`, fonte exclusiva da
+  SEGEST, criada em 12/11/2026): metas, estratégia, estatística, PLS, acessibilidade, governança. Cada
+  fonte tem `status` (`ok` | `no_feed` | `error`) em `fontes`; ≠ `ok` ou JSON ausente ⇒ "não consultado —
+  conferência manual" (nunca "sem novidades"). Itens `ok` vão a EM MONITORAMENTO (ou MÉDIO/INFORMATIVO),
+  sempre `[carece de leitura humana do texto integral]` (o JSON traz só o resumo da fonte). **Endpoints
+  ainda não validados no runner:** na primeira execução, ler `probe` de cada fonte e, se `no_feed`, corrigir
+  a lista de candidatos em `SOURCES`. Não citar "feed", "JSON" nem "coleta" na minuta.
 - **STF/STJ:** só com sinal de precedente vinculante **e** tema SEGEST; o mais comum é
   `Sem novidades em STF/STJ nesta data`.
 - Calendário, data do DEJT (publicação ≠ disponibilização) e fallback com aviso metodológico:

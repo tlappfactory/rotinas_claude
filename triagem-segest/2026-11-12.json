@@ -1,0 +1,48 @@
+{
+ "data": "2026-11-12",
+ "timestamp": "12/11/2026, 13h25 (Brasília)",
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "DJe do CNJ nº 270/2026 — Resolução sobre assentos de óbito em intervenções de segurança pública (classificação nas Tabelas Processuais Unificadas e painel estatístico) [verificar nº da Resolução na fonte]",
+   "ementa": "Trecho do DJe do CNJ prevê classificação dos processos nas Tabelas Processuais Unificadas com o assunto complementar nº 15720 (“Crime Decorrente de Ações de Segurança Pública”) e painel público de dados estatísticos mantido pelo ON-RCPN. [carece de leitura humana do texto integral]",
+   "unidades": "DIEPE, SEGEST-direção — ciência",
+   "acao": "Ler o texto integral e verificar reflexo nas tabelas de padronização e na estatística.",
+   "fonte_url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+   "fonte_titulo": "DJe do CNJ nº 270/2026 (12/11/2026)"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "Resolução CSJT nº 461, de 29/10/2026 — diretrizes para obras e aquisição/locação de imóveis na Justiça do Trabalho",
+   "ementa": "Dispõe sobre planejamento, contratação, execução, fiscalização e monitoramento de obras e de aquisição/locação de imóveis, com parâmetros de prioridade e referenciais de áreas e custos; cita a Resolução CNJ nº 652/2025. [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "SEGEST-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo do CSJT (publicação 12/11/2026)"
+  },
+  {
+   "titulo": "Resolução CSJT nº 462, de 29/10/2026 — terceirização de serviços administrativos com dedicação exclusiva de mão de obra",
+   "ementa": "Dispõe sobre a terceirização de serviços administrativos com dedicação exclusiva de mão de obra na Justiça do Trabalho de 1º e 2º graus. [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "SEGEST-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo do CSJT (publicação 12/11/2026)"
+  },
+  {
+   "titulo": "Atos do Caderno Administrativo do TRT-17 (publicação 12/11/2026)",
+   "ementa": "Cinco atos do dia, sem tema de planejamento, estatística, riscos, projetos, sustentabilidade ou acessibilidade identificado no que foi lido.",
+   "unidades": "SEGEST-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/",
+   "fonte_titulo": "DEJT Caderno Administrativo do TRT-17",
+   "linhas": [
+    "Resolução Administrativa nº 110/2026 — trecho sobre consignações em folha de pagamento (matéria de pessoal; ciência à SGP) [carece de leitura humana do texto integral]",
+    "Ato PRESI SECOR nº 85/2026 — designação de juízas substitutas para auxiliar na Vara do Trabalho de Guarapari em 25 e 26/11/2026",
+    "Ato SECOR nº 96/2026 — normatização no âmbito da Corregedoria (processo de atos PRESI SECOR 2026; conteúdo não disponível na leitura) [carece de leitura humana do texto integral]",
+    "Portaria PRESI/DIGER/SGP/CODOP/SELIR nº 618/2026 — remoção de servidora entre Varas do Trabalho",
+    "Portaria PRESI/DIGER/SGP/CODOP/SELIR nº 619/2026 — remoção de servidora entre Varas do Trabalho"
+   ]
+  }
+ ],
+ "monitoramento": [],
+ "fontes_ok": "DOU Seções 1, 2 e edições extras de 12/11/2026: 8 atos selecionados pelo filtro, nenhum pertinente à SEGEST (portarias e resoluções de outros órgãos, sem ato do CNJ, CSJT ou TRT-17); 9 atos individuais de pessoal descartados. DEJT Caderno Administrativo do TRT-17 (publicação 12/11/2026): 5 atos, todos triados acima. DEJT CSJT (publicação 12/11/2026): 4 atos detectados, 2 pertinentes (acima). DEJT TST: 1 ato detectado, nenhum pertinente à SEGEST (matéria jurisdicional/designação). Acórdãos do TCU das sessões de 27/10/2026 a 11/11/2026: 4 selecionados, nenhum pertinente à SEGEST (reforma tributária, tomada de contas especial, obra rodoviária e alienação de ativos da Petrobras). DJe do CNJ nº 270/2026 consultado. Jurisprudência do STF e do STJ: sem novidades nesta data.",
+ "fontes_sem_retorno": "DJEN (acórdãos do CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br."
+}

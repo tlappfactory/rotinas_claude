@@ -102,7 +102,12 @@ def evaluate_acordao(item: dict) -> dict | None:
     trt17_hits = [p for p in TRT17_PATTERNS if re.search(p, norm)]
 
     # Critério: TRT-17 explícito OU >=1 strong keyword OU >=2 weak keywords.
-    if not (trt17_hits or strong_hits or len(weak_hits) >= 2):
+    # SEGEST: o par de termos fracos trazia ruído (reforma tributária, TCE, obras);
+    # exige TRT-17 explícito ou termo forte.
+    if PERFIL == "segest":
+        if not (trt17_hits or strong_hits):
+            return None
+    elif not (trt17_hits or strong_hits or len(weak_hits) >= 2):
         return None
 
     score = 10 * len(trt17_hits) + 5 * len(strong_hits) + len(weak_hits)
