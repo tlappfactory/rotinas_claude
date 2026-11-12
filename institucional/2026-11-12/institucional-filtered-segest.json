@@ -1,0 +1,152 @@
+{
+  "run_utc": "2026-11-12T16:33:07Z",
+  "lookback_days": 7,
+  "desde": "2026-11-05",
+  "fontes": {
+    "cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
+      "itens_vistos": 46,
+      "fora_da_janela": 0,
+      "selecionados": 3,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 36391,
+          "inicio": "[{\"id\":435902,\"date\":\"2026-11-12T13:22:57\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/consulta-publica-sobre-os-centros-de-inteligencia-recebe-sugestoes-ate-21-11\\/\",\"title\":{\"rendered\":\"Consulta p\\u00fablica sobre os Centros de Intelig\\u00eancia recebe sugest\\u00f5es at\\u00e9 21\\/11\"},\"excerpt\":{\"rendered\":"
+        },
+        {
+          "amostra_titulos": [
+            "Consulta pública sobre os Centros de Inteligência recebe sugestões até 21/11",
+            "Recuperação judicial no agronegócio será debatido em evento do Fonaref nesta quinta (12/11",
+            "Pena Justa: alternativas à prisão recebem investimentos e reforço operacional",
+            "Comissões fundiárias constroem soluções para conflitos e garantem direitos a milhares de f",
+            "CNJ lança plataforma de dados sobre medidas socioeducativas",
+            "Em sessão virtual, CNJ define medidas de combate ao racismo na adoção de crianças e adoles"
+          ]
+        }
+      ]
+    },
+    "csjt": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    },
+    "tst": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-10",
+      "url": "https://www.cnj.jus.br/cnj-vai-investigar-desembargador-por-suspeita-de-uso-fraudulento-de-cpf-de-colega/",
+      "titulo": "CNJ vai investigar desembargador por suspeita de uso fraudulento do CPF de colega",
+      "resumo": "O Conselho Nacional de Justiça (CNJ) decidiu, por unanimidade, instaurar Processo Administrativo Disciplinar (PAD) contra o desembargador James Magno Araújo Farias, do Tribunal Regional do Trabalho da 16ª Região (TRT-16), no Maranhão. A investigação apura suspeitas de uso indevido do CPF de uma colega magistrada para registrar denúncia na Ouvidoria do tribunal, além de possível […]",
+      "temas": [
+        "transparencia_integridade"
+      ],
+      "temas_fracos": [
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-06",
+      "url": "https://www.cnj.jus.br/cnj-aponta-perspectivas-para-centros-de-inteligencia-em-encontro-no-parana/",
+      "titulo": "CNJ aponta perspectivas para centros de inteligência em encontro no Paraná",
+      "resumo": "A presidente do Laboratório de Inovação, Inteligência e Objetivos de Desenvolvimento Sustentável (Liods), conselheira do Conselho Nacional de Justiça (CNJ) Andréa Cunha Esmeraldo, conduziu o painel inaugural do V Encontro Nacional dos Centros de Inteligência do Poder Judiciário, em Foz do Iguaçu (PR). A conselheira foi responsável por apresentar as perspectivas e prospecções para o […]",
+      "temas": [
+        "sustentabilidade"
+      ],
+      "temas_fracos": [
+        "estatistica_pesquisa",
+        "inovacao_processos"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-05",
+      "url": "https://www.cnj.jus.br/judicializacao-em-saude-novas-ferramentas-dao-acesso-a-informacoes-sobre-casos-de-saude/",
+      "titulo": "Judicialização em saúde: novas ferramentas dão acesso a informações sobre casos de saúde",
+      "resumo": "As informações técnicas em saúde utilizadas como subsídios para pesquisas e para a tomada de decisão em ações judiciais podem ser pesquisadas com uma nova ferramenta de inteligência artificial, o EvidêncIAJud. Na primeira fase do projeto, a plataforma poderá ser utilizada pelos Núcleos de Apoio Técnico do Poder Judiciário (NatJus), na elaboração de notas técnicas […]",
+      "temas": [],
+      "temas_fracos": [
+        "riscos_projetos",
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 3
+}

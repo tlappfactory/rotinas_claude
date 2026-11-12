@@ -1,11 +1,11 @@
 {
   "date": "2026-11-12",
-  "total_xml_files": 903,
-  "matched_articles": 8,
+  "total_xml_files": 902,
+  "matched_articles": 11,
   "discarded_individual_acts": {
-    "total": 9,
+    "total": 12,
     "by_section": {
-      "DO2": 9
+      "DO2": 12
     }
   },
   "parse_errors": [],
@@ -13,6 +13,7 @@
     "planejamento_estrategico",
     "metas_nacionais",
     "governanca",
+    "transparencia_integridade",
     "gestao_riscos",
     "gestao_projetos",
     "estatistica_judiciaria",
@@ -26,6 +27,7 @@
     "governanca_geral",
     "riscos_projetos",
     "sustentabilidade_geral",
+    "selos_premios",
     "inclusao_diversidade",
     "orcamento_estrategia"
   ],
@@ -35,7 +37,9 @@
     "cnj",
     "conselho nacional de justica",
     "trt da 17",
-    "tribunal regional do trabalho da 17"
+    "tribunal regional do trabalho da 17",
+    "controladoria-geral da uniao",
+    "controladoria geral da uniao"
   ],
   "articles": [
     {
@@ -62,7 +66,8 @@
         "gestao_riscos",
         "governanca",
         "metas_nacionais",
-        "planejamento_estrategico"
+        "planejamento_estrategico",
+        "transparencia_integridade"
       ],
       "weak_keywords": [
         "estatistica_pesquisa",
@@ -70,9 +75,10 @@
         "inclusao_diversidade",
         "inovacao_processos",
         "orcamento_estrategia",
-        "riscos_projetos"
+        "riscos_projetos",
+        "selos_premios"
       ],
-      "score": 26,
+      "score": 32,
       "xml_file": "DO1_0258.xml"
     },
     {
@@ -98,15 +104,17 @@
       "strong_keywords": [
         "gestao_riscos",
         "governanca",
-        "planejamento_estrategico"
+        "planejamento_estrategico",
+        "transparencia_integridade"
       ],
       "weak_keywords": [
         "estatistica_pesquisa",
         "governanca_geral",
         "orcamento_estrategia",
-        "riscos_projetos"
+        "riscos_projetos",
+        "selos_premios"
       ],
-      "score": 19,
+      "score": 25,
       "xml_file": "DO1_0264.xml"
     },
     {
@@ -139,10 +147,45 @@
         "inovacao_processos",
         "orcamento_estrategia",
         "riscos_projetos",
+        "selos_premios",
         "sustentabilidade_geral"
       ],
-      "score": 16,
+      "score": 17,
       "xml_file": "DO1_0170.xml"
+    },
+    {
+      "id": "despachos-de-11-de-novembro-de-2026-743931985",
+      "section": "DO2",
+      "pub_date": "12/11/2026",
+      "art_type": "Despacho",
+      "art_category": "Ministério da Agricultura e Pecuária/Secretaria Executiva",
+      "identifica": "DESPACHOS DE 11 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Agricultura e Pecuária/Secretaria Executiva",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "DESPACHOS DE 11 DE NOVEMBRO DE 2026 O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014954/2026-42, resolve: AUTORIZAR o Afastamento do País da empregada pública LUCÍOLA ALVES MAGALHÃES, em exercício do cargo de Analista, lotada na Embrapa Territorial, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar da IV Conferência Internacional sobre Dinâmicas Rurais, Resiliência e Inovação, com a apresentação oral do trabalho \"Atribuição, Ocupação e Uso da Terra no Brasil: Uma Síntese Espacial da Responsabilidade Ambiental\", a ser realizado em Baião - República Portuguesa, no período de 24/11 a 02/12/2026, com ônus custeado pelo Embrapa Territorial - CNA e Fundação Arthur Bernardes - FUNARBE. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014981/2026-15, resolve: AUTORIZAR o Afastamento do País do empregado público PAULO FERNANDO DE MELO JORGE VIEIRA, em exercício do cargo de Pesquisador, lotado na Embrapa Meio-Norte, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar do evento: \"Seminario Embrapa Meio-Norte - INTA: Integración de Ciencia, Tecnología y Sostenibilidad para la Agricultura\", a ser realizado em Castellar, Buenos Aires - República Argentina, no período de 25 a 28/11/2026, com ônus custeado pela EMBRAPA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014946/2026-04, resolve: AUTORIZAR o Afastamento do País da empregada pública JANAY ALMEIDA DOS SANTOS SEREJO, em exercício do cargo de Pesquisadora, lotada na Embrapa Mandioca e Fruticultura, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de realizar visita técnica à Corporação Bananeira Nacional (Corbana), como parte da colaboração entre a Embrapa e a Corbana, a ser realizado em Corbana, La Rita - República da Costa Rica, no período de 23 a 28/11/2026, com ônus limitado para a Administração Pública e custeio pelo Projeto de Melhoramento Genético CORBANA-EMBRAPA e CORBANA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014982/2026-60, resolve: AUTORIZAR o Afastamento do País do empregado público ANISIO FERREIRA LIMA NETO, em exercício do cargo de Analista, lotado na Embrapa Meio-Norte, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar do evento: \"Seminario Embrapa Meio-Norte - INTA: Integración de Ciencia, Tecnología y Sostenibilidad para la Agricultura\", a ser realizado em Castellar, Buenos Aires - República Argentina, no período de 25 a 28/11/2026, com ônus custeado pela EMBRAPA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014983/2026-12, resolve: AUTORIZAR o Afastamento do País da empregada pública JULIANA ERIKA DE CARVALHO TEIXEIRA YASSITEPE, em exercício do cargo de Pesquisadora, lotada na Embrapa Agricultura Digital, da Empresa Brasileira de Pesquisa Agropecuária, com finalidade de apresentação de palestras em conferências e instituições de ensino, além de reuniões com colaboradores na área de transformação genética de milho, a ser realizado em Sanya, Xangai - República Popular da China, no período de 25/11 a 10/12/2026, com ônus limitado para a Administração Pública, custeado pela aBIOTECH. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014949/2026-30, resolve: AUTORIZAR o Afastamento do País da empregada pública JAYME GARCIA ARNAL BARBEDO, em exercício do cargo de Pesquisadora, lotada na Embrapa Agricultura Digital, da Empresa Brasileira de Pesquisa Agropecuária, para participar do \"International Conference on Smart Agricultural Equipment\" para ministrar uma palestra no tema de aplicação de IA na agricultura, a ser realizado em Hefei - República Popular da China, no período de 25/11 a 04/12/2026, com ônus limitado para a Administração Pública e Custeio pela International Conference on Smart Agricultural Equipment. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014948/2026-95, resolve: AUTORIZAR o Afastamento do País do empregado público ANTÔNIO CÂNDIDO DE CERQUEIRA LEITE RIBEIRO, em exercício do cargo de Analista, lotado na Embrapa Gado de Leite, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar e apresentar o trabalho \"Effect of Flushing Timing on Embryo Developmental Stage at Recovery in Superovulated Goats\" na forma de pôster na Conferência Anual da Sociedade Internacional de Tecnologia de Embriões (IE",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "6",
+      "edition": "213",
+      "url": "https://www.in.gov.br/web/dou/-/despachos-de-11-de-novembro-de-2026-743931985",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "gestao_riscos",
+        "planejamento_estrategico"
+      ],
+      "weak_keywords": [
+        "inovacao_processos",
+        "orcamento_estrategia",
+        "riscos_projetos",
+        "selos_premios",
+        "sustentabilidade_geral"
+      ],
+      "score": 15,
+      "xml_file": "DO2_0062.xml"
     },
     {
       "id": "portaria-gm-md-n-5.465-de-9-de-novembro-de-2026-743865826",
@@ -178,39 +221,6 @@
       "xml_file": "DO1_0136.xml"
     },
     {
-      "id": "despachos-de-11-de-novembro-de-2026-743931985",
-      "section": "DO2",
-      "pub_date": "12/11/2026",
-      "art_type": "Despacho",
-      "art_category": "Ministério da Agricultura e Pecuária/Secretaria Executiva",
-      "identifica": "DESPACHOS DE 11 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Agricultura e Pecuária/Secretaria Executiva",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "DESPACHOS DE 11 DE NOVEMBRO DE 2026 O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014954/2026-42, resolve: AUTORIZAR o Afastamento do País da empregada pública LUCÍOLA ALVES MAGALHÃES, em exercício do cargo de Analista, lotada na Embrapa Territorial, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar da IV Conferência Internacional sobre Dinâmicas Rurais, Resiliência e Inovação, com a apresentação oral do trabalho \"Atribuição, Ocupação e Uso da Terra no Brasil: Uma Síntese Espacial da Responsabilidade Ambiental\", a ser realizado em Baião - República Portuguesa, no período de 24/11 a 02/12/2026, com ônus custeado pelo Embrapa Territorial - CNA e Fundação Arthur Bernardes - FUNARBE. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014981/2026-15, resolve: AUTORIZAR o Afastamento do País do empregado público PAULO FERNANDO DE MELO JORGE VIEIRA, em exercício do cargo de Pesquisador, lotado na Embrapa Meio-Norte, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar do evento: \"Seminario Embrapa Meio-Norte - INTA: Integración de Ciencia, Tecnología y Sostenibilidad para la Agricultura\", a ser realizado em Castellar, Buenos Aires - República Argentina, no período de 25 a 28/11/2026, com ônus custeado pela EMBRAPA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014946/2026-04, resolve: AUTORIZAR o Afastamento do País da empregada pública JANAY ALMEIDA DOS SANTOS SEREJO, em exercício do cargo de Pesquisadora, lotada na Embrapa Mandioca e Fruticultura, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de realizar visita técnica à Corporação Bananeira Nacional (Corbana), como parte da colaboração entre a Embrapa e a Corbana, a ser realizado em Corbana, La Rita - República da Costa Rica, no período de 23 a 28/11/2026, com ônus limitado para a Administração Pública e custeio pelo Projeto de Melhoramento Genético CORBANA-EMBRAPA e CORBANA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014982/2026-60, resolve: AUTORIZAR o Afastamento do País do empregado público ANISIO FERREIRA LIMA NETO, em exercício do cargo de Analista, lotado na Embrapa Meio-Norte, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar do evento: \"Seminario Embrapa Meio-Norte - INTA: Integración de Ciencia, Tecnología y Sostenibilidad para la Agricultura\", a ser realizado em Castellar, Buenos Aires - República Argentina, no período de 25 a 28/11/2026, com ônus custeado pela EMBRAPA. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014983/2026-12, resolve: AUTORIZAR o Afastamento do País da empregada pública JULIANA ERIKA DE CARVALHO TEIXEIRA YASSITEPE, em exercício do cargo de Pesquisadora, lotada na Embrapa Agricultura Digital, da Empresa Brasileira de Pesquisa Agropecuária, com finalidade de apresentação de palestras em conferências e instituições de ensino, além de reuniões com colaboradores na área de transformação genética de milho, a ser realizado em Sanya, Xangai - República Popular da China, no período de 25/11 a 10/12/2026, com ônus limitado para a Administração Pública, custeado pela aBIOTECH. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014949/2026-30, resolve: AUTORIZAR o Afastamento do País da empregada pública JAYME GARCIA ARNAL BARBEDO, em exercício do cargo de Pesquisadora, lotada na Embrapa Agricultura Digital, da Empresa Brasileira de Pesquisa Agropecuária, para participar do \"International Conference on Smart Agricultural Equipment\" para ministrar uma palestra no tema de aplicação de IA na agricultura, a ser realizado em Hefei - República Popular da China, no período de 25/11 a 04/12/2026, com ônus limitado para a Administração Pública e Custeio pela International Conference on Smart Agricultural Equipment. O SECRETÁRIO-EXECUTIVO DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso da atribuição que lhe foi subdelegada pelo art. 5º da Portaria MAPA nº 696, de 25 de junho de 2024, e em atendimento ao art. 3º do Decreto nº 1.387, de 7 de fevereiro de 1995, bem como o que consta no Processo SEI nº 21148.014948/2026-95, resolve: AUTORIZAR o Afastamento do País do empregado público ANTÔNIO CÂNDIDO DE CERQUEIRA LEITE RIBEIRO, em exercício do cargo de Analista, lotado na Embrapa Gado de Leite, da Empresa Brasileira de Pesquisa Agropecuária, com a finalidade de participar e apresentar o trabalho \"Effect of Flushing Timing on Embryo Developmental Stage at Recovery in Superovulated Goats\" na forma de pôster na Conferência Anual da Sociedade Internacional de Tecnologia de Embriões (IE",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "6",
-      "edition": "213",
-      "url": "https://www.in.gov.br/web/dou/-/despachos-de-11-de-novembro-de-2026-743931985",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "gestao_riscos",
-        "planejamento_estrategico"
-      ],
-      "weak_keywords": [
-        "inovacao_processos",
-        "orcamento_estrategia",
-        "riscos_projetos",
-        "sustentabilidade_geral"
-      ],
-      "score": 14,
-      "xml_file": "DO2_0062.xml"
-    },
-    {
       "id": "portaria-mda-n-117-de-11-de-novembro-de-2026-743870627",
       "section": "DO1",
       "pub_date": "12/11/2026",
@@ -240,6 +250,33 @@
       ],
       "score": 12,
       "xml_file": "DO1_0220.xml"
+    },
+    {
+      "id": "retificacao-743928195",
+      "section": "DO2",
+      "pub_date": "12/11/2026",
+      "art_type": "Retificação",
+      "art_category": "Controladoria-Geral da União/Secretaria Executiva/Diretoria de Gestão Corporativa",
+      "identifica": "RETIFICAÇÃO",
+      "orgao": "Controladoria-Geral da União/Secretaria Executiva/Diretoria de Gestão Corporativa",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "RETIFICAÇÃO Na Portaria n° 3142, de 03 de outubro de 2024, publicada na edição do D.O.U. n° 193, de 04.10.2024, Seção 2, Página 56, onde se lê: \"com proventos calculados com base no caput e § 2º do art. 26 da Emenda Constitucional nº 103/2019\", leia-se: \"com proventos calculados com base no art. 2º do anexo I da Portaria SGP/SEDGG/ME nº 10.360/2022 c/c art. 6º-A da Emenda Constitucional 41/2003, com redação dada pela Emenda Constitucional 70/2012\".",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "48",
+      "edition": "213",
+      "url": "https://www.in.gov.br/web/dou/-/retificacao-743928195",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "controladoria-geral da uniao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "DO2_0128.xml"
     },
     {
       "id": "lei-n-15.528-de-11-de-novembro-de-2026-743866224",
@@ -272,6 +309,36 @@
       "xml_file": "DO1_0212.xml"
     },
     {
+      "id": "resolucao-n-263-de-9-de-novembro-de-2026-743874407",
+      "section": "DO1",
+      "pub_date": "12/11/2026",
+      "art_type": "Resolução",
+      "art_category": "Entidades de Fiscalização do Exercício das Profissões Liberais/Conselho Regional de Medicina do Estado do Paraná",
+      "identifica": "RESOLUÇÃO Nº 263, DE 9 DE NOVEMBRO DE 2026",
+      "orgao": "Entidades de Fiscalização do Exercício das Profissões Liberais/Conselho Regional de Medicina do Estado do Paraná",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "RESOLUÇÃO Nº 263, DE 9 DE NOVEMBRO DE 2026 Normatiza os procedimentos para concessão de passagem aérea ou terrestre, diária nacional e internacional, auxílio representação, jeton e ressarcimento de combustível, em obediência à Lei n.°11.000/2004, e revoga a Resolução CRM-PR n.º 252/2025 O CONSELHO REGIONAL DE MEDICINA DO PARANÁ, no uso das atribuições conferidas pela Lei n.º 3.268, de 30 de setembro de 1957, regulamentada pelo Decreto n.º 44.045, de 19 de julho de 1958, publicado em 25 de julho de 1958 e pela Lei n.º 11.000, de 15 de dezembro de 2004 e a Resolução do Conselho Federal de Medicina n.º 2442/2025, nos termos da deliberação adotada na Sessão Plenária n.º 7986.ª, de 09 de novembro de 2026, resolve: Art. 1° Normatizar a concessão de passagem aérea/terrestre ou ressarcimento de combustível (quando o convocado utilizar meio próprio de locomoção), diária nacional e internacional, jeton e auxílio de representação. Art. 2° A emissão de passagem aérea ou terrestre (ônibus) ou ressarcimento de combustível, pagamento de diárias nacional ou internacional, jeton e auxílio de representação, serão autorizados pelos ordenadores de despesas, mediante o Ato de Concessão Individualizado. § 1° Os atos de concessão deverão ser encaminhados à Tesouraria com a maior antecedência possível e deverão contemplar as seguintes informações: I - Convite ou motivação; II - Número do projeto; III - Diretor solicitante; IV - Nome do participante, cargo e/ou função; V - Contato do participante. Exemplo: e-mail ou telefone; VI - Descrição do(s) motivo(s) da viagem; VII - Indicação dos locais em que o serviço/representação será realizado, bem como o horário; VIII - Período de afastamento; IX - Trecho da viagem; X - Despesas e respectivas quantidades; XI - Assinaturas do participante, coordenador do setor, gestor e ordenadores de despesas. § 2° Sem o Ato de Concessão a Tesouraria não tomará nenhuma providência em relação à viagem e a inobservância de qualquer item do § 1° deste parágrafo e resultará na devolução do Ato de Concessão ao setor solicitante. § 3° A emissão das passagens e a contagem de diárias devem ter como marcos iniciais e finais, no máximo, um dia antes e um dia após os correspondentes eventos. § 4° Qualquer alteração de percurso, data ou horário de deslocamento será de inteira responsabilidade do passageiro, salvo quando de interesse da instituição ou motivo de força maior e com a devida autorização do Presidente ou Tesoureiro do Conselho Regional de Medicina. § 5° As viagens internacionais serão indicadas exclusivamente pelo Presidente e serão apreciadas pela Diretoria do Conselho Regional de Medicina do Paraná. Art. 3° A diária é a indenização para cobertura de despesas com pernoite, locomoção e refeição, quando houver deslocamento da cidade de origem. § 1° Os conselheiros efetivos e suplentes, assessores, delegados, funcionários, e convidados do Conselho Regional de Medicina do Paraná, quando em viagem nacional, farão jus à percepção de diária nos valores demonstrados abaixo: Incisos Beneficiários Valores I Conselheiros efetivos, suplentes e delegados do CRM-PR. Viagens para fora do Estado do PR. R$ 1.285,00 II Funcionários, assessores e convidados. Viagens para fora do Estado do PR. R$ 1.062,00 III Conselheiros efetivos, suplentes e delegados do CRM-PR. Viagens dentro do Estado do PR. R$ 1.000,00 IV Funcionários, assessores e convidados. Viagens dentro do Estado do PR. R$ 826,00 § 2° Os conselheiros efetivos e suplentes, delegados, assessores, funcionários e convidados do Conselho Regional de Medicina do Paraná, quando em viagem internacional, farão jus à percepção de diária nos valores demonstrados abaixo, pagas em moeda corrente do país, conforme cotação do dia do pagamento: LOCALIDADES E VALORES Incisos Beneficiários África, Ásia, Europa, Oceania e Oriente Médio Inglaterra, Escócia, País de Gales e Irlanda do Norte Demais Destinos I Conselheiros efetivos, suplentes, delegados do CRM-PR € 520.00 £ 520.00 US$ 520.00 II Funcionários, assessores e convidados. € 435.00 £ 435.00 US$ 435.00 § 3° Quando a missão ao exterior abranger mais de um país, adotar-se-á a diária aplicável ao país onde houver o pernoite. No retorno ao Brasil, prevalecerá a diária referente ao país onde o beneficiado cumpriu a última etapa da missão. Na hipótese de não haver voo no mesmo dia com destino à residência do beneficiado, o deslocamento será realizado no dia seguinte, com o recebimento de diária aplicável em nosso país. § 4° Os valores das diárias, quando não houver pernoite, serão reduzidos a 50% (cinquenta por cento). § 5º As diárias serão concedidas para deslocamentos para fora da abrangência da Região Metropolitana da Sede da Delegacia Regional de lotação do favorecido, seja ela na capital ou no interior do Estado do PR. Art. 4° O auxílio de representação (AR) é a indenização dos custos incorridos para execução de atividades internas/externas de caráter institucional, indelegáveis a terceiros, não acumulável com a diária, específica para conselheiros e convidados. § 1° Fica estabelecido o valor de R$ 764,00 (setecentos e sessenta e quatro reais) para cada auxílio de representação, limitado à quantidade máxima de 1 (um) por dia e 22 (vinte e dois) por mês, independentemente do número de atividades realizadas. § 2° O pagamento do auxílio de representação ficará vinculado à apresentação de ata ou relatório de participação, detalhando todas as atividades desenvolvidas e não poderá ser destinado a pessoas que possuem vínculo empregatício com os conselhos de medicina. § 3° Para Comissões e Câmaras Técnicas a participação presencial a Conselheiros será de 1(um) AR, estabelecido nesta Resolução devendo apresentar a lista de presença e relatório de atividade. § 4° Para Conselheiros baseados a mais de 100 quilômetros da capital será pago pela participação via web em Comissões e Câmaras Técnicas o valor de 50% do Auxílio de Representação (AR) observado o Art. 7º e seus incisos desta Resolução. § 5° O pagamento de médicos",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "116",
+      "edition": "213",
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-n-263-de-9-de-novembro-de-2026-743874407",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do1",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [
+        "governanca_geral",
+        "riscos_projetos"
+      ],
+      "score": 7,
+      "xml_file": "DO1_0038.xml"
+    },
+    {
       "id": "despacho-de-11-de-novembro-de-2026-743918156",
       "section": "DO2",
       "pub_date": "12/11/2026",
@@ -294,9 +361,38 @@
       "strong_keywords": [
         "sustentabilidade"
       ],
+      "weak_keywords": [
+        "selos_premios"
+      ],
+      "score": 6,
+      "xml_file": "DO2_0346.xml"
+    },
+    {
+      "id": "portaria-n-3.891-de-10-de-novembro-de-2026-743863557",
+      "section": "DO1",
+      "pub_date": "12/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
+      "identifica": "PORTARIA Nº 3.891, DE 10 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 3.891, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Quedas do Iguaçu/PR, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Quedas do Iguaçu/PR para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040761/2026-89, no valor de R$ 238.112,00 (duzentos e trinta e oito mil, cento e doze reais). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "68",
+      "edition": "213",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.891-de-10-de-novembro-de-2026-743863557",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do1",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO2_0346.xml"
+      "xml_file": "DO1_0127.xml"
     }
   ],
   "origem": {
@@ -305,11 +401,11 @@
     "atos_por_secao": {
       "DO1": 283,
       "DO2": 619,
-      "DO1E": 1,
+      "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 902,
+    "atos_com_texto_integral": 901,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-12T16:21:54Z"
+    "coletado_em": "2026-11-12T16:32:26Z"
   }
 }
