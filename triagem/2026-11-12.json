@@ -1,0 +1,108 @@
+{
+ "data": "2026-11-12",
+ "timestamp": "12/11/2026, 11h45 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": ""
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TRT-17 – Resolução Administrativa nº 110/2026: disposições sobre consignações em folha de pagamento",
+   "ementa": "O caderno traz trecho da norma interna sobre consignações (arquivo retorno após o fechamento da folha, efeito da inserção intempestiva de dados, vedação de inclusão em dobro, margem consignável nos arts. 8º e 9º e suspensão de consignações quando a soma dos descontos ultrapassa o limite). O texto publicado cita alterações anteriores (RA nº 61/2022 e RA nº 117/2022). [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "DIPROF, COREP, SECOBE",
+   "acao": "Ler o texto integral e verificar se há ajuste nas rotinas de consignação.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 12/11/2026"
+  },
+  {
+   "titulo": "TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 618 e 619/2026: remoção de servidores",
+   "ementa": "Lote de duas remoções de Técnicos Judiciários (área Administrativa), assinadas em 10/11/2026.",
+   "linhas": [
+    "Portaria nº 618/2026: Rayssa Autelina da Silva Santos, da Vara do Trabalho de São Mateus (MATV01) para a Vara do Trabalho de Aracruz (ARAV01).",
+    "Portaria nº 619/2026: Cláudia Costa Fernandes, da 2ª Vara do Trabalho de Vitória (VITV02) para a Secretaria de Auditoria (SEAUD)."
+   ],
+   "unidades": "SELIR, SELEP, CODOP",
+   "acao": "Atualizar lotação nos sistemas e comunicar as unidades de origem e destino.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 12/11/2026, Seção de Ingresso, Lotação e Remoção, p. 42-44"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-17 – Ato PRESI SECOR nº 85/2026: designação de juízas substitutas para auxílio na Vara do Trabalho de Guarapari",
+   "ementa": "Designa duas Juízas do Trabalho Substitutas para auxiliar na Vara do Trabalho de Guarapari nos dias 25 e 26/11/2026, respectivamente, sem prejuízo das designações anteriores, com autorização de audiências telepresenciais (art. 3º, II, do Ato PRESI SECOR nº 13/2023). Menciona o Ato Conjunto TST.CSJT.CGJT nº 61/2026 (Comissão Interventora no TRT-16).",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 12/11/2026, p. 2-3"
+  },
+  {
+   "titulo": "TRT-17 – Ato SECOR nº 96/2026 (processo de normatização, Atos PRESI SECOR 2026)",
+   "ementa": "O trecho disponível traz apenas o cabeçalho do processo (assunto: Normatização. Regulamentação); o conteúdo do ato não pôde ser lido. [verificar conteúdo na fonte]",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 12/11/2026"
+  },
+  {
+   "titulo": "CSJT – Resolução nº 462/2026 (29/10/2026): terceirização de serviços administrativos com dedicação exclusiva de mão de obra",
+   "ementa": "Dispõe sobre a terceirização de serviços administrativos, com dedicação exclusiva de mão de obra, no âmbito da Justiça do Trabalho de 1º e 2º graus; o preâmbulo cita a Resolução CNJ nº 651/2025 (retenção de provisões de encargos) e a IN SEGES/MPDG nº 5/2017. [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo CSJT, publicação de 12/11/2026"
+  },
+  {
+   "titulo": "AGU – Portaria Normativa nº 242/2026: representação judicial de agentes públicos",
+   "ementa": "Disciplina, no âmbito da AGU, os procedimentos relativos à representação judicial dos agentes públicos (art. 22 da Lei nº 9.028/1995). [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 2"
+  },
+  {
+   "titulo": "Receita Federal – Solução de Consulta nº 221/2026: IRPF sobre benefício pago em decorrência de acordo coletivo de trabalho",
+   "ementa": "Ementa: benefício pago por empresa em decorrência de acordo coletivo de trabalho, que se revista da natureza de rendimento do trabalho, está sujeito à tributação do IRPF (Lei 4.506/1964, art. 16; CTN, art. 43; Lei 7.713/1988, art. 3º, §4º; RIR/2018, arts. 33, 34 e 36). Trata de empresa e acordo coletivo, sem aplicação direta ao Tribunal.",
+   "unidades": "DIPROF, COREP",
+   "acao": "Arquivar; consultar em caso de dúvida sobre natureza tributável de verbas.",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 60"
+  },
+  {
+   "titulo": "Outros tribunais – atos de pessoal publicados no DOU Seção 2 (STJ, TST, CNJ, TRF4, TRT18)",
+   "ementa": "STJ: Portaria GP nº 952/2026 (aposentadoria de Técnico Judiciário, com base no art. 20 da EC 103/2019 e Lei 12.618/2012) e Portaria GDG nº 1.011/2026 (designação para FC-2). TST: Ato nº 729/2026 (designação de servidor removido do TRT-2 para FC-3). CNJ: Portarias SGP nº 354, 356, 358, 359, 361 e 363/2026 (designações de substitutos, nos termos do art. 38 da Lei 8.112/1990). TRT-18: Resoluções Administrativas nº 143 e 144/2026 (sessão administrativa de 10/11/2026) [verificar conteúdo na fonte]; TRF-4: Ato nº 4.988/2026 [verificar conteúdo na fonte].",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 52-56"
+  },
+  {
+   "titulo": "MGI/SGP – portarias e editais de aposentadoria, pensão e pessoal da DECIPEX (DOU Seção 2)",
+   "ementa": "Cerca de 25 portarias CGBEN/DECIPEX/SGP/MGI e DEPRO/SGP/MGI (p. 33-36), a Portaria MGI nº 8.759/2026 e o Edital DECIPEX nº 276/2026, relativos a servidores de outros órgãos do Executivo, além de atos de pessoal de IFs, universidades, MPU e outros. Triados pelo título e órgão; nenhum vínculo com o TRT-17 foi identificado. [carece de leitura humana do texto integral]",
+   "unidades": "SESES (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=12-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 33-36"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU – Acórdão 5840/2026 (Primeira Câmara, sessão de 10/11/2026): reexame em aposentadoria de magistrada, adicional por tempo de serviço e subsídio",
+   "status": "A ementa menciona pedido de reexame em aposentadoria de magistrada, ato registrado com determinação para cessar o pagamento de adicional por tempo de serviço cumulativamente com o subsídio, e decisão superveniente do STF em embargos na ADI 6.604/PB e no Tema 966 da repercussão geral. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo em proventos de magistrados com adicional por tempo de serviço (SESES, SELEP).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781280%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão TCU 5840/2026"
+  },
+  {
+   "titulo": "TCU – Série de acórdãos de 03/11/2026 sobre \"opção\" e quintos (Acórdãos 5793, 5787, 5786 e 5785) e pensão civil com parcelas judiciais (Acórdão 5788)",
+   "status": "Ementas tratam de cumulação das vantagens \"opção\" e quintos em aposentadorias e pensões, com registro ou negativa de registro conforme o caso, e de pensão civil com parcelas do Plano Collor e VPNI. Janela de sessões de 30/09 a 11/11/2026; 50 selecionados, nenhum novo desde a edição anterior. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo na análise de proventos e pensões com essas rubricas (SESES, DIPROF).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/",
+   "fonte_titulo": "Pesquisa de jurisprudência do TCU"
+  },
+  {
+   "titulo": "DJe do CNJ nº 270/2026 (12/11/2026)",
+   "status": "Edição lida; 21 trechos casaram com o vocabulário SGP, em sua maioria sobre serventias extrajudiciais e cessão de precatórios (minuta de resolução), sem ato de gestão de pessoas do Judiciário identificado. [carece de leitura humana do texto integral]",
+   "reflexo": "Sem reflexo direto identificado para a SGP.",
+   "fonte_url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+   "fonte_titulo": "DJe CNJ nº 270/2026"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 12/11/2026 (902 atos varridos, 97 selecionados, 54 atos individuais de pessoal de outros órgãos descartados; sem edições extras); DEJT Caderno Administrativo TRT-17, publicação de 12/11/2026 (5 atos, todos triados); DEJT CSJT: 4 atos detectados, 1 pertinente (Resolução nº 462/2026); Ato Conjunto TST.CSJT.CGJT nº 65, Ato CSJT.GP.SG nº 149 e Resolução CSJT nº 461/2026 sem pertinência à SGP segundo o filtro temático; DEJT TST: 1 ato detectado (Ato nº 06/CGJT.CITRT16), nenhum pertinente à SGP; acórdãos do TCU (sessões de 30/09 a 11/11/2026, 50 selecionados); DJe do CNJ nº 270/2026; notícias do STF e STJ: sem novidades em STF/STJ nesta data (nenhuma notícia com sinal de precedente vinculante e tema SGP). CNJ no DOU: nenhuma resolução ou recomendação na edição.",
+ "fontes_sem_retorno": "DJEN (acórdãos do CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br. Demais fontes sem falha de acesso."
+}
