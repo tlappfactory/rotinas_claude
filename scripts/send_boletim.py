@@ -9,8 +9,8 @@ Lê o par de arquivos versionados pela rotina:
 e envia como multipart/alternative. O assunto é derivado da data, no formato
 fixo exigido pelo runbook:
 
-    Boletim Normativo Diário - SGP - Edição de 2 de agosto de 2026
-    Boletim Normativo Diário - SEGEST - Edição de 2 de agosto de 2026   (--perfil segest)
+    Boletim Normativo SGP - Edição de 2 de agosto de 2026
+    Boletim Normativo SEGEST - Edição de 2 de agosto de 2026   (--perfil segest)
 
 O corpo do e-mail continua deixando explícito que o conteúdo é uma minuta
 pendente de revisão humana antes da distribuição oficial às unidades da SGP
@@ -106,7 +106,7 @@ def ler_corpos(data: str) -> tuple[str, str]:
 def montar_mensagem(data: str, html: str, texto: str,
                     remetente: str, destinatarios: list[str]) -> EmailMessage:
     msg = EmailMessage()
-    msg["Subject"] = f"{CFG['titulo']} - Edição de {data_por_extenso(data)}"
+    msg["Subject"] = f"{CFG['assunto']} - Edição de {data_por_extenso(data)}"
     msg["From"] = remetente
     msg["To"] = ", ".join(destinatarios)
     msg.set_content(texto)
