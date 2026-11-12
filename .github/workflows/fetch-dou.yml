@@ -185,11 +185,7 @@ jobs:
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
           mkdir -p institucional
-          # Navegador real (Chromium headless) só como último recurso para CSJT/TST,
-          # que respondem 202 vazio a HTTP simples. Instalação isolada: falha não derruba o run.
-          pip install -q playwright && playwright install --with-deps chromium >/dev/null 2>&1 || \
-            echo "AVISO: Chromium não instalado — CSJT/TST seguem sem navegador."
-          INSTITUCIONAL_NAVEGADOR=1 BOLETIM_PERFIL=segest python scripts/fetch_institucional.py --lookback 7 || \
+          BOLETIM_PERFIL=segest python scripts/fetch_institucional.py --lookback 7 || \
             echo "AVISO: fetch_institucional.py falhou — notícias CNJ/CSJT/TST serão marcadas como não consultadas."
 
       - name: Commit JSONs filtrados

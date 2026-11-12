@@ -140,7 +140,7 @@ Itens sem unidade clara: **"SEGEST-direção — ciência"**.
   sempre `[carece de leitura humana do texto integral]` (o JSON traz só o resumo da fonte). **Endpoints
   ainda não validados no runner:** na primeira execução, ler `probe` de cada fonte e, se `no_feed`, corrigir
   a lista de candidatos em `SOURCES`. Não citar "feed", "JSON" nem "coleta" na minuta.
-  - **CSJT e TST — bloqueados no runner** (HTTP 202 vazio, desafio anti-robô; 12/11/2026). Enquanto
+  - **CSJT e TST — bloqueados no runner** (HTTP 202 vazio / "403 Request blocked" do CDN ao IP do runner; Chromium headless também barrado em 12/11/2026 e removido do workflow — não insistir em contornar). Na sessão, tentar ler `csjt.jus.br/web/csjt/noticias` e `tst.jus.br/noticias` por WebFetch (rede liberada pelo operador); se barrado, seguir a busca abaixo. Enquanto
     `status` ≠ `ok`, **complementar com WebSearch** (cobertura indexada, como STF/STJ), uma consulta por tema
     prioritário, p.ex.: `CSJT Metas Nacionais Justiça do Trabalho [ANO]`, `Planejamento Estratégico 2027-2032
     Justiça do Trabalho CSJT TST`, `CSJT e-Gestão Justiça em Números [ANO]`, `CSJT sustentabilidade PLS [ANO]`.
