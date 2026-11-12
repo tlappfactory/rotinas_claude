@@ -45,8 +45,13 @@ STRONG_SEGEST: dict[str, list[str]] = {
         r"\bgovernanca e gestao\b", r"\bprograma de integridade\b", r"\bplano de integridade\b",
         r"\bgestao da integridade\b", r"\bcolegiados? tematicos?\b",
     ],
+    "transparencia_integridade": [
+        r"\bouvidoria\b", r"\bcarta de servicos\b", r"\btransparencia ativa\b",
+        r"\bprestacao de contas\b", r"\bintegridade publica\b", r"\bgovernanca de inteligencia artificial\b",
+        r"\binteligencia artificial no poder judiciario\b",
+    ],
     "gestao_riscos": [
-        r"\bgestao de riscos?\b", r"\bpolitica de gestao de riscos?\b", r"\briscos?[- ]chave\b",
+        r"\bgestao de riscos?\b", r"\biso 31000\b", r"\bcoso\b", r"\bpolitica de gestao de riscos?\b", r"\briscos?[- ]chave\b",
         r"\bmatriz de riscos?\b", r"\bapetite a riscos?\b", r"\bplano de tratamento de riscos?\b",
     ],
     "gestao_projetos": [
@@ -94,6 +99,8 @@ WEAK_SEGEST: dict[str, list[str]] = {
     "riscos_projetos": [r"\briscos?\b", r"\bprojetos?\b", r"\bportfolio\b"],
     "sustentabilidade_geral": [r"\bsustentabilidade\b", r"\bsustentaveis?\b", r"\bsocioambiental\b",
                                r"\bmeio ambiente\b", r"\bresiduos\b"],
+    "selos_premios": [r"\bselo\b", r"\bselos\b", r"\bods\b", r"\binteligencia artificial\b",
+                      r"\btransparencia\b", r"\bouvidoria\b"],
     "inclusao_diversidade": [r"\binclusao\b", r"\bdiversidade\b", r"\bequidade\b",
                              r"\bdeficiencia\b", r"\bacessivel\b"],
     "orcamento_estrategia": [r"\bproposta orcamentaria\b", r"\bplano plurianual\b",
@@ -108,6 +115,8 @@ PRIORITY_ORGAOS_SEGEST: list[str] = [
     "csjt", "conselho superior da justica do trabalho",
     "cnj", "conselho nacional de justica",
     "trt da 17", "tribunal regional do trabalho da 17",
+    # Normas de integridade/governança/riscos do Executivo federal (aplicáveis por analogia/referência).
+    "controladoria-geral da uniao", "controladoria geral da uniao",
 ]
 
 # Tipos de ato do DOU que, vindos de órgão NÃO prioritário, só geram ruído para a

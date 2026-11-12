@@ -179,6 +179,15 @@ jobs:
               echo "AVISO: fetch_diarios.py ($perfil) falhou — DJEN/DJe-CNJ serão marcados como fontes não consultadas."
           done
 
+      - name: Fetch+filter notícias CNJ/CSJT/TST (perfil SEGEST)
+        # Fonte nova (SEGEST): metas, estratégia, estatística, PLS, acessibilidade.
+        # Falha não derruba o run; `status` por fonte fica no JSON.
+        if: ${{ inputs.sonda_diarios != 'true' }}
+        run: |
+          mkdir -p institucional
+          BOLETIM_PERFIL=segest python scripts/fetch_institucional.py --lookback 7 || \
+            echo "AVISO: fetch_institucional.py falhou — notícias CNJ/CSJT/TST serão marcadas como não consultadas."
+
       - name: Commit JSONs filtrados
         if: ${{ inputs.sonda_diarios != 'true' }}
         run: |
@@ -191,7 +200,8 @@ jobs:
                           'dejt/*/dejt-filtered.json' 'dejt/*/dejt-filtered-segest.json' 'dejt/_last_fetch.json' \
                           'tcu/*/tcu-filtered.json' 'tcu/*/tcu-filtered-segest.json' \
                           'jurisprudencia/*/jurisprudencia-filtered.json' 'jurisprudencia/*/jurisprudencia-filtered-segest.json' \
-                          'diarios/*/diarios-filtered.json' 'diarios/*/diarios-filtered-segest.json'; do
+                          'diarios/*/diarios-filtered.json' 'diarios/*/diarios-filtered-segest.json' \
+                          'institucional/*/institucional-filtered-segest.json'; do
             git add -- "$pathspec" 2>/dev/null || echo "sem arquivos para $pathspec"
           done
           if git diff --staged --quiet; then
