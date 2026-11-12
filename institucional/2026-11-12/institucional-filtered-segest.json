@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-12T16:44:38Z",
+  "run_utc": "2026-11-12T20:44:55Z",
   "lookback_days": 7,
   "desde": "2026-11-05",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 46,
+      "itens_vistos": 54,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 36391,
-          "inicio": "[{\"id\":435902,\"date\":\"2026-11-12T13:22:57\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/consulta-publica-sobre-os-centros-de-inteligencia-recebe-sugestoes-ate-21-11\\/\",\"title\":{\"rendered\":\"Consulta p\\u00fablica sobre os Centros de Intelig\\u00eancia recebe sugest\\u00f5es at\\u00e9 21\\/11\"},\"excerpt\":{\"rendered\":"
+          "bytes": 42540,
+          "inicio": "[{\"id\":436000,\"date\":\"2026-11-12T17:23:00\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/oficinas-orientam-proximos-passos-no-combate-ao-assedio-nos-tribunais\\/\",\"title\":{\"rendered\":\"Oficinas orientam pr\\u00f3ximos passos no combate ao ass\\u00e9dio nos tribunais\"},\"excerpt\":{\"rendered\":\"<p>Dar encaminhamento a "
         },
         {
           "amostra_titulos": [
-            "Consulta pública sobre os Centros de Inteligência recebe sugestões até 21/11",
-            "Recuperação judicial no agronegócio será debatido em evento do Fonaref nesta quinta (12/11",
-            "Pena Justa: alternativas à prisão recebem investimentos e reforço operacional",
-            "Comissões fundiárias constroem soluções para conflitos e garantem direitos a milhares de f",
-            "CNJ lança plataforma de dados sobre medidas socioeducativas",
-            "Em sessão virtual, CNJ define medidas de combate ao racismo na adoção de crianças e adoles"
+            "Oficinas orientam próximos passos no combate ao assédio nos tribunais",
+            "PopRuaJud: evento em BH debate avanços no direito de mães em situação de rua",
+            "Rede Nacional de Magistrados defende que Tribunal do Júri julgue homicídios ligados a facç",
+            "TJGO doa 1,22 tonelada de pneus para cooperativa de reciclagem",
+            "TJRO apresenta experiência na contratação de cooperativa de catadores: saiba como particip",
+            "SireneJud: webinário apresenta plataforma que apoia a Justiça em pautas ambientais e climá"
           ]
         }
       ]
@@ -100,11 +100,11 @@
           "inicio": ""
         },
         {
-          "navegador": "https://www.csjt.jus.br/web/csjt/noticias",
+          "url": "https://www.csjt.jus.br/web/csjt/noticias",
           "http": 202,
-          "titulo_pagina": "ERROR: The request could not be satisfied",
-          "links": 0,
-          "inicio": "403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again "
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
         }
       ]
     },
@@ -179,11 +179,11 @@
           "inicio": ""
         },
         {
-          "navegador": "https://www.tst.jus.br/noticias",
+          "url": "https://www.tst.jus.br/noticias",
           "http": 202,
-          "titulo_pagina": "ERROR: The request could not be satisfied",
-          "links": 0,
-          "inicio": "403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again "
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
         }
       ]
     }

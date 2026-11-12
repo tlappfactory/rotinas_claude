@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-12T16:44:09Z",
+  "run_utc": "2026-11-12T20:44:45Z",
   "lookback_days": 7,
   "desde": "2026-11-05",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 46,
+      "itens_vistos": 49,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 23347,
-          "inicio": "[{\"id\":167770,\"date\":\"2026-11-12T09:24:59\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/confira-a-pauta-do-stf-desta-quinta-feira-12-3\\/\",\"title\":{\"rendered\":\"Confira a pauta do STF desta quinta-feira (12)\\u202f\\u202f\"},\"excerpt\":{\"rendered\":\"<p>Sess\\u00e3o come\\u00e7a \\u00e0s 14h e ser\\u00"
+          "bytes": 24963,
+          "inicio": "[{\"id\":167798,\"date\":\"2026-11-12T17:34:19\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/ouvidoria-do-stf-e-ufpa-compartilham-experiencias-sobre-direitos-de-povos-indigenas-e-comunidades-quilombolas\\/\",\"title\":{\"rendered\":\"Ouvidoria do STF e UFPA compartilham experi\\u00eancias sobre direitos"
         },
         {
           "amostra_titulos": [
+            "Ouvidoria do STF e UFPA compartilham experiências sobre direitos de povos indígenas e comu",
+            "STF valida regra do Amazonas sobre prescrição nos processos no Tribunal de Contas estadual",
+            "STF mantém regra de transição para implementação da jornada 5×2",
             "Confira a pauta do STF desta quinta-feira (12)",
             "Presidente do STF e vice se reúnem com parlamentares da Comissão Mista de Planos, Orçament",
-            "Relator vota pelo fim da isenção de pena em crimes patrimoniais contra mulheres no ambient",
-            "STF vai definir se alegação de desconhecimento de idade pode afastar condenação por estupr",
-            "STF suspende processos e bloqueia precatórios de valores pagos pelo SUS a hospitais privad",
-            "Provedores de internet questionam lei de MT que exige informações de velocidade nas fatura"
+            "Relator vota pelo fim da isenção de pena em crimes patrimoniais contra mulheres no ambient"
           ]
         }
       ]
