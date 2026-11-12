@@ -140,6 +140,18 @@ Itens sem unidade clara: **"SEGEST-direção — ciência"**.
   sempre `[carece de leitura humana do texto integral]` (o JSON traz só o resumo da fonte). **Endpoints
   ainda não validados no runner:** na primeira execução, ler `probe` de cada fonte e, se `no_feed`, corrigir
   a lista de candidatos em `SOURCES`. Não citar "feed", "JSON" nem "coleta" na minuta.
+  - **CSJT e TST — bloqueados no runner** (HTTP 202 vazio, desafio anti-robô; 12/11/2026). Enquanto
+    `status` ≠ `ok`, **complementar com WebSearch** (cobertura indexada, como STF/STJ), uma consulta por tema
+    prioritário, p.ex.: `CSJT Metas Nacionais Justiça do Trabalho [ANO]`, `Planejamento Estratégico 2027-2032
+    Justiça do Trabalho CSJT TST`, `CSJT e-Gestão Justiça em Números [ANO]`, `CSJT sustentabilidade PLS [ANO]`.
+    Usar só resultados de `csjt.jus.br`, `tst.jus.br` ou sites de TRTs **com data dentro dos últimos 7 dias**
+    e que digam literalmente o que se afirma; resultado sem data ou antigo é descartado. Entram em
+    EM MONITORAMENTO com `[carece de leitura humana do texto integral]`. Achado nesse caminho **não** dispensa
+    declarar que o portal do CSJT/TST não foi lido diretamente. Sem resultado válido: "CSJT/TST: portal não
+    consultado diretamente; busca indexada sem novidades nesta data".
+  - **Contexto vigente (confirmado por busca em 12/11/2026):** a Justiça do Trabalho constrói o Planejamento
+    Estratégico 2027-2032 (lançado em 19/08/2026) e as Metas Nacionais 2027; acompanhar andamentos, consultas
+    públicas e resoluções do CSJT sobre o tema.
 - **STF/STJ:** só com sinal de precedente vinculante **e** tema SEGEST; o mais comum é
   `Sem novidades em STF/STJ nesta data`.
 - Calendário, data do DEJT (publicação ≠ disponibilização) e fallback com aviso metodológico:

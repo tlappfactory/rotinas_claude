@@ -46,7 +46,7 @@ STRONG_SEGEST: dict[str, list[str]] = {
         r"\bgestao da integridade\b", r"\bcolegiados? tematicos?\b",
     ],
     "transparencia_integridade": [
-        r"\bouvidoria\b", r"\bcarta de servicos\b", r"\btransparencia ativa\b",
+        r"\bcarta de servicos\b", r"\btransparencia ativa\b",
         r"\bprestacao de contas\b", r"\bintegridade publica\b", r"\bgovernanca de inteligencia artificial\b",
         r"\binteligencia artificial no poder judiciario\b",
     ],
