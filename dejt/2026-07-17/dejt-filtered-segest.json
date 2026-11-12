@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-17",
+  "sources": {
+    "trt17": {
+      "status": "no_pdf"
+    },
+    "csjt": {
+      "status": "no_pdf"
+    },
+    "tst": {
+      "status": "no_pdf"
+    }
+  },
+  "total_matched": 0,
+  "strong_keyword_tags": [
+    "planejamento_estrategico",
+    "metas_nacionais",
+    "governanca",
+    "gestao_riscos",
+    "gestao_projetos",
+    "estatistica_judiciaria",
+    "pesquisas_institucionais",
+    "sustentabilidade",
+    "acessibilidade_inclusao"
+  ],
+  "weak_keyword_tags": [
+    "estatistica_pesquisa",
+    "inovacao_processos",
+    "governanca_geral",
+    "riscos_projetos",
+    "sustentabilidade_geral",
+    "inclusao_diversidade",
+    "orcamento_estrategia"
+  ],
+  "articles": []
+}

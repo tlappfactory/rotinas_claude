@@ -1,0 +1,98 @@
+{
+  "run_utc": "2026-11-12T16:22:29Z",
+  "lookback_days": 14,
+  "cutoff_date": "2026-10-29",
+  "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
+  "pages_fetched": 2,
+  "items_seen": 500,
+  "min_date_seen": "2026-10-27",
+  "max_date_seen": "2026-11-11",
+  "total_matched": 4,
+  "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2778118",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "3079",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "11/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 3079/2026 ATA 45/2026 - PLENÁRIO",
+      "sumario": "ACOMPANHAMENTO. AVALIAÇÃO DOS RISCOS À IMPLEMENTAÇÃO DA REFORMA TRIBUTÁRIA SOBRE O CONSUMO (EC 132/2023 e LCs 214/2025 e 227/2026). VERIFICAÇÃO DOS ATOS NECESSÁRIOS PARA O INÍCIO DA ARRECADAÇÃO DA CONTRIBUIÇÃO SOBRE BENS E SERVIÇOS (CBS) EM 1º/1/2027. ATUALIZAÇÃO DA LISTA DE ALTO RISCO (LAR) 2026. ATRASO NA DEFINIÇÃO LEGISLATIVA DO IMPOSTO SELETIVO (IS). MOROSIDADE NA EDIÇÃO DE ATOS NORMATIVOS CONJUNTOS. RISCOS OPERACIONAIS NA IMPLEMENTAÇÃO DO CASHBACK E DO SPLIT PAYMENT. FRAGILIDADES NOS RITOS DE GOVERNANÇA E RESOLUÇÃO DE DISSENSOS ENTRE A SECRETARIA ESPECIAL DA RECEITA FEDERAL DO BRASIL (RFB) E O COMITÊ GESTOR DO IMPOSTO SOBRE BENS E SERVIÇOS (CGIBS). NECESSIDADE DE PLANEJAMENTO INTEGRADO E CRONOGRAMAS DE CONTINGÊNCIA. RECOMENDAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778118%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "governanca_geral",
+        "orcamento_estrategia",
+        "riscos_projetos"
+      ],
+      "trt17_hits": [],
+      "score": 3
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2764010",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5779",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "03/11/2026",
+      "relator": "RODRIGO PACHECO",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5779/2026 ATA 38/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. PROJETO PROJOVEM TRABALHADOR - JUVENTUDE CIDADÃ. MUNICÍPIO DE BARREIRINHAS/MA. NÃO COMPROVAÇÃO DA REGULAR APLICAÇÃO DE RECURSOS. DIVERGÊNCIAS ENTRE MOVIMENTAÇÃO FINANCEIRA E DOCUMENTOS DE DESPESA. NÃO COMPROVAÇÃO FÍSICA DE PARTE DO OBJETO. META DE INSERÇÃO NO MERCADO DE TRABALHO NÃO ATINGIDA. CITAÇÃO. REVELIA DE UM EX-PREFEITO. AFASTAMENTO DA PRESCRIÇÃO ORDINÁRIA E DA INTERCORRENTE. ERRO GROSSEIRO CONFIGURADO. IRREGULARIDADE DAS CONTAS. DÉBITO E MULTA. RECURSO DE RECONSIDERAÇÃO. ARGUMENTOS INSUFICIENTES PARA REFORMA DO JULGADO. CONHECIMENTO E NEGATIVA DE PROVIMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2764010%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "orcamento_estrategia",
+        "riscos_projetos"
+      ],
+      "trt17_hits": [],
+      "score": 2
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2783093",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "3019",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "04/11/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 3019/2026 ATA 44/2026 - PLENÁRIO",
+      "sumario": "REPRESENTAÇÃO. DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES. CONCORRÊNCIA ELETRÔNICA. CONTRATAÇÃO INTEGRADA DE PROJETOS E OBRAS DO CONTORNO SUDESTE/NORDESTE DE GOIÂNIA/GO (BR-153/GO). OBRA INTEGRANTE DAS OBRIGAÇÕES DE CONTRATO DE CONCESSÃO RODOVIÁRIA OBJETO DE SOLUÇÃO CONSENSUAL APROVADA PELO TCU. VEDAÇÃO À APLICAÇÃO DE RECURSOS DA UNIÃO EM OBRA DE RESPONSABILIDADE DA CONCESSIONÁRIA. DEFICIÊNCIAS DE PLANEJAMENTO E DE COORDENAÇÃO INSTITUCIONAL. MEDIDA CAUTELAR REFERENDADA. OITIVAS. PEDIDO DE RETOMADA DO CERTAME. INDEFERIMENTO. PROCEDÊNCIA DA REPRESENTAÇÃO. DETERMINAÇÃO. CIÊNCIA. ARQUIVAMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783093%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "orcamento_estrategia",
+        "riscos_projetos"
+      ],
+      "trt17_hits": [],
+      "score": 2
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780586",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "3073",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "11/11/2026",
+      "relator": "JHONATAN DE JESUS",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 3073/2026 ATA 45/2026 - PLENÁRIO",
+      "sumario": "REPRESENTAÇÃO. ALIENAÇÃO, PELA PETROBRAS, DE 50% DO CAPITAL DA PETROBRAS OIL & GAS B.V. AO BANCO BTG PACTUAL (PROJETO SURICATO). ALEGAÇÃO DE VENDA POR VALOR INFERIOR AO DOS ATIVOS. AUDIÊNCIAS. PRESCRIÇÃO NÃO CONFIGURADA. ESTIMATIVAS DE VALOR AMPARADAS EM PREMISSAS TECNICAMENTE JUSTIFICADAS. DANO E DIRECIONAMENTO NÃO DEMONSTRADOS. FALHA DE GOVERNANÇA DOCUMENTAL SEM GRAVIDADE PARA IMPOSIÇÃO DE SANÇÃO. IMPROCEDÊNCIA. ARQUIVAMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780586%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "governanca_geral",
+        "riscos_projetos"
+      ],
+      "trt17_hits": [],
+      "score": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_utc": "2026-11-12T16:22:41Z",
+  "lookback_days": 4,
+  "desde": "2026-11-08",
+  "ate": "2026-11-12",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-08&dataDisponibilizacaoFim=2026-11-12&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 5,
+      "fora_da_janela": 0,
+      "selecionados": 2,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13086,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "270",
+            "data": "2026-11-12",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 865633
+        },
+        {
+          "chars_texto": 429157,
+          "blocos_tematicos": 5
+        }
+      ],
+      "edicao": "270/2026",
+      "data_edicao": "2026-11-12"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#1",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Dispõe sobre diretrizes e procedimentos para a lavratura e retificação dos assentos de óbito de pessoas mortas ou declaradas mortas em decorrência ou no contexto de intervenções de órgãos de segurança pública, para fins de memória, verdade, acesso a direitos e produção de dados estatísticos.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#2",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Art. 18. Os processos de que trata esta Resolução serão classificados nas Tabelas Processuais Unificadas (TPU) com o assunto complementar nº 15720 – “Crime Decorrente de Ações de Segurança Pública”, sem prejuízo da manutenção do assunto principal correspondente. Art. 19. O Operador Nacional do Registro Civil de Pessoas Naturais (ON-RCPN) criará, no prazo de 90 (noventa) dias da publicação desta Resolução, campo estruturado específico na Central de Informações do Registro Civil (CRC) para identificação dos assentos de óbito lavrados ou retificados nos termos desta Resolução, nos termos dos arts. 229 a 236 do Provimento CNJ nº 149 de 30 de agosto de 2023. §1º Os cartórios de Registro Civil das Pessoas Naturais comunicarão ao ON-RCPN no prazo ordinário previsto na regulamentação vigente, toda lavratura ou retificação realizada nos termos desta Resolução, assinalando o campo estruturado de que trata o caput. §2º O ON-RCPN manterá painel público com dados estatísticos consolidados a partir dos registros realizados na forma desta Resolução.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 2
+}
