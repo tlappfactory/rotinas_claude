@@ -8,7 +8,7 @@ Qualidade, Agenda 2030/PLS, acessibilidade, governança e gestão de riscos.
 
 Lê feeds oficiais (WordPress wp-json ou RSS), em ordem de candidatos — vale o
 primeiro que responder — e filtra pelo vocabulário da SEGEST (scripts/perfis.py):
->=1 termo forte OU >=2 termos fracos. O JSON traz só título, data, link e o
+>=1 termo forte (termos fracos só acompanham). O JSON traz só título, data, link e o
 resumo da própria fonte; nunca tese/conteúdo inferido (carece de leitura humana).
 Cada fonte grava `status` (ok | no_feed | error) e `probe` com o HTTP de cada
 tentativa, para diagnóstico remoto quando um portal muda de formato.
@@ -82,7 +82,7 @@ def filtrar(itens: list[dict], desde: str) -> tuple[list[dict], int]:
             continue
         texto = normalize(f"{it['titulo']} {it['resumo']}")
         fortes, fracas = match_patterns(texto, STRONG_KEYWORDS), match_patterns(texto, WEAK_KEYWORDS)
-        if fortes or len(fracas) >= 2:
+        if fortes:  # notícias são ruidosas: só termo forte (par de fracos trazia saúde/CPF/etc.)
             sel.append({**it, "temas": sorted(set(fortes)), "temas_fracos": sorted(set(fracas)),
                         "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"})
     return sel, fora
