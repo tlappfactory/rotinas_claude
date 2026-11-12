@@ -1,11 +1,11 @@
 {
   "date": "2026-11-12",
-  "total_xml_files": 902,
+  "total_xml_files": 903,
   "matched_articles": 11,
   "discarded_individual_acts": {
-    "total": 12,
+    "total": 10,
     "by_section": {
-      "DO2": 12
+      "DO2": 10
     }
   },
   "parse_errors": [],
@@ -401,11 +401,11 @@
     "atos_por_secao": {
       "DO1": 283,
       "DO2": 619,
-      "DO1E": 0,
+      "DO1E": 1,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 901,
+    "atos_com_texto_integral": 902,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-12T16:32:26Z"
+    "coletado_em": "2026-11-12T16:43:17Z"
   }
 }
