@@ -21,6 +21,7 @@ Uso:
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -65,6 +66,57 @@ def obter(url: str, probe: list):
         time.sleep(8)
 
 
+# Páginas de listagem lidas por navegador real (Chromium headless, sem disfarce:
+# o UA é o padrão do Chromium) quando feeds/HTTP simples falham. Autorizado pelo
+# operador em 12/11/2026 para CSJT e TST; só leitura de páginas públicas.
+LISTAGENS_NAVEGADOR = {
+    "csjt": ["https://www.csjt.jus.br/web/csjt/noticias"],
+    "tst": ["https://www.tst.jus.br/noticias"],
+}
+JS_LINKS = """() => [...document.querySelectorAll('a[href]')].map(a => {
+  const bloco = a.closest('article, li, .card, .asset-abstract, .noticia, div') || a;
+  return {href: a.href, texto: (a.innerText || '').trim(), bloco: (bloco.innerText || '').trim().slice(0, 400)};
+}).filter(x => x.texto.length >= 25)"""
+DATA_BR = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
+
+
+def coletar_navegador(fonte: str, probe: list) -> list[dict]:
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        probe.append({"navegador": "playwright não instalado"})
+        return []
+    itens, vistos = [], set()
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(args=["--no-sandbox"], executable_path=os.environ.get("CHROMIUM_PATH") or None)
+            page = browser.new_page()
+            for url in LISTAGENS_NAVEGADOR.get(fonte, []):
+                try:
+                    resp = page.goto(url, wait_until="networkidle", timeout=60000)
+                    page.wait_for_timeout(3000)
+                    links = page.evaluate(JS_LINKS)
+                    probe.append({"navegador": url, "http": resp.status if resp else None,
+                                  "titulo_pagina": (page.title() or "")[:120], "links": len(links),
+                                  "inicio": (page.inner_text("body") or "")[:200].replace("\n", " ")})
+                except Exception as exc:  # noqa: BLE001 — diagnóstico, nunca derrubar a coleta
+                    probe.append({"navegador": url, "erro": f"{type(exc).__name__}: {exc}"[:200]})
+                    continue
+                for l in links:
+                    if l["href"] in vistos:
+                        continue
+                    vistos.add(l["href"])
+                    m = DATA_BR.search(l["bloco"])
+                    data = f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}" if m else ""
+                    itens.append({"data": data, "url": l["href"], "titulo": l["texto"][:200],
+                                  "resumo": re.sub(r"\s+", " ", l["bloco"])[:300],
+                                  **({} if data else {"data_nao_identificada": True})})
+            browser.close()
+    except Exception as exc:  # noqa: BLE001
+        probe.append({"navegador_erro": f"{type(exc).__name__}: {exc}"[:200]})
+    return itens
+
+
 def coletar(fonte: str, lookback: int) -> dict:
     after = (datetime.now(timezone.utc) - timedelta(days=lookback)).strftime("%Y-%m-%dT00:00:00")
     probe: list = []
@@ -81,8 +133,14 @@ def coletar(fonte: str, lookback: int) -> dict:
             continue
         probe.append({"amostra_titulos": [i["titulo"][:90] for i in itens[:6]]})
         return {"status": "ok", "endpoint": tmpl.split("?")[0], "itens": itens, "probe": probe}
-    for url in DESCOBERTA.get(fonte, []):
-        probe_get(url, probe)
+    if os.environ.get("INSTITUCIONAL_NAVEGADOR") == "1" and fonte in LISTAGENS_NAVEGADOR:
+        itens = coletar_navegador(fonte, probe)
+        if itens:
+            probe.append({"amostra_titulos": [i["titulo"][:90] for i in itens[:6]]})
+            return {"status": "ok", "endpoint": "navegador:" + LISTAGENS_NAVEGADOR[fonte][0], "itens": itens, "probe": probe}
+    else:
+        for url in DESCOBERTA.get(fonte, []):
+            probe_get(url, probe)
     return {"status": "error" if any("erro" in p for p in probe) else "no_feed", "itens": [], "probe": probe}
 
 
