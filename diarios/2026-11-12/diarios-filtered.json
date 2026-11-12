@@ -1,0 +1,447 @@
+{
+  "run_utc": "2026-11-12T14:45:14Z",
+  "lookback_days": 4,
+  "desde": "2026-11-08",
+  "ate": "2026-11-12",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-08&dataDisponibilizacaoFim=2026-11-12&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 31,
+      "fora_da_janela": 0,
+      "selecionados": 21,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13086,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "270",
+            "data": "2026-11-12",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 865633
+        },
+        {
+          "chars_texto": 429157,
+          "blocos_tematicos": 31
+        }
+      ],
+      "edicao": "270/2026",
+      "data_edicao": "2026-11-12"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#5",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "serventias para cumprimento de decisões judiciais e administrativas com a oferta de unidades que não integraram o edital do concurso. 2.2. Análise da situação jurídica individualizada dos candidatos beneficiados pelas escolhas extemporâneas, em razão de cumprimento de decisão judicial ou administrativa. III. Razões de decidir 3.1 Configurada a verossimilhança do direito em razão de dúvidas suscitadas acerca da legalidade de designação da audiência de escolha de serventias, com a oferta de unidades que não integraram o edital do concurso e com base em critérios não aplicados aos demais candidatos do certame, ainda que em razão de cumprimento de decisões administrativas e judiciais. 3.2. No exame preliminar da matéria, constata-se a necessidade de analisar, de forma individualizada, a situação jurídica dos candidatos convocados a para audiência de escolha. 3.3. É temerária a realização da audiência de escolhas e a oferta de serventias sem que essas questões sejam examinadas com profundidade, inclusive com prévia análise pela Corregedoria Nacional de Justiça. Cabe a este Conselho adotar medidas para resguardar a segurança jurídica na oferta e outorga de delegações, uma vez que o desfazimento de atos desta natureza demanda soluções traumáticas e de difícil implementação. 3.2 A outorga de uma delegação, a investidura e a entrada em exercício dos candidatos aprovados em concurso público são atos administrativos complexos e com efeitos imediatos que não se restringem aos delegatário",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#6",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "decorreu de determinações judiciais em caráter definitivo, ou seja, um fator jurídico e objetivo e não de escolha arbitrária do TJPR; · os candidatos convocados pelo tribunal paranaense não estão na idêntica situação fático-jurídica dos demais aprovados e, em razão disso, rejeitou-se a possibilidade de escolha irrestrita a todos os remanescentes. Tal medida comprometeria a segurança jurídica e a estabilidade das delegações consolidadas. · o artigo 20 da LINDB veda a decisão com base em valores jurídicos abstratos sem considerar as consequências práticas. A CONR ressaltou que a reabertura ampla configura a aplicação da isonomia abstrata e desconsidera os impactos concretos da medida; · o artigo 24 da LINDB proíbe a invalidação de situações plenamente constituídas com base em novas interpretações, devendo a revisão observar as orientações vigentes à época do ato. Por analogia, a norma protege os candidatos investidos nas delegações regularmente escolhidas. A anulação dos atos de outorga desconsideraria dezenas de situações jurídicas aperfeiçoadas e violaria o disposto no artigo 21 da citada lei. A título de reforço argumentativo, destaco os seguintes trechos da fundamentação do parecer Id6146762: [...] Dessarte, a solidez de tal mandamento foi cimentada pela atuação do Supremo Tribunal Federal que, em reiterados pronunciamentos, consolidou a imperatividade do concurso público como único meio legítimo de outorga das delegações. O julgamento da Ação Direta de Inconstitucionalidad",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#8",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "de competência do Conselho Nacional de Justiça em que não há previsão regimental para esse tipo de intervenção. 3.4 Os recorrentes não buscam o afastamento de norma relacionada a matéria tida por inconstitucional pelo Supremo Tribunal Federal, situação em que é admitida a intervenção do Conselho Nacional de Justiça, na forma do §3º do artigo 4º do RICNJ, uma vez que o controle reivindicado pelo requerente é direcionado à validade de leis estadual e norma do TJPR. Dessa forma, é incabível o exame da legislação estadual sob o prisma constitucional, sobretudo porque a validade das normas é questionada na ADI n. 7.843/PR. 3.5 O ato designado pelo TJPR não configura a reescolha prevista pelo §4º do artigo 2º da Resolução CNJ n. 81/2009, uma medida inserida no âmbito da discricionariedade do tribunal e realizada dentro do concurso público para aproveitamento de vagas remanescentes. A audiência foi designada em cumprimento de decisões judiciais transitadas em julgado que favoreceram determinados candidatos, circunstância em que não há liberalidade do tribunal paranaense. 3.6 Os recorrentes estão em situação diversa dos convocados pelo TJPR, uma vez que foram aprovados no 3º Concurso Público de Provas e Títulos para Outorga de Delegações de Notas e de Registro do Estado do Paraná e, apesar de lhes ter sido oportunizada a escolha de serventias, optaram por não a fazer na expectativa de uma futura e incerta oferta de delegações remanescentes IV. Dispositivo 4.1 Recurso improvido. Prece",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#9",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "extrai da \"Ata de Audiência de Escolhas de Serventias e de Outorga de Delegação e Investidura do Cargo do 3º Concurso Público de Ingresso na Atividade Notarial e de Registro do Estado do Paraná\", sem que tivesse feito qualquer apontamento a respeito dessa renúncia ao final da audiência (eDOC 112/ID 4ea763ac, p. 12, e eDOC 114/ID cf8b1670). O concurso foi encerrado e homologado em 23.2.2023, com a investidura das serventias então oferecidas. [...] Todavia, a decisão de mérito proferida nestes autos reformou o ato coator para assegurar a observância do disposto no parágrafo único do art. 3º da Lei Estadual 14.594/2004, no que se refere ao requisito temporal de permanência em uma mesma serventia para participação no concurso de remoção aos aprovados no certame, não se extraindo de seu conteúdo a possibilidade de opção pela recorrente de serventia que se manteve vaga após o encerramento do concurso. Nesses termos, é irrelevante a informação sobre eventuais serventias ofertadas no edital que deixaram de ser preenchidas pelo concurso de remoção, bem como a ausência de prejuízo à escolha dos candidatos que exerceram seu direito de escolha durante o certame, tendo em vista que o direito assegurado à impetrante e posteriormente confirmado em decisão colegiada se restringiu - como exaustivamente demonstrado - à sua participação do concurso, durante o seu andamento, sem a exigência do interstício temporal mencionado. [...] No que tange à afirmação de que não houve renúncia por parte da ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#11",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Justiça (CNJ), por força da matriz constitucional prevista no § 4º do art. 103-B da CF/88, exerce o controle da atuação administrativa e financeira do Poder Judiciário, incumbindo-lhe, ainda, a análise, de ofício ou mediante provocação, da legalidade dos atos administrativos praticados por membros ou órgãos do Poder Judiciário, podendo desconstituí-los, revê-los ou fixar prazo para que se adotem as providências necessárias ao exato cumprimento da lei. II -Reconhecimento da plena regularidade de procedimento adotado pelo CNJ, no exercício de competência estabelecida pelo art. 103-B, § 4º, da Constituição, sendo irretocável o acórdão que reconheceu a ilicitude do pagamento de ajuda de custo para moradia a magistrados inativos e pensionistas do Tribunal de Justiça do Estado de Mato Grosso. III - Cumpre assentar o caráter indenizatório do denominado auxílio-moradia, sob pena de convolar tal instituto em vantagem remuneratória permanente, fato este incompatível com a natureza jurídica da benesse, que, como é cediço, está voltada ao ressarcimento dos custos ocasionados pelo deslocamento do servidor público para outros ambientes que não o de seu domicílio habitual. IV- Assim, o auxílio-moradia não poderia ser incorporado pela Lei estadual 4.964/1985 ao subsídio dos magistrados ou aos proventos de aposentadoria em razão da sua natureza indenizatória, mormente por força do disposto no art. 65, II, da Lei Complementar 35/1979. V - Ao revogar a tutela liminar proferida na Ação Originári",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "ajuda_custo_transporte",
+        "aposentadoria",
+        "pensao",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#13",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Justiça é exclusiva do Supremo Tribunal Federal, não sendo dado ao Tribunal local afastar a incidência ou a eficácia dos comandos previstos em ato normativo editado pelo CNJ. Ante o exposto, voto no sentido de acompanhar integralmente a relatora, a quem parabenizo pela solução justa e adequada. Brasília, data registrada no sistema. ANDRÉA CUNHA ESMERALDO Conselheira N. 0008577-83.2026.2.00.0000 - ATO NORMATIVO - A: CONSELHO NACIONAL DE JUSTIÇA - CNJ. Adv(s).: Nao Consta Advogado. R: CONSELHO NACIONAL DE JUSTIÇA - CNJ. Adv(s).: Nao Consta Advogado. Conselho Nacional de Justiça Autos: ATO NORMATIVO - 0008577-83.2026.2.00.0000 Requerente: CONSELHO NACIONAL DE JUSTIÇA - CNJ Requerido: CONSELHO NACIONAL DE JUSTIÇA - CNJ ATO NORMATIVO. RESOLUÇÃO. CESSÃO DE CRÉDITOS DE PRECATÓRIOS. PARÂMETROS GERAIS. MODELO NACIONAL DE GOVERNANÇA. PROVIDÊNCIAS PARA PADRONIZAÇÃO, PUBLICIDADE, CONTROLE E INTEROPERABILIDADE DOS REGISTROS NO ÂMBITO DO PODER JUDICIÁRIO. LEITURA E CONHECIMENTO PÚBLICO DA PROPOSTA. APROVAÇÃO. I. CASO EM EXAME 1.1. Proposta de resolução que dispõe sobre a cessão de créditos de precatórios e sobre os ônus e as garantias incidentes sobre esses créditos, no âmbito do Poder Judiciário, instituindo, ainda, a Central Nacional de Cessões de Créditos de Precatórios. II. QUESTÕES EM DISCUSSÃO 2.1. Há três questões em discussão: (i) definir a compatibilidade da proposta com o regime constitucional dos precatórios, a legislação de regência e a autonomia administrativa dos tribunais; (",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#14",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Investimento em Direitos Creditórios Não Padronizados); Instituto Sul Brasileiro de Precatórios; Colégio Notarial do Brasil - Conselho Federal; Colégio Nacional de Defensores Públicos-Gerais; Alexandre Bruno Alves da Silva; CIP S.A. - Núclea; Precato Consultoria S.A.; Ordem dos Advogados do Brasil, Seccional do Paraná; CERC S.A.; Consorti Precatórios Ltda.; PJUS Addebitare Participações S.A.; Bandeira Investimentos e Fomento Mercantil; Telmo Ricardo Abrahão Schorr; Ordem dos Advogados do Brasil, Seccional de São Paulo; Gilberto Badaró; Banco BTG Pactual S.A.; e Tribunal Regional Eleitoral de Alagoas. Das contribuições formuladas no âmbito do Eixo 3, merecem ser acolhidas aquelas que reforçaram a segurança jurídica, a rastreabilidade, a prevenção a fraudes e a interoperabilidade sistêmica, especialmente as que se mostram compatíveis com a construção de um fluxo nacional de controle das cessões, as quais ora se incorporam à fundamentação deste voto, nos termos a seguir delineados. 1. Ordem dos Advogados do Brasil, Seccional do Distrito Federal Síntese: Defende a suficiência do instrumento particular (inclusive eletrônico) para a cessão de créditos judiciais da Fazenda Pública, vedando a exigência de escritura pública por atos locais. Sustenta que impor a forma pública onera desproporcionalmente o pequeno credor com custas cartoriais e requer a não fixação de forma solene no regramento geral. Proposta REJEITADA Avaliação: A minuta rejeitou a tese ao tornar a escritura pública ob",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#15",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "Avaliação: A proposta específica de fixar um prazo caducitário/decadencial de 5 (cinco) anos para o requerimento do registro da cessão não foi incorporada à minuta, mantendo-se a eficácia atrelada à comunicação e homologação pelo tribunal. 15. Ordem dos Advogados do Brasil, Seccional de São Paulo Síntese: Enfatiza os limites de competência regulatória do CNJ, apontando que o Conselho não pode impor forma solene obrigatória (escritura pública) nem estabelecer limites, tetos ou presunções de abusividade/nulidade quanto ao deságio. Defende que essas questões pertencem à autonomia privada e ao direito material, cabendo a análise de eventuais vícios ao Judiciário no caso concreto. Proposta PARCIALMENTE ACOLHIDA Avaliação: Acolhida na proibição de o CNJ impor teto, tabelamento ou presunção de abusividade ao deságio. Foi rejeitada quanto à tese de que o CNJ não poderia exigir forma pública, já que a minuta instituiu a escritura como requisito geral para pessoas naturais. 16. Gilberto Badaró Síntese: Propõe que a arquitetura tecnológica e a infraestrutura nacional de registro desenvolvidas pelo CNJ e Banco Central observem a neutralidade tecnológica, garantindo flexibilidade para admitir e integrar futuras inovações digitais na representação, cessão e circulação de ativos creditórios. Proposta ACOLHIDA Avaliação: A premissa de neutralidade tecnológica foi respeitada, permitindo a integração interoperável de diferentes sistemas notariais e registradoras do Banco Central sem exclusivid",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#16",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "A matéria tampouco se confunde com a manifestação sobre a formação do requisitório ou com a sucessão processual na fase de conhecimento. Essas situações possuem objeto e regime próprios e não autorizam transportar suas exigências para a comunicação constitucional da cessão de precatório. Mantêm-se, assim, os arts. 5º, 6º e 43, sem introdução de prazo geral de manifestação prévia da entidade devedora ou de obrigação de aguardar seu decurso para a homologação. C) DO CANCELAMENTO, DA REVISÃO E DAS REPERCUSSÕES SOBRE A CIRCULAÇÃO DO CRÉDITO As preocupações relacionadas ao cancelamento, à revisão e à suspensão do pagamento devem ser examinadas em dois planos complementares: a disciplina da decisão que afeta o requisitório e a atualização dos registros e comunicações que dela decorrem. As hipóteses, a competência, o contraditório e os efeitos do cancelamento pertencem à resolução geral, por incidirem sobre todos os precatórios. O mesmo se aplica às repercussões sobre o levantamento de valores, a emissão de certidões, o destaque de honorários e a liberação de depósitos. A minuta geral já irá prever oportunidade de saneamento e manifestação das partes antes da devolução ou do cancelamento, além de disciplinar a suspensão do pagamento, procurando restringi-la ao beneficiário ou à parcela efetivamente atingida. Portanto, as sugestões ministeriais relativas ao detalhamento desses procedimentos deverão ser examinadas no bojo do normativo geral. Na resolução de cessões, cabe assegurar que",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#17",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "presumir sua invalidade em razão da mudança normativa. Preserva-se, por isso, a redação do art. 64 já proposta, sem substituir seu regime pelos prazos específicos sugeridos na nota ministerial. As condições de migração e a organização dos dados serão disciplinadas de forma compatível com a implantação dos sistemas e com a preservação das situações jurídicas regularmente constituídas. Quanto à omissão de negócios anteriores ao precatório, o art. 19, § 3º, já remete, no que couber, ao art. 27, §§ 1º, 2º e 5º. A preocupação com a ausência de consequência para o descumprimento do dever de informação está, assim, contemplada pela remissão existente, sem necessidade de repetição de dispositivos. H) DA SUPERPREFERÊNCIA E DAS REPERCUSSÕES TRIBUTÁRIAS A disciplina geral dos beneficiários da parcela superpreferencial, de seu deferimento e de seu pagamento será tratada na resolução geral. Na resolução de cessões, permanece expressa a impossibilidade de transmissão das prerrogativas pessoais ao cessionário. A explicitação dos efeitos da cessão total ou parcial sobre benefício deferido e ainda não pago será considerada na harmonização dos atos, de forma a impedir a utilização indireta, pelo adquirente, de preferência que não lhe pertence. Na matéria tributária, a minuta geral também irá estabelecer que a cessão não altera, por si, o regime tributário do crédito originário, sem prejuízo dos efeitos próprios da operação, e disciplina a transmissão das informações necessárias ao cumprimento ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "substituicao_fc_cc"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#18",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "pertinência das ponderações apresentadas quanto aos critérios de competência territorial para a lavratura de escrituras públicas de cessão de créditos de precatórios, especialmente na forma eletrônica. Pondera, o Exmo. Corregedor, que a adoção exclusiva do domicílio do cessionário como elemento de conexão territorial pode gerar concentração dos atos em grandes centros financeiros, onde atuam fundos de investimento e outras instituições especializadas na aquisição de créditos judiciais. Com efeito, a solução mais adequada não está em afastar integralmente as regras de competência territorial do e-Notariado, mas sim prever o domicílio do cedente como critério alternativo de competência notarial. Com isso, buscar-se-ia ampliar as opções de escolha do tabelião sem desestruturar a disciplina territorial já existente. Em reforço, a Corregedoria Nacional aponta precedente consubstanciado no Pedido de Providências nº 0004654-88.2022.2.00.0000, que resultou no Provimento CNJ nº 200/2025, a fim de concluir que a regulamentação deve assegurar liberdade efetiva de escolha do tabelião pelo usuário. Embora trate de situação distinta, esse precedente é invocado para sustentar que a disciplina proposta deve garantir ao cedente alternativas reais de escolha da serventia. Outro ponto central é a proteção do cedente pessoa natural não profissional, que pode estar em posição de vulnerabilidade negocial diante da assimetria informacional, técnica e econômica em relação a adquirentes profissionais",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#19",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "à época. O risco a prevenir é outro: a utilização de documento cuja data declarada não corresponda à efetiva celebração, para invocar proteção transitória destinada exclusivamente a negócios realmente anteriores. A questão possui correspondência no sistema de prova documental. O art. 409 do Código de Processo Civil permite demonstrar a data do documento particular por meios juridicamente admitidos e disciplina sua oponibilidade temporal a terceiros, incluindo a apresentação em juízo ou repartição pública. A mera data lançada no instrumento não deve ser tratada como prova incontestável de anterioridade quando houver dúvida ou impugnação. A apresentação tempestiva proporciona um marco verificável de conhecimento pelo Poder Judiciário e reduz o espaço para reconstruções documentais oportunistas. Não comprova, isoladamente, a validade do negócio nem imuniza o instrumento contra impugnação, mas permite identificar o acervo de cessões invocadas como anteriores à nova disciplina. O dever de apresentação não exige nova contratação, alteração do preço, ratificação por escritura pública ou repetição dos atos regularmente praticados. Exige a exteriorização processual de um instrumento que se afirma já existente. Para cessões de precatórios, a exigência também se relaciona à comunicação ao tribunal e ao devedor prevista no art. 100, § 14, da Constituição Federal, sem substituir a comunicação devida à entidade devedora. A compatibilização dessa providência com a proteção acolhida exige ap",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "substituicao_fc_cc"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#21",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "a obrigatoriedade da escritura pública, inclusive em regulamento local editado com fundamento na Resolução CNJ nº 303, de 18 de dezembro de 2019. § 3º O registro eletrônico e a homologação pelo tribunal exclusivamente pela Central Nacional serão exigidos a partir da data estabelecida em ato conjunto do Conselho Nacional de Justiça e do Banco Central do Brasil, observada a prévia ocorrência: I - da implantação da Central Nacional de Cessões de Créditos de Precatórios ou de solução tecnológica transitória compatível; e II - da autorização de pelo menos uma entidade registradora para o exercício da atividade. § 4º Até a implantação plena da Central Nacional, poderão ser admitidos solução tecnológica transitória aprovada pelo Conselho Nacional de Justiça e meios transitórios de comunicação, protocolo e registro em sistemas indicados pelo tribunal ou pelo Conselho Nacional de Justiça, desde que preservados: I - a rastreabilidade; II - a segurança da informação; III - a migração estruturada posterior dos dados; e IV - a proteção de dados pessoais, inclusive dos dados sensíveis. 2. Redação adaptada Art. 16. (...) I - por tabelião de notas competente em razão do domicílio do cedente ou do cessionário, nos atos notariais eletrônicos ou híbridos realizados por meio do e-Notariado, observadas as demais normas da Corregedoria Nacional de Justiça; (...) § 3º Na cessão realizada por cedente pessoa natural não profissional de que trata o art. 11, a escritura pública conterá declaração do ta",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#22",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "que cedido total ou parcialmente; II - cessão de crédito de precatório: negócio jurídico de transferência total ou parcial do crédito de precatório; III - cedente: aquele que transfere a terceiro: a) crédito de precatório ou fração dele, na condição de titular judicial registrado; ou b) direito sobre crédito judicial ainda não apresentado ao tribunal como precatório, nas hipóteses do art. 19; IV - cessionário: a pessoa natural ou jurídica que adquire, total ou parcialmente: a) crédito de precatório, por cessão; ou b) direito sobre crédito judicial ainda não apresentado ao tribunal como precatório, nas hipóteses do art. 19; V - intermediário: a pessoa natural ou jurídica que atua, de forma remunerada, na cessão de crédito de precatório por meio: a) da aproximação das partes; b) da captação de cedentes; c) da assessoria comercial; ou d) da estruturação ou da negociação; VI - valor líquido disponível: a parcela do crédito disponível para cessão, após dedução, reserva ou destaque de: a) tributos; b) contribuições; c) honorários; d) penhoras; e) bloqueios; f) cessões anteriores; g) pagamentos parciais; h) preferências pessoais já satisfeitas; i) valores utilizados; j) depósitos já liberados; e k) outras constrições judiciais ou extrajudiciais, ou impedimentos judiciais ou extrajudiciais registrados. VII - entidade registradora: a pessoa jurídica que opera, em caráter principal ou acessório, sistema de registro de ativos financeiros e que é autorizada, na forma da regulamentação pr",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#23",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "ou da fração cedida; IX - a declaração do tabelião de que: a) consultou o extrato individualizado do precatório e o processo judicial respectivo; e b) realizou a qualificação notarial da titularidade do cedente, nos termos do disposto no art. 9º; X - a declaração das partes e do tabelião de inexistência das hipóteses previstas no art. 18; XI - a declaração de que os dados estruturados da escritura serão transmitidos à Central Nacional de Cessões de Créditos de Precatórios e à entidade registradora competente; XII - a cláusula pela qual o cessionário se obriga a comunicar ao cedente a data e o valor recebidos em razão da fração cedida, nos termos do art. 61, § 4º; XIII - a declaração das partes sobre o caráter definitivo da transferência, com a indicação expressa da existência ou da inexistência: a) de coobrigação do cedente; b) de obrigação ou opção de recompra; c) de garantia de rentabilidade ou desempenho; d) de subordinação; ou e) de outro ajuste que mantenha com o cedente, total ou parcialmente, os riscos e os benefícios do crédito; XIV - o regime de pagamento dos precatórios da entidade devedora, quando a informação estiver disponível em fonte oficial; e XV - a declaração das partes sobre a existência ou a inexistência de cláusula que submeta à anuência do cessionário a transação, a adesão a acordo direto ou a proposta de composição formulada pela entidade devedora. § 1º O preço ajustado, o valor econômico efetivamente negociado e o deságio constarão do corpo da escritur",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#24",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "mobiliários, títulos ou certificados cuja remuneração esteja vinculada ao resultado do crédito, sem a constituição de garantia sobre ele; ou V - a concessão de recursos, de crédito ou de garantia ao credor, ao titular ou à sociedade que os controle, cuja remuneração ou recuperação dependa, total ou preponderantemente, do resultado do crédito, sem a constituição de garantia sobre ele. § 1º A transferência indireta não se converterá em cessão, não dependerá de escritura pública e não alterará a titularidade judicial registrada. § 2º Não se considera transferência indireta a negociação de ações de companhia aberta ou de cotas de fundo de investimento em mercado organizado que não importe alteração de controle. Art. 27. O credor ou o titular judicial registrado comunicará a transferência indireta do resultado econômico do crédito ao juízo competente ou, após a apresentação do precatório, ao tribunal competente, no prazo de quinze dias, contado da assinatura do instrumento, da deliberação societária, da emissão, do contrato de financiamento ou do ato equivalente que formalize a transferência, com indicação da situação anterior e da atual. § 1º A comunicação de que trata o caput compreenderá: I - o instrumento integral; II - os contratos coligados; III - o preço efetivamente pago ou o valor econômico atribuído ao crédito; IV - a cadeia completa de negócios anteriores; V - a identificação do beneficiário final do terceiro a quem se atribua o resultado econômico; e VI - a identificaç",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#25",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "dados estruturados à Central Nacional e à entidade registradora, observados os padrões técnicos definidos pelo Conselho Nacional de Justiça e pela regulamentação própria do registro eletrônico. Parágrafo único. A escritura pública e o registro eletrônico serão vinculados ao identificador eletrônico único do precatório ou da fração cedida ou onerada. Art. 39. O registro eletrônico: I - não altera, por si só, a titularidade judicial do precatório; II - não substitui a comunicação ao tribunal e à entidade devedora, nem a homologação judicial da cessão, do ônus ou da garantia; e III - não autoriza pagamento ao cessionário ou ao beneficiário de garantia. § 1º A entidade registradora: I - exercerá controle de unicidade, rastreabilidade, ordem temporal, integridade da cadeia e prevenção de duplicidade; e II - comunicará as inconsistências. § 2º Na hipótese de divergência entre os dados da escritura pública, da Central Nacional, da entidade registradora ou do processo judicial, o registro receberá status de inconsistência pendente de saneamento pelo tribunal competente, até a decisão que dirimir a questão. Art. 40. A prioridade entre cessões, ônus ou garantias concorrentes sobre a mesma fração será definida pela ordem de protocolo do evento na Central Nacional. § 1º Na hipótese de comunicação no prazo previsto no art. 38, a prioridade retroagirá à data da escritura pública. § 2º Na hipótese de comunicação fora do prazo de que trata o § 1º, prevalecerão a data e a hora da efetiva rece",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#26",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "ou pelo cessionário no prazo de dez dias, contado da entrada em vigor desta Resolução, sob pena de não reconhecimento da eficácia da cessão perante o tribunal, a critério do juízo competente, mediante decisão fundamentada e assegurado o contraditório, consideradas a comprovação da anterioridade do negócio e a justificativa para eventual apresentação intempestiva. § 5º As disposições deste artigo aplicam-se inclusive às novas cessões realizadas em cadeias sucessivas de crédito, ressalvadas as limitações de dados decorrentes das cessões precedentes não alcançadas por esta Resolução; § 6º A anterioridade do negócio pode ser provada por firma reconhecida, assinatura eletrônica qualificada, comunicação nos autos ou registro em títulos e documentos. Art. 65. O registro eletrônico e a homologação pelo tribunal exclusivamente pela Central Nacional serão exigidos a partir da data estabelecida em ato conjunto do Conselho Nacional de Justiça e do Banco Central do Brasil, observada a prévia ocorrência: I - da implantação da Central Nacional de Cessões de Créditos de Precatórios ou de solução tecnológica transitória compatível; e II - da autorização de pelo menos uma entidade registradora para o exercício da atividade. § 1º Até a implantação plena da Central Nacional, poderão ser admitidos solução tecnológica transitória aprovada pelo Conselho Nacional de Justiça e meios transitórios de comunicação, protocolo e registro em sistemas indicados pelo tribunal ou pelo Conselho Nacional de Just",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#27",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "concurso, sob a ótica dos arts. 26 e 49 da Lei n. 8.935/1994 III. RAZÕES DE DECIDIR 3. Os artigos 26 e 49 da Lei n. 8.935/1994 estabelecem, como regra, a não acumulação dos serviços notariais e registrais, admitindo hipótese excepcional condicionada à inviabilidade econômica local. 4. A preservação de serventias cumuladas após vacância reclama motivação administrativa verificável, não sendo suficiente a previsão genérica de futura desacumulação no edital. 5. A reorganização das unidades pode demandar planejamento institucional, análise de sustentabilidade, conformação normativa local e avaliação técnico-administrativa. 6. A conversão do julgamento em diligência se mostra consentânea com os princípios da prudência administrativa, da segurança jurídica e do adequado controle institucional. 7. A complementação da instrução, com informações do Tribunal e parecer técnico da Coordenadoria de Gestão de Serviços Notariais e de Registro (CONR) da Corregedoria Nacional, permite o adequado exercício do controle administrativo previsto no art. 103-B, § 4º, da Constituição Federal. IV. DISPOSITIVO 8. Julgamento convertido em diligência. ACÓRDÃO O Conselho, por maioria, decidiu converter o julgamento em diligência. Vencidos os Conselheiros João Paulo Schoucair (então Relator), Ilan Presser e Benedito Gonçalves, que negavam provimento ao recurso. Lavrará o acórdão o Conselheiro Marcello Terto. Presidiu o julgamento o Ministro Edson Fachin. Plenário Virtual, 29 de outubro de 2026. Votaram os",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#28",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "certame e sob quais parâmetros; b) após o cumprimento da diligência, determinar a remessa dos autos à Corregedoria Nacional de Justiça, por intermédio da Coordenadoria de Gestão de Serviços Notariais e de Registro (CONR), para emissão de parecer técnico específico sobre a conformidade da organização das serventias ofertadas com os arts. 26 e 49 da Lei n. 8.935/1994, à luz das informações prestadas; c) somente após a devida complementação instrutória, submeter novamente a controvérsia ao Plenário para julgamento de mérito. É como voto. Conselheiro Ulisses Rabaneda Conselho Nacional de Justiça Autos: PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - 0001615-44.2026.2.00.0000 Requerente: BRUNA NAYARA DO MONTE BRAZ Requerido: TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO GRANDE DO NORTE - TJRN VOTO-VOGAL DIVERGENTE O EXMO. SR. MINISTRO MAURO CAMPBELL MARQUES: I - RELATÓRIO Trata-se de Recurso administrativo interposto por Bruna Nayara do Monte Braz contra decisão monocrática que julgou improcedentes os pedidos formulados em Procedimento de Controle Administrativo ajuizado em face do Tribunal de Justiça do Estado do Rio Grande do Norte, no qual se impugna a regularidade do Concurso Público de Provas e Títulos para Outorga de Delegações de Serventias Extrajudiciais de Notas e de Registro, regido pelo Edital n.º 01/2025, sob o argumento de: (i) oferta irregular de serventias com atribuições cumuladas e; (ii) de nulidade da comissão examinadora pela ausência de representante do Ministério Público, co",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ270_2026#30",
+      "data": "2026-11-12",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 270/2026",
+      "resumo": "FEDERAL NA AÇÃO DIRETA DE INCONSTITUCIONALIDADE Nº 3.841/RN. AUTONOMIA ADMINISTRATIVA E FUNCIONAL DO PARQUET. IMPOSSIBILIDADE FÁTICA DE CUMPRIMENTO DA EXIGÊNCIA LEGAL PELO TRIBUNAL DE JUSTIÇA. PRINCÍPIOS DA CONTINUIDADE DO SERVIÇO PÚBLICO, DA EFICIÊNCIA E DA RAZOABILIDADE. INEXISTÊNCIA DE VÍCIO INSANÁVEL CAPAZ DE MACULAR O CERTAME. PRESERVAÇÃO DO INTERESSE PÚBLICO NA REALIZAÇÃO DO CONCURSO. PARECER PELA IMPROCEDÊNCIA DO PEDIDO. PARECER - CONR. I - RELATÓRIO. (...) II - FUNDAMENTAÇÃO JURÍDICA 1. Da delimitação do objeto jurídico controvertido. A controvérsia submetida à apreciação deste Conselho Nacional de Justiça cinge-se à verificação da legalidade da composição da Comissão Examinadora do Concurso Público de Provas e Títulos para Outorga de Delegações de Notas e de Registro do Estado do Rio Grande do Norte, regido pelo Edital nº 01/2025. O ponto nodal da discussão reside na ausência de representante do Ministério Público Estadual na referida banca, em aparente conflito com o artigo 15 da Lei nº 8.935/1994 e o artigo 1º, § 1º, da Resolução CNJ nº 81/2009. Deve-se analisar se a recusa formal da Procuradoria-Geral de Justiça, amparada em interpretação de precedente do Supremo Tribunal Federal (ADI 3.841/RN), constitui motivo suficiente para excepcionar a regra legal e validar a continuidade do certame sem a participação do Parquet, ou se tal ausência configura vício insanável capaz de anular o edital. 2. Da exposição técnica das teses jurídicas em confronto. A tese sustentada ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ270_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 21
+}
