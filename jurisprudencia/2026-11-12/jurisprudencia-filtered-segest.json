@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-12T21:06:11Z",
+  "run_utc": "2026-11-12T21:55:42Z",
   "lookback_days": 7,
   "desde": "2026-11-05",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 50,
+      "itens_vistos": 51,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 25469,
-          "inicio": "[{\"id\":167800,\"date\":\"2026-11-12T17:54:48\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-suspende-lei-de-mt-que-obriga-provedores-a-informar-velocidade-da-internet-nas-faturas\\/\",\"title\":{\"rendered\":\"STF suspende lei de MT que obriga provedores a informar velocidade da internet nas fatur"
+          "bytes": 25998,
+          "inicio": "[{\"id\":167801,\"date\":\"2026-11-12T18:08:48\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-divulga-finalistas-para-fase-de-sustentacoes-da-segunda-edicao-do-stf-moot\\/\",\"title\":{\"rendered\":\"STF divulga finalistas para fase de sustenta\\u00e7\\u00f5es da segunda edi\\u00e7\\u00e3o do STF Moot\"}"
         },
         {
           "amostra_titulos": [
+            "STF divulga finalistas para fase de sustentações da segunda edição do STF Moot",
             "STF suspende lei de MT que obriga provedores a informar velocidade da internet nas faturas",
             "Ouvidoria do STF e UFPA compartilham experiências sobre direitos de povos indígenas e comu",
-            "STF valida regra do Amazonas sobre prescrição nos processos no Tribunal de Contas estadual",
+            "Supremo valida regra do Amazonas sobre prescrição nos processos no Tribunal de Contas esta",
             "STF mantém regra de transição para implementação da jornada 5×2",
-            "Confira a pauta do STF desta quinta-feira (12)",
-            "Presidente do STF e vice se reúnem com parlamentares da Comissão Mista de Planos, Orçament"
+            "Confira a pauta do STF desta quinta-feira (12)"
           ]
         }
       ]

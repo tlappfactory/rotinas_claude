@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-12T21:06:17Z",
+  "run_utc": "2026-11-12T21:55:50Z",
   "lookback_days": 7,
   "desde": "2026-11-05",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 54,
+      "itens_vistos": 55,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-05T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 42540,
-          "inicio": "[{\"id\":436000,\"date\":\"2026-11-12T17:23:00\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/oficinas-orientam-proximos-passos-no-combate-ao-assedio-nos-tribunais\\/\",\"title\":{\"rendered\":\"Oficinas orientam pr\\u00f3ximos passos no combate ao ass\\u00e9dio nos tribunais\"},\"excerpt\":{\"rendered\":\"<p>Dar encaminhamento a "
+          "bytes": 43259,
+          "inicio": "[{\"id\":436014,\"date\":\"2026-11-12T18:30:50\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/cnj-e-suprema-corte-da-india-discutem-parceria-em-ia-e-soberania-digital\\/\",\"title\":{\"rendered\":\"CNJ e Suprema Corte da \\u00cdndia discutem parceria em IA e soberania digital\"},\"excerpt\":{\"rendered\":\"<p>O conselheiro do Con"
         },
         {
           "amostra_titulos": [
+            "CNJ e Suprema Corte da Índia discutem parceria em IA e soberania digital",
             "Oficinas orientam próximos passos no combate ao assédio nos tribunais",
             "PopRuaJud: evento em BH debate avanços no direito de mães em situação de rua",
             "Rede Nacional de Magistrados defende que Tribunal do Júri julgue homicídios ligados a facç",
             "TJGO doa 1,22 tonelada de pneus para cooperativa de reciclagem",
-            "TJRO apresenta experiência na contratação de cooperativa de catadores: saiba como particip",
-            "SireneJud: webinário apresenta plataforma que apoia a Justiça em pautas ambientais e climá"
+            "TJRO apresenta experiência na contratação de cooperativa de catadores: saiba como particip"
           ]
         }
       ]
