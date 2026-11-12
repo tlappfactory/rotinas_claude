@@ -22,6 +22,7 @@ import argparse
 import json
 import os
 import sys
+import time
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -53,11 +54,22 @@ DESCOBERTA = {
 }
 
 
+def obter(url: str, probe: list):
+    """GET com 2 novas tentativas (espera 8s) se o portal responder 202 vazio
+    (aceite sem conteúdo, típico de desafio anti-robô). Se persistir, desiste:
+    não se contorna o bloqueio (ver CLAUDE.md)."""
+    for n in range(3):
+        r = probe_get(url, probe)
+        if r is not None or probe[-1].get("http") != 202 or n == 2:
+            return r
+        time.sleep(8)
+
+
 def coletar(fonte: str, lookback: int) -> dict:
     after = (datetime.now(timezone.utc) - timedelta(days=lookback)).strftime("%Y-%m-%dT00:00:00")
     probe: list = []
     for kind, tmpl in SOURCES[fonte]:
-        r = probe_get(tmpl.format(after=after), probe)
+        r = obter(tmpl.format(after=after), probe)
         if r is None:
             continue
         try:
