@@ -1,6 +1,21 @@
-# rotinas_claude — bridge DOU/INLabs para a rotina do Boletim Normativo
+# rotinas_claude — bridge DOU/INLabs para a rotina do Boletim Normativo Diário (SGP e SEGEST)
 
 Repositório-ponte que executa a varredura diária do DOU (via API INLabs da Imprensa Nacional) fora do sandbox do Claude e disponibiliza os atos filtrados em JSON para consumo posterior.
+
+## Dois boletins: SGP e SEGEST
+
+| | **Boletim Normativo Diário - SGP** | **Boletim Normativo Diário - SEGEST** |
+|---|---|---|
+| Runbook | `CLAUDE.md` | `CLAUDE-SEGEST.md` |
+| Perfil (`BOLETIM_PERFIL`) | `sgp` (default) | `segest` |
+| JSONs do bridge | `*-filtered.json` | `*-filtered-segest.json` |
+| Triagem → saída | `triagem/` → `boletins/` | `triagem-segest/` → `boletins-segest/` |
+| Envio | `send-boletim.yml` (`BOLETIM_TO`) | `send-boletim-segest.yml` (`BOLETIM_TO_SEGEST`) |
+
+O vocabulário e as opções de cada perfil ficam em `scripts/perfis.py`; o workflow
+`fetch-dou.yml` roda cada filtro uma vez por perfil sobre o mesmo material bruto.
+Uso local: `python scripts/build_boletim.py --perfil segest --data AAAA-MM-DD` e
+`python scripts/send_boletim.py --perfil segest --data AAAA-MM-DD --dry-run`.
 
 ## Por que existe
 

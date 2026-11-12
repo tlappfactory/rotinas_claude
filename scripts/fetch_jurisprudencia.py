@@ -43,6 +43,7 @@ REPO_ROOT = SCRIPT_DIR.parent
 JURIS_ROOT = Path(os.environ.get("JURIS_ROOT", REPO_ROOT / "jurisprudencia"))
 sys.path.insert(0, str(SCRIPT_DIR))
 from parse_dou import STRONG_KEYWORDS, normalize, match_patterns  # noqa: E402
+from perfis import CFG as PERFIL_CFG, PERFIL, arquivo  # noqa: E402
 
 TIMEOUT = 30
 HEADERS = {"User-Agent": "rotinas-claude-trt17/1.0 (+boletim-normativo)",
@@ -77,6 +78,9 @@ TEMA_EXTRA = [
     r"\bregime proprio\b", r"\bregime juridico unico\b", r"\btelework\b|\bteletrabalho\b",
     r"\bacumulacao\b", r"\bconcurso publico\b", r"\bjustica do trabalho\b",
 ]
+
+if PERFIL != "sgp":
+    TEMA_EXTRA = PERFIL_CFG["tema_extra"]
 
 
 def strip_html(t: str) -> str:
@@ -316,8 +320,8 @@ def main() -> None:
         return
     out = JURIS_ROOT / hoje.isoformat()
     out.mkdir(parents=True, exist_ok=True)
-    (out / "jurisprudencia-filtered.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"gravado: {out}/jurisprudencia-filtered.json")
+    (out / arquivo("jurisprudencia-filtered")).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"gravado: {out}/{arquivo('jurisprudencia-filtered')}")
 
 
 if __name__ == "__main__":

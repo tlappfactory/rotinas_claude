@@ -9,7 +9,8 @@ Lê o par de arquivos versionados pela rotina:
 e envia como multipart/alternative. O assunto é derivado da data, no formato
 fixo exigido pelo runbook:
 
-    Boletim Normativo - Edição de 2 de agosto de 2026
+    Boletim Normativo Diário - SGP - Edição de 2 de agosto de 2026
+    Boletim Normativo Diário - SEGEST - Edição de 2 de agosto de 2026   (--perfil segest)
 
 O corpo do e-mail continua deixando explícito que o conteúdo é uma minuta
 pendente de revisão humana antes da distribuição oficial às unidades da SGP
@@ -26,6 +27,7 @@ Configuração por variáveis de ambiente (no workflow, vindas de secrets):
     SMTP_FROM       opcional     default: SMTP_USER
     BOLETIM_TO      opcional     default: leonardo.donato@trt17.jus.br
                                  (aceita vários, separados por vírgula)
+    BOLETIM_TO_SEGEST  idem, usado no perfil segest (default: o mesmo)
 
 Uso:
     python scripts/send_boletim.py                    # boletim mais recente
@@ -43,8 +45,17 @@ import sys
 from email.message import EmailMessage
 from pathlib import Path
 
+# O perfil (sgp | segest) precisa estar no ambiente ANTES de importar perfis.py.
+for _i, _arg in enumerate(sys.argv):
+    if _arg == "--perfil" and _i + 1 < len(sys.argv):
+        os.environ["BOLETIM_PERFIL"] = sys.argv[_i + 1]
+    elif _arg.startswith("--perfil="):
+        os.environ["BOLETIM_PERFIL"] = _arg.split("=", 1)[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from perfis import CFG  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-BOLETINS_DIR = ROOT / "boletins"
+BOLETINS_DIR = ROOT / CFG["boletins_dir"]
 DEFAULT_TO = "leonardo.donato@trt17.jus.br"
 
 MESES = [
@@ -95,7 +106,7 @@ def ler_corpos(data: str) -> tuple[str, str]:
 def montar_mensagem(data: str, html: str, texto: str,
                     remetente: str, destinatarios: list[str]) -> EmailMessage:
     msg = EmailMessage()
-    msg["Subject"] = f"Boletim Normativo - Edição de {data_por_extenso(data)}"
+    msg["Subject"] = f"{CFG['titulo']} - Edição de {data_por_extenso(data)}"
     msg["From"] = remetente
     msg["To"] = ", ".join(destinatarios)
     msg.set_content(texto)
@@ -137,6 +148,8 @@ def enviar(msg: EmailMessage, destinatarios: list[str]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Envia o Boletim Normativo por SMTP.")
+    parser.add_argument("--perfil", choices=["sgp", "segest"], default=None,
+                        help="perfil do boletim (default: BOLETIM_PERFIL ou sgp)")
     parser.add_argument("--data", help="Data do boletim (YYYY-MM-DD). Default: o mais recente.")
     parser.add_argument("--dry-run", action="store_true",
                         help="Valida e imprime o cabeçalho, sem enviar.")
@@ -145,7 +158,7 @@ def main() -> None:
     data = resolver_data(args.data)
     html, texto = ler_corpos(data)
 
-    destinatarios = [e.strip() for e in env("BOLETIM_TO", DEFAULT_TO).split(",") if e.strip()]
+    destinatarios = [e.strip() for e in env(CFG["destinatario_env"], DEFAULT_TO).split(",") if e.strip()]
     if not destinatarios:
         sys.exit("ERRO: BOLETIM_TO não resolveu nenhum destinatário.")
     remetente = env("SMTP_FROM") or env("SMTP_USER")

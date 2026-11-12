@@ -1,0 +1,138 @@
+name: send-boletim-segest
+
+# Boletim Normativo Diário - SEGEST: envia por SMTP o par de arquivos
+# versionado pela rotina em boletins-segest/<YYYY-MM-DD>.{html,txt}.
+# É o gêmeo do send-boletim.yml (SGP): mesma lógica, arquivos, trava de
+# idempotência, concorrência e destinatário (BOLETIM_TO_SEGEST) independentes.
+#
+#
+# Três gatilhos:
+#   push      — a rotina commita o boletim do dia e o envio dispara sozinho.
+#               Vale push em main OU em claude/** : a sessão agendada do
+#               Claude só pode publicar na branch claude/* designada a ela
+#               (nunca em main), e foi isso que deixava o envio pendente.
+#               O e-mail sai uma única vez por dia (trava de idempotência
+#               abaixo), então o posterior merge em main não duplica. Não depende da API do GitHub, que é inalcançável a
+#               partir do sandbox do Claude (ver CLAUDE.md, código 12).
+#   schedule  — passagem de reforço (ver abaixo). Rede de segurança para
+#               quando o push do dia ficou preso na fila de runner do
+#               GitHub Actions sem nunca ser despachado — o mesmo tipo de
+#               jitter já documentado para o fetch-dou.yml, sem retry
+#               automático aqui até esta mudança.
+#   manual    — reenvio de uma data específica, ou envio de teste com
+#               dry_run. Sempre envia, mesmo que a passagem de reforço já
+#               tenha enviado o boletim do dia (uso deliberado: reenvio).
+
+on:
+  push:
+    branches: [main, "claude/**"]
+    paths:
+      - "boletins-segest/**"
+  schedule:
+    # 15:10 UTC ~= 12:10 Brasília, dias úteis — cerca de 40min depois do
+    # horário nominal de início da sessão diária do Claude (14h30 UTC /
+    # 11h30 BRT, ver CLAUDE.md). Só dispara envio se (a) já existir
+    # boletins-segest/<hoje>.{html,txt} em main OU em alguma branch claude/* e (b) ainda não houver nenhum run
+    # `success` deste workflow hoje — ver passo "Checar…" abaixo. Nos dois
+    # casos contrários a passagem termina sem enviar nada (idempotente):
+    # nunca duplica o e-mail do dia, só cobre a lacuna de quando o push
+    # original travou na fila do runner (visto em 06/08/2026: dois disparos
+    # seguidos ficaram ~15min com runner_id 0 e foram cancelados pelo
+    # próprio GitHub antes de qualquer job realmente começar).
+    - cron: "12 15 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data do boletim YYYY-MM-DD (vazio = o mais recente)"
+        required: false
+      dry_run:
+        description: "Só validar, sem enviar (true/false)"
+        required: false
+        default: "false"
+
+# Runs de validação (dry_run) levam o prefixo "[dry-run]" no título, para que a
+# passagem de reforço não os confunda com um envio real.
+run-name: "${{ github.event.inputs.dry_run == 'true' && '[dry-run] ' || '' }}${{ github.event.head_commit.message || 'send-boletim-segest' }}"
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: send-boletim-segest
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    # Trava qualquer job que realmente iniciar (ficar preso na FILA antes de
+    # começar não é afetado por isto — só evita que um envio já em execução
+    # trave o grupo de concorrência por horas em caso de SMTP travado etc.).
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: "Checar: já enviado hoje? boletim de hoje disponível? (push e reforço)"
+        id: check
+        if: github.event_name != 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          today="$(date -u +%Y-%m-%d)"
+          # Idempotência: no máximo um envio real por dia fora do disparo manual.
+          ja_enviado="$(gh run list --repo "${{ github.repository }}" \
+            --workflow send-boletim-segest.yml --status success --limit 20 \
+            --json createdAt,displayTitle --jq "[.[] | select((.createdAt | startswith(\"${today}\")) and (.displayTitle | startswith(\"[dry-run]\") | not))] | length")"
+          if [ "${ja_enviado:-0}" -gt 0 ]; then
+            echo "skip=já existe um run success deste workflow hoje (${today}) — não reenvia." >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && { [ ! -f "boletins-segest/${today}.html" ] || [ ! -f "boletins-segest/${today}.txt" ]; }; then
+            # Rede de segurança: a sessão do Claude publica em claude/*, não em main.
+            git fetch --quiet origin '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
+            achou=""
+            for ref in $(git for-each-ref --sort=-committerdate --format='%(refname)' refs/remotes/origin/claude/); do
+              if git cat-file -e "${ref}:boletins-segest/${today}.html" 2>/dev/null && git cat-file -e "${ref}:boletins-segest/${today}.txt" 2>/dev/null; then
+                git checkout "$ref" -- "boletins-segest/${today}.html" "boletins-segest/${today}.txt"
+                achou="$ref"; break
+              fi
+            done
+            if [ -z "$achou" ]; then
+              echo "skip=sem boletins-segest/${today}.{html,txt} em main nem em claude/* — nada para a passagem de reforço enviar." >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Log do motivo de pular
+        if: github.event_name != 'workflow_dispatch' && steps.check.outputs.skip != ''
+        run: echo "${{ steps.check.outputs.skip }}"
+
+      - name: Setup Python
+        if: github.event_name == 'workflow_dispatch' || steps.check.outputs.skip == ''
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Enviar boletim
+        if: github.event_name == 'workflow_dispatch' || steps.check.outputs.skip == ''
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          BOLETIM_PERFIL: segest
+          BOLETIM_TO_SEGEST: ${{ secrets.BOLETIM_TO_SEGEST }}
+          # Inputs via env (não interpolados no script): evita injeção de shell.
+          INPUT_DATA: ${{ github.event.inputs.data }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          args=()
+          if [ -n "$INPUT_DATA" ]; then
+            args+=(--data "$INPUT_DATA")
+          fi
+          if [ "$INPUT_DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          python scripts/send_boletim.py "${args[@]}"

@@ -25,7 +25,8 @@ Score heurístico:
   - +1 por keyword fraca
 
 Lê:    <DOU_ROOT>/<YYYY-MM-DD>/extracted/*.xml (e origem.json, se vier de fetch_dou_web.py)
-Grava: <DOU_ROOT>/<YYYY-MM-DD>/inlabs-filtered.json (ordenado por score desc)
+Grava: <DOU_ROOT>/<YYYY-MM-DD>/inlabs-filtered.json (ordenado por score desc);
+       perfil segest: inlabs-filtered-segest.json (ver perfis.py, BOLETIM_PERFIL)
 """
 import argparse
 import html
@@ -131,6 +132,15 @@ PRIORITY_ORGAOS_EMISSOR: list[str] = [
     "secretaria de gestao e desempenho de pessoal", "sgdp", "decipex", "cgben",
     "ministerio da gestao",  # MGI — entra sempre que combinado com strong keyword
 ]
+
+# Perfil do boletim (perfis.py): `sgp` mantém o vocabulário acima; `segest`
+# substitui vocabulário e órgãos prioritários. Os demais coletores importam
+# STRONG/WEAK daqui, então seguem o perfil automaticamente.
+from perfis import CFG as PERFIL_CFG, PERFIL, arquivo  # noqa: E402
+if PERFIL != "sgp":
+    STRONG_KEYWORDS = PERFIL_CFG["strong"]
+    WEAK_KEYWORDS = PERFIL_CFG["weak"]
+    PRIORITY_ORGAOS_EMISSOR = PERFIL_CFG["priority_orgaos"]
 
 # Padrões que indicam que "17ª região" / "17a regiao" NÃO se refere ao TRT-17.
 NEGATIVE_PATTERNS_NOT_TRT17: list[str] = [
@@ -268,7 +278,12 @@ def parse_xml_file(path: Path) -> dict | None:
     if not orgao_hits and not strong_hits:
         return None
 
-    if (not orgao_hits and not KEEP_INDIVIDUAL
+    # Perfil com tipos de ato a ignorar (ruído) quando o órgão não é prioritário.
+    if (not orgao_hits and PERFIL_CFG["ignora_identifica"]
+            and re.search(PERFIL_CFG["ignora_identifica"], normalize(identifica))):
+        return None
+
+    if ((not orgao_hits or PERFIL_CFG["descarta_individuais_de_prioritarios"]) and not KEEP_INDIVIDUAL
             and is_ato_individual(identifica, strip_html(texto) or article_full_text(root))):
         return {"_discarded_individual": True, "section": pub_name}
 
@@ -331,7 +346,7 @@ def parse_xml_file(path: Path) -> dict | None:
 
 def process_date(day_dir: Path, force: bool) -> dict:
     extracted = day_dir / "extracted"
-    out_path = day_dir / "inlabs-filtered.json"
+    out_path = day_dir / arquivo("inlabs-filtered")
     if not extracted.exists():
         return {"date": day_dir.name, "status": "no_extracted_dir", "matches": 0}
     if out_path.exists() and not force:
