@@ -1,0 +1,225 @@
+{
+  "run_utc": "2026-11-13T15:04:04Z",
+  "lookback_days": 7,
+  "desde": "2026-11-06",
+  "fontes": {
+    "cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
+      "itens_vistos": 50,
+      "fora_da_janela": 0,
+      "selecionados": 2,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 39397,
+          "inicio": "[{\"id\":436034,\"date\":\"2026-11-13T10:09:26\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/grupo-de-trabalho-do-cnj-debate-masculinidades-e-enfrentamento-a-violencia-domestica-no-xviii-fonavid\\/\",\"title\":{\"rendered\":\"Grupo de Trabalho do CNJ debate masculinidades e enfrentamento \\u00e0 viol\\u00eancia dom\\u00e9sti"
+        },
+        {
+          "amostra_titulos": [
+            "Grupo de Trabalho do CNJ debate masculinidades e enfrentamento à violência doméstica no XV",
+            "Conheça os finalistas do Prêmio Pena Justa/CNJ de Jornalismo e Comunicação",
+            "Judiciário fortalece controle e transparência com novo curso sobre Gestão Estratégica da A",
+            "Articulação interinstitucional fortalece procedimentos que evitem a revitimização de crian",
+            "Diálogo sobre recuperação judicial rural destaca valor da cooperação",
+            "CNJ e Suprema Corte da Índia discutem parceria em IA e soberania digital"
+          ]
+        }
+      ]
+    },
+    "csjt": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    },
+    "tst": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-13",
+      "url": "https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/",
+      "titulo": "Judiciário fortalece controle e transparência com novo curso sobre Gestão Estratégica da Auditoria",
+      "resumo": "Estão abertas as inscrições para o curso Governança e Gestão Estratégica da Auditoria. A capacitação, realizada no formato EAD assíncrono, tem o objetivo de impulsionar a atuação das unidades de controle interno do Poder Judiciário em todo o país. Com carga horária de 30 horas/aula, a formação é voltada para servidores e servidoras das unidades […]",
+      "temas": [
+        "governanca",
+        "planejamento_estrategico"
+      ],
+      "temas_fracos": [
+        "governanca_geral",
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-06",
+      "url": "https://www.cnj.jus.br/cnj-aponta-perspectivas-para-centros-de-inteligencia-em-encontro-no-parana/",
+      "titulo": "CNJ aponta perspectivas para centros de inteligência em encontro no Paraná",
+      "resumo": "A presidente do Laboratório de Inovação, Inteligência e Objetivos de Desenvolvimento Sustentável (Liods), conselheira do Conselho Nacional de Justiça (CNJ) Andréa Cunha Esmeraldo, conduziu o painel inaugural do V Encontro Nacional dos Centros de Inteligência do Poder Judiciário, em Foz do Iguaçu (PR). A conselheira foi responsável por apresentar as perspectivas e prospecções para o […]",
+      "temas": [
+        "sustentabilidade"
+      ],
+      "temas_fracos": [
+        "estatistica_pesquisa",
+        "inovacao_processos"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 2
+}

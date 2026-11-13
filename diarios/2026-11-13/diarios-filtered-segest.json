@@ -1,0 +1,60 @@
+{
+  "run_utc": "2026-11-13T15:04:03Z",
+  "lookback_days": 4,
+  "desde": "2026-11-09",
+  "ate": "2026-11-13",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-09&dataDisponibilizacaoFim=2026-11-13&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 1,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13088,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "271",
+            "data": "2026-11-13",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 567414
+        },
+        {
+          "chars_texto": 205531,
+          "blocos_tematicos": 1
+        }
+      ],
+      "edicao": "271/2026",
+      "data_edicao": "2026-11-13"
+    }
+  },
+  "articles": [],
+  "total_matched": 0
+}

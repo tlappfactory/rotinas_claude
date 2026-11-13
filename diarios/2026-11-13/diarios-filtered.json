@@ -1,0 +1,152 @@
+{
+  "run_utc": "2026-11-13T15:04:01Z",
+  "lookback_days": 4,
+  "desde": "2026-11-09",
+  "ate": "2026-11-13",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-09&dataDisponibilizacaoFim=2026-11-13&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 12,
+      "fora_da_janela": 0,
+      "selecionados": 5,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13088,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "271",
+            "data": "2026-11-13",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 567414
+        },
+        {
+          "chars_texto": 205531,
+          "blocos_tematicos": 12
+        }
+      ],
+      "edicao": "271/2026",
+      "data_edicao": "2026-11-13"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ271_2026#2",
+      "data": "2026-11-13",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 271/2026",
+      "resumo": "voto do Relator. Presidiu o julgamento o Ministro Edson Fachin. Plenário Virtual, 16 de outubro de 2026. Votaram os Excelentíssimos Conselheiros Edson Fachin, Benedito Gonçalves, Kátia Magalhães Arruda, Jaceguara Dantas, Andréa Cunha Esmeraldo, Paulo Régis Machado Botelho, Fabio Esteves, Ilan Presser, Noemia Porto, Silvio Amorim, Carlos Vinícius Alves Ribeiro, Marcello Terto, Daiane Nogueira de Lira e Rodrigo Badaró. Não votou, em razão de ausência justificada, o Conselheiro Ulisses Rabaneda. Conselho Nacional de Justiça Autos: PEDIDO DE PROVIDÊNCIAS - 0005772-94.2025.2.00.0000 Requerente: CORREGEDORIA NACIONAL DE JUSTIÇA Requerido: TRIBUNAL DE JUSTIÇA DO ESTADO DA PARAÍBA - TJPB RELATÓRIO O EXCELENTÍSSMO SENHOR MINISTRO BENEDITO GONÇALVES (CORREGEDOR NACIONAL DE JUSTIÇA): Trata-se de Pedido de Providências instaurado de ofício, em 14/08/2025, por despacho do Juiz Auxiliar da Corregedoria Nacional (ID 6151239), a partir do Relatório de Investigação Preliminar n. 0235590/2025, elaborado pela Corregedoria-Geral de Justiça do Estado da Paraíba, que apontou supostas práticas sistemáticas capazes de comprometer indicadores de produtividade, utilizados na promoção de magistrados ao cargo de Desembargador, pelo critério de merecimento, nos termos do Edital n. 24/2025. Segundo a apuração local, teriam ocorrido práticas capazes de comprometer a avaliação necessária à promoção, podendo ser assim sintetizadas: (i) múltiplos movimentos processuais para inflar artificialmente a produtivid",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ271_2026#6",
+      "data": "2026-11-13",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 271/2026",
+      "resumo": "N. 0009300-05.2026.2.00.0000 - PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - A: ALDEMIR VASCONCELOS DE SOUZA JUNIOR. Adv(s).: RN23761 - MATEUS MESQUITA NOBREGA DE ARAUJO FILHO. R: FUNDACAO GETULIO VARGAS. Adv(s).: Nao Consta Advogado. R: TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO GRANDE DO NORTE - TJRN. Adv(s).: Nao Consta Advogado. Conselho Nacional de Justiça Gabinete do Conselheiro Carlos Vinícius Ribeiro Procedimento de Controle Administrativo - 0009300-05.2026.2.00.0000 Requerente: Aldemir Vasconcelos De Souza Junior Requerido: Tribunal de Justiça do Estado do Rio Grande do Norte (TJRN) DECISÃO Direito administrativo. Procedimento de controle administrativo. Concurso Público para outorga de delegações de notas e de registro. Prova oral. Notas individualizadas. Acesso a registros de avaliação. Revisão de resultado individual. Ausência de interesse geral. Não conhecimento. Trata-se de Procedimento de Controle Administrativo, com pedido liminar, formulado por Aldemir Vasconcelos de Souza Júnior, em face de atos praticados pelo Tribunal de Justiça do Estado do Rio Grande do Norte (TJRN), no âmbito do Concurso Público de Provas e Títulos para Outorga de Delegações de Notas e de Registro do Estado, regido pelo Edital nº 1/2025, com participação da Fundação Getúlio Vargas (FGV), entidade responsável pela execução do certame. O requerente, inscrito nas duas modalidades do referido concurso, relata ter sido submetido à prova oral na modalidade remoção em 14/9/2026 e, na modalidade provimen",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ271_2026#7",
+      "data": "2026-11-13",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 271/2026",
+      "resumo": "que a divulgação da nota global observou as regras do instrumento convocatório, ressaltando que a avaliação oral considera não apenas o conteúdo das respostas, mas também a exposição, a articulação do raciocínio e a capacidade de argumentação, não havendo obrigatoriedade de atribuição de pontuação autônoma a cada pergunta. Acrescenta que a Resolução CNJ nº 696/2026, por ser posterior à abertura do certame, não invalida automaticamente os procedimentos adotados sob a regulamentação anterior, devendo eventual incidência de suas disposições observar as regras de vigência e transição. A FGV ressalva, contudo, que a ausência de previsão de divulgação geral das questões, espelhos ou notas individuais não afasta, por si só, a possibilidade de exame de eventual direito de acesso a registros administrativos preexistentes, inclusive às gravações das arguições, à luz da legislação aplicável e das disposições editalícias. Destaca, ainda, que eventual necessidade de disponibilização de documentos ou esclarecimentos complementares não implica automaticamente a invalidade da avaliação. Quanto à diferença de 3,08 pontos entre as notas obtidas pelo requerente nas modalidades de provimento e remoção, argumenta que a discrepância, isoladamente, não comprova erro material ou irregularidade, uma vez que as arguições ocorreram em datas distintas e contaram com examinadores parcialmente diferentes. Sustenta que a comparação com as notas dos demais candidatos não permite presumir erro de lançamento,",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ271_2026#9",
+      "data": "2026-11-13",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 271/2026",
+      "resumo": "Votaram os Excelentíssimos Conselheiros Edson Fachin, Mauro Campbell Marques (então Relator), Kátia Magalhães Arruda, Jaceguara Dantas, Andréa Cunha Esmeraldo, Paulo Régis Machado Botelho, Fabio Esteves, Ilan Presser, Noemia Porto, Silvio Amorim, Carlos Vinícius Alves Ribeiro, Marcello Terto, Daiane Nogueira de Lira e Rodrigo Badaró. Não votou, em razão de ausência justificada, o Conselheiro Ulisses Rabaneda. Conselho Nacional de Justiça Autos: PEDIDO DE PROVIDÊNCIAS - 0001480-32.2026.2.00.0000 Requerente: TRIBUNAL DE JUSTIÇA DO ESTADO DE ALAGOAS - TJAL Requerido: CORREGEDORIA NACIONAL DE JUSTIÇA RELATÓRIO Trata-se de Recursos Administrativos manejados em face de decisão proferida em Pedido de Providências instaurado a partir de expediente encaminhado pelo Tribunal de Justiça do Estado de Alagoas, por meio do qual se requereu a reconsideração da determinação constante do relatório de inspeção realizada pela Corregedoria Nacional de Justiça, aprovado pelo Plenário do CNJ em acórdão nos autos da Insp 0003438-87.2025.2.00.0000, no sentido de que fosse realizada nova audiência de reescolha no âmbito do 1º Concurso Público de Provas e Títulos para Outorga de Delegações de Notas e de Registro daquele Estado (item 1.9. das determinações fixadas naquele relatório aprovado no acórdão de Id. 6187116 dos autos citados). Por decisão monocrática, foi acolhido o pedido formulado pelo Tribunal de Justiça do Estado de Alagoas para reconsiderar a determinação anteriormente expedida e afastar,",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ271_2026#12",
+      "data": "2026-11-13",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 271/2026",
+      "resumo": "concreto, notadamente a disciplina estabelecida no edital do certame, a necessidade de preservação da segurança jurídica e da confiança dos candidatos, bem como os limites da atuação deste Conselho Nacional de Justiça no exercício do controle administrativo, mostra-se adequada a reconsideração da determinação constante do subitem 1.9 do relatório de inspeção (PP nº. 0003438-87.2025.2.00.0000), para afastar, no caso concreto, a obrigatoriedade de realização de nova audiência de reescolha pelo Tribunal de Justiça do Estado de Alagoas. Defiro o pedido de habilitação formulado pelos terceiros interessados. No mérito, contudo, não acolho os argumentos por eles apresentados, pelas razões já expostas na fundamentação. Ressalte-se que a presente deliberação não afasta a necessidade de adoção, pelo Tribunal de Justiça do Estado de Alagoas, de medidas voltadas ao adequado provimento das serventias extrajudiciais vagas, devendo ser considerada, nesse contexto, a abertura de novo concurso público, a ser estruturado em conformidade com a realidade atual do serviço extrajudicial e com as diretrizes normativas vigentes. Para tanto, deverá o Tribunal comunicar a esta Corregedoria Nacional as providências adotadas nesse sentido. Determino o translado de cópia desta decisão aos autos do PP n. 0003438-87.2025.2.00.0000 e PCA 0007714-64.2025.2.00.0000, para ciência e registro. Publique-se. Intimem-se. À Secretaria Processual para as providência cabíveis. Brasília, data registrada no sistema. III",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ271_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 5
+}
