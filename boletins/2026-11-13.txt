@@ -1,0 +1,105 @@
+BOLETIM NORMATIVO DIÁRIO - SGP — 13 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo Diário - SGP.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 620, 625, 626, 627, 632, 633 e 634/2026: dispensas e designações de função comissionada
+  Ementa: Lote de sete atos de FC, assinados em 12/11/2026 e também publicados no DOU Seção 2 (p. 61).
+  Unidade(s): SELEP, CODOP, SELIR
+  Ação sugerida: Atualizar registros funcionais e folha conforme datas de efeito das funções.
+    - Nº 620: dispensa de José Natal Ceschim da FC-04 de Assistente de Gabinete de Primeiro Grau (2ª VT de Cachoeiro de Itapemirim), a partir de 09/11/2026.
+    - Nº 625: Maurício Bronzato dos Santos, dispensado da FC-04 de Calculista (VT de Aracruz) e designado para FC-04 de Calculista (2ª VT de Vitória).
+    - Nº 626: Girlene Beceveli, dispensada da FC-04 de Calculista e designada para FC-04 de Assistente de Secretaria, ambas na 2ª VT de Vitória.
+    - Nº 627: Sergio Biasutti, dispensado da FC-04 de Assistente de Secretaria (2ª VT de Vitória) e designado para FC-03 de Assistente (COGEPAC).
+    - Nº 632: Rebecca Botelho Dalla Bernardina Simões, dispensada da FC-04 de Assistente de Gabinete de Primeiro Grau (1ª VT de Vitória) e designada para FC-03 de Assistente (COLEP).
+    - Nº 633: designação de Giovana de Jesus Pontini Rodrigues para FC-04 de Assistente de Gabinete de Primeiro Grau (VT de Linhares).
+    - Nº 634: dispensa de Alessandra Oliveira da Silva Cler da FC-04 de Assistente de Gabinete de Primeiro Grau (VT de Linhares).
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026, p. 33-46 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 624, 628, 629, 630 e 631/2026: remoções
+  Ementa: Lote de cinco remoções, assinadas em 12/11/2026.
+  Unidade(s): SELIR, SELEP, CODOP
+  Ação sugerida: Atualizar lotação nos sistemas e comunicar unidades de origem e destino.
+    - Nº 624: Maurício Bronzato dos Santos (requisitado), da VT de Aracruz para a 2ª VT de Vitória.
+    - Nº 628: Leticia Silva Soares (Técnica Judiciária), da COGEPAC para a 8ª VT de Vitória.
+    - Nº 629: Raquel Ribeiro Rhein Emmerich (Técnica Judiciária), da 8ª VT de Vitória para a 1ª VT de Vitória.
+    - Nº 630: Sergio Biasutti (Técnico Judiciário), da 2ª VT de Vitória para a COGEPAC.
+    - Nº 631: Rebecca Botelho Dalla Bernardina Simões (Analista Judiciária), da 1ª VT de Vitória para a COLEP.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 621, 622 e 623/2026: retificações e ato tornado sem efeito
+  Ementa: A nº 621 retifica a Portaria nº 592/2026 (DEJT de 05/11/2026) quanto à lotação; a nº 622 torna sem efeito a Portaria nº 591/2026; a nº 623 retifica a Portaria nº 599/2026 (DEJT de 06/11/2026) para convalidar atos. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SELIR, SELEP, CODOP
+  Ação sugerida: Conferir o texto e corrigir os registros afetados pelas Portarias 591, 592 e 599/2026.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+3. INFORMATIVO (arquivo)
+
+* TRT-17 – Resolução Administrativa nº 112/2026 (altera a Resolução CSJT nº 434/2026)
+  Ementa: Os trechos publicados tratam de definições, periodicidade, armazenamento e relatório anual de backup, ciência do Comitê de Segurança da Informação e de Proteção de Dados (CSIPD) e eventos/incidentes de segurança da informação. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SEINFO, SGP-direção (ciência)
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Ato PRESI SECOR nº 85/2026 (republicação) e Ato SECOR nº 97/2026
+  Ementa: Republicação do Ato nº 85/2026 por erro material nas datas de designação (designações de juízes do trabalho substitutos) e Ato SECOR nº 97/2026 (processo de normatização, Atos PRESI SECOR 2026), sem texto detalhado no caderno.
+  Unidade(s): SGP-direção (ciência)
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026, p. 2-3 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* IN CGDDP/MGI nº 479/2026: prorroga para 27/11/2026 o envio do PDP 2027
+  Ementa: Prorroga o prazo da IN CGDDP/MGI nº 376/2026 para o envio do Plano de Desenvolvimento de Pessoas de 2027 ao Sipec, via DesenvolveGOV, por órgãos da administração direta, autárquica e fundacional. Aplicabilidade ao TRT-17 a verificar.
+  Unidade(s): SEGECOP, SEGEDE
+  Fonte: DOU Seção 1, p. 130 — https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do1
+
+* Portaria MF nº 283/2026: suspende efeitos da Portaria MF nº 157/2026 e restabelece proventos de aposentadoria
+  Ementa: Cumprimento de liminar em Mandado de Segurança nº 32458/DF (STJ); caso individual de servidor do Ministério da Fazenda.
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, p. 35 — https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2
+
+* Edital DGP/MGI nº 84/2026: aposentados e pensionistas com benefício suspenso por falta de prova de vida (aniversariantes de agosto/2026)
+  Ementa: Relação de beneficiários do Executivo federal; sem efeito direto sobre o TRT-17.
+  Unidade(s): SESES
+  Fonte: DOU Seção 2, p. 64 — https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2
+
+* CNJ – Portaria nº 541/2026: cessão de servidor do CNJ ao TRF 1ª Região
+  Ementa: Autoriza cessão de Analista Judiciário do quadro do CNJ para cargo em comissão CJ-1 no TRF1 (Lei 8.112/1990, art. 93, I).
+  Unidade(s): SELIR
+  Fonte: DOU Seção 2, p. 54 — https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU – Acórdão nº 5840/2026 (1ª Câmara, sessão de 10/11/2026): ATS/VPNI e teto em aposentadoria de magistrada
+  Status: Sumário cita decisão do STF nos embargos na ADI 6.604/PB e Tema 966 da repercussão geral, permitindo percepção simultânea de VPNI/ATS e PVTAC, com submissão ao teto. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível reflexo em cálculos de ATS e teto (SESES/SELEP).
+  Fonte: TCU, Acórdão 5840/2026 — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781280%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU – Acórdãos de 10/11/2026 sobre “quintos” e parcela “opção” em aposentadorias (5844, 5848, 5849, 5850, 5856, 5857, 5860 – 1ª Câmara; 5411, 5414, 5415, 5416 – 2ª Câmara)
+  Status: Sumários tratam de quintos incorporados após 8/4/1998, modulação do RE 638.115/CE, acumulação de FC com quintos e cumulação de quintos e “opção”. [carece de leitura humana do texto integral]
+  Possível reflexo: Referência para análise de proventos com quintos/opção (SESES/SELEP).
+  Fonte: TCU, Acórdão 5860/2026 (exemplo; demais na pesquisa de jurisprudência) — https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778598%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false
+
+* TCU – Ata nº 44/2026 do Plenário (sessão de 04/11/2026)
+  Status: Ata publicada no DOU com palavras-chave de aposentadoria, pensão e licença saúde. [carece de leitura humana do texto integral — conferir no DOU]
+  Possível reflexo: A verificar se há decisão de pessoal com reflexo na SGP.
+  Fonte: DOU Seção 1, p. 205 — https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do1
+
+* CNJ – DJe nº 271/2026
+  Status: Trechos de decisões em procedimentos de controle administrativo e pedidos de providência sobre concurso público; sem tese vinculante identificada. [carece de leitura humana do texto integral]
+  Possível reflexo: Sem reflexo direto identificado.
+  Fonte: DJe do CNJ nº 271/2026 — https://www.cnj.jus.br/dje/djeletronico
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 3
+- Informativos: 6
+- Em Monitoramento: 4
+- Fontes consultadas: DOU Seções 1 e 2 de 13/11/2026 (957 atos varridos, 97 selecionados, 52 atos individuais de pessoal de outros órgãos descartados; sem edições extras); DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026 (33 trechos de atos detectados, todos triados e consolidados em lotes); DEJT CSJT publicação 13/11/2026: 3 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos conjuntos e ato de TIC); DEJT TST: 3 atos detectados (atos de gabinete da Diretoria-Geral), nenhum pertinente à SGP; acórdãos do TCU (sessões de 30/10 a 10/11/2026, 53 selecionados); DJe do CNJ nº 271/2026; notícias do STF e STJ: sem novidades em STF/STJ nesta data (nenhuma notícia com sinal de precedente vinculante e tema SGP). CNJ no DOU: nenhuma resolução ou recomendação na edição (apenas portaria de cessão).
+- Sem retorno relevante: DJEN (acórdãos do CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo Diário - SGP (Claude AI) em 13/11/2026, 12h40 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.

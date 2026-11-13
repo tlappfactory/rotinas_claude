@@ -1,0 +1,127 @@
+{
+ "data": "2026-11-13",
+ "timestamp": "13/11/2026, 12h40 (Brasília)",
+ "aviso": {
+  "destaque": false,
+  "texto": ""
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 620, 625, 626, 627, 632, 633 e 634/2026: dispensas e designações de função comissionada",
+   "ementa": "Lote de sete atos de FC, assinados em 12/11/2026 e também publicados no DOU Seção 2 (p. 61).",
+   "linhas": [
+    "Nº 620: dispensa de José Natal Ceschim da FC-04 de Assistente de Gabinete de Primeiro Grau (2ª VT de Cachoeiro de Itapemirim), a partir de 09/11/2026.",
+    "Nº 625: Maurício Bronzato dos Santos, dispensado da FC-04 de Calculista (VT de Aracruz) e designado para FC-04 de Calculista (2ª VT de Vitória).",
+    "Nº 626: Girlene Beceveli, dispensada da FC-04 de Calculista e designada para FC-04 de Assistente de Secretaria, ambas na 2ª VT de Vitória.",
+    "Nº 627: Sergio Biasutti, dispensado da FC-04 de Assistente de Secretaria (2ª VT de Vitória) e designado para FC-03 de Assistente (COGEPAC).",
+    "Nº 632: Rebecca Botelho Dalla Bernardina Simões, dispensada da FC-04 de Assistente de Gabinete de Primeiro Grau (1ª VT de Vitória) e designada para FC-03 de Assistente (COLEP).",
+    "Nº 633: designação de Giovana de Jesus Pontini Rodrigues para FC-04 de Assistente de Gabinete de Primeiro Grau (VT de Linhares).",
+    "Nº 634: dispensa de Alessandra Oliveira da Silva Cler da FC-04 de Assistente de Gabinete de Primeiro Grau (VT de Linhares)."
+   ],
+   "unidades": "SELEP, CODOP, SELIR",
+   "acao": "Atualizar registros funcionais e folha conforme datas de efeito das funções.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026, p. 33-46"
+  },
+  {
+   "titulo": "TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 624, 628, 629, 630 e 631/2026: remoções",
+   "ementa": "Lote de cinco remoções, assinadas em 12/11/2026.",
+   "linhas": [
+    "Nº 624: Maurício Bronzato dos Santos (requisitado), da VT de Aracruz para a 2ª VT de Vitória.",
+    "Nº 628: Leticia Silva Soares (Técnica Judiciária), da COGEPAC para a 8ª VT de Vitória.",
+    "Nº 629: Raquel Ribeiro Rhein Emmerich (Técnica Judiciária), da 8ª VT de Vitória para a 1ª VT de Vitória.",
+    "Nº 630: Sergio Biasutti (Técnico Judiciário), da 2ª VT de Vitória para a COGEPAC.",
+    "Nº 631: Rebecca Botelho Dalla Bernardina Simões (Analista Judiciária), da 1ª VT de Vitória para a COLEP."
+   ],
+   "unidades": "SELIR, SELEP, CODOP",
+   "acao": "Atualizar lotação nos sistemas e comunicar unidades de origem e destino.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026"
+  },
+  {
+   "titulo": "TRT-17 – Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 621, 622 e 623/2026: retificações e ato tornado sem efeito",
+   "ementa": "A nº 621 retifica a Portaria nº 592/2026 (DEJT de 05/11/2026) quanto à lotação; a nº 622 torna sem efeito a Portaria nº 591/2026; a nº 623 retifica a Portaria nº 599/2026 (DEJT de 06/11/2026) para convalidar atos. [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "SELIR, SELEP, CODOP",
+   "acao": "Conferir o texto e corrigir os registros afetados pelas Portarias 591, 592 e 599/2026.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-17 – Resolução Administrativa nº 112/2026 (altera a Resolução CSJT nº 434/2026)",
+   "ementa": "Os trechos publicados tratam de definições, periodicidade, armazenamento e relatório anual de backup, ciência do Comitê de Segurança da Informação e de Proteção de Dados (CSIPD) e eventos/incidentes de segurança da informação. [carece de leitura humana do texto integral — conferir no DEJT]",
+   "unidades": "SEINFO, SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026"
+  },
+  {
+   "titulo": "TRT-17 – Ato PRESI SECOR nº 85/2026 (republicação) e Ato SECOR nº 97/2026",
+   "ementa": "Republicação do Ato nº 85/2026 por erro material nas datas de designação (designações de juízes do trabalho substitutos) e Ato SECOR nº 97/2026 (processo de normatização, Atos PRESI SECOR 2026), sem texto detalhado no caderno.",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026, p. 2-3"
+  },
+  {
+   "titulo": "IN CGDDP/MGI nº 479/2026: prorroga para 27/11/2026 o envio do PDP 2027",
+   "ementa": "Prorroga o prazo da IN CGDDP/MGI nº 376/2026 para o envio do Plano de Desenvolvimento de Pessoas de 2027 ao Sipec, via DesenvolveGOV, por órgãos da administração direta, autárquica e fundacional. Aplicabilidade ao TRT-17 a verificar.",
+   "unidades": "SEGECOP, SEGEDE",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 130"
+  },
+  {
+   "titulo": "Portaria MF nº 283/2026: suspende efeitos da Portaria MF nº 157/2026 e restabelece proventos de aposentadoria",
+   "ementa": "Cumprimento de liminar em Mandado de Segurança nº 32458/DF (STJ); caso individual de servidor do Ministério da Fazenda.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 35"
+  },
+  {
+   "titulo": "Edital DGP/MGI nº 84/2026: aposentados e pensionistas com benefício suspenso por falta de prova de vida (aniversariantes de agosto/2026)",
+   "ementa": "Relação de beneficiários do Executivo federal; sem efeito direto sobre o TRT-17.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 64"
+  },
+  {
+   "titulo": "CNJ – Portaria nº 541/2026: cessão de servidor do CNJ ao TRF 1ª Região",
+   "ementa": "Autoriza cessão de Analista Judiciário do quadro do CNJ para cargo em comissão CJ-1 no TRF1 (Lei 8.112/1990, art. 93, I).",
+   "unidades": "SELIR",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 54"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU – Acórdão nº 5840/2026 (1ª Câmara, sessão de 10/11/2026): ATS/VPNI e teto em aposentadoria de magistrada",
+   "status": "Sumário cita decisão do STF nos embargos na ADI 6.604/PB e Tema 966 da repercussão geral, permitindo percepção simultânea de VPNI/ATS e PVTAC, com submissão ao teto. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo em cálculos de ATS e teto (SESES/SELEP).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781280%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5840/2026"
+  },
+  {
+   "titulo": "TCU – Acórdãos de 10/11/2026 sobre “quintos” e parcela “opção” em aposentadorias (5844, 5848, 5849, 5850, 5856, 5857, 5860 – 1ª Câmara; 5411, 5414, 5415, 5416 – 2ª Câmara)",
+   "status": "Sumários tratam de quintos incorporados após 8/4/1998, modulação do RE 638.115/CE, acumulação de FC com quintos e cumulação de quintos e “opção”. [carece de leitura humana do texto integral]",
+   "reflexo": "Referência para análise de proventos com quintos/opção (SESES/SELEP).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2778598%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5860/2026 (exemplo; demais na pesquisa de jurisprudência)"
+  },
+  {
+   "titulo": "TCU – Ata nº 44/2026 do Plenário (sessão de 04/11/2026)",
+   "status": "Ata publicada no DOU com palavras-chave de aposentadoria, pensão e licença saúde. [carece de leitura humana do texto integral — conferir no DOU]",
+   "reflexo": "A verificar se há decisão de pessoal com reflexo na SGP.",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=13-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 205"
+  },
+  {
+   "titulo": "CNJ – DJe nº 271/2026",
+   "status": "Trechos de decisões em procedimentos de controle administrativo e pedidos de providência sobre concurso público; sem tese vinculante identificada. [carece de leitura humana do texto integral]",
+   "reflexo": "Sem reflexo direto identificado.",
+   "fonte_url": "https://www.cnj.jus.br/dje/djeletronico",
+   "fonte_titulo": "DJe do CNJ nº 271/2026"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 13/11/2026 (957 atos varridos, 97 selecionados, 52 atos individuais de pessoal de outros órgãos descartados; sem edições extras); DEJT Caderno Administrativo TRT-17, publicação de 13/11/2026 (33 trechos de atos detectados, todos triados e consolidados em lotes); DEJT CSJT publicação 13/11/2026: 3 atos detectados, nenhum pertinente à SGP segundo o filtro temático (atos conjuntos e ato de TIC); DEJT TST: 3 atos detectados (atos de gabinete da Diretoria-Geral), nenhum pertinente à SGP; acórdãos do TCU (sessões de 30/10 a 10/11/2026, 53 selecionados); DJe do CNJ nº 271/2026; notícias do STF e STJ: sem novidades em STF/STJ nesta data (nenhuma notícia com sinal de precedente vinculante e tema SGP). CNJ no DOU: nenhuma resolução ou recomendação na edição (apenas portaria de cessão).",
+ "fontes_sem_retorno": "DJEN (acórdãos do CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br."
+}
