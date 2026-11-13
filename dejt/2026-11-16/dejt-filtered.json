@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-16",
+  "sources": {
+    "trt17": {
+      "status": "ok",
+      "pdf_size_kb": 137,
+      "pdf_text_chars": 18551,
+      "total_atos_detectados": 4,
+      "matched_atos": 4,
+      "headers_sample": [
+        "Portaria PRESI/SEGEP N° 14/2026",
+        "Ato SECOR N° 98/2026",
+        "ATO PRESI SECOR Nº 86/2026",
+        "EDITAL DE CIENTIFICAÇÃO/COGEPAC Nº 1/2026"
+      ]
+    },
+    "csjt": {
+      "status": "ok",
+      "pdf_size_kb": 158,
+      "pdf_text_chars": 86345,
+      "total_atos_detectados": 2,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO CSJT.GP.SG.SETIC N.º 54, de 19 de MAIO de 2026. * (Republicação)",
+        "Resolução CSJT n.º 425, de 28 de outubro de 2025."
+      ]
+    },
+    "tst": {
+      "status": "ok",
+      "pdf_size_kb": 108,
+      "pdf_text_chars": 9589,
+      "total_atos_detectados": 4,
+      "matched_atos": 0,
+      "headers_sample": [
+        "ATO GDGSET.GP N.º 687, DE 13 DE NOVEMBRO DE 2026",
+        "ATO GDGSET.GP Nº 683, DE 12 DE NOVEMBRO DE 2026",
+        "Resolução Administrativa nº 1.724/2015 e não resida com outra pessoa beneficiári",
+        "ATO TST.GP N° 676, DE 10 DE NOVEMBRO DE 2026."
+      ]
+    }
+  },
+  "total_matched": 4,
+  "strong_keyword_tags": [
+    "aposentadoria",
+    "pensao",
+    "abono_permanencia",
+    "reversao_aposentado",
+    "averbacao_tempo",
+    "acumulacao_cargos",
+    "teto_remuneratorio",
+    "isencao_ir",
+    "quintos_anuenios_ats",
+    "funpresp",
+    "auxilios_pessoal",
+    "licenca_saude",
+    "licencas_servidor",
+    "ajuda_custo_transporte",
+    "insalubridade_periculosidade",
+    "cessao_remocao_permuta",
+    "tributario_folha"
+  ],
+  "weak_keyword_tags": [
+    "substituicao_fc_cc",
+    "competencias_capacitacao",
+    "teletrabalho_jornada",
+    "estagio_aprendizagem",
+    "folha_esocial"
+  ],
+  "articles": [
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "EDITAL DE CIENTIFICAÇÃO/COGEPAC Nº 1/2026",
+      "text_resumo": "EDITAL DE CIENTIFICAÇÃO/COGEPAC Nº 1/2026\n\n\n  A Exma. Desembargadora Wanda Lúcia Costa Leite França Decuzzi, no uso de suas atribuições legais e regimentais, FAZ SABER a todos\n  quantos o presente Edital virem ou dele tiverem conhecimento que ficam CIENTIFICADOS os jurisdicionados, suas associações, sindicatos,\n  federações e confederações profissionais ou econômicas acerca da instauração do Incidente de Assunção de Competência n.º 0001812-\n  73.2026.5.17.0000 – IAC 6, suscitado no julgamento do Recurso Ordinário n.º 0000693-21.2024.5.17.0009, que tem por objeto as seguintes\n  questões jurídicas:\n\n  “1. A ausência de requerimento de concessão de patente, nos termos da Lei nº 9.279/1996 (Lei de Propriedade Industrial), constitui óbice\n  ao reconhecimento do direito do empregado à justa remuneração pela autoria de invenção ou modelo de utilidade desenvolvido fora das\n  atribuições ordinárias do contrato de trabalho, nos termos do art 454 da CLT, quando comprovados os requisitos técnicos da criação e\n  os benefícios econômicos decorrentes de sua utilização pelo empregador?\n\n  2. O indeferimento da concessão de patente de modelo de utilidade ou invento, obsta a justa remuneração do empregado, quando, nada\n  obstante o indeferimento pelo órgão competente, a perícia constata que houve benefícios econômicos pelo empregador decorrentes de\n  sua utilização?”\n\n  Os interessados poderão, querendo, no prazo de 15 (quinze) dias, apresentar documentos e requerer as diligências que entenderem necessárias\n  à elucidação das questões de direito controvertidas, nos termos do art. 187 do Regimento Interno deste\n  Tribunal e do r. despacho proferido nos autos.\n\n  E, para que chegue ao conhecimento dos possíveis interessados, é passado o presente Edital, que será publicado no Diário de Justiça Eletrônico\n  Nacional – DJEN e deverá permanecer destacado no sítio eletrônico deste Tribunal na rede mundial de\n  computadores.\n\n  Dado e passado nesta cidade de Vitória/ES, em 12 de novembro de 2026. Eu, Sanny Motta Soares de Souza, Coordenadora, lavrei o presente\n  edital, que, lido e achado conforme, vai assinado pela Exma. Desembargadora-Relatora.\n\n                                                   WANDA LUCIA COSTA LEITE FRANCA DECUZZI\n                                                          Desembargadora do Trabalho\n\n\n                                                   SEÇÃO DE GESTÃO DE DESEMPENHO\n                                                                 Apostila\n                                                                Apostila\n                                                      Publicação DEJT SEI - Apostila\n  Processo: 0000019-54.2026.5.17.0500\n\n\nCódigo para aferir autenticidade deste caderno: 242423\n\f    4586/2026                                              Tribunal Regional do Trabalho da 17ª Região                                         6\n    Data da Disponibilização: Sexta-feira, 13 de Novembro de 2026\n\n\n\n  Assunto(s): Assentamento funcional (servidores e empregados públicos, servidores temporários, residentes e estagiários, ocupantes de cargo\n  comissionado e de função de confiança)\n\n  Especificação: Avaliação de Desempenho Anual - 2026\n\n  Interessado(s): Secretaria de Gestão de Pessoas\n\n\n\n\n                                                  APOSTILA PRESI/SGP/CODOP/SEGEDE nº 73/2026\n\n\n\n\n  HOMOLOGO o resultado da Avaliação de Desempenho do servidor abaixo nominado, efetuada nos moldes preconizados no artigo 45 da\n  Resolução Administrativa TRT 17.ª n.º 13/2021, e CONCEDO progressão funcional, com base na Lei n.º 11.416, de 15/12/2006, na sua redação\n  atual, na Portaria Conjunta STF n.º 04, de 08/10/2013 e no artigo 45 da Resolução Administrativa TRT 17.ª n.º 13/2021, e no que consta do\n  respectivo instrumento de avaliação, conforme abaixo discriminado:\n\n   SERVIDOR                              CARGO                         PROGRESSÃO                  DATA DA                 EFEITOS\n                                                                                                                           FINANCEIROS\n                                                                       PARA                        PROGRESSÃO\n\n    Inaldo Nascimento Conceição          Analista Judiciário - Apoio C-12                          05/09/2023              05/09/2023\n                                         Especializado - Arquivologia\n                                                                      C-13                         16/12/2024              16/12/2024\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região\n\n\n\n\n                                                              Alzenir Bollesi de Plá Loeffler\n\n                                                              Desembargadora-Presidente\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 12/11/2026,\n                          às 19:00, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1357065 e o código CRC 23A10449.\n\n\n\n\n                                                                          ÍNDICE\n\n\n   SECRETARIA GERAL DA PRESIDÊNCIA                                    1\n    Portaria                                                          1\n     Portaria                                                         1               Edital                                                   5\n   SECRETARIA DE CORREGEDORIA                                         2             SEÇÃO DE GESTÃO DE DESEMPENHO                              5\n   REGIONAL\n                                                                                     Apostila                                                  5\n    Ato                                                               2\n                                                                                      Apostila                                                 5\n     Ato                                                              2\n   DIRETORIA GERAL                                                    4\n    Extrato                                                           4\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                  4\n   SECRETARIA DO TRIBUNAL PLENO                                       5\n    Edital                                                            5\n\nCódigo para aferir autenticidade deste caderno: 242423",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [
+        "competencias_capacitacao"
+      ],
+      "score": 11
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "ATO PRESI SECOR Nº 86/2026",
+      "text_resumo": "ATO PRESI SECOR Nº 86/2026\n\n\n\n                               A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n                       REGIÃO, no uso de suas atribuições legais e regimentais\n\n\n\n\n                                CONSIDERANDO o período de licença médica do Juiz Titular da Vara do Trabalho de Venda Nova do Imigrante,\n                       Ricardo Menezes Silva;\n\n\n\n\n                                CONSIDERANDO que na Vara do Trabalho de Venda Nova do Imigrante não há designação de Juiz Substituto com\n                       designação contínua e por prazo indeterminado e\n\n\n\n\n                                 CONSIDERANDO, ainda, a necessidade de se evitar o adiamento de audiências já designadas, resolve\n\n\n\n                                                                                  DESIGNAR\n\n\n\n\n                       LÍVIA DOS SANTOS VARDIERO CRESPO e SILVIA DALLA BERNARDINA DAHER, Juízas do Trabalho Substitutas, para\n                       atuarem como Titular em exercício na Vara do Trabalho de Venda Nova do Imigrante nos dias 24 e 25/11/2026,\n                       respectivamente, sem prejuízo das designações anteriores.\n\n\n\n\n                             Por se tratar de situação excepcional, fica autorizada a realização de audiências telepresenciais às Magistradas nestes\n                       dias, conforme previsão contida no inciso II do artigo 3º do ATO PRESI SECOR Nº 13/2023.\n\n\n\n\n                            Publique-se.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242423\n\f    4586/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          4\n    Data da Disponibilização: Sexta-feira, 13 de Novembro de 2026\n\n\n\n\n                                                                         Alzenir Bollesi de Plá Loeffler\n\n                                                                  Desembargadora-Presidente e Corregedora\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 12/11/2026,\n                          às 16:00, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1357113 e o código CRC 596AF03A.\n\n\n\n\n                                                          DIRETORIA GERAL\n                                                               Extrato\n                                                  EXTRATO DE CONCESSÃO DE DIÁRIAS\n                                                         Concessão de Diárias\n  O Diretor-Geral substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao(s) beneficiário(s) indicado(s)\n  diária(s) nos seguintes termos:\n\n\n  Processo nº 835/2026 (Retificação 2)\n  - GEORGE LUIZ BARCELOS SANTOS, TÉCNICO JUDICIÁRIO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de Fiscalização\n  dos contratos de vigilância armada e vigilância eletrônica em que a COPJUD é a responsável, bem como verificação dos extintores de incêndio\n  nas Varas do Trabalho de Aracruz, Colatinha, Linhares, Nova Venécia e São Mateus., referente ao(s) seguinte(s) período(s):\n  #3: Vitória/ES - Linhares/ES no período de 03/11/2026 a 05/11/2026, totalizando 2,50 diária(s).\n                                                               Concessão de Diárias\n  O Diretor-Geral substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao(s) beneficiário(s) indicado(s)\n  diária(s) nos seguintes termos:\n\n\n  Processo nº 867/2026\n  - ELIANE MACHADO ARLEU, TÉCNICO JUDICIÁRIO DIRETOR DE SECRETARIA do Tribunal Regional do Trabalho da 17ª Região, com a\n  finalidade de Participar do evento Palmares Vive: Arte Memória e Resistência, no dia 19/11/2026., referente ao(s) seguinte(s) período(s):\n\n\nCódigo para aferir autenticidade deste caderno: 242423\n\f    4586/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          5\n    Data da Disponibilização: Sexta-feira, 13 de Novembro de 2026\n\n\n\n  #2: Cachoeiro de Itapemirim/ES - Vitória/ES no período de 19/11/2026 a 19/11/2026, totalizando 0,50 diária(s).\n                                                               Concessão de Diárias\n  O Diretor-Geral substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao(s) beneficiário(s) indicado(s)\n  diária(s) nos seguintes termos:\n\n\n  Processo nº 868/2026\n  - ELIANE MACHADO ARLEU, TÉCNICO JUDICIÁRIO DIRETOR DE SECRETARIA do Tribunal Regional do Trabalho da 17ª Região, com a\n  finalidade de Participar do Curso Saúde Mental na era digital, tecnoestresse e organização do trabalho., referente ao(s) seguinte(s) período(s):\n  #2: Cachoeiro de Itapemirim/ES - Vitória/ES no período de 27/11/2026 a 28/11/2026, totalizando 1,50 diária(s).\n                                                               Concessão de Diárias\n  O Diretor-Geral substituto, Luis Estevão Balan, do Tribunal Regional do Trabalho da 17.ª Região, no uso de suas atribuições legais e regimentais,\n  e com amparo nos ATOS TRT 17.ª PRESI N.os 106/2023 e 13/2025, resolve conceder e autorizar o pagamento ao(s) beneficiário(s) indicado(s)\n  diária(s) nos seguintes termos:\n\n\n  Processo nº 872/2026\n  - MARCIO MOURA SILVA, TÉCNICO JUDICIÁRIO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de Conduzir e realizar a\n  Segurança da Exma. Desembargadora Alzenir Bollesi de Plá Loeffler, em Correição nas Varas do Trabalho de Guarapari e Venda Nova do\n  Imigrante., referente ao(s) seguinte(s) período(s):\n  #2: Vitória/ES - Venda Nova do Imigrante/ES no período de 09/11/2026 a 11/11/2026, totalizando 2,50 diária(s).\n\n\n                                                     SECRETARIA DO TRIBUNAL PLENO\n                                                                 Edital\n                                                                 Edital",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Ato SECOR N° 98/2026",
+      "text_resumo": "Ato SECOR N° 98/2026\n\n\nCódigo para aferir autenticidade deste caderno: 242423\n\f    4586/2026                                              Tribunal Regional do Trabalho da 17ª Região                                            3\n    Data da Disponibilização: Sexta-feira, 13 de Novembro de 2026\n\n\n\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                                SECOR – Secretaria da Corregedoria Regional\n\n\n\n\n                       Processo: 0000029-98.2026.5.17.0500\n\n                       Assunto(s): Normatização. Regulamentação\n\n                       Especificação: ATOS PRESI SECOR 2026\n\n                       Interessado(s):",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    },
+    {
+      "source": "trt17",
+      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
+      "identifica": "Portaria PRESI/SEGEP N° 14/2026",
+      "text_resumo": "Portaria PRESI/SEGEP N° 14/2026\n\n\n\n\n                                                                       Designa os servidores responsáveis, e seus substitutos, pela Conformidade\n                                                                       dos Registros de Gestão e pela Conformidade Contábil no Sistema\n                                                                       Integrado de Administração Financeira do Governo Federal - SIAFI.\n\n\n\n                      A PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª REGIÃO, no uso de suas atribuições legais e\n                      regimentais, e considerando o que consta do processo SEI n.º 0002054-55.2024.5.17.0500,\n\n\n\n                                                                              RESOLVE,\n\n\n\n                      Art. 1.º Designar os servidores abaixo nominados para, sem prejuízo de suas atribuições, certificarem a Conformidade dos\n                      Registros de Gestão no Sistema Integrado de Administração Financeira do Governo Federal - SIAFI:\n\n                      I - Luiz Henrique Maia Sandes (Responsável); e\n\n                      II - Mariana Oliveira Alves (Substituta).\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242423\n\f    4586/2026                                              Tribunal Regional do Trabalho da 17ª Região                                         2\n    Data da Disponibilização: Sexta-feira, 13 de Novembro de 2026\n\n\n\n\n                       Art. 2.º Designar os servidores abaixo nominados para, sem prejuízo de suas atribuições, responderem pelo registro da\n                       Conformidade Contábil no Sistema Integrado de Administração Financeira do Governo Federal - SIAFI:\n\n                       I - Mauro Maretto (Responsável); e\n\n                       II - Yuri Garcia Pimentel (Substituto).\n\n                       Art. 3.º Esta Portaria entra em vigor na data de sua publicação.\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do TRT da 17.ª Região.\n\n\n\n                                                                 Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 13/11/2026,\n                          às 16:28, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1357747 e o código CRC 6742F969.\n\n\n\n\n                                              SECRETARIA DE CORREGEDORIA REGIONAL\n                                                                Ato\n                                                                Ato\n                                                     Publicação DEJT SEI - Ato",
+      "text_truncated": false,
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10
+    }
+  ]
+}

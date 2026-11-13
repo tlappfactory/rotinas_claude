@@ -1,12 +1,133 @@
 {
-  "run_utc": "2026-11-13T21:35:21Z",
+  "run_utc": "2026-11-13T22:26:30Z",
   "lookback_days": 14,
   "cutoff_date": "2026-10-30",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
-  "pages_fetched": 1,
-  "items_seen": 0,
-  "min_date_seen": null,
-  "max_date_seen": null,
-  "total_matched": 0,
-  "articles": []
+  "pages_fetched": 3,
+  "items_seen": 1500,
+  "min_date_seen": "2026-10-06",
+  "max_date_seen": "2026-11-11",
+  "total_matched": 6,
+  "articles": [
+    {
+      "key": "ACORDAO-COMPLETO-2780407",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5781",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "03/11/2026",
+      "relator": "RODRIGO PACHECO",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5781/2026 ATA 38/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. MINISTÉRIO DO TRABALHO E EMPREGO. TERMO DE FOMENTO. OMISSÃO NO DEVER DE PRESTAR CONTAS. CITAÇÃO E AUDIÊNCIA. RECOLHIMENTO INTEGRAL DO DÉBITO. SITUAÇÃO DE EMERGÊNCIA CLIMÁTICA COMO JUSTIFICATIVA PARA O ATRASO NA PRESTAÇÃO DE CONTAS. INEXIGIBILIDADE DE CONDUTA DIVERSA. CONTAS REGULARES COM RESSALVA. QUITAÇÃO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780407%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2782868",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5329",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "03/11/2026",
+      "relator": "AUGUSTO NARDES",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5329/2026 ATA 38/2026 - SEGUNDA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. OMISSÃO NO DEVER DE PRESTAR CONTAS. CITAÇÃO DO GESTOR DOS RECURSOS. AUDIÊNCIA DA PREFEITA SUCESSORA. NÃO OCORRÊNCIA DAS PRESCRIÇÕES PUNITIVA E DE RESSARCIMENTO. COMPROVAÇÃO DA APLICAÇÃO DA QUASE TOTALIDADE DOS RECURSOS PELO EX-PREFEITO. DESPESAS RESIDUAIS NÃO COMPROVADAS. BAIXA MATERIALIDADE. CONTAS REGULARES COM RESSALVA. QUITAÇÃO. AUSÊNCIA DE COMPROVAÇÃO DA IMPOSSIBILIDADE DE PRESTAÇÃO DE CONTAS E DA ADOÇÃO DAS PROVIDÊNCIAS LEGAIS CABÍVEIS PELA SUCESSORA. REJEIÇÃO DAS RAZÕES DE JUSTIFICATIVA. CONTAS IRREGULARES. MULTA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782868%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2779792",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5846",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "10/11/2026",
+      "relator": "WEDER DE OLIVEIRA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5846/2026 ATA 39/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. FNDE. CONVÊNIO. CONSTRUÇÃO DE ESCOLA NO ÂMBITO DO PROGRAMA PROINFÂNCIA. NÃO APRESENTAÇÃO DA PRESTAÇÃO DE CONTAS. CITAÇÕES E AUDIÊNCIA. APRESENTAÇÃO DE ALEGAÇÕES DE DEFESA E RAZÕES DE JUSTIFICATIVA. PRESTAÇÃO DE CONTAS APRESENTADA INTEMPESTIVAMENTE AO FNDE. REPROVAÇÃO DA PRESTAÇÃO DE CONTAS. PROPOSTA DE CITAÇÃO DE EX-PREFEITO ANTE INDÍCIO DE PAGAMENTO POR SERVIÇOS NÃO EXECUTADOS. CONCLUSÃO DA OBRA COM RECURSOS PRÓPRIOS DO MUNICÍPIO. INEXISTÊNCIA DE ELEMENTOS SUFICIENTES PARA COMPROVAR A OCORRÊNCIA DE PAGAMENTO DE SERVIÇOS NÃO EXECUTADOS. AUSÊNCIA DE PROVA SUFICIENTE DA OCORRÊNCIA DE DANO AO ERÁRIO. ARQUIVAMENTO. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779792%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2772079",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5842",
+      "anoAcordao": "2026",
+      "colegiado": "Primeira Câmara",
+      "dataSessao": "10/11/2026",
+      "relator": "RODRIGO PACHECO",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5842/2026 ATA 39/2026 - PRIMEIRA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. AGÊNCIA NACIONAL DO CINEMA. FUNDO SETORIAL DO AUDIOVISUAL. APOIO FINANCEIRO PARA DESENVOLVIMENTO DE OBRA AUDIOVISUAL. AUSÊNCIA PARCIAL DE PRESTAÇÃO DE CONTAS. CITAÇÃO. REVELIA. EXCLUSÃO DE MULTA CONTRATUAL DA COMPOSIÇÃO DO DÉBITO. CONTAS IRREGULARES. DÉBITO. MULTA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2772079%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2784512",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5405",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "10/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5405/2026 ATA 39/2026 - SEGUNDA CÂMARA",
+      "sumario": "TOMADA DE CONTAS ESPECIAL. MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL. MUNICÍIPO DE ITAQUI/RS. TRANSFERÊNCIA OBRIGATÓRIA. AQUISIÇÃO DE KITS ALIMENTARES, RESERVATÓRIO DE ÁGUA FLEXÍVEL E ÓLEO DIESEL. NÃO COMPROVAÇÃO DA REGULAR APLICAÇÃO DOS RECURSOS. CONTAS IRREGULARES. DÉBITO. MULTA. RECURSO DE RECONSIDERAÇÃO. CONHECIMENTO. DOCUMENTAÇÃO APRESENTADA EM FASE RECURSAL COMPROVA A EXECUÇÃO FÍSICA E NEXO DE CAUSALIDADE, COM AFASTAMENTO DO DÉBITO E DA MULTA DO ART. 57 DA LEI 8.443/1992. AUSÊNCIA DE JUSTIFICATIVAS PARA PRESTAÇÃO DE CONTAS INTEMPESTIVA. PROVIMENTO PARCIAL. CONTAS MANTIDAS IRREGULARES, COM ALTERAÇÃO NO FUNDAMENTO PARA ART. 16, III, \"B\", DA LEI 8.443/1992. AFASTAMENTO DO DÉBITO. AJUSTE NO FUNDAMENTO DA MULTA PARA ART. 58, I, DA LEI 8.443/1992, COM REDUÇÃO DO VALOR. COMUNICAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2784512%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2780079",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "3092",
+      "anoAcordao": "2026",
+      "colegiado": "Plenário",
+      "dataSessao": "11/11/2026",
+      "relator": "MARCOS BEMQUERER",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 3092/2026 ATA 45/2026 - PLENÁRIO",
+      "sumario": "PRESTAÇÃO DE CONTAS DO SENAI/ES. EXERCÍCIO 2005. IRREGULARIDADE DAS CONTAS DO DIRETOR-REGIONAL. CONDENAÇÃO AO PAGAMENTO DO DÉBITO APURADO, EM SOLIDARIEDADE COM A FUNDAÇÃO UNIVERSITÁRIA DE PESQUISAS ECONÔMICAS E SOCIAIS (FUPES/VV) E OS MEMBROS DOS SEUS CONSELHOS CURADOR E DIRETOR. APLICAÇÃO DE MULTA AO DIRIGENTE DO SENAI/ES (ACÓRDÃO 1171/2011 - 1ª CÂMARA). NECESSIDADE DE REVISÃO DE OFÍCIO DA MENCIONADA DELIBERAÇÃO, PARA TORNAR INSUBSISTENTE A CONDENAÇÃO DOS AGENTES DA FUPES/VV AO PAGAMENTO DO DÉBITO, EM FACE DE DECISÃO DA JUSTIÇA FEDERAL CÍVEL DA SEÇÃO JUDICIÁRIA DO ESPÍRITO SANTO QUE CONSIDEROU ILEGAL A DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA DA FUPES/VV PROMOVIDA PELO TCU. MANTENÇA DOS DEMAIS DISPOSITIVOS DO ACÓRDÃO REVISANDO. LEVANTAMENTO DO SOBRESTAMENTO DESTES AUTOS E DO TC 018.906/2013-3. ARQUIVAMENTO.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780079%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    }
+  ]
 }

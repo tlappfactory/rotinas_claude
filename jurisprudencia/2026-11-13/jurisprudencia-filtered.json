@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-13T21:35:21Z",
+  "run_utc": "2026-11-13T22:26:30Z",
   "lookback_days": 7,
   "desde": "2026-11-06",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 50,
+      "itens_vistos": 51,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-06T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 25315,
-          "inicio": "[{\"id\":167832,\"date\":\"2026-11-13T17:15:55\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-sedia-encontro-de-cortes-supremas-na-proxima-segunda-feira-16\\/\",\"title\":{\"rendered\":\"STF sedia encontro de cortes supremas na pr\\u00f3xima segunda-feira (16)\"},\"excerpt\":{\"rendered\":\"<p>Evento inter"
+          "bytes": 25826,
+          "inicio": "[{\"id\":167835,\"date\":\"2026-11-13T18:54:34\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-invalida-lei-que-dispensava-pagamento-de-honorarios-a-procuradores-municipais\\/\",\"title\":{\"rendered\":\"STF invalida lei que dispensava pagamento de honor\\u00e1rios a procuradores municipais\\u00a0\"},\"e"
         },
         {
           "amostra_titulos": [
+            "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
             "STF sedia encontro de cortes supremas na próxima segunda-feira (16)",
             "STF invalida emenda sobre eleição de dirigentes de Tribunais de Justiça",
             "Distribuidores de energia questionam norma do DF para protesto de dívidas de serviços públ",
             "STF suspende prazos em razão de instabilidade nos serviços de provedor externo",
-            "Confira os destaques do Plenário Virtual desta semana",
-            "STF rejeita recursos contra decisão que homologou acordo dos planos econômicos"
+            "Confira os destaques do Plenário Virtual desta semana"
           ]
         }
       ]
