@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-13T15:04:01Z",
+  "run_utc": "2026-11-13T20:26:54Z",
   "lookback_days": 4,
   "desde": "2026-11-09",
   "ate": "2026-11-13",
@@ -31,7 +31,7 @@
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
           "http": 200,
           "content_type": "text/html;charset=ISO-8859-1",
-          "bytes": 13088,
+          "bytes": 13731,
           "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
         },
         {
