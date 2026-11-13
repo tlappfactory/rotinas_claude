@@ -1,0 +1,56 @@
+BOLETIM NORMATIVO DIÁRIO - SEGEST — 13 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo Diário - SEGEST.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* Resolução Administrativa nº 112, de 9/11/2026 — altera a Política de Backup do TRT-17 (Resolução CSJT nº 434/2026)
+  Ementa: Altera a norma interna de segurança da informação/backup: novas definições, plano de backup submetido ao Comitê de Segurança da Informação e de Proteção de Dados, guarda das evidências de testes de restauração por até 5 anos e atribuições de gestores. Matéria de TIC e segurança da informação; o texto pode tocar a gestão de riscos institucional. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): NUGERP, SEGEST-direção — ciência
+  Ação sugerida: Ler a íntegra e avaliar reflexo no mapeamento de riscos e controles.
+  Fonte: DEJT Caderno Administrativo do TRT-17 (publicação 13/11/2026) — https://diario.jt.jus.br/
+
+3. INFORMATIVO (arquivo)
+
+* Ato Conjunto CSJT.GP.GVP.GCGJT nº 58/2025 (republicação) — designa membros da Comissão Nacional de Promoção à Conciliação (Conaproc)
+  Ementa: Republicação do ato que designa os membros da Conaproc, prevista na política de tratamento adequado de disputas (Resolução CSJT nº 415/2025). [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SEGEST-direção — ciência
+  Fonte: DEJT Caderno Administrativo do CSJT (publicação 13/11/2026) — https://diario.jt.jus.br/
+
+* Ato PRESI SECOR nº 85/2026 (republicação) e Ato SECOR nº 97/2026
+  Ementa: O Ato nº 85/2026 republica, por erro material nas datas, a designação de juíza para o Grupo de Assessoramento da Comissão Interventora junto ao TRT da 16ª Região (26/10 a 30/11/2026). O Ato SECOR nº 97/2026 trata de normatização na Corregedoria Regional, sem tema da SEGEST identificado.
+  Unidade(s): SEGEST-direção — ciência
+  Fonte: DEJT Caderno Administrativo do TRT-17 (publicação 13/11/2026) — https://diario.jt.jus.br/
+
+* Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 620 a 634/2026 (lote de 15 atos)
+  Ementa: Atos de pessoal do TRT-17 (dispensa e designação de funções comissionadas, remoções e lotações), de competência da SGP; sem tema da SEGEST.
+  Unidade(s): SEGEST-direção — ciência
+  Fonte: DEJT Caderno Administrativo do TRT-17 (publicação 13/11/2026) — https://diario.jt.jus.br/
+
+* Notícia do CNJ — novo curso EAD “Governança e Gestão Estratégica da Auditoria” (inscrições abertas)
+  Ementa: Capacitação de 30 horas/aula para unidades de controle interno do Judiciário, voltada a governança e gestão estratégica da auditoria. [carece de leitura humana do texto integral]
+  Unidade(s): SEGEST, NUGERP
+  Fonte: Notícias do CNJ (13/11/2026) — https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* V Encontro Nacional dos Centros de Inteligência do Poder Judiciário (Foz do Iguaçu/PR)
+  Status: Notícia do CNJ de 06/11/2026 sobre o painel inaugural, com perspectivas para os centros de inteligência. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível interesse para inovação e inteligência estatística (DIEPE/SEGEST); sem efeito normativo identificado.
+  Fonte: Notícias do CNJ (06/11/2026) — https://www.cnj.jus.br/cnj-aponta-perspectivas-para-centros-de-inteligencia-em-encontro-no-parana/
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 1
+- Informativos: 4
+- Em Monitoramento: 1
+- Fontes consultadas: DOU Seções 1 e 2 de 13/11/2026: 29 atos selecionados pelo filtro e 22 atos individuais de pessoal descartados; nenhum com tema da SEGEST (a Portaria CNJ nº 541/2026 é cessão de servidor; a Portaria CGU nº 3.079/2026 é subdelegação para acordo de cooperação). DEJT Caderno Administrativo do TRT-17, publicação 13/11/2026: 33 atos, todos triados acima. DEJT CSJT, publicação 13/11/2026: 3 atos detectados, 1 pertinente. DEJT TST, publicação 13/11/2026: 3 atos detectados, nenhum pertinente à SEGEST. Acórdãos do TCU das sessões de 27/10 a 11/11/2026: 6 selecionados pelo filtro e descartados (tomadas de contas especiais sem relação com governança, planejamento, riscos ou estatística do Judiciário). DJe do CNJ nº 271/2026 (13/11/2026): sem trechos pertinentes. Notícias do CNJ: consultadas. STF e STJ: sem novidades nesta data.
+- Sem retorno relevante: DJEN (CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br. Notícias do CSJT e do TST: portais não consultados diretamente — conferência manual em csjt.jus.br e tst.jus.br.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo Diário - SEGEST (Claude AI) em 13/11/2026, 12h10 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
