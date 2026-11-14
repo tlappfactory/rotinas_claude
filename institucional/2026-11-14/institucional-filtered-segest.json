@@ -1,0 +1,210 @@
+{
+  "run_utc": "2026-11-14T18:43:26Z",
+  "lookback_days": 7,
+  "desde": "2026-11-07",
+  "fontes": {
+    "cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
+      "itens_vistos": 55,
+      "fora_da_janela": 0,
+      "selecionados": 1,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 43031,
+          "inicio": "[{\"id\":436162,\"date\":\"2026-11-14T10:00:20\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/politica-antimanicomial-e-tema-de-debate-entre-cnj-e-fiocruz\\/\",\"title\":{\"rendered\":\"Pol\\u00edtica Antimanicomial \\u00e9 tema de debate entre CNJ e Fiocruz\"},\"excerpt\":{\"rendered\":\"<p>Os caminhos para consolidar a Pol\\u00ed"
+        },
+        {
+          "amostra_titulos": [
+            "Política Antimanicomial é tema de debate entre CNJ e Fiocruz",
+            "Reconhecer papel do Judiciário na desigualdade racial é condição para superá-la, afirma Fa",
+            "Justiça Federal no Tocantins homologa mais de R$ 313 mil em acordos na 21ª Semana Nacional",
+            "Projeto do TJMA supera 64% de acordos e amplia acesso à Justiça em Peritoró e Codó",
+            "Justiça baiana promove práticas restaurativas durante o mutirão PopRuaJud em Vitória da Co",
+            "Gestores do Pacto pela Linguagem Simples definirão ações para 2027"
+          ]
+        }
+      ]
+    },
+    "csjt": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    },
+    "tst": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-07T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-13",
+      "url": "https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/",
+      "titulo": "Judiciário fortalece controle e transparência com novo curso sobre Gestão Estratégica da Auditoria",
+      "resumo": "Estão abertas as inscrições para o curso Governança e Gestão Estratégica da Auditoria. A capacitação, realizada no formato EAD assíncrono, tem o objetivo de impulsionar a atuação das unidades de controle interno do Poder Judiciário em todo o país. Com carga horária de 30 horas/aula, a formação é voltada para servidores e servidoras das unidades […]",
+      "temas": [
+        "governanca",
+        "planejamento_estrategico"
+      ],
+      "temas_fracos": [
+        "governanca_geral",
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 1
+}
