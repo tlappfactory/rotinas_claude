@@ -1,0 +1,56 @@
+BOLETIM NORMATIVO DIÁRIO - SEGEST — 16 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo Diário - SEGEST.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+Sem novidades pertinentes nesta data.
+
+3. INFORMATIVO (arquivo)
+
+* ATO CSJT.GP.SG.SETIC nº 54, de 19/05/2026 (republicação) — Portfólio de Produtos Digitais Nacionais da Justiça do Trabalho
+  Ementa: Define o Portfólio de Produtos Digitais Nacionais da Justiça do Trabalho; a caracterização de produto digital nacional depende de inclusão expressa no Anexo, após o processo de nacionalização. Republicação no caderno administrativo do CSJT de 13/11/2026.
+  Unidade(s): SEGEST-direção — ciência
+  Fonte: DEJT Caderno Administrativo CSJT, publicação 16/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf
+
+* Resolução CSJT nº 425, de 28/10/2025 — referenciada no caderno administrativo do CSJT
+  Ementa: Trecho do caderno trata de atualização do Portfólio de Produtos Digitais Nacionais; o ato exato que acompanha a referência deve ser verificado. [verificar nº na fonte] [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SEGEST-direção — ciência
+  Fonte: DEJT Caderno Administrativo CSJT, publicação 16/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf
+
+* DEJT Caderno Administrativo do TRT-17 — atos da edição (lote consolidado)
+  Ementa: Atos publicados no caderno do TRT-17, sem tema específico da SEGEST; registrados para ciência. A Portaria PRESI/SEGEP nº 14/2026 (designação de responsáveis pela Conformidade dos Registros de Gestão e Contábil no SIAFI) tem natureza de controle interno.
+  Unidade(s): SEGEST-direção — ciência
+    - Portaria PRESI/SEGEP nº 14/2026 — designa responsáveis (e substitutos) pela Conformidade dos Registros de Gestão e pela Conformidade Contábil no SIAFI.
+    - Ato PRESI SECOR nº 86/2026 — designação de magistrado em razão de licença médica de titular de Vara do Trabalho.
+    - Ato SECOR nº 98/2026 — ato da Secretaria da Corregedoria Regional [carece de leitura humana do texto integral — conferir no DEJT].
+    - Edital de Cientificação COGEPAC nº 1/2026 — cientifica a instauração do Incidente de Assunção de Competência (IAC 6) no TRT-17.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação 16/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* CNJ — curso "Governança e Gestão Estratégica da Auditoria" (inscrições abertas, EAD, 30h)
+  Status: Notícia institucional do CNJ de 13/11/2026; capacitação voltada às unidades de controle interno do Judiciário.
+  Possível reflexo: Possível interesse para SEGEST/NUGERP (governança, riscos, capacitação). [carece de leitura humana do texto integral]
+  Fonte: Portal do CNJ, 13/11/2026 — https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/
+
+* DJe do CNJ nº 273/2026 (16/11/2026) — ato com diretrizes sobre atuação do Judiciário na ampliação de vagas educacionais
+  Status: Trecho do ato menciona indicadores de acompanhamento, transparência e acessibilidade; número e natureza do ato não identificados no trecho. [verificar nº na fonte]
+  Possível reflexo: Pertinência à SEGEST (indicadores/acessibilidade) incerta. [carece de leitura humana do texto integral]
+  Fonte: DJe CNJ nº 273/2026 — https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 0
+- Informativos: 3
+- Em Monitoramento: 2
+- Fontes consultadas: DOU Seções 1, 2 e edições extras de 16/11/2026: 87 atos selecionados pelo filtro temático, nenhum com impacto direto na SEGEST (11 atos individuais de pessoal descartados); entre os selecionados, apenas atos de outros órgãos (emendas parlamentares, defesa civil, portarias de pessoal e de TRT-14) sem pertinência. DEJT TRT-17 (4 atos, todos listados), DEJT CSJT (2 atos) e DEJT TST (4 atos detectados, nenhum pertinente à SEGEST) — publicação 16/11/2026. DJe do CNJ nº 273/2026. Notícias do CNJ. STF e STJ: sem novidades de precedente vinculante pertinente à SEGEST nesta data.
+- Sem retorno relevante: Acórdãos do TCU: edição não consultada pela rotina automatizada na janela 02/11 a 16/11/2026 — conferência manual. DJEN (acórdãos do CSJT): não consultado — conferência manual em comunica.pje.jus.br. Portais do CSJT e do TST (notícias): não consultados diretamente; busca indexada sem novidades datadas dos últimos 7 dias nesta data.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo Diário - SEGEST (Claude AI) em 16/11/2026, 11h50 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
