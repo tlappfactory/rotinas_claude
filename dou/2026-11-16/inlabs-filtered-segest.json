@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
   "total_xml_files": 1276,
-  "matched_articles": 87,
+  "matched_articles": 78,
   "discarded_individual_acts": {
-    "total": 11,
+    "total": 10,
     "by_section": {
-      "DO2": 11
+      "DO2": 10
     }
   },
   "parse_errors": [],
@@ -1362,33 +1362,6 @@
       "xml_file": "DO2_0655.xml"
     },
     {
-      "id": "portaria-n-3.493-de-12-de-novembro-de-2026-744417818",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.493, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.493, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Serra Preta/BA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Serra Preta/BA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040785/2026-38, no valor de R$ 319.032,00 (trezentos e dezenove mil, trinta e dois reais). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "284",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.493-de-12-de-novembro-de-2026-744417818",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0397.xml"
-    },
-    {
       "id": "portaria-n-3.907-de-10-de-novembro-de-2026-744403949",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -1414,33 +1387,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0050.xml"
-    },
-    {
-      "id": "portaria-n-3.909-de-10-de-novembro-de-2026-744420770",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.909, DE 10 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.909, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Boca do Acre/AM, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Boca do Acre/AM para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040740/2026-63, no valor de R$ 486.610,97 (quatrocentos e oitenta e seis mil seiscentos e dez reais e noventa e sete centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 90 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "283",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.909-de-10-de-novembro-de-2026-744420770",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0070.xml"
     },
     {
       "id": "portaria-n-3.911-de-10-de-novembro-de-2026-744428439",
@@ -1495,60 +1441,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0268.xml"
-    },
-    {
-      "id": "portaria-n-3.915-de-10-de-novembro-de-2026-744425971",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.915, DE 10 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.915, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Bonito/PA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Bonito/PA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040755/2026-21, no valor de R$ 421.701,40 (quatrocentos e vinte e um mil setecentos e um reais e quarenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "283",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.915-de-10-de-novembro-de-2026-744425971",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0081.xml"
-    },
-    {
-      "id": "portaria-n-3.916-de-10-de-novembro-de-2026-744402814",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.916, DE 10 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.916, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Uruará/PA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Uruará/PA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040726/2026-60, no valor de R$ 733.062,13 (setecentos e trinta e três mil sessenta e dois reais e treze centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 90 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "283",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.916-de-10-de-novembro-de-2026-744402814",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0260.xml"
     },
     {
       "id": "portaria-n-3.918-de-10-de-novembro-de-2026-744416159",
@@ -1983,33 +1875,6 @@
       "xml_file": "DO1_0061.xml"
     },
     {
-      "id": "portaria-n-3.959-de-12-de-novembro-de-2026-744441947",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.959, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.959, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Capela do Alto Alegre/BA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Capela do Alto Alegre/BA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040769/2026-45, no valor de R$ 127.612,80 (cento e vinte e sete mil seiscentos e doze reais e oitenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "286",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.959-de-12-de-novembro-de-2026-744441947",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0540.xml"
-    },
-    {
       "id": "portaria-n-3.960-de-12-de-novembro-de-2026-744447924",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2035,33 +1900,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0320.xml"
-    },
-    {
-      "id": "portaria-n-3.962-de-12-de-novembro-de-2026-744440361",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.962, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.962, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Santa Maria/RS, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Santa Maria/RS para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040763/2026-78, no valor de R$ 300.002,50 (trezentos mil dois reais e cinquenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "287",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.962-de-12-de-novembro-de-2026-744440361",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0039.xml"
     },
     {
       "id": "portaria-n-3.963-de-12-de-novembro-de-2026-744402653",
@@ -2334,60 +2172,6 @@
       "xml_file": "DO1_0413.xml"
     },
     {
-      "id": "portaria-n-3.974-de-12-de-novembro-de-2026-744440203",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.974, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.974, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Berilo/MG, para execução de ações de Proteção e Defesa Civi. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Berilo/MG para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040638/2026-68, no valor de R$ 372.795,60 (trezentos e setenta e dois mil setecentos e noventa e cinco reais e sessenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 365 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "289",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.974-de-12-de-novembro-de-2026-744440203",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0038.xml"
-    },
-    {
-      "id": "portaria-n-3.975-de-12-de-novembro-de-2026-744434386",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.975, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.975, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Guarinos/GO, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Guarinos/GO para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040817/2026-03, no valor de R$ 135.540,00 (cento e trinta e cinco mil, quinhentos e quarenta reais). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "289",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.975-de-12-de-novembro-de-2026-744434386",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0231.xml"
-    },
-    {
       "id": "portaria-n-3.976-de-12-de-novembro-de-2026-744447845",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2496,33 +2280,6 @@
       "xml_file": "DO1_0040.xml"
     },
     {
-      "id": "portaria-n-3.994-de-13-de-novembro-de-2026-744404821",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.994, DE 13 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.994, DE 13 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Monte Sião/MG, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Monte Sião/MG para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040598/2026-54, no valor de R$ 674.952,12 (seiscentos e setenta e quatro mil, novecentos e cinquenta e dois reais e doze centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 365 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "290",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.994-de-13-de-novembro-de-2026-744404821",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0180.xml"
-    },
-    {
       "id": "portaria-n-4.000-de-13-de-novembro-de-2026-744418625",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2586,8 +2343,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1273,
+    "atos_com_texto_integral": 1185,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-16T22:50:35Z"
+    "coletado_em": "2026-11-16T23:07:39Z"
   }
 }
