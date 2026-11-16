@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
   "total_xml_files": 1276,
-  "matched_articles": 113,
+  "matched_articles": 114,
   "discarded_individual_acts": {
-    "total": 66,
+    "total": 67,
     "by_section": {
-      "DO2": 66
+      "DO2": 67
     }
   },
   "parse_errors": [],
@@ -536,8 +536,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.708, DE 12 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 201...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.708, DE 12 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo 14021.056597/2026-51, resolve: Art. 1º Transferir a reparação econômica, de caráter indenizatório, em prestação mensal, permanente e continuada, à MAUZÍLIA MENDES ZANINI DA SILVA, na condição de cônjuge, do(a) anistiado(a) político(a) post mortem, ISAIAS ZANINI DA SILVA, com fundamento no art. 13 da Lei nº 10.559, de 2.002, combinado com os arts. 217, inciso I e 222, VII, alínea \"b\", item 6 da Lei nº 8.112 de 1.990, com vigência a contar de 22 de julho de 2026, data da publicação da PORTARIA MDHC Nº 1.537, DE 17 DE JULHO DE 2026. Art. 2º Esta Portaria entra em vigor na data da sua publicação. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "40",
@@ -1066,6 +1066,35 @@
       ],
       "score": 11,
       "xml_file": "DO1_0232.xml"
+    },
+    {
+      "id": "ato-n-730-de-11-de-novembro-de-2026-744443736",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Ato",
+      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "identifica": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026",
+      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, considerando o constante da Proposta nº 4312 do Sistema de Gestão de Pessoas - Sigep TST, de 11/11/2026, resolve: 1 - Dispensar, a pedido, o servidor MARCIO BARBOSA PIMENTEL, código 60448, Técnico Judiciário, Área Administrativa, da função comissionada de Assistente 4, Nível FC-4, da Secretaria da 8ª Turma. 2 - Designar a servidora LILIA KAROLINE BARBOSA DE MACEDO, código 57504, Técnica Judiciária, Área Administrativa, para exercer a função comissionada de Assistente 4, Nível FC-4, da Secretaria da 8ª Turma. GUSTAVO CARIBÉ DE CARVALHO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "63",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/ato-n-730-de-11-de-novembro-de-2026-744443736",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "tribunal superior do trabalho"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0172.xml"
     },
     {
       "id": "ato-n-731-de-11-de-novembro-de-2026-744461120",
@@ -1664,33 +1693,6 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "DO1_0358.xml"
-    },
-    {
-      "id": "ato-n-730-de-11-de-novembro-de-2026-744443736",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Ato",
-      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "identifica": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, considerando o constante da Proposta nº 4312 do Sistema de Gestão de Pessoas - Sigep TST, de 11/11/2026, resolve: 1 - Dispensar, a pedido, o servidor MARCIO BARBOSA PIMENTEL, código 60448, Técnico Judiciário, Área Administrativa, da função comiss...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "63",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/ato-n-730-de-11-de-novembro-de-2026-744443736",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "tribunal superior do trabalho"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0172.xml"
     },
     {
       "id": "despacho-744499278",
@@ -2622,6 +2624,33 @@
       "xml_file": "DO2_0131.xml"
     },
     {
+      "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Edital de Notificação",
+      "art_category": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "identifica": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026 O MINISTÉRIO DA AGRICULTURA E PECUÁRIA, POR MEIO DA SUBSECRETARIA DE GESTÃO DE PESSOAS E DE GESTÃO DO CONHECIMENTO, notifica o Sr. CLARIVAL CARDOSO DE CAMPOS - CPF xxx.840.261-xx, depois de esgotada a tentativa de lhe dar ciência por meio de e-mail e remessa postal, tendo em vista estar em local incerto e não sabido para envio de correspondência, quanto à notificação de reposição ao Erário em decorrência de recebimento indevido de valores correspondentes a aposentadoria voluntária, com proventos integrais, ocupante do cargo de Datilógrafo, Classe S, Padrão III, do Quadro de Pessoal deste Ministério, com fundamento no art. 3º da Emenda Constitucional nº 47, de 2005, acrescido da vantagem prevista no artigo 62-A, da Lei nº 8.112/90, combinado com o art. 3º da Emenda Constitucional nº 103, de 2019, ocorrido por meio da Portaria nº 139, de 11 de maio de 2022, com efeitos a partir de 20 de maio de 2022. O prazo legal para interposição de recurso administrativo é de 10 (dez) dias contados desta notificação, por meio do e-mail (copag@agro.gov.br). O processo relativo ao assunto está cadastrado no Sistema Eletrônico de Informações - SEI - sob o número 21000.049067/2024-06. Para fins de acesso ao processo, deverá ser encaminhada solicitação ao e-mail (copag@agro.gov.br). SARA MARTINS Subsecretária de Gestão de Pessoas e de Gestão do Conhecimento",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "72",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0199.xml"
+    },
+    {
       "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744469523",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2713,8 +2742,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 2/DDP/PROGEP/UFES, DE 13 DE NOVEMBRO DE 2026 Por meio deste edital, notifica-se o aposentado JOSÉ MAURICIO GUERRA, CPF nº XXX.093.XXX-XX, para comparecer à Diretoria de Desenvolvimento de Pessoas/Progep/Ufes, situada na Avenida Fernando Ferrari, nº 514, no antigo prédio do Núcleo de Treinamento de Servidores (NTS), Vitória/ES, CEP 29075-910, ou estabelecer contato pelo end...",
-      "texto_truncated": true,
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 2/DDP/PROGEP/UFES, DE 13 DE NOVEMBRO DE 2026 Por meio deste edital, notifica-se o aposentado JOSÉ MAURICIO GUERRA, CPF nº XXX.093.XXX-XX, para comparecer à Diretoria de Desenvolvimento de Pessoas/Progep/Ufes, situada na Avenida Fernando Ferrari, nº 514, no antigo prédio do Núcleo de Treinamento de Servidores (NTS), Vitória/ES, CEP 29075-910, ou estabelecer contato pelo endereço eletrônico apoio.ddp.progep@ufes.br, no prazo de dez dias consecutivos. O comparecimento ou contato destina-se à tomada de ciência do Ofício 30/2026/DDP/PROGEP/UFES, relativo ao Processo Digital 23068.030057/2026-00. A notificação por edital decorre do insucesso da tentativa anterior de envio do ofício por correspondência, considerando-se, por isso, que o ex-servidor se encontra em local incerto e não sabido. DANIELE JANNOTTI SOARES VILLENA Diretora",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "73",
@@ -2919,33 +2948,6 @@
       "xml_file": "DO2_0090.xml"
     },
     {
-      "id": "portaria-n-386/svpm-de-12-de-novembro-de-2026-744502920",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Defesa/Comando da Marinha/Diretoria-Geral do Pessoal da Marinha/Diretoria do Pessoal da Marinha/Serviço de Veteranos e Pensionista da Marinha",
-      "identifica": "PORTARIA Nº 386/SVPM, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Defesa/Comando da Marinha/Diretoria-Geral do Pessoal da Marinha/Diretoria do Pessoal da Marinha/Serviço de Veteranos e Pensionista da Marinha",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 386/SVPM, DE 12 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por invalidez definitiva, nos termos do art. 104; art. 106, inciso II; art. 108, inciso V; e art. 110, §...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "9",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-386/svpm-de-12-de-novembro-de-2026-744502920",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0571.xml"
-    },
-    {
       "id": "portaria-n-387/svpm-de-12-de-novembro-de-2026-744473097",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2983,8 +2985,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 389/SVPM, DE 13 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por incapacidade definitiva, os militares abaixo relacionados, nos termos do art. 104, inciso II; art. 1...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 389/SVPM, DE 13 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por incapacidade definitiva, os militares abaixo relacionados, nos termos do art. 104, inciso II; art. 106, inciso II; art. 108, inciso V; da Lei nº 6.880, de 9 de dezembro de 1980, com a remuneração que já percebem,em conformidade com o § 2º do art. 108 da Lei nº 6.880, de 9 de dezembro de 1980, em consonância com a jurisprudência do Tribunal de Contas da União, consubstanciada no Acórdão nº 1043/2021 - Plenário, com efeitos financeiros a partir das referidas datas: I) SO-RM1-AV 86.1908.22 FRANCISCO MOTA DA SILVA, a partir de 29/09/2026 em consonância com o laudo exarado no Termo de Inspeção de Saúde nº 026.000.52470, da JRS/EAMCE, homologado, em 29/09/2026, pela JSD/Com3ºDN; e II) SO-RM1-AR 86.4139.11 MARCELO DE FREITAS MARTINS, a partir de 29/09/2026 em consonância com o laudo exarado no Termo de Inspeção de Saúde nº 026.000.51086, da JRS/HNRe, homologado, em 29/09/2026, pela JSD/Com3ºDN. Art. 2º Esta Portaria entra em vigor na presente data. CMG. (IM) ROBSON APARECIDO CAMPOS DE LIMA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "10",
@@ -3025,6 +3027,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO2_0649.xml"
+    },
+    {
+      "id": "portaria-n-4.738/srda/gab/rtr-de-13-de-novembro-de-2026-744472099",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "identifica": "PORTARIA Nº 4.738/SRDA/GAB/RTR, DE 13 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 4.738/SRDA/GAB/RTR, DE 13 DE NOVEMBRO DE 2026 O REITOR DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO, no uso de suas atribuições legais, conferidas pelo Decreto Presidencial de 17/04/2025, publicado no D.O.U de nº 74-A, de 17/04/2025, seção 2, Extra A - página 1, considerando o que consta no Processo nº 23188.004519.2026-69, resolve: Art. 1º Declarar Vago o cargo de Técnico de Laboratorio Area, Nível de Classificação/Capacitação/Padrão de Vencimento D003, Código de Vaga nº 0833406, do quadro de pessoal desta Instituição, anteriormente ocupado pela servidora HELLEN TAMARA SANTANA SILVA, SIAPE nº 3370114, em decorrência de posse em outro cargo inacumulável, de acordo com art. 33, inciso VIII, da Lei nº 8.112, de 11 de dezembro de 1990, a pedido, a partir de 13 de novembro de 2026. Art. 2º Considerando que a servidora adquiriu a estabilidade prevista no art. 21 da Lei nº 8.112/1990, a presente declaração de vacância gera direito à recondução estabelecida no art. 29 da mesma Lei. JULIO CESAR DOS SANTOS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "18",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-4.738/srda/gab/rtr-de-13-de-novembro-de-2026-744472099",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0687.xml"
     },
     {
       "id": "portaria-n-4.933-de-5-de-novembro-de-2026-744467413",
@@ -3279,8 +3308,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1243,
+    "atos_com_texto_integral": 1273,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-16T14:48:53Z"
+    "coletado_em": "2026-11-16T22:50:35Z"
   }
 }

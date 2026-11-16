@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-16T14:49:41Z",
+  "run_utc": "2026-11-16T22:51:30Z",
   "lookback_days": 7,
   "desde": "2026-11-09",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 42,
+      "itens_vistos": 46,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-09T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 21547,
-          "inicio": "[{\"id\":167838,\"date\":\"2026-11-16T10:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/em-uma-decada-stf-reduz-pela-metade-estoque-de-acoes-constitucionais\\/\",\"title\":{\"rendered\":\"Em uma d\\u00e9cada, STF reduz pela metade estoque de a\\u00e7\\u00f5es constitucionais\\u00a0\"},\"excerpt\":{\"rende"
+          "bytes": 23668,
+          "inicio": "[{\"id\":167909,\"date\":\"2026-11-16T19:37:51\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/cni-aciona-stf-contra-suspensao-de-registros-de-agrotoxicos-e-farmaceuticos-pela-justica-do-trabalho\\/\",\"title\":{\"rendered\":\"CNI aciona STF contra suspens\\u00e3o de registros de agrot\\u00f3xicos e farmac"
         },
         {
           "amostra_titulos": [
+            "CNI aciona STF contra suspensão de registros de agrotóxicos e farmacêuticos pela Justiça d",
+            "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais",
+            "STF inaugura escultura Oxê de Xangô, símbolo da Justiça na tradição iorubá",
+            "Presidente do STF propõe aliança entre tribunais do Mercosul em defesa da democracia",
             "Em uma década, STF reduz pela metade estoque de ações constitucionais",
-            "Supremo na Semana comenta fim da isenção de pena em crimes patrimoniais contra familiar",
-            "Reconhecer papel do Judiciário na desigualdade racial é condição para superá-la, afirma Fa",
-            "STF vai ao território do povo Kumaruara para ouvir lideranças indígenas no Pará",
-            "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
-            "STF sedia encontro de cortes supremas na próxima segunda-feira (16)"
+            "Supremo na Semana comenta fim da isenção de pena em crimes patrimoniais contra familiar"
           ]
         }
       ]
@@ -32,8 +32,8 @@
     "stj": {
       "status": "ok",
       "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
-      "itens_vistos": 0,
-      "fora_da_janela": 0,
+      "itens_vistos": 7,
+      "fora_da_janela": 6,
       "selecionados": 0,
       "probe": [
         {
@@ -48,7 +48,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2606076,
+          "bytes": 2615645,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {
@@ -76,20 +76,20 @@
             "numeroRepercussaoGeralSTF",
             "descricaoRepercussaoGeral"
           ],
-          "linhas": 2410,
+          "linhas": 2416,
           "amostra": [
             {
-              "sequencialPrecedente": "4781",
+              "sequencialPrecedente": "4350",
               "tipoPrecedente": "",
-              "numeroPrecedente": "1475",
-              "dataPrimeiraAfetacao": "2026-10-15",
-              "dataJulgamento": "",
-              "dataPublicacaoAcordao": "",
-              "situacao": "Relevância reconhecida",
-              "informacoesComplementares": "Há determinação de suspensão, em âmbito nacional, dos processos pendentes que ve",
-              "questaoSubmetidaAJulgamento": "Definir se a periculosidade decorrente da exposição ao agente físico eletricidad",
-              "teseFirmada": "",
-              "anotacoesNUGEPNAC": "ProRQF 1/STJ. Vide Tema 1.307/STJ.Vide Tema 1.031/STJ.Vide Tema 852/STF.Vide Tem",
+              "numeroPrecedente": "1270",
+              "dataPrimeiraAfetacao": "2024-07-03",
+              "dataJulgamento": "2026-10-08",
+              "dataPublicacaoAcordao": "2026-10-23",
+              "situacao": "Acórdão Publicado",
+              "informacoesComplementares": "Não aplicação do disposto na parte final do § 1º do art. 1.036 do Código de Proc",
+              "questaoSubmetidaAJulgamento": "Discute-se se a  possibilidade de remição da pena por estudo, diante da aprovaçã",
+              "teseFirmada": "1) É cabível a remição proporcional da pena em favor da pessoa privada de liberd",
+              "anotacoesNUGEPNAC": "Dados parcialmente recuperados via sistema Accordes.Afetação na sessão eletrônic",
               "delimitacaoJulgado": "",
               "entendimentoAnterior": "",
               "referenciaLegislativa": "",
@@ -97,10 +97,10 @@
               "sumulaOriginada": "",
               "audienciaPublica": "N",
               "dataAudienciaPublica": "",
-              "orgaoJulgador": "S1",
-              "Assuntos": "6100- Aposentadoria Especial (Art. 57/8)",
-              "numeroRepercussaoGeralSTF": "852",
-              "descricaoRepercussaoGeral": "Avaliação judicial de critérios para a caracterização de trabalho especial, para"
+              "orgaoJulgador": "S3",
+              "Assuntos": "7791- Pena Privativa de Liberdade",
+              "numeroRepercussaoGeralSTF": "",
+              "descricaoRepercussaoGeral": ""
             },
             {
               "sequencialPrecedente": "4781",
@@ -113,7 +113,7 @@
               "informacoesComplementares": "Há determinação de suspensão, em âmbito nacional, dos processos pendentes que ve",
               "questaoSubmetidaAJulgamento": "Definir se a periculosidade decorrente da exposição ao agente físico eletricidad",
               "teseFirmada": "",
-              "anotacoesNUGEPNAC": "ProRQF 1/STJ. Vide Tema 1.307/STJ.Vide Tema 1.031/STJ.Vide Tema 852/STF.Vide Tem",
+              "anotacoesNUGEPNAC": "Vide Tema 159/TNU.Afetação na sessão eletrônica iniciada em 30/09/2026 e finaliz",
               "delimitacaoJulgado": "",
               "entendimentoAnterior": "",
               "referenciaLegislativa": "",
@@ -123,8 +123,8 @@
               "dataAudienciaPublica": "",
               "orgaoJulgador": "S1",
               "Assuntos": "6100- Aposentadoria Especial (Art. 57/8)",
-              "numeroRepercussaoGeralSTF": "1209",
-              "descricaoRepercussaoGeral": "Reconhecimento da atividade de vigilante como especial, com fundamento na exposi"
+              "numeroRepercussaoGeralSTF": "852",
+              "descricaoRepercussaoGeral": "Avaliação judicial de critérios para a caracterização de trabalho especial, para"
             }
           ]
         },
@@ -247,34 +247,34 @@
         {
           "mais_recentes": [
             {
-              "data": "2026-10-23",
+              "data": "2026-11-11",
               "tipo": "Tema",
-              "numero": "50",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-10-23",
-              "tipo": "Tema",
-              "numero": "51",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-10-23",
-              "tipo": "Tema",
-              "numero": "1211",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-10-23",
-              "tipo": "Tema",
-              "numero": "1270",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-10-21",
-              "tipo": "Tema",
-              "numero": "1285",
+              "numero": "1469",
               "situacao": "Mérito Julgado"
+            },
+            {
+              "data": "2026-11-05",
+              "tipo": "",
+              "numero": "1485",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-04",
+              "tipo": "Tema",
+              "numero": "1180",
+              "situacao": "Mérito Julgado"
+            },
+            {
+              "data": "2026-11-03",
+              "tipo": "",
+              "numero": "1484",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-03",
+              "tipo": "Tema",
+              "numero": "929",
+              "situacao": "Acórdão Publicado"
             }
           ]
         }

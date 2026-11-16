@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-16T14:49:47Z",
+  "run_utc": "2026-11-16T22:51:39Z",
   "lookback_days": 7,
   "desde": "2026-11-09",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 57,
+      "itens_vistos": 62,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-09T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 44545,
-          "inicio": "[{\"id\":436181,\"date\":\"2026-11-16T09:46:52\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/capacitacao-em-seguranca-cibernetica-reune-700-profissionais-da-justica\\/\",\"title\":{\"rendered\":\"Capacita\\u00e7\\u00e3o em seguran\\u00e7a cibern\\u00e9tica re\\u00fane 700 profissionais da Justi\\u00e7a\"},\"excerpt\":{\"rendered\":\""
+          "bytes": 48461,
+          "inicio": "[{\"id\":436326,\"date\":\"2026-11-16T18:05:50\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/rede-de-assessores-parlamentares-do-pju-mpu-e-dpu-se-reune-no-cnj-para-alinhar-atuacao-no-congresso\\/\",\"title\":{\"rendered\":\"Rede de assessores parlamentares do PJU, do MPU e da DPU se re\\u00fane no CNJ para alinhar atua\\u00"
         },
         {
           "amostra_titulos": [
-            "Capacitação em segurança cibernética reúne 700 profissionais da Justiça",
-            "CNJ supera marca de 10% de estagiários com deficiência e promove igualdade de oportunidade",
-            "Política Antimanicomial é tema de debate entre CNJ e Fiocruz",
-            "Reconhecer papel do Judiciário na desigualdade racial é condição para superá-la, afirma Fa",
-            "Justiça Federal no Tocantins homologa mais de R$ 313 mil em acordos na 21ª Semana Nacional",
-            "Projeto do TJMA supera 64% de acordos e amplia acesso à Justiça em Peritoró e Codó"
+            "Rede de assessores parlamentares do PJU, do MPU e da DPU se reúne no CNJ para alinhar atua",
+            "Saúde mental foi prioridade para 16 dos 27 grupos de fiscalização do socioeducativo em 202",
+            "CNJ pauta precatórios e revisões disciplinares em sessão extraordinária",
+            "Produção de alimentos une trabalho e segurança nas prisões",
+            "Grupos de responsabilização de homens autores de violência terão de seguir regras nacionai",
+            "Capacitação em segurança cibernética reúne 700 profissionais da Justiça"
           ]
         }
       ]
