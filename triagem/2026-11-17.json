@@ -1,0 +1,153 @@
+{
+ "data": "2026-11-17",
+ "timestamp": "17/11/2026, 11h50 (Brasília)",
+ "alto": [
+  {
+   "titulo": "ATO TRT 17ª PRESI nº 94/2026 — CNH e pagamento da GAS (Polícia Judicial)",
+   "ementa": "Dispõe, no âmbito do TRT-17, sobre os procedimentos para acompanhamento da regularidade da CNH e para suspensão e restabelecimento do pagamento da Gratificação de Atividade de Segurança (GAS) a Inspetores e Agentes da Polícia Judicial com CNH irregular. Fundamenta-se na Resolução CSJT nº 443/2026 e condiciona o pagamento da GAS à plena vigência e regularidade da CNH.",
+   "unidades": "DIPROF, COREP, SELEP, SGP-direção",
+   "acao": "Criar rotina de conferência da CNH e de suspensão/restabelecimento da GAS na folha.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (disponibilizado em 16/11/2026)"
+  }
+ ],
+ "medio": [
+  {
+   "titulo": "TCU, Acórdão 5840/2026 (1ª Câmara, sessão de 10/11/2026) — ATS/VPNI e subsídio de magistrada",
+   "ementa": "Pedido de reexame em aposentadoria de magistrada. A ementa menciona decisão superveniente do STF nos embargos na ADI 6.604/PB e no Tema 966 da repercussão geral e a possibilidade de percepção simultânea da VPNI/ATS com a parcela de valorização por tempo de antiguidade na carreira. [carece de leitura humana do texto integral]",
+   "unidades": "SESES, SELEP, DIPROF",
+   "acao": "Ler o acórdão e avaliar reflexo nos casos de ATS/VPNI com subsídio.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781280%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5840/2026"
+  },
+  {
+   "titulo": "TCU, Acórdão 5832/2026 (1ª Câmara, 10/11/2026) — acumulação de professor com Técnico Judiciário e EC 138/2025",
+   "ementa": "Em pedido de reexame, a ementa registra a edição da EC 138/2025, que alterou o art. 37, XVI, \"b\", da CF, como fato novo que superou o óbice que fundamentou o cancelamento do registro; houve conhecimento e provimento. [carece de leitura humana do texto integral]",
+   "unidades": "SESES, SELEP",
+   "acao": "Ler o acórdão e conferir reflexo nos pareceres de acumulação de cargos.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783922%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5832/2026"
+  },
+  {
+   "titulo": "TCU, Acórdão 5406/2026 (2ª Câmara, 10/11/2026) — aposentadoria no TRT-14, quintos de 8/4/1998 a 4/9/2001",
+   "ementa": "Aposentadoria de servidor do TRT-14. A ementa trata de quintos de funções comissionadas entre 8/4/1998 e 4/9/2001, modulação do RE 638.115/CE, decisão judicial transitada em julgado e provimento parcial do pedido de reexame. [carece de leitura humana do texto integral]",
+   "unidades": "SELEP, SESES",
+   "acao": "Ciência; conferir aplicação da modulação do RE 638.115 a casos locais.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2784543%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5406/2026"
+  },
+  {
+   "titulo": "TRT-17, Edital nº 2/2026 — resultado preliminar da remoção interna de Oficiais de Justiça",
+   "ementa": "Divulga o resultado preliminar do 1º Processo Seletivo de Remoção Interna de Oficiais de Justiça/2026 para um claro de lotação no Fórum Trabalhista de Cachoeiro de Itapemirim. Fundamenta-se no art. 36, parágrafo único, III, \"c\", da Lei 8.112/90.",
+   "unidades": "SELIR, SELEP, CODOP",
+   "acao": "Acompanhar prazo de recurso e a lotação do servidor selecionado.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "TRT-17, Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 635/2026 e 637/2026 — nomeações tornadas sem efeito (Analista Judiciário)",
+   "ementa": "Tornam sem efeito as nomeações de duas candidatas para Analista Judiciário, Classe A, Padrão 1, feitas pelas Portarias nº 548/2026 e nº 553/2026. As portarias nº 636 e nº 639 nomeiam candidatos subsequentes na ordem classificatória (ver bloco informativo).",
+   "unidades": "CODOP, SELIR",
+   "acao": "Conferir convocação dos subsequentes e atualização da lista de classificação.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-17, Recomendação SEGEP/PRESI nº 01/2026 — processos estruturais",
+   "ementa": "Estabelece diretrizes para a identificação e condução de processos estruturais no âmbito do TRT-17. Matéria de natureza judicial/administrativa, sem reflexo direto em gestão de pessoas.",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "TRT-17, Portarias PRESI/DIGER/SGP/CODOP/SELIR nº 636/2026 e 639/2026 — nomeações de Analista Judiciário",
+   "ementa": "Nomeiam candidatos aprovados para Analista Judiciário, Área Judiciária, sem especialidade, Classe A, Padrão 1, respeitada a ordem classificatória. Portarias do mesmo lote de nomeações/anulações (ver bloco de médio impacto).",
+   "unidades": "CODOP, SELIR",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "TRT-17 — Portarias de 13/11/2026 também publicadas no DOU Seção 2 (nomeações tornadas sem efeito)",
+   "ementa": "A Desembargadora-Presidente do TRT-17 tornou sem efeito nomeações de candidatos para Analista Judiciário (portaria nº 635 e correlatas), com publicação paralela no DOU.",
+   "unidades": "CODOP, SELIR",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=17-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 60"
+  },
+  {
+   "titulo": "CSJT — Ato Conjunto TST.CSJT.GP nº 68, de 13/11/2026",
+   "ementa": "Ato do caderno administrativo do CSJT sem casamento com o vocabulário temático da SGP; conteúdo a conferir. [carece de leitura humana do texto integral]",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_CSJT.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo CSJT"
+  },
+  {
+   "titulo": "TST — Ato TST.GP nº 688 e Atos GDGSET.GP nº 689 e 690, de 13/11/2026",
+   "ementa": "Três atos do caderno administrativo do TST, sem pertinência direta identificada com o filtro temático da SGP. [carece de leitura humana do texto integral]",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_TST.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TST"
+  },
+  {
+   "titulo": "TST, Ato nº 735/2026 — designação de servidor para FC-3 na Coordenadoria de Preparação de Pagamento de Pessoal",
+   "ementa": "Designa servidor, Analista Judiciário, para função comissionada de Assistente 3 (FC-3). Ato individual de outro tribunal, para consulta.",
+   "unidades": "SELEP",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=17-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 55"
+  },
+  {
+   "titulo": "CNJ — Resolução sobre cessão de créditos de precatórios (DJe CNJ nº 274/2026)",
+   "ementa": "Dispõe sobre a cessão de créditos de precatórios e ônus e garantias sobre eles, institui a Central Nacional de Cessões de Créditos de Precatórios e revoga os arts. 42 a 45 da Resolução CNJ nº 303/2019. Matéria de precatórios, sem relação direta com gestão de pessoas. [verificar nº na fonte]",
+   "unidades": "SGP-direção — ciência",
+   "fonte_url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+   "fonte_titulo": "DJe CNJ nº 274/2026"
+  },
+  {
+   "titulo": "Receita Federal — Solução de Consulta nº 224/2026 (IRRF, vacinação por ambulatório)",
+   "ementa": "Entende não sujeitas à retenção de IRRF do art. 714 do Decreto 9.580/2018 as importâncias de serviços de vacinação em ambulatório prestados a pessoas jurídicas de direito privado. Aplicação à folha de pessoal improvável.",
+   "unidades": "DIPROF",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=17-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 42"
+  },
+  {
+   "titulo": "INSS/RPPU — Portaria DCOMB-RPPU/INSS nº 883/2026; MGI, Portaria DGP/MGI nº 13.778/2026; UFPA, Portaria nº 6.516/2026",
+   "ementa": "Atos de pessoal de outros órgãos (aposentadoria voluntária no MTur, retificação de fundamento legal de aposentadoria por incapacidade na UFPA com base no art. 6º-A da EC 41/2003, entre outros). Para consulta sobre práticas de concessão e retificação.",
+   "unidades": "SESES",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=17-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2"
+  },
+  {
+   "titulo": "Previc — Portarias de aprovação de alterações em regulamentos de planos de previdência complementar",
+   "ementa": "Portarias Previc nº 880, 884, 885, 896, 897 e 910/2026 aprovam alterações em planos de outras entidades. Sem relação com o Funpresp-Jud; registrado apenas para consulta.",
+   "unidades": "DIPROF",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=17-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 74"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "TCU — aposentadorias com quintos e rubrica \"Opção\" (Acórdãos 5849 a 5860, 5409, 5414 a 5416, 5353, 5351, entre outros, sessões de 3 e 10/11/2026)",
+   "status": "Série de acórdãos das Câmaras sobre incorporação de quintos/décimos após a Lei 9.624/1998, modulação do RE 638.115/CE e cumulação com a rubrica \"Opção\"; o Acórdão 5351 (2ª Câmara) trata de pensão civil do TST.",
+   "reflexo": "Possível reflexo em revisões de proventos e pensões de servidores do TRT-17. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2776329%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 5409/2026"
+  },
+  {
+   "titulo": "TCU, Acórdão 3006/2026 (Plenário, 04/11/2026) — pensão civil e filiação socioafetiva post mortem",
+   "status": "Negativa de registro; a ementa afirma que título judicial não vincula o controle externo.",
+   "reflexo": "Possível reflexo na análise de pensões por filiação socioafetiva. [carece de leitura humana do texto integral]",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2781739%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "TCU, Acórdão 3006/2026"
+  },
+  {
+   "titulo": "STF e STJ — jurisprudência vinculante",
+   "status": "Sem novidades em STF e STJ nesta data, segundo a verificação dos canais oficiais de notícias na janela de 10 a 17/11/2026.",
+   "reflexo": "Sem reflexo identificado.",
+   "fonte_url": "https://noticias.stf.jus.br/",
+   "fonte_titulo": "Notícias do STF"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 de 17/11/2026 (74 atos selecionados; 66 atos individuais de pessoal de outros órgãos descartados pelo filtro); DEJT Caderno Administrativo TRT-17 (7 atos, todos triados), CSJT (1 ato, nenhum pertinente à SGP segundo o filtro temático) e TST (3 atos, nenhum pertinente à SGP segundo o filtro temático); TCU — acórdãos das sessões de 03/11/2026 a 10/11/2026 (53 selecionados); DJe do CNJ nº 274/2026 (17/11/2026); STF e STJ.",
+ "fontes_sem_retorno": "DJEN/CSJT (acórdãos): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br."
+}
