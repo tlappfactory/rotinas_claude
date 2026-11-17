@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
   "total_xml_files": 1276,
-  "matched_articles": 87,
+  "matched_articles": 79,
   "discarded_individual_acts": {
-    "total": 11,
+    "total": 10,
     "by_section": {
-      "DO2": 11
+      "DO2": 10
     }
   },
   "parse_errors": [],
@@ -749,38 +749,6 @@
       "xml_file": "DO1_0548.xml"
     },
     {
-      "id": "portaria-spa/mapa-n-409-de-5-de-novembro-de-2026-744449597",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Agricultura e Pecuária/Secretaria de Política Agrícola",
-      "identifica": "PORTARIA SPA/MAPA Nº 409, DE 5 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Agricultura e Pecuária/Secretaria de Política Agrícola",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA SPA/MAPA Nº 409, DE 5 DE NOVEMBRO DE 2026 Aprova o Zoneamento Agrícola de Risco Climático - ZARC para a cultura do trigo, em sistema de cultivo de sequeiro, no estado de São Paulo, ano-safra 2026/2027. O SECRETÁRIO DE POLÍTICA AGRÍCOLA DO MINISTÉRIO DA AGRICULTURA E PECUÁRIA, no uso das atribuições que lhe confere o art. 48 do Decreto nº 12.642, de 1º de outubro de 2025, e tendo em vista o disposto no Decreto nº 9.841, de 18 de junho de 2019, na Portaria MAPA nº 412, de 30 de dezembro de 2020, na Instrução Normativa nº 3, de 14 de outubro de 2008, na Instrução Normativa nº 16, de 9 de abril de 2018, na Instrução Normativa SPA/MAPA nº 1, de 21 de junho de 2022, e o que consta do processo nº 21000.025905/2020-14, resolve: Art. 1º Fica aprovado o Zoneamento Agrícola de Risco Climático - ZARC para a cultura do trigo, em sistema de cultivo de sequeiro, no estado de São Paulo, ano-safra 2026/2027, conforme anexo. Parágrafo único. Esta Portaria tem vigência específica para o ano-safra definido no caput. Art. 2º Esta Portaria entra em vigor na data da sua publicação. GUILHERME CAMPOS JÚNIOR ANEXO 1. Zoneamento agrícola de risco climático para a cultura do trigo (Triticum aestivum L.) 1.1. O trigo (Triticum aestivum L.) é cultivado no Brasil desde o extremo sul até o norte do País. Nesta ampla região estão contempladas zonas climáticas temperadas, subtropicais e tropicais, ocupando solos com e sem alumínio trocável, de classes texturais e com aptidão para usos agrícolas distintos, fazendo com que seja fundamental o entendimento das relações entre as necessidades da cultura e a disponibilidade de recursos do ambiente para a produção desse cereal em bases competitivas e sustentáveis no País. 1.2. Majoritariamente o trigo no Brasil é produzido em sistema sequeiro, concentrado no Sul do Brasil. No centro do País, regiões Sudeste, Centro-Oeste e Nordeste, produz-se trigo tanto no sistema sequeiro quanto no sistema irrigado. E, em sistemas integrados com pecuária (forragem + grãos), exclusivamente na Região Sul. 1.3. Problemas de deficiência hídrica em trigo no Brasil começam a ser importantes a partir do norte do Paraná em direção ao centro do País. Mesmo que no norte do PR o trigo seja cultivado sob regime de sequeiro, em alguns anos a falta de água pode dificultar a emergência e o estabelecimento da cultura, por ocasião da semeadura, realizado entre março e abril. Também a falta de água, especialmente a partir do emborrachamento pode prejudicar o rendimento final, devido à elevação da esterilidade de flores (falhas de granação) e enchimento incompleto dos grãos. Na região tropical, o trigo cultivado sob irrigação, na época seca do ano (maio a setembro), se destaca por rendimentos elevados e pela excelente qualidade tecnológica (classificação comercial) dos grãos. 1.4. Geada, indubitavelmente, está entre os principais riscos climáticos para o trigo, expelente no sul do Brasil. A sensibilidade do trigo à geada começa a aumentar depois do início do emborrachamento. Atinge o seu máximo na floração e diminui após os estádios de grão em massa mole e dura. Também não se pode afirmar que geadas não causam danos em trigo, quando ocorrem antes do emborrachamento. Conforme a intensidade da geada e a sensibilidade da cultivar (nessa fase existe diferença genética bem acentuada) os prejuízos podem ser grandes (queima de folhas, estrangulamento de colmos e morte de plantas). 1.5. O excesso de umidade pode ser limitante para o cultivo de trigo. Ambientes úmidos predispõem a cultura ao ataque severo de doenças, particularmente fúngicas. E doenças têm sido um dos principais entraves de natureza biótica para a região de clima úmido do sul do Brasil. Nessa região, problemas mais severos são observados em anos de El Niño, quando as chuvas de primavera, em geral, superam os valores normais. Para o cultivo de trigo no sul do País, os anos de La Niña são os mais favoráveis. 1.6. Na região tropical, deficiência hídrica e excesso de calor (temperaturas elevadas, causando esterilidade na espiga) são os principais limitantes. Em termos de sanidade vegetal, pela dificuldade de controle, a brusone, tanto no sistema de cultivo de sequeiro quanto irrigado, é a doença mais problemática para a produção de trigo no centro do País. 1.7. Objetivou-se, com o Zoneamento Agrícola de Risco Climático, identificar os municípios aptos e o período de semeadura do trigo, em sistema de sequeiro, com probabilidades de perdas de rendimento de grãos inferiores a 20%, 30% e 40% devido à ocorrência de eventos meteorológicos adversos. 1.8. O modelo para cálculo do balanço hídrico utilizado no ZARC foi o SARRA (Systeme d'Analyse Regionale des Risques Agroclimatiques). Este modelo foi usado para se obter as necessidades hídricas e o Índice de Satisfação da Necessidade de Água para a cultura (ISNA), que foi definido como a razão entre a evapotranspiração real da cultura (ETr) e evapotranspiração máxima ou potencial da cultura (Etc). 1.9. Ressalta-se que por se tratar de um modelo agroclimático, parte-se do pressuposto de que não ocorrerão limitações quanto à fertilidade dos solos ou danos às plantas devido à ocorrência de plantas daninhas, pragas e doenças. 1.10. Para delimitação das áreas aptas ao cultivo do trigo de sequeiro, em condições de baixo risco, foram adotados os seguintes parâmetros e variáveis: a) Precipitação Pluvial: Foram utilizadas séries de dados de chuva preferencialmente com 30 anos de dados. Somente em regiões com escassez de séries de dados de longa duração foram consideradas séries com um mínimo de 15 anos de dados diários, contabilizando um total de 3.500 séries pluviométricas. b) Evapotranspiração de referência (ETo): A ETo foi utilizada através de médias decendiais calculadas pelo método de Hargreaves e Samani, previamente adaptado e recalibrado para as condições brasileiras. c) Temperatura: Foi considerado o risco de geada foi estimado pela análise da frequência de ocorrência de temperaturas do ar igual ou menor a 1,0",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "60",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-spa/mapa-n-409-de-5-de-novembro-de-2026-744449597",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "gestao_riscos"
-      ],
-      "weak_keywords": [
-        "estatistica_pesquisa",
-        "inclusao_diversidade",
-        "riscos_projetos",
-        "sustentabilidade_geral"
-      ],
-      "score": 9,
-      "xml_file": "DO1_0113.xml"
-    },
-    {
       "id": "portaria-spa/mapa-n-410-de-5-de-novembro-de-2026-744431712",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -1416,33 +1384,6 @@
       "xml_file": "DO1_0050.xml"
     },
     {
-      "id": "portaria-n-3.909-de-10-de-novembro-de-2026-744420770",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.909, DE 10 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.909, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Boca do Acre/AM, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Boca do Acre/AM para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040740/2026-63, no valor de R$ 486.610,97 (quatrocentos e oitenta e seis mil seiscentos e dez reais e noventa e sete centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 90 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "283",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.909-de-10-de-novembro-de-2026-744420770",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0070.xml"
-    },
-    {
       "id": "portaria-n-3.911-de-10-de-novembro-de-2026-744428439",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -1495,33 +1436,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0268.xml"
-    },
-    {
-      "id": "portaria-n-3.915-de-10-de-novembro-de-2026-744425971",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.915, DE 10 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.915, DE 10 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Bonito/PA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Bonito/PA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040755/2026-21, no valor de R$ 421.701,40 (quatrocentos e vinte e um mil setecentos e um reais e quarenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "283",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.915-de-10-de-novembro-de-2026-744425971",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0081.xml"
     },
     {
       "id": "portaria-n-3.916-de-10-de-novembro-de-2026-744402814",
@@ -1684,33 +1598,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0361.xml"
-    },
-    {
-      "id": "portaria-n-3.944-de-12-de-novembro-de-2026-744414075",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.944, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.944, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Cidade Ocidental/GO, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Cidade Ocidental/GO para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040674/2026-21, no valor de R$ 123.534,20 (cento e vinte e três mil quinhentos e trinta e quatro reais e vinte centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "285",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.944-de-12-de-novembro-de-2026-744414075",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0485.xml"
     },
     {
       "id": "portaria-n-3.946-de-12-de-novembro-de-2026-744404896",
@@ -2118,33 +2005,6 @@
       "xml_file": "DO1_0210.xml"
     },
     {
-      "id": "portaria-n-3.965-de-12-de-novembro-de-2026-744430681",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.965, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.965, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Santa Inês/BA, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Santa Inês/BA para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040754/2026-87, no valor de R$ 63.807,40 (sessenta e três mil oitocentos e sete reais e quarenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "287",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.965-de-12-de-novembro-de-2026-744430681",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0517.xml"
-    },
-    {
       "id": "portaria-n-3.966-de-12-de-novembro-de-2026-744440323",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2334,33 +2194,6 @@
       "xml_file": "DO1_0413.xml"
     },
     {
-      "id": "portaria-n-3.974-de-12-de-novembro-de-2026-744440203",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.974, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.974, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Berilo/MG, para execução de ações de Proteção e Defesa Civi. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Berilo/MG para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040638/2026-68, no valor de R$ 372.795,60 (trezentos e setenta e dois mil setecentos e noventa e cinco reais e sessenta centavos). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 365 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "289",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.974-de-12-de-novembro-de-2026-744440203",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0038.xml"
-    },
-    {
       "id": "portaria-n-3.975-de-12-de-novembro-de-2026-744434386",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2413,33 +2246,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0544.xml"
-    },
-    {
-      "id": "portaria-n-3.977-de-12-de-novembro-de-2026-744400021",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "identifica": "PORTARIA Nº 3.977, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.977, DE 12 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Nova Olinda do Norte/AM, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Nova Olinda do Norte/AM para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040765/2026-67x, no valor de R$ 356.125,00 (trezentos e cinquenta e seis mil cento e vinte e cinco reais). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "289",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.977-de-12-de-novembro-de-2026-744400021",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "transparencia_integridade"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0447.xml"
     },
     {
       "id": "portaria-n-3.992-de-13-de-novembro-de-2026-744435947",
@@ -2548,33 +2354,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0190.xml"
-    },
-    {
-      "id": "ato-n-3.278-de-13-de-novembro-de-2026-744462223",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Ato",
-      "art_category": "Ministério da Educação/Fundação Universidade de Brasília/Decanato de Gestão de Pessoas",
-      "identifica": "ATO Nº 3.278, DE 13 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Educação/Fundação Universidade de Brasília/Decanato de Gestão de Pessoas",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO Nº 3.278, DE 13 DE NOVEMBRO DE 2026 O DECANO DE GESTÃO DE PESSOAS EM EXERCÍCIO DA UNIVERSIDADE DE BRASÍLIA, no uso de suas atribuições legais, conferidas pelo Ato da Reitoria n. 1527, publicado no DOU n. 227, Seção 2, de 26 de novembro de 2024, e de acordo com a competência que lhe foi delegada por meio do Ato da Reitoria n. 304, de 23 de março de 2017, publicado no DOU n. 58, Seção 2, de 24 de março de 2017, resolve: Prorrogar até 14 de novembro de 2027 o contrato de Lucas Joab Mariano Cardoso de Souza como Técnico Especializado em Língua Brasileira de Sinais (LIBRAS), com remuneração mensal no valor de R$ 5.215,39 (cinco mil, duzentos e quinze reais e trinta e nove centavos), conforme disposto na Lei nº 11.091/2005, atualizada pela Lei nº 15.141/2025. Processo Eletrônico nº 23106.067262/2024-57. PETERSON GÓES SILVA",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "32",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/ato-n-3.278-de-13-de-novembro-de-2026-744462223",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "acessibilidade_inclusao"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0490.xml"
     }
   ],
   "origem": {
@@ -2586,8 +2365,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1243,
+    "atos_com_texto_integral": 1210,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-16T14:48:53Z"
+    "coletado_em": "2026-11-17T00:00:03Z"
   }
 }

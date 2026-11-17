@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
   "total_xml_files": 1276,
-  "matched_articles": 113,
+  "matched_articles": 112,
   "discarded_individual_acts": {
-    "total": 66,
+    "total": 65,
     "by_section": {
-      "DO2": 66
+      "DO2": 65
     }
   },
   "parse_errors": [],
@@ -536,8 +536,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.708, DE 12 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 201...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.708, DE 12 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo 14021.056597/2026-51, resolve: Art. 1º Transferir a reparação econômica, de caráter indenizatório, em prestação mensal, permanente e continuada, à MAUZÍLIA MENDES ZANINI DA SILVA, na condição de cônjuge, do(a) anistiado(a) político(a) post mortem, ISAIAS ZANINI DA SILVA, com fundamento no art. 13 da Lei nº 10.559, de 2.002, combinado com os arts. 217, inciso I e 222, VII, alínea \"b\", item 6 da Lei nº 8.112 de 1.990, com vigência a contar de 22 de julho de 2026, data da publicação da PORTARIA MDHC Nº 1.537, DE 17 DE JULHO DE 2026. Art. 2º Esta Portaria entra em vigor na data da sua publicação. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "40",
@@ -1068,6 +1068,35 @@
       "xml_file": "DO1_0232.xml"
     },
     {
+      "id": "ato-n-730-de-11-de-novembro-de-2026-744443736",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Ato",
+      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "identifica": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026",
+      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, considerando o constante da Proposta nº 4312 do Sistema de Gestão de Pessoas - Sigep TST, de 11/11/2026, resolve: 1 - Dispensar, a pedido, o servidor MARCIO BARBOSA PIMENTEL, código 60448, Técnico Judiciário, Área Administrativa, da função comissionada de Assistente 4, Nível FC-4, da Secretaria da 8ª Turma. 2 - Designar a servidora LILIA KAROLINE BARBOSA DE MACEDO, código 57504, Técnica Judiciária, Área Administrativa, para exercer a função comissionada de Assistente 4, Nível FC-4, da Secretaria da 8ª Turma. GUSTAVO CARIBÉ DE CARVALHO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "63",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/ato-n-730-de-11-de-novembro-de-2026-744443736",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "tribunal superior do trabalho"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0172.xml"
+    },
+    {
       "id": "ato-n-731-de-11-de-novembro-de-2026-744461120",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -1211,35 +1240,6 @@
       ],
       "score": 11,
       "xml_file": "DO2_0179.xml"
-    },
-    {
-      "id": "portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
-      "identifica": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026 O DIRETOR-PRESIDENTE DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO, no uso das atribuições que lhe foram conferidas pela Portaria nº 14, de 10 de março de 2026, pelo inciso VI do art. 13 do Decreto nº 12.103, de 08 de julho de 2024, bem como no disposto no art. 11 da Portaria MGI nº 572, de 8 de março de 2023, e demais informações que constam do Processo nº 00100.002306/2026-10, resolve: Art. 1º Fica designado Wellington de Jesus Nouga, Matrícula SIAPE nº 2822063, para exercer a Função Comissionada Executiva de Chefe de Projeto I, código FCE 3.05, da Coordenação-Geral de Infraestrutura e Segurança da Informação da Diretoria de Infraestrutura Tecnológica do Instituto Nacional de Tecnologia da Informação, ficando dispensado da Função Comissionada Executiva que atualmente ocupa. Art. 2º Esta Portaria entre em vigor na data de sua publicação. ENYLSON FLÁVIO MARTINEZ CAMOLESI",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "42",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11,
-      "xml_file": "DO2_0316.xml"
     },
     {
       "id": "portaria-iti-n-133-de-12-de-novembro-de-2026-744471072",
@@ -1664,33 +1664,6 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "DO1_0358.xml"
-    },
-    {
-      "id": "ato-n-730-de-11-de-novembro-de-2026-744443736",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Ato",
-      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "identifica": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO Nº 730, DE 11 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, considerando o constante da Proposta nº 4312 do Sistema de Gestão de Pessoas - Sigep TST, de 11/11/2026, resolve: 1 - Dispensar, a pedido, o servidor MARCIO BARBOSA PIMENTEL, código 60448, Técnico Judiciário, Área Administrativa, da função comiss...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "63",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/ato-n-730-de-11-de-novembro-de-2026-744443736",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "tribunal superior do trabalho"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0172.xml"
     },
     {
       "id": "despacho-744499278",
@@ -2125,6 +2098,33 @@
       "xml_file": "DO2_0263.xml"
     },
     {
+      "id": "portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
+      "identifica": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026 O DIRETOR-PRESIDENTE DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO, no uso das atribuições que lhe foram conferidas pela Portaria nº 14, de 10 de março de 2026, pelo inciso VI do art. 13 do Decreto nº 12.103, de 08 de julho de 2024, bem como no disposto no art. 11 da Portaria MGI nº 572, de 8 de março de 2023, e demais informações que constam do P...",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "42",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "DO2_0316.xml"
+    },
+    {
       "id": "portaria-n-494-de-6-de-outubro-de-2026-744439844",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2379,33 +2379,6 @@
       "xml_file": "DO2_0458.xml"
     },
     {
-      "id": "portaria-icmbio-n-5.090-de-4-de-novembro-de-2026-744413917",
-      "section": "DO1",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "identifica": "Portaria ICMBio Nº 5.090, de 4 de novembro de 2026",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "Portaria ICMBio Nº 5.090, de 4 de novembro de 2026 Aprova o Perfil de Família Beneficiária da Reserva Extrativista da Baía do Tubarão (processo ICMBio nº 02122.000788/2025-60). O PRESIDENTE DO INSTITUTO CHICO MENDES DE CONSERVAÇÃO DA BIODIVERSIDADE - ICMBio, nomeado pela Portaria de Pessoal nº 2.464 da Casa Civil, de 16 de maio de 2023, publicada no Diário Oficial da União de 17 de maio de 2023, no uso das competências atribuídas pelo art. 15, Seção I, Capítulo VI do Anexo I do Decreto nº 12.258, de 25 de novembro de 2024, resolve: Art. 1º Aprova o Perfil da Família Beneficiária da Reserva Extrativista da Baía do Tubarão, constante no Anexo da presente Portaria. Art. 2º Esta Portaria entra em vigor na data de sua publicação MAURO OLIVEIRA PIRES ANEXO Art. 1º Para fins de definição deste instrumento, serão consideradas famílias beneficiárias da Reserva Extrativista - Resex da Baía do Tubarão: I - as famílias que se autorreconhecem e são reconhecidas pela comunidade como população tradicional, e que dependem e fazem uso habitual dos recursos naturais do território da Resex da Baía do Tubarão para a manutenção e melhoria de seu modo de vida tradicional e sua segurança alimentar. II - as famílias que atendem, adicionalmente, a pelo menos um dos critérios abaixo: a) morar no interior ou entorno da Resex da Baía do Tubarão há, no mínimo, 5 (cinco) anos e exercer como atividade principal para obtenção de sua renda a pesca artesanal e, de forma complementar, atividades consideradas tradicionais, tais como: extrativismo vegetal, calafetaria, carpintaria naval, mariscagem, cata de caranguejo, criação de animais de pequeno porte, agricultura familiar (roçado), artesanato, apicultura e meliponicultura familiar, maricultura comunitária, ostreicultura, atuação como atravessador local (pequeno) de produtos e subprodutos extrativistas; b) exercer outras atividades consideradas importantes para a comunidade, tais como o turismo comunitário, magistério (professores), agentes comunitários de saúde, merendeiras, barqueiros, serventes e vigias, desde que morem e trabalhem no interior e/ou entorno da Resex da Baía do Tubarão e sejam oriundos de família tradicional da Unidade de Conservação; c) ser aposentado ligado às atividades tradicionais, conforme elencadas na alínea \"a\", desde que resida no interior ou entorno da Resex da Baía do Tubarão e seja oriundo de família tradicional da Unidade de Conservação. § 1º Entende-se por comunidades do interior da Resex da Baía do Tubarão as seguintes localidades: a) município de Humberto de Campos - MA: Cedro, Celeiro de Deus, Ilha de Carrapatal, Jurucutuoca, Ilha de Pedras, Ilha de Santana, Ilha do Gato, Ilha Grande, Porto da Roça, Santa Clara; b) município de Icatu - MA: Caratatiua, Mamuna, Olho d'Água, Palmeiras, Papagaio, Prainha, Santa Maria de Guaxenduba, Santo Antônio dos Caboclos, Serraria, Sumaúma. § 2º Entende-se por comunidades do entorno da Resex da Baía do Tubarão as seguintes localidades: a) município de Humberto de Campos - MA: na zona urbana (sede), os bairros Areal, Bacabeira, Base, Centro, Lagoinha e Santo Antônio; na zona rural, as comunidades Achuí, Apicum Grande, Areal, Assentamento, Bacabeira, Base, Cabaceiras, Centro, Chibate, Conceição, Curralinho, Flexeiras, Lagoinha, Manga, Monte Sombrio, Peba, Periá, Rampa, Santo Antônio, São Lucas, São Lucas Dois, Trizidela, Vagem de Vassoura. b) município de Icatu - MA: as comunidades Ananás, Armazém, Arraial, Axixá, Boa Vista dos Monroe, Boca da Mata, Boi Cavalo, Cabral, Camboa, Estirão, Fazenda, Itapera, Itatuaba, Jacaraí dos Vilelas, Jurupari, Jussatuba, Lagoa, Maparucaia, Mata, Monte Alegre, Pedro Gonçalo, Peral, Portinho, Retiro, Ribeira, Rio do Meio, Rio Manajuí, Rio Novo, Salgado, Santa Isabel, São Miguel, São Paulo, Sertãozinho, Tapera de João Marcolino, Timbotiua, Vista Alegre. Art. 2º São considerados usuários todas aquelas pessoas não beneficiárias que necessitam acessar a Resex da Baía do Tubarão para exercer atividades diversas, tais como turismo, pesquisa, prestação de serviço público ou privado, navegação e transporte de cargas ou pessoas, bem como pesca artesanal ou esportiva eventual. § 1º Para fins deste instrumento, os pescadores artesanais moradores dos municípios maranhenses de Primeira Cruz, São José de Ribamar, Rosário, Morros, Raposa, Paço do Lumiar e demais municípios, não contemplados no Art. 1º, que eventualmente ingressem na Resex da Baía do Tubarão, serão considerados usuários e deverão obedecer às regras de uso da Unidade de Conservação. § 2º Caberá ao Conselho Deliberativo da Resex da Baía do Tubarão estabelecer os procedimentos para os casos específicos e, com base no cadastramento, confirmar a condição de família beneficiária ou de usuário da Unidade de Conservação. Art. 3º Em complemento aos critérios e definições anteriores, dispõe-se: § 1º Às famílias descendentes de beneficiários estão garantidos os direitos de serem consideradas beneficiárias, desde que permaneçam residindo no interior ou entorno da Resex da Baía do Tubarão e exerçam as atividades elencadas nas alíneas \"a\" e/ou \"b\" do inciso II do Art. 1º. § 2º A família beneficiária que se ausentar da Resex da Baía do Tubarão a partir da publicação do Perfil de Família Beneficiária, sem justificativa, poderá retornar, desde que retome as atividades tradicionais constantes nas alíneas \"a\" e/ou \"b\" do inciso II do Art. 1º, complete cinco anos de moradia e tenha sua situação aprovada pela comunidade e pelo Conselho Deliberativo da Unidade de Conservação. § 3º As famílias oriundas de fora do território e do entorno da Resex da Baía do Tubarão que desejarem ser reconhecidas como beneficiárias deverão atender aos critérios previstos na alínea \"a\" do inciso II do Art. 1º, sendo também submetidas à aprovação da comunidade e do Conselho Deliberativo da Unidade de Conservação. § 4º Todas as famílias beneficiárias e usuárias da Resex da Baía do Tubarão devem atender à legislação ambiental vigente e cumprir os regulamentos construí",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "304",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-icmbio-n-5.090-de-4-de-novembro-de-2026-744413917",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do1",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "aposentadoria"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO1_0158.xml"
-    },
-    {
       "id": "resolucao-re-n-4.463-de-12-de-novembro-de-2026-744454062",
       "section": "DO1",
       "pub_date": "16/11/2026",
@@ -2431,33 +2404,6 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0547.xml"
-    },
-    {
-      "id": "ato-presi-n-184-de-6-de-novembro-de-2026-744475043",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Ato",
-      "art_category": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
-      "identifica": "ATO PRESI Nº 184, DE 6 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO PRESI Nº 184, DE 6 DE NOVEMBRO DE 2026 A DESEMBARGADORA PRESIDENTE DO EGRÉGIO TRIBUNAL REGIONAL DO TRABALHO DA OITAVA REGIÃO, no uso de suas atribuições legais e regimentais, e CONSIDERANDO o disposto na Lei nº 8.112/1990 e no Edital nº 13/2023, que tornou público e homologou o resultado final do Concurso Público para provimento de vagas e formação de cadastro de reserva para o cargo de Analista Judiciário e Técnico Judiciário do Tribunal Regional do Trabalho da 8.ª Região - C-336/2022, exceto para o cargo de Técnico Judiciário, Área Administrativa; CONSIDERANDO as autorizações de provimento concedidas pelo Conselho Superior da Justiça do Trabalho por meio do OFÍCIO CIRCULAR CSJT.GP.SG.SGPES Nº 80/2026; CONSIDERANDO que os candidatos LOURIVAL DANTAS DE OLIVEIRA NETO e DANYELA FERNANDES DINIZ, nomeados para exercerem o cargo de Analista Judiciário, Área Judiciária, por meio do Ato PRESI nº 170/2026, publicado no Diário Oficial da União de 22 de outubro de 2026, apresentaram termo de desistência de nomeação; CONSIDERANDO as consultas sobre o interesse na nomeação ocorridas por meio dos Comunicados nºs 59 e 62/2026 deste Tribunal; CONSIDERANDO, ainda, o que consta nos autos do Processo Administrativo Eletrônico nº 2351/2023, resolve: Art. 1º - TORNAR SEM EFEITO a nomeação dos candidatos abaixo relacionados, aprovados no Concurso Público C-336/2022, para exercerem o cargo de provimento efetivo da categoria funcional de Analista Judiciário, Área Judiciária, Classe A, Padrão 1, Nível Superior, do Quadro de Pessoal Permanente do Tribunal Regional do Trabalho da 8.ª Região, ocorrida por meio do Ato PRESI nº 170/2026, publicado no Diário Oficial da União de 22 de outubro de 2026: 72º lugar pela lista geral - LOURIVAL DANTAS DE OLIVEIRA NETO, para a localidade de Parauapebas, em vaga decorrente da aposentadoria de Rosana Maria Uchoa Pinheiro (código 430); 73º lugar pela lista geral - DANYELA FERNANDES DINIZ, para a localidade de São Félix do Xingu, em vaga decorrente da posse em outro cargo inacumulável de Anazion Wellington de Aguiar Junior (código 1384). Art. 2º - NOMEAR, de acordo com o artigo 9º, item I, combinado com o artigo 10, ambos da Lei nº 8.112/1990, os candidatos abaixo relacionados, aprovados no Concurso Público C-336/2022, para exercerem o cargo de provimento efetivo da categoria funcional de Analista Judiciário, Área Judiciária, Classe A, Padrão 1, Nível Superior, do quadro de pessoal permanente deste Egrégio Tribunal Regional do Trabalho da 8ª Região, conforme a seguir: 74º lugar pela lista geral - LARISSA GABRIELA LEMOS LOPES SARAIVA, para a localidade de Macapá, em vaga decorrente da posse em outro cargo inacumulável de Andrew de Castro Suzuki Pereira (código 1413); 75º lugar pela lista geral - LEONARDO PEREIRA PINTO MARQUES, para a localidade de Parauapebas, em vaga decorrente da aposentadoria de Rosana Maria Uchoa Pinheiro (código 430). 78º lugar pela lista geral - GABRIEL OLIVEIRA MORAES DE SOUZA, para a localidade de São Félix do Xingu, em vaga decorrente da posse em outro cargo inacumulável de Anazion Wellington de Aguiar Junior (código 1384). Art. 3º - Este Ato terá vigência a partir de sua publicação no Diário Oficial da União. Desª. MARIA VALQUIRIA NORAT COELHO",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "68",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/ato-presi-n-184-de-6-de-novembro-de-2026-744475043",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "aposentadoria"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0691.xml"
     },
     {
       "id": "ato-trt6-gp-n-290-de-13-de-novembro-de-2026-744445948",
@@ -2620,6 +2566,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO2_0131.xml"
+    },
+    {
+      "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Edital de Notificação",
+      "art_category": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "identifica": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026 O MINISTÉRIO DA AGRICULTURA E PECUÁRIA, POR MEIO DA SUBSECRETARIA DE GESTÃO DE PESSOAS E DE GESTÃO DO CONHECIMENTO, notifica o Sr. CLARIVAL CARDOSO DE CAMPOS - CPF xxx.840.261-xx, depois de esgotada a tentativa de lhe dar ciência por meio de e-mail e remessa postal, tendo em vista estar em local incerto e não sabido para envio de correspondência, quanto à notificação de reposição ao Erário em decorrência de recebimento indevido de valores correspondentes a aposentadoria voluntária, com proventos integrais, ocupante do cargo de Datilógrafo, Classe S, Padrão III, do Quadro de Pessoal deste Ministério, com fundamento no art. 3º da Emenda Constitucional nº 47, de 2005, acrescido da vantagem prevista no artigo 62-A, da Lei nº 8.112/90, combinado com o art. 3º da Emenda Constitucional nº 103, de 2019, ocorrido por meio da Portaria nº 139, de 11 de maio de 2022, com efeitos a partir de 20 de maio de 2022. O prazo legal para interposição de recurso administrativo é de 10 (dez) dias contados desta notificação, por meio do e-mail (copag@agro.gov.br). O processo relativo ao assunto está cadastrado no Sistema Eletrônico de Informações - SEI - sob o número 21000.049067/2024-06. Para fins de acesso ao processo, deverá ser encaminhada solicitação ao e-mail (copag@agro.gov.br). SARA MARTINS Subsecretária de Gestão de Pessoas e de Gestão do Conhecimento",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "72",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0199.xml"
     },
     {
       "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744469523",
@@ -2919,33 +2892,6 @@
       "xml_file": "DO2_0090.xml"
     },
     {
-      "id": "portaria-n-386/svpm-de-12-de-novembro-de-2026-744502920",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Defesa/Comando da Marinha/Diretoria-Geral do Pessoal da Marinha/Diretoria do Pessoal da Marinha/Serviço de Veteranos e Pensionista da Marinha",
-      "identifica": "PORTARIA Nº 386/SVPM, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Defesa/Comando da Marinha/Diretoria-Geral do Pessoal da Marinha/Diretoria do Pessoal da Marinha/Serviço de Veteranos e Pensionista da Marinha",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 386/SVPM, DE 12 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por invalidez definitiva, nos termos do art. 104; art. 106, inciso II; art. 108, inciso V; e art. 110, §...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "9",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-n-386/svpm-de-12-de-novembro-de-2026-744502920",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0571.xml"
-    },
-    {
       "id": "portaria-n-387/svpm-de-12-de-novembro-de-2026-744473097",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2983,8 +2929,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 389/SVPM, DE 13 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por incapacidade definitiva, os militares abaixo relacionados, nos termos do art. 104, inciso II; art. 1...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 389/SVPM, DE 13 DE NOVEMBRO DE 2026 O DIRETOR DO SERVIÇO DE VETERANOS E PENSIONISTAS DA MARINHA, no uso da subdelegação de competência que lhe confere o contido no anexo E, da Portaria nº 57, de 14 de agosto de 2024, do Diretor-Geral do Pessoal da Marinha, resolve: Art. 1º Reformar, por incapacidade definitiva, os militares abaixo relacionados, nos termos do art. 104, inciso II; art. 106, inciso II; art. 108, inciso V; da Lei nº 6.880, de 9 de dezembro de 1980, com a remuneração que já percebem,em conformidade com o § 2º do art. 108 da Lei nº 6.880, de 9 de dezembro de 1980, em consonância com a jurisprudência do Tribunal de Contas da União, consubstanciada no Acórdão nº 1043/2021 - Plenário, com efeitos financeiros a partir das referidas datas: I) SO-RM1-AV 86.1908.22 FRANCISCO MOTA DA SILVA, a partir de 29/09/2026 em consonância com o laudo exarado no Termo de Inspeção de Saúde nº 026.000.52470, da JRS/EAMCE, homologado, em 29/09/2026, pela JSD/Com3ºDN; e II) SO-RM1-AR 86.4139.11 MARCELO DE FREITAS MARTINS, a partir de 29/09/2026 em consonância com o laudo exarado no Termo de Inspeção de Saúde nº 026.000.51086, da JRS/HNRe, homologado, em 29/09/2026, pela JSD/Com3ºDN. Art. 2º Esta Portaria entra em vigor na presente data. CMG. (IM) ROBSON APARECIDO CAMPOS DE LIMA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "10",
@@ -3025,6 +2971,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO2_0649.xml"
+    },
+    {
+      "id": "portaria-n-4.738/srda/gab/rtr-de-13-de-novembro-de-2026-744472099",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "identifica": "PORTARIA Nº 4.738/SRDA/GAB/RTR, DE 13 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 4.738/SRDA/GAB/RTR, DE 13 DE NOVEMBRO DE 2026 O REITOR DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO, no uso de suas atribuições legais, conferidas pelo Decreto Presidencial de 17/04/2025, publicado no D.O.U de nº 74-A, de 17/04/2025, seção 2, Extra A - página 1, considerando o que consta no Processo nº 23188.004519.2026-69, resolve: Art. 1º Declarar Vago o cargo de Técnico de Laboratorio Area, Nível de Classificação/Capacitação/Padrão de Vencimento D003, Código de Vaga nº 0833406, do quadro de pessoal desta Instituição, anteriormente ocupado pela servidora HELLEN TAMARA SANTANA SILVA, SIAPE nº 3370114, em decorrência de posse em outro cargo inacumulável, de acordo com art. 33, inciso VIII, da Lei nº 8.112, de 11 de dezembro de 1990, a pedido, a partir de 13 de novembro de 2026. Art. 2º Considerando que a servidora adquiriu a estabilidade prevista no art. 21 da Lei nº 8.112/1990, a presente declaração de vacância gera direito à recondução estabelecida no art. 29 da mesma Lei. JULIO CESAR DOS SANTOS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "18",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-4.738/srda/gab/rtr-de-13-de-novembro-de-2026-744472099",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0687.xml"
     },
     {
       "id": "portaria-n-4.933-de-5-de-novembro-de-2026-744467413",
@@ -3279,8 +3252,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1243,
+    "atos_com_texto_integral": 1210,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-16T14:48:53Z"
+    "coletado_em": "2026-11-17T00:00:03Z"
   }
 }
