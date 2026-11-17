@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-17T21:40:17Z",
+  "run_utc": "2026-11-17T23:08:39Z",
   "lookback_days": 7,
   "desde": "2026-11-10",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 66,
+      "itens_vistos": 68,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-10T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 51628,
-          "inicio": "[{\"id\":436552,\"date\":\"2026-11-17T17:36:57\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/mes-nacional-do-juri-em-2026-tem-numero-recorde-de-sessoes-agendadas\\/\",\"title\":{\"rendered\":\"M\\u00eas Nacional do J\\u00fari em 2026 tem n\\u00famero recorde de sess\\u00f5es agendadas\"},\"excerpt\":{\"rendered\":\"<p>Com 5.267 ses"
+          "bytes": 53184,
+          "inicio": "[{\"id\":436600,\"date\":\"2026-11-17T19:06:43\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/fachin-recebe-nota-tecnica-sobre-proposta-legislativa-que-deve-regulamentar-remuneracao-da-magistratura\\/\",\"title\":{\"rendered\":\"Fachin recebe nota t\\u00e9cnica sobre proposta legislativa que deve regulamentar remunera\\u00e7"
         },
         {
           "amostra_titulos": [
+            "Fachin recebe nota técnica sobre proposta legislativa que deve regulamentar remuneração da",
+            "Tribunais de contas vão priorizar fiscalização dos planos estaduais do Pena Justa",
             "Mês Nacional do Júri em 2026 tem número recorde de sessões agendadas",
             "Maratona de inovação busca soluções para a Justiça",
             "Saúde mental da população em situação de rua é tema de novo protocolo lançado pelo CNJ",
-            "Aplicação prática do Pena Justa mobiliza juízes do Nordeste em primeira edição de evento",
-            "Painel que apresenta panorama de precatórios no Brasil é lançado durante sessão extraordin",
-            "Cortes superiores do Mercosul conhecem estratégia brasileira para enfrentar a crise prisio"
+            "Aplicação prática do Pena Justa mobiliza juízes do Nordeste em primeira edição de evento"
           ]
         }
       ]
