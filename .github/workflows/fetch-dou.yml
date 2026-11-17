@@ -70,8 +70,36 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
 
-      - name: Fetch INLabs (DOU XML)
+      # Evita relogar no INLabs (e reprocessar o DOU) quando o cron de reforço
+      # encontra o DOU do dia já coletado pelo INLabs: o WAF do portal barra o
+      # IP após logins repetidos (run #357, 17/11/2026). Só vale para execução
+      # agendada; disparo manual sempre coleta. JSON vindo da coleta alternativa
+      # (índice público) NÃO conta — nesse caso o INLabs é tentado de novo.
+      - name: Checar se o DOU do dia já foi coletado
+        id: dou_ok
         if: ${{ inputs.sonda_diarios != 'true' }}
+        run: |
+          hoje="$(date -u +%Y-%m-%d)"
+          skip=false
+          if [ "${{ github.event_name }}" = "schedule" ] \
+             && [ -s "dou/$hoje/inlabs-filtered.json" ] \
+             && [ -s "dou/$hoje/inlabs-filtered-segest.json" ]; then
+            if python3 - "dou/$hoje/inlabs-filtered.json" "dou/$hoje/inlabs-filtered-segest.json" <<'PY'
+          import json, sys
+          for f in sys.argv[1:]:
+              o = json.load(open(f)).get("origem") or {}
+              if o.get("coleta_alternativa"):
+                  sys.exit(1)
+          PY
+            then
+              skip=true
+            fi
+          fi
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+          echo "DOU de $hoje já coletado via INLabs: $skip"
+
+      - name: Fetch INLabs (DOU XML)
+        if: ${{ inputs.sonda_diarios != 'true' && steps.dou_ok.outputs.skip != 'true' }}
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_PASSWORD: ${{ secrets.INLABS_PASSWORD }}
@@ -96,13 +124,13 @@ jobs:
           fi
 
       - name: Parse DOU
-        if: ${{ inputs.sonda_diarios != 'true' }}
+        if: ${{ inputs.sonda_diarios != 'true' && steps.dou_ok.outputs.skip != 'true' }}
         run: python scripts/parse_dou.py --force
 
       # Boletim SEGEST: mesmo material bruto (XMLs já extraídos), filtro temático
       # próprio (scripts/perfis.py) -> inlabs-filtered-segest.json.
       - name: Parse DOU (perfil SEGEST)
-        if: ${{ inputs.sonda_diarios != 'true' }}
+        if: ${{ inputs.sonda_diarios != 'true' && steps.dou_ok.outputs.skip != 'true' }}
         env:
           BOLETIM_PERFIL: segest
         run: python scripts/parse_dou.py --force
