@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
   "total_xml_files": 1276,
-  "matched_articles": 110,
+  "matched_articles": 112,
   "discarded_individual_acts": {
-    "total": 64,
+    "total": 65,
     "by_section": {
-      "DO2": 64
+      "DO2": 65
     }
   },
   "parse_errors": [],
@@ -857,6 +857,37 @@
       "xml_file": "DO1_0064.xml"
     },
     {
+      "id": "edital-de-comunicacao-progep-de-12-de-novembro-de-2026-744454405",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Edital",
+      "art_category": "Editais e Avisos/Ministério da Educação",
+      "identifica": "EDITAL DE COMUNICAÇÃO PROGEP de 12 de novembro de 2026",
+      "orgao": "Editais e Avisos/Ministério da Educação",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "EDITAL DE COMUNICAÇÃO PROGEP de 12 de novembro de 2026 A PRÓ-REITORA DE GESTÃO DE PESSOAS DA UNIVERSIDADE FEDERAL DO MARANHÃO, no uso de suas atribuições legais e regulamentares, e em conformidade com o disposto no Art.9º da Lei nº 9.527, de 10 de dezembro de 1997, Decreto nº 7.862, de 8 de dezembro de 2012, Orientação Normativa nº 07, de 17 de outubro de 2012, Portaria MP nº 8, de 7 de janeiro de 2013, Instrução Normativa SGP/SEDGG/ME nº 45, de 15.06.2020, Instrução Normativa SGP/SEDGG/ME Nº 91, de 30.09.2021, resolve: 1. Tornar pública a identificação da beneficiária de pensão civil que terá o pagamento do provento suspenso por motivo de não atendimento à convocação e respectiva notificação para realizar a prova de vida anual, no mês do aniversário: AGOSTO/2026. MARIA DE JESUS RODRIGUES - CPF nº. ***.916.***-72 2. A suspensão do pagamento será efetivada na folha do mês de NOVEMBRO/2026; 3. O restabelecimento do pagamento fica condicionado à realização da prova de vida, mediante comparecimento pessoal do interessado em qualquer agência do seu banco de recebimento de proventos/pensão ou na Diretoria de Gestão de Pessoas - DIGEP/PROGEP da Universidade Federal do Maranhão; 4. O crédito do pagamento restabelecido será efetivado na primeira folha de pagamento disponível para inclusão. 5. Na hipótese de moléstia grave ou de impossibilidade de locomoção do aposentado ou do pensionista deverá ser solicitado o agendamento de visita técnica, pelo telefone (98) 3272 - 8817 / 3272-8818, ou pelo e-mail dqv.progep@ufma.br, para comprovação de vida do titular do benefício, ficando o pagamento restabelecido provisoriamente até que seja realizada a visita. ANA CARLA ARAÚJO ARRUDA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "73",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/edital-de-comunicacao-progep-de-12-de-novembro-de-2026-744454405",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "isencao_ir",
+        "pensao"
+      ],
+      "weak_keywords": [
+        "folha_esocial"
+      ],
+      "score": 16,
+      "xml_file": "DO2_0598.xml"
+    },
+    {
       "id": "edital-n-11/svpm-de-12-de-novembro-de-2026-744489784",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -1209,35 +1240,6 @@
       ],
       "score": 11,
       "xml_file": "DO2_0179.xml"
-    },
-    {
-      "id": "portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
-      "identifica": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026 O DIRETOR-PRESIDENTE DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO, no uso das atribuições que lhe foram conferidas pela Portaria nº 14, de 10 de março de 2026, pelo inciso VI do art. 13 do Decreto nº 12.103, de 08 de julho de 2024, bem como no disposto no art. 11 da Portaria MGI nº 572, de 8 de março de 2023, e demais informações que constam do Processo nº 00100.002306/2026-10, resolve: Art. 1º Fica designado Wellington de Jesus Nouga, Matrícula SIAPE nº 2822063, para exercer a Função Comissionada Executiva de Chefe de Projeto I, código FCE 3.05, da Coordenação-Geral de Infraestrutura e Segurança da Informação da Diretoria de Infraestrutura Tecnológica do Instituto Nacional de Tecnologia da Informação, ficando dispensado da Função Comissionada Executiva que atualmente ocupa. Art. 2º Esta Portaria entre em vigor na data de sua publicação. ENYLSON FLÁVIO MARTINEZ CAMOLESI",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "42",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11,
-      "xml_file": "DO2_0316.xml"
     },
     {
       "id": "portaria-iti-n-133-de-12-de-novembro-de-2026-744471072",
@@ -1728,8 +1730,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.705, DE 12 DE NOVEMBRO DE 2026 A DIRETORA DE CARREIRAS TRANSVERSAIS DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de 2026, e t...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.705, DE 12 DE NOVEMBRO DE 2026 A DIRETORA DE CARREIRAS TRANSVERSAIS DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de 2026, e tendo em vista o disposto no art. 11, da Lei nº 15.367, de 30 de março de 2026, e o que consta no Processo nº 10768.000184/2026-37, resolve: Art. 1º Efetivar o exercício do servidor TITO LIVIO NEPOMUCENO JULIO, matrícula SIAPE nº 1853456, ocupante do cargo efetivo de Analista Técnico Executivo, do quadro de pessoal deste Ministério, na Superintendência Regional de Administração no estado do Rio de Janeiro, no Rio de Janeiro. Art. 2º O servidor deverá apresentar-se imediatamente ao órgão de exercício. Art. 3º Esta Portaria entra em vigor na data de sua publicação. CLARISSA MALINVERNI BARBOSA CINTRA DE SOUZA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "39",
@@ -2096,6 +2098,33 @@
       "xml_file": "DO2_0263.xml"
     },
     {
+      "id": "portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
+      "identifica": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Instituto Nacional de Tecnologia da Informação",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA ITI Nº 132, DE 12 DE NOVEMBRO DE 2026 O DIRETOR-PRESIDENTE DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO, no uso das atribuições que lhe foram conferidas pela Portaria nº 14, de 10 de março de 2026, pelo inciso VI do art. 13 do Decreto nº 12.103, de 08 de julho de 2024, bem como no disposto no art. 11 da Portaria MGI nº 572, de 8 de março de 2023, e demais informações que constam do P...",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "42",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-iti-n-132-de-12-de-novembro-de-2026-744483885",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "DO2_0316.xml"
+    },
+    {
       "id": "portaria-n-494-de-6-de-outubro-de-2026-744439844",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2377,33 +2406,6 @@
       "xml_file": "DO1_0547.xml"
     },
     {
-      "id": "ato-presi-n-184-de-6-de-novembro-de-2026-744475043",
-      "section": "DO2",
-      "pub_date": "16/11/2026",
-      "art_type": "Ato",
-      "art_category": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
-      "identifica": "ATO PRESI Nº 184, DE 6 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO PRESI Nº 184, DE 6 DE NOVEMBRO DE 2026 A DESEMBARGADORA PRESIDENTE DO EGRÉGIO TRIBUNAL REGIONAL DO TRABALHO DA OITAVA REGIÃO, no uso de suas atribuições legais e regimentais, e CONSIDERANDO o disposto na Lei nº 8.112/1990 e no Edital nº 13/2023, que tornou público e homologou o resultado final do Concurso Público para provimento de vagas e formação de cadastro de reserva para o cargo de Analista Judiciário e Técnico Judiciário do Tribunal Regional do Trabalho da 8.ª Região - C-336/2022, exceto para o cargo de Técnico Judiciário, Área Administrativa; CONSIDERANDO as autorizações de provimento concedidas pelo Conselho Superior da Justiça do Trabalho por meio do OFÍCIO CIRCULAR CSJT.GP.SG.SGPES Nº 80/2026; CONSIDERANDO que os candidatos LOURIVAL DANTAS DE OLIVEIRA NETO e DANYELA FERNANDES DINIZ, nomeados para exercerem o cargo de Analista Judiciário, Área Judiciária, por meio do Ato PRESI nº 170/2026, publicado no Diário Oficial da União de 22 de outubro de 2026, apresentaram termo de desistência de nomeação; CONSIDERANDO as consultas sobre o interesse na nomeação ocorridas por meio dos Comunicados nºs 59 e 62/2026 deste Tribunal; CONSIDERANDO, ainda, o que consta nos autos do Processo Administrativo Eletrônico nº 2351/2023, resolve: Art. 1º - TORNAR SEM EFEITO a nomeação dos candidatos abaixo relacionados, aprovados no Concurso Público C-336/2022, para exercerem o cargo de provimento efetivo da categoria funcional de Analista Judiciário, Área Judiciária, Classe A, Padrão 1, Nível Superior, do Quadro de Pessoal Permanente do Tribunal Regional do Trabalho da 8.ª Região, ocorrida por meio do Ato PRESI nº 170/2026, publicado no Diário Oficial da União de 22 de outubro de 2026: 72º lugar pela lista geral - LOURIVAL DANTAS DE OLIVEIRA NETO, para a localidade de Parauapebas, em vaga decorrente da aposentadoria de Rosana Maria Uchoa Pinheiro (código 430); 73º lugar pela lista geral - DANYELA FERNANDES DINIZ, para a localidade de São Félix do Xingu, em vaga decorrente da posse em outro cargo inacumulável de Anazion Wellington de Aguiar Junior (código 1384). Art. 2º - NOMEAR, de acordo com o artigo 9º, item I, combinado com o artigo 10, ambos da Lei nº 8.112/1990, os candidatos abaixo relacionados, aprovados no Concurso Público C-336/2022, para exercerem o cargo de provimento efetivo da categoria funcional de Analista Judiciário, Área Judiciária, Classe A, Padrão 1, Nível Superior, do quadro de pessoal permanente deste Egrégio Tribunal Regional do Trabalho da 8ª Região, conforme a seguir: 74º lugar pela lista geral - LARISSA GABRIELA LEMOS LOPES SARAIVA, para a localidade de Macapá, em vaga decorrente da posse em outro cargo inacumulável de Andrew de Castro Suzuki Pereira (código 1413); 75º lugar pela lista geral - LEONARDO PEREIRA PINTO MARQUES, para a localidade de Parauapebas, em vaga decorrente da aposentadoria de Rosana Maria Uchoa Pinheiro (código 430). 78º lugar pela lista geral - GABRIEL OLIVEIRA MORAES DE SOUZA, para a localidade de São Félix do Xingu, em vaga decorrente da posse em outro cargo inacumulável de Anazion Wellington de Aguiar Junior (código 1384). Art. 3º - Este Ato terá vigência a partir de sua publicação no Diário Oficial da União. Desª. MARIA VALQUIRIA NORAT COELHO",
-      "texto_truncated": false,
-      "assina": "",
-      "cargo": "",
-      "page": "68",
-      "edition": "215",
-      "url": "https://www.in.gov.br/web/dou/-/ato-presi-n-184-de-6-de-novembro-de-2026-744475043",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "aposentadoria"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0691.xml"
-    },
-    {
       "id": "ato-trt6-gp-n-290-de-13-de-novembro-de-2026-744445948",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2566,6 +2568,33 @@
       "xml_file": "DO2_0131.xml"
     },
     {
+      "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Edital de Notificação",
+      "art_category": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "identifica": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Editais e Avisos/Ministério da Agricultura e Pecuária",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO DE 12 DE NOVEMBRO DE 2026 O MINISTÉRIO DA AGRICULTURA E PECUÁRIA, POR MEIO DA SUBSECRETARIA DE GESTÃO DE PESSOAS E DE GESTÃO DO CONHECIMENTO, notifica o Sr. CLARIVAL CARDOSO DE CAMPOS - CPF xxx.840.261-xx, depois de esgotada a tentativa de lhe dar ciência por meio de e-mail e remessa postal, tendo em vista estar em local incerto e não sabido para envio de correspondência, quanto à notificação de reposição ao Erário em decorrência de recebimento indevido de valores correspondentes a aposentadoria voluntária, com proventos integrais, ocupante do cargo de Datilógrafo, Classe S, Padrão III, do Quadro de Pessoal deste Ministério, com fundamento no art. 3º da Emenda Constitucional nº 47, de 2005, acrescido da vantagem prevista no artigo 62-A, da Lei nº 8.112/90, combinado com o art. 3º da Emenda Constitucional nº 103, de 2019, ocorrido por meio da Portaria nº 139, de 11 de maio de 2022, com efeitos a partir de 20 de maio de 2022. O prazo legal para interposição de recurso administrativo é de 10 (dez) dias contados desta notificação, por meio do e-mail (copag@agro.gov.br). O processo relativo ao assunto está cadastrado no Sistema Eletrônico de Informações - SEI - sob o número 21000.049067/2024-06. Para fins de acesso ao processo, deverá ser encaminhada solicitação ao e-mail (copag@agro.gov.br). SARA MARTINS Subsecretária de Gestão de Pessoas e de Gestão do Conhecimento",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "72",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/edital-de-notificacao-de-12-de-novembro-de-2026-744463417",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0199.xml"
+    },
+    {
       "id": "edital-de-notificacao-de-12-de-novembro-de-2026-744469523",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -2657,8 +2686,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 2/DDP/PROGEP/UFES, DE 13 DE NOVEMBRO DE 2026 Por meio deste edital, notifica-se o aposentado JOSÉ MAURICIO GUERRA, CPF nº XXX.093.XXX-XX, para comparecer à Diretoria de Desenvolvimento de Pessoas/Progep/Ufes, situada na Avenida Fernando Ferrari, nº 514, no antigo prédio do Núcleo de Treinamento de Servidores (NTS), Vitória/ES, CEP 29075-910, ou estabelecer contato pelo endereço eletrônico apoio.ddp.progep@ufes.br, no prazo de dez dias consecutivos. O comparecimento ou contato destina-se à tomada de ciência do Ofício 30/2026/DDP/PROGEP/UFES, relativo ao Processo Digital 23068.030057/2026-00. A notificação por edital decorre do insucesso da tentativa anterior de envio do ofício por correspondência, considerando-se, por isso, que o ex-servidor se encontra em local incerto e não sabido. DANIELE JANNOTTI SOARES VILLENA Diretora",
-      "texto_truncated": false,
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 2/DDP/PROGEP/UFES, DE 13 DE NOVEMBRO DE 2026 Por meio deste edital, notifica-se o aposentado JOSÉ MAURICIO GUERRA, CPF nº XXX.093.XXX-XX, para comparecer à Diretoria de Desenvolvimento de Pessoas/Progep/Ufes, situada na Avenida Fernando Ferrari, nº 514, no antigo prédio do Núcleo de Treinamento de Servidores (NTS), Vitória/ES, CEP 29075-910, ou estabelecer contato pelo end...",
+      "texto_truncated": true,
       "assina": "",
       "cargo": "",
       "page": "73",
@@ -3079,6 +3108,33 @@
       "xml_file": "DO2_0688.xml"
     },
     {
+      "id": "portaria-pgr/mpf-n-756-de-12-de-novembro-de-2026-744475504",
+      "section": "DO2",
+      "pub_date": "16/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério Público da União/Atos do Vice-Procurador-Geral da República",
+      "identifica": "PORTARIA PGR/MPF Nº 756, DE 12 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério Público da União/Atos do Vice-Procurador-Geral da República",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA PGR/MPF Nº 756, DE 12 DE NOVEMBRO DE 2026 O VICE-PROCURADOR-GERAL DA REPÚBLICA, no uso das atribuições delegadas pela Portaria PGR/MPU nº 288, de 26 de dezembro de 2023, com fundamento nos arts. 26, inciso IX, e 49, inciso XX, da Lei Complementar nº 75, de 20 de maio de 1993, e considerando o disposto no Procedimento de Gestão Administrativa nº 1.00.000.010441/2026-10, resolve: Art. 1º Fica concedida aposentadoria voluntária, com proventos integrais, a MANOEL DO SOCORRO TAVARES PASTANA, Matrícula nº 536, no cargo de Procurador Regional da República da carreira de membro do Ministério Público Federal, com fundamento no art. 3º, incisos I, II e III e parágrafo único, da Emenda Constitucional nº 47, de 5 de julho de 2005, c/c o art. 7º da Emenda Constitucional nº 41, de 19 de dezembro de 2003. Art. 2º Fica declarado vago o cargo referido no art. 1º Art. 3º Esta Portaria entra em vigor na data de sua publicação. HINDENBURGO CHATEAUBRIAND PEREIRA DINIZ FILHO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "56",
+      "edition": "215",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-pgr/mpf-n-756-de-12-de-novembro-de-2026-744475504",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=16-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0102.xml"
+    },
+    {
       "id": "portaria-pres/inss-n-2.033-de-13-de-novembro-de-2026-744466450",
       "section": "DO2",
       "pub_date": "16/11/2026",
@@ -3196,8 +3252,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1185,
+    "atos_com_texto_integral": 1210,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-16T23:07:39Z"
+    "coletado_em": "2026-11-17T00:00:03Z"
   }
 }
