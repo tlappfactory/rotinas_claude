@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-17T14:46:01Z",
+  "run_utc": "2026-11-17T21:39:55Z",
   "lookback_days": 7,
   "desde": "2026-11-10",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 40,
+      "itens_vistos": 41,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-10T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 20432,
-          "inicio": "[{\"id\":167913,\"date\":\"2026-11-17T11:20:58\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/podcast-suprema-aborda-diferencas-entre-stf-e-tribunal-constitucional-de-portugal\\/\",\"title\":{\"rendered\":\"Podcast Suprema aborda diferen\\u00e7as entre STF e Tribunal Constitucional de Portugal\"},\"excerpt"
+          "bytes": 20949,
+          "inicio": "[{\"id\":167945,\"date\":\"2026-11-17T18:20:28\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/rede-questiona-no-stf-regras-de-minas-gerais-para-contratacao-de-artistas-pela-administracao-publica\\/\",\"title\":{\"rendered\":\"Rede questiona no STF regras de Minas Gerais para contrata\\u00e7\\u00e3o de art"
         },
         {
           "amostra_titulos": [
+            "Rede questiona no STF regras de Minas Gerais para contratação de artistas pela administraç",
+            "STF valida lei que criou microrregião de água e esgoto no Pará",
             "Podcast Suprema aborda diferenças entre STF e Tribunal Constitucional de Portugal",
             "Fachin encerra encontro de cortes supremas do Mercosul com defesa da cooperação e da indep",
             "CNI aciona STF contra suspensão de registros de agrotóxicos e farmacêuticos pela Justiça d",
-            "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais",
-            "STF inaugura escultura Oxê de Xangô, símbolo da Justiça na tradição iorubá",
-            "Presidente do STF propõe aliança entre tribunais do Mercosul em defesa da democracia"
+            "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais"
           ]
         }
       ]
@@ -32,9 +32,9 @@
     "stj": {
       "status": "ok",
       "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
-      "itens_vistos": 7,
+      "itens_vistos": 11,
       "fora_da_janela": 6,
-      "selecionados": 0,
+      "selecionados": 2,
       "probe": [
         {
           "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
@@ -48,7 +48,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2615645,
+          "bytes": 2621996,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {
@@ -76,7 +76,7 @@
             "numeroRepercussaoGeralSTF",
             "descricaoRepercussaoGeral"
           ],
-          "linhas": 2416,
+          "linhas": 2418,
           "amostra": [
             {
               "sequencialPrecedente": "4350",
@@ -247,40 +247,73 @@
         {
           "mais_recentes": [
             {
+              "data": "2026-11-16",
+              "tipo": "",
+              "numero": "1486",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "",
+              "numero": "1487",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "Tema",
+              "numero": "1154",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "Tema",
+              "numero": "1241",
+              "situacao": "Acórdão Publicado"
+            },
+            {
               "data": "2026-11-11",
               "tipo": "Tema",
               "numero": "1469",
               "situacao": "Mérito Julgado"
-            },
-            {
-              "data": "2026-11-05",
-              "tipo": "",
-              "numero": "1485",
-              "situacao": "Relevância reconhecida"
-            },
-            {
-              "data": "2026-11-04",
-              "tipo": "Tema",
-              "numero": "1180",
-              "situacao": "Mérito Julgado"
-            },
-            {
-              "data": "2026-11-03",
-              "tipo": "",
-              "numero": "1484",
-              "situacao": "Relevância reconhecida"
-            },
-            {
-              "data": "2026-11-03",
-              "tipo": "Tema",
-              "numero": "929",
-              "situacao": "Acórdão Publicado"
             }
           ]
         }
       ]
     }
   },
-  "articles": [],
-  "total_matched": 0
+  "articles": [
+    {
+      "fonte": "STJ",
+      "data": "2026-11-16",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1486",
+      "titulo": "STJ — precedente qualificado ([verificar tipo na fonte]) nº 1486 — situação: Relevância reconhecida",
+      "resumo": "Questão submetida a julgamento: Definir se a Hora Repouso Alimentação (HRA), decorrente da supressão do intervalo intrajornada, possui natureza remuneratória ou indenizatória, após a vigência da Lei n. 13.467/2017, para fins de incidência da contribuição previdenciária patronal, do SAT/RAT e das contribuições destinadas a terceiros.",
+      "assuntos": "6060- Contribuição sobre a folha de salários, 5987- Suspensão da Exigibilidade, 6037- Salário-Educação, 6041- Contribuição INCRA, 6045- Contribuições para o SEBRAE, SESC, SENAC, SENAI e outros, 6048- ",
+      "tese_firmada_fonte": "",
+      "sinais_vinculantes": [
+        "precedente qualificado"
+      ],
+      "temas": [
+        "tributario_folha"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "STJ",
+      "data": "2026-11-16",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1487",
+      "titulo": "STJ — precedente qualificado ([verificar tipo na fonte]) nº 1487 — situação: Relevância reconhecida",
+      "resumo": "Questão submetida a julgamento: Definir se incide contribuição previdenciária patronal sobre os valores pagos aos profissionais da educação básica a título de rateio ordinário dos recursos do FUNDEB/FUNDEF, nos termos do art. 26 da Lei n. 14.113/2020.",
+      "assuntos": "6060- Contribuição sobre a folha de salários, 6060- Contribuição sobre a folha de salários",
+      "tese_firmada_fonte": "",
+      "sinais_vinculantes": [
+        "precedente qualificado"
+      ],
+      "temas": [
+        "tributario_folha"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 2
 }
