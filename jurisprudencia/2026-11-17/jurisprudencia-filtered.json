@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-17T00:01:06Z",
+  "run_utc": "2026-11-17T14:46:01Z",
   "lookback_days": 7,
   "desde": "2026-11-10",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 39,
+      "itens_vistos": 40,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-10T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 19966,
-          "inicio": "[{\"id\":167914,\"date\":\"2026-11-16T20:17:50\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/fachin-encerra-encontro-de-cortes-supremas-do-mercosul-com-defesa-da-cooperacao-e-da-independencia-judicial\\/\",\"title\":{\"rendered\":\"Fachin encerra encontro de cortes supremas do Mercosul com defesa da co"
+          "bytes": 20432,
+          "inicio": "[{\"id\":167913,\"date\":\"2026-11-17T11:20:58\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/podcast-suprema-aborda-diferencas-entre-stf-e-tribunal-constitucional-de-portugal\\/\",\"title\":{\"rendered\":\"Podcast Suprema aborda diferen\\u00e7as entre STF e Tribunal Constitucional de Portugal\"},\"excerpt"
         },
         {
           "amostra_titulos": [
+            "Podcast Suprema aborda diferenças entre STF e Tribunal Constitucional de Portugal",
             "Fachin encerra encontro de cortes supremas do Mercosul com defesa da cooperação e da indep",
             "CNI aciona STF contra suspensão de registros de agrotóxicos e farmacêuticos pela Justiça d",
             "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais",
             "STF inaugura escultura Oxê de Xangô, símbolo da Justiça na tradição iorubá",
-            "Presidente do STF propõe aliança entre tribunais do Mercosul em defesa da democracia",
-            "Em uma década, STF reduz pela metade estoque de ações constitucionais"
+            "Presidente do STF propõe aliança entre tribunais do Mercosul em defesa da democracia"
           ]
         }
       ]

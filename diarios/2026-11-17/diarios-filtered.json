@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-17T00:01:14Z",
+  "run_utc": "2026-11-17T14:46:14Z",
   "lookback_days": 4,
   "desde": "2026-11-13",
   "ate": "2026-11-17",
@@ -23,9 +23,9 @@
     "dje_cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-      "itens_vistos": 6,
+      "itens_vistos": 40,
       "fora_da_janela": 0,
-      "selecionados": 5,
+      "selecionados": 32,
       "probe": [
         {
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
@@ -37,93 +37,202 @@
         {
           "edicao": {
             "ano": "2026",
-            "numero": "273",
-            "data": "2026-11-16",
-            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+            "numero": "274",
+            "data": "2026-11-17",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
           }
         },
         {
           "pdf_http": 200,
-          "bytes": 572246
+          "bytes": 898227
         },
         {
-          "chars_texto": 49845,
-          "blocos_tematicos": 6
+          "chars_texto": 463774,
+          "blocos_tematicos": 60
         }
       ],
-      "edicao": "273/2026",
-      "data_edicao": "2026-11-16"
+      "edicao": "274/2026",
+      "data_edicao": "2026-11-17"
     }
   },
   "articles": [
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#1",
-      "data": "2026-11-16",
+      "id": "DJ274_2026#1",
+      "data": "2026-11-17",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "Art. 1º Esta Resolução estabelece diretrizes estruturantes para a atuação do Poder Judiciário e do Ministério Público na garantia do direito à educação infantil, compreendido como direito fundamental da criança, dever constitucional do Estado e política pública essencial da primeira infância, nos termos dos arts. 208, IV, e 227 da Constituição Federal, do Estatuto da Criança e do Adolescente, da Lei de Diretrizes e Bases da Educação Nacional, do Plano Nacional de Educação, da Lei nº 14.851/2024 e das Diretrizes Operacionais Nacionais de Qualidade e Equidade para a Educação Infantil, especialmente quanto: I - à ampliação, com qualidade e equidade, da oferta de vagas em creches e pré-escolas; II - à gestão transparente, isonômica e juridicamente controlável da demanda manifesta e das listas de espera; III - à coordenação de processos individuais, coletivos e estruturais relacionados à educação infantil; IV - à prevenção de decisões contraditórias, da quebra indevida da ordem de atendimento e da desorganização da política pública; V - à fiscalização do financiamento da educação infantil e da correta aplicação dos recursos vinculados; VI - à articulação com políticas públicas nacionais, estaduais, distritais e municipais voltadas à primeira infância e à educação básica; e VII - à estruturação progressiva de órgãos judiciais e ministeriais, equipes técnicas, fluxos, sistemas de dados e ações de capacitação especializados na temática. Art. 2º A atuação de magistrados, tribunais, me",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "tema_servidor_remuneracao"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    },
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#2",
-      "data": "2026-11-16",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "V - matriz de responsabilidades dos órgãos municipais, estaduais, distritais e federais envolvidos; VI - indicação das unidades a serem construídas, ampliadas, reestruturadas, municipalizadas, conveniadas ou retomadas; VII - previsão de profissionais da educação, formação, carreira, gestão e condições de trabalho; VIII - padrões de qualidade, infraestrutura, acessibilidade, segurança, alimentação, transporte, saneamento e materiais pedagógicos; IX - mecanismos de transparência, participação social, controle por conselhos e canais de escuta das famílias e da comunidade escolar; X - indicadores de acompanhamento, revisão periódica e prestação de contas; XI - estabelecimento de responsabilidades para todas as políticas públicas envolvidas, notadamente as Secretarias da Educação, Secretarias da Fazenda, Secretarias de Obras, entre outras, sem prejuízo da coordenação pelo Chefe do Poder Executivo local; e XII - fixação de prazos razoáveis para o atendimento de toda a demanda manifesta e o atingimento das metas e objetivos do Plano Nacional e do Plano Municipal de Educação. Art. 8º Nas atuações judicial e extrajudicial que busquem a ampliação de vagas pelo Poder Executivo, os órgãos do Poder Judiciário e do Ministério Público deverão observar o cumprimento dos padrões nacionais de qualidade, conforme normativa vigente, observando-se, especialmente: I - a adequação de espaços, mobiliários, profissionais, alimentação escolar, acessibilidade, segurança, saneamento, abastecimento de ág",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "tema_servidor_remuneracao"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    },
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#3",
-      "data": "2026-11-16",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "Art. 19. Os tribunais deverão avaliar, respeitadas sua autonomia e disponibilidade orçamentária, a adoção de medidas de especialização, suporte técnico e gestão processual voltadas à educação infantil e aos processos estruturais em políticas públicas educacionais. § 1º As medidas poderão incluir: I - estudos sobre especialização de varas, competências, unidades de apoio ou fluxos para demandas de educação infantil; II - designação de juízos de cooperação ou de referência para atuação coordenada em litigiosidade estrutural educacional; III - fortalecimento dos Centros de Inteligência, Núcleos de Cooperação Judiciária e unidades de precedentes para identificação de demandas repetitivas e estruturais; IV - criação ou designação de equipes técnicas interdisciplinares para apoiar processos estruturais, planos de expansão, monitoramento e avaliação de políticas públicas; V - desenvolvimento de painéis e relatórios de judicialização da educação infantil; VI - elaboração de roteiros de instrução mínima para ações individuais e coletivas sobre vagas em creches e pré-escolas; e VII - capacitação continuada de magistrados, servidores e equipes técnicas em educação infantil, financiamento educacional, primeira infância, processos estruturais e gestão de políticas públicas; VIII - criação de Núcleos de Justiça 4.0. Art. 20. As unidades do Ministério Público deverão avaliar, nos termos da Recomendação CNMP nº 112/2024 e de atos próprios, a estruturação de órgãos, unidades, centros de apoio",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "tema_servidor_remuneracao"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    },
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#4",
-      "data": "2026-11-16",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "VI - capacitação continuada de membros, servidores e equipes técnicas em educação infantil, financiamento, políticas públicas, litigância estrutural e atuação resolutiva; e VII - diretrizes internas para comunicação entre atuações individuais e coletivas, evitando respostas contraditórias e favorecendo soluções estruturantes. Art. 21. O CNJ e o CNMP poderão promover, em conjunto ou separadamente, ações nacionais de formação, produção de materiais técnicos, modelos de fluxos, painéis, roteiros de atuação, notas orientativas e intercâmbio de boas práticas sobre educação infantil e litigiosidade estrutural. Parágrafo único. Sempre que possível, as ações de formação deverão ser conjuntas e envolver magistrados, membros do Ministério Público, Defensoria Pública, gestores educacionais, equipes técnicas, Conselhos de Educação, Conselhos de Direitos, Conselhos Tutelares, Tribunais de Contas e demais atores envolvidos.",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Dispõe sobre a cessão de créditos de precatórios e sobre os ônus e as garantias incidentes sobre esses créditos, no âmbito do Poder Judiciário, institui a Central Nacional de Cessões de Créditos de Precatórios e revoga os arts. 42, 43, 44 e 45 da Resolução CNJ nº 303/2019.",
       "texto_truncated": false,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#2",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 1º Esta Resolução disciplina a cessão total ou parcial de créditos de precatórios e a constituição de ônus e garantias sobre esses créditos, no âmbito do Poder Judiciário, e institui a Central Nacional de Cessões de Créditos de Precatórios. § 1º O atendimento dos requisitos estabelecidos nesta Resolução constitui condição para a prática, pelos tribunais, dos seguintes atos: I - habilitação do cessionário; II - alteração da titularidade no requisitório; III - expedição de certidão do valor líquido disponível; IV - pagamento; V - baixa; e VI - homologação ou registro da cessão, do ônus ou da garantia. § 2º Esta Resolução não altera: I - a natureza judicial do crédito; II - a ordem constitucional de pagamento; III - a natureza comum ou alimentícia do precatório; IV - a parcela superpreferencial; V - as constrições incidentes; VI - os destaques, incluídos os honorários advocatícios destacados; VII - as reservas; VIII - as retenções legais; IX - a competência do tribunal; ou X - os limites incidentes sobre o valor líquido disponível. § 3º As disposições desta Resolução relativas às entidades registradoras, aos sistemas de registro e ao registro eletrônico serão aplicadas em conformidade com a legislação e com a regulamentação expedida pelo Banco Central do Brasil, no âmbito de suas competências. Art. 2º Para os fins desta Resolução, considera-se: I - crédito de precatório: crédito judicial requisitado por precatório, de natureza comum ou alimentícia, sujeito ao regime constit",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#3",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "a) crédito de precatório, por cessão; ou b) direito sobre crédito judicial ainda não apresentado ao tribunal como precatório, nas hipóteses do art. 19; V - intermediário: a pessoa natural ou jurídica que atua, de forma remunerada, na cessão de crédito de precatório por meio: a) da aproximação das partes; b) da captação de cedentes; c) da assessoria comercial; ou d) da estruturação ou da negociação; VI - valor líquido disponível: a parcela do crédito disponível para cessão, após dedução, reserva ou destaque de: a) tributos; b) contribuições; c) honorários; d) penhoras; e) bloqueios; f) cessões anteriores; g) pagamentos parciais; h) preferências pessoais já satisfeitas; i) valores utilizados; j) depósitos já liberados; e k) outras constrições judiciais ou extrajudiciais, ou impedimentos judiciais ou extrajudiciais registrados. VII - entidade registradora: a pessoa jurídica que opera, em caráter principal ou acessório, sistema de registro de ativos financeiros e que é autorizada, na forma da regulamentação própria do Banco Central do Brasil, a manter registro eletrônico de créditos de precatórios e de sua cadeia de cessões, ônus e garantias; VIII - registro eletrônico da cessão, do ônus ou da garantia: o lançamento dos dados estruturados do evento em sistema de registro operado por entidade registradora, com os elementos definidos na regulamentação aplicável; e IX - comunicação à Central Nacional: o lançamento dos dados estruturados do evento na Central Nacional de Cessões de Cr",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#4",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 3º O crédito de precatório poderá ser objeto de cessão total ou parcial, observados: I - o valor líquido disponível; II - a preservação da natureza do crédito; III - a ordem cronológica; IV - as preferências pessoais não transferíveis ao cessionário; e V - as demais limitações previstas nesta Resolução. § 1º O disposto no caput abrange o crédito de natureza comum ou alimentícia, inclusive o decorrente de relação trabalhista, previdenciária, remuneratória ou indenizatória. § 2º Não será admitida a cessão quando houver decisão judicial que impeça a transferência do crédito.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#5",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "§ 3º Equipara-se à cessão de crédito de precatório a transferência do crédito ou de fração dele a título de: I - integralização ou subscrição de cotas ou ações; II - conferência de bens; III - permuta; IV - dação em pagamento; V - contribuição ao capital; VI - cisão que destaque o crédito; ou VII - negócio equivalente que produza efeito translativo. § 4º Não produzirá efeitos perante o tribunal a cessão, o ônus, a garantia ou a cláusula de negócio jurídico que tenha por objeto: I - expectativa de crédito; II - benefício futuro; III - prestação vincenda não requisitada; IV - direito personalíssimo em si considerado; V - crédito judicial não liquidado; ou VI - valor não abrangido por precatório apresentado ao tribunal. Art. 4º O cessionário não sucede o beneficiário originário nas prerrogativas pessoais previstas no art. 100, §§ 2º e 3º, da Constituição Federal. § 1º A cessão de crédito: I - não autoriza pagamento fora da ordem cronológica; II - não antecipa a exigibilidade do precatório; III - não afasta a incidência das normas constitucionais, legais e regulamentares aplicáveis ao pagamento; IV - não convalida vícios; V - não amplia o alcance do crédito; e VI - não afasta exceções, defesas, impugnações, compensações e retenções oponíveis ao cedente, nos termos da legislação aplicável. § 2º A cessão alcança exclusivamente o valor líquido disponível do crédito ou da fração cedida. § 3º Aplicam-se à cessão de honorários advocatícios destacados em precatório, no que couber, as di",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#6",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 6º A produção de efeitos da cessão de crédito de precatório perante o tribunal dependerá do cumprimento cumulativo dos seguintes requisitos: I - lavratura de escritura pública de cessão de crédito; II - comunicação notarial de negociação, quando cabível; III - registro eletrônico da cessão em entidade registradora; IV - comunicação à Central Nacional de Cessões de Créditos de Precatórios; V - comunicação dos dados estruturados à entidade devedora, nos termos do art. 100, § 14, da Constituição Federal; e VI - homologação pelo tribunal competente. § 1º A falta de cumprimento dos requisitos previstos no caput, até que seja suprida, impedirá: I - a alteração da titularidade do crédito no requisitório; II - a habilitação do cessionário; III - o lançamento da cessão, no requisitório ou na Central Nacional, como cessão homologada pelo tribunal;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#7",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "IV - o pagamento ao cessionário; V - a expedição de certidão do valor líquido disponível em nome do cessionário; ou VI - a baixa do crédito cedido no requisitório. § 2º A cessão formalizada por instrumento particular não acarreta, por si só, a nulidade civil abstrata do negócio celebrado entre particulares, mas impede sua eficácia no regime judicial e administrativo de processamento e pagamento de precatórios. § 3º A comunicação de que trata o inciso V do caput considera-se cumprida com a disponibilização dos dados estruturados à entidade devedora por meio de perfil próprio de acesso, peticionamento eletrônico, intimação eletrônica ou interoperabilidade de sistemas, conforme disciplina técnica aprovada pelo Conselho Nacional de Justiça. § 4º O disposto no § 3º não afasta a disciplina própria do órgão de representação judicial da entidade devedora, quando houver. Art. 7º Quando o cedente for entidade beneficente, filantrópica, sem fins lucrativos ou pessoa jurídica que desempenhe atividade de interesse público, a cessão, a promessa de cessão, a transferência de posição processual, a cessão de direito litigioso, o contrato de participação econômica ou o instrumento equivalente será instruído com: I - a comprovação dos poderes de representação; II - a autorização do órgão estatutário competente, quando exigida pelo estatuto ou pela natureza do ato; III - a demonstração do preço ajustado, do deságio, da forma de pagamento e da destinação econômica dos recursos; IV - a declaração ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#8",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 8º A escritura pública de cessão de crédito de precatório conterá, em linguagem clara: I - a identificação: a) do precatório, do processo de origem e do juízo da execução; b) do tribunal competente; c) da entidade devedora; d) do cedente, do cessionário e, quando admitidos, de seus representantes; e) do intermediário, quando houver, com as informações previstas no art. 51; e f) do identificador eletrônico único do crédito ou da fração cedida; II - os dados do crédito: a) o valor atualizado, com a data-base da atualização e a fonte oficial da informação; e b) o valor líquido disponível, com a indicação resumida: 1. das reservas de honorários e dos destaques; 2. das penhoras, dos bloqueios e das demais constrições; 3. das cessões anteriores e das recessões; 4. dos pagamentos parciais e dos depósitos disponibilizados; 5. das utilizações do crédito; e 6. das demais deduções; e",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#9",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "III - a situação jurídica do crédito, com a indicação: a) da cadeia de cessões, recessões e sucessões desde o beneficiário originário, quando houver, e das habilitações; b) das constrições de que trata o inciso II, alínea \"b\", item 2, do caput, com a identificação do processo ou do procedimento de origem e da situação de cada ato; e c) das controvérsias conhecidas sobre a titularidade ou a disponibilidade do crédito; IV - o percentual, a fração ou o valor cedido, com a conversão do valor fixo em percentual do valor líquido disponível na data do negócio, na hipótese de cessão em valor determinado; V - as condições econômicas do negócio: a) o preço ajustado; b) o valor econômico efetivamente negociado; c) o deságio, em valor absoluto e em percentual; e d) a forma e a data de pagamento do preço ao cedente; VI - a declaração de que o preço será pago em conta de titularidade do cedente ou de seu representante com poderes especiais para receber e dar quitação, ressalvada hipótese excepcional justificada e consignada na escritura, sujeita a análise reforçada; VII - a declaração de ciência do cedente quanto: a) à natureza do negócio; b) ao valor atualizado do crédito e ao valor líquido disponível; c) à fração cedida; d) ao deságio, ao preço ajustado e à forma de pagamento; e) à perda econômica correspondente à cessão; e f) à possibilidade de aguardar o pagamento ordinário ou, quando cabível, de celebrar acordo direto com a entidade devedora ou utilizar o crédito em hipóteses constitu",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#10",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "VI - a remuneração fixa do intermediário, quando houver; e VII - o valor líquido a ser recebido pelo cedente. § 4º Na cessão a cessionário profissional, a escritura pública conterá: I - a identificação do beneficiário final e, quando houver, do administrador, do gestor, do custodiante e do consultor; e II - a declaração sobre a existência de vínculo societário, de relação de parte relacionada ou de interesse econômico entre o cessionário, seus prestadores de serviço, o cedente e os intermediários. § 5º Na hipótese prevista no art. 3º, § 3º, a escritura pública conterá: I - o valor atribuído ao crédito ou à fração transferida; II - o critério e a data-base da avaliação; III - a diferença entre o valor atribuído e o valor líquido disponível; e IV - a classe ou subclasse de cotas ou a participação societária recebida pelo transmitente. § 6º Na cessão gratuita, a escritura pública indicará a declaração e o recolhimento do tributo incidente ou a hipótese de isenção, imunidade ou não incidência. § 7º Na hipótese de impossibilidade técnica ou de acesso, devidamente justificada, de realização da consulta prevista no inciso IX, alínea “a”, do caput, a escritura pública não produzirá efeitos perante o tribunal enquanto não for ratificada ou complementada a informação faltante. Art. 9º A qualificação notarial da titularidade compreende a análise da cadeia de cessões, recessões e sucessões, dos poderes de representação e dos demais documentos apresentados, e a verificação: I - da legitim",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
         "tema_servidor_remuneracao"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
@@ -131,21 +240,402 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#6",
-      "data": "2026-11-16",
+      "id": "DJ274_2026#11",
+      "data": "2026-11-17",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "N. 0009413-56.2026.2.00.0000 - PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - A: TYCIANE VIEIRA LOPES. Adv(s).: CE42481 - QUEZIA GOMES SANTOS. A: QUEZIA GOMES SANTOS. Adv(s).: CE42481 - QUEZIA GOMES SANTOS. A: CANDICE MAIA SOARES DE ALMEIDA. Adv(s).: CE42481 - QUEZIA GOMES SANTOS. A: HERMANO JUCA GUIMARAES GARCIA. Adv(s).: CE42481 - QUEZIA GOMES SANTOS. R: FUNDAÇÃO CARLOS CHAGAS. Adv(s).: Nao Consta Advogado. R: TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ - TJCE. Adv(s).: Nao Consta Advogado. Conselho Nacional de Justiça Autos: PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - PCA 0009413-56.2026.2.00.0000 Requerente: QUÉZIA GOMES SANTOS E OUTROS Requerido: TRIBUNAL DE JUSTIÇA DO ESTADO DO ESTADO DO CEARÁ E FUNDAÇÃO CARLOS CHAGAS DECISÃO TERMINATIVA Trata-se de Procedimento de Controle Administrativo (PCA), com pedido liminar, formulado por Quezia Gomes Santos, Candice Maia Soares de Almeida, Hermano Jucá Guimarães Garcia e Tyciane Vieira Lopes, em face do Tribunal de Justiça do Estado do Ceará (TJCE) e da Fundação Carlos Chagas (FCC), no qual questionam a atribuição de pontuação zero aos certificados de pós-graduação lato sensu apresentados na etapa de avaliação de títulos do concurso público regido pelo Edital nº 01/2026, destinado ao provimento de cargos do Poder Judiciário cearense. Sustentam, em síntese, que os certificados apresentados atendem aos requisitos previstos no edital e que a ausência de motivação individualizada para o indeferimento dos títulos comprometeu o exercício efetivo ",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "II - captação indevida; III - pagamento do preço em conta de terceiro, fora da hipótese excepcional prevista no art. 8º, caput, inciso VI; IV - deságio estatisticamente atípico; V - conflito de interesses; ou VI - incompreensão relevante do negócio. Parágrafo único. Nas hipóteses previstas no caput, o tabelião comunicará a inconsistência à Central Nacional de Cessões de Créditos de Precatórios, sem prejuízo do disposto no art. 60. Art. 15. Na cessão de crédito de precatório de natureza alimentícia, nos termos do art. 100, § 1º, da Constituição Federal, o tabelião certificará que a cessão abrange apenas o crédito requisitado e disponível. Art. 16. A escritura pública de cessão de crédito de precatório será lavrada: I - por tabelião de notas competente em razão do domicílio do cedente ou do cessionário, nos atos notariais eletrônicos ou híbridos realizados por meio do e-Notariado, observadas as demais normas da Corregedoria Nacional de Justiça; ou II - por tabelião de notas perante o qual as partes compareçam fisicamente na circunscrição delegada, nos atos integralmente presenciais. § 1º O domicílio, a sede ou o local de atuação de procurador, intermediário, assessor, consultor ou outro terceiro não serão considerados para a determinação da competência notarial. § 2º A escritura pública indicará o fundamento da competência do tabelião para a lavratura. § 3º Na cessão realizada por cedente pessoa natural não profissional de que trata o art. 11, a escritura pública conterá declar",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#12",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "CAPÍTULO V DA INEFICÁCIA DA CESSÃO DE CRÉDITO DE PRECATÓRIO A ADVOGADO EM SITUAÇÃO DE CONFLITO DE INTERESSES",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#13",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 18. Não produzirá efeitos perante o tribunal a cessão de crédito de precatório a advogado que represente ou tenha representado o cedente, em relação ao crédito cedido: I - no processo de conhecimento; II - no cumprimento de sentença; III - na execução; IV - no procedimento de precatório; ou V - em acordo direto. § 1º O disposto no caput aplica-se também à cessão: I - à sociedade de advogados de que participe o advogado; II - a advogado integrante do mesmo escritório ou estrutura profissional; III - a empresa, fundo, entidade registradora, veículo de investimento ou pessoa jurídica da qual o advogado seja sócio, administrador, representante, beneficiário final ou interessado econômico; e IV - a interposta pessoa. § 2º O disposto no caput aplica-se também à cessão a advogado que atue como intermediário, consultor, captador, procurador ou assessor de qualquer das partes na operação de cessão. § 3º O disposto neste artigo não se aplica ao crédito autônomo de honorários advocatícios de titularidade do advogado destacado no precatório ou reconhecido no requisitório. § 4º A escritura pública conterá declaração expressa das partes e do tabelião de inexistência das hipóteses previstas neste artigo. § 5º Identificada hipótese prevista neste artigo, o tribunal indeferirá a homologação ou determinará o saneamento da cadeia de cessões.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#14",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 19. O negócio jurídico sobre crédito judicial anterior à apresentação do precatório será informado nos autos do processo judicial correspondente, no prazo de cinco dias, contado da data de assinatura do respectivo instrumento. § 1º Para fins desta Resolução, considera-se negócio jurídico sobre crédito judicial anterior à apresentação do precatório aquele que tenha por objeto: I - direito litigioso; II - crédito judicial em formação; III - crédito reconhecido em título executivo ainda não apresentado ao tribunal como precatório; IV - expectativa de crédito; ou V - resultado econômico de processo judicial. § 2º Incluem-se entre os negócios jurídicos de que trata o § 1º: I - a cessão; II - a promessa de cessão; III - a opção; IV - o mandato; V - a procuração em causa própria; VI - a cessão fiduciária; VII - o contrato de participação econômica; VIII - a transferência de posição processual; e",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#15",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "IX - o instrumento equivalente. § 3º Aplica-se ao negócio jurídico de que trata este artigo, no que couber, o disposto no art. 27, §§ 1º, 2º e 5º. Art. 20. O negócio jurídico de que trata o art. 19 não produzirá efeitos perante o tribunal, a entidade devedora ou o procedimento de pagamento do precatório. § 1º Para fins desta Resolução, antes da apresentação do precatório, não constitui cessão de crédito de precatório, garantia sobre precatório nem lastro apto a produzir efeitos perante o tribunal a aquisição, direta ou indireta, por cessionário profissional, de: I - direito litigioso; II - crédito judicial em formação; III - expectativa de crédito; IV - posição processual; ou V - resultado econômico de processo judicial. § 2º É vedado atribuir a crédito judicial ainda não apresentado ao tribunal como precatório: I - status de fração cedível; II - status de ativo registrado; III - status de garantia registrada; IV - identificador eletrônico único; ou V - posição apta a pagamento pela Central Nacional. § 3º A vedação prevista no § 2º não afasta a obrigatoriedade do registro de natureza informacional de que trata o art. 23, § 2º. § 4º A estruturação financeira de operações lastreadas em direito litigioso, crédito judicial em formação, expectativa de crédito ou posição processual: I - não vincula o tribunal, a entidade devedora ou o procedimento de pagamento de precatórios; e II - não dispensa a observância dos requisitos desta Resolução após a apresentação do precatório. Art. 21",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#16",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 26. Considera-se transferência indireta do resultado econômico a operação que, sem alterar a pessoa do credor ou do titular judicial registrado e sem constituir negócio sobre o próprio crédito, atribua a terceiro, no todo ou em parte, o resultado econômico de crédito de precatório ou de crédito judicial em formação contra a Fazenda Pública, inclusive: I - a alteração do controle ou do beneficiário final do credor ou do titular; II - a incorporação, a fusão ou a cisão de sociedade que controle, direta ou indiretamente, o credor ou o titular; III - a transferência ou a oneração de cotas de fundo de investimento ou de participação em sociedade ou em outro veículo, quando o fundo, a sociedade ou o veículo for constituído ou utilizado para deter o crédito ou tiver patrimônio preponderantemente composto por créditos de um mesmo precatório ou processo; IV - a emissão, pelo credor, pelo titular ou por sociedade que os controle, de valores mobiliários, títulos ou certificados cuja remuneração esteja vinculada ao resultado do crédito, sem a constituição de garantia sobre ele; ou V - a concessão de recursos, de crédito ou de garantia ao credor, ao titular ou à sociedade que os controle, cuja remuneração ou recuperação dependa, total ou preponderantemente, do resultado do crédito, sem a constituição de garantia sobre ele. § 1º A transferência indireta não se converterá em cessão, não dependerá de escritura pública e não alterará a titularidade judicial registrada. § 2º Não se consid",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#17",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 30. A constituição convencional de garantia ou de ônus sobre crédito de precatório ou fração dele somente produzirá efeitos perante o tribunal, a entidade devedora e o procedimento de pagamento se observados os requisitos previstos nesta Resolução. Parágrafo único. O disposto no caput aplica-se: I - aos seguintes instrumentos: a) garantia; b) caução; c) penhor; d) cessão fiduciária; e) alienação fiduciária de direito; f) promessa de garantia; g) mandato irrevogável; e h) procuração em causa própria; e II - a qualquer negócio que, ainda que não denominado cessão, tenha por finalidade onerar, vincular, reservar, garantir, transferir economicamente ou atribuir a terceiro direito sobre o crédito de precatório ou sobre o resultado de seu pagamento, ressalvado o disposto nos arts. 26 a 29. Art. 31. A garantia ou o ônus convencional de que trata o art. 30 será: I - formalizado por escritura pública; II - registrado eletronicamente; III - comunicado à Central Nacional de Cessões de Créditos de Precatórios; e IV - submetido à homologação pelo tribunal competente. Parágrafo único. A escritura pública de constituição da garantia ou do ônus indicará, no mínimo: I - a identificação: a) do precatório; b) do titular judicial registrado; e c) do beneficiário da garantia; II - a obrigação garantida e o valor máximo garantido; III - a fração ou o percentual onerado; IV - o prazo de vigência e as condições de execução; V - os ônus anteriores e as constrições existentes; VI - o valor líquid",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#18",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "CAPÍTULO IX DA CENTRAL NACIONAL DE CESSÕES DE CRÉDITOS DE PRECATÓRIOS, DA COMUNICAÇÃO NOTARIAL E DO REGISTRO ELETRÔNICO",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#19",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 35. Fica instituída a Central Nacional de Cessões de Créditos de Precatórios, módulo nacional de uso obrigatório, vinculada ao Sistema Nacional de Precatórios e Requisições de Pequeno Valor (SisPreq), ou sistema que eventualmente vier a substituí-lo, e sob governança do Conselho Nacional de Justiça, com participação dos tribunais. § 1º A Central Nacional consolidará, em ambiente eletrônico nacional: I - a cadeia de titularidade dos créditos de precatórios; e II - os eventos de: a) negociação; b) escritura; c) registro eletrônico; d) homologação; e) anotação; f) cessão; g) recessão; h) ônus; i) garantias; j) constrições; k) pagamento; l) baixa; m) retificação; n) cancelamento; e o) inconsistências. § 2º A Central Nacional poderá conter indicação do crédito ou a fração, entre outros, como: I - livre para negociação; II - em negociação comunicada; III - com escritura lavrada;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#20",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "IV - com registro eletrônico pendente de homologação; V - com cessão homologada ou anotada; VI - onerado; VII - dado em garantia; VIII - parcialmente pago; IX - pago; X - bloqueado; XI - suspenso; XII - cancelado; XIII - retificado; ou XIV - com inconsistência pendente de saneamento. § 3º A classificação do crédito ou da fração como onerado ou dado em garantia, nos termos dos incisos VI e VII do § 2º, impedirá, quando incompatíveis com o ônus regularmente registrado: I - a cessão; II - a garantia; III - a utilização; IV - o pagamento; V - a baixa; e VI - o novo registro. § 4º Sem prejuízo do disposto no § 3º, a Central Nacional impedirá a cessão, a reserva, a garantia, o ônus ou o registro em duplicidade sobre o mesmo crédito ou a mesma fração, mediante alertas automáticos e bloqueios operacionais compatíveis com o status do crédito. § 5º Os tribunais que utilizarem o SisPreq operarão diretamente pela Central Nacional de Cessões de Créditos de Precatórios. § 6º Os tribunais que mantiverem sistemas próprios assegurarão interoperabilidade com o SisPreq e com a Central Nacional, nos prazos e nos padrões técnicos definidos pelo Conselho Nacional de Justiça. Art. 36. Os tabeliães e as entidades registradoras terão acesso às informações necessárias ao desenvolvimento de suas atividades, observada a legislação de proteção de dados pessoais. § 1º O Conselho Nacional de Justiça definirá a especificação técnica do acesso de que trata o caput. § 2º Os dados sensíveis serão preservados e",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#21",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "I - não transfere a titularidade do crédito; II - não autoriza pagamento; III - não substitui a escritura pública; IV - não dispensa o registro eletrônico; e V - não bloqueia por prazo indefinido a circulação do crédito. § 4º Expirado o prazo legal sem a lavratura da escritura pública, a reserva informativa será baixada, preservado o histórico para auditoria. Art. 38. Lavrada a escritura pública, o tabelião transmitirá, no prazo de três dias úteis, seus dados estruturados à Central Nacional e à entidade registradora, observados os padrões técnicos definidos pelo Conselho Nacional de Justiça e pela regulamentação própria do registro eletrônico. Parágrafo único. A escritura pública e o registro eletrônico serão vinculados ao identificador eletrônico único do precatório ou da fração cedida ou onerada. Art. 39. O registro eletrônico: I - não altera, por si só, a titularidade judicial do precatório; II - não substitui a comunicação ao tribunal e à entidade devedora, nem a homologação judicial da cessão, do ônus ou da garantia; e III - não autoriza pagamento ao cessionário ou ao beneficiário de garantia. § 1º A entidade registradora: I - exercerá controle de unicidade, rastreabilidade, ordem temporal, integridade da cadeia e prevenção de duplicidade; e II - comunicará as inconsistências. § 2º Na hipótese de divergência entre os dados da escritura pública, da Central Nacional, da entidade registradora ou do processo judicial, o registro receberá status de inconsistência pendente de ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#22",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 42. Compete ao Presidente do tribunal, ou a magistrado por ele designado, homologar a cessão, o ônus ou a garantia sobre crédito de precatório. § 1º A homologação de que trata o caput será realizada diretamente na Central Nacional de Cessões de Créditos de Precatórios. § 2º Nos precatórios já apresentados ao tribunal, a cessão, o ônus ou a garantia somente serão lançados no requisitório após a homologação de que trata o caput. Art. 43. Antes da homologação da cessão, do ônus ou da garantia, o Presidente do tribunal ou o magistrado por ele designado, nos termos do art. 42, verificará: I - a conformidade com os requisitos previstos nesta Resolução; II - a existência de escritura pública válida; III - o registro eletrônico;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#23",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "IV - a compatibilidade com o valor líquido disponível; V - a regularidade da cadeia de titularidade; e VI - a inexistência de impedimento, duplicidade, bloqueio ou inconsistência grave. § 1º A análise de que trata o caput restringe-se à verificação de conformidade para fins de eficácia perante o regime de precatórios. § 2º O disposto no § 1º não afasta a remessa ao juízo competente das questões controvertidas que dependam de decisão jurisdicional. § 3º Na hipótese de inconsistência sanável, o tribunal intimará o interessado para regularização. § 4º Na hipótese de indício de fraude, coação, simulação, conflito de titularidade, cessão duplicada, violação das regras desta Resolução ou dúvida objetiva quanto à disponibilidade do crédito, o tribunal poderá: I - suspender a eficácia da cessão, do ônus ou da garantia até o esclarecimento; II - indeferir a homologação; ou III - remeter a controvérsia ao juízo competente. Art. 44. A cessão, o ônus ou a garantia serão ineficazes perante o tribunal quando: I - recaírem sobre: a) fração indisponível ou penhorada; ou b) crédito já cedido, quitado, utilizado para outros fins, bloqueado ou baixado; ou II - houver: a) violação das regras de competência notarial, de que trata o art. 16, § 5º; b) descumprimento dos requisitos previstos no art. 6º, caput, incisos I a V, ou no art. 31, caput, incisos I a III; c) conflito de representantes; d) simulação; e) abuso; f) ausência de manifestação de vontade informada; g) comunicação notarial anterior ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#25",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "II - financiador; III - fundo de investimento; IV - companhia securitizadora; V - sociedade de propósito específico; VI - veículo de securitização; VII - entidade de investimento coletivo; e VIII - estrutura equivalente. Art. 51. A atuação de intermediário em cessão de crédito de precatório, sob qualquer forma, será declarada expressamente na escritura pública e comunicada à Central Nacional, com a indicação: I - da sua identificação completa; II - do vínculo com as partes; III - da forma e do valor da remuneração; IV - do responsável pelo pagamento da remuneração; e V - do impacto econômico sobre o valor líquido recebido pelo cedente, quando houver. § 1º O tabelião assegurará a correta identificação dos dados do intermediário na escritura pública, inclusive quanto aos documentos fiscais, às retenções, aos recolhimentos ou aos repasses tributários decorrentes da atividade remunerada, quando aplicável. § 2º A ausência de informações do intermediário na escritura pública será considerada irregularidade quando comprometer: I - a manifestação de vontade informada; II - a identificação do beneficiário econômico; III - a transparência do preço ou da remuneração; IV - a cadeia de titularidade; V - a rastreabilidade da operação; ou VI - a segurança do pagamento. Art. 52. O intermediário não poderá: I - receber diretamente valores do precatório ou da negociação; II - indicar conta de pagamento; III - receber quitação; ou IV - praticar ato que substitua a manifestação pessoal e informa",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#26",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 55. O mercado secundário de cessão de créditos de precatórios será controlado pela cadeia nacional de: I - escrituras públicas; II - registros eletrônicos; III - comunicações à Central Nacional; e IV - homologações judiciais.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#27",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "§ 1º Cada nova cessão observará integralmente os requisitos desta Resolução. § 2º Nas cessões sucessivas entre cessionários profissionais, poderão ser adotadas rotinas eletrônicas simplificadas de conferência, desde que preservados: I - a escritura pública; II - o registro eletrônico; III - a comunicação à Central Nacional; IV - a homologação judicial; e V - a rastreabilidade integral. Art. 56. O microfracionamento do precatório será objeto de controle judicial, observado o caso concreto. § 1º O tribunal poderá negar eficácia, suspender ou exigir saneamento de cessão parcial que resulte em: I - fracionamento artificial do crédito; II - pulverização abusiva da titularidade; III - criação de frações economicamente irrisórias; ou IV - multiplicação de titulares em escala incompatível com a gestão, o controle, o pagamento e a baixa do precatório. § 2º A cláusula de controle não se aplica às hipóteses em que o fracionamento decorra de causa jurídica legítima, como: I - sucessão hereditária; II - penhora; III - reserva de honorários; IV - cessão de saldo remanescente; V - divisão entre litisconsortes; VI - pagamento parcial; VII - destaque regularmente reconhecido; ou VIII - outra causa admitida pelo tribunal competente.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#28",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 57. A Central Nacional manterá base pública de referência estatística, com dados agregados e anonimizados sobre cessões de créditos de precatórios. § 1º A base de que trata o caput conterá, quando possível, informações sobre: I - o tribunal; II - a entidade devedora; III - a natureza do crédito; IV - a faixa de valor; V - o período; VI - o volume de cessões; VII - o percentual médio de deságio; e VIII - a dispersão estatística. § 2º É vedada a divulgação pública individualizada de: I - número de inscrição no Cadastro de Pessoas Físicas (CPF); II - número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ); III - nome do cedente; IV - dados bancários; V - dados sensíveis; VI - documentos pessoais; ou VII - informações que permitam exploração indevida de vulnerabilidade patrimonial ou informacional. Art. 58. O preço individual, a escritura pública, os documentos e a cadeia completa permanecerão acessíveis: I - aos tribunais;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#29",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "II - a representante sem poderes específicos; ou III - em conta incompatível com o titular judicial registrado. § 2º A conta bancária para recebimento será cadastrada e validada perante o tribunal competente. § 3º Na hipótese de pluralidade de titulares decorrente de cessão parcial, sucessão, penhora, honorários, ônus, garantia ou outro destaque, os valores serão disponibilizados individualmente. § 4º Efetuado o pagamento do precatório ao cessionário, este comunicará ao cedente a data e o valor recebidos em razão da fração cedida, com comprovante suficiente para fins fiscais, no prazo de cinco dias, contado da data do recebimento. § 5º O disposto no § 4º não afasta as obrigações tributárias de cada parte nem a responsabilidade da fonte pagadora, quando aplicável. Art. 62. Será gerada baixa eletrônica na Central Nacional, com preservação do histórico, na hipótese de: I - pagamento total ou parcial; II - utilização; III - cancelamento; IV - retificação; V - extinção; ou VI - outra forma de redução do saldo disponível. § 1º A baixa impedirá nova cessão, garantia, ônus ou negociação da parcela paga, utilizada, cancelada, baixada ou tornada indisponível. § 2º A baixa será comunicada à entidade registradora responsável pelo evento correspondente, observados os padrões técnicos definidos pelo Conselho Nacional de Justiça e pelo Banco Central do Brasil. § 3º A baixa preservará: I - a data e a hora; II - o responsável; III - o documento de suporte; IV - o motivo; e V - a comunicação e",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#30",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 63. Os emolumentos notariais relativos à escritura pública de cessão de crédito de precatório observarão a legislação local, as tabelas próprias e a atualização pelos tribunais competentes. § 1º Na hipótese de a legislação ou a tabela aplicável calcular os emolumentos com base no valor do negócio, será considerado o valor econômico efetivamente negociado ou a fração objeto da cessão. § 2º Na cessão parcial, não será considerado, para fins do disposto no § 1º, o valor total do precatório. § 3º Os custos de registro eletrônico e dos serviços prestados pelas entidades registradoras observarão a regulamentação própria do Banco Central do Brasil.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#31",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 64. As cessões de créditos de precatórios e os demais negócios jurídicos de cessão anterior à apresentação do precatório, os negócios equiparados e os ônus e garantias convencionais celebrados antes da vigência desta Resolução serão regidos, quanto à forma do instrumento, aos requisitos aplicáveis e aos respectivos efeitos, pelas normas vigentes ao tempo de sua celebração, vedada a imposição de exigências nelas não previstas como condição de validade ou eficácia. § 1º A escritura pública será obrigatória para as cessões celebradas após a entrada em vigor desta Resolução e, quanto às anteriores, quando já exigida pelas normas vigentes ao tempo de sua celebração, inclusive em regulamento local editado com fundamento na Resolução CNJ nº 303/2019. § 2º A regra prevista no caput aplica-se aos efeitos das cessões de créditos de precatórios e dos demais negócios jurídicos nele referidos perante o tribunal e a entidade devedora, inclusive quanto: I - à habilitação do cessionário; II - à sucessão processual;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#32",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "III - à ordem de preferência entre negócios sobre a mesma fração; e IV - ao pagamento. § 3º O disposto neste artigo não afasta o controle, pelo Poder Judiciário, da regularidade dos negócios jurídicos, observadas a respectiva competência e as normas aplicáveis ao tempo de sua celebração. § 4º Os instrumentos particulares relativos às cessões de crédito celebradas antes da entrada em vigor desta Resolução, inclusive nas hipóteses do art. 19, que ainda não tenham sido apresentados no processo judicial respectivo, deverão ser juntados aos autos pelo cedente ou pelo cessionário no prazo de dez dias, contado da entrada em vigor desta Resolução, sob pena de não reconhecimento da eficácia da cessão perante o tribunal, a critério do juízo competente, mediante decisão fundamentada e assegurado o contraditório, consideradas a comprovação da anterioridade do negócio e a justificativa para eventual apresentação intempestiva. § 5º As disposições deste artigo aplicam-se inclusive às novas cessões realizadas em cadeias sucessivas de crédito, ressalvadas as limitações de dados decorrentes das cessões precedentes não alcançadas por esta Resolução; § 6º A anterioridade do negócio pode ser provada por firma reconhecida, assinatura eletrônica qualificada, comunicação nos autos ou registro em títulos e documentos. Art. 65. O registro eletrônico e a homologação pelo tribunal exclusivamente pela Central Nacional serão exigidos a partir da data estabelecida em ato conjunto do Conselho Nacional de Ju",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#33",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "N. 0008835-93.2026.2.00.0000 - PEDIDO DE PROVIDÊNCIAS - A: ALACID COELHO SILVA. Adv(s).: AM3878 - ALACID COELHO SILVA. R: CARTÓRIO DO OFÍCIO ÚNICO DA COMARCA DE MANICORÉ - AM. Adv(s).: Nao Consta Advogado. R: CORREGEDORIA-GERAL DA JUSTIÇA DO ESTADO DO AMAZONAS - CGJAM. Adv(s).: Nao Consta Advogado. PODER JUDICIÁRIO CONSELHO NACIONAL DE JUSTIÇA PROCESSO: 0008835-93.2026.2.00.0000 CLASSE: PEDIDO DE PROVIDÊNCIAS POLO ATIVO:ALACID COELHO SILVA POLO PASSIVO: CARTÓRIO DO OFÍCIO ÚNICO DA COMARCA DE MANICORÉ - AM e outros RECURSO ADMINISTRATIVO. PEDIDO DE PROVIDÊNCIAS. SERVENTIA EXTRAJUDICIAL. CONTROVÉRSIA DOMINIAL E REGISTRAL EM APURAÇÃO PERANTE A CORREGEDORIA ESTADUAL. ALEGADO DESCUMPRIMENTO DE DETERMINAÇÕES CORREICIONAIS. PROVIDÊNCIAS INSTRUTÓRIAS EFETIVAMENTE ADOTADAS. AUSÊNCIA DE OMISSÃO INSTITUCIONAL DEMONSTRADA. RENOVAÇÃO DE INTIMAÇÕES E SANEAMENTO PROCEDIMENTAL. ATOS ORDINÁRIOS DA ATIVIDADE CORREICIONAL. IMPOSSIBILIDADE DE CONVERTÊ-LOS EM FUNDAMENTO PARA INTERVENÇÃO CORREICIONAL EXTRAORDINÁRIA. QUESTIONAMENTO DA IMPARCIALIDADE DE MAGISTRADO AUXILIAR. AUSÊNCIA DE ELEMENTOS OBJETIVOS. PEDIDOS DE INSTAURAÇÃO DE PROCEDIMENTO DISCIPLINAR, AFASTAMENTO PREVENTIVO DE DELEGATÁRIA E BLOQUEIO REGISTRAL. INSUFICIÊNCIA DE ELEMENTOS CONCRETOS. DESPROPORCIONALIDADE DAS MEDIDAS PRETENDIDAS. COMPETÊNCIA ORIGINÁRIA E CONCORRENTE DO CNJ. INEXISTÊNCIA DE DEVER DE INTERVENÇÃO SUBSTITUTIVA. INTERESSE INDIVIDUAL PREDOMINANTE. ENUNCIADO ADMINISTRATIVO Nº 17/2018 DO CNJ. AUSÊNCIA DE GRAVAME RECURSAL ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     }
   ],
-  "total_matched": 5
+  "total_matched": 32
 }

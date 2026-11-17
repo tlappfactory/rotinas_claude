@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-17T00:01:17Z",
+  "run_utc": "2026-11-17T14:46:17Z",
   "lookback_days": 4,
   "desde": "2026-11-13",
   "ate": "2026-11-17",
@@ -23,9 +23,9 @@
     "dje_cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-      "itens_vistos": 2,
+      "itens_vistos": 6,
       "fora_da_janela": 0,
-      "selecionados": 1,
+      "selecionados": 5,
       "probe": [
         {
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
@@ -37,47 +37,120 @@
         {
           "edicao": {
             "ano": "2026",
-            "numero": "273",
-            "data": "2026-11-16",
-            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+            "numero": "274",
+            "data": "2026-11-17",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
           }
         },
         {
           "pdf_http": 200,
-          "bytes": 572246
+          "bytes": 898227
         },
         {
-          "chars_texto": 49845,
-          "blocos_tematicos": 2
+          "chars_texto": 463774,
+          "blocos_tematicos": 6
         }
       ],
-      "edicao": "273/2026",
-      "data_edicao": "2026-11-16"
+      "edicao": "274/2026",
+      "data_edicao": "2026-11-17"
     }
   },
   "articles": [
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ273_2026#2",
-      "data": "2026-11-16",
+      "id": "DJ274_2026#1",
+      "data": "2026-11-17",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 273/2026",
-      "resumo": "V - matriz de responsabilidades dos órgãos municipais, estaduais, distritais e federais envolvidos; VI - indicação das unidades a serem construídas, ampliadas, reestruturadas, municipalizadas, conveniadas ou retomadas; VII - previsão de profissionais da educação, formação, carreira, gestão e condições de trabalho; VIII - padrões de qualidade, infraestrutura, acessibilidade, segurança, alimentação, transporte, saneamento e materiais pedagógicos; IX - mecanismos de transparência, participação social, controle por conselhos e canais de escuta das famílias e da comunidade escolar; X - indicadores de acompanhamento, revisão periódica e prestação de contas; XI - estabelecimento de responsabilidades para todas as políticas públicas envolvidas, notadamente as Secretarias da Educação, Secretarias da Fazenda, Secretarias de Obras, entre outras, sem prejuízo da coordenação pelo Chefe do Poder Executivo local; e XII - fixação de prazos razoáveis para o atendimento de toda a demanda manifesta e o atingimento das metas e objetivos do Plano Nacional e do Plano Municipal de Educação. Art. 8º Nas atuações judicial e extrajudicial que busquem a ampliação de vagas pelo Poder Executivo, os órgãos do Poder Judiciário e do Ministério Público deverão observar o cumprimento dos padrões nacionais de qualidade, conforme normativa vigente, observando-se, especialmente: I - a adequação de espaços, mobiliários, profissionais, alimentação escolar, acessibilidade, segurança, saneamento, abastecimento de ág",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "Art. 7º Incluídos o número e a data, o Gabinete da Presidência providenciará a assinatura pelo Presidente do CNJ e encaminhará o ato à Secretaria Processual, que promoverá sua publicação no Diário da Justiça eletrônico do CNJ (DJe/CNJ), e à unidade responsável do Departamento de Gestão Estratégica para disponibilização no portal do CNJ.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "planejamento_estrategico"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#3",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "serem resguardados o interesse público e as necessidades da Administração do TJSP, nos termos do voto do Relator. A Conselheira Kátia Arruda apresentou ressalva. Presidiu o julgamento o Ministro Edson Fachin. Plenário Virtual, 13 de novembro de 2026. Votaram os Excelentíssimos Conselheiros Edson Fachin, Benedito Gonçalves, Kátia Magalhães Arruda, Jaceguara Dantas, Andréa Cunha Esmeraldo, Paulo Régis Machado Botelho, Fabio Esteves, Ilan Presser, Noemia Porto, Silvio Amorim, Carlos Vinícius Alves Ribeiro, Marcello Terto, Daiane Nogueira de Lira e Rodrigo Badaró. Não votou, em razão de ausência justificada, o Conselheiro Ulisses Rabaneda. Conselho Nacional de Justiça Gabinete do Conselheiro Silvio Roberto Oliveira de Amorim Junior Autos: PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - 0001850-11.2026.2.00.0000 Requerente: ANA PAULA GONCALVES CALAZANS Requerido: TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO - TJSP RELATÓRIO 1. Trata-se de Procedimento de Controle Administrativo - PCA apresentado por Ana Paula Gonçalves Calazans contra o Tribunal de Justiça do Estado de São Paulo - TJSP, a objetivar o controle do ato administrativo que indeferiu o pedido de condição especial de trabalho, na modalidade de teletrabalho. 2. Na petição inicial (Id 6466250), a requerente informou que exerce o cargo de Assistente Social Judiciária e que ingressou no Tribunal em vaga reservada a pessoas com deficiência, em razão de deficiência congênita no membro superior direito. Sustentou que sua condição impõe",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ273_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "acessibilidade_inclusao",
-        "estatistica_pesquisa",
-        "orcamento_estrategia",
-        "selos_premios",
-        "transparencia_integridade"
+        "inclusao_diversidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#4",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "No âmbito do Poder Judiciário, a Resolução CNJ nº 401/2021 desenvolve esse marco ao disciplinar a Política de Acessibilidade e Inclusão. Entre outros parâmetros, prevê que a avaliação da deficiência, quando necessária, seja biopsicossocial e considere os impedimentos nas funções e estruturas do corpo, fatores socioambientais, psicológicos e pessoais, limitações no desempenho de atividades, riscos psicossociais no trabalho e restrições de participação. O conceito de barreiras acolhido pela norma citada (art. 3º, IV) engloba expressamente as barreiras nos transportes (alínea \"c\"), nas comunicações (alínea \"d\"), atitudinais (alínea \"e\") e tecnológicas (alínea \"f\"). Assim, a avaliação administrativa não pode restringir- se a peritos médicos, exigindo equipe multiprofissional e interdisciplinar apta a mensurar o impacto das barreiras ambientais e atitudinais no desempenho funcional da servidora. A norma também determina que os órgãos mantenham informações sobre necessidades de adaptação e acessibilidade e consultem periodicamente as pessoas com deficiência sobre medidas voltadas à sua plena inclusão no ambiente laboral. Essa disciplina permite distinguir dois elementos que não se confundem: o impedimento corporal e as barreiras com as quais ele interage. A estabilidade de uma deficiência congênita pode ser relevante para a compreensão clínica e funcional da situação, mas não autoriza, isoladamente, concluir pela inexistência de barreiras atuais, que dependem também das condições a",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade",
+        "riscos_projetos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#5",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "surja nova barreira após o ingresso no serviço público. Exigir fato novo de quem possui deficiência congênita e ingressou exatamente na vaga reservada à pessoa com deficiência configura discriminação indireta e viola a jurisprudência pacífica do CNJ, que veda a criação de exigências ou condicionantes não previstas na norma nacional. A jurisprudência do Conselho Nacional de Justiça repele a imposição, pelos tribunais, de condições restritivas ou requisitos não contemplados na Resolução CNJ nº 343/2020, como bem assentado no voto condutor do Conselheiro Richard Pae Kim: EMENTA: RECURSO ADMINISTRATIVO. PROCEDIMENTO DE CONTROLE ADMINISTRATIVO. TRIBUNAL DE JUSTIÇA DO ESTADO DO ACRE. MAGISTRADO. REGIME DE TELETRABALHO. PEDIDO DEFERIDO NA ORIGEM. DECISÃO MONOCRÁTICA. PERDA DO OBJETO. IMPOSIÇÃO DE CONDIÇÕES NÃO PREVISTAS NA RESOLUÇÃO CNJ N.º 343/2020. IMPOSSIBILIDADE. PARECER DA COMISSÃO PERMANENTE DE EFICIÊNCIA OPERACIONAL, INFRAESTRUTURA E GESTÃO DE PESSOAS. RECURSO CONHECIDO E PROVIDO. 1. Recurso administrativo contra a decisão que reconheceu a perda superveniente do objeto e julgou extinto o processo, considerando ter o Tribunal de Justiça do Estado do Acre (TJAC) deferido o pedido da magistrada para o teletrabalho com condições. 2. O objeto do recurso é analisar a decisão administrativa do TJAC, que impôs condicionantes não previstas na Resolução CNJ n.º 343/2020. 3. A pretensão veiculada nos autos encerra interesse de toda Magistratura nacional, na medida em que o próprio Conse",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ274_2026#6",
+      "data": "2026-11-17",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 274/2026",
+      "resumo": "trará benefícios à saúde da servidora (Id 6466252, p. 22), foi rejeitada pela Diretoria de Saúde em despacho sem qualquer fundamentação (Id 6466252, p. 24). 38. É nessa perspectiva que o TJSP deve reanalisar o pedido formulado pela requerente e, especialmente, à luz dos baldrames elencados no parecer elaborado pelo Comitê dos Direitos de Pessoas com Deficiência no âmbito Judicial (Id 6796322). 39. Com relação ao pedido de adaptações razoáveis formulado pela requerente, adoto igualmente a linha expositiva contida no parecer do Comitê (Id 6796322): [...] 3) Adaptações razoáveis e acessibilidade no trabalho presencial A inicial também sustenta que o ambiente presencial não dispõe de adaptações adequadas e qualifica a situação como discriminatória. Os elementos examinados, contudo, não permitem concluir que o TJSP tenha recusado adaptação razoável específica formalmente requerida. Segundo as informações da Diretoria da Saúde, os pleitos administrativos se concentraram no teletrabalho integral; consta, ainda, avaliação técnica desfavorável à adaptação de teclado mencionada pela servidora, por razões de ergonomia ocupacional (Id. 6531276, pp. 1-2). Essa constatação impede atribuir ao Tribunal, neste parecer, recusa comprovada de adaptação razoável ou conduta discriminatória. Não afasta, porém, o dever institucional de acessibilidade. Muito embora a requerente não tenha formalizado pedido individualizado prévio de adaptação de mobiliários, material de mesa e periféricos na origem, a",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ274_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     }
   ],
-  "total_matched": 1
+  "total_matched": 5
 }

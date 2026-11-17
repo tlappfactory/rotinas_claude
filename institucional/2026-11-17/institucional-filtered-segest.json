@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-17T00:01:18Z",
+  "run_utc": "2026-11-17T14:46:20Z",
   "lookback_days": 7,
   "desde": "2026-11-10",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 57,
+      "itens_vistos": 59,
       "fora_da_janela": 0,
       "selecionados": 1,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-10T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 44658,
-          "inicio": "[{\"id\":436368,\"date\":\"2026-11-16T20:07:55\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/tribunal-catarinense-participa-de-encontro-internacional-da-onu-sobre-prevencao-ao-extremismo-violento\\/\",\"title\":{\"rendered\":\"Tribunal catarinense participa de encontro internacional da ONU sobre preven\\u00e7\\u00e3o ao ext"
+          "bytes": 46218,
+          "inicio": "[{\"id\":436408,\"date\":\"2026-11-17T11:44:00\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/programa-do-cnj-para-troca-de-boas-praticas-entre-corregedorias-estreia-no-dia-23\\/\",\"title\":{\"rendered\":\"Programa do CNJ para troca de boas pr\\u00e1ticas entre corregedorias estreia no dia 23\"},\"excerpt\":{\"rendered\":\"<p>Pa"
         },
         {
           "amostra_titulos": [
+            "Programa do CNJ para troca de boas práticas entre corregedorias estreia no dia 23",
+            "Tribunais são mobilizados pelo CNJ para 21 dias de combate à violência contra a mulher",
             "Tribunal catarinense participa de encontro internacional da ONU sobre prevenção ao extremi",
             "Unidos pelo Marajó: Justiça do Trabalho doa alimentos para famílias afetadas pelas queimad",
             "Rede de assessores parlamentares do PJU, do MPU e da DPU se reúne no CNJ para alinhar atua",
-            "Saúde mental foi prioridade para 16 dos 27 grupos de fiscalização do socioeducativo em 202",
-            "CNJ pauta precatórios e revisões disciplinares em sessão extraordinária",
-            "Produção de alimentos une trabalho e segurança nas prisões"
+            "Saúde mental foi prioridade para 16 dos 27 grupos de fiscalização do socioeducativo em 202"
           ]
         }
       ]
