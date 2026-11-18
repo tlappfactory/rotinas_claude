@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-18T14:49:31Z",
+  "run_utc": "2026-11-18T21:17:39Z",
   "lookback_days": 7,
   "desde": "2026-11-11",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 42,
+      "itens_vistos": 45,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-11T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 21267,
-          "inicio": "[{\"id\":167953,\"date\":\"2026-11-18T09:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/lei-de-acesso-a-informacao-completa-15-anos-com-atuacao-do-stf-na-defesa-da-transparencia-publica\\/\",\"title\":{\"rendered\":\"Lei de Acesso \\u00e0 Informa\\u00e7\\u00e3o completa 15 anos com atua\\u00e7\\u00e3o "
+          "bytes": 22832,
+          "inicio": "[{\"id\":167985,\"date\":\"2026-11-18T18:04:25\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-declara-inconstitucional-reducao-dos-honorarios-de-procuradores-de-rondonia\\/\",\"title\":{\"rendered\":\"STF declara inconstitucional redu\\u00e7\\u00e3o dos honor\\u00e1rios de procuradores de Rond\\u00f4nia"
         },
         {
           "amostra_titulos": [
+            "STF declara inconstitucional redução dos honorários de procuradores de Rondônia",
+            "Fim da isenção de pena em crimes patrimoniais entre familiares vale a partir do julgamento",
+            "STF invalida lei de Mato Grosso que criou verbas indenizatórias para agentes públicos",
             "Lei de Acesso à Informação completa 15 anos com atuação do STF na defesa da transparência ",
             "Confira a pauta do STF desta quarta-feira (18)",
-            "Nota de pesar",
-            "STF inaugura escultura do Oxê de Xangô, símbolo da Justiça na tradição iorubá",
-            "Rede questiona no STF regras de Minas Gerais para contratação de artistas pela administraç",
-            "Projeto ‘Diálogos Acadêmicos’ debate no STF proteção à liberdade religiosa e combate ao ra"
+            "Nota de pesar"
           ]
         }
       ]
@@ -48,7 +48,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2621996,
+          "bytes": 2619809,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {
@@ -304,7 +304,7 @@
       "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1487",
       "titulo": "STJ — precedente qualificado ([verificar tipo na fonte]) nº 1487 — situação: Relevância reconhecida",
       "resumo": "Questão submetida a julgamento: Definir se incide contribuição previdenciária patronal sobre os valores pagos aos profissionais da educação básica a título de rateio ordinário dos recursos do FUNDEB/FUNDEF, nos termos do art. 26 da Lei n. 14.113/2020.",
-      "assuntos": "6060- Contribuição sobre a folha de salários, 6060- Contribuição sobre a folha de salários",
+      "assuntos": "6060- Contribuição sobre a folha de salários",
       "tese_firmada_fonte": "",
       "sinais_vinculantes": [
         "precedente qualificado"

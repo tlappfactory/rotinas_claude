@@ -3,9 +3,9 @@
   "total_xml_files": 961,
   "matched_articles": 35,
   "discarded_individual_acts": {
-    "total": 4,
+    "total": 6,
     "by_section": {
-      "DO2": 4
+      "DO2": 6
     }
   },
   "parse_errors": [],
@@ -1094,8 +1094,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 917,
+    "atos_com_texto_integral": 960,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-18T14:49:04Z"
+    "coletado_em": "2026-11-18T21:17:12Z"
   }
 }

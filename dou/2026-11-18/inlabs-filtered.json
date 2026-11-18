@@ -3,10 +3,10 @@
   "total_xml_files": 961,
   "matched_articles": 96,
   "discarded_individual_acts": {
-    "total": 52,
+    "total": 53,
     "by_section": {
       "DO1": 1,
-      "DO2": 51
+      "DO2": 52
     }
   },
   "parse_errors": [],
@@ -815,6 +815,64 @@
       "xml_file": "DO2_0279.xml"
     },
     {
+      "id": "portaria-trt5-n-981-de-16-de-novembro-de-2026-745012600",
+      "section": "DO2",
+      "pub_date": "18/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
+      "identifica": "PORTARIA TRT5 Nº 981, DE 16 DE NOVEMBRO DE 2026",
+      "orgao": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA TRT5 Nº 981, DE 16 DE NOVEMBRO DE 2026 A PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA QUINTA REGIÃO, no uso de suas atribuições legais e regimentais, tendo em vista o que consta no processo administrativo PROAD nº 10969/2026, resolve: DEFERIR a concessão de pensão estatutária por morte em favor de Maria Lúcia Santos Carvalho, na condição de companheira do instituidor SILVIO TRAVASSOS MARQUES DE OLIVEIRA, no percentual de 60% (sessenta por cento) dos proventos de aposentadoria percebidos pelo servidor falecido, com caráter vitalício e efeitos financeiros a contar de 22/08/2026, data do óbito, sem paridade, observados os critérios de reajustamento aplicáveis aos benefícios do Regime Geral de Previdência Social, com fundamento no art. 23, caput e § 4º, da Emenda Constitucional nº 103/2019, c/c os arts. 16, inciso I e §§ 3º a 5º, 74, inciso I, e 77, § 2º, inciso V, alínea \"c\", item 6, da Lei nº 8.213/1991, no art. 1º, inciso VI, da Portaria ME nº 424/2020, e no art. 40, § 8º, da Constituição Federal, c/c o art. 15 da Lei nº 10.887/2004. DEFERIR o pedido de isenção do imposto de renda incidente sobre os proventos da pensão estatutária, com fundamento no art. 6º, inciso XIV, da Lei nº 7.713/1988, considerando o Laudo Pericial nº 3856/2026 da Junta Médica Oficial deste Tribunal. IVANA MÉRCIA NILO DE MAGALDI",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "72",
+      "edition": "217",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-trt5-n-981-de-16-de-novembro-de-2026-745012600",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "aposentadoria",
+        "isencao_ir",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 15,
+      "xml_file": "DO2_0046.xml"
+    },
+    {
+      "id": "portaria-tcu-n-170-de-16-de-novembro-de-2026-744991776",
+      "section": "DO2",
+      "pub_date": "18/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Tribunal de Contas da União",
+      "identifica": "PORTARIA-TCU Nº 170, DE 16 DE NOVEMBRO DE 2026",
+      "orgao": "Tribunal de Contas da União",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA-TCU Nº 170, DE 16 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL DE CONTAS DA UNIÃO, no uso das atribuições que lhe confere o art. 70, inciso III, da Lei nº 8.443, de 16 de julho de 1992, e tendo em vista as informações constantes do processo nº TC-017.988/2026-8, resolve: Art. 1º Reverter, com fundamento no inciso II do art. 25 da Lei nº 8.112, de 11 de dezembro de 1990, regulamentado pelo Decreto nº 3.644, de 30 de outubro de 2000, a aposentadoria do servidor inativo Lúcio Flavio Ferraz, matrícula 5068-7, para retorno ao cargo de Auditor Federal de Controle Externo, Área Controle Externo, Especialidade Controle Externo, Classe Especial, Padrão 13, do Quadro de Pessoal da Secretaria deste Tribunal. Art. 2º Tornar sem efeito este ato de reversão, caso o servidor não entre em efetivo exercício no cargo no prazo de 15 (quinze) dias, contados da data de publicação desta Portaria, nos termos do art. 7º do Decreto nº 3.644, de 2000. Vital do Rêgo",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "66",
+      "edition": "217",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-tcu-n-170-de-16-de-novembro-de-2026-744991776",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "tribunal de contas da uniao"
+      ],
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "score": 15,
+      "xml_file": "DO2_0193.xml"
+    },
+    {
       "id": "ato-n-654-de-4-de-novembro-de-2026-745011991",
       "section": "DO2",
       "pub_date": "18/11/2026",
@@ -871,6 +929,35 @@
       ],
       "score": 11,
       "xml_file": "DO2_0022.xml"
+    },
+    {
+      "id": "ato-n-736-de-17-de-novembro-de-2026-744993637",
+      "section": "DO2",
+      "pub_date": "18/11/2026",
+      "art_type": "Ato",
+      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "identifica": "ATO Nº 736, DE 17 DE NOVEMBRO DE 2026",
+      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "ATO Nº 736, DE 17 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, Considerando o constante da Proposta nº 4321 do Sistema de Gestão de Pessoas - Sigep TST, de 17/11/2026, resolve: Designar a servidora ANA PAULA ZANENGA DE GODOY, código 68689, Analista Judiciária, Área Judiciária, para exercer a função comissionada de Assistente 4, Nível FC-4, do Gabinete do Ex.mo Sr. Ministro Antônio Fabrício de Matos Gonçalves, ficando dispensada da função comissionada de Assistente 3, Nível FC-3, do referido Gabinete. GUSTAVO CARIBÉ DE CARVALHO",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "69",
+      "edition": "217",
+      "url": "https://www.in.gov.br/web/dou/-/ato-n-736-de-17-de-novembro-de-2026-744993637",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "tribunal superior do trabalho"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0003.xml"
     },
     {
       "id": "ato-n-737-de-17-de-novembro-de-2026-745006650",
@@ -1413,33 +1500,6 @@
       "xml_file": "DO2_0269.xml"
     },
     {
-      "id": "ato-n-736-de-17-de-novembro-de-2026-744993637",
-      "section": "DO2",
-      "pub_date": "18/11/2026",
-      "art_type": "Ato",
-      "art_category": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "identifica": "ATO Nº 736, DE 17 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Superior do Trabalho/Secretaria",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "ATO Nº 736, DE 17 DE NOVEMBRO DE 2026 O DIRETOR-GERAL DA SECRETARIA DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regulamentares, Considerando o constante da Proposta nº 4321 do Sistema de Gestão de Pessoas - Sigep TST, de 17/11/2026, resolve: Designar a servidora ANA PAULA ZANENGA DE GODOY, código 68689, Analista Judiciária, Área Judiciária, para exercer a função comission...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "69",
-      "edition": "217",
-      "url": "https://www.in.gov.br/web/dou/-/ato-n-736-de-17-de-novembro-de-2026-744993637",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "tribunal superior do trabalho"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0003.xml"
-    },
-    {
       "id": "despacho-745007542",
       "section": "DO2",
       "pub_date": "18/11/2026",
@@ -1585,7 +1645,7 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.842, DE 17 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS, SUBSTITUTO, DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, considerando a competência prevista no inciso IX do parágrafo único do art. 15 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, tendo em vista o disposto no art. 23 da Lei nº 15.367, de 30 ...",
+      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.842, DE 17 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS, SUBSTITUTO, DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, considerando a competência prevista no inciso IX do parágrafo único do art. 15 do Anexo I do Decreto nº 12.904, de 27 de março de 2026, tendo em vista o disposto no art. 23 da Lei nº 15.367, de 30 de março de 2026, e o que consta no Processo nº 18001.003803/2026-19, resolve: Art. 1º Efetivar o exercício dos ocupantes do cargo de Perito Federal Territorial, do Quadro de Pesso al desta Pasta, conforme discriminado no Anexo I desta Portaria. Art. 2º Os servidores deverão apresentar-se ao órgão de exercício no prazo de até 15 (quinze) dias, a partir da posse. Art. 3º Esta Portaria entra em vigor na data da sua publicação. DOUGLAS ANDRADE DA SILVA ANEXO I CARGO DE PERITO FEDERAL TERRITORIAL ÓRGÃO BLOCO TEMÁTICO ESPECIALIDADE NOME CPF CLASSIFICAÇÃO CIDADE ALOCAÇÃO INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica LUCCAS GEOVANI ALVES DA SILVA ***85551** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica TATIANA LUZ DA CUNHA ***202158** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica ALEXANDRE AUGUSTO SCHLESNER ***379600** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica JORGE MANUEL DE ISASA ARAUJO ***976103** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica CAMILA CEMBROLLA TELLES ***519288** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica INAUE TAIGUARA MONTEIRO DE ALMEIDA ***254178** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica SALOMAO BATISTA PEREIRA LESSA ***81051** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica VINICIUS DURAES SANTANA ***328726** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica ANTUNES ROMEU LIMA DO NASCIMENTO ***79294** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica RICARDO AUGUSTO PEREIRA REZENDE ***131037** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica MARINA CALISTO ALVES ***13163** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica JOSE BARBOSA DE SOUZA JUNIOR ***901426** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GABRIEL DAMASCENO FERREIRA CUNHA ***13522** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica LUCAS LUDWIG HOERLLE ***73350** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GABRIEL FUSCO ***159848** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica RONALDO ADRIANO DE OLIVEIRA OLIVEIRA ***71415** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica LUIS CARLOS DE CARVALHO JUNIOR ***85441** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica CAMILA PRADO CENCIANI DE SOUZA ***336278** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica SAULO VENANCIO DA SILVA GONCALVES ***86723** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica FERNANDO ARTHUR SANTOS LIMA ***41731** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica BRUNO ANTONIO AUGUSTO FARIA CONFORTO ***310997** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica AVELINO EGIDIO TAQUES NETO ***227208** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GABRIELLE CRISTINE RIBEIRO DE AZEVEDO ***68389** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica RENNER BENTO DE LIMA ***736133** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GILBERTO FUGIMOTO DE ANDRADE ***145977** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica ESTELA REIS DE ANDRADE ***77921** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica JAQUELINE FOGACA MIRANDA ***066948** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica FRANCISCO FERRAUTO BONDIOLI ***528308** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica FERNANDO CRISPIM DE SOUSA ***169901** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica DOMITILA SOUZA SANTOS ***652378** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica VERENA BENICIO DE OLIVEIRA ***89639** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica TIAGO TAKEMOTO BULHOES LOURENCO ***373538** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica ADAILTON SOARES GUIMARAES ***32876** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica AMANDA STEFANY FERREIRA MARINS ***409596** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica OLIVIA MARCON BORGES ***62139** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica JULIANA ZAMBOM PIASSI ***004707** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GABRIEL COSTA FREIRE VASCONCELLOS PITANGA ***318651** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica RAILSON MENDES DIAS ***429303** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica VITOR LUIZ MOREIRA ***274326** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica FABIO ANTONIO MARTINS RODRIGUEZ ***883100** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica GABRIEL JOSE SILVA LEDO ***320615** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica CAROLINA VILLELA MOREIRA ***921736** AC Brasília/DF (Sede) INCRA B3-03-B Engenheiro Agrônomo/Engenharia Agronômica NATALIA DOMINGOS DA SILVA ***954756** AC Bras",
       "texto_truncated": true,
       "assina": "",
       "cargo": "",
@@ -1900,33 +1960,6 @@
       "xml_file": "DO2_0033.xml"
     },
     {
-      "id": "portaria-tcu-n-170-de-16-de-novembro-de-2026-744991776",
-      "section": "DO2",
-      "pub_date": "18/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Tribunal de Contas da União",
-      "identifica": "PORTARIA-TCU Nº 170, DE 16 DE NOVEMBRO DE 2026",
-      "orgao": "Tribunal de Contas da União",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA-TCU Nº 170, DE 16 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL DE CONTAS DA UNIÃO, no uso das atribuições que lhe confere o art. 70, inciso III, da Lei nº 8.443, de 16 de julho de 1992, e tendo em vista as informações constantes do processo nº TC-017.988/2026-8, resolve: Art. 1º Reverter, com fundamento no inciso II do art. 25 da Lei nº 8.112, de 11 de dezembro de 1990, regulamentado pelo...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "66",
-      "edition": "217",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-tcu-n-170-de-16-de-novembro-de-2026-744991776",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "tribunal de contas da uniao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0193.xml"
-    },
-    {
       "id": "portaria-segep/ap-n-60-de-2-de-outubro-de-2026-744998490",
       "section": "DO2",
       "pub_date": "18/11/2026",
@@ -2046,8 +2079,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "Portaria de Pessoal SPU/MGI Nº 13.243, DE 17 DE NOVEMBRO DE 2026 A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pela Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026 e demais informações que constam no processo nº 19739.061666/2024-13, resolve: Art. 1...",
-      "texto_truncated": true,
+      "texto_resumo": "Portaria de Pessoal SPU/MGI Nº 13.243, DE 17 DE NOVEMBRO DE 2026 A SECRETÁRIA DO PATRIMÔNIO DA UNIÃO, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pela Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026 e demais informações que constam no processo nº 19739.061666/2024-13, resolve: Art. 1º Exonerar o servidor DOUGLAS SCHORR, matrícula Siape nº 1213004, do Cargo Comissionado Executivo de Chefe da Seção de Assuntos Administrativos, código CCE 1.04, da Coordenação, da Superintendência do Patrimônio da União no Paraná, da Secretaria do Patrimônio da União, do Ministério da Gestão e da Inovação em Serviços Públicos. Art. 2º Esta portaria entra em vigor na data de sua publicação. CAROLINA GABAS STUCHI",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "51",
@@ -2667,33 +2700,6 @@
       "xml_file": "DO2_0031.xml"
     },
     {
-      "id": "portaria-trt5-n-981-de-16-de-novembro-de-2026-745012600",
-      "section": "DO2",
-      "pub_date": "18/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
-      "identifica": "PORTARIA TRT5 Nº 981, DE 16 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA TRT5 Nº 981, DE 16 DE NOVEMBRO DE 2026 A PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA QUINTA REGIÃO, no uso de suas atribuições legais e regimentais, tendo em vista o que consta no processo administrativo PROAD nº 10969/2026, resolve: DEFERIR a concessão de pensão estatutária por morte em favor de Maria Lúcia Santos Carvalho, na condição de companheira do instituidor SILVIO TRAVASSOS MA...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "72",
-      "edition": "217",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-trt5-n-981-de-16-de-novembro-de-2026-745012600",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=18-11-2026&secao=do2",
-      "orgao_emissor_hits": [],
-      "strong_keywords": [
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 5,
-      "xml_file": "DO2_0046.xml"
-    },
-    {
       "id": "portarias-de-17-de-novembro-de-2026-745032891",
       "section": "DO2",
       "pub_date": "18/11/2026",
@@ -2784,8 +2790,8 @@
       "DO1E": 0,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 917,
+    "atos_com_texto_integral": 960,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-18T14:49:04Z"
+    "coletado_em": "2026-11-18T21:17:12Z"
   }
 }

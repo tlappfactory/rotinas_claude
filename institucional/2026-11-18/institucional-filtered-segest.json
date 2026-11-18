@@ -1,30 +1,30 @@
 {
-  "run_utc": "2026-11-18T14:49:59Z",
+  "run_utc": "2026-11-18T21:17:55Z",
   "lookback_days": 7,
   "desde": "2026-11-11",
   "fontes": {
     "cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
-      "itens_vistos": 61,
+      "itens_vistos": 69,
       "fora_da_janela": 0,
-      "selecionados": 1,
+      "selecionados": 2,
       "probe": [
         {
           "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-11T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 47459,
-          "inicio": "[{\"id\":436713,\"date\":\"2026-11-18T11:35:26\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/nota-de-pesar-falecimento-do-ministro-paulo-benjamin-fragoso-gallotti\\/\",\"title\":{\"rendered\":\"Nota de pesar &#8211; Falecimento do Ministro Paulo Benjamin Fragoso Gallotti\"},\"excerpt\":{\"rendered\":\"<p>A Corregedoria Nacional"
+          "bytes": 53739,
+          "inicio": "[{\"id\":436871,\"date\":\"2026-11-18T17:54:39\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/cnj-realiza-visita-tecnica-ao-tjto-em-projeto-nacional-que-busca-aprimorar-julgamentos-de-crimes-contra-a-vida\\/\",\"title\":{\"rendered\":\"CNJ realiza visita t\\u00e9cnica ao TJTO em projeto nacional que busca aprimorar julgamen"
         },
         {
           "amostra_titulos": [
-            "Nota de pesar – Falecimento do Ministro Paulo Benjamin Fragoso Gallotti",
-            "Nota de pesar – Ministro Paulo Benjamin Fragoso Gallotti",
-            "Seis em cada dez jovens no socioeducativo concluem cursos de formação profissional",
-            "CNJ estabelece prazos para cartórios adotarem padrões mínimos de segurança digital",
-            "Decisões em direitos humanos podem ser indicadas em concurso até 19 de dezembro",
-            "Fachin recebe nota técnica sobre proposta legislativa que deve regulamentar remuneração da"
+            "CNJ realiza visita técnica ao TJTO em projeto nacional que busca aprimorar julgamentos de ",
+            "Seminário debate aperfeiçoamento da gestão de vagas no sistema socioeducativo",
+            "Missões da Justiça e da Cidadania: mais de 350 pessoas são atendidas no primeiro dia de mu",
+            "Exame Nacional dos Cartórios será aplicado pela quarta vez",
+            "Curso em SP aborda memória, escravidão e liberdade no Poder Judiciário",
+            "58º Fonaje abre debates sobre princípios, precedentes e efetividade dos juizados especiais"
           ]
         }
       ]
@@ -191,6 +191,20 @@
   "articles": [
     {
       "fonte": "CNJ",
+      "data": "2026-11-18",
+      "url": "https://www.cnj.jus.br/manual-tecnico-orienta-sobre-julgamentos-inclusivos-de-casos-de-pessoas-com-deficiencia/",
+      "titulo": "Manual técnico orienta sobre julgamentos inclusivos de casos de pessoas com deficiência",
+      "resumo": "Respeitar a autonomia das pessoas com deficiência e garantir seu acesso à Justiça, sem barreiras, são desafios cotidianos do Poder Judiciário. Para apoiar essa atuação, o Conselho Nacional de Justiça (CNJ) elaborou o Manual Técnico: atuação e julgamento à luz da Convenção sobre os Direitos das Pessoas com Deficiência no âmbito do Poder Judiciário, que […]",
+      "temas": [
+        "acessibilidade_inclusao"
+      ],
+      "temas_fracos": [
+        "inclusao_diversidade"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
       "data": "2026-11-13",
       "url": "https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/",
       "titulo": "Judiciário fortalece controle e transparência com novo curso sobre Gestão Estratégica da Auditoria",
@@ -206,5 +220,5 @@
       "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
     }
   ],
-  "total_matched": 1
+  "total_matched": 2
 }
