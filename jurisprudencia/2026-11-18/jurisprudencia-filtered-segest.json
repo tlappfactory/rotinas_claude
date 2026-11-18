@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-18T21:17:43Z",
+  "run_utc": "2026-11-18T22:43:20Z",
   "lookback_days": 7,
   "desde": "2026-11-11",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 45,
+      "itens_vistos": 46,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-11T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 22832,
-          "inicio": "[{\"id\":167985,\"date\":\"2026-11-18T18:04:25\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-declara-inconstitucional-reducao-dos-honorarios-de-procuradores-de-rondonia\\/\",\"title\":{\"rendered\":\"STF declara inconstitucional redu\\u00e7\\u00e3o dos honor\\u00e1rios de procuradores de Rond\\u00f4nia"
+          "bytes": 23289,
+          "inicio": "[{\"id\":167993,\"date\":\"2026-11-18T19:37:48\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/plenario-do-stf-ja-julgou-100-processos-em-sessoes-presenciais-em-2026\\/\",\"title\":{\"rendered\":\"Plen\\u00e1rio do STF j\\u00e1 julgou 100 processos em sess\\u00f5es presenciais em 2026\\u00a0\"},\"excerpt\":{\"re"
         },
         {
           "amostra_titulos": [
+            "Plenário do STF já julgou 100 processos em sessões presenciais em 2026",
             "STF declara inconstitucional redução dos honorários de procuradores de Rondônia",
             "Fim da isenção de pena em crimes patrimoniais entre familiares vale a partir do julgamento",
             "STF invalida lei de Mato Grosso que criou verbas indenizatórias para agentes públicos",
             "Lei de Acesso à Informação completa 15 anos com atuação do STF na defesa da transparência ",
-            "Confira a pauta do STF desta quarta-feira (18)",
-            "Nota de pesar"
+            "Confira a pauta do STF desta quarta-feira (18)"
           ]
         }
       ]
