@@ -1,0 +1,391 @@
+{
+  "run_utc": "2026-11-18T14:49:50Z",
+  "lookback_days": 4,
+  "desde": "2026-11-14",
+  "ate": "2026-11-18",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-14&dataDisponibilizacaoFim=2026-11-18&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 33,
+      "fora_da_janela": 0,
+      "selecionados": 18,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13088,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "275",
+            "data": "2026-11-18",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 1195521
+        },
+        {
+          "chars_texto": 572634,
+          "blocos_tematicos": 33
+        }
+      ],
+      "edicao": "275/2026",
+      "data_edicao": "2026-11-18"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#2",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Tribunal deverá conter a data da última atualização. e) deverá ser informada, via formulário eletrônico, a data da última atualização do arquivo da LOA que foi disponibilizada no site do tribunal. Art. 9º, II Até 60 pontos, de Por envio de Gestão acordo com as seguintes documentação, formulário Participativa na modalidades: eletrônico: elaboração das a) até 30 pontos para Para comprovação dos metas nacionais realização de consulta itens (a) e (b): do Poder e/ou audiência pública relatório no padrão Judiciário. com participação de definido pelo CNJ, no Resolução CNJ magistrados(as) e de qual conste: tipo e nº 221/2016 e servidores(as): finalidade da atividade; Portaria CNJ nº a.1) realizar consulta pública data de realização; lista 114/2016. (15 pontos); de presença; quantitativo a.2) realizar audiência pública de servidores(as) e (15 pontos); magistrados(as) As atividades (a.1) e participantes; e ata de (a.2) são cumulativas. deliberações da atividade. Será considerada audiência Para comprovação do pública virtual. item (b), será informado, b) Participação de via formulário eletrônico, magistrados(as) e o quantitativo de servidores(as) em uma magistrados(as) e reunião ou mais, de acordo servidores(as) que com os seguintes percentuais participaram das reuniões. (30 pontos): A quantidade informada no b.1) Justiça Estadual e sistema deve corresponder Federal: à contagem da lista b.1.1) 30 pontos para: de pr",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#3",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência de 10 magistrados(as) realização das atividades participantes; e e deverão ser enviados b.2.2.2) Servidores(as): em anexo ao final acima de 1,00% e até 5,00% do Relatório modelo, de participação ou acima de devidamente identificados. 30 servidores(as). Considerando a realização b.3) Justiça Militar Estadual: de atividades de forma b.3.1) 30 pontos para: virtual, a lista de presença b.3.1.1) Magistrados(as): a poderá ser substituída partir de 7 magistrados(as) por relatório/documento participantes; e emitido de plataformas b.3.1.2) Servidores(as): digitais ou redigido pelo acima de 15,00% de órgão, devendo constar o participação, desde que tenha número de colaborações o mínimo de 15 participantes. obtidas e o perfil geral dos b.3.2) 15 pontos para: participantes. b.3.2.1) Magistrados(as): de Todas as atividades 5 a 6 magistrados(as) participativas realizadas participantes; e devem ser consolidadas b.3.2.2) Servidores(as): em relatório único. acima de 5,00% e até 15,00% Portanto, o tribunal deverá de participação, desde que encaminhar apenas um tenha o mínimo de 10 Relatório de Gestão participantes. Participativa, em formato b.4) Justiça Eleitoral: “pdf”. b.4.1) 30 pontos para: acima O objetivo das atividades de 5,00% de participação ou participativas na acima de 60 participantes, elaboração das metas obrigatoriamente com é ampliar a participação presença de magistrados(as) de magistrados(as) e e servidore",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#6",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência a lista dos(as) ativo, servidores(as) ocupantes respectivamente. de cargos de chefia e dos(as) magistrados(as) d) quantidade que foram capacitados(as) de no período de referência, servidores(as) com a identificação ocupantes de do cargo/vínculo e cargo de unidade que exerce a chefia e de função de chefia (para magistrados servidores(as)). ativos em O Cargo/vínculo deve ser 30/6/2027, preenchido segundo individualmente para cada dados do participante, que MPM identifique: (i) se informados é magistrado(a) ou até servidor(a); e (ii) no caso 31/7/2027. de servidor(a), o cargo, o tipo de vínculo com o tribunal (por exemplo: analista judiciário, área judiciária, quadro efetivo; técnico de planejamento, servidor cedido do órgão X; ocupante de cargo em comissão). Para magistrados(as), basta a indicação ‘magistrado(a)’, podendo ser informado também o cargo (por exemplo: juiz(a) de direito, desembargador(a)). A indicação genérica ‘servidor(a) do tribunal’, sem cargo ou vínculo ou da unidade que exerce função de chefia, não atende a exigência. d) envio, via formulário eletrônico, do número de servidores(as) ocupantes de cargos de chefia que foram capacitados(as) no período de referência, segundo mesmos conceitos da opção “cargo de chefia”, da variável “situação profissional” constante na tabela de “quadro de pessoal e quadro auxiliar” do sistema MPM. e) envio, via formulário eletrônico, do número de magistrados(as",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "substituicao_fc_cc",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#7",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência de outro tribunal” ou “3) Servidor(a) cedido(a) ou requisitado(a) de órgãos de fora do judiciário” ou “4) Servidor(a) Comissionado(a) Sem vínculo” ou “14) Servidor(a) cedido(a) ou requisitado(a) para Realização de Pleitos Eleitorais”. Documentação do MPM disponível em: https:// www.cnj.jus.br/pesquisas- judiciarias/modulo-de- produtividade-mensal/ documentacao/. Consideram-se como cargos de chefia, os(as) servidores(as) que ocupem cargos ou funções comissionadas com atribuição de dirigir e chefiar servidores(as) e se responsabilizar por departamentos/unidades dos tribunais. Cada capacitação deve possuir o mínimo 8 horas-aula de duração. A carga horária poderá ser cumprida por mais de um curso, desde que destinados aos mesmos participantes. São aceitos cursos realizados em parceria com outras instituições e são aceitos eventos/seminários, desde que certificados pelas escolas judiciais e/ou escolas da magistratura. Na justiça eleitoral será considerada a capacitação dos(as) magistrados(as) realizada no órgão de origem. Da mesma forma, a capacitação do(a) magistrado(a) realizada na justiça eleitoral, poderá ser contada no tribunal de origem. Para fins deste requisito, consideram-se magistrados(as) os(as) atuantes em todos os graus de jurisdição, ou seja, os(as) juízes(as), os(as) desembargadores(as) e os(as) Ministros(as). Os(As) juízes(as) auxiliares dos Tribunais Superiores poderão ser contados. Art. 9º, ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#10",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência ii. For igual ou superior a 50,00% (6 pontos); e iii. For igual ou superior a 70,00% (10 pontos). Serão desconsiderados do denominador de cálculo os municípios que não possuem programa em meio aberto, desde que esta informação esteja incluída em campo próprio no CNIUPS até o último dia do semestre de referência. No caso da ausência da informação a respeito da inexistência de programa, o município será computado como inspeção não realizada. No caso do TJDFT a pontuação máxima será conferida com a realização de uma inspeção em cada semestre. Não haverá arredondamento do percentual de cumprimento. Art. 9º, X Até 45 pontos, de acordo Por envio de Para os itens Todos. Política Nacional com os seguintes critérios: documentação, via de (a), (b) e O item de Incentivo a) Igualdade de gênero no formulário eletrônico dos (d): (a) não à Participação ingresso aos tribunais de 2º seguintes quantitativos: Serão se aplica Institucional grau, pelo atendimento de um Para o item (a): consideradas à Justiça Feminina no dos seguintes critérios (10 a.1) número de as Eleitoral, Poder Judiciário. pontos): magistradas e magistrados nomeações e aos Resolução CNJ a.1) conforme critério de inscritas(os) em concursos designações Tribunais nº 255/2018 e paridade descrito em (i), de promoções por entre Superiores e Resolução CNJ com base no número de merecimento para o 1º/8/2026 e aos nº 525/2023. promoções por merecimento; segundo gr",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#11",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência carreira da magistratura cargos: juízas auxiliares titulares e O item (b) será obtido a partir da da presidência, vice- substitutos(as). não se variável MagE2º (Número presidência e corregedoria; Para o item aplica aos de cargos existentes de diretoras de escolas (c): Tribunais magistrado no 2º grau) judiciais; ouvidoras; Será Superiores, informada no sistema Justiça Coordenadora da verificada a à Justiça em Números, excluídos Coordenadoria Estadual da situação dos do Trabalho os cargos destinados ao Mulher e Presidente da cargos e à Justiça quinto constitucional. Para Comissão ou Comitê de ocupados em Eleitoral. esse fim, o quantitativo Política e Gênero do 30/6/2027. O item (d) de cargos do quinto Tribunal no período de Caso uma não se constitucional corresponde referência; mesma aplica na ao resultado de MagE2º/5, c.2) número de pessoa ocupe hipótese de magistrados (sexo mais de um ausência de com arredondamento para o masculino) que ao final cargo, o designações número inteiro imediatamente do período de referência tribunal deve no período superior quando o valor ocupavam os seguintes optar em de resultante for fracionário. cargos: juízes auxiliares qual ela será referência. b) Igualdade na designação da presidência, vice- contada, O item (d) para bancas de concurso de presidência e corregedoria; sendo vedada não se magistratura em relação aos diretores de escolas a dupla aplica aos concursos abertos",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#13",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência de referência em que um(a) mesmo(a) magistrado(a) se inscreva mais de uma vez, ambas serão contadas. Art. 9º, XI Até 20 pontos, de acordo Por envio de Para as Instituir os com a existência de Centros documentação, via comprovações Centros Especializados de Atenção formulário eletrônico da descritas em Especializados às Vítimas (CEAV), conforme seguinte documentação: (a) e (c), a de Atenção art. 2º da Resolução CNJ nº a) ato normativo situação em às Vítimas de 253/2018, em funcionamento vigente que instituiu o 30/6/2027. Crimes e Atos e estruturados com equipe Centro Especializado, em Para a Infracionais multiprofissional, da seguinte consonância com o art. comprovação (CEAVs). forma: 2º da Resolução CNJ nº descrita em Resolução CNJ a) CEAV instalado (7 pontos); 253/2018; (b), os nº 253/2018. b) CEAV em funcionamento, b) relatório de atividades, atendimentos e que tenha realizado em formato previamente realizados no atendimento no período de definido pelo CNJ, em período de referência (7 pontos); que conste o horário de 1º/8/2026 a c) CEAV com equipe funcionamento; os canais 30/6/2027. multiprofissional, considerada para contato, incluindo o aquela composta, no telefone, e-mail e link de mínimo, por profissionais acesso no sítio eletrônico; de duas das seguintes as ações de divulgação do áreas: serviço social, serviço; e a quantidade de psicologia, direito, sociologia, atendimentos realizados. antropologi",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#14",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Resolução CNJ inclusão, de acordo com os formulário eletrônico da 1º/8/2026 e nº 401/2021. seguintes critérios: seguinte documentação: 30/6/2027; a) realizar ação de a) Envio de relatório, Para o cálculo capacitação, por meio do em formato previamente do percentual tribunal ou de sua escola definido pelo CNJ, que a partir do judicial, nas temáticas de demonstre a capacitação total de acessibilidade e inclusão das realizada no período de magistrados(as) pessoas com deficiência (5 referência. O relatório e pontos); deve conter: a data de servidores(as): b) percentual de realização; o conteúdo quantidade de servidores(as) programático; a carga magistrados(as) capacitados(as) nas horária; o número de e temáticas de acessibilidade vagas ofertadas; o servidores(as) e inclusão das pessoas com número de pessoas ativos em deficiência igual ou maior que capacitadas; e a lista 30/6/2027, 7,0% (10 pontos); dos(as) magistrados(as) e segundo c) percentual de servidores(as) dados do magistrados(as) certificadas(os). MPM capacitados(as) nas Para o item (a), o relatório informados temáticas de acessibilidade deverá comprovar que a até e inclusão das pessoas com capacitação foi promovida 31/7/2027. deficiência igual ou maior que pelo próprio tribunal ou 7,0% (10 pontos); escola judicial, não sendo aceitas, para o item (a), capacitações ofertadas por parceria. b) Envio, via formulário eletrônico, da quantidade de magistrad",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#15",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência dos(as) magistrados(as) realizada no órgão de origem. Da mesma forma, a capacitação do(a) magistrado(a) realizada na justiça eleitoral, poderá ser contada no tribunal de origem. A informação deverá ser comprovada no relatório a que se refere o item (a). Art. 9º, XIII 20 pontos, para os Envio de documentação, Todos, Capacitação em tribunais que promoverem via formulário eletrônico exceto direitos cursos de formação de relatório, em formato Tribunais humanos, inicial e de formação previamente definido pelo Superiores. gênero, raça e continuada para capacitação CNJ, que demonstre a etnia. de magistrados(as) e capacitação, conforme as Resolução CNJ servidores(as) ativos(as), diretrizes previstas no 492/2023. de primeiro e segundo protocolo para julgamento graus de jurisdição, que com perspectiva de incluam, obrigatoriamente, os gênero e nos termos conteúdos relativos aos da Resolução CNJ nº direitos humanos, gênero, 492/2023, contendo: a raça e etnia, conforme data de realização; o as diretrizes previstas no conteúdo programático; a Protocolo para Julgamento carga horária; o número com Perspectiva de Gênero, de vagas ofertadas; o de acordo com a Resolução número de pessoas CNJ nº 492/2023, os quais capacitadas; e a lista deverão ser disponibilizados dos(as) magistrados(as) e com periodicidade mínima servidores(as) anual, preferencialmente na certificadas(os), com a modalidade presencial ou identificação do r",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#16",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Conjunta CNJ/CNMP nº c.1) Grupo 2/2024 (10 pontos); de Trabalho c.2) realizar ações voltadas Intersetorial à implantação, ampliação (GTI) do e qualificação do Serviço Serviço de de Acolhimento em Família Acolhimento Acolhedora (SFA) no estado, Familiar em conforme disposto no art. 3º funcionamento da Recomendação Conjunta em CNJ/CNMP nº 2/2024 (10 30/6/2027; pontos). c.2) ações realizadas no período de 1º/8/2026 a 30/6/2027. Art. 9º, XXII 10 pontos, da seguinte Por envio de a.1) Situação Política forma: documentação via em Judiciária sobre Possuir Grupo de Trabalho formulário eletrônico: 30/6/2027; Tribunais de Pessoas Idosas ou Comitê Gestor destinado a.1) ato normativo que Justiça, e suas à implementação da Política instituiu o Grupo de a.2) Tribunais interseccionalidades. Judiciária Nacional para a Trabalho/Comitê Gestor; Atividades Regionais Resolução CNJ Pessoa Idosa, conforme e realizadas no Federais, nº 520/2023. diretrizes da Resolução a.2) relatório de atividades, período de Tribunais CNJ nº 520/2023, com em formato previamente 1º/8/2026 a Regionais vistas a promover a definido pelo CNJ, em 30/6/2027. do Trabalho, articulação interinstitucional, que conste a descrição Tribunais o levantamento de das ações realizadas pelo Regionais dados sobre processos Grupo de Trabalho/Comitê Eleitorais e envolvendo pessoas idosas, a Gestor. Tribunais de capacitação de magistrados e Justiça servidores e a propo",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#17",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Direitos Humanos (CIDH) servidores(as) – https://www.oas.org/ext/pt/ certificadas(os), com a direitos-humanos/simore/, na identificação do campo página inicial do Tribunal e/ou Cargo/Vínculo. na página da UMF local. O Cargo/vínculo deve ser b) Ação nº 11 do Pacto preenchido Nacional do Judiciário individualmente para cada pelos Direitos Humanos – 3ª participante, que fase (20 pontos): identifique: (i) se b.1) realizar cursos é magistrado(a) ou de formação para servidor(a); e (ii) no caso capacitação de servidores(as) de servidor(a), o cargo e e magistrados(as), que o tipo de vínculo com incluam, obrigatoriamente, a o tribunal (por exemplo: Convenção Americana de analista judiciário, área Direitos Humanos (CADH), a judiciária, quadro efetivo; jurisprudência da Corte IDH técnico de planejamento, e a Recomendação CNJ nº servidor cedido do órgão 168/2026, preferencialmente X; ocupante de cargo na modalidade presencial ou em comissão). Para híbrida. magistrados(as), basta a indicação ‘magistrado(a)’, podendo ser informado também o cargo (por exemplo: juiz(a) de direito, desembargador(a)). A indicação genérica ‘servidor(a) do tribunal’, sem cargo ou vínculo, não atende a exigência. A capacitação deve ter, no mínimo, 12 horas- aula de duração. A carga horária poderá ser cumprida em mais de um curso, desde que destinados aos mesmos participantes. São aceitos cursos realizados em parceria com outras instituições ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#18",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência 3) Execução Penal e Políticas didático; e a lista considerada a de Cidadania; dos(as) magistrados(as) e situação em 4) Prevenção à Tortura; servidores(as) 30/6/2027. 5) Saúde Mental; certificados(as). 6) Inspeções Judiciais; A capacitação deve ter 7) Populações com carga horária mínima total vulnerabilidade acrescida no de 12 horas-aula por ciclo penal; participante, admitida a a) Pontuação de acordo soma de mais de um curso com o número de temáticas ou evento realizado no abordadas (até 15 pontos): período de apuração, sem a.1) De 1 a 3 temáticas: 5 exigência de carga horária pontos; mínima por temática. A a.2) De 4 a 6 temáticas: 10 lista de magistrados(as) e pontos; servidores(as) a.3) Todas as 7 temáticas: 15 certificados(as) deve pontos. indicar a carga horária b) Inserção das temáticas do cumprida por cada c nos cursos regulares de participante, e serão formação inicial e continuada considerados(as) apenas oferecidos pela escola da os(as) que atingirem o magistratura ou escola judicial mínimo de 12 horas-aula. (15 pontos); São aceitos cursos realizados em parceria com outras instituições e são aceitos eventos/ seminários, desde que certificados pelas escolas judiciais e/ou escolas da magistratura. Para o item (b): b) Envio do plano pedagógico ou curricular da Escola, vigente no período de apuração, com as ementas das disciplinas que incluam os temas previstos neste requisito (as ementas podem integ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#19",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "repetitivo (11975) ou por recurso de revista repetitivo (14973) ou por incidente de resolução de demandas repetitivas (12098) ou por incidente de assunção de competência – IAC (14968) ou por decisão do Presidente do STF – SIRDR (12100) ou por decisão do Presidente do STJ – SIRDR (12099) ou por Decisão do Presidente do TST – SIRDR (14972), com complemento preenchido em formato válido, e de acordo com os números dos temas existentes no BNP, instituído pela Resolução CNJ nº 444/2022 (10 pontos); c.4) mais de 95% dos movimentos, lançados a partir de 2020, de medidas protetivas de urgência (11423, 11424, 11426, 12476, 12479, 14733, 14681) com complemento tabelado preenchido em formato válido (10 pontos); c.5) mais de 98% dos processos que tenham movimentos de sessão do Tribunal do Júri (movimento 313) com complemento preenchido e válido (10 pontos); c.6) mais de 98% dos movimentos da hierarquia 193 (julgamento), com o campo movimento.tipoResponsavelMovimento igual a 1 (magistrado) E com número do CPF válido e preenchido no campo movimento.responsavelMovimento OU movimento.magistradoProlator, dos tipos tipoMovimentoProcessual e tipoCadastroIdentificador, e cujo CPF esteja cadastrado na tabela de magistrados(as) do MPM. Somente serão exigidos os CPFs cadastrados no MPM para os movimentos processuais com data igual ou posterior a 1º/7/2023 (10 pontos). c.7) mais de 80% dos processos parametrizados no art. 10, XII, do Anexo VI da Portaria CNJ nº 471/2025 e ajuizados a partir de 1º/1/2",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#22",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "aptos a caracterizar infração disciplinar. As alegações dizem respeito, em grande parte: ao atendimento prestado pela Defensoria Pública; a dificuldades de comunicação com a referida instituição; a alegados riscos patrimoniais futuros; à discordância quanto à condução da instrução processual; e à pretensão de que determinada prova seja considerada suficiente para julgamento. Ou seja, não se identificam, ao menos em juízo preliminar, elementos que evidenciem desídia deliberada, abuso funcional ou qualquer infração disciplinar praticada por magistrado. Quanto à alegação de morosidade jurisdicional, também não se verifica, a partir dos documentos apresentados, demonstração concreta de paralisação injustificada do processo por período excessivo imputável ao Juízo. A petição descreve dificuldades enfrentadas pelo requerente e pela Defensoria Pública, bem como sua insatisfação com o andamento do feito, mas não apresenta cronologia processual capaz de evidenciar demora irrazoável decorrente de inércia judicial. A análise de alegações de morosidade jurisdicional exige a apresentação, pela parte reclamante, de documentação apta a demonstrar o atual estágio de tramitação do processo apontado como moroso, especialmente por meio da juntada de certidão, extrato de movimentação processual ou documento equivalente que contenha as últimas ocorrências do feito. Referida exigência encontra amparo no art. 15, § 1º, incisos I e II, e § 3º, do Regulamento Geral da Corregedoria Nacional de Justiça",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estagio_aprendizagem",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#30",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "partir de outro País, sem prévia aprovação formal da Presidência do TJES ou de autoridade por ela designada, mantendo a autorização sem publicidade institucional e sem submissão à Corregedoria ou à Presidência, com sobrecarga de trabalho para o corpo funcional que permaneceu na unidade. A prova produzida no PAD demonstra conjunto de condutas irregulares relacionadas à gestão de pessoas baseada em favoritismos, em violação aos deveres de legalidade, impessoalidade e moralidade, circunstâncias que justificam a remoção compulsória. A pena de remoção compulsória mostra-se proporcional e adequada à gravidade das condutas, atendendo aos princípios da razoabilidade e da individualização da pena, inexistindo ilegalidade flagrante ou teratologia que autorize a intervenção excepcional do CNJ. IV. DISPOSITIVO E TESE Revisão disciplinar improcedente. Tese de julgamento: 1. A revisão disciplinar não constitui sucedâneo de recurso administrativo e somente admite a desconstituição de decisão disciplinar nas hipóteses estritas previstas no art. 83 do RICNJ. 2. Na dispersão de votos entre diferentes penalidades, sem maioria absoluta por uma delas, aplica-se a pena mais leve que obtiver o maior número de votos, nos termos do art. 21, parágrafo único, da Resolução CNJ nº 135/2011. 3. A alteração de voto antes da proclamação do resultado é compatível com a independência judicial e não exige fundamentação individualizada quando o magistrado adere ao voto de outro julgador. 4. A autorização unilat",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#31",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "mérito, argumenta que a sanção aplicada é desproporcional aos fatos sobretudo considerado seu histórico profissional e a ausência de dolo ou dano ao Erário. Pois bem. A Emenda Constitucional n. 45/2004 estabelece somente um requisito para a propositura de revisões contra decisões disciplinares proferidas contra juízes e membros de tribunais: o prazo decadencial de um ano para a deflagração do procedimento revisional. Vejamos: Art. 103-B. O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de 2 (dois) anos, admitida 1 (uma) recondução, sendo: (...) § 4º Compete ao Conselho o controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes, cabendo-lhe, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura: (...) V - rever, de ofício ou mediante provocação, os processos disciplinares de juízes e membros de tribunais julgados há menos de um ano; É o Regimento Interno que, ao regulamentar o comando constitucional, define mais precisamente as condições para que a competência revisional do Conselho seja acionada. Não há como negar, neste particular, que a redação do artigo 83 do RICNJ se inspira no artigo 621 do Código de Processo Penal, que disciplina o instituto da revisão criminal. Aqui, uma tabela comparativa auxilia a análise proposta: Artigo 83 do RICNJ Artigo 621 do Código de Processo Penal Art. 83. A revisão dos processos disciplinares será admitida: I - quando a decisã",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "licencas_servidor"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#32",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Eliana Junqueira Munhos Ferreira, a votação final resultou em 14 votos pela remoção compulsória, 6 pela aposentadoria compulsória, 2 pela censura e 2 pelo arquivamento. Havendo, portanto, a dispersão do juízo condenatório em três modalidades de pena sem que nenhuma delas tivesse alcançado a maioria absoluta, aplica-se a menos gravosa com maior número de votos, no caso, a remoção compulsória. Logo, neste ponto, inexiste nulidade a ser reconhecida. c) Da alegação de violação ao art. 93, inciso IX, Constituição Federal, e ao art. 489, § 1º, inciso III, do Código de Processo Civil: reformulação do voto e dever de fundamentação das decisões judiciais Alega o requerente nulidade do acórdão, ao argumento de que teria havido violação ao dever de fundamentação das decisões judiciais e ao princípio da independência judicial, em razão da alteração de voto promovida pela Desembargadora Eliana Junqueira Munhós Ferreira. Sustenta que a magistrada, após inicialmente votar pela aplicação da pena de censura, passou a acompanhar o Relator pela remoção compulsória, sem oferecer motivação própria para justificar a mudança de entendimento. Não procede a alegação. Nos julgamentos colegiados, inexiste exigência normativa de que cada membro do Tribunal apresente fundamentação individualizada de seu voto, sendo plenamente legítima a adesão ao posicionamento do relator ou de outro julgador. A exigência constitucional prevista no art. 93, IX, da Constituição Federal é atendida pela fundamentação coleti",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "aposentadoria",
+        "cessao_remocao_permuta",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#33",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "A prova testemunhal reforçou que a portaria editada era meramente interna, sem valor oficial, elaborada apenas para eventual apresentação em caso de questionamento. O acórdão, nesse sentido, qualificou o ato como \"ato de gaveta\", em desconformidade com as exigências normativas e regimentais (Id 6061940, fls. 35, 40, 43, 44, 47 e 49). Registrou-se, ainda, que tanto a Corregedoria quanto a Presidência do TJES se declararam incompetentes para deliberar sobre o tema, indicando tratar-se de matéria sujeita à deliberação do Pleno, por implicar alteração de jornada e de regime de trabalho. Ademais, tanto a Resolução CNJ nº 227/2016 quanto a Resolução TJES nº 14/2021 exigem, como condição para implementação do teletrabalho, aprovação formal da Presidência do Tribunal, o que afasta a tese defensiva de que a decisão poderia ser tomada unilateralmente pelo magistrado. De fato, o art. 5º, § 5º, da Resolução CNJ nº 227/2016 condiciona expressamente a participação de servidores em teletrabalho à aprovação formal da Presidência ou de autoridade por ela designada, requisito indispensável à validade da autorização. Assim, a alegação de que a conduta do requerente visava apenas à preservação da produtividade da unidade não afasta a infração disciplinar. O exercício da magistratura exige não apenas boa-fé, mas também observância rigorosa da legalidade, prudência e respeito à hierarquia institucional. No caso, ao conceder regime de teletrabalho à servidora sem prévia aprovação formal da Presidên",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "teletrabalho_jornada",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 18
+}

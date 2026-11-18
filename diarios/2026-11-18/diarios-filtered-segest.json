@@ -1,0 +1,510 @@
+{
+  "run_utc": "2026-11-18T14:49:53Z",
+  "lookback_days": 4,
+  "desde": "2026-11-14",
+  "ate": "2026-11-18",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-14&dataDisponibilizacaoFim=2026-11-18&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 32,
+      "fora_da_janela": 0,
+      "selecionados": 24,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13088,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "275",
+            "data": "2026-11-18",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 1195521
+        },
+        {
+          "chars_texto": 572634,
+          "blocos_tematicos": 32
+        }
+      ],
+      "edicao": "275/2026",
+      "data_edicao": "2026-11-18"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#1",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Art. 9º, I Até 85 pontos, para Pelo CNJ, com base a) Número de Priorização do atendimento aos requisitos nas seguintes informações casos novos Primeiro Grau de da Resolução, considerando apuradas por meio do apurados a Jurisdição. a distribuição entre área Justiça em Números, do partir do Resolução CNJ administrativa e área DataJud e do MPM: DataJud, nº 219/2016 e judiciária, bem como a a) A distribuição de enviados nos Resolução CNJ distribuição entre os graus de casos novos a que se prazos do art. nº 195/2014. jurisdição, de acordo com os referem os itens (a), (b) 12, I, do seguintes critérios: e (e) será mensurada Anexo VIII da a) distribuição dos(as) pelo DataJud, a partir da Portaria CNJ servidores(as) entre os graus menor média do triênio nº 471/2025; de jurisdição, nos termos do do percentual de casos b) Dados art. 3º da Resolução CNJ nº novos de primeiro grau, da Resolução 219/2016 (20 pontos); considerando os seguintes CNJ nº b) distribuição da soma dos triênios: 1º/1/2022 a 219/2016 valores integrais das funções 31/12/2024 ou 1º/1/2023 deverão ser comissionadas e dos cargos a 31/12/2025 ou 1º/1/2024 informados em comissão, nos termos do a 31/12/2026. Considera- nos sistemas art. 12 da Resolução CNJ nº se como primeiro grau os Justiça em 219/2016 (20 pontos); processos do campo grau Números e c) limite de 30,00% de no DataJud classificados MPM até servidores(as) das áreas de como “G1”, “JE” ou “",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#2",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Tribunal deverá conter a data da última atualização. e) deverá ser informada, via formulário eletrônico, a data da última atualização do arquivo da LOA que foi disponibilizada no site do tribunal. Art. 9º, II Até 60 pontos, de Por envio de Gestão acordo com as seguintes documentação, formulário Participativa na modalidades: eletrônico: elaboração das a) até 30 pontos para Para comprovação dos metas nacionais realização de consulta itens (a) e (b): do Poder e/ou audiência pública relatório no padrão Judiciário. com participação de definido pelo CNJ, no Resolução CNJ magistrados(as) e de qual conste: tipo e nº 221/2016 e servidores(as): finalidade da atividade; Portaria CNJ nº a.1) realizar consulta pública data de realização; lista 114/2016. (15 pontos); de presença; quantitativo a.2) realizar audiência pública de servidores(as) e (15 pontos); magistrados(as) As atividades (a.1) e participantes; e ata de (a.2) são cumulativas. deliberações da atividade. Será considerada audiência Para comprovação do pública virtual. item (b), será informado, b) Participação de via formulário eletrônico, magistrados(as) e o quantitativo de servidores(as) em uma magistrados(as) e reunião ou mais, de acordo servidores(as) que com os seguintes percentuais participaram das reuniões. (30 pontos): A quantidade informada no b.1) Justiça Estadual e sistema deve corresponder Federal: à contagem da lista b.1.1) 30 pontos para: de pr",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "metas_nacionais",
+        "orcamento_estrategia"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#3",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência avaliadas e pontuadas, se for o caso. Os(As) juízes(as) auxiliares dos Tribunais Superiores poderão ser contados. Os(As) juízes(as) eleitorais podem ser contados no TRE e no órgão de origem, caso participem das atividades promovidas por ambos os tribunais. Somente serão pontuadas as atividades que se relacionam diretamente com a gestão participativa na elaboração das Metas Nacionais do Poder Judiciário do CNJ. Excluem-se, por exemplo, as seguintes atividades: - Reunião de Análise da Estratégia (RAE); - Eventos de Capacitação (cursos, palestras, seminários etc.); - Reuniões ordinárias de Comitês; - Reuniões ordinárias de planejamento e preparação do Processo Participativo; - Eventos realizados pelo CNJ (Reunião Preparatória para o Encontro Nacional, entre outros); - Pesquisas relacionadas à gestão organizacional; - Pesquisas relacionadas à revisão do planejamento estratégico; - Atividades com objetivo de cumprir políticas judiciárias; - Processos participativos contendo temas diversos da “Formulação das Metas Nacionais”. Ressalta-se a importância do preenchimento de todos os campos da(s) atividade(s) mencionadas pelo tribunal. Caso não seja possível o preenchimento completo, deve-se justificar a ausência. A ausência de informações e/ ou documentos comprobatórios acarreta a perda de pontos ou a não pontuação do item. A ausência da lista de presença ocasiona perda de 5% da pontuação da atividade e a ausênci",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "metas_nacionais",
+        "orcamento_estrategia",
+        "planejamento_estrategico"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#4",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência carreira da magistratura cargos: juízas auxiliares titulares e O item (b) será obtido a partir da da presidência, vice- substitutos(as). não se variável MagE2º (Número presidência e corregedoria; Para o item aplica aos de cargos existentes de diretoras de escolas (c): Tribunais magistrado no 2º grau) judiciais; ouvidoras; Será Superiores, informada no sistema Justiça Coordenadora da verificada a à Justiça em Números, excluídos Coordenadoria Estadual da situação dos do Trabalho os cargos destinados ao Mulher e Presidente da cargos e à Justiça quinto constitucional. Para Comissão ou Comitê de ocupados em Eleitoral. esse fim, o quantitativo Política e Gênero do 30/6/2027. O item (d) de cargos do quinto Tribunal no período de Caso uma não se constitucional corresponde referência; mesma aplica na ao resultado de MagE2º/5, c.2) número de pessoa ocupe hipótese de magistrados (sexo mais de um ausência de com arredondamento para o masculino) que ao final cargo, o designações número inteiro imediatamente do período de referência tribunal deve no período superior quando o valor ocupavam os seguintes optar em de resultante for fracionário. cargos: juízes auxiliares qual ela será referência. b) Igualdade na designação da presidência, vice- contada, O item (d) para bancas de concurso de presidência e corregedoria; sendo vedada não se magistratura em relação aos diretores de escolas a dupla aplica aos concursos abertos",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#6",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Resolução CNJ inclusão, de acordo com os formulário eletrônico da 1º/8/2026 e nº 401/2021. seguintes critérios: seguinte documentação: 30/6/2027; a) realizar ação de a) Envio de relatório, Para o cálculo capacitação, por meio do em formato previamente do percentual tribunal ou de sua escola definido pelo CNJ, que a partir do judicial, nas temáticas de demonstre a capacitação total de acessibilidade e inclusão das realizada no período de magistrados(as) pessoas com deficiência (5 referência. O relatório e pontos); deve conter: a data de servidores(as): b) percentual de realização; o conteúdo quantidade de servidores(as) programático; a carga magistrados(as) capacitados(as) nas horária; o número de e temáticas de acessibilidade vagas ofertadas; o servidores(as) e inclusão das pessoas com número de pessoas ativos em deficiência igual ou maior que capacitadas; e a lista 30/6/2027, 7,0% (10 pontos); dos(as) magistrados(as) e segundo c) percentual de servidores(as) dados do magistrados(as) certificadas(os). MPM capacitados(as) nas Para o item (a), o relatório informados temáticas de acessibilidade deverá comprovar que a até e inclusão das pessoas com capacitação foi promovida 31/7/2027. deficiência igual ou maior que pelo próprio tribunal ou 7,0% (10 pontos); escola judicial, não sendo aceitas, para o item (a), capacitações ofertadas por parceria. b) Envio, via formulário eletrônico, da quantidade de magistrad",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#7",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Art. 10, I Até 90 pontos, Será considerado Tribunais Alcançar os de acordo com Pelo CNJ, com base nos dados constantes o relatório Justiça de melhores o valor do IPC- no relatório Justiça em Números. em Números Justiça, Jus do tribunal: publicado em Tribunais",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#8",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência índices no a) maior ou IPC-Jus. igual a 60% e menor que 70% (15 pontos); b) maior ou igual a 70% e menor que 80% Regionais (30 pontos); do c) maior ou Trabalho 2027, referente ao igual a 80% e e ano-base 2026. menor que 90% Tribunais (50 pontos); Regionais d) maior ou Federais. igual a 90% e menor que 100% (70 pontos); e) igual a 100% (90 pontos). Art. 10, II Até 70 pontos, São considerados os processos, segundo a Tempo de acordo com parametrização do DataJud: médio de os seguintes a) de acordo com a metodologia do indicador duração dos critérios: de “Tempo médio dos processos pendentes processos Nas Justiças líquidos” (ou seja, excluídos os suspensos pendentes Estadual e ou sobrestados ou em arquivo provisório, líquidos. Federal bem como os períodos em que os processos a) até 400 dias permaneceram em tais situações); (70 pontos); b) com natureza de “Conhecimento” b) de 401 a no painel de estatísticas: https://justica- 500 dias (50 em-numeros.cnj.jus.br/painel-estatisticas/; e pontos); c) todos os graus de jurisdição. c) de 501 a Parametrização do DataJud: https:// 700 dias (25 www.cnj.jus.br/sistemas/datajud/ pontos). parametrizacao. Na Justiça do Trabalho a) até 140 dias (70 pontos); b) de 141 a 200 dias (50 pontos); Situação c) de 201 a processual em 300 dias (25 30/6/2027, pontos). conforme dados Na Justiça do DataJud, Militar Todos. enviados nos Estadual prazos do art. 12, a) até 200 dias I, do Anex",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#9",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência c) de 351 a 450 dias (25 pontos). Art. 10, III Até 60 pontos, Pelo CNJ, com base nos dados obtidos Tribunais Índices de da seguinte do DataJud e conforme metodologia do de Conciliação forma: regulamento do “Prêmio Conciliar é Legal Justiça, e de a) Indicador 2027”, Portaria CNJ nº 472/2026, observado Tribunais Composição I – total o período de referência estabelecido neste Regionais de Conflitos. de processos Anexo. do com sentenças Não são contabilizados os processos das Trabalho e decisões turmas recursais. e terminativas Serão desconsiderados do cálculo os Tribunais homologatórias processos das classes processuais Regionais de acordo, em constantes na lista de regra de Federais. relação ao total exceção disponível em https://www.cnj.jus.br/ Os de processos programas-e-acoes/conciliacao-e-mediacao/ indicadores com sentenças premio-conciliar-e-legal/. II e V (ou e decisões seja, itens terminativas “b” e “d”) com resolução não se de mérito, aplicam considerando aos os processos Tribunais de Regionais conhecimento do não criminais e Trabalho. as reclamações pré- processuais de primeiro grau (15 pontos). a.1) Justiça Será considerado Estadual – a o período de partir de 30,0%; referência de a.2) Justiça 1º/7/2026 a Federal – a 30/6/2027, partir de 8,0%; conforme dados a.3) Justiça do do DataJud, Trabalho – a enviados nos partir de 45,0%. prazos do art. 12, b) Indicador I, do Anexo VIII II – total da Portari",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa",
+        "inovacao_processos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#10",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência com resolução de mérito, em execução judicial ou em cumprimento de sentença (10 pontos). e.1) Justiça Estadual – a partir de 15,0%; e.2) Justiça Federal – a partir de 13,0%; e.3) Justiça do Trabalho – a partir de 11,0%. Art. 10, IV Até 130 Pelo CNJ, com base nos dados de Será considerada Metas pontos, de cumprimento das Metas Nacionais de 2026. a informação Nacionais. acordo com No caso do segmento de Justiça que possuir prestada para o índice de mais de um período ou percentual de aferição das cumprimento julgamento da meta (que varia de acordo com Metas Nacionais do tribunal na o grau de jurisdição ou ano de referência, referente ao ano Meta. Para por exemplo), será utilizada uma ponderação de 2026. cada meta baseada no valor da meta definida para cada nacional: recorte e o quantitativo de processos do O valor de a) Meta 1, Meta respectivo recorte. cumprimento da 2 e Meta 3: Meta processual cumprimento será atualizado da meta maior considerando os ou igual a dados do 100,00% (20 DataJud, pontos); enviados nos b) Meta 4, prazos do art. 12, Meta 5, Meta 6, I, do Anexo VIII Meta 7, Meta 8, da Portaria CNJ nº Meta 9 e Meta 471/2025. 10: cumprimento Todos, da meta maior exceto ou igual a TSE. 100,00% (10 pontos). Pontuação máxima: Tribunais de Justiça: 130. Tribunais Regionais do Trabalho: 80. Tribunais Regionais Federais: 120. Tribunais Regionais Eleitorais: 60. Tribunais de Justiça Militar: 70. STJ: 100. ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "metas_nacionais",
+        "orcamento_estrategia"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#11",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência líquidos e não Painel de estatísticas: https://justica-em- a data do início do julgados até numeros.cnj.jus.br/painel-estatisticas/. caso novo como 30/6/2027 (70 marco inicial. pontos); São considerados b) de 17,01% os dados do a 22,00% DataJud, dos casos enviados nos pendentes prazos do art. 12, líquidos e não I, do Anexo VIII julgados até da Portaria CNJ nº 30/6/2027 (35 471/2025. pontos); Na Justiça do Trabalho: a) até 0,60% dos casos pendentes líquidos e não julgados até 30/6/2027 (70 pontos); b) de 0,61% a 1,10% dos casos pendentes líquidos e não julgados até 30/6/2027 (35 pontos); Na Justiça Eleitoral e na Justiça Militar Estadual: a) até 1,50% dos casos pendentes líquidos e não julgados até 30/6/2027 (70 pontos); b) de 1,51% a 2,50% dos casos pendentes líquidos e não julgados até 30/6/2027 (35 pontos); Nos Tribunais Superiores: a) até 10,00% dos casos pendentes líquidos e não julgados até 30/6/2027 (70 pontos); b) de 10,01% a 15,00% dos casos pendentes líquidos e não julgados até 30/6/2027 (35 pontos). Art. 10, VI Até 60 pontos, São considerados os processos, segundo a Para os itens Celeridade sendo: parametrização do DataJud: (a) e (b), serão processual a) tempo médio item (a) – Violência Doméstica: considerados os na decorrido entre a.1) pelo menos um dos assuntos: 10949, processos Tribunais tramitação a data do 14097, 14098, 12194, 14226, 14227, 14942; pendentes de dos início da ação E líquidos",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#12",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência familiar de violência a.3) não estejam computados no item (b) – considerados os contra a doméstica e feminicídio; processos que mulher, de familiar contra item (b) – Feminicídio: tiveram a primeira feminicídio a mulher b.1) tenham o assunto 12091; decisão de e das pendentes b.2) que sejam enquadrados como ações concessão ou medidas líquidos: penais, conforme descrição de (i); e concessão em protetivas a.1) até 300 b.3) natureza de “Conhecimento”; parte ou de urgência. dias (20 (i) Enquadramento como Ações Penais denegação de pontos); i.1) das classes enquadradas como ações medida protetiva a.2) de 301 a penais: 282, 283, 300, 1033, 1317, 10943, de urgência ou 400 dias (10 10944, 11037, 11528; ou homologação ou pontos); i.2) da classe 279 que esteja na fase revogação de de conhecimento (ou seja, ocorreu o medida protetiva b) tempo médio recebimento da denúncia). concedida por decorrido entre Para o tempo médio dos itens (a) e (b): autoridade a data do de acordo com metodologia do policial, entre início da ação indicador “Tempo médio do pendente 1º/7/2026 e e a data- líquido” (excluídos os períodos de 30/6/2027. base de cálculo suspensão, sobrestamento e arquivamento São considerados nos processos provisório). os dados do de feminicídio Para o tempo médio do item (c): DataJud, pendentes c.1) os processos das classes 1268 ou enviados nos líquidos: 12423; e prazos do art. 12, b.1) até 400 c.2) que tenham os ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#13",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência b.1) índice de b.3) são desconsiderados do cálculo enviados nos conciliação na os processos das classes processuais prazos do art. 12, saúde pública constantes na lista de regra de exceção I, do Anexo VIII acima de 4,0% disponível em . da Portaria CNJ nº (10 pontos); Parametrização do DataJud: https:// 471/2025. b.2) índice www.cnj.jus.br/sistemas/datajud/ de conciliação parametrizacao. na saúde No caso de inconsistência ou suplementar indisponibilidade dos dados que impossibilite acima de 5,0% os cálculos, o tribunal ficará com pontuação (10 pontos); igual a 0 (zero) no requisito. Art. 10, VIII Até 20 pontos, A comprovação será feita pelo CNJ, Celeridade sendo: considerando os dados do DataJud. processual a) tempo médio a.1) serão considerados os processos que na decorrido entre tenham pelo menos um dos assuntos da tramitação a data do hierarquia 12734; das ações início da ação e de direito e a data- a.2) com natureza de “Conhecimento”; assistencial. base de cálculo e Situação nos processos a.3) dos processos Pendentes Líquidos (ou processual em de direito seja, excluídos os suspensos, sobrestados e 30/6/2027, assistencial em arquivamento provisório); conforme dados Tribunais pendentes e do DataJud, Regionais líquidos: a.4) de acordo com metodologia do enviados nos Federais. a.1) até 200 indicador “Tempo médio do pendente prazos do art. 12, dias (20 líquido” (excluídos os períodos de I, do Anexo VIII po",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#15",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência das unidades Para o item (b), serão considerados os judiciárias (15 processos classificados no campo Grau pontos); como G2 ou SUP, sendo obrigatório a.3) de 50,01% o envio de dados de gabinetes do a 65,00% relator no campo órgão julgador. A das unidades ausência de dados associados aos judiciárias (20 gabinetes dos(as) desembargadores(as) ou pontos); ministros(as) acarreta a perda da pontuação. a.4) de 65,01% Parametrização DataJud: a 80,00% https://www.cnj.jus.br/sistemas/datajud/ das unidades parametrizacao. judiciárias (25 pontos); a.5) acima de 80,00% das unidades judiciárias (30 pontos). b) Unidades de segundo grau e de Tribunais Superiores (até 20 pontos): Será calculado o percentual de unidades judiciárias de segundo grau ou de Tribunais Superiores que tenham atingido os seguintes resultados: i) IAD igual ou superior a 100,0%; ou ii) IAD igual ou superior a 90,0%, desde que a taxa de congestionamento líquida seja inferior a 25,0%. Faixas de pontuação: b.1) de 30,01% a 40,00% das unidades judiciárias (5 pontos); b.2) de 40,01% a 50,00% das unidades judiciárias (8 pontos); b.3) de 50,01% a 65,00% das unidades judiciárias (12 pontos); b.4) de 65,01% a 80,00% das unidades judiciárias (15 pontos); b.5) acima de 80,00% das unidades judiciárias (20 pontos).",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#16",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Não são consideradas as unidades judiciárias com 0 (zero) casos novos no período de referência. Art. 10, XII Até 45 pontos, A comprovação será feita pelo CNJ, Para o item (a) Solucionar de acordo com: considerando os dados do DataJud. será considerado as ações a) IAD nas Serão considerados os processos com o IAD calculado ambientais, ações a mesma parametrização do tema no período de Resolução ambientais “Ambiental”, da aba “Temas” do 1º/7/2026 a CNJ nº igual ou maior Painel de Estatísticas (https://justica- 30/6/2027; 433/2021. que 100,00% em-numeros.cnj.jus.br/painel-estatisticas/), Para o item (b) (15 pontos); conforme indicadores da Portaria CNJ nº será considerada b) redução 134/2026, que estabeleceu o regulamento do a seguinte dos casos Prêmio Juízo Verde 2026. fórmula: pendentes: São considerados os processos com (CP202706/ variação igual natureza de conhecimento e execução, CP202606-1), em ou menor exceto execução fiscal e execução penal, de que CP202706 que -5,00% todos os graus de jurisdição. representa os dos casos casos pendentes pendentes O IAD é calculado pela divisão entre o total brutos em Tribunais brutos de de processos baixados pelo total de casos 30/6/2027 e de natureza novos do tribunal, conforme parametrização CP202606 Justiça, ambiental (15 do DataJud. representa os Tribunais pontos). Para os itens (b) e (c), são considerados casos pendentes Regionais c) tempo médio os casos penden",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa",
+        "inovacao_processos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#17",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência realizados no primeiro dia do mês subsequente ao mês de referência, independentemente de se tratar de dia útil. Não haverá arredondamento de resultados. Art. 10, XIV 20 pontos, de Para o item (a), por envio de Para o item (a) Implementar acordo com documentação, via formulário eletrônico, será considerada as os seguintes do ato normativo de regulamentação das a situação em audiências critérios: audiências concentradas de reavaliação 30/6/2027. concentradas a) de medidas socioeducativas de internação Para a para Regulamentação e semiliberdade, em consonância com a comprovação do reavaliação das audiências Recomendação CNJ nº 98/2021. item (b.1) serão de medidas concentradas Para o item (b), a comprovação será consideradas as socioeducativas para realizada pelo CNJ, da seguinte forma: audiências de reavaliação de b.1) audiências concentradas: por concentradas de internação e medidas meio dos dados do DataJud, pelas reavaliação de semiliberdade. socioeducativas contagens do movimento 15050 (Audiência medidas Recomendação de internação e Concentrada Infracional), com complemento socioeducativas CNJ nº semiliberdade “situacao_da_audiencia” preenchido como de internação 98/2021. nos Tribunais “13 – realizada”. e semiliberdade de Justiça (5 b.2) adolescentes: será calculado com base realizadas entre pontos). nos dados do Cadastro Nacional de Inspeção 1º/7/2026 e b) Realização em Unidades e Programas Socioeducat",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#18",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência tramitação a) tempo de ou dos tramitação dos a.1.2) da hierarquia da classe 1460, desde processos processos que tenham recebido o movimento 12035; de apuração pendentes E de atos líquidos, a.2) se enquadrem na natureza de infracionais. considerando o “Conhecimento”; número de a.3) dos processos Pendentes Líquidos (ou dias decorridos seja, excluídos os suspensos, sobrestados e entre o início arquivados provisoriamente); do processo de a.4) com a metodologia do indicador apuração do “Tempo do pendente líquido”, conforme ato infracional e Parametrização DataJud: a data-base de https://www.cnj.jus.br/sistemas/datajud/ cálculo: parametrizacao, do DataJud, a.1) de 70,00% No caso de inconsistência ou enviados nos a 80,00% dos indisponibilidade dos dados que impossibilite prazos do art. 12, processos com os cálculos, o tribunal ficará com pontuação I, do Anexo VIII até 180 dias de igual a 0 (zero) no requisito. da Portaria CNJ nº tramitação (10 471/2025. pontos). a.2) de 80,01% a 90,00% dos processos com até 180 dias de tramitação (15 pontos); a.3) acima de 90,00% dos processos com até 180 dias de tramitação (20 pontos).",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#19",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Período de Requisito Pontuação Forma de Comprovação Tribunais Referência Art. 12, I Até 170 pontos, Serão Todos. DataJud, considerando os processos considerados O item (b.5) Resolução eletrônicos baixados ou os dados não se aplica CNJ nº em tramitação desde enviados ao aos Tribunais 331/2020. 1º/1/2020 que estão DataJud até Superiores. inseridos no DataJud e que 15/7/2027, O item (c.3) pertençam ao grupo de conforme se aplica natureza “conhecimento” Resolução aos Tribunais ou “execução”, exceto CNJ nº de Justiça, execuções penais. 331/2020 e Tribunais a) Erros relacionados aos anexo da Regionais processos (até 30 pontos): Portaria CNJ Federais e a.1) possuir 99% nº 160/2020. Tribunais dos processos com Os tribunais Regionais do tipoAssuntoProcessual.codigoNacional que Trabalho. e/ou desejarem Os itens tipoAssuntoLocal.codigoPaiNacional excluir a (c.4) e (c.5) válidos que sejam folha carga se aplicam (último nível) ou de nível 3 completa somente aos ou mais (10 pontos); deverão Tribunais de a.2) possuir 99% enviar o Justiça. dos processos com requerimento O item (c.7) tipoMovimentoNacional.codigoNacional até o dia se aplica e/ou 20/4/2027. somente aos tipoMovimentoLocal.codigoPaiNacional De forma Tribunais de preenchidos, válidos e em a garantir Justiça e último nível (10 pontos); o mesmo Tribunais a.3) mais de 98% período de Regionais dos movimentos que referência Federais. possuam complementos para todos Para os A comprovação será feita por tabelados com os campos os tribuna",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#21",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Partes do polo passivo: as classes não pertencentes ao grupo de variáveis de casos novos, conforme parametrização DataJud; e as classes: 32, 51, 53, 54, 57, 60, 74, 88, 98, 100, 110, 119, 120, 123, 128, 129, 134, 135, 167, 170, 171, 173, 206, 208, 210, 216, 218, 221, 228, 229, 230, 231, 232, 233, 234, 236, 238, 239, 240, 241, 242, 251, 256, 258, 261, 264, 270, 272, 273, 275, 276, 278, 279, 280, 291, 305, 306, 307, 310, 313, 314, 318, 319, 320, 321, 322, 323, 324, 325, 326, 329, 330, 332, 333, 335, 355, 375, 420, 421, 432, 433, 457, 1000, 1005, 1006, 1007, 1015, 1016, 1025, 1028, 1029, 1034, 1037, 1038, 1040, 1042, 1047, 1053, 1054, 1057, 1063, 1066, 1072, 1137, 1145, 1178, 1199, 1208, 1230, 1231, 1232, 1262, 1264, 1265, 1266, 1269, 1285, 1291, 1294, 1295, 1298, 1299, 1301, 1303, 1304, 1306, 1307, 1308, 1390, 1391, 1392, 1401, 1415, 1417, 1424, 1451, 1455, 1461, 1462, 1463, 1474, 1478, 1671, 1672, 1673, 1677, 1680, 1682, 1683, 1689, 1701, 1702, 1703, 1710, 1717, 1719, 1720, 1727, 1729, 1731, 1733, 10933, 10960, 10970, 10972, 10973, 10974, 10975, 10976, 10977, 10979, 10981, 11026, 11041, 11397, 11530, 11531, 11532, 11536, 11542, 11543, 11544, 11545, 11546, 11548, 11552, 11787, 11788, 11789, 11790, 11791, 11794, 11799, 11800, 11875, 11887, 11888, 11889, 11890, 11891, 11892, 11893, 11894, 11953, 11956, 11976, 12060, 12075, 12077, 12080, 12081, 12082, 12085, 12087, 12119, 12121, 12132, 12136, 12139, 12153, 12193, 12232, 12248, 12357, 12370, 12371, 12372, 12374, 12377, 12386, 12388",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#22",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "processos ingressados a partir de 2020, excluídos os que já tiverem recebido uma das movimentações: 22; 246; 488; 12186; 123 com complementos 194, 267 ou 367; 982 com complemento 194, 267 ou 367. O processo que foi reativado e voltou a tramitar será considerado, mesmo que tenha recebido uma das movimentações acima listadas. A regra de exceção se aplica apenas quando os movimentos ocorrerem no mesmo grau de jurisdição (G1, G2, JE, TR, TRU, SUP) do processo que está sendo avaliado. No campo Pessoa.numeroDocumentoPrincipal, são considerados os números de CPF ou CNPJ. Serão desconsideradas da base de cálculo as partes cadastradas com os documentos do tipo “RGE: registro de identificação do estrangeiro” e “RIND: Registro de identificação de indígenas ou de povos e comunidades tradicionais”. Para os itens (b.3) e (b.4), são excluídos os processos do grau JE, do grau G1 nos Tribunais Regionais do Trabalho, das classes 307, 1331, 1720, 1269, 11532, 1054, 1145, 1326, 221, 10970, 1682, 12377, 12631, 12193 ou outras regras de exceção listadas em https://www.cnj.jus.br/ pesquisas-judiciarias/ premio-cnj-de-qualidade/ orientacoes-sobre-datajud. c) Validação de campos de tópicos específicos (65 pontos): c.1) possuir 99% dos movimentos de remessa (123 ou 982) com complemento preenchido em formato válido (10 pontos); c.2) possuir 99% dos movimentos 14739 (Evolução da Classe Processual), 14738 (Retificação de Classe Processual), 10966 (Mudança de Classe Processual), com complemento preenchido",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "inovacao_processos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#23",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "sirenejud.cnj.jus.br/home, com exceção das classes e assuntos listados em https://www.cnj.jus.br/ pesquisas-judiciarias/ premio-cnj-de-qualidade/ orientacoes-sobre-datajud (5 pontos). d) Para os processos eletrônicos baixados ou em tramitação desde 1º/1/2020 que estão inseridos no DataJud e que pertençam ao grupo de natureza “conhecimento” ou “execução”, exceto execuções penais (25 pontos): d.1) possuir 100% de movimentos preenchidos com a classe processual correspondente na data da movimentação, com o campo movimento.classeProcessual preenchido e em formato válido (10 pontos); d.2) possuir 100% dos movimentos preenchidos com o órgão julgador correspondente na data da movimentação, com o campo movimento.orgaoJulgador.codigoOrgao preenchido e em formato válido (10 pontos); d.3) possuir 100% dos processos com o campo dadosBasicos.tipoPrioridade preenchido e em formato válido, quando dadosBasicos.pedidoPrioridade for assinalado como “True”. A ausência ou excesso de pedidos assinalados como “True” pode acarretar perda da pontuação (5 pontos). Art. 12, II Até 60 pontos, da seguinte Pelo CNJ, com base nos dados Será Módulo forma: existentes no sistema MPM. verificada a de a) Cadastro de serventias: Os campos que estiverem preenchidos situação dos Pessoal até 1,00% das serventias com a opção “não informado” serão registros e ativas com registro de considerados inválidos. cadastrados, Estrutura inconsistência ou com Para o item (c), são considerados conforme Judiciária ausência de in",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "inovacao_processos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#24",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Art. 12, Até 30 pontos, de acordo III com os seguintes critérios: Saneamento Serão considerados os do processos eletrônicos DataJud baixados ou em tramitação por desde 1º/1/2020 que estão Unidade inseridos no DataJud e que Judiciária, pertençam ao grupo de Resolução natureza “conhecimento” CNJ nº ou “execução” , exceto 331/2020. execuções penais. a) dados básicos (10 pontos): a.1) todas as unidades judiciárias com 100% de Serão processos com códigos considerados classeProcessual válidos e A comprovação será feita por meio os dados que sejam folha (último do envio dos dados do DataJud do DataJud, nível); e das informações disponibilizadas enviados nos b) assuntos (10 pontos): no painel de saneamento prazos do Todos. b.1) a partir de 95% das por unidade judiciária, https:// art. 12, I, do unidades judiciárias com www.cnj.jus.br/datajud/saneamento- Anexo VIII 99% dos processos com unidades. da Portaria tipoAssuntoProcessual.codigoNacional CNJ nº e/ou 471/2025. tipoAssuntoLocal.codigoPaiNacional válidos que sejam folha (último nível) ou de nível 3 ou mais; c) partes (10 pontos): c.1) a partir de 95% das unidades judiciárias com mais de 98% dos processos em que o campo Pessoa.numeroDocumentoPrincipal esteja preenchido e em formato válido, em pessoa do polo ativo e PoloProcessual.polo, tipo",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#25",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "igual AT: polo ativo preenchido (5 pontos); c.2) a partir de 95% das unidades judiciárias com mais de 98% dos processos em que o campo Pessoa.numeroDocumentoPrincipal esteja preenchido e em formato válido, em pessoa do polo passivo PoloProcessual.polo, tipo igual PA: polo passivo preenchido (5 pontos). Para o critério de validação das partes descrito no item (c) será considerada a mesma regra aplicada no art. 12, I, item (b). Art. 12, 50 pontos, para os A comprovação será feita pelo CNJ, IV tribunais com 100% considerando os dados do DataJud. Situação Tramitar de processos pendentes Será considerada a parametrização do processual as ações eletrônicos, calculado pela indicador de “casos pendentes (total)” em judiciais divisão do total de do DataJud. 30/6/2027, de forma processos pendentes no Parametrização: https:// conforme eletrônica. DataJud com o atributo www.cnj.jus.br/sistemas/datajud/ dados do dadosBasicos.procEl =1 parametrizacao. DataJud, em relação ao total de Painel de Estatísticas: https://justica- Todos. enviados nos processos pendentes no em-numeros.cnj.jus.br/painel- prazos do DataJud. estatisticas/. art. 12, I, do Caso o atributo Anexo VIII dadosBasicos.procEl não da Portaria esteja preenchido, o CNJ nº processo será considerado 471/2025. como físico para fins de avaliação do requisito. Art. 12, Até 60 pontos, de acordo Pelo CNJ, com base no indicador V com os seguintes critérios: iGov-TIC-JUD constante no relatório Índice de a) alcançar o seguinte de governanç",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria",
+        "estatistica_pesquisa"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#26",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "Campos que não admitem a opção “sem declaração”: b.4) Possuir 70% ou mais registros preenchidos do campo escolaridade (5 pontos); b.5) Possuir 70% ou mais registros preenchidos do campo situação de moradia (10 pontos); Nos itens (b.4) e (b.5), o preenchimento é computado quando assinalada uma das opções disponibilizadas pelo sistema. Nos termos do art. 8º da Resolução CNJ nº 213/2015, as indagações sobre os itens acima devem ocorrer na audiência de custódia. Em todos os itens, o campo não preenchido será entendido como indagação não realizada, não contabilizando no numerador de cálculo. Art. 12, Até 20 pontos, Pelo CNJ, por meio dos dados X considerando: extraídos do sistema Domicílio Judicial Implantar a) proporção entre número Eletrônico e dos dados do DataJud. o de citações eletrônicas Para o DataJud, serão considerados Domicílio informadas no sistema e os processos, que no período de Judicial casos novos no DataJud: referência: Eletrônico. a.1) de 5,00% a 20,00% a.1) tenham movimento de distribuição Resolução de processos distribuídos (cod. 26); Tribunais CNJ nº em que pelo menos uma a.2) estejam cadastrados com Serão de 455/2022. parte do polo passivo o atributo dadosBasicos.procEl analisadas Justiça, seja pessoa jurídica preenchido como “1”; as citações Tribunais com cadastro obrigatório a.3) estejam enquadrados como expedidas e Regionais no Domicílio Judicial grau G1 ou JE e as Federais Eletrônico (5 pontos); com natureza de conhecimento, distribuições e a.2) de 20,01%",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_judiciaria"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ275_2026#27",
+      "data": "2026-11-18",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 275/2026",
+      "resumo": "N. 0008828-04.2026.2.00.0000 - PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - A: FERNANDO O'GRADY CABRAL JUNIOR. Adv(s).: DF89629 - ALEX MELO DE OLIVEIRA. R: FUNDACAO GETULIO VARGAS. Adv(s).: Nao Consta Advogado. R: TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO GRANDE DO SUL - TJRS. Adv(s).: Nao Consta Advogado. PODER JUDICIÁRIO CONSELHO NACIONAL DE JUSTIÇA PROCESSO: 0008828-04.2026.2.00.0000 CLASSE: PROCEDIMENTO DE CONTROLE ADMINISTRATIVO (11891) POLO ATIVO: FERNANDO O'GRADY CABRAL JUNIOR REPRESENTANTES POLO ATIVO: ALEX MELO DE OLIVEIRA - DF89629 POLO PASSIVO: FUNDACAO GETULIO VARGAS e outros DECISÃO Trata-se de Procedimento de Controle Administrativo (PCA) proposto por FERNANDO OGRADY CABRAL JUNIOR em face do TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO GRANDE DO SUL (TJRS), no qual pleiteia, liminarmente, que se abstenha de aplicar o item 9.15.2 do Edital 01/2026 - CECPODNR, convocando para a Prova Escrita e Prática todos os candidatos inscritos às serventias reservadas às Pessoas com Deficiência (PcD) que realizarem a Prova Objetiva, marcadas para os dias 06/12/2026 e 13/12/2026, conforme previsto no item 9.15.1 do referido Edital. O Requerente sustenta que o edital que rege o certame prevê que não será oposta cláusula de barreira aos candidatos cotistas (item 6.13, em relação às PcD, e item 7.11, em relação aos negros, indígenas e quilombolas), ambos repetindo a fórmula do artigo 2º, § 6º, da Resolução 203/2015. Aponta, contudo, tratamento diferenciado entre os grupos. Enquanto o item 9.15.1 ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ275_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 24
+}

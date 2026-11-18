@@ -1,0 +1,319 @@
+{
+  "run_utc": "2026-11-18T14:49:31Z",
+  "lookback_days": 7,
+  "desde": "2026-11-11",
+  "fontes": {
+    "stf": {
+      "status": "ok",
+      "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
+      "itens_vistos": 42,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-11T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 21267,
+          "inicio": "[{\"id\":167953,\"date\":\"2026-11-18T09:00:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/lei-de-acesso-a-informacao-completa-15-anos-com-atuacao-do-stf-na-defesa-da-transparencia-publica\\/\",\"title\":{\"rendered\":\"Lei de Acesso \\u00e0 Informa\\u00e7\\u00e3o completa 15 anos com atua\\u00e7\\u00e3o "
+        },
+        {
+          "amostra_titulos": [
+            "Lei de Acesso à Informação completa 15 anos com atuação do STF na defesa da transparência ",
+            "Confira a pauta do STF desta quarta-feira (18)",
+            "Nota de pesar",
+            "STF inaugura escultura do Oxê de Xangô, símbolo da Justiça na tradição iorubá",
+            "Rede questiona no STF regras de Minas Gerais para contratação de artistas pela administraç",
+            "Projeto ‘Diálogos Acadêmicos’ debate no STF proteção à liberdade religiosa e combate ao ra"
+          ]
+        }
+      ]
+    },
+    "stj": {
+      "status": "ok",
+      "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+      "itens_vistos": 7,
+      "fora_da_janela": 2,
+      "selecionados": 2,
+      "probe": [
+        {
+          "url": "https://www.stj.jus.br/sites/portalp/Paginas/RSS.aspx",
+          "http": 200,
+          "content_type": "text/html;charset=UTF-8",
+          "bytes": 15482,
+          "inicio": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r <html xmlns=\"http://www.w3.org/1999/xhtml\">\r <head>\r \r         <!-- ################################################################################################# -->\r       ",
+          "parse_erro": "mismatched tag: line 158, column 2"
+        },
+        {
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
+          "http": 200,
+          "content_type": "text/csv",
+          "bytes": 2621996,
+          "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
+        },
+        {
+          "colunas": [
+            "sequencialPrecedente",
+            "tipoPrecedente",
+            "numeroPrecedente",
+            "dataPrimeiraAfetacao",
+            "dataJulgamento",
+            "dataPublicacaoAcordao",
+            "situacao",
+            "informacoesComplementares",
+            "questaoSubmetidaAJulgamento",
+            "teseFirmada",
+            "anotacoesNUGEPNAC",
+            "delimitacaoJulgado",
+            "entendimentoAnterior",
+            "referenciaLegislativa",
+            "referenciaSumular",
+            "sumulaOriginada",
+            "audienciaPublica",
+            "dataAudienciaPublica",
+            "orgaoJulgador",
+            "Assuntos",
+            "numeroRepercussaoGeralSTF",
+            "descricaoRepercussaoGeral"
+          ],
+          "linhas": 2418,
+          "amostra": [
+            {
+              "sequencialPrecedente": "4350",
+              "tipoPrecedente": "",
+              "numeroPrecedente": "1270",
+              "dataPrimeiraAfetacao": "2024-07-03",
+              "dataJulgamento": "2026-10-08",
+              "dataPublicacaoAcordao": "2026-10-23",
+              "situacao": "Acórdão Publicado",
+              "informacoesComplementares": "Não aplicação do disposto na parte final do § 1º do art. 1.036 do Código de Proc",
+              "questaoSubmetidaAJulgamento": "Discute-se se a  possibilidade de remição da pena por estudo, diante da aprovaçã",
+              "teseFirmada": "1) É cabível a remição proporcional da pena em favor da pessoa privada de liberd",
+              "anotacoesNUGEPNAC": "Dados parcialmente recuperados via sistema Accordes.Afetação na sessão eletrônic",
+              "delimitacaoJulgado": "",
+              "entendimentoAnterior": "",
+              "referenciaLegislativa": "",
+              "referenciaSumular": "",
+              "sumulaOriginada": "",
+              "audienciaPublica": "N",
+              "dataAudienciaPublica": "",
+              "orgaoJulgador": "S3",
+              "Assuntos": "7791- Pena Privativa de Liberdade",
+              "numeroRepercussaoGeralSTF": "",
+              "descricaoRepercussaoGeral": ""
+            },
+            {
+              "sequencialPrecedente": "4781",
+              "tipoPrecedente": "",
+              "numeroPrecedente": "1475",
+              "dataPrimeiraAfetacao": "2026-10-15",
+              "dataJulgamento": "",
+              "dataPublicacaoAcordao": "",
+              "situacao": "Relevância reconhecida",
+              "informacoesComplementares": "Há determinação de suspensão, em âmbito nacional, dos processos pendentes que ve",
+              "questaoSubmetidaAJulgamento": "Definir se a periculosidade decorrente da exposição ao agente físico eletricidad",
+              "teseFirmada": "",
+              "anotacoesNUGEPNAC": "Vide Tema 159/TNU.Afetação na sessão eletrônica iniciada em 30/09/2026 e finaliz",
+              "delimitacaoJulgado": "",
+              "entendimentoAnterior": "",
+              "referenciaLegislativa": "",
+              "referenciaSumular": "",
+              "sumulaOriginada": "",
+              "audienciaPublica": "N",
+              "dataAudienciaPublica": "",
+              "orgaoJulgador": "S1",
+              "Assuntos": "6100- Aposentadoria Especial (Art. 57/8)",
+              "numeroRepercussaoGeralSTF": "852",
+              "descricaoRepercussaoGeral": "Avaliação judicial de critérios para a caracterização de trabalho especial, para"
+            }
+          ]
+        },
+        {
+          "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/d5e50514-6dba-4f1e-8557-94f135eae03b/download/dicionario-temas.csv",
+          "http": 200,
+          "content_type": "text/csv",
+          "bytes": 4171,
+          "inicio": "ï»¿Campo;Nome extenso;DescriÃ§Ã£o\r sequencialPrecedente;NÃºmero sequencial do precedente qualificado;NÃºmero sequencial atribuÃ­do pelo banco de dados quando inserido novo precedente. Ã utilizado para relacionar os temas com os processos disponibilizados no outro arquivo. \r tipoPrecedente;Tipo de p"
+        },
+        {
+          "dicionario": [
+            {
+              "Campo": "sequencialPrecedente",
+              "Nome extenso": "Número sequencial do precedente qualificado",
+              "Descrição": "Número sequencial atribuído pelo banco de dados quando inserido novo precedente. É utilizado para relacionar os temas co"
+            },
+            {
+              "Campo": "tipoPrecedente",
+              "Nome extenso": "Tipo de precedente qualificado",
+              "Descrição": "Classificação dada ao precedente qualificado, conforme sua natureza jurídica: Controvérsia, Tema Repetitivo, Incidente d"
+            },
+            {
+              "Campo": "numeroPrecedente",
+              "Nome extenso": "Número do precedente qualificado",
+              "Descrição": "Número sequencial crescente dado ao precedente qualificado do STJ quando da sua criação conforme sua natureza jurídica: "
+            },
+            {
+              "Campo": "dataPrimeiraAfetacao",
+              "Nome extenso": "Data da primeira afetação",
+              "Descrição": "Data de quando ocorreu a decisão da primeira afetação, quando há mais de uma data de afetação."
+            },
+            {
+              "Campo": "dataJulgamento",
+              "Nome extenso": "Data de julgamento",
+              "Descrição": "Data em que ocorreu o julgamento do tema."
+            },
+            {
+              "Campo": "situacao",
+              "Nome extenso": "Situação",
+              "Descrição": "Situação atual do precedente qualificado."
+            },
+            {
+              "Campo": "informacoesComplementares",
+              "Nome extenso": "Informações complementares",
+              "Descrição": "Informações complementares relativas ao precedente qualificado ou ao julgamento dos processos que compõem o grupo que sã"
+            },
+            {
+              "Campo": "questaoSubmetidaAJulgamento",
+              "Nome extenso": "Questão submetida a julgamento",
+              "Descrição": "Questão jurídica constante dos processos/recursos que está sendo submetida a julgamento no orgão colegiado competente."
+            },
+            {
+              "Campo": "teseFirmada",
+              "Nome extenso": "Tese firmada",
+              "Descrição": "Tese jurídica firmada pelo órgão colegiado competente ao final do julgamento do tema/recurso."
+            },
+            {
+              "Campo": "anotacoesNUGEPNAC",
+              "Nome extenso": "Anotações NUGEPNAC",
+              "Descrição": "Anotações relevantes sobre o precedente qualificado ou sobre o julgamento dos temas/recursos para melhor compreensão do "
+            },
+            {
+              "Campo": "delimitacaoJulgado",
+              "Nome extenso": "Delimitação do julgado",
+              "Descrição": "Informações pertinentes à delimitação da questão submetida a julgamento ou do que foi julgado, para esclarecer eventuais"
+            },
+            {
+              "Campo": "entendimentoAnterior",
+              "Nome extenso": "Entendimento anterior",
+              "Descrição": "Entendimento firmado em precedente qualificado anterior a ser revisto ou já revisado e alterado."
+            },
+            {
+              "Campo": "referenciaLegislativa",
+              "Nome extenso": "Referência legislativa",
+              "Descrição": "Conjunto de normas jurídicas - leis, decretos, portarias, etc - que foram objeto de discussão e serviram de fundamento n"
+            },
+            {
+              "Campo": "referenciaSumular",
+              "Nome extenso": "Referência sumular",
+              "Descrição": "Súmulas utilizadas como fundamento no julgamento dos processos/recursos que formaram o precedente qualificado."
+            },
+            {
+              "Campo": "sumulaOriginada",
+              "Nome extenso": "Súmula originada do tema",
+              "Descrição": "Súmulas que foram originadas/criadas em decorrência da formação do precedente qualificado."
+            },
+            {
+              "Campo": "audienciaPublica",
+              "Nome extenso": "Audiência pública",
+              "Descrição": "Informação de que antes do julgamento do tema/recurso foi realizada uma audiência pública para ouvir pessoas e represent"
+            },
+            {
+              "Campo": "dataAudienciaPublica",
+              "Nome extenso": "Data da audiência pública",
+              "Descrição": "Data em que foi realizada a audiência pública naquele tema/recurso."
+            },
+            {
+              "Campo": "orgaoJulgador",
+              "Nome extenso": "Órgão julgador",
+              "Descrição": "Órgão do STJ que foi determinado regimentalmente competente para julgar a matéria submetida a julgamento."
+            },
+            {
+              "Campo": "Assuntos",
+              "Nome extenso": "Assuntos",
+              "Descrição": "Assuntos relacionados á questão jurídica discutida nos recursos de acordo com a Tabela Processual Unificada do CNJ."
+            },
+            {
+              "Campo": "numeroRepercussaoGeralSTF",
+              "Nome extenso": "Número de Repercussão geral",
+              "Descrição": "Número do tema de Repercussão Geral do STF correlato."
+            },
+            {
+              "Campo": "descricaoRepercussaoGeral",
+              "Nome extenso": "Descrição sobre a repercussão Geral",
+              "Descrição": "Descrição dos temas e recursos que tiveram repercussão geral reconhecida e se relacionam com o precedente qualificado do"
+            }
+          ]
+        },
+        {
+          "mais_recentes": [
+            {
+              "data": "2026-11-16",
+              "tipo": "",
+              "numero": "1486",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "",
+              "numero": "1487",
+              "situacao": "Relevância reconhecida"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "Tema",
+              "numero": "1154",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-11-16",
+              "tipo": "Tema",
+              "numero": "1241",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-11-11",
+              "tipo": "Tema",
+              "numero": "1469",
+              "situacao": "Mérito Julgado"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "STJ",
+      "data": "2026-11-16",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1486",
+      "titulo": "STJ — precedente qualificado ([verificar tipo na fonte]) nº 1486 — situação: Relevância reconhecida",
+      "resumo": "Questão submetida a julgamento: Definir se a Hora Repouso Alimentação (HRA), decorrente da supressão do intervalo intrajornada, possui natureza remuneratória ou indenizatória, após a vigência da Lei n. 13.467/2017, para fins de incidência da contribuição previdenciária patronal, do SAT/RAT e das contribuições destinadas a terceiros.",
+      "assuntos": "6060- Contribuição sobre a folha de salários, 5987- Suspensão da Exigibilidade, 6037- Salário-Educação, 6041- Contribuição INCRA, 6045- Contribuições para o SEBRAE, SESC, SENAC, SENAI e outros, 6048- ",
+      "tese_firmada_fonte": "",
+      "sinais_vinculantes": [
+        "precedente qualificado"
+      ],
+      "temas": [
+        "tributario_folha"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "STJ",
+      "data": "2026-11-16",
+      "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1487",
+      "titulo": "STJ — precedente qualificado ([verificar tipo na fonte]) nº 1487 — situação: Relevância reconhecida",
+      "resumo": "Questão submetida a julgamento: Definir se incide contribuição previdenciária patronal sobre os valores pagos aos profissionais da educação básica a título de rateio ordinário dos recursos do FUNDEB/FUNDEF, nos termos do art. 26 da Lei n. 14.113/2020.",
+      "assuntos": "6060- Contribuição sobre a folha de salários, 6060- Contribuição sobre a folha de salários",
+      "tese_firmada_fonte": "",
+      "sinais_vinculantes": [
+        "precedente qualificado"
+      ],
+      "temas": [
+        "tributario_folha"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 2
+}
