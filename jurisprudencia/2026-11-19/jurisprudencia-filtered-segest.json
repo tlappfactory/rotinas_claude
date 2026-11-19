@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-19T21:19:28Z",
+  "run_utc": "2026-11-19T22:46:58Z",
   "lookback_days": 7,
   "desde": "2026-11-12",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 47,
+      "itens_vistos": 48,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 23583,
-          "inicio": "[{\"id\":168021,\"date\":\"2026-11-19T18:13:39\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico\\/\",\"title\":{\"rendered\":\"STF tem maioria a favor de honor\\u00e1rios advocat\\u00edcios em renegocia\\u00e7\\u0"
+          "bytes": 23850,
+          "inicio": "[{\"id\":168023,\"date\":\"2026-11-19T18:25:45\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/nota-do-gabinete-do-ministro-alexandre-de-moraes-7\\/\",\"title\":{\"rendered\":\"Nota do Gabinete do Ministro Alexandre de Moraes\"},\"excerpt\":{\"rendered\":\"\",\"protected\":false}},{\"id\":168021,\"date\":\"2026-11-19T"
         },
         {
           "amostra_titulos": [
+            "Nota do Gabinete do Ministro Alexandre de Moraes",
             "STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder p",
             "Consif questiona no STF entendimento do TST sobre prazo para ações sobre previdência priva",
             "Caso Master: STF mantém prisão preventiva de primo do banqueiro Daniel Vorcaro",
             "Projeto ‘Diálogos Acadêmicos’ debate no STF proteção dos direitos de crianças e adolescent",
-            "STF lança campanha para combater intolerância religiosa e valorizar diversidade de crenças",
-            "STF vai julgar validade do divisor mínimo na aposentadoria"
+            "STF lança campanha para combater intolerância religiosa e valorizar diversidade de crenças"
           ]
         }
       ]

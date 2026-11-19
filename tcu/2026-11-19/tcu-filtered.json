@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-19T21:19:04Z",
+  "run_utc": "2026-11-19T22:46:42Z",
   "lookback_days": 14,
   "cutoff_date": "2026-11-05",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
