@@ -1,0 +1,241 @@
+{
+  "run_utc": "2026-11-19T14:46:48Z",
+  "lookback_days": 7,
+  "desde": "2026-11-12",
+  "fontes": {
+    "cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/wp-json/wp/v2/posts",
+      "itens_vistos": 65,
+      "fora_da_janela": 0,
+      "selecionados": 3,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "bytes": 50367,
+          "inicio": "[{\"id\":436359,\"date\":\"2026-11-19T08:00:52\",\"link\":\"https:\\/\\/www.cnj.jus.br\\/boas-praticas-sistema-com-inteligencia-artificial-aprimora-gestao-de-riscos-no-judiciario\\/\",\"title\":{\"rendered\":\"Boas pr\\u00e1ticas: sistema com intelig\\u00eancia artificial aprimora gest\\u00e3o de riscos no Judici\\u00e1ri"
+        },
+        {
+          "amostra_titulos": [
+            "Boas práticas: sistema com inteligência artificial aprimora gestão de riscos no Judiciário",
+            "Nota técnica propõe medidas para reduzir a judicialização de conflitos de consumo",
+            "Selo Linguagem Simples: 75 órgãos do Judiciário recebem reconhecimento",
+            "CNJ realiza visita ao TJTO para aprimorar julgamentos de crimes contra a vida",
+            "Seminário debate aperfeiçoamento da gestão de vagas no sistema socioeducativo",
+            "Missões da Justiça e da Cidadania: mais de 350 pessoas são atendidas no primeiro dia de mu"
+          ]
+        }
+      ]
+    },
+    "csjt": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet&p_p_lifecycle=2&p_p_resource_id=rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.csjt.jus.br/web/csjt/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    },
+    "tst": {
+      "status": "no_feed",
+      "endpoint": null,
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/web/guest/noticias/-/asset_publisher/rss",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/wp-json/wp/v2/posts?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        },
+        {
+          "url": "https://www.tst.jus.br/noticias",
+          "http": 202,
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "inicio": ""
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-19",
+      "url": "https://www.cnj.jus.br/boas-praticas-sistema-com-inteligencia-artificial-aprimora-gestao-de-riscos-no-judiciario/",
+      "titulo": "Boas práticas: sistema com inteligência artificial aprimora gestão de riscos no Judiciário",
+      "resumo": "Integrar a Gestão de Processos e a Gestão de Riscos em um único modelo, com apoio da inteligência artificial, para aprimorar o planejamento, prevenir falhas e tornar mais seguras as decisões administrativas. Essa é a proposta do ProRisk, desenvolvido pelo Tribunal Regional do Trabalho da 18ª Região (TRT-18), em Goiás. A prática faz parte das […]",
+      "temas": [
+        "gestao_riscos"
+      ],
+      "temas_fracos": [
+        "inovacao_processos",
+        "orcamento_estrategia",
+        "riscos_projetos",
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-18",
+      "url": "https://www.cnj.jus.br/manual-tecnico-orienta-sobre-julgamentos-inclusivos-de-casos-de-pessoas-com-deficiencia/",
+      "titulo": "Manual técnico orienta sobre julgamentos inclusivos de casos de pessoas com deficiência",
+      "resumo": "Respeitar a autonomia das pessoas com deficiência e garantir seu acesso à Justiça, sem barreiras, são desafios cotidianos do Poder Judiciário. Para apoiar essa atuação, o Conselho Nacional de Justiça (CNJ) elaborou o Manual Técnico: atuação e julgamento à luz da Convenção sobre os Direitos das Pessoas com Deficiência no âmbito do Poder Judiciário, que […]",
+      "temas": [
+        "acessibilidade_inclusao"
+      ],
+      "temas_fracos": [
+        "inclusao_diversidade"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    },
+    {
+      "fonte": "CNJ",
+      "data": "2026-11-13",
+      "url": "https://www.cnj.jus.br/judiciario-fortalece-controle-e-transparencia-com-novo-curso-sobre-gestao-estrategica-da-auditoria/",
+      "titulo": "Judiciário fortalece controle e transparência com novo curso sobre Gestão Estratégica da Auditoria",
+      "resumo": "Estão abertas as inscrições para o curso Governança e Gestão Estratégica da Auditoria. A capacitação, realizada no formato EAD assíncrono, tem o objetivo de impulsionar a atuação das unidades de controle interno do Poder Judiciário em todo o país. Com carga horária de 30 horas/aula, a formação é voltada para servidores e servidoras das unidades […]",
+      "temas": [
+        "governanca",
+        "planejamento_estrategico"
+      ],
+      "temas_fracos": [
+        "governanca_geral",
+        "selos_premios"
+      ],
+      "aviso": "só o resumo da fonte: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 3
+}

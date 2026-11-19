@@ -1,0 +1,97 @@
+{
+  "run_utc": "2026-11-19T14:46:44Z",
+  "lookback_days": 4,
+  "desde": "2026-11-15",
+  "ate": "2026-11-19",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-15&dataDisponibilizacaoFim=2026-11-19&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 2,
+      "fora_da_janela": 0,
+      "selecionados": 2,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13088,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "276",
+            "data": "2026-11-19",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ276_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 425774
+        },
+        {
+          "chars_texto": 17894,
+          "blocos_tematicos": 2
+        }
+      ],
+      "edicao": "276/2026",
+      "data_edicao": "2026-11-19"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ276_2026#1",
+      "data": "2026-11-19",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 276/2026",
+      "resumo": "N. 0009414-41.2026.2.00.0000 - PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - A: KAROLINE VIANA TEIXEIRA. Adv(s).: Nao Consta Advogado. R: FUNDAÇÃO CARLOS CHAGAS. Adv(s).: Nao Consta Advogado. R: TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ - TJCE. Adv(s).: Nao Consta Advogado. Conselho Nacional de Justiça Autos: PROCEDIMENTO DE CONTROLE ADMINISTRATIVO - PCA 0009414-41.2026.2.00.0000 Requerente: KAROLINE VIANA TEIXEIRA Requerido: TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ - TJCE DECISÃO Trata-se de Procedimento de Controle Administrativo (PCA), com pedido liminar, formulado por Karoline Viana Teixeira em face do Tribunal de Justiça do Estado do Ceará (TJCE) e da Fundação Carlos Chagas (FCC), no qual questiona sua não convocação para avaliação biopsicossocial no concurso público para provimento de cargos efetivos e formação de cadastro de reserva do quadro permanente de pessoal do TJCE, regido pelo Edital nº 01/2026. A requerente sustenta que, embora habilitada nas provas objetiva e discursiva para os cargos de Analista Judiciário - Área Judiciária (G07) e Técnico Judiciário - Área Judiciária (I09), não foi incluída na convocação para avaliação biopsicossocial prevista no Edital nº 08/2026. Afirma que obteve pontuação superior à de outros candidatos convocados, circunstância que, em seu entendimento, evidenciaria a adoção de critério restritivo não previsto no edital de abertura, em possível afronta aos princípios da legalidade, da isonomia e da vinculação ao instrumento convocatório. Requer",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ276_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ276_2026#2",
+      "data": "2026-11-19",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 276/2026",
+      "resumo": "divergências entre os pareceres individuais dos integrantes da comissão avaliadora, insuficiência de motivação e utilização de critérios que considera incompatíveis com as disposições editalícias e com a Resolução CNJ nº 541/2023. Pretende a desconstituição do resultado da avaliação e o reconhecimento de sua condição de candidato pardo ou, subsidiariamente, a realização de nova apreciação, devidamente fundamentada. O procedimento foi redistribuído a este Gabinete, por prevenção ao PCA nº 0009090-51.2026.2.00.0000, em razão de ambos se referirem ao mesmo concurso público. É o relatório. Decido. A controvérsia apresentada não comporta conhecimento por este Conselho Nacional de Justiça. Nos termos do art. 103-B, § 4º, da Constituição Federal, compete ao CNJ exercer o controle da atuação administrativa e financeira do Poder Judiciário, atribuição que não se confunde com a revisão ordinária de decisões individuais proferidas por comissões examinadoras de concursos públicos. O Enunciado Administrativo nº 17/2018 deste Conselho estabelece que não cabe ao CNJ o exame de pretensões de natureza individual desprovidas de interesse geral, assim compreendido aquele que ultrapassa os interesses subjetivos da parte, considerada a relevância institucional, os impactos para o sistema de justiça e a repercussão social da matéria. No caso, o requerente foi regularmente submetido ao procedimento de heteroidentificação e pretende, essencialmente, a revisão do resultado de sua avaliação individual",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ276_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 2
+}
