@@ -1,12 +1,12 @@
 {
-  "run_utc": "2026-11-19T14:46:30Z",
+  "run_utc": "2026-11-19T21:19:28Z",
   "lookback_days": 7,
   "desde": "2026-11-12",
   "fontes": {
     "stf": {
       "status": "ok",
       "endpoint": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias",
-      "itens_vistos": 42,
+      "itens_vistos": 47,
       "fora_da_janela": 0,
       "selecionados": 0,
       "probe": [
@@ -14,17 +14,17 @@
           "url": "https://noticias.stf.jus.br/wp-json/wp/v2/postsnoticias?per_page=100&after=2026-11-12T00:00:00&_fields=id,date,link,title,excerpt",
           "http": 200,
           "content_type": "application/json; charset=UTF-8",
-          "bytes": 20860,
-          "inicio": "[{\"id\":168008,\"date\":\"2026-11-19T11:37:00\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-vai-julgar-validade-do-divisor-minimo-na-aposentadoria\\/\",\"title\":{\"rendered\":\"STF vai julgar validade do divisor m\\u00ednimo na aposentadoria\"},\"excerpt\":{\"rendered\":\"<p>Discuss\\u00e3o teve repercus"
+          "bytes": 23583,
+          "inicio": "[{\"id\":168021,\"date\":\"2026-11-19T18:13:39\",\"link\":\"https:\\/\\/noticias.stf.jus.br\\/postsnoticias\\/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico\\/\",\"title\":{\"rendered\":\"STF tem maioria a favor de honor\\u00e1rios advocat\\u00edcios em renegocia\\u00e7\\u0"
         },
         {
           "amostra_titulos": [
-            "STF vai julgar validade do divisor mínimo na aposentadoria",
-            "Confira a pauta do STF desta quinta-feira (19)",
-            "STF derruba exigência de comunicação eletrônica de transferência de veículos no Ceará",
-            "Informe à Imprensa",
-            "Relator extingue investigação contra Carla Zambelli por defender intervenção militar em re",
-            "Plenário do STF já julgou 100 processos em sessões presenciais em 2026"
+            "STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder p",
+            "Consif questiona no STF entendimento do TST sobre prazo para ações sobre previdência priva",
+            "Caso Master: STF mantém prisão preventiva de primo do banqueiro Daniel Vorcaro",
+            "Projeto ‘Diálogos Acadêmicos’ debate no STF proteção dos direitos de crianças e adolescent",
+            "STF lança campanha para combater intolerância religiosa e valorizar diversidade de crenças",
+            "STF vai julgar validade do divisor mínimo na aposentadoria"
           ]
         }
       ]
@@ -32,7 +32,7 @@
     "stj": {
       "status": "ok",
       "endpoint": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
-      "itens_vistos": 6,
+      "itens_vistos": 8,
       "fora_da_janela": 2,
       "selecionados": 0,
       "probe": [
@@ -48,7 +48,7 @@
           "url": "https://dadosabertos.web.stj.jus.br/dataset/4238da2f-c07b-4c1a-b345-4402accacdcf/resource/df29da13-7d6b-41ba-ad96-cd1a5bbd191c/download/temas.csv",
           "http": 200,
           "content_type": "text/csv",
-          "bytes": 2619809,
+          "bytes": 2622153,
           "inicio": "sequencialPrecedente,tipoPrecedente,numeroPrecedente,dataPrimeiraAfetacao,dataJulgamento,dataPublicacaoAcordao,situacao,informacoesComplementares,questaoSubmetidaAJulgamento,teseFirmada,anotacoesNUGEPNAC,delimitacaoJulgado,entendimentoAnterior,referenciaLegislativa,referenciaSumular,sumulaOriginada,"
         },
         {
@@ -247,6 +247,18 @@
         {
           "mais_recentes": [
             {
+              "data": "2026-11-18",
+              "tipo": "Tema",
+              "numero": "1352",
+              "situacao": "Acórdão Publicado"
+            },
+            {
+              "data": "2026-11-18",
+              "tipo": "Tema",
+              "numero": "1432",
+              "situacao": "Acórdão Publicado"
+            },
+            {
               "data": "2026-11-16",
               "tipo": "",
               "numero": "1486",
@@ -263,18 +275,6 @@
               "tipo": "Tema",
               "numero": "1154",
               "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-11-16",
-              "tipo": "Tema",
-              "numero": "1241",
-              "situacao": "Acórdão Publicado"
-            },
-            {
-              "data": "2026-11-11",
-              "tipo": "Tema",
-              "numero": "1469",
-              "situacao": "Mérito Julgado"
             }
           ]
         }
