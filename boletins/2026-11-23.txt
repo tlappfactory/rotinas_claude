@@ -1,0 +1,76 @@
+BOLETIM NORMATIVO DIÁRIO - SGP — 23 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo Diário - SGP.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* TRT-17 – Ato nº 29/2026 (17/11/2026): restabelece vantagem de 1/5 de FC-5 nos proventos de aposentada, por decisão judicial
+  Ementa: Torna sem efeito o Ato PRESI/SGP nº 32/2024 e mantém, na estrutura de proventos da servidora aposentada Alaídis de Jesus, a vantagem pessoal nominalmente identificada decorrente da incorporação de 1/5 da FC-5 (Assistente-Secretário), nos termos do Ato PRESI/SGP nº 27/2020, com efeitos financeiros administrativos a partir de 01/11/2026, vedada a redução, absorção ou compensação por reajustes (Lei 14.523/2023 ou futuros). Cumpre decisão judicial transitada em julgado (JEF Cível de Vitória) e faz referência ao RE 638.115 (STF). [carece de leitura humana do texto integral]
+  Unidade(s): SESES, DIPROF, SELEP
+  Ação sugerida: Implantar a vantagem na folha desde 01/11/2026 e apurar valores retroativos.
+  Fonte: DOU Seção 2, p. 73 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2
+
+3. INFORMATIVO (arquivo)
+
+* TRT-17 – Portarias nº 651 e 652/2026 (19/11/2026): dispensa e designação de FC-03 na SEINFO
+  Ementa: Dispensa Arthur Vescovi Salles (a partir de 16/11/2026) e designa Lucas Oliveira do Carmo, Técnico Judiciário removido para o Tribunal, para a FC-03 (Assistente) da Seção de Informações Funcionais.
+  Unidade(s): SELEP, SEINFO
+  Fonte: DOU Seção 2, p. 73 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2
+
+* Leis nº 15.548 e 15.551, de 19/11/2026: créditos orçamentários em favor da Justiça do Trabalho, da Justiça Federal e de outros órgãos
+  Ementa: A Lei 15.548 abre crédito especial de R$ 4.856.104,00 em favor das Justiças Federal e do Trabalho, da Presidência da República e dos Ministérios da Saúde e do Meio Ambiente; a Lei 15.551 abre crédito suplementar de R$ 11.785.853,00 em favor do STJ, da Justiça Federal e da Justiça Militar da União. Não há indicação, no trecho disponível, de destinação específica a pessoal da SGP. [carece de leitura humana do texto integral — conferir no DOU]
+  Unidade(s): SGP-direção (ciência)
+  Fonte: DOU Seção 1, p. 6 e 17 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1
+
+* TST – Atos nº 704 e 705/2026 (19/11/2026): nomeações de aprovados em concurso público
+  Ementa: Nomeação, nos termos do art. 9º, I, da Lei 8.112/1990, de candidatos aprovados em concurso do TST. [carece de leitura humana do texto integral — conferir no DOU]
+  Unidade(s): SELIR, SELEP
+  Fonte: DOU Seção 2, p. 67 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2
+
+* TRT-8 – Atos PRESI nº 185 e 186/2026 (11/11/2026): redistribuição de cargo de Analista Judiciário com o TRT-18
+  Ementa: Atos de redistribuição de cargo da carreira de Analista Judiciário, Área Administrativa, envolvendo o TRT-8 e o TRT-18; não envolvem o TRT-17. Registro para consulta sobre a prática de redistribuição.
+  Unidade(s): SELIR
+  Fonte: DOU Seção 2, p. 72 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2
+
+* Portaria SE/MPS nº 1.634/2026 (17/11/2026): altera o Anexo II do Programa de Gestão e Desempenho da Perícia Médica Federal
+  Ementa: Altera o Anexo II da Portaria SRGPS/MPS nº 2.400/2025 (PGDPMF), no âmbito do Departamento de Perícia Médica Federal. Norma setorial do MPS; sem reflexo direto identificado para o TRT-17. [carece de leitura humana do texto integral — conferir no DOU]
+  Unidade(s): SECOBE
+  Fonte: DOU Seção 1, p. 146 — https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU – acórdãos de 10 e 17/11/2026 sobre "quintos", parcela "opção" e ATS em aposentadorias e pensão (ex.: Acórdãos 5409, 5414–5416, 5844, 5848–5850, 5856, 5857, 5860, 5840 e 5478/2026)
+  Status: Acórdãos das Primeira e Segunda Câmaras (sessões de 10/11 e 17/11/2026) em apreciação de atos de aposentadoria e pensão; as ementas tratam de incorporação de quintos/décimos após a Lei 9.624/1998, cumulação com a parcela "opção", modulação do RE 638.115 e, no Acórdão 5840, ATS de magistrada à luz do Tema 966. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível reflexo na instrução de aposentadorias e pensões (SESES) e em ajustes de proventos (DIPROF).
+  Fonte: TCU, pesquisa de jurisprudência (acórdãos 2026) — https://contas.tcu.gov.br/pesquisaJurisprudencia/
+
+* STF – repercussão geral reconhecida sobre a validade do divisor mínimo na aposentadoria, com suspensão nacional dos processos (notícia de 19/11/2026)
+  Status: Notícia do STF informa o reconhecimento de repercussão geral e a suspensão nacional dos processos sobre a regra. [carece de leitura humana do texto integral]
+  Possível reflexo: Possível reflexo no cálculo de proventos (SESES).
+  Fonte: Notícias do STF, 19/11/2026 — https://noticias.stf.jus.br/postsnoticias/stf-vai-julgar-validade-do-divisor-minimo-na-aposentadoria/
+
+* STJ – Temas repetitivos 1486 e 1487 (16/11/2026): contribuição previdenciária sobre HRA e sobre rateio do FUNDEB/FUNDEF
+  Status: Relevância reconhecida em ambos os temas; o Tema 1486 trata da natureza (remuneratória ou indenizatória) da Hora Repouso Alimentação para incidência de contribuição previdenciária patronal. Tese ainda não fixada. [carece de leitura humana do texto integral]
+  Possível reflexo: Acompanhar eventual reflexo em tributação e contribuições sobre a folha (DIPROF).
+  Fonte: STJ, temas repetitivos 1486 e 1487 — https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&num_tema=1486
+
+* CNJ – DJe nº 278/2026 (23/11/2026): trechos sobre acessibilidade de partes com deficiência e critérios de pontuação de magistrados
+  Status: Trechos de decisão sobre providências de acessibilidade para pessoas com deficiência e de texto que menciona regras de pontuação (Res. CNJ 426/2021). Trechos brutos do diário. [carece de leitura humana do texto integral]
+  Possível reflexo: Sem reflexo direto identificado para a SGP; ciência.
+  Fonte: DJe do CNJ nº 278/2026 — https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ278_2026-ASSINADO.PDF&statusDoDiario=ASSINADO
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 1
+- Informativos: 5
+- Em Monitoramento: 4
+- Fontes consultadas: DOU Seções 1 e 2 de 23/11/2026: 127 atos selecionados, 56 atos individuais de pessoal de outros órgãos descartados pelo filtro. Acórdãos do TCU das sessões de 20/10 a 18/11/2026: 37 selecionados. Jurisprudência do STF e do STJ consultada. DJe do CNJ nº 278/2026 consultado.
+- Sem retorno relevante: DEJT Caderno Administrativo (TRT-17, CSJT e TST), publicação de 23/11/2026: edição não consultada pela rotina automatizada — conferência manual em diario.jt.jus.br. DJEN (acórdãos do CSJT): não consultado — conferência manual em comunica.pje.jus.br.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo Diário - SGP (Claude AI) em 23/11/2026, 11h45 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
