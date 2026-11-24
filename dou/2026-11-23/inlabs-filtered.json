@@ -1,12 +1,12 @@
 {
   "date": "2026-11-23",
-  "total_xml_files": 1180,
-  "matched_articles": 127,
+  "total_xml_files": 1184,
+  "matched_articles": 131,
   "discarded_individual_acts": {
-    "total": 56,
+    "total": 64,
     "by_section": {
       "DO1": 1,
-      "DO2": 55
+      "DO2": 63
     }
   },
   "parse_errors": [],
@@ -212,6 +212,99 @@
       "weak_keywords": [],
       "score": 25,
       "xml_file": "DO2_0440.xml"
+    },
+    {
+      "id": "portaria-cgben/decipex/sgp/mgi-n-13.972-de-19-de-novembro-de-2026-745586644",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.972, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.972, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo nº 19975.015806/2025-70, resolve: Art. 1º Declarar aposentada compulsoriamente aos 75 anos de idade, a servidora, AMALIA DURAM DUARTE , matrícula SIAPE nº 2330042, ocupante do cargo de Auxiliar Operacional de Serviços Diversos, Nível Auxiliar, Classe S, Padrão III, oriunda do Extinto Território Federal de Rondônia, com fundamento no art. 10, § 1º, inciso III, da Emenda Constitucional nº 103, de 2019. Art. 2º Os proventos são proporcionais, com base no tempo de contribuição, e calculados pela média aritmética estabelecida no artigo 26, § 4º, da Emenda Constitucional nº 103, de 2019. Art. 3º O vigor desta Portaria retroage a 24/01/2026. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "32",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.972-de-19-de-novembro-de-2026-745586644",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "aposentadoria",
+        "averbacao_tempo",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 25,
+      "xml_file": "DO2_0447.xml"
+    },
+    {
+      "id": "portaria-cgben/decipex/sgp/mgi-n-13.982-de-19-de-novembro-de-2026-745633335",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.982, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.982, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo nº 10199.005704/2026-08, resolve: Art. 1º Declarar aposentada compulsoriamente aos 75 anos de idade a servidora, MARIA BERNADETTE DA SILVA FRANCISCO, matrícula SIAPE nº 1751963, ocupante do cargo de Agente Administrativo, Nível Intermediário, Classe \"S\", Padrão I, do Quadro de Pessoal do Ministério da Gestão e da Inovação em Serviços Públicos, com fundamento no art. 10, § 1º, inciso III, da Emenda Constitucional nº 103, de 2019. Art. 2º Os proventos são proporcionais, com base no tempo de contribuição, e calculados pela média aritmética estabelecida no artigo 26, § 4º, da Emenda Constitucional nº 103, de 2019. Art. 3º O vigor desta Portaria retroage a 16/11/2026. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "33",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.982-de-19-de-novembro-de-2026-745633335",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "aposentadoria",
+        "averbacao_tempo",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 25,
+      "xml_file": "DO2_0648.xml"
+    },
+    {
+      "id": "portaria-cgben/decipex/sgp/mgi-n-13.990-de-19-de-novembro-de-2026-745635944",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.990, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.990, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo nº 13033.206387/2026-18, resolve: Art.1º Conceder aposentadoria voluntária ao servidor, JORGE ANTONIO RIBEIRO DUARTE , matrícula SIAPE nº 0131964, ocupante do cargo de Analista-Tributário da Receita Federal do Brasil, Nível Superior, Classe \"S\", Padrão III, do Quadro de Pessoal do Ministério da Fazenda, fundamentada no art. 10, § 1º, inciso I, da Emenda Constitucional nº 103, de 2019, e proventos integrais, calculados com base no tempo de contribuição, nos termos do artigo 26, § 2º. Art.2º Esta Portaria entra em vigor na data de sua publicação. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "33",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.990-de-19-de-novembro-de-2026-745635944",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "aposentadoria",
+        "averbacao_tempo",
+        "pensao"
+      ],
+      "weak_keywords": [],
+      "score": 25,
+      "xml_file": "DO2_0269.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-14.001-de-19-de-novembro-de-2026-745622080",
@@ -531,8 +624,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 256/2026 Usando as atribuições que lhe são conferidas, A COORDENAÇÃO-GERAL DE RISCO E CONTROLE DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS - DECIPEX, NOTIFICA, por encontrar-se em local incerto e não sabido, a Sra. JENNY LOPES DE ABREU NETA, inscrita sob o CPF nº 865.***.**7-00, para ter conhecimento do prosseguimento do Processo Administrat...",
-      "texto_truncated": true,
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 256/2026 Usando as atribuições que lhe são conferidas, A COORDENAÇÃO-GERAL DE RISCO E CONTROLE DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS - DECIPEX, NOTIFICA, por encontrar-se em local incerto e não sabido, a Sra. JENNY LOPES DE ABREU NETA, inscrita sob o CPF nº 865.***.**7-00, para ter conhecimento do prosseguimento do Processo Administrativo nº 19975.030954/2024-33, com a exclusão de seu benefício, conforme decisão exarada na Nota Técnica SEI nº 37209/2025/MGI (53618581), uma vez que não houve manifestação e localização de apresentação de recurso dentro do prazo estabelecido no Edital de Notificação nº 356/2025 (54832514), publicado no Diário Oficial da União nº 201, de 21/10/2025. CARLA CRISTINE GONCALVES SOARES FIGUEIREDO",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "75",
@@ -591,8 +684,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 260/2026 Usando as atribuições que lhe são conferidas, A COORDENAÇÃO-GERAL DE RISCO E CONTROLE DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS - DECIPEX, NOTIFICA, por encontrar-se em local incerto e não sabido, a Sra. YNDIRA MATHIAS NETTO, inscrita sob o CPF nº 011.***.**6-33, para ter conhecimento do prosseguimento do Processo Administrativo n...",
-      "texto_truncated": true,
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 260/2026 Usando as atribuições que lhe são conferidas, A COORDENAÇÃO-GERAL DE RISCO E CONTROLE DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS - DECIPEX, NOTIFICA, por encontrar-se em local incerto e não sabido, a Sra. YNDIRA MATHIAS NETTO, inscrita sob o CPF nº 011.***.**6-33, para ter conhecimento do prosseguimento do Processo Administrativo nº 19975.039925/2024-37, com a exclusão de seu benefício, conforme decisão exarada na Nota Técnica SEI nº 42884/2025/MGI (54176332), uma vez que não houve manifestação e localização de apresentação de recurso dentro do prazo estabelecido no Edital de Notificação nº 331/2025 (54176353), publicado no Diário Oficial da União nº 186, de 30/09/2025. JEFFERSON DE MENEZES MELO FILHO",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "75",
@@ -711,8 +804,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.535, DE 9 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de de...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.535, DE 9 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e tendo em vista o que consta no Processo nº 14021.088079/2026-04, resolve: Art. 1° Conceder pensão à MARIA JOSÉ BEZERRA DA SILVA, na qualidade de cônjuge do ex-servidor MANOEL ANANIAS DA SILVA, ocupante do cargo de Analista Tributário da Receita Federal do Brasil, matrícula SIAPE nº ***94**, do quadro de pessoal deste Ministério da Gestão e da Inovação em Serviços Públicos, falecido em inatividade, em 29 de outubro de 2026, com fundamento no inciso I do art. 3º da Portaria SGP/SEDGG/ME Nº 4645, de 24 de maio de 2022, c/c o art. 217 da Lei nº 8.112, de 11 de dezembro de 1990, e art. 23 da Emenda Constitucional nº 103, de 12 de novembro de 2019. Art. 2º Os efeitos desta Portaria entram em vigor em 29 de outubro de 2026. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "31",
@@ -831,8 +924,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.896, DE 17 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de d...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.896, DE 17 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e tendo em vista o que consta no Processo nº 19975.036559/2026-26, resolve: Art. 1° Conceder pensão à AIDÊ DE CASTRO TEIXEIRA, na qualidade de cônjuge do ex-servidor ARAIDE GOMES TEIXEIRA, ocupante do cargo de Agente Administrativo, matrícula SIAPE nº ***92**, do quadro de pessoal deste Ministério da Gestão e da Inovação em Serviços Públicos, falecido em inatividade, em 03 de novembro de 2026, com fundamento no inciso I do art. 3º da Portaria SGP/SEDGG/ME Nº 4645, de 24 de maio de 2022, c/c o art. 217 da Lei nº 8.112, de 11 de dezembro de 1990, e art. 23 da Emenda Constitucional nº 103, de 12 de novembro de 2019. Art. 2º Os efeitos desta Portaria entram em vigor em 03 de novembro de 2026. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "32",
@@ -971,36 +1064,6 @@
       "xml_file": "DO2_0345.xml"
     },
     {
-      "id": "portaria-cgben/decipex/sgp/mgi-n-13.972-de-19-de-novembro-de-2026-745586644",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.972, DE 19 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.972, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "32",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.972-de-19-de-novembro-de-2026-745586644",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [
-        "aposentadoria",
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 20,
-      "xml_file": "DO2_0447.xml"
-    },
-    {
       "id": "portaria-cgben/decipex/sgp/mgi-n-13.977-de-19-de-novembro-de-2026-745598176",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -1041,8 +1104,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.978, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.978, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo nº 13090.201245/2026-80, resolve: Art.1º Conceder aposentadoria voluntária à servidora, VERA LÚCIA SANTOS DE MELLO, matrícula SIAPE nº 0252655, ocupante do cargo de Agente Administrativo, Nível Intermediário, Classe \"S\", Padrão V, do Quadro de Pessoal do Ministério do Trabalho e Emprego, com fundamento no art. 20, § 2º, inciso II, da Emenda Constitucional nº 103, de 2019, e proventos calculados pela média aritmética nos termos do artigo 26, § 3º, inciso I e § 6º, do referido dispositivo. Art.2º Esta Portaria entra em vigor na data de sua publicação. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "32",
@@ -1061,66 +1124,6 @@
       "xml_file": "DO2_0658.xml"
     },
     {
-      "id": "portaria-cgben/decipex/sgp/mgi-n-13.982-de-19-de-novembro-de-2026-745633335",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.982, DE 19 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.982, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "33",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.982-de-19-de-novembro-de-2026-745633335",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [
-        "aposentadoria",
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 20,
-      "xml_file": "DO2_0648.xml"
-    },
-    {
-      "id": "portaria-cgben/decipex/sgp/mgi-n-13.990-de-19-de-novembro-de-2026-745635944",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "identifica": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.990, DE 19 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão de Pessoas/Diretoria de Serviços de Aposentados e de Pensionistas e Órgãos Extintos/Coordenação-Geral de Benefícios",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 13.990, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "33",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-cgben/decipex/sgp/mgi-n-13.990-de-19-de-novembro-de-2026-745635944",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [
-        "aposentadoria",
-        "pensao"
-      ],
-      "weak_keywords": [],
-      "score": 20,
-      "xml_file": "DO2_0269.xml"
-    },
-    {
       "id": "portaria-cgben/decipex/sgp/mgi-n-14.011-de-19-de-novembro-de-2026-745605357",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -1131,8 +1134,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 14.011, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA CGBEN/DECIPEX/SGP/MGI Nº 14.011, DE 19 DE NOVEMBRO DE 2026 O COORDENADOR-GERAL DE BENEFÍCIOS, DA DIRETORIA DE SERVIÇOS DE APOSENTADOS E DE PENSIONISTAS E ÓRGÃOS EXTINTOS, DA SECRETARIA DE GESTÃO DE PESSOAS, DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência atribuída pela Portaria DECIP/SGP/MPDG nº 13.530, de 27 de dezembro de 2018, publicada no DOU de 28 de dezembro de 2018, e considerando o disposto no Processo nº 14021.071338/2026-50, resolve: Art. 1º Alterar a fundamentação da aposentadoria do servidor RAIMUNDO AIRTON DA SILVA ROCHA, matrícula SIAPE nº 0118292, Auditor Fiscal da Receita Federal do Brasil, Nível Superior, Classe \"S\", Padrão III, do do art. 20, incisos I a IV, e §§ 2º e 3º, inciso I, e art. 4º, § 8º, da EC nº 103, de 2019, para o art. 20, § 2º, inciso II, da Emenda Constitucional nº 103, de 2019, e proventos calculados pela média aritmética nos termos do art. 26, § 3º, inciso I e § 6º, do referido dispositivo. Art. 2º Esta Portaria entra em vigor na data de sua publicação. ROBERTO FAGNER DE FIGUEIREDO BRAGA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "33",
@@ -1331,6 +1334,35 @@
       "xml_file": "DO2_0544.xml"
     },
     {
+      "id": "portaria-de-pessoal-dicat/se/mgi-n-14.017-de-19-de-novembro-de-2026-745602467",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "identifica": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 14.017, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 14.017, DE 19 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS SUBSTITUTO DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de 2026, e tendo em vista o disposto no art. 3°, inciso IX e §1, e no art. 8° da Portaria DICAT/SE/MGI nº 6.696, de 14 de agosto de 2026, e o que consta no Processo nº 14021.080468/2026-83, resolve: Art. 1º Tornar sem efeito a Portaria de Pessoal DICAT/SE/MGI nº 13767, de 13 de novembro de 2026, publicada no Diário Oficial da União do dia 18 de novembro de 2026, Seção 2, página 47, que efetivou o exercício, por permuta, da servidora MEG SAIARA SILVA RIBEIRO DE MACEDO, matrícula SIAPE nº 3540667, na Superintendência do Ministério da Saúde, em Macapá/AP. Art. 2º Esta Portaria entra em vigor na data de sua publicação. DOUGLAS ANDRADE DA SILVA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "30",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-dicat/se/mgi-n-14.017-de-19-de-novembro-de-2026-745602467",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 15,
+      "xml_file": "DO2_0254.xml"
+    },
+    {
       "id": "portaria-de-pessoal-dicat/se/mgi-n-14.019-de-19-de-novembro-de-2026-745622108",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -1458,8 +1490,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "ATO Nº 700, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, resolve: 1 - Nomear a servidora ELISA RORIZ MENDES DOMENICI DE MORAIS, código 64189, Analista Judiciária, Área Administrativa, cedida a este Tribunal pelo Conselho Nacional de Justiça, para exercer o cargo em comissão de Assessora-Chefe da Assessoria de Relações Int...",
-      "texto_truncated": true,
+      "texto_resumo": "ATO Nº 700, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, resolve: 1 - Nomear a servidora ELISA RORIZ MENDES DOMENICI DE MORAIS, código 64189, Analista Judiciária, Área Administrativa, cedida a este Tribunal pelo Conselho Nacional de Justiça, para exercer o cargo em comissão de Assessora-Chefe da Assessoria de Relações Internacionais, nível CJ-3, ficando exonerada do cargo em comissão de Chefe da Divisão de Eventos Institucionais, nível CJ-1; 2 - Designar a servidora ELISA RORIZ MENDES DOMENICI DE MORAIS, código 64189, Analista Judiciária, Área Administrativa, cedida a este Tribunal pelo Conselho Nacional de Justiça, para exercer o encargo de substituta do titular do cargo em comissão de Chefe da Divisão de Eventos Institucionais, nível CJ-1, em seus afastamentos legais e/ou eventuais. Min. VIEIRA DE MELLO FILHO",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "66",
@@ -1487,8 +1519,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "ATO Nº 701, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, resolve: 1 - Dispensar a servidora ELISA RORIZ MENDES DOMENICI DE MORAIS, código 64189, Analista Judiciária,, Área Administrativa, cedida pelo Conselho Nacional de Justiça, do encargo de substituta legal e/ou eventual do titular do cargo em comissão de Assessor-Chef...",
-      "texto_truncated": true,
+      "texto_resumo": "ATO Nº 701, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais, resolve: 1 - Dispensar a servidora ELISA RORIZ MENDES DOMENICI DE MORAIS, código 64189, Analista Judiciária,, Área Administrativa, cedida pelo Conselho Nacional de Justiça, do encargo de substituta legal e/ou eventual do titular do cargo em comissão de Assessor-Chefe da Assessoria de Relações Internacionais, Nível CJ-3. 2 - Dispensar o servidor HIGHLANDER GUIMARAES DE PAULA, código 60850, Técnico Judiciário, Área Administrativa, do encargo de substituto legal e/ou eventual do titular do cargo em comissão de Chefe da Divisão de Eventos Institucionais, Nível CJ-1, de que trata a Resolução Administrativa nº 2320 de 16/5/2022. Min. VIEIRA DE MELLO FILHO",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "66",
@@ -1678,6 +1710,35 @@
       ],
       "score": 11,
       "xml_file": "DO2_0010.xml"
+    },
+    {
+      "id": "portaria-de-pessoal-ssc/mgi-n-13.903-de-19-de-novembro-de-2026-745584687",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
+      "identifica": "PORTARIA DE PESSOAL SSC/MGI Nº 13.903, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA DE PESSOAL SSC/MGI Nº 13.903, DE 19 DE NOVEMBRO DE 2026 A SECRETÁRIA DE SERVIÇOS COMPARTILHADOS SUBSTITUTA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pelo art. 12 da Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026, e demais informações que constam do Processo nº 12105.100563/2021-41, resolve: Art. 1º Designar ADRIANO CAETANO SANTOS, matrícula Siape nº 2770641, para, no período de 14 a 24 de dezembro de 2026, exercer o encargo de substituto eventual da Função Comissionada Executiva de Diretor de Gestão Estratégica, código FCE 1.16, da Secretaria de Serviços Compartilhados deste Ministério, em virtude de férias do titular e substitutos. Art. 2º Esta Portaria entra em vigor na data de sua publicação. WANESSA QUEIROZ DE SOUZA OLIVEIRA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "34",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-ssc/mgi-n-13.903-de-19-de-novembro-de-2026-745584687",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0617.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.904-de-19-de-novembro-de-2026-745624956",
@@ -2009,8 +2070,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 394, DE 17 DE NOVEMBRO DE 2026 O DIRETOR DE GESTÃO CORPORATIVA DA FUNDAÇÃO ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA - ENAP, conforme Portaria Enap nº 10, de 04 de outubro de 2022, no uso das atribuições que lhe confere o Estatuto aprovado pelo Decreto nº 10.369, de 22 de maio de 2020, e tendo em vista o constante dos autos do processo nº 04600.004903/2026-07, resolve: Art. 1º Conceder ...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 394, DE 17 DE NOVEMBRO DE 2026 O DIRETOR DE GESTÃO CORPORATIVA DA FUNDAÇÃO ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA - ENAP, conforme Portaria Enap nº 10, de 04 de outubro de 2022, no uso das atribuições que lhe confere o Estatuto aprovado pelo Decreto nº 10.369, de 22 de maio de 2020, e tendo em vista o constante dos autos do processo nº 04600.004903/2026-07, resolve: Art. 1º Conceder Gratificação Temporária de Atividade em Escola de Governo - GAEG, de nível superior, código de vaga NS 075, à servidora CAROLINE LEÃO CORDEIRO DE FARIAS DA SILVA para exercício na Coordenação-Geral de Aperfeiçoamento para Carreiras da Diretoria de Educação Executiva desta Fundação Escola Nacional de Administração Pública - Enap. Art. 2º Esta Portaria entra em vigor na data de sua publicação. LINCOLN MOREIRA JORGE JUNIOR",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "34",
@@ -2085,6 +2146,35 @@
       ],
       "score": 11,
       "xml_file": "DO2_0497.xml"
+    },
+    {
+      "id": "portaria-stj/gdg-n-1.029-de-18-de-novembro-de-2026-745626142",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
+      "identifica": "PORTARIA STJ/GDG Nº 1.029, DE 18 DE NOVEMBRO DE 2026",
+      "orgao": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA STJ/GDG Nº 1.029, DE 18 DE NOVEMBRO DE 2026 A DIRETORA-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL DE JUSTIÇA, com base no item 25.2.3, XI, b, do Anexo da Instrução Normativa STJ/GP n. 51 de 20 de outubro de 2026 e no disposto no art. 35, I, da Lei n. 8.112, de 11 de dezembro de 1990, resolve: Art. 1º Efetuar as seguintes alterações na Coordenadoria de Triagem Processual, da Secretaria Judiciária: I - Dispensar de função de confiança: SOFIA FERNANDES DE LIMA LIRA, matrícula S065239, Assessora C, código FC-6; MARCELO ESMERALDO NOGUEIRA, matrícula S068548, Assistente IV, código FC-4; II - Designar para função de confiança: MARCELO ESMERALDO NOGUEIRA, matrícula S068548, Assessor C, código FC-6, na vaga decorrente da dispensa de Sofia Fernandes de Lima Lira; SOFIA FERNANDES DE LIMA LIRA, matrícula S065239, Assistente IV, código FC-4, na vaga decorrente da dispensa de Marcelo Esmeraldo Nogueira. Art. 2º Esta portaria entra em vigor na data de sua publicação. FABIANA BITTES VEYL",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "66",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-stj/gdg-n-1.029-de-18-de-novembro-de-2026-745626142",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "superior tribunal de justica"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0647.xml"
     },
     {
       "id": "portaria-secpessoas-n-148-de-19-de-novembro-de-2026-745626221",
@@ -2172,6 +2262,35 @@
       ],
       "score": 11,
       "xml_file": "DO2_0313.xml"
+    },
+    {
+      "id": "portaria-stj/gdg-n-1.017-de-12-de-novembro-de-2026-745584091",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
+      "identifica": "Portaria STJ/GDG Nº 1.017, DE 12 DE novembro DE 2026",
+      "orgao": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria STJ/GDG Nº 1.017, DE 12 DE novembro DE 2026 A DIRETORA-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL DE JUSTIÇA, com base no item 25.2.3, XI, b, do Anexo da Instrução Normativa STJ/GP n. 51 de 20 de outubro 2026 e no disposto no art. 35, I, da Lei n. 8.112, de 11 de dezembro de 1990, resolve: Art. 1º Dispensar ÉRYKA CARDOSO DOS SANTOS, matrícula S034015, da função de confiança de Assessor C, código FC-6, do Gabinete do Ministro Og Fernandes. Art. 2º Designar a servidora para a função de confiança de Assistente IV, código FC-4, do Gabinete do Ministro Marco Aurélio Bellizze, na vaga decorrente da dispensa de Carmem Costa Franco Rocha. Art. 3º Esta portaria entra em vigor na data de sua publicação. FABIANA BITTES VEYL",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "66",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-stj/gdg-n-1.017-de-12-de-novembro-de-2026-745584091",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [
+        "superior tribunal de justica"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "substituicao_fc_cc"
+      ],
+      "score": 11,
+      "xml_file": "DO2_0401.xml"
     },
     {
       "id": "portaria-de-pessoal-an/mgi-n-213-de-17-de-novembro-de-2026-745601301",
@@ -2297,8 +2416,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "ATO Nº 704, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais e tendo em vista o constante do Processo Administrativo TST nº 6003786/2026-00, resolve: Nomear, nos termos do inciso I do art. 9º da Lei nº 8.112/1990, os candidatos, abaixo relacionados, aprovados em concurso público realizado por este Tribunal, para exercerem, em ...",
-      "texto_truncated": true,
+      "texto_resumo": "ATO Nº 704, DE 19 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL SUPERIOR DO TRABALHO, no uso de suas atribuições legais e regimentais e tendo em vista o constante do Processo Administrativo TST nº 6003786/2026-00, resolve: Nomear, nos termos do inciso I do art. 9º da Lei nº 8.112/1990, os candidatos, abaixo relacionados, aprovados em concurso público realizado por este Tribunal, para exercerem, em caráter efetivo, o cargo da Carreira Judiciária de Técnico Judiciário, Área de Apoio Especializado, Especialidade Programação, Classe A, Padrão 1, do Quadro de Pessoal da Secretaria deste Tribunal: EDINO DE MOURA ROCHA, 73º lugar, em vaga originária da vacância, por posse em outro cargo inacumulável, do cargo anteriormente ocupado por João Francisco Lopes Gonçalves Júnior; EDUARDO VASCONCELOS GAIAO, 74º lugar, em vaga originária da vacância, por posse em outro cargo inacumulável, do cargo anteriormente ocupado por Lúcio Felippe de Mello Neto; e ANDERSON DA SILVA VIEIRA, 78º lugar, em vaga originária da vacância, por posse em outro cargo inacumulável, do cargo anteriormente ocupado por Francisco Anderson Bezerra Rodrigues. Min. VIEIRA DE MELLO FILHO",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "66",
@@ -2405,8 +2524,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.941, DE 18 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS SUBSTITUTO DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 13.941, DE 18 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS SUBSTITUTO DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de 2026, considerando o disposto no art. 56, inciso I, da Lei nº 14.600, de 19 de junho de 2023, e o que consta no Processo nº 11893.001023/2026-98, resolve: Art. 1º Disponibilizar a requisição da servidora MARIA BEATRIZ PEREIRA DOS SANTOS AMARO, matrícula SIAPE nº 1437984, ocupante do cargo de Analista Técnico Executivo, do Quadro de Pessoal desta Pasta, para exercício no Conselho de Controle de Atividades Financeiras, em Brasília/DF. Art. 2º O ônus pela remuneração é do órgão requisitado. Art. 3º A servidora deve se apresentar imediatamente ao órgão requisitante. Art. 4º Esta Portaria entra em vigor na data da sua publicação. DOUGLAS ANDRADE DA SILVA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "30",
@@ -2476,33 +2595,6 @@
       "xml_file": "DO2_0038.xml"
     },
     {
-      "id": "portaria-de-pessoal-dicat/se/mgi-n-14.017-de-19-de-novembro-de-2026-745602467",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
-      "identifica": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 14.017, DE 19 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria Executiva/Diretoria de Carreiras Transversais",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL DICAT/SE/MGI Nº 14.017, DE 19 DE NOVEMBRO DE 2026 O DIRETOR DE CARREIRAS TRANSVERSAIS SUBSTITUTO DA SECRETARIA-EXECUTIVA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe confere o art. 15 do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e da competência que lhe foi delegada pelo art. 26 da Portaria MGI nº 4.088, de 19 de maio de...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "30",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-dicat/se/mgi-n-14.017-de-19-de-novembro-de-2026-745602467",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0254.xml"
-    },
-    {
       "id": "portaria-de-pessoal-sete/mgi-n-14.031-de-19-de-novembro-de-2026-745604047",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -2557,33 +2649,6 @@
       "xml_file": "DO2_0669.xml"
     },
     {
-      "id": "portaria-de-pessoal-ssc/mgi-n-13.903-de-19-de-novembro-de-2026-745584687",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
-      "identifica": "PORTARIA DE PESSOAL SSC/MGI Nº 13.903, DE 19 DE NOVEMBRO DE 2026",
-      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Serviços Compartilhados",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "PORTARIA DE PESSOAL SSC/MGI Nº 13.903, DE 19 DE NOVEMBRO DE 2026 A SECRETÁRIA DE SERVIÇOS COMPARTILHADOS SUBSTITUTA DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência que lhe foi delegada pelo art. 12 da Portaria MGI nº 4.088, de 19 de maio de 2026, publicada no Diário Oficial da União de 20 de maio de 2026, e demais informações que constam do Processo nº 12105.10056...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "34",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-de-pessoal-ssc/mgi-n-13.903-de-19-de-novembro-de-2026-745584687",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "ministerio da gestao"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0617.xml"
-    },
-    {
       "id": "portaria-depro/sgp/mgi-n-13.780-de-13-de-novembro-de-2026-745638711",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -2594,8 +2659,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA DEPRO/SGP/MGI Nº 13.780, DE 13 DE NOVEMBRO DE 2026 A DIRETORA DE PLANEJAMENTO DA FORÇA DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência subdelegada pela Portaria SGP/MGI 3.173, de 10 de abril de 2026, publicada no Diário Oficial da União de 24 de abril de 2026, republicada em 06 de maio de 2026, conforme disposto nos arts. 16 e 17 da Lei nº 13....",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA DEPRO/SGP/MGI Nº 13.780, DE 13 DE NOVEMBRO DE 2026 A DIRETORA DE PLANEJAMENTO DA FORÇA DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência subdelegada pela Portaria SGP/MGI 3.173, de 10 de abril de 2026, publicada no Diário Oficial da União de 24 de abril de 2026, republicada em 06 de maio de 2026, conforme disposto nos arts. 16 e 17 da Lei nº 13.681, de 18 de junho de 2018, e considerando o que consta no Processo SEI nº 14021.082896/2026-41, resolve: Art. 1º Alterar o exercício do empregado público OSEAS SOUZA SALAZAR, matrícula SIAPE nº 3504957, ocupante do emprego de Motorista de Veículos Terrestres - NA, oriundo do Ex-Território Federal de Roraima, do quadro em extinção da União, para compor força de trabalho no Instituto Federal de Educação, Ciência e Tecnologia do Tocantins, Campus Palmas, da Secretaria de Educação Profissional e Tecnológica do Ministério da Educação por tempo indeterminado. Art. 2º Cabe ao Instituto Federal de Educação, Ciência e Tecnologia do Tocantins assegurar que o empregado não exercerá atividades incompatíveis com às atribuições do seu emprego, de forma a não ocorrer desvio de função. Art. 3º O ônus da remuneração é do órgão de origem. Art. 4º Torna-se sem efeito o disposto nesta Portaria, caso o empregado não se apresente ao órgão de destino no prazo de trinta dias. Art. 5º O empregado deverá apresentar-se imediatamente ao órgão de origem (Ministério da Gestão e da Inovação em Serviços Públicos) ao término do exercício. Art. 6º Esta Portaria entra em vigor na data da sua publicação. MARIA APARECIDA CHAGAS FERREIRA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "30",
@@ -2621,8 +2686,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA DEPRO/SGP/MGI Nº 13.828, DE 17 DE NOVEMBRO DE 2026 A DIRETORA DE PLANEJAMENTO DA FORÇA DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência subdelegada pela Portaria SGP/MGI Nº 693, de 21 de fevereiro de 2024, tendo em vista o disposto no § 7º do art. 93 da Lei nº 8.112, de 11 de dezembro de 1990, no art. 30 do Decreto nº 10.835, de 14 de outubro d...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA DEPRO/SGP/MGI Nº 13.828, DE 17 DE NOVEMBRO DE 2026 A DIRETORA DE PLANEJAMENTO DA FORÇA DE TRABALHO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso da competência subdelegada pela Portaria SGP/MGI Nº 693, de 21 de fevereiro de 2024, tendo em vista o disposto no § 7º do art. 93 da Lei nº 8.112, de 11 de dezembro de 1990, no art. 30 do Decreto nº 10.835, de 14 de outubro de 2021, na Portaria SEDGG/ME nº 8.471, de 26 de setembro 2022, e considerando o que consta no Processo SEI nº 14021.090112/2026-58, resolve: Art. 1º Autorizar a alteração de exercício, na modalidade indicação consensual, do empregado público MAPRIL BARBOSA DA FONSECA JUNIOR, matrícula nº 4416, ocupante do emprego de Assistente Administrativo, do quadro de pessoal da Empresa Gerencial de Projetos Navais - Emgepron, para composição da força de trabalho da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis - ANP, por prazo indeterminado, com custo mensal de reembolso de R$ 5.384,79 (cinco mil trezentos e oitenta e quatro reais e setenta e nove centavos), incluindo tributos, encargos sociais, encargos trabalhistas e demais parcelas previstas no art. 25 do Decreto nº 10.835, de 14 de outubro de 2021, para o órgão solicitante. Art. 2º O retorno do empregado à instituição de origem poderá ocorrer, a qualquer tempo, por decisão do Ministério da Gestão e da Inovação em Serviços Públicos, observados os requisitos constantes do artigo 12 da Portaria SEDGG/ME nº 8.471, de 26 de setembro de 2022. Art. 3º Cabe à ANP assegurar que o empregado colocado à sua disposição não exercerá atividades incompatíveis com as suas atribuições na instituição de origem, de forma a não ocorrer desvio de função. Art. 4º Compete ao ordenador de despesas zelar pela existência de disponibilidade orçamentária e financeira para fazer frente às despesas oriundas dos reembolsos decorrentes da alteração de exercício de que trata o art. 1º desta Portaria, nos termos do art. 22 do Decreto nº 10.835, de 14 de outubro de 2021, e para eventual continuação da composição da força de trabalho do empregado para o exercício subsequente. Art. 5º Torna-se sem efeito o disposto nesta Portaria, caso o empregado não se apresente ao órgão ou entidade de destino no prazo de trinta dias. Art. 6º Esta Portaria entra em vigor na data de sua publicação. MARIA APARECIDA CHAGAS FERREIRA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "31",
@@ -2746,31 +2811,32 @@
       "xml_file": "DO2_0588.xml"
     },
     {
-      "id": "portaria-stj/gdg-n-1.029-de-18-de-novembro-de-2026-745626142",
+      "id": "portaria-n-1.790-de-19-de-novembro-de-2026-745635150",
       "section": "DO2",
       "pub_date": "23/11/2026",
       "art_type": "Portaria",
-      "art_category": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
-      "identifica": "PORTARIA STJ/GDG Nº 1.029, DE 18 DE NOVEMBRO DE 2026",
-      "orgao": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
+      "art_category": "Ministério Público da União/Ministério Público do Trabalho/Procuradoria-Geral",
+      "identifica": "PORTARIA Nº 1.790, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério Público da União/Ministério Público do Trabalho/Procuradoria-Geral",
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA STJ/GDG Nº 1.029, DE 18 DE NOVEMBRO DE 2026 A DIRETORA-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL DE JUSTIÇA, com base no item 25.2.3, XI, b, do Anexo da Instrução Normativa STJ/GP n. 51 de 20 de outubro de 2026 e no disposto no art. 35, I, da Lei n. 8.112, de 11 de dezembro de 1990, resolve: Art. 1º Efetuar as seguintes alterações na Coordenadoria de Triagem Processual, da Secretaria Judic...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 1.790, DE 19 DE NOVEMBRO DE 2026 O PROCURADOR-GERAL DO TRABALHO, no uso da atribuição prevista no inciso XXI do art. 91 da Lei Complementar n° 75, de 20 de maio de 1993, considerando o disposto no inciso V do art. 27 da Resolução CSMPT n° 222, de 18 de abril de 2024 e no inciso VIII do art. 2° do Ato Conjunto PGR/CASMPU n° 01/2014, bem como os dados e informações constantes do PGEA 20.02.0600.0000889/2024-86, resolve: Art. 1º Determinar, a contar de 16/10/2026, a alteração do status do Ofício Geral de que é titular o Procurador do Trabalho MARCELO CRISANTO SOUTO MAIOR para \"Ofício provido com designação suspensa\", bem como a redistribuição do respectivo acervo aos demais Ofícios providos na mesma Unidade e no mesmo Grau, enquanto perdurar o seu afastamento para o exercício de mandato classista no cargo de Vice-Presidente da Associação Nacional dos Procuradores e das Procuradoras do Trabalho - ANPT. GLÁUCIO ARAÚJO DE OLIVEIRA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
-      "page": "66",
+      "page": "60",
       "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-stj/gdg-n-1.029-de-18-de-novembro-de-2026-745626142",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-1.790-de-19-de-novembro-de-2026-745635150",
       "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "superior tribunal de justica"
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta",
+        "licencas_servidor"
       ],
-      "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0647.xml"
+      "xml_file": "DO2_0565.xml"
     },
     {
       "id": "portaria-mgi-n-9.530-de-19-de-novembro-de-2026-745618063",
@@ -2798,33 +2864,6 @@
       "weak_keywords": [],
       "score": 10,
       "xml_file": "DO2_0145.xml"
-    },
-    {
-      "id": "portaria-stj/gdg-n-1.017-de-12-de-novembro-de-2026-745584091",
-      "section": "DO2",
-      "pub_date": "23/11/2026",
-      "art_type": "Portaria",
-      "art_category": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
-      "identifica": "Portaria STJ/GDG Nº 1.017, DE 12 DE novembro DE 2026",
-      "orgao": "Poder Judiciário/Superior Tribunal de Justiça/Secretaria",
-      "ementa": "",
-      "titulo": "",
-      "subtitulo": "",
-      "texto_resumo": "Portaria STJ/GDG Nº 1.017, DE 12 DE novembro DE 2026 A DIRETORA-GERAL DA SECRETARIA DO SUPERIOR TRIBUNAL DE JUSTIÇA, com base no item 25.2.3, XI, b, do Anexo da Instrução Normativa STJ/GP n. 51 de 20 de outubro 2026 e no disposto no art. 35, I, da Lei n. 8.112, de 11 de dezembro de 1990, resolve: Art. 1º Dispensar ÉRYKA CARDOSO DOS SANTOS, matrícula S034015, da função de confiança de Assessor C, c...",
-      "texto_truncated": true,
-      "assina": "",
-      "cargo": "",
-      "page": "66",
-      "edition": "219",
-      "url": "https://www.in.gov.br/web/dou/-/portaria-stj/gdg-n-1.017-de-12-de-novembro-de-2026-745584091",
-      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
-      "orgao_emissor_hits": [
-        "superior tribunal de justica"
-      ],
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10,
-      "xml_file": "DO2_0401.xml"
     },
     {
       "id": "portaria-de-pessoal-an/mgi-n-214-de-17-de-novembro-de-2026-745625035",
@@ -3244,6 +3283,33 @@
       "xml_file": "DO1_0145.xml"
     },
     {
+      "id": "republicacao-745783431",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Lei",
+      "art_category": "Atos do Poder Legislativo",
+      "identifica": "REPUBLICAÇÃO",
+      "orgao": "Atos do Poder Legislativo",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "REPUBLICAÇÃO LEI Nº 15.552, DE 19 DE NOVEMBRO DE 2026 (*) Abre ao Orçamento Fiscal da União, em favor dos Ministérios da Fazenda, da Justiça e Segurança Pública, dos Transportes, da Cultura, da Integração e do Desenvolvimento Regional, e de Operações Oficiais de Crédito, crédito suplementar no valor de R$ 420.770.561,00, para reforço de dotações constantes da Lei Orçamentária vigente. ÓRGÃO: 25000 - Ministério da Fazenda UNIDADE: 25903 - Fundo de Compensação e Variações Salariais ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0909 Operações Especiais: Outros Encargos Especiais 370.642.722 Operações Especiais 0909 0617 Operacionalização do Fundo de Compensação e Variações Salariais - FCVS 28 846 370.642.722 0909 0617 0001 Operacionalização do Fundo de Compensação e Variações Salariais - FCVS - Nacional 28 846 370.642.722 F 3-ODC 0 90 0 1050 370.642.722 TOTAL - FISCAL 370.642.722 TOTAL - SEGURIDADE 0 TOTAL - GERAL 370.642.722 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30107 - Departamento de Polícia Rodoviária Federal ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 134.400 Atividades 0032 216H Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 06 122 134.400 0032 216H 0001 Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos - Nacional 06 122 134.400 F 3-ODC 2 90 0 1144 134.400 TOTAL - FISCAL 134.400 TOTAL - SEGURIDADE 0 TOTAL - GERAL 134.400 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30108 - Departamento de Polícia Federal ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0910 Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais 6.979.679 Operações Especiais 0910 0122 Contribuição à Organização Internacional de Polícia Criminal - INTERPOL (MJ) 28 846 6.979.679 0910 0122 0002 Contribuição à Organização Internacional de Polícia Criminal - INTERPOL (MJ) - Exterior 28 846 6.979.679 F 3-ODC 2 80 0 1000 6.979.679 TOTAL - FISCAL 6.979.679 TOTAL - SEGURIDADE 0 TOTAL - GERAL 6.979.679 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30212 - Agência Nacional de Proteção de Dados - ANPD ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 77.524 Atividades 0032 216H Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 04 122 77.524 0032 216H 5664 Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos - Em Brasília - DF 04 122 77.524 F 3-ODC 2 90 0 1000 77.524 TOTAL - FISCAL 77.524 TOTAL - SEGURIDADE 0 TOTAL - GERAL 77.524 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30905 - Fundo de Defesa de Direitos Difusos ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 5115 Promoção do Acesso à Justiça e da Defesa dos Direitos 20.150.000 Atividades 5115 6067 Apoio e Fomento a Projetos de Defesa de Direitos Difusos 14 422 20.150.000 5115 6067 0001 Apoio e Fomento a Projetos de Defesa de Direitos Difusos - Nacional 14 422 20.150.000 F 3-ODC 2 90 0 1083 13.468.467 F 4-INV 2 40 0 1083 1.950.450 F 4-INV 2 90 0 1083 4.731.083 TOTAL - FISCAL 20.150.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 20.150.000 ÓRGÃO: 39000 - Ministério dos Transportes UNIDADE: 39250 - Agência Nacional de Transportes Terrestres - ANTT ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 11.134.730 Atividades 0032 218T Manutenção e Operação da Infraestrutura de Tecnologia da Informação 26 126 11.134.730 0032 218T 0001 Manutenção e Operação da Infraestrutura de Tecnologia da Informação - Nacional 26 126 11.134.730 F 3-ODC 2 90 0 1000 11.134.730 TOTAL - FISCAL 11.134.730 TOTAL - SEGURIDADE 0 TOTAL - GERAL 11.134.730 ÓRGÃO: 42000 - Ministério da Cultura UNIDADE: 42203 - Fundação Cultural Palmares ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 5125 Direito à Cultura 188.118 Atividades 5125 20ZF Promoção e Fomento à Cultura Brasileira 13 392 188.118 5125 20ZF 0001 Promoção e Fomento à Cultura Brasileira - Nacional 13 392 188.118 F 3-ODC 2 90 0 1000 188.118 TOTAL - FISCAL 188.118 TOTAL - SEGURIDADE 0 TOTAL - GERAL 188.118 ÓRGÃO: 53000 - Ministério da Integração e do Desenvolvimento Regional UNIDADE: 53101 - Ministério da Integração e do Desenvolvimento Regional - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 2321 Recursos Hídricos: Água em Quantidade e Qualidade para sempre 4.000.000 Operações Especiais 2321 00TE Apoio à Gestão de Projetos Públicos de Irrigação 20 607 4.000.000 2321 00TE 0001 Apoio à Gestão de Projetos Públicos de Irrigação - Nacional 20 607 4.000.000 F 4-INV 2 30 0 1000 4.000.000 TOTAL - FISCAL 4.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 4.000.000 ÓRGÃO: 74000 - Operações Oficiais de Crédito UNIDADE: 74918 - Recursos sob Supervisã",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "219-B",
+      "url": "https://www.in.gov.br/web/dou/-/republicacao-745783431",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "ajuda_custo_transporte"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO1E_0001.xml"
+    },
+    {
       "id": "ato-presi-n-185-de-11-de-novembro-de-2026-745632073",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -3254,8 +3320,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "ATO PRESI Nº 185, DE 11 DE NOVEMBRO DE 2026 A DESEMBARGADORA VICE-PRESIDENTE DO EGRÉGIO TRIBUNAL REGIONAL DO TRABALHO DA OITAVA REGIÃO, NO EXERCÍCIO DA PRESIDÊNCIA e no uso de suas atribuições legais e regimentais, e CONSIDERANDO o interesse desta Corte e do Tribunal Regional do Trabalho da 18ª Região na redistribuição do cargo da carreira de Analista Judiciário, Área Administrativa, do quadro de ...",
-      "texto_truncated": true,
+      "texto_resumo": "ATO PRESI Nº 185, DE 11 DE NOVEMBRO DE 2026 A DESEMBARGADORA VICE-PRESIDENTE DO EGRÉGIO TRIBUNAL REGIONAL DO TRABALHO DA OITAVA REGIÃO, NO EXERCÍCIO DA PRESIDÊNCIA e no uso de suas atribuições legais e regimentais, e CONSIDERANDO o interesse desta Corte e do Tribunal Regional do Trabalho da 18ª Região na redistribuição do cargo da carreira de Analista Judiciário, Área Administrativa, do quadro de pessoal permanente do Tribunal Regional do Trabalho da 18ª Região, ocupado pelo servidor JÂNIO LUIZ MARQUES TRINDADE JÚNIOR, mediante reciprocidade com o cargo da carreira de Analista Judiciário, Área Administrativa, do quadro de pessoal permanente deste Tribunal, ocupado pelo servidor ANDERSON VITÓRIO DE SOUSA COSTA, com fundamento no art. 37 da Lei nº 8.112, de 11 de dezembro de 1990, e na Resolução nº 146, de 6 de março de 2012, do Conselho Nacional de Justiça; CONSIDERANDO o que consta nos autos do Processo Administrativo Eletrônico TRT8 n.º 7840/2026 e, ainda, o interesse do serviço, resolve: Art. 1º REDISTRIBUIR o cargo da carreira de Analista Judiciário, Área Administrativa, pertencente ao quadro de pessoal permanente deste Tribunal, criado pela Lei nº 10.992/2004 (vaga 1039), ocupado pelo servidor ANDERSON VITÓRIO DE SOUSA COSTA para o quadro de pessoal permanente do Tribunal Regional do Trabalho da 18ª Região, mediante reciprocidade com cargo de idêntica denominação, criado pela Lei 10.770/2003, ocupado pelo servidor JÂNIO LUIZ MARQUES TRINDADE JÚNIOR, pertencente ao quadro de pessoal permanente daquele Tribunal. Art. 2º Este Ato entra em vigor a partir da data de sua publicação no Diário Oficial da União. ROSITA DE NAZARÉ SIDRIM NASSAR",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "72",
@@ -3379,6 +3445,33 @@
       "xml_file": "DO2_0356.xml"
     },
     {
+      "id": "edital-de-notificacao-n-807-de-19-de-novembro-de-2026-745585796",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Edital",
+      "art_category": "Editais e Avisos/Ministério da Educação",
+      "identifica": "EDITAL DE NOTIFICAÇÃO Nº 807, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Editais e Avisos/Ministério da Educação",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "EDITAL DE NOTIFICAÇÃO Nº 807, DE 19 DE NOVEMBRO DE 2026 O DIRETOR DO DEPARTAMENTO DE ADMINISTRAÇÃO DE PESSOAL DA PRÓ-REITORIA DE GESTÃO COM PESSOAS DA UNIVERSIDADE FEDERAL DE SÃO PAULO vem, no uso de suas atribuições e com base no art. 163, Lei nº 8.112/90, tendo em vista estar o(a) interessado(a) em lugar incerto e não sabido, CIENTIFICAR ROSANGELA VICENTE DOS SANTOS, CPF nº ***.887.038-**, da Decisão Administrativa referente ao Processo Administrativo SEI 23089.024986/2025-42, que trata de devolução ao erário por irregularidade na comprovação de plano particular contratado para fins de recebimento de auxílio saúde suplementar per capita. Trata-se de Decisão Administrativa que decidiu pelo prosseguimento dos procedimentos de reposição ao erário dos valores recebidos indevidamente, com fundamento no artigo 7º da Orientação Normativa 05/2013/SGP/MPOG. FAZ SABER, ainda, que a Decisão Administrativa está disponível em sua integralidade nos autos do Processo Administrativo SEI supracitado, sendo que a interposição de recurso deve ser endereçada ao Departamento de Administração de Pessoal, por via postal para \"Rua Sena Madureira, nº 1500, Andar Térreo, Vila Clementino, São Paulo, SP, CEP 04021-001\", ou para o correio eletrônico dap.reposicao@unifesp.br, no prazo máximo de 10 (dez) dias consecutivos, contados da publicação desta, nos termos da Orientação Normativa 05/2013/SGP/MPOG. Exaurido o prazo e/ou instância recursal, com negativa de eventual recurso, a reposição do valor apurado deverá ser feita no prazo máximo de 30 (trinta) dias, mediante Guia de Recolhimento da União - GRU, nos termos do art. 46 da Lei nº 8.112, de 11 de dezembro de 1990. ANDRÉ FERREIRA SIMÕES",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "75",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/edital-de-notificacao-n-807-de-19-de-novembro-de-2026-745585796",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "auxilios_pessoal"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0247.xml"
+    },
+    {
       "id": "edital-de-convocacao-n-10-de-9-de-novembro-de-2026-745589218",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -3416,8 +3509,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 2.463, DE 16 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 4ª REGIÃO, no uso de suas atribuições legais e regimentais, e considerando o que consta no PROAD nº 9880/2020, resolve: REVERTER a cota da pensão vitalícia devida a TERESINHA DE LOURDES FEIJÓ DE FEIJÓ, cônjuge do magistrado deste Tribunal, ANTÔNIO BRASILIENSE FEIJÓ, para o beneficiário da pensão temporári...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 2.463, DE 16 DE NOVEMBRO DE 2026 O PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 4ª REGIÃO, no uso de suas atribuições legais e regimentais, e considerando o que consta no PROAD nº 9880/2020, resolve: REVERTER a cota da pensão vitalícia devida a TERESINHA DE LOURDES FEIJÓ DE FEIJÓ, cônjuge do magistrado deste Tribunal, ANTÔNIO BRASILIENSE FEIJÓ, para o beneficiário da pensão temporária EDUARDO FEIJÓ DE FEIJÓ, na condição de filho inválido, com fundamento nos artigos 222, inciso I, e 223, inciso I, da Lei nº 8.112/1990 (redação original), com efeitos a contar de 11-11-2026, data do óbito de TERESINHA DE LOURDES FEIJÓ DE FEIJÓ, cabendo ao beneficiário remanescente, EDUARDO FEIJÓ DE FEIJÓ, 100% do valor calculado na forma estabelecida pelo artigo 215 da Lei 8.112/90. ALEXANDRE CORRÊA DA CRUZ",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "72",
@@ -3431,6 +3524,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO2_0319.xml"
+    },
+    {
+      "id": "portaria-n-3.106-de-18-de-novembro-de-2026-745609016",
+      "section": "DO2",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Controladoria-Geral da União/Secretaria de Integridade Privada",
+      "identifica": "PORTARIA Nº 3.106, DE 18 DE NOVEMBRO DE 2026",
+      "orgao": "Controladoria-Geral da União/Secretaria de Integridade Privada",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 3.106, DE 18 DE NOVEMBRO DE 2026 O SECRETÁRIO DE INTEGRIDADE PRIVADA DA CONTROLADORIA-GERAL DA UNIÃO, no uso das atribuições que lhe conferem o artigo 21, inciso XVIII, e o artigo 36 do Decreto n° 11.330, de 1º de janeiro de 2023, com fundamento no artigo 30, inciso I, da Instrução Normativa CGU n° 13, de 8 de agosto de 2019, com a redação dada pela Portaria Normativa CGU nº 54, de 14 de fevereiro de 2023, e considerando o disposto no artigo 8º, § 2º, da Lei nº 12.846, de 1º de agosto de 2013, regulamentada pelo Decreto nº 11.129, de 11 de julho de 2022, que dispõe sobre a responsabilização de pessoas jurídicas, resolve: Art. 1º - Prorrogar por 180 (cento e oitenta) dias o prazo para a conclusão dos trabalhos da Comissão de Processo Administrativo de Responsabilização designada pela Portaria SIPRI nº 1.695, de 29 de maio de 2025, publicada no D.O.U. nº 101, Seção 2, p. 87, de 30 de maio de 2025, que tem por último ato a recondução promovida por via da Portaria SIPRI nº 1.320, de 20 de maio de 2026, publicada no D.O.U. nº 96, Seção 2, p. 118, de 25 de maio de 2026, tudo referente ao Processo nº 00190.105519/2025-50. Art. 2º - Esta Portaria entra em vigor na data de sua publicação. MARCELO PONTES VIANNA",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "55",
+      "edition": "219",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-3.106-de-18-de-novembro-de-2026-745609016",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do2",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "licencas_servidor"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO2_0520.xml"
     },
     {
       "id": "portaria-n-3.107-de-18-de-novembro-de-2026-745586328",
@@ -3709,11 +3829,11 @@
     "atos_por_secao": {
       "DO1": 467,
       "DO2": 713,
-      "DO1E": 0,
+      "DO1E": 4,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1002,
+    "atos_com_texto_integral": 1184,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-23T14:59:40Z"
+    "coletado_em": "2026-11-24T00:42:36Z"
   }
 }

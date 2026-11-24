@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "total_xml_files": 1180,
-  "matched_articles": 19,
+  "total_xml_files": 1184,
+  "matched_articles": 21,
   "discarded_individual_acts": {
     "total": 14,
     "by_section": {
@@ -220,8 +220,8 @@
       "ementa": "",
       "titulo": "",
       "subtitulo": "",
-      "texto_resumo": "PORTARIA Nº 3.106, DE 18 DE NOVEMBRO DE 2026 O SECRETÁRIO DE INTEGRIDADE PRIVADA DA CONTROLADORIA-GERAL DA UNIÃO, no uso das atribuições que lhe conferem o artigo 21, inciso XVIII, e o artigo 36 do Decreto n° 11.330, de 1º de janeiro de 2023, com fundamento no artigo 30, inciso I, da Instrução Normativa CGU n° 13, de 8 de agosto de 2019, com a redação dada pela Portaria Normativa CGU nº 54, de 14 ...",
-      "texto_truncated": true,
+      "texto_resumo": "PORTARIA Nº 3.106, DE 18 DE NOVEMBRO DE 2026 O SECRETÁRIO DE INTEGRIDADE PRIVADA DA CONTROLADORIA-GERAL DA UNIÃO, no uso das atribuições que lhe conferem o artigo 21, inciso XVIII, e o artigo 36 do Decreto n° 11.330, de 1º de janeiro de 2023, com fundamento no artigo 30, inciso I, da Instrução Normativa CGU n° 13, de 8 de agosto de 2019, com a redação dada pela Portaria Normativa CGU nº 54, de 14 de fevereiro de 2023, e considerando o disposto no artigo 8º, § 2º, da Lei nº 12.846, de 1º de agosto de 2013, regulamentada pelo Decreto nº 11.129, de 11 de julho de 2022, que dispõe sobre a responsabilização de pessoas jurídicas, resolve: Art. 1º - Prorrogar por 180 (cento e oitenta) dias o prazo para a conclusão dos trabalhos da Comissão de Processo Administrativo de Responsabilização designada pela Portaria SIPRI nº 1.695, de 29 de maio de 2025, publicada no D.O.U. nº 101, Seção 2, p. 87, de 30 de maio de 2025, que tem por último ato a recondução promovida por via da Portaria SIPRI nº 1.320, de 20 de maio de 2026, publicada no D.O.U. nº 96, Seção 2, p. 118, de 25 de maio de 2026, tudo referente ao Processo nº 00190.105519/2025-50. Art. 2º - Esta Portaria entra em vigor na data de sua publicação. MARCELO PONTES VIANNA",
+      "texto_truncated": false,
       "assina": "",
       "cargo": "",
       "page": "55",
@@ -446,6 +446,35 @@
       "xml_file": "DO1_0365.xml"
     },
     {
+      "id": "republicacao-745783431",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Lei",
+      "art_category": "Atos do Poder Legislativo",
+      "identifica": "REPUBLICAÇÃO",
+      "orgao": "Atos do Poder Legislativo",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "REPUBLICAÇÃO LEI Nº 15.552, DE 19 DE NOVEMBRO DE 2026 (*) Abre ao Orçamento Fiscal da União, em favor dos Ministérios da Fazenda, da Justiça e Segurança Pública, dos Transportes, da Cultura, da Integração e do Desenvolvimento Regional, e de Operações Oficiais de Crédito, crédito suplementar no valor de R$ 420.770.561,00, para reforço de dotações constantes da Lei Orçamentária vigente. ÓRGÃO: 25000 - Ministério da Fazenda UNIDADE: 25903 - Fundo de Compensação e Variações Salariais ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0909 Operações Especiais: Outros Encargos Especiais 370.642.722 Operações Especiais 0909 0617 Operacionalização do Fundo de Compensação e Variações Salariais - FCVS 28 846 370.642.722 0909 0617 0001 Operacionalização do Fundo de Compensação e Variações Salariais - FCVS - Nacional 28 846 370.642.722 F 3-ODC 0 90 0 1050 370.642.722 TOTAL - FISCAL 370.642.722 TOTAL - SEGURIDADE 0 TOTAL - GERAL 370.642.722 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30107 - Departamento de Polícia Rodoviária Federal ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 134.400 Atividades 0032 216H Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 06 122 134.400 0032 216H 0001 Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos - Nacional 06 122 134.400 F 3-ODC 2 90 0 1144 134.400 TOTAL - FISCAL 134.400 TOTAL - SEGURIDADE 0 TOTAL - GERAL 134.400 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30108 - Departamento de Polícia Federal ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0910 Operações Especiais: Gestão da Participação em Organismos e Entidades Nacionais e Internacionais 6.979.679 Operações Especiais 0910 0122 Contribuição à Organização Internacional de Polícia Criminal - INTERPOL (MJ) 28 846 6.979.679 0910 0122 0002 Contribuição à Organização Internacional de Polícia Criminal - INTERPOL (MJ) - Exterior 28 846 6.979.679 F 3-ODC 2 80 0 1000 6.979.679 TOTAL - FISCAL 6.979.679 TOTAL - SEGURIDADE 0 TOTAL - GERAL 6.979.679 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30212 - Agência Nacional de Proteção de Dados - ANPD ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 77.524 Atividades 0032 216H Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos 04 122 77.524 0032 216H 5664 Ajuda de Custo para Moradia ou Auxílio-Moradia a Agentes Públicos - Em Brasília - DF 04 122 77.524 F 3-ODC 2 90 0 1000 77.524 TOTAL - FISCAL 77.524 TOTAL - SEGURIDADE 0 TOTAL - GERAL 77.524 ÓRGÃO: 30000 - Ministério da Justiça e Segurança Pública UNIDADE: 30905 - Fundo de Defesa de Direitos Difusos ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 5115 Promoção do Acesso à Justiça e da Defesa dos Direitos 20.150.000 Atividades 5115 6067 Apoio e Fomento a Projetos de Defesa de Direitos Difusos 14 422 20.150.000 5115 6067 0001 Apoio e Fomento a Projetos de Defesa de Direitos Difusos - Nacional 14 422 20.150.000 F 3-ODC 2 90 0 1083 13.468.467 F 4-INV 2 40 0 1083 1.950.450 F 4-INV 2 90 0 1083 4.731.083 TOTAL - FISCAL 20.150.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 20.150.000 ÓRGÃO: 39000 - Ministério dos Transportes UNIDADE: 39250 - Agência Nacional de Transportes Terrestres - ANTT ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 0032 Programa de Gestão e Manutenção do Poder Executivo 11.134.730 Atividades 0032 218T Manutenção e Operação da Infraestrutura de Tecnologia da Informação 26 126 11.134.730 0032 218T 0001 Manutenção e Operação da Infraestrutura de Tecnologia da Informação - Nacional 26 126 11.134.730 F 3-ODC 2 90 0 1000 11.134.730 TOTAL - FISCAL 11.134.730 TOTAL - SEGURIDADE 0 TOTAL - GERAL 11.134.730 ÓRGÃO: 42000 - Ministério da Cultura UNIDADE: 42203 - Fundação Cultural Palmares ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 5125 Direito à Cultura 188.118 Atividades 5125 20ZF Promoção e Fomento à Cultura Brasileira 13 392 188.118 5125 20ZF 0001 Promoção e Fomento à Cultura Brasileira - Nacional 13 392 188.118 F 3-ODC 2 90 0 1000 188.118 TOTAL - FISCAL 188.118 TOTAL - SEGURIDADE 0 TOTAL - GERAL 188.118 ÓRGÃO: 53000 - Ministério da Integração e do Desenvolvimento Regional UNIDADE: 53101 - Ministério da Integração e do Desenvolvimento Regional - Administração Direta ANEXO I Crédito Suplementar PROGRAMA DE TRABALHO (SUPLEMENTAÇÃO) Recurso de Todas as Fontes R$ 1,00 PROGRAMÁTICA PROGRAMA/AÇÃO/LOCALIZADOR/PRODUTO FUNCIONAL E S F G N D R P M O D I U F T E VALOR 2321 Recursos Hídricos: Água em Quantidade e Qualidade para sempre 4.000.000 Operações Especiais 2321 00TE Apoio à Gestão de Projetos Públicos de Irrigação 20 607 4.000.000 2321 00TE 0001 Apoio à Gestão de Projetos Públicos de Irrigação - Nacional 20 607 4.000.000 F 4-INV 2 30 0 1000 4.000.000 TOTAL - FISCAL 4.000.000 TOTAL - SEGURIDADE 0 TOTAL - GERAL 4.000.000 ÓRGÃO: 74000 - Operações Oficiais de Crédito UNIDADE: 74918 - Recursos sob Supervisã",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "219-B",
+      "url": "https://www.in.gov.br/web/dou/-/republicacao-745783431",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "gestao_projetos"
+      ],
+      "weak_keywords": [
+        "riscos_projetos"
+      ],
+      "score": 6,
+      "xml_file": "DO1E_0001.xml"
+    },
+    {
       "id": "portaria-gm/ms-n-974-de-19-de-novembro-de-2026-745607390",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -608,6 +637,33 @@
       "weak_keywords": [],
       "score": 5,
       "xml_file": "DO1_0466.xml"
+    },
+    {
+      "id": "portaria-n-4.067-de-22-de-novembro-de-2026-745790274",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
+      "identifica": "PORTARIA Nº 4.067, DE 22 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional/Secretaria Nacional de Proteção e Defesa Civil",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA Nº 4.067, DE 22 DE NOVEMBRO DE 2026 Autoriza o empenho e a transferência de recursos ao município de Tupanciretã/RS, para execução de ações de Proteção e Defesa Civil. A UNIÃO, por intermédio do MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL, neste ato representado pelo SECRETÁRIO NACIONAL DE PROTEÇÃO E DEFESA CIVIL, consoante a delegação de competência conferida pela Portaria n.º 1.184, de 15 de abril de 2024, publicada no DOU de 16 de abril de 2024, Seção 1, e tendo em vista o disposto na Lei n.º 12.340, de 01 de dezembro de 2010, na Lei n.º 12.608, de 10 de abril de 2012, e no Decreto n.º 11.219, de 5 de outubro de 2022, resolve: Art. 1º Autorizar o empenho e a transferência de recursos ao município de Tupanciretã/RS para a execução de ações de Resposta, conforme o protocolo de solicitação registrado no Sistema Integrado de Informações sobre Desastres (S2iD) e contido no processo SEI n.º 59052.040931/2026-25, no valor de R$ 4.786.365,00 (quatro milhões, setecentos e oitenta e seis mil trezentos e sessenta e cinco reais). Art. 2º Os recursos financeiros serão transferidos em parcela única, a título de Transferência Legal, onerando a classificação orçamentária 06.182.2318.22BO - Ações de Proteção e Defesa Civil. Art. 3º Considerando a natureza emergencial e as ações a serem implementadas, o prazo para a execução será de 180 dias, a partir da publicação desta portaria no Diário Oficial da União (DOU). Art. 4º A utilização dos recursos transferidos, pelo ente beneficiário, está vinculada exclusivamente à execução das ações especificadas no art. 1º desta Portaria, devendo o ente beneficiário cumprir, nos casos de obra de restabelecimento de serviços essenciais, as disposições do Decreto n.º 7.983, de 8 de abril de 2013 e afixar em local visível a placa da obra elaborada conforme o Manual de Uso da Marca do Governo Federal - Obras, Portaria SECOM/PR n.º 31, de 28 de agosto de 2025 e a Instrução Normativa SECOM n.º 5, de 26 de fevereiro de 2024, sem prejuízo do disposto no art. 1 º -A, §9º da Lei n.º 12.340, de 1º de dezembro de 2010. A placa deve ser mantida em bom estado de conservação durante todo o período de execução da obra, conforme o modelo disponibilizado no sítio eletrônico do Ministério da Integração e do Desenvolvimento Regional em \"Assuntos\", \"Proteção e Defesa Civil\", \"Solicitação de Recursos\". Art. 5º O ente beneficiário deverá apresentar a Prestação de Contas Final no prazo de 30 dias, contado da data do término do prazo estabelecido para a execução das ações ou do último pagamento efetuado, quando este ocorrer em data anterior ao encerramento do prazo, nos termos do art. 32 do Decreto n.º 11.219, de 5 de outubro de 2022. Art. 6º Esta Portaria entra em vigor na data de sua publicação. WOLNEI WOLFF BARREIROS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "4",
+      "edition": "219-B",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-n-4.067-de-22-de-novembro-de-2026-745790274",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "transparencia_integridade"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO1E_0000.xml"
     }
   ],
   "origem": {
@@ -616,11 +672,11 @@
     "atos_por_secao": {
       "DO1": 467,
       "DO2": 713,
-      "DO1E": 0,
+      "DO1E": 4,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1002,
+    "atos_com_texto_integral": 1184,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-23T14:59:40Z"
+    "coletado_em": "2026-11-24T00:42:36Z"
   }
 }
