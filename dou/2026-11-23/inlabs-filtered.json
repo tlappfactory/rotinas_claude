@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "total_xml_files": 1184,
-  "matched_articles": 131,
+  "total_xml_files": 1197,
+  "matched_articles": 134,
   "discarded_individual_acts": {
     "total": 64,
     "by_section": {
@@ -118,7 +118,7 @@
       ],
       "weak_keywords": [],
       "score": 25,
-      "xml_file": "DO2_0609.xml"
+      "xml_file": "DO2_0689.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-1.4003-de-19-de-novembro-de-2026-745603887",
@@ -149,7 +149,7 @@
       ],
       "weak_keywords": [],
       "score": 25,
-      "xml_file": "DO2_0605.xml"
+      "xml_file": "DO2_0685.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-13.923-de-18-de-novembro-de-2026-745605436",
@@ -273,7 +273,7 @@
       ],
       "weak_keywords": [],
       "score": 25,
-      "xml_file": "DO2_0648.xml"
+      "xml_file": "DO2_0595.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-13.990-de-19-de-novembro-de-2026-745635944",
@@ -491,7 +491,7 @@
         "substituicao_fc_cc"
       ],
       "score": 21,
-      "xml_file": "DO2_0667.xml"
+      "xml_file": "DO2_0614.xml"
     },
     {
       "id": "portaria-se/mps-n-1.634-de-17-de-novembro-de-2026-*-745558036",
@@ -521,7 +521,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO1_0365.xml"
+      "xml_file": "DO1_0371.xml"
     },
     {
       "id": "ato-n-705-de-19-de-novembro-de-2026-745581816",
@@ -581,7 +581,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0635.xml"
+      "xml_file": "DO2_0582.xml"
     },
     {
       "id": "edital-de-notificacao-n-238/2026-745568993",
@@ -971,7 +971,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0583.xml"
+      "xml_file": "DO2_0663.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-13.968-de-18-de-novembro-de-2026-745586735",
@@ -1121,7 +1121,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0658.xml"
+      "xml_file": "DO2_0605.xml"
     },
     {
       "id": "portaria-cgben/decipex/sgp/mgi-n-14.011-de-19-de-novembro-de-2026-745605357",
@@ -1151,7 +1151,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0634.xml"
+      "xml_file": "DO2_0581.xml"
     },
     {
       "id": "portaria-n-9.291/cogep-ro/mgi-de-13-de-novembro-de-2026-745580789",
@@ -1271,7 +1271,7 @@
       ],
       "weak_keywords": [],
       "score": 20,
-      "xml_file": "DO2_0677.xml"
+      "xml_file": "DO2_0624.xml"
     },
     {
       "id": "portaria-stj/gdg-n-1.031-de-18-de-novembro-de-2026-745589690",
@@ -1389,7 +1389,7 @@
       ],
       "weak_keywords": [],
       "score": 15,
-      "xml_file": "DO2_0668.xml"
+      "xml_file": "DO2_0615.xml"
     },
     {
       "id": "portaria-stj/gp-n-974-de-13-de-novembro-de-2026-745634894",
@@ -1447,7 +1447,37 @@
       ],
       "weak_keywords": [],
       "score": 15,
-      "xml_file": "DO2_0621.xml"
+      "xml_file": "DO2_0701.xml"
+    },
+    {
+      "id": "instrucao-normativa-seges-/mgi-n-494-de-18-de-novembro-de-2026-745795432",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Instrução Normativa",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão e Inovação",
+      "identifica": "INSTRUÇÃO NORMATIVA SEGES /MGI Nº 494, DE 18 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Gestão e Inovação",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "INSTRUÇÃO NORMATIVA SEGES /MGI Nº 494, DE 18 DE NOVEMBRO DE 2026 Institui o sistema Compras, Insumos e Consumo com Logística Otimizada e Sustentável - CICLOS no âmbito da Administração Pública federal direta, autárquica e fundacional e altera a Portaria Seges/ME nº 8.678, de 19 de julho de 2021. O SECRETÁRIO DE GESTÃO E INOVAÇÃO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem o Decreto nº 1.094, de 23 de março de 1994, o art. 18, inciso I, alínea \"a\", incisos II e VI, alínea \"a\", do Anexo I do Decreto nº 12.904, de 27 de março de 2026, e tendo em vista o disposto no art. 11, parágrafo único, da Lei nº 14.133, de 1º de abril de 2021, na Portaria Seges/ME nº 8.678, de 19 de julho de 2021, resolve: CAPÍTULO I DISPOSIÇÕES PRELIMINARES Art. 1º Fica instituído o sistema Compras, Insumos e Consumo com Logística Otimizada e Sustentável - CICLOS, vinculado ao Sistema Integrado de Administração de Serviços Gerais - SIASG, auxiliar do Sistema de Serviços Gerais - SISG, no âmbito da administração pública federal direta, autárquica e fundacional. § 1º O sistema CICLOS constitui ferramenta analítica e gerencial que consolida informações para apoiar a tomada de decisão e ampliar a governança no ciclo de contratações públicas. § 2º Os órgãos e as entidades devem elaborar e gerir os Planos de Logística Sustentável - PLS no sistema CICLOS, mediante o uso das funcionalidades disponibilizadas para essa finalidade. CAPÍTULO II FUNDAMENTOS Objetivos Art. 2º São objetivos do CICLOS: I - reunir dados e informações pertinentes às contratações públicas de diferentes sistemas em um único ambiente; II - facilitar a análise gerencial pelos órgãos e pelas entidades na tomada de decisões baseadas em dados; III - garantir controle, integridade e prevenção de riscos em todas as fases das contratações, compreendendo planejamento, execução e fiscalização; IV - servir como ferramenta estratégica de governança para a alta administração; V - prover ambiente computacional para a elaboração, implementação, monitoramento e gestão dos PLSs; VI - produzir indicadores e informações gerenciais para monitorar e avaliar a governança das contratações públicas e a sustentabilidade institucional, inclusive quanto à maturidade e ao desempenho dos órgãos e entidades; VII - ampliar a transparência, a rastreabilidade e o controle interno das contratações públicas, com base em informações provenientes de sistemas estruturantes, subsidiando a gestão de riscos, a fiscalização e a atuação preventiva da administração; e VIII - contribuir para o alcance dos objetivos do processo licitatório previstos no art. 11 da Lei nº 14.133, de 1º de abril de 2021. Composição do CICLOS Art. 3º O sistema CICLOS será composto por módulos destinados ao suporte dos instrumentos de governança das contratações e de outras políticas relacionadas à gestão dos órgãos e das entidades. CAPÍTULO III PLANO DE LOGÍSTICA SUSTENTÁVEL Conteúdo mínimo Art. 4º O PLS deve conter, no mínimo: I - objetivos para a gestão estratégica das contratações e da logística no âmbito do órgão ou da entidade; II - ações voltadas aos 6 (seis) eixos temáticos abaixo relacionados: a) racionalização e consumo consciente de bens e serviços; b) ocupação qualificada dos espaços físicos e gestão da infraestrutura institucional; c) contratação de bens e serviços de menor impacto ambiental; d) inovação no mercado; e) desenvolvimento econômico e socioambiental; e f) capacitação, comunicação e conscientização para a sustentabilidade; III - responsabilidades dos atores envolvidos na elaboração, na execução, no monitoramento e na avaliação do PLS; e IV - metodologia para execução, monitoramento e avaliação do PLS. Integração com outros instrumentos Art. 5º O PLS deverá nortear a elaboração: I - do Plano de Contratações Anual; II - dos Estudos Técnicos Preliminares; III - dos mapas de riscos, dos anteprojetos, dos projetos básicos ou dos termos de referência de cada contratação; IV - do Plano de Desenvolvimento de Pessoas; e V - dos demais instrumentos de planejamento e governança relacionados à logística e às contratações. Parágrafo único. O PLS deverá ser considerado na elaboração e na revisão do planejamento estratégico institucional do órgão ou entidade, quando existente. Aplicação nas contratações Art. 6º Os critérios e as práticas definidos no PLS deverão ser observados nos processos de contratação, especialmente para fins de: I - especificação do objeto; II - definição das obrigações da contratada; e III - estabelecimento de requisitos previstos em legislação específica. Ciclo de vida do PLS Art. 7º O ciclo de vida do PLS no CICLOS compreende as etapas de: I - diagnóstico; II - elaboração; III - execução; IV - avaliação; e V - revisão. Diagnóstico Art. 8º O diagnóstico consiste na identificação da situação atual da instituição em relação aos temas contemplados no PLS, com o objetivo de subsidiar a definição das metas e ações do plano. Parágrafo único. A etapa de diagnóstico compreenderá a análise de informações históricas, dos fatores que influenciam o desempenho institucional e o estágio de maturidade da instituição nos temas contemplados pelo PLS. Elaboração Art. 9º A elaboração consiste na definição da vigência, das Unidades Administrativas de Serviços Gerais - UASGs e dos temas abrangidos, bem como das metas e ações destinadas à melhoria do desempenho institucional nos temas contemplados pelo PLS, com base no diagnóstico realizado. § 1º Os PLSs deverão ter vigência mínima de 2 (dois) anos e máxima de 4 (quatro) anos. § 2º Os órgãos e as entidades poderão elaborar PLSs específicos por UASG. § 3º Quando o PLS abranger mais de uma UASG, deverá ser aprovado pela alta administração das UASGs abrangidas ou por autoridade com competência sobre o conjunto das unidades envolvidas. § 4º O conteúdo abrangido pelo PLS terá escopo mínimo definido e disponibilizado no CICLOS. § 5º As metas e ações deverão considerar os resultados do diagnóstico e os objetivos",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "16",
+      "edition": "219-C",
+      "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-seges-/mgi-n-494-de-18-de-novembro-de-2026-745795432",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [
+        "estagio_aprendizagem",
+        "substituicao_fc_cc"
+      ],
+      "score": 12,
+      "xml_file": "DO1E_0010.xml"
     },
     {
       "id": "portaria-n-3.317-de-19-de-novembro-de-2026-745548133",
@@ -1564,7 +1594,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0685.xml"
+      "xml_file": "DO2_0632.xml"
     },
     {
       "id": "ato-n-740-de-19-de-novembro-de-2026-745607234",
@@ -1738,7 +1768,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0617.xml"
+      "xml_file": "DO2_0697.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.904-de-19-de-novembro-de-2026-745624956",
@@ -1767,7 +1797,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0645.xml"
+      "xml_file": "DO2_0592.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.958-de-19-de-novembro-de-2026-745584608",
@@ -1825,7 +1855,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0659.xml"
+      "xml_file": "DO2_0606.xml"
     },
     {
       "id": "portaria-de-pessoal-ssc/mgi-n-13.961-de-19-de-novembro-de-2026-745607941",
@@ -1912,7 +1942,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0676.xml"
+      "xml_file": "DO2_0623.xml"
     },
     {
       "id": "portaria-iti-n-143-de-19-de-novembro-de-2026-745602230",
@@ -1941,7 +1971,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0589.xml"
+      "xml_file": "DO2_0669.xml"
     },
     {
       "id": "portaria-iti-n-145-de-19-de-novembro-de-2026-745586616",
@@ -2057,7 +2087,7 @@
         "competencias_capacitacao"
       ],
       "score": 11,
-      "xml_file": "DO2_0593.xml"
+      "xml_file": "DO2_0673.xml"
     },
     {
       "id": "portaria-n-394-de-17-de-novembro-de-2026-745607864",
@@ -2174,7 +2204,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0647.xml"
+      "xml_file": "DO2_0594.xml"
     },
     {
       "id": "portaria-secpessoas-n-148-de-19-de-novembro-de-2026-745626221",
@@ -2319,7 +2349,7 @@
         "substituicao_fc_cc"
       ],
       "score": 11,
-      "xml_file": "DO2_0591.xml"
+      "xml_file": "DO2_0671.xml"
     },
     {
       "id": "retificacao-745616955",
@@ -2406,6 +2436,33 @@
       "xml_file": "DO1_0099.xml"
     },
     {
+      "id": "portaria-sgd/mgi-n-9.484-de-19-de-novembro-de-2026-745801632",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Governo Digital",
+      "identifica": "PORTARIA SGD/MGI Nº 9.484, DE 19 DE NOVEMBRO DE 2026",
+      "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos/Secretaria de Governo Digital",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "PORTARIA SGD/MGI Nº 9.484, DE 19 DE NOVEMBRO DE 2026 Prorroga o início da vigência da Portaria SGD/MGI nº 11.229, de 12 de dezembro de 2025, que estabelece diretrizes para a criação e gestão de contas digitais na Plataforma gov.br, visando a segurança, a usabilidade e a confiança no ambiente digital. O SECRETÁRIO DE GOVERNO DIGITAL DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS, no uso das atribuições que lhe conferem o art. 26, caput, incisos II e V, do Anexo I ao Decreto nº 12.904, de 27 de março de 2026, e o art. 8º do Decreto nº 8.936, de 19 de dezembro de 2016, e tendo em vista o disposto no Decreto nº 10.543, de 13 de novembro de 2020, resolve: Art. 1º A Portaria SGD/MGI nº 11.229, de 12 de dezembro de 2025, passa a vigorar com as seguintes alterações: \"Art. 10. Esta Portaria entra em vigor em 30 de abril de 2027.\" (NR) Art. 2º Esta Portaria entra em vigor na data de sua publicação. ROGÉRIO SOUZA MASCARENHAS",
+      "texto_truncated": false,
+      "assina": "",
+      "cargo": "",
+      "page": "17",
+      "edition": "219-C",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-sgd/mgi-n-9.484-de-19-de-novembro-de-2026-745801632",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [
+        "ministerio da gestao"
+      ],
+      "strong_keywords": [],
+      "weak_keywords": [],
+      "score": 10,
+      "xml_file": "DO1E_0000.xml"
+    },
+    {
       "id": "ato-n-704-de-19-de-novembro-de-2026-745595465",
       "section": "DO2",
       "pub_date": "23/11/2026",
@@ -2457,7 +2514,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0618.xml"
+      "xml_file": "DO2_0698.xml"
     },
     {
       "id": "portaria-cn-n-142-de-17-de-novembro-de-2026-745632231",
@@ -2646,7 +2703,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0669.xml"
+      "xml_file": "DO2_0616.xml"
     },
     {
       "id": "portaria-depro/sgp/mgi-n-13.780-de-13-de-novembro-de-2026-745638711",
@@ -2673,7 +2730,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0657.xml"
+      "xml_file": "DO2_0604.xml"
     },
     {
       "id": "portaria-depro/sgp/mgi-n-13.828-de-17-de-novembro-de-2026-745588823",
@@ -2808,7 +2865,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0588.xml"
+      "xml_file": "DO2_0668.xml"
     },
     {
       "id": "portaria-n-1.790-de-19-de-novembro-de-2026-745635150",
@@ -2890,7 +2947,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0644.xml"
+      "xml_file": "DO2_0591.xml"
     },
     {
       "id": "portaria-de-pessoal-spu/mgi-n-13.824-de-19-de-novembro-de-2026-745608022",
@@ -2917,7 +2974,7 @@
       "strong_keywords": [],
       "weak_keywords": [],
       "score": 10,
-      "xml_file": "DO2_0636.xml"
+      "xml_file": "DO2_0583.xml"
     },
     {
       "id": "portaria-n-3.958-de-26-de-outubro-de-2026-745572546",
@@ -3033,7 +3090,7 @@
         "substituicao_fc_cc"
       ],
       "score": 6,
-      "xml_file": "DO2_0581.xml"
+      "xml_file": "DO2_0661.xml"
     },
     {
       "id": "portaria-seg-n-1.744-de-19-de-novembro-de-2026-745611853",
@@ -3091,7 +3148,7 @@
         "substituicao_fc_cc"
       ],
       "score": 6,
-      "xml_file": "DO2_0707.xml"
+      "xml_file": "DO2_0654.xml"
     },
     {
       "id": "acordaos-de-13-de-novembro-de-2026-745547717",
@@ -3226,7 +3283,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0360.xml"
+      "xml_file": "DO1_0366.xml"
     },
     {
       "id": "portaria-n-4-de-17-de-novembro-de-2026-745575770",
@@ -3253,7 +3310,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1_0457.xml"
+      "xml_file": "DO1_0463.xml"
     },
     {
       "id": "resolucao-re-n-4.527-de-18-de-novembro-de-2026-745549635",
@@ -3307,7 +3364,34 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO1E_0001.xml"
+      "xml_file": "DO1E_0014.xml"
+    },
+    {
+      "id": "portaria-iphan-n-410-de-19-de-novembro-de-2026-745795139",
+      "section": "DO1E",
+      "pub_date": "23/11/2026",
+      "art_type": "Portaria",
+      "art_category": "Ministério da Cultura/Instituto do Patrimônio Histórico e Artístico Nacional",
+      "identifica": "Portaria Iphan nº 410, de 19 de novembro de 2026",
+      "orgao": "Ministério da Cultura/Instituto do Patrimônio Histórico e Artístico Nacional",
+      "ementa": "",
+      "titulo": "",
+      "subtitulo": "",
+      "texto_resumo": "Portaria Iphan nº 410, de 19 de novembro de 2026 Institui o Programa Casas do Patrimônio no âmbito do Instituto do Patrimônio Histórico e Artístico Nacional - Iphan O PRESIDENTE SUBSTITUTO DO INSTITUTO DO PATRIMÔNIO HISTÓRICO E ARTÍSTICO NACIONAL - IPHAN, com fundamento no art. 216, § 1º, da Constituição Federal; no art. 4º, inciso XVII, e no art. 34, inciso II, da Lei nº 14.835, de 4 de abril de 2024; no art. 2º, incisos V e VI, e no art. 18, inciso V, do Decreto nº 11.178, de 18 de agosto de 2022; e no art. 155 da Portaria Iphan nº 141, de 12 de dezembro de 2023, considerando a Portaria MinC nº 617, de 10 de novembro de 2026, e com a finalidade de desenvolver programas estratégicos que fortaleçam as práticas de Educação Patrimonial, a participação social, a gestão compartilhada e a valorização do patrimônio cultural brasileiro, resolve: CAPÍTULO I DA INSTITUIÇÃO E DOS OBJETIVOS Art. 1º Fica instituído o Programa Casas do Patrimônio, instrumento estratégico de caráter permanente e prioritário do Instituto do Patrimônio Histórico e Artístico Nacional - Iphan, destinado ao fortalecimento das relações entre populações, seus territórios e o patrimônio cultural brasileiro, por meio de processos de Educação Patrimonial, de mobilização e participação social, de cooperação institucional e articulação territorial para a valorização, a preservação e a gestão compartilhada e participativa do patrimônio cultural brasileiro. Art. 2º O Programa tem por objetivos: I - consolidar as Casas do Patrimônio como espaços permanentes de diálogo e cooperação entre o Iphan e a sociedade, por meio de ações de Educação Patrimonial; II - ampliar a apropriação social e o acesso às políticas públicas de preservação do patrimônio cultural; III - fortalecer o protagonismo de grupos e comunidades em processos de identificação, reconhecimento, valorização, proteção e salvaguarda das referências culturais nos territórios de atuação das Casas do Patrimônio; IV - fomentar modelos participativos de gestão do patrimônio cultural; V - fortalecer a articulação entre o Iphan, entes federativos, instituições de ensino, organizações da sociedade civil e grupos e comunidades regionais buscando promover a articulação em rede das Casas do Patrimônio; VI - incentivar iniciativas de sustentabilidade territorial, social, cultural e econômica, associadas à Educação Patrimonial; e VII - ampliar a capilaridade das ações do Iphan e interligar experiências e espaços que promovam práticas e atividades educativas de valorização do patrimônio cultural. Art. 3º Para fins desta Portaria, considera-se Casa do Patrimônio o equipamento cultural, de natureza pública ou comunitária, reconhecido institucionalmente pelo Iphan e destinado à promoção de ações de Educação Patrimonial. CAPÍTULO II DOS PRINCÍPIOS E DIRETRIZES Art. 4º O Programa observará os seguintes princípios: I - do reconhecimento do patrimônio cultural como bem de interesse público - compreendendo-o como elemento constitutivo da identidade, da memória e da diversidade cultural da sociedade; II - do protagonismo social - promoção da participação ativa de grupos e comunidades na identificação, interpretação, valorização, preservação e gestão do patrimônio cultural; III - da diversidade cultural - promoção de abordagens decoloniais, contracoloniais e pluriepistêmicas, reconhecendo a legitimidade dos diferentes saberes, memórias, línguas e formas de compreensão do patrimônio cultural como fundamento para identificação, reconhecimento, valorização, proteção e salvaguarda da diversidade cultural do país; IV - da equidade e da justiça patrimonial - valorização de populações historicamente excluídas pelas políticas públicas culturais, com especial enfoque para povos e comunidades tradicionais, populações afrodescendentes e povos indígenas; V - da educação - promoção de processos formativos permanentes, dialógicos e participativos, fundamentados no diálogo de saberes e na complementaridade entre conhecimentos técnico-científicos e saberes, memórias, práticas e experiências das comunidades e dos detentores do patrimônio cultural; VI - da construção compartilhada do conhecimento - promoção do diálogo e encontro de saberes visando à construção compartilhada de conhecimentos, à apropriação social do patrimônio cultural e ao exercício dos direitos culturais; VII - do território como espaço educativo - reconhecimento dos territórios, suas relações sociais, culturais e ambientais, como contextos de construção e intercâmbio de conhecimentos; VIII - da corresponsabilidade pela preservação - reconhecimento que a salvaguarda e a proteção do patrimônio cultural constituem compromisso compartilhado entre o Poder Público e a sociedade; IX - da intersetorialidade, da interdisciplinaridade e da transversalidade - estímulo à integração da Educação Patrimonial às diversas políticas públicas, aos processos educativos formais e não formais e às diferentes áreas do conhecimento; X - da sustentabilidade - promoção da continuidade das ações de Educação Patrimonial, de forma articulada às dimensões social, ambiental, econômica e cultural, visando ao fortalecimento permanente da proteção e da valorização do patrimônio cultural; XI - da afetividade e do pertencimento - promoção de conhecimentos e práticas de Educação Patrimonial que fortaleçam os vínculos afetivos como elementos basilares das referências culturais; e XII - da articulação em rede - promoção da cooperação, da integração e do fortalecimento de redes entre órgãos públicos, instituições de ensino e pesquisa, organizações da sociedade civil, comunidades, detentores do patrimônio cultural e demais atores, visando ao compartilhamento de conhecimentos, experiências e recursos para o desenvolvimento das ações de Educação Patrimonial. Art. 5º Constituem diretrizes do Programa: I - descentralização das ações de Educação Patrimonial e de preservação do patrimônio cultural, considerando as especificidades territoriais e a diversidade cultural brasileira; II - articula",
+      "texto_truncated": true,
+      "assina": "",
+      "cargo": "",
+      "page": "1",
+      "edition": "219-C",
+      "url": "https://www.in.gov.br/web/dou/-/portaria-iphan-n-410-de-19-de-novembro-de-2026-745795139",
+      "url_pagina_pesquisa": "https://www.in.gov.br/leiturajornal?data=23-11-2026&secao=do1e",
+      "orgao_emissor_hits": [],
+      "strong_keywords": [
+        "cessao_remocao_permuta"
+      ],
+      "weak_keywords": [],
+      "score": 5,
+      "xml_file": "DO1E_0004.xml"
     },
     {
       "id": "ato-presi-n-185-de-11-de-novembro-de-2026-745632073",
@@ -3712,7 +3796,7 @@
       ],
       "weak_keywords": [],
       "score": 5,
-      "xml_file": "DO2_0625.xml"
+      "xml_file": "DO2_0705.xml"
     },
     {
       "id": "portaria-n-4.380-gab/rei/ifpi-de-17-de-novembro-de-2026-745629545",
@@ -3829,11 +3913,11 @@
     "atos_por_secao": {
       "DO1": 467,
       "DO2": 713,
-      "DO1E": 4,
+      "DO1E": 17,
       "DO2E": 0
     },
-    "atos_com_texto_integral": 1184,
+    "atos_com_texto_integral": 1196,
     "secoes_com_falha": [],
-    "coletado_em": "2026-11-24T00:42:36Z"
+    "coletado_em": "2026-11-24T02:33:21Z"
   }
 }

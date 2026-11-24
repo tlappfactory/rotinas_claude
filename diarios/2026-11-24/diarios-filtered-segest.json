@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-24T00:43:29Z",
+  "run_utc": "2026-11-24T02:34:05Z",
   "lookback_days": 4,
   "desde": "2026-11-20",
   "ate": "2026-11-24",
@@ -21,79 +21,25 @@
       ]
     },
     "dje_cnj": {
-      "status": "ok",
+      "status": "error",
       "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-      "itens_vistos": 2,
+      "itens_vistos": 0,
       "fora_da_janela": 0,
-      "selecionados": 2,
+      "selecionados": 0,
       "probe": [
         {
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
           "http": 200,
           "content_type": "text/html;charset=ISO-8859-1",
-          "bytes": 13090,
+          "bytes": 9980,
           "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
         },
         {
-          "edicao": {
-            "ano": "2026",
-            "numero": "278",
-            "data": "2026-11-23",
-            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ278_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
-          }
-        },
-        {
-          "pdf_http": 200,
-          "bytes": 597912
-        },
-        {
-          "chars_texto": 130858,
-          "blocos_tematicos": 2
+          "erro": "tabela da última edição não encontrada (layout mudou?)"
         }
-      ],
-      "edicao": "278/2026",
-      "data_edicao": "2026-11-23"
+      ]
     }
   },
-  "articles": [
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ278_2026#1",
-      "data": "2026-11-23",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 278/2026",
-      "resumo": "N. 0005288-45.2026.2.00.0000 - PEDIDO DE PROVIDÊNCIAS - A: ANDREA MARIA SILVERIO RIGHETTO MARTINO. Adv(s).: PR45811 - ANDREA MARIA SILVERIO RIGHETTO MARTINO. R: JUÍZO DA 5ª VARA CÍVEL DO FORO CENTRAL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR. Adv(s).: Nao Consta Advogado. Autos: PEDIDO DE PROVIDÊNCIAS - 0005288-45.2026.2.00.0000 Requerente: ANDREA MARIA SILVERIO RIGHETTO MARTINO Requerido: JUÍZO DA 5ª VARA CÍVEL DO FORO CENTRAL DA COMARCA DA REGIÃO METROPOLITANA DE CURITIBA - PR RECURSO ADMINISTRATIVO EM PEDIDO DE PROVIDÊNCIAS. ACESSIBILIDADE PROCESSUAL. RESOLUÇÃO N. 401/2021. PARTE ADVOGANDO EM CAUSA PRÓPRIA. PESSOA COM DEFICIÊNCIA. TRANSTORNO DO ESPECTRO AUTISTA (TEA). INDEFERIMENTO DE OITIVA PESSOAL. JULGAMENTO ANTECIPADO DO PEDIDO DETERMINADO COM FUNDAMENTO NA EXISTÊNCIA DE PROVA DOCUMENTAL E PROVA PERICIAL PRODUZIDA EM JUÍZO. MATÉRIA DE NATUREZA ESTRITAMENTE JURISDICIONAL. INTERESSE INDIVIDUAL. INCOMPETÊNCIA DO CNJ. ENUNCIADO ADMINISTRATIVO N. 17 DO CNJ. I. CASO EM EXAME 1. Recurso Administrativo interposto contra decisão que não conheceu do Pedido de Providências e determinou o seu arquivamento, ao fundamento de que a definição acerca da necessidade de produção de prova oral, da suficiência dos elementos probatórios contidos nos autos e da adoção do julgamento antecipado do mérito constitui matéria de natureza jurisdicional que desborda das atribuições conferidas ao Conselho Nacional de Justiça pelo art. 103-B, § 4º, da Constituição Federal. 1.2. A recorrente,",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ278_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "acessibilidade_inclusao",
-        "inclusao_diversidade"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    },
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ278_2026#2",
-      "data": "2026-11-23",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 278/2026",
-      "resumo": "no âmbito do Poder Judiciário, sendo que a pretensão anunciada ultrapassa o interesse individual. Nesse contexto específico, conclui que toda parte processual, qualificada como pessoa com deficiência, tem direito à audiência de instrução e, por conseguinte, de ser ouvida pelo Juízo, pois os atos transcendem a sua função probatória. Assim, reitera o pedido para que sejam adotadas providências administrativas adequadas à proteção e ao aperfeiçoamento das garantias de acessibilidade das pessoas com deficiência. Caso não se acolha a pretensão principal anunciada, requer, subsidiariamente, seja deferido o pedido de continuidade da instrução processual no Juízo de origem, pois há circunstâncias que recomendariam o prosseguimento da instrução, quais sejam: (a) a distribuição de recursos originados da mesma decisão para órgãos julgadores distintos (19ª CC e 20ª CC do TJPR); b) a utilização de decisão proferida em processo correlato como fundamento relevante em processo diverso (decisão advinda dos recursos distribuídos para Câmaras diferentes); c) ausência de prévia oportunidade de manifestação da parte em atos processuais relevantes e decisórios; d) a posterior declaração de suspeição pela magistrada que anteriormente conduzia o feito. É o relatório. Brasília, 09 de outubro de 2026. Conselho Nacional de Justiça Autos: PEDIDO DE PROVIDÊNCIAS - 0005288-45.2026.2.00.0000 Requerente: ANDREA MARIA SILVERIO RIGHETTO MARTINO Requerido: JUÍZO DA 5ª VARA CÍVEL DO FORO CENTRAL DA COMARCA DA R",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ278_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "acessibilidade_inclusao",
-        "inclusao_diversidade"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    }
-  ],
-  "total_matched": 2
+  "articles": [],
+  "total_matched": 0
 }
