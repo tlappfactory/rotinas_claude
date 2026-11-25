@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-25T00:05:58Z",
+  "run_utc": "2026-11-25T22:19:27Z",
   "lookback_days": 4,
   "desde": "2026-11-21",
   "ate": "2026-11-25",
@@ -23,7 +23,7 @@
     "dje_cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-      "itens_vistos": 15,
+      "itens_vistos": 13,
       "fora_da_janela": 0,
       "selecionados": 6,
       "probe": [
@@ -31,47 +31,48 @@
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
           "http": 200,
           "content_type": "text/html;charset=ISO-8859-1",
-          "bytes": 13737,
+          "bytes": 13088,
           "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
         },
         {
           "edicao": {
             "ano": "2026",
-            "numero": "279",
-            "data": "2026-11-24",
-            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+            "numero": "281",
+            "data": "2026-11-25",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
           }
         },
         {
           "pdf_http": 200,
-          "bytes": 717749
+          "bytes": 720345
         },
         {
-          "chars_texto": 239045,
-          "blocos_tematicos": 15
+          "chars_texto": 255199,
+          "blocos_tematicos": 13
         }
       ],
-      "edicao": "279/2026",
-      "data_edicao": "2026-11-24"
+      "edicao": "281/2026",
+      "data_edicao": "2026-11-25"
     }
   },
   "articles": [
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#1",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#2",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "CONSELHO NACIONAL DE JUSTIÇA - CNJ Ementa: ATO NORMATIVO. PROPOSTA DE RESOLUÇÃO. POLÍTICA NACIONAL DE DIREITOS HUMANOS DO PODER JUDICIÁRIO (PNDH-JUD). REGULAMENTAÇÃO DO DEPARTAMENTO DE MONITORAMENTO E FISCALIZAÇÃO DAS DECISÕES DOS SISTEMAS INTERNACIONAIS DE DIREITOS HUMANOS (DDH). INSTITUIÇÃO DA REDE DH JUD. CONSOLIDAÇÃO DO PACTO NACIONAL DO JUDICIÁRIO PELOS DIREITOS HUMANOS. FORTALECIMENTO DA GOVERNANÇA INSTITUCIONAL E DO CUMPRIMENTO DAS OBRIGAÇÕES INTERNACIONAIS DE DIREITOS HUMANOS. APROVAÇÃO DA PROPOSTA. I. CASO EM EXAME 1. Proposta de resolução destinada a instituir a Política Nacional de Direitos Humanos do Poder Judiciário (PNDH-Jud), regulamentar a estruturação e o funcionamento do Departamento de Monitoramento e Fiscalização das Decisões dos Sistemas Internacionais de Direitos Humanos (DDH), criado pela Lei nº 15.434/2026, instituir a Rede de Unidades de Monitoramento e Fiscalização das Decisões dos Sistemas Internacionais de Direitos Humanos do Poder Judiciário (Rede DH Jud) e consolidar o Pacto Nacional do Judiciário pelos Direitos Humanos como instrumento permanente de planejamento e gestão da política judiciária. II. QUESTÃO EM DISCUSSÃO 2. A questão em discussão consiste em definir a pertinência da instituição de uma política judiciária nacional, estruturada e permanente, destinada a integrar e coordenar as iniciativas do Poder Judiciário de promoção e proteção dos direitos humanos, mediante a regulamentação do DDH, a organização da Rede DH Jud e a institucionali",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "Art. 9º Fica instituído, em caráter nacional e permanente, o Fórum Nacional do Judiciário para a Previdência e a Assistência Social (Fonaprev), ao qual compete: I - acompanhar a implementação e a execução da Política, sob supervisão da Presidência do CNJ ou de Conselheiro ou Conselheira a quem seja delegada essa atribuição, inclusive por meio da: a) elaboração de plano de ação de periodicidade trienal; b) proposição de metas nacionais e indicadores de desempenho das ações judiciais previdenciárias e assistenciais, com a observância do rito estabelecido neste Conselho para a fixação de metas e indicadores; c) proposição de mecanismos permanentes de acompanhamento;",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
-        "governanca",
+        "estatistica_pesquisa",
         "governanca_geral",
+        "metas_nacionais",
         "orcamento_estrategia"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
@@ -79,18 +80,20 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#2",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#3",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "técnicas e metodologias atualizadas. Sob a ótica axiológica, o artigo 4º da minuta estabelece os princípios orientadores da política. O dispositivo reafirma a dignidade da pessoa humana como fundamento e associa-a à universalidade, à indivisibilidade e à interdependência dos direitos fundamentais. Com o intuito de direcionar a aplicação material da política, o artigo 5º delineia as diretrizes da PNDH-Jud, orientadas à superação das desigualdades estruturais e à consolidação de uma jurisdição inclusiva. O normativo especifica os grupos e as populações em situação de vulnerabilidade agravada que devem receber garantia de pleno acesso à Justiça. Ao regulamentar o funcionamento do DDH, concebido pelo legislador como mecanismo de conformidade internacional e gestão de riscos apto a mitigar ônus financeiros por descumprimento de decisões, a Resolução posiciona-o como o órgão central da política. Caberá ao Departamento coordenar a PNDH-Jud no âmbito do Conselho Nacional de Justiça, assumir as demais competências estabelecidas em lei e exercer as atribuições correlatas definidas administrativamente na presente Resolução. Para assegurar a efetividade da PNDH-Jud e impedir que permaneça adstrita à cúpula do sistema de justiça, a Resolução estabelece um desenho descentralizado. A normativa consolida, a partir do artigo 11, a Rede de Unidades de Monitoramento e Fiscalização (Rede DH Jud), de forma alinhada à nova legislação e regulamentação do CNJ, e permite a descentralização da execuçã",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "XXIII - um representante de Instituição de Ensino Superior e de Pesquisa; e XXIV - representantes de outras instituições convidadas. § 1º Os representantes e as representantes do Fonaprev serão designados pela Presidência do CNJ, após indicação pelas respectivas instituições, com exceção dos Conselheiros ou Conselheiras responsáveis pela coordenação e pela vice-coordenação do Fórum, que serão indicados ou indicadas pelo Plenário do CNJ. § 2º As atribuições do Fonaprev serão desempenhadas sob a coordenação de um Comitê Executivo composto pelos Conselheiros ou Conselheiras do Conselho Nacional de Justiça e pelas magistradas e pelos magistrados integrantes do Fórum. § 3º Compete ao Comitê Executivo coordenar a execução das deliberações do Fonaprev, acompanhar os grupos e projetos em andamento e submeter ao Fórum, periodicamente, relatório de suas atividades. § 4º As matérias de natureza estratégica, a aprovação do plano de ação, a proposição de metas nacionais e a aprovação do relatório anual serão submetidas à deliberação do Fonaprev, sem prejuízo das competências próprias do Conselho Nacional de Justiça.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
-        "gestao_riscos",
+        "governanca_geral",
+        "metas_nacionais",
+        "orcamento_estrategia",
         "riscos_projetos"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
@@ -98,81 +101,79 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#6",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#4",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "3. Política judiciária nacional que preserva a independência judicial e a autonomia dos tribunais, aproveita bases de dados existentes, admite implementação progressiva e não cria despesa obrigatória de caráter continuado atende às diretrizes do art. 5º da Instrução Normativa CNJ nº 112/2026. 4. A consulta pública prévia sobre a matéria de fundo de uma política judiciária pode ser aproveitada para satisfazer a exigência de participação social quando o detalhamento posterior da proposta não alterar a essência do objeto consultado. Dispositivos relevantes citados: CF/1988, arts. 1º, III e IV; 6º a 9º; 39, § 3º; 103-B, § 4º, I; 170, caput, VI e VIII; 186, III e IV; e 243. CLT. IN CNJ nº 112/2026, arts. 5º, II e III, e § 1º, e 6º. IN CNJ nº 113/2026. Resolução CNJ nº 655/2025, art. 9º. Resoluções CNJ nº 194/2014, nº 207/2015, nº 212/2015, nº 219/2016, nº 543/2024 e nº 547/2024. Portaria Presidência CNJ nº 412/2025. Acordo de Cooperação Técnica CNJ/TST/CSJT nº 73/2025. Constituição da OIT (Tratado de Versalhes) e Declaração de Filadélfia. Declaração da OIT sobre os Princípios e Direitos Fundamentais no Trabalho (1998). Convenções da OIT nº 29, 87, 98, 100, 105, 111, 138, 155, 182 e 187, e Protocolo de 2014. Convenção Americana sobre Direitos Humanos. Convenção Interamericana contra o Racismo, a Discriminação Racial e Formas Correlatas de Intolerância. CEDAW. Convenção sobre os Direitos das Pessoas com Deficiência. Agenda 2030 da ONU, ODS 5, 8, 10 e 16. Jurisprudência relevante cit",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
-      "temas": [
-        "acessibilidade_inclusao",
-        "inclusao_diversidade",
-        "selos_premios",
-        "sustentabilidade"
-      ],
-      "aviso": "tese não extraída: carece de leitura humana do texto integral"
-    },
-    {
-      "origem": "dje_cnj",
-      "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#10",
-      "data": "2026-11-24",
-      "tipo": "Diário da Justiça Eletrônico do CNJ",
-      "classe": "",
-      "orgao": "CNJ",
-      "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "pontos percentuais desde 2012. Os indicadores revelam, ainda, heterogeneidade regional relevante, como a taxa de desocupação de 7,1% no Nordeste, frente a 3,1% no Sul, e a concentração do trabalho infantil na região Norte, o que orienta prioridades territoriais de atuação. O trabalho decente é, além de direito humano, vetor de desenvolvimento econômico sustentável, como reconhece o ODS nº 8 da Agenda 2030 (aplicável, aliás, a vínculo laboral, privado ou público). O mesmo diagnóstico evidencia que, entre o 4º trimestre de 2019 e o 4º trimestre de 2025, o aumento real acumulado do salário-mínimo foi de 9,5%, o que contribuiu para o fortalecimento do mercado interno de consumo e para a aceleração do Produto Interno Bruto, com variação real de 3,0% em 2022, 3,2% em 2023 e 3,4% em 2024, e que o rendimento do trabalho corresponde a 75,1% de todo o rendimento domiciliar. A formalização das relações de trabalho tende a ampliar a arrecadação tributária e previdenciária, reduzir custos de rotatividade e litigiosidade trabalhista e aumentar a produtividade e a competitividade das empresas brasileiras, inclusive no comércio internacional, no qual cláusulas sociais e critérios ESG relacionados ao trabalho decente vêm se tornando condicionantes de acesso a mercados e cadeias globais de valor. Para o Poder Judiciário, a promoção do trabalho decente repercute, ainda, na eficiência institucional, pois o cumprimento das obrigações trabalhistas tende a reduzir a judicialização de demandas evitá",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "Art. 14. Será elaborado Plano Nacional de Tratamento Adequado das Demandas Previdenciárias e Assistenciais, com vigência de três anos, que estabelecerá: I - os objetivos estratégicos; II - as metas nacionais; III - as ações prioritárias; IV - o cronograma; V - os indicadores; VI - os responsáveis; e VII - os critérios de avaliação. Parágrafo único. O Plano será revisto a cada três anos, mediante deliberação do Fonaprev. Art. 15. Fica instituído o Programa AceleraPrev, destinado à execução das ações prioritárias do primeiro Plano Nacional de Tratamento Adequado das Demandas Previdenciárias e Assistenciais, referente ao período de 2027 a 2029, na forma do Anexo I. Art. 16. Os Comitês Estaduais Previdenciários e Assistenciais elaborarão seus respectivos planos de ação, com observância das diretrizes do Plano Nacional, e os encaminharão ao Fonaprev, no prazo por ele fixado, para validação e aprovação.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "estatistica_pesquisa",
-        "selos_premios",
-        "sustentabilidade"
+        "metas_nacionais",
+        "orcamento_estrategia",
+        "planejamento_estrategico"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     },
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#11",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#6",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "cenário, o Poder Judiciário tem o dever ético e institucional de adotar a perspectiva do trabalho decente para além dos vínculos privados, promovendo também a integridade e a dignidade nas relações de trabalho do serviço público. II. DOS FUNDAMENTOS JURÍDICOS Registra- se, preliminarmente, que o texto da minuta de Resolução não conterá enunciados iniciados por \"considerando\", em acolhimento à revisão da Divisão de Governança Normativa (Informação 2814280), segundo a qual, nos termos do art. 4º, § 3º, do Decreto nº 12.002/2024, as explicações e justificativas da edição do ato devem constar da exposição de motivos, exigida para a proposta pelo art. 7º, I e II, da Resolução CNJ nº 655/2025. Por essa razão, passam a constar integralmente desta exposição de motivos os fundamentos que a minuta enunciava nos considerandos, relativos ao marco constitucional, às normas internacionais do trabalho e de direitos humanos, à Agenda 2030, à Portaria Presidência CNJ nº 412/2025 e ao Acordo de Cooperação Técnica nº 73/2025, bem como à necessidade de o Poder Judiciário aplicar e, também, promover ativamente o trabalho decente. A proposição ampara-se, em primeiro lugar, nos preceitos fundamentais estabelecidos na Constituição da OIT pelo Tratado de Versalhes e reafirmados na Declaração de Filadélfia, segundo os quais o trabalho não é uma mercadoria e a paz duradoura só pode ser baseada na justiça social. Fundamenta-se, ainda, na Declaração da OIT sobre os Princípios e Direitos Fundamentais no T",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "XV - o direito à informação garante o acesso a informações de interesse público de forma clara, acessível, compreensível e adequada aos diferentes públicos, de modo a favorecer o conhecimento e o exercício de direitos. Art. 7º São diretrizes da PNDH-Jud a superação das desigualdades estruturais e a consolidação de uma jurisdição inclusiva. § 1º As diretrizes previstas no caput serão implementadas a partir da proteção e da promoção dos direitos humanos, com prioridade a pessoa, grupo de pessoas e populações com vulnerabilidade agravada, inclusive: I - crianças e adolescentes; II - mulheres; III - gestantes e lactantes; IV - pessoas idosas; V - pessoas com deficiência; VI - pessoas negras; VII - povos indígenas, populações quilombolas e demais comunidades tradicionais; VIII - migrantes e pessoas refugiadas; IX - população LGBTQIAPN+; X - pessoas privadas de liberdade; XI - pessoas vítimas de violência, inclusive quando praticada por agentes do Estado; XII - pessoas em situação de rua; XIII - pessoas em condição de marginalização social e econômica; XIV - pessoas defensoras de direitos humanos; e XV - pessoas afetadas pelas mudanças climáticas. § 2º A PNDH-Jud considerará com prioridade acrescida a sobreposição de fatores sociais que indicam vulnerabilidade agravada de pessoa, grupo de pessoas e populações, a qual pode impactar sobremaneira sua capacidade de exercício de direitos humanos. § 3º A PNDH-Jud buscará promover a garantia do pleno acesso à Justiça a pessoa, grupo de pe",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
-        "governanca_geral",
-        "sustentabilidade"
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     },
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#15",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#9",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "Ato Objeto Resolução CNJ nº 615, de 11 de março Diretrizes para o desenvolvimento, a utilização e a governança de soluções com recursos de 2025 de inteligência artificial no Poder Judiciário Diretrizes de ética, transparência e governança de IA — **revogada** pela Resolução Resolução CNJ nº 332/2020 nº 615/2025; as obrigações deste Termo reportam-se à Resolução vigente Mitigação de riscos de injeção de comandos (*prompt injection*) em sistemas judiciais Manifestação Técnica CNIAJ nº 1/2026 de IA Nota Técnica CNJ nº 2635739, de 9 de Orientação técnica aos tribunais sobre comandos ocultos e segurança adversarial (SEI/ junho de 2026 CNJ nº 09953/2026) Portaria Presidência CNJ nº 290, de 30 Política de Desenvolvimento Seguro de Aplicações — padrão de referência para de junho de 2026 soluções que pretendam integrar o portfólio nacional Resolução CNJ nº 335/2020 Instituição da PDPJ-Br Portaria CNJ nº 252/2020 Governança da PDPJ-Br Portaria CNJ nº 253/2020 Critérios e diretrizes técnicas da PDPJ-Br Portaria CNJ nº 036/2023 Guia de alinhamento estratégico da PDPJ-Br Portaria CNJ nº 041/2023 e Portaria Liberação de versões CNJ nº 047/2024 Resolução CNJ nº 363/2021 Adequação dos órgãos do Poder Judiciário à LGPD Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário Resolução CNJ nº 370/2021 (ENTIC-JUD) Resolução CNJ nº 396/2021 Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) Resolução CNJ nº 446/2022 Plataforma Codex — extração of",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "empatia e na humanização das relações de trabalho e da prestação jurisdicional. Embora o cuidado esteja presente nas atividades cotidianas do Judiciário, seja na escuta de pessoas vulneráveis, na gestão de equipes ou nas relações institucionais, ele ainda se encontra invisibilizado como política estruturante. A ausência de diretrizes específicas acarreta sobrecarga emocional, desigualdades de gênero e limitações na construção de um ambiente organizacional saudável, plural e inclusivo. Nessa ordem de ideias, a constituição do Grupo de Trabalho - GT-Cuidados/CNJ teve como propósito central elaborar proposta de ato normativo que institucionalizasse a Política de Cuidados no Poder Judiciário, definindo princípios, objetivos, eixos de atuação e mecanismos de implementação. Fundamentalmente, a presente proposta de Ato Normativo foi desenvolvida de modo articulado com outras políticas institucionais já existentes, como as de gênero, raça, infância, pessoa idosa, pessoa com deficiência, saúde mental e população de rua, e também com outras em fase de criação, a exemplo da política de trabalho decente e vida digna. A criação do Grupo de Trabalho representou um passo decisivo para a consolidação de uma justiça mais humana, inclusiva e democrática, capaz de reconhecer o cuidado como valor estruturante da vida institucional e da efetivação dos direitos fundamentais. Da construção participativa da proposta A minuta ora submetida à apreciação deste Plenário é resultado de um processo de ela",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#10",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "cuidado; IX - transversalidade e complementaridade na implementação da Política; X - observância das competências institucionais, da natureza dos diferentes vínculos jurídicos e das peculiaridades dos órgãos do Poder Judiciário e de suas unidades; e XI - planejamento, implementação, monitoramento e avaliação baseados em dados e evidências, com atenção às desigualdades de acesso e às especificidades territoriais; XII - promoção da saúde física e mental e prevenção do adoecimento, em articulação com as políticas institucionais de atenção integral à saúde. Art. 6º A implementação da Política Judiciária Nacional de Cuidados será orientada pelos seguintes eixos: I - organização institucional, gestão de pessoas e do trabalho e compatibilização entre o exercício das atividades profissionais e as responsabilidades de cuidado; II - acesso aos serviços, atendimento, acessibilidade e ambiência institucional; e III - prestação jurisdicional com perspectiva do cuidado. Parágrafo único. A implementação dos eixos previstos neste artigo será apoiada por ações de formação, governança, produção e uso de dados, monitoramento e avaliação. CAPÍTULO II DA PERSPECTIVA DO CUIDADO NA ORGANIZAÇÃO INSTITUCIONAL, NA GESTÃO DE PESSOAS E DO TRABALHO Art. 7º Os órgãos do Poder Judiciário incorporarão a perspectiva do cuidado à organização institucional, à gestão de pessoas e do trabalho, de modo a favorecer a compatibilização entre o exercício das atividades profissionais e as necessidades e responsabilida",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
         "governanca_geral",
-        "riscos_projetos",
-        "selos_premios",
-        "transparencia_integridade"
+        "orcamento_estrategia"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     }

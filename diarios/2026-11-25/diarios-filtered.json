@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-25T00:05:56Z",
+  "run_utc": "2026-11-25T22:19:25Z",
   "lookback_days": 4,
   "desde": "2026-11-21",
   "ate": "2026-11-25",
@@ -23,52 +23,52 @@
     "dje_cnj": {
       "status": "ok",
       "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
-      "itens_vistos": 15,
+      "itens_vistos": 19,
       "fora_da_janela": 0,
-      "selecionados": 5,
+      "selecionados": 10,
       "probe": [
         {
           "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
           "http": 200,
           "content_type": "text/html;charset=ISO-8859-1",
-          "bytes": 13737,
+          "bytes": 13088,
           "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
         },
         {
           "edicao": {
             "ano": "2026",
-            "numero": "279",
-            "data": "2026-11-24",
-            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+            "numero": "281",
+            "data": "2026-11-25",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
           }
         },
         {
           "pdf_http": 200,
-          "bytes": 717749
+          "bytes": 720345
         },
         {
-          "chars_texto": 239045,
-          "blocos_tematicos": 15
+          "chars_texto": 255199,
+          "blocos_tematicos": 19
         }
       ],
-      "edicao": "279/2026",
-      "data_edicao": "2026-11-24"
+      "edicao": "281/2026",
+      "data_edicao": "2026-11-25"
     }
   },
   "articles": [
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#2",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#1",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "ROGÉRIO ALVES RECLAMAÇÃO DISCIPLINAR. MAGISTRADOS. TRIBUNAL DE JUSTIÇA DO ESTADO DE MATO GROSSO DO SUL. RECUPERAÇÕES JUDICIAIS. NOMEAÇÃO DE ADMINISTRADORES JUDICIAIS. ALEGAÇÃO DE POSSÍVEL CONCENTRAÇÃO DE NOMEAÇÕES EM ESCRITÓRIOS QUE MANTERIAM VÍNCULOS FAMILIARES COM INTEGRANTES DA MAGISTRATURA. RESOLUÇÃO CNJ Nº 393/2021. NECESSIDADE DE APURAÇÃO OBJETIVA DOS FATOS E DOS CRITÉRIOS UTILIZADOS NAS NOMEAÇÕES. PEDIDO LIMINAR DE AFASTAMENTO CAUTELAR DOS MAGISTRADOS. MEDIDA EXCEPCIONAL. AUSÊNCIA, EM COGNIÇÃO SUMÁRIA, DE ELEMENTOS SUFICIENTES PARA SUA ADOÇÃO. INDEFERIMENTO. COMPETÊNCIA DISCIPLINAR CONCORRENTE. ART. 103-B, § 4º, III, DA CONSTITUIÇÃO FEDERAL. ART. 67, § 4º, DO RICNJ. REMESSA À CORREGEDORIA-GERAL DE JUSTIÇA DO ESTADO DE MATO GROSSO DO SUL PARA APURAÇÃO PRELIMINAR. FIXAÇÃO DE PRAZO PARA COMUNICAÇÃO DAS PROVIDÊNCIAS ADOTADAS E DO RESULTADO. MANUTENÇÃO DO EXPEDIENTE EM TRÂMITE NA CORREGEDORIA NACIONAL. DECISÃO Cuida-se de Reclamação Disciplinar, com pedido de medida cautelar, formulada por LUCAS DA SILVA SANCHES em face de JOSÉ HENRIQUE NEIVA DE CARVALHO e MARCIO ROGÉRIO ALVES, magistrados vinculados ao Tribunal de Justiça do Estado de Mato Grosso do Sul, em razão de alegadas irregularidades relacionadas à nomeação de administradores judiciais em processos de recuperação judicial. O reclamante sustenta, em síntese, a possível existência de concentração de nomeações de administradores judiciais em determinados escritórios que manteriam vínculos familiares com integrantes da ",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "Art. 13. O CNJ elaborará manual voltado à orientação dos tribunais e magistrados e magistradas quanto à implementação das medidas previstas nesta Resolução. Art. 14. Os tribunais apresentarão plano de implementação dos GRH, ou de adequação às diretrizes estabelecidas nesta Resolução, no prazo de cento e oitenta dias, contado de sua publicação. Art. 15. A Resolução CNJ nº 254/2018 passa a vigorar com as seguintes alterações:",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
       ],
@@ -77,16 +77,35 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#3",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#2",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "a Resolução TJES n.º 37/2024. Segundo eles, essa garantia foi restringida pela Resolução TJES n.º 15/2026 e, depois, pela Resolução TJES n.º 054/2026, que condicionou o destaque ao deferimento do relator. Afirmam também que os votos não são divulgados durante as sessões virtuais, o que contrariaria os arts. 3º e 5º da Resolução CNJ n.º 591/2024. Acrescentam que a OAB/ES comunicou essa situação à Presidência do tribunal em dezembro de 2025, sem providências. Os requerentes pedem o ingresso da OAB/ES como terceira interessada e a inclusão do TJES no polo passivo. Liminarmente, pedem a divulgação dos votos em tempo real e, até lá, o acolhimento automático dos pedidos de destaque. Pedem ainda a extensão ao TJES da orientação fixada na decisão de Id 6478106, o destaque automático nas hipóteses do art. 937 do CPC e a garantia de esclarecimento de matéria de fato durante a sessão virtual, independentemente de requerimento prévio (Id 6844122). Por fim, o SINDICATO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DO RIO DE JANEIRO (SISEP-RIO) noticia julgamento de recurso sem sustentação oral, apesar de sua prévia retirada da pauta virtual e inclusão em sessão presencial, e a ausência de exame da alegação de nulidade pelo Órgão Especial do TJRJ. Requer esclarecimentos e apuração dos fatos, preservação dos registros das sessões e comunicação aos órgãos indicados ou, subsidiariamente, autuação como pedido de providências (Id 6853467). É o relatório. Decido. As quatro petições têm naturezas distinta",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "c) estoque antigo; d) distribuição; ou e) volume de casos. III - precedente qualificado: o pronunciamento judicial de observância obrigatória ou dotado de especial relevância para a uniformização da jurisprudência, nos termos da legislação processual; IV - tramitação automatizada: conjunto de rotinas tecnológicas que execute, de forma automática, tarefas processuais que não exijam intervenção humana; e V - consensualidade: atuação orientada à construção conjunta de soluções, mediante diálogo e convergência entre os atores e as instituições envolvidos, inclusive por meio da celebração de acordos e negócios jurídicos processuais e da definição consensual de protocolos, fluxos, estratégias e outras medidas destinadas à prevenção ou à adequada solução de conflitos. § 1º Para fins do disposto no inciso II do caput, serão considerados, quanto ao volume de casos novos, sua repercussão efetiva ou potencial sobre a capacidade de resposta, o acervo e o tempo de tramitação da unidade. § 2º A classificação de unidade prioritária para apoio destina-se a orientar medidas de diagnóstico, planejamento, apoio e alocação de recursos, não constituindo, isoladamente, parâmetro para avaliação de desempenho individual de magistradas e magistrados ou servidoras e servidores. Art. 3º São princípios da Política: I - acesso à justiça; II - isonomia; III - proteção social; IV - segurança jurídica; V - prevenção da litigiosidade; VI - consensualidade; VII - duração razoável do processo; VIII - eficiênci",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "competencias_capacitacao",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#3",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "XXIII - um representante de Instituição de Ensino Superior e de Pesquisa; e XXIV - representantes de outras instituições convidadas. § 1º Os representantes e as representantes do Fonaprev serão designados pela Presidência do CNJ, após indicação pelas respectivas instituições, com exceção dos Conselheiros ou Conselheiras responsáveis pela coordenação e pela vice-coordenação do Fórum, que serão indicados ou indicadas pelo Plenário do CNJ. § 2º As atribuições do Fonaprev serão desempenhadas sob a coordenação de um Comitê Executivo composto pelos Conselheiros ou Conselheiras do Conselho Nacional de Justiça e pelas magistradas e pelos magistrados integrantes do Fórum. § 3º Compete ao Comitê Executivo coordenar a execução das deliberações do Fonaprev, acompanhar os grupos e projetos em andamento e submeter ao Fórum, periodicamente, relatório de suas atividades. § 4º As matérias de natureza estratégica, a aprovação do plano de ação, a proposição de metas nacionais e a aprovação do relatório anual serão submetidas à deliberação do Fonaprev, sem prejuízo das competências próprias do Conselho Nacional de Justiça.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
       ],
@@ -95,16 +114,16 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#8",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#4",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "do Estado brasileiro. A Corte Interamericana de Direitos Humanos condenou o Brasil no Caso Trabalhadores da Fazenda Brasil Verde (2016), relativo a fazenda no sul do Pará onde mais de 300 trabalhadores foram resgatados entre 1989 e 2002, sem responsabilização criminal efetiva, tendo a Corte reconhecido a inércia do sistema de justiça nacional como fator de perpetuação da impunidade; no Caso Empregados da Fábrica de Fogos de Santo Antônio de Jesus (2020), referente à explosão de 1998 que matou 64 trabalhadores, em sua maioria mulheres e crianças negras, com reconhecimento de discriminação estrutural e interseccional; e no Caso Santos Nascimento e Ferreira Gomes (2024). Os casos revelam falhas sistêmicas de prevenção, fiscalização e responsabilização que exigem do Poder Judiciário atuação estruturada, e não apenas reativa. e) Fragmentação da resposta institucional. O Painel de Políticas Judiciárias Nacionais Programáticas aponta apenas cinco políticas relacionadas ao ODS nº 8: Combate ao Trabalho Escravo e ao Tráfico de Pessoas (Res. CNJ nº 212/2015), Atenção Integral à Saúde de Magistrados e Servidores (Res. CNJ nº 207/2015), Atenção Prioritária ao Primeiro Grau (Res. CNJ nº 194/2014 e nº 219/2016), Racionalidade e Eficiência das Execuções Fiscais (Res. CNJ nº 547/2024) e Programa Novos Caminhos (Res. CNJ nº 543/2024). Tais iniciativas, assim como as ações sobre inclusão de pessoas em situação de rua e privadas de liberdade, trabalho infantil e equidade, permanecem dispersas, ",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "Art. 12. Em cada unidade da Federação será instituído um Comitê Estadual Previdenciário e Assistencial da PJ-Prev, que promoverá a articulação permanente entre a justiça estadual e a justiça federal em âmbito local, composto por: I - magistradas e magistrados federais e estaduais, indicados pelos respectivos tribunais; II - representantes: a) do sistema de justiça; b) do sistema de previdência e assistência social; c) de órgãos do Poder Executivo; d) de entidades comunitárias; e e) de instituições de ensino e pesquisa. § 1º A composição será fixada por cada Comitê Estadual, mediante interlocução dos Tribunais Regionais Federais e dos Tribunais de Justiça com outros órgãos, visando à indicação de representantes. § 2º As indicações recairão, preferencialmente: I - no caso das magistradas e dos magistrados, sobre aqueles que exerçam jurisdição em matéria previdenciária e assistencial ou que tenham destacado saber jurídico na área; e II - em relação aos demais integrantes, sobre aqueles que tenham experiência ou conhecimento técnico nas áreas previdenciária ou assistencial. § 3º A coordenação será exercida por representante da Justiça Federal e a vice-coordenação por representante da Justiça Estadual. § 4º As magistradas e os magistrados indicados para o Comitê Estadual terão mandato de dois anos, prorrogável por igual período, a critério da Presidência do respectivo tribunal. § 5º Compete à Presidência dos tribunais comunicar à coordenação do Comitê Estadual e ao CNJ os nomes de",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
       ],
@@ -113,16 +132,16 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#11",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#5",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "Militar e Eleitoral, na hipótese do § 2º, caso não haja pessoas interessadas na ocupação das vagas para magistradas e magistrados e para servidoras e servidores, caberá aos tribunais indicar os membros do Comitê Gestor Local para completar a sua composição. § 5º Poderão ser convidados a integrar o Comitê Gestor Local servidoras e servidores do órgão vinculados a áreas técnicas cuja participação seja considerada necessária ao desenvolvimento da Política. Art. 12. Compete ao Comitê Gestor Local: I - coordenar as ações e os projetos relacionados a esta Política; II - incentivar a união de esforços para a consecução de objetivos comuns; III - atuar, no âmbito de sua competência e com foco na realidade local, nos eixos da Política previstos no art. 3º; IV - elaborar plano de trabalho, no prazo de noventa dias, contado da instituição do Comitê Gestor Local; e V - elaborar relatório bienal de suas atividades. § 1º O Comitê Gestor Local se reunirá semestralmente, em caráter ordinário. § 2º Poderão ser convocadas reuniões extraordinárias por solicitação de seus membros ou por iniciativa do coordenador ou da coordenadora do Comitê Gestor Local. § 3º O Comitê Gestor Local manterá interlocução com as demais instâncias do órgão voltadas à promoção e defesa dos direitos humanos, especialmente a respectiva Unidade de Monitoramento e Fiscalização das decisões do Sistema Interamericano de Direitos Humanos. § 4º A interlocução de que trata o § 3º respeitará a autonomia administrativa de cada t",
-      "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "Eixo Ações prioritárias Estruturar o Fonaprev e os Comitês Estaduais e Governança fortalecer a coordenação institucional. Fortalecer a cooperação interinstitucional, inclusive para a internalização dos precedentes judiciais pela administração pública; e Atuar sobre as Prevenção da Litigiosidade causas estruturais da judicialização, estimulando soluções administrativas e consensuais. Conciliação pré-processual e Estimular a adoção de métodos consensuais de solução de conflitos nas processual demandas previdenciárias e assistenciais. Priorizar análise de processos ajuizados há mais de 10 anos; Aperfeiçoar Gestão Processual fluxos processuais, especialização e aplicação de precedentes qualificados; e Identificar as unidades judiciárias prioritárias para apoio. Implementar painel nacional, indicadores, ciência de dados e modelos Inteligência de Dados preditivos. Incentivar automação, interoperabilidade entre sistemas e uso responsável Transformação Digital de inteligência artificial. Promover formação continuada de magistradas e magistrados, servidoras e Capacitação servidores e demais atores do sistema de justiça. Acompanhar metas, indicadores e resultados da Política mediante avaliações Monitoramento e Avaliação periódicas e relatórios anuais.",
+      "texto_truncated": false,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
       ],
@@ -131,21 +150,95 @@
     {
       "origem": "dje_cnj",
       "fonte": "DJE_CNJ",
-      "id": "DJ279_2026#15",
-      "data": "2026-11-24",
+      "id": "DJ281_2026#6",
+      "data": "2026-11-25",
       "tipo": "Diário da Justiça Eletrônico do CNJ",
       "classe": "",
       "orgao": "CNJ",
       "numero_processo": "",
-      "titulo": "DJe CNJ nº 279/2026",
-      "resumo": "de remessa de informações (art. 15, §§ 6º e 7º). Por fim, cabe registrar que, após a revisão de técnica legislativa realizada pela Divisão de Governança Normativa (Informação nº 2840698, de 3 de novembro de 2026), foram incorporados à minuta final os ajustes pontuais decorrentes dos pontos de atenção indicados por aquela unidade técnica, aprimorando a clareza redacional, a coerência interna das remissões e a explicitação de competências, sem alteração do mérito ou da estrutura da Política. IV. DOS IMPACTOS NO PODER JUDICIÁRIO Espera-se que a adoção da presente Resolução produza impactos positivos, com implementação escalonada. Para a gestão interna, a proposta oferece parâmetros nacionais para a promoção de um ambiente de trabalho seguro, saudável, inclusivo e acessível, com a prevenção e o enfrentamento de todas as formas de violência e de discriminação e o fortalecimento da saúde psicossocial de magistrados, magistradas, servidores e servidoras, em resposta aos achados do diagnóstico. Para a cadeia de valor, orienta a incorporação de critérios e procedimentos de devida diligência em direitos humanos e meio ambiente nos contratos e licitações, com benefícios diretos para os trabalhadores e as trabalhadoras terceirizados. Para as pessoas que recorrem ao Poder Judiciário e para a prestação jurisdicional, a Política estimula práticas e políticas judiciárias que assegurem um processo judicial democrático, especialmente nos conflitos coletivos de trabalho de elevada complexidade ",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "I - Diretoria de Monitoramento das Decisões e Deliberações dos Sistemas Internacionais de Direitos Humanos, responsável pelo acompanhamento das decisões, recomendações e demais deliberações dos Sistemas Internacionais de Direitos Humanos, pelo monitoramento dos procedimentos relacionados ao cumprimento das obrigações internacionais, inclusive as atividades de acompanhamento e fiscalização previstas no art. 9º, V, e pela articulação técnica com os órgãos competentes; e II - Diretoria de Promoção e Articulação de Ações de Direitos Humanos, responsável pela articulação, promoção e apoio técnico à implementação da PNDH-Jud, pelo acompanhamento de seus instrumentos de planejamento e avaliação e pelo apoio às ações e projetos de direitos humanos, em cooperação com as unidades e instâncias competentes. § 1º Cada Diretoria será dirigida por um(a) Diretor(a), ocupante de cargo em comissão de nível CJ-3, e contará, preferencialmente, com: I - uma Divisão, dirigida por Chefe de Divisão, ocupante de cargo em comissão de nível CJ-2; II - um cargo em comissão de Assessor-A, de nível CJ-2, destinado ao assessoramento técnico especializado da respectiva Diretoria; e III - funções comissionadas destinadas às atividades de apoio técnico, administrativo e operacional, conforme distribuição estabelecida em ato próprio. § 2º As Diretorias atuarão de forma integrada e complementar, observadas as competências específicas de cada unidade e preservadas as atribuições das demais unidades administrativ",
       "texto_truncated": true,
-      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "substituicao_fc_cc",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#10",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "oportunidade acerca das necessidades do serviço. Por alcançar apenas os cargos que vierem a vagar, a medida preserva a situação funcional de seus atuais ocupantes. Do mesmo modo, situam-se os demais desdobramentos da proposta, a exemplo de eventuais nomeações decorrentes do concurso público realizado em 2026 para o cargo de Técnico Judiciário Auxiliar, da modernização das atribuições, da valorização remuneratória das carreiras, da escolaridade exigida para os cargos e dos estudos técnicos que embasaram as decisões discricionárias do TJSC. Trata- se, ademais, de proposta sujeita à deliberação do Poder Legislativo estadual, instância constitucionalmente incumbida de apreciar o mérito da reestruturação pretendida. Nesse contexto, embora incumba a este Conselho o controle da legalidade dos atos administrativos praticados pelos órgãos do Poder Judiciário (art. 103-B, § 4º, II, da CF), cabe-lhe igualmente zelar pela autonomia desse Poder (art. 103-B, § 4º, I, da CF). Sua intervenção somente se justificaria, portanto, diante de manifesta ilegalidade, não demonstrada na espécie, não lhe sendo dado substituir-se à Administração do Tribunal na avaliação do modelo de estruturação de seu quadro de pessoal. Sobre o tema, destaco os seguintes precedentes: RECURSO ADMINISTRATIVO. PEDIDO DE PROVIDÊNCIAS. TRIBUNAL DE JUSTIÇA DO ESTADO DA BAHIA. ESTRUTURA DE FUNÇÕES COMISSIONADAS E DE GRATIFICAÇÃO POR CONDIÇÕES ESPECIAIS DE TRABALHO (CET). DIFERENCIAÇÃO ENTRE O PRIMEIRO E O SEGUNDO GRAUS DE JU",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "substituicao_fc_cc",
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#13",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "e inclusão, equidade, enfrentamento à discriminação e ao assédio, saúde, gestão de pessoas, formação e atendimento ao público, entre outras. Também foi harmonizada, durante sua elaboração, com as propostas de promoção do trabalho decente e de saúde ocupacional, de modo a preservar a complementaridade entre os respectivos objetos. A minuta promove ajustes pontuais na Resolução CNJ nº 240/2016, permitindo que a Rede de Gestão de Pessoas do Poder Judiciário contribua para sua implementação e acompanhamento, sem prejuízo da participação das demais áreas institucionais. Essa articulação é essencial. O cuidado não constitui tema isolado, tampouco uma atribuição exclusiva de determinado setor administrativo. É uma perspectiva que deve atravessar a atuação do Poder Judiciário e orientar a maneira como a instituição se organiza, recebe as pessoas e exerce suas funções constitucionais. A aprovação da Política Judiciária Nacional de Cuidados representa uma oportunidade de reconhecer institucionalmente uma realidade que, embora essencial à vida, permaneceu por muito tempo invisível nas formas tradicionais de organização do trabalho e das instituições públicas. O funcionamento do sistema de justiça depende de pessoas que cuidam e que também precisam de cuidados. Da mesma forma, a efetividade dos direitos reconhecidos judicialmente pressupõe atenção às condições concretas em que vivem aqueles que procuram a Justiça. Ao incorporar essa dimensão às suas políticas institucionais, o Poder Judi",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
       "temas": [
         "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#14",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "cuidado; IX - transversalidade e complementaridade na implementação da Política; X - observância das competências institucionais, da natureza dos diferentes vínculos jurídicos e das peculiaridades dos órgãos do Poder Judiciário e de suas unidades; e XI - planejamento, implementação, monitoramento e avaliação baseados em dados e evidências, com atenção às desigualdades de acesso e às especificidades territoriais; XII - promoção da saúde física e mental e prevenção do adoecimento, em articulação com as políticas institucionais de atenção integral à saúde. Art. 6º A implementação da Política Judiciária Nacional de Cuidados será orientada pelos seguintes eixos: I - organização institucional, gestão de pessoas e do trabalho e compatibilização entre o exercício das atividades profissionais e as responsabilidades de cuidado; II - acesso aos serviços, atendimento, acessibilidade e ambiência institucional; e III - prestação jurisdicional com perspectiva do cuidado. Parágrafo único. A implementação dos eixos previstos neste artigo será apoiada por ações de formação, governança, produção e uso de dados, monitoramento e avaliação. CAPÍTULO II DA PERSPECTIVA DO CUIDADO NA ORGANIZAÇÃO INSTITUCIONAL, NA GESTÃO DE PESSOAS E DO TRABALHO Art. 7º Os órgãos do Poder Judiciário incorporarão a perspectiva do cuidado à organização institucional, à gestão de pessoas e do trabalho, de modo a favorecer a compatibilização entre o exercício das atividades profissionais e as necessidades e responsabilida",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ281_2026#15",
+      "data": "2026-11-25",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 281/2026",
+      "resumo": "relacionados ou não ao exercício das funções; IV - à mudança significativa de atribuições ou de unidade de trabalho e ao exercício ou à cessação de função de liderança; e V - à perda, ao surgimento ou à alteração relevante de responsabilidades ou das condições de cuidado de pessoa com quem exista relação significativa de cuidado ou em relação à qual sejam exercidas responsabilidades de cuidado. Art. 15. Os órgãos do Poder Judiciário poderão desenvolver ações e iniciativas de apoio às necessidades e responsabilidades de cuidado identificadas no âmbito institucional, de forma articulada com as políticas, programas e estruturas existentes. § 1º As iniciativas poderão compreender, entre outras: I - ações de acolhimento, escuta, orientação e apoio relacionadas às necessidades e responsabilidades de cuidado; II - práticas destinadas à promoção da saúde física e mental, do descanso, da convivência e da qualidade de vida, quando relacionadas à prevenção de sobrecargas e ao exercício das responsabilidades de cuidado e do autocuidado; III - ações de apoio à parentalidade e ao atendimento de necessidades e responsabilidades de cuidado; IV - programas de preparação e apoio às transições relacionadas ao ingresso, à mudança de funções, ao exercício ou à cessação de funções de liderança, ao retorno de afastamentos e à aposentadoria, com incorporação da perspectiva do cuidado; e V - outras iniciativas compatíveis com as necessidades identificadas no diagnóstico institucional e com os objetiv",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "aposentadoria"
       ],
       "aviso": "tese não extraída: carece de leitura humana do texto integral"
     }
   ],
-  "total_matched": 5
+  "total_matched": 10
 }

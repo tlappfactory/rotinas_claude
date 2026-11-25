@@ -2,42 +2,16 @@
   "date": "2026-11-25",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 363,
-      "pdf_text_chars": 26843,
-      "total_atos_detectados": 8,
-      "matched_atos": 8,
-      "headers_sample": [
-        "EDITAL N° 3/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 657/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 658/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 659/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 660/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 662/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 663/2026",
-        "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 661/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
       "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 107,
-      "pdf_text_chars": 9320,
-      "total_atos_detectados": 6,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP Nº 712, DE 23 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP Nº 713, DE 23 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP.N.º 715, DE 23 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP Nº 711, DE 23 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP Nº 710, DE 23 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP Nº 714, DE 23 DE NOVEMBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 8,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "aposentadoria",
     "pensao",
@@ -64,94 +38,5 @@
     "estagio_aprendizagem",
     "folha_esocial"
   ],
-  "articles": [
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "EDITAL N° 3/2026",
-      "text_resumo": "EDITAL N° 3/2026\n\n\n\n\n                                             RESULTADO FINAL - 1° PROCESSO SELETIVO DE REMOÇÃO INTERNA DE OFICIAIS DE\n\n                                                                          JUSTIÇA DO TRT 17.ª REGIÃO/2026\n\n\n\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, tendo em vista o\n                       disposto no art. 36, parágrafo único, III, \"c\", da Lei n.º 8.112/90 e no item 6.1 do Edital de abertura do o 1º PROCESSO\n                       SELETIVO DE REMOÇÃO INTERNA DE OFICIAIS DE JUSTIÇA/2026, publicado no DEJT deste Tribunal de 21/10/2026,\n\n\n\n\n                                                                DIVULGA\n\n\n\n\n                       o resultado final do 1º Processo Seletivo de Remoção Interna de Oficiais de Justiça/2026 dirigido aos ocupantes do cargo de\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          4\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                       Analista Judiciário, Área Judiciária, especialidade Oficial de Justiça Avaliador Federal para preenchimento de um claro de\n                       lotação no Fórum Trabalhista de Cachoeiro de Itapemirim - CITFOR:\n\n\n\n\n                                            Servidor(a) selecionado(a)                              Lotação atual\n\n\n\n                                            Lais Zumach Lemos Pereira                               NVEV01\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n                                                                         Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:28, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1359692 e o código CRC FAEEB270.\n\n\n\n\n                                                                         Portaria\n                                                                         Portaria\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                             5\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 661/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 661/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          13\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0000542-47.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                  REMOVER\n\n\n\n\n                       Karina Lorenzoni Dalla Bernardina, Analista Judiciária, área Judiciária, do (a) 10ª Vara do Trabalho de Vitória - VITV10 para\n                       lotá-lo(a) no(a) 12ª Vara do Trabalho de Vitória - VITV12, a partir de 30/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:21, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1360126 e o código CRC 2F292997.\n\n\n\n\n                                                                         ÍNDICE\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região   14\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n   SECRETARIA DO TRIBUNAL PLENO                                       1\n    Pauta                                                             1\n     Pauta Administrativa                                             1\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                       3\n   REMOÇÃO\n    Edital                                                            3\n     Edital                                                           3\n    Portaria                                                          4\n     Portaria                                                         4\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700",
-      "text_truncated": false,
-      "strong_keywords": [
-        "cessao_remocao_permuta"
-      ],
-      "weak_keywords": [],
-      "score": 15
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 660/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 660/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                           9\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0000543-32.2018.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                  DISPENSAR\n\n\n\n\n                       Karina Lorenzoni Dalla Bernardina, Analista Judiciária, área Judiciária, da função comissionada de Assistente de Gabinete de\n                       Primeiro Grau - FC-04, do (a) 10ª Vara do Trabalho de Vitória - VITV10, e, ao mesmo tempo, designá-lo(a) para exercer a\n                       função comissionada de Assistente de Gabinete de Primeiro Grau - FC-04, do (a) 12ª Vara do Trabalho de Vitória - VITV12, a\n                       partir de 30/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:21, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1360123 e o código CRC BCD90998.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                           10\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 662/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 662/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0000819-97.2017.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                  DISPENSAR\n\n\n\n\n                       Beatriz Ferreira Barros, Técnica Judiciária, área Administrativa, da função comissionada de Assistente de Juiz - FC-05, do (a)\n                       10ª Vara do Trabalho de Vitória - VITV10, e, ao mesmo tempo, designá-lo(a) para exercer a função comissionada de\n                       Assistente de Juiz - FC-05, do (a) 12ª Vara do Trabalho de Vitória - VITV12, a partir de 30/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região e no Diário Oficial da União (DOU).\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:21, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                              11\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1360128 e o código CRC B69E7A02.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "substituicao_fc_cc"
-      ],
-      "score": 11
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 657/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 657/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0001550-78.2026.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       de suas atribuições legais e regimentais, considerando o que consta nos autos do SEI 0001550-78.2026.5.17.0500, resolve:\n\n\n\n\n                                                                                  REMOVER\n\n\n\n\n                       Lais Zumach Lemos Pereira, Analista Judiciária, área Judiciária, Of Justiça Avaliador Federal, Removido para este Tribunal, do\n                       (a) Vara do Trabalho de Nova Venécia - NVEV01 para lotá-lo(a) no(a) Fórum Trabalhista de Cachoeiro de Itapemirim -\n                       CITFOR.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:28, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          6\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1359695 e o código CRC E4CFE994.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 658/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 658/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0001900-66.2026.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                    LOTAR\n\n\n\n\n                       Sarah Monteiro Barbosa Ribeiro, Analista Judiciária, área Judiciária, no (a) Gabinete da Desembargadora Alzenir Bollesi De\n                       Plá Loeffler - GDABPL, a partir de 17/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                         7\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:28, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1359798 e o código CRC 47A375DF.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 659/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 659/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                          8\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0001902-36.2026.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                    LOTAR\n\n\n\n\n                       Matheus Croce Quina, Analista Judiciário, área Administrativa, no (a) Seção de Informações Funcionais - SEINFO, a partir de\n                       17/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:23, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1359799 e o código CRC EB6D5557.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 663/2026",
-      "text_resumo": "Portaria PRESI/DIGER/SGP/CODOP/SELIR N° 663/2026\n\n\n\n\n                                                                        PODER JUDICIÁRIO FEDERAL\n\n                                                                           JUSTIÇA DO TRABALHO\n\n                                                           TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n\n\n\n                                                                                  PORTARIA\n\n                                                                          0000818-15.2017.5.17.0500\n\n                       A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA DÉCIMA SÉTIMA REGIÃO, no uso\n                       das atribuições que lhe são conferidas pelo art. 15 do Regimento Interno deste Tribunal (RA 084/2024), resolve:\n\n\n\n\n                                                                                  REMOVER\n\n\n\n\n                       Beatriz Ferreira Barros, Técnica Judiciária, área Administrativa, do (a) 10ª Vara do Trabalho de Vitória - VITV10 para lotá-lo(a)\n                       no(a) 12ª Vara do Trabalho de Vitória - VITV12, a partir de 30/11/2026.\n\n\n\n\n                       Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da\n                       17ª Região.\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242700\n\f    4592/2026                                              Tribunal Regional do Trabalho da 17ª Região                                         12\n    Data da Disponibilização: Terça-feira, 24 de Novembro de 2026\n\n\n\n\n                                                                Desembargadora Alzenir Bollesi de Plá Loeffler\n\n                                                                         Desembargadora-Presidente\n\n\n\n\n                          Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 24/11/2026,\n                          às 13:21, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1360130 e o código CRC 7B0B6D88.\n\n\n\n\n                                                         Publicação DEJT SEI - Portaria",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    }
-  ]
+  "articles": []
 }

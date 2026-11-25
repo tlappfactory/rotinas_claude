@@ -1,13 +1,13 @@
 {
-  "run_utc": "2026-11-25T00:05:48Z",
+  "run_utc": "2026-11-25T22:19:02Z",
   "lookback_days": 14,
   "cutoff_date": "2026-11-11",
   "endpoint": "https://dados-abertos.apps.tcu.gov.br/api/acordao/recupera-acordaos",
-  "pages_fetched": 2,
-  "items_seen": 500,
-  "min_date_seen": "2026-11-04",
-  "max_date_seen": "2026-11-18",
-  "total_matched": 23,
+  "pages_fetched": 3,
+  "items_seen": 1500,
+  "min_date_seen": "2026-10-07",
+  "max_date_seen": "2026-11-25",
+  "total_matched": 29,
   "articles": [
     {
       "key": "ACORDAO-COMPLETO-2780325",
@@ -433,6 +433,90 @@
       "score": 10
     },
     {
+      "key": "ACORDAO-COMPLETO-2785841",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5572",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5572/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. MINISTERIO DA SAUDE. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EC103/2019. SERVIDOR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTES DE 31/12/2003, NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. IMPOSSIBILIDADE. INCIDÊNCIA DO ART. 20, § 2º, I, DA EC 103/2019. PROVENTOS INTEGRAIS E INCIDÊNCIA DA PARIDADE. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2785841%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2785840",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5571",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5571/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. REGRA DE TRANSIÇÃO PREVISTA NO ART. 20 DA EMENDA CONSTITUCIONAL 103/2019. SERVIDOR INVESTIDO EM CARGO PÚBLICO EFETIVO ANTERIORMENTE A 31/12/2003, NÃO OPTANTE PELO REGIME DE PREVIDÊNCIA COMPLEMENTAR. PROVENTOS CALCULADOS PELA MÉDIA DAS REMUNERAÇÕES DE CONTRIBUIÇÃO. IMPOSSIBILIDADE. INCIDÊNCIA DO ART. 20, § 2º, INCISO I, DA REFERIDA EMENDA CONSTITUCIONAL. PROVENTOS INTEGRAIS E INCIDÊNCIA DA PARIDADE. NEGATIVA DE REGISTRO DO ATO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2785840%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "funpresp"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2785154",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5568",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5568/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. INCORPORAÇÃO DE QUINTOS/DÉCIMOS APÓS A EDIÇÃO DA LEI 9.624/1998. AUSÊNCIA DE COMPROVAÇÃO DE QUE A INTERESSADA SEJA BENEFICIÁRIA DA AÇÃO JUDICIAL INDICADA. APLICAÇÃO DO ACÓRDÃO 2266/2024-TCU-PLENÁRIO. NEGATIVA DE REGISTRO. DETERMINAÇÕES.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2785154%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2784564",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5564",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5564/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "APOSENTADORIA. TRT-3. INCLUSÃO INDEVIDA DA GRATIFICAÇÃO JUDICIÁRIA (GAJ) NA BASE DE CÁLCULO DO ADICIONAL POR TEMPO DE SERVIÇO (ATS) E DO ADICIONAL DE QUALIFICAÇÃO (AQ), COM AMPARO EM DECISÃO JUDICIAL SEM TRÂNSITO EM JULGADO. SUPERVENIENTE ALTERAÇÃO LEGISLATIVA QUE AFASTOU OS EFEITOS DA DECISÃO JUDICIAL SOBRE O CÁLCULO DO AQ. NEGATIVA DE REGISTRO SEM DETERMINAÇÃO CORRETIVA DE PROVENTOS ENQUANTO SUBSISTIR O PROVIMENTO JUDICIAL. CESSAÇÃO DOS PAGAMENTOS INQUINADOS CONDICIONADA À EVENTUAL DESCONSTITUIÇÃO DO PROVIMENTO JUDICIAL FAVORÁVEL À INATIVA. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2784564%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria",
+        "quintos_anuenios_ats"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 10
+    },
+    {
       "key": "ACORDAO-COMPLETO-2766588",
       "tipo": "ACÓRDÃO",
       "numeroAcordao": "5951",
@@ -484,6 +568,46 @@
       "titulo": "ACÓRDÃO 3141/2026 ATA 46/2026 - PLENÁRIO",
       "sumario": "RECURSO ADMINISTRATIVO. APOSENTADORIA POR INVALIDEZ. PEDIDO DE REVERSÃO. AUSÊNCIA DE LAUDO DE JUNTA MÉDICA OFICIAL DECLARANDO INSUBSISTENTES OS MOTIVOS DA APOSENTADORIA. INCIDÊNCIA DO ART. 25, INCISO I, DA LEI 8.112/1990. A POSTERIOR CLASSIFICAÇÃO DA INTERESSADA COMO DEFICIENTE LEVE NÃO TEM O CONDÃO DE DESCONSTITUIR OS LAUDOS MÉDICOS ANTERIORES QUE CONSTATARAM A PERSISTÊNCIA DOS MOTIVOS ENSEJADORES DA APOSENTADORIA POR INVALIDEZ. RECURSO CONHECIDO E IMPROVIDO.",
       "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783540%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2785517",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5570",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5570/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "PROVENTOS INDEVIDAMENTE CALCULADOS COM BASE NA MÉDIA DE REMUNERAÇÕES PRETÉRITAS, EM DESACORDO COM AS DISPOSIÇÕES DO ART. 20, § 2º, INCISO I, DA EC 103/2019, QUE, PARA A SITUAÇÃO DO INTERESSADO (APOSENTADORIA APÓS A EC 103/2019 E INGRESSO NO SERVIÇO PÚBLICO EM CARGO EFETIVO ATÉ 31/12/2003), ESTABELECE PARIDADE DE PROVENTOS COM A REMUNERAÇÃO DO CARGO EFETIVO. NEGATIVA DE REGISTRO. DETERMINAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2785517%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+      "urlArquivoPDF": null,
+      "strong_keywords": [
+        "aposentadoria"
+      ],
+      "weak_keywords": [],
+      "trt17_hits": [],
+      "score": 5
+    },
+    {
+      "key": "ACORDAO-COMPLETO-2785198",
+      "tipo": "ACÓRDÃO",
+      "numeroAcordao": "5557",
+      "anoAcordao": "2026",
+      "colegiado": "Segunda Câmara",
+      "dataSessao": "24/11/2026",
+      "relator": "ANTONIO ANASTASIA",
+      "situacao": "OFICIALIZADO",
+      "titulo": "ACÓRDÃO 5557/2026 ATA 41/2026 - SEGUNDA CÂMARA",
+      "sumario": "ATOS DE CONCESSÃO INICIAL E DE ALTERAÇÃO DE APOSENTADORIA. CONFORMIDADE COM A LEGISLAÇÃO DO ATO INICIAL DE APOSENTADORIA. INCORPORAÇÃO INDEVIDA AOS PROVENTOS DE VENCIMENTO BÁSICO COMPLEMENTAR PREVISTO NO ART. 15 DA LEI 11.091/2005, QUE DEVERIA TER SIDO ABSORVIDO DURANTE A IMPLEMENTAÇÃO DA ESTRUTURA REMUNERATÓRIA INSTITUÍDA PELA NORMA LEGAL. REGISTRO DO ATO INICIAL DE APOSENTADORIA. NEGATIVA DE REGISTRO DO ATO DE ALTERAÇÃO DE APOSENTADORIA. DETERMINAÇÕES. CIÊNCIA.",
+      "urlAcordao": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2785198%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
       "urlArquivoPDF": null,
       "strong_keywords": [
         "aposentadoria"
