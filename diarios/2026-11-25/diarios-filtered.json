@@ -1,0 +1,151 @@
+{
+  "run_utc": "2026-11-25T00:05:56Z",
+  "lookback_days": 4,
+  "desde": "2026-11-21",
+  "ate": "2026-11-25",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-21&dataDisponibilizacaoFim=2026-11-25&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 15,
+      "fora_da_janela": 0,
+      "selecionados": 5,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13737,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "279",
+            "data": "2026-11-24",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 717749
+        },
+        {
+          "chars_texto": 239045,
+          "blocos_tematicos": 15
+        }
+      ],
+      "edicao": "279/2026",
+      "data_edicao": "2026-11-24"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#2",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "ROGÉRIO ALVES RECLAMAÇÃO DISCIPLINAR. MAGISTRADOS. TRIBUNAL DE JUSTIÇA DO ESTADO DE MATO GROSSO DO SUL. RECUPERAÇÕES JUDICIAIS. NOMEAÇÃO DE ADMINISTRADORES JUDICIAIS. ALEGAÇÃO DE POSSÍVEL CONCENTRAÇÃO DE NOMEAÇÕES EM ESCRITÓRIOS QUE MANTERIAM VÍNCULOS FAMILIARES COM INTEGRANTES DA MAGISTRATURA. RESOLUÇÃO CNJ Nº 393/2021. NECESSIDADE DE APURAÇÃO OBJETIVA DOS FATOS E DOS CRITÉRIOS UTILIZADOS NAS NOMEAÇÕES. PEDIDO LIMINAR DE AFASTAMENTO CAUTELAR DOS MAGISTRADOS. MEDIDA EXCEPCIONAL. AUSÊNCIA, EM COGNIÇÃO SUMÁRIA, DE ELEMENTOS SUFICIENTES PARA SUA ADOÇÃO. INDEFERIMENTO. COMPETÊNCIA DISCIPLINAR CONCORRENTE. ART. 103-B, § 4º, III, DA CONSTITUIÇÃO FEDERAL. ART. 67, § 4º, DO RICNJ. REMESSA À CORREGEDORIA-GERAL DE JUSTIÇA DO ESTADO DE MATO GROSSO DO SUL PARA APURAÇÃO PRELIMINAR. FIXAÇÃO DE PRAZO PARA COMUNICAÇÃO DAS PROVIDÊNCIAS ADOTADAS E DO RESULTADO. MANUTENÇÃO DO EXPEDIENTE EM TRÂMITE NA CORREGEDORIA NACIONAL. DECISÃO Cuida-se de Reclamação Disciplinar, com pedido de medida cautelar, formulada por LUCAS DA SILVA SANCHES em face de JOSÉ HENRIQUE NEIVA DE CARVALHO e MARCIO ROGÉRIO ALVES, magistrados vinculados ao Tribunal de Justiça do Estado de Mato Grosso do Sul, em razão de alegadas irregularidades relacionadas à nomeação de administradores judiciais em processos de recuperação judicial. O reclamante sustenta, em síntese, a possível existência de concentração de nomeações de administradores judiciais em determinados escritórios que manteriam vínculos familiares com integrantes da ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#3",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "a Resolução TJES n.º 37/2024. Segundo eles, essa garantia foi restringida pela Resolução TJES n.º 15/2026 e, depois, pela Resolução TJES n.º 054/2026, que condicionou o destaque ao deferimento do relator. Afirmam também que os votos não são divulgados durante as sessões virtuais, o que contrariaria os arts. 3º e 5º da Resolução CNJ n.º 591/2024. Acrescentam que a OAB/ES comunicou essa situação à Presidência do tribunal em dezembro de 2025, sem providências. Os requerentes pedem o ingresso da OAB/ES como terceira interessada e a inclusão do TJES no polo passivo. Liminarmente, pedem a divulgação dos votos em tempo real e, até lá, o acolhimento automático dos pedidos de destaque. Pedem ainda a extensão ao TJES da orientação fixada na decisão de Id 6478106, o destaque automático nas hipóteses do art. 937 do CPC e a garantia de esclarecimento de matéria de fato durante a sessão virtual, independentemente de requerimento prévio (Id 6844122). Por fim, o SINDICATO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DO RIO DE JANEIRO (SISEP-RIO) noticia julgamento de recurso sem sustentação oral, apesar de sua prévia retirada da pauta virtual e inclusão em sessão presencial, e a ausência de exame da alegação de nulidade pelo Órgão Especial do TJRJ. Requer esclarecimentos e apuração dos fatos, preservação dos registros das sessões e comunicação aos órgãos indicados ou, subsidiariamente, autuação como pedido de providências (Id 6853467). É o relatório. Decido. As quatro petições têm naturezas distinta",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#8",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "do Estado brasileiro. A Corte Interamericana de Direitos Humanos condenou o Brasil no Caso Trabalhadores da Fazenda Brasil Verde (2016), relativo a fazenda no sul do Pará onde mais de 300 trabalhadores foram resgatados entre 1989 e 2002, sem responsabilização criminal efetiva, tendo a Corte reconhecido a inércia do sistema de justiça nacional como fator de perpetuação da impunidade; no Caso Empregados da Fábrica de Fogos de Santo Antônio de Jesus (2020), referente à explosão de 1998 que matou 64 trabalhadores, em sua maioria mulheres e crianças negras, com reconhecimento de discriminação estrutural e interseccional; e no Caso Santos Nascimento e Ferreira Gomes (2024). Os casos revelam falhas sistêmicas de prevenção, fiscalização e responsabilização que exigem do Poder Judiciário atuação estruturada, e não apenas reativa. e) Fragmentação da resposta institucional. O Painel de Políticas Judiciárias Nacionais Programáticas aponta apenas cinco políticas relacionadas ao ODS nº 8: Combate ao Trabalho Escravo e ao Tráfico de Pessoas (Res. CNJ nº 212/2015), Atenção Integral à Saúde de Magistrados e Servidores (Res. CNJ nº 207/2015), Atenção Prioritária ao Primeiro Grau (Res. CNJ nº 194/2014 e nº 219/2016), Racionalidade e Eficiência das Execuções Fiscais (Res. CNJ nº 547/2024) e Programa Novos Caminhos (Res. CNJ nº 543/2024). Tais iniciativas, assim como as ações sobre inclusão de pessoas em situação de rua e privadas de liberdade, trabalho infantil e equidade, permanecem dispersas, ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#11",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "Militar e Eleitoral, na hipótese do § 2º, caso não haja pessoas interessadas na ocupação das vagas para magistradas e magistrados e para servidoras e servidores, caberá aos tribunais indicar os membros do Comitê Gestor Local para completar a sua composição. § 5º Poderão ser convidados a integrar o Comitê Gestor Local servidoras e servidores do órgão vinculados a áreas técnicas cuja participação seja considerada necessária ao desenvolvimento da Política. Art. 12. Compete ao Comitê Gestor Local: I - coordenar as ações e os projetos relacionados a esta Política; II - incentivar a união de esforços para a consecução de objetivos comuns; III - atuar, no âmbito de sua competência e com foco na realidade local, nos eixos da Política previstos no art. 3º; IV - elaborar plano de trabalho, no prazo de noventa dias, contado da instituição do Comitê Gestor Local; e V - elaborar relatório bienal de suas atividades. § 1º O Comitê Gestor Local se reunirá semestralmente, em caráter ordinário. § 2º Poderão ser convocadas reuniões extraordinárias por solicitação de seus membros ou por iniciativa do coordenador ou da coordenadora do Comitê Gestor Local. § 3º O Comitê Gestor Local manterá interlocução com as demais instâncias do órgão voltadas à promoção e defesa dos direitos humanos, especialmente a respectiva Unidade de Monitoramento e Fiscalização das decisões do Sistema Interamericano de Direitos Humanos. § 4º A interlocução de que trata o § 3º respeitará a autonomia administrativa de cada t",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#15",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "de remessa de informações (art. 15, §§ 6º e 7º). Por fim, cabe registrar que, após a revisão de técnica legislativa realizada pela Divisão de Governança Normativa (Informação nº 2840698, de 3 de novembro de 2026), foram incorporados à minuta final os ajustes pontuais decorrentes dos pontos de atenção indicados por aquela unidade técnica, aprimorando a clareza redacional, a coerência interna das remissões e a explicitação de competências, sem alteração do mérito ou da estrutura da Política. IV. DOS IMPACTOS NO PODER JUDICIÁRIO Espera-se que a adoção da presente Resolução produza impactos positivos, com implementação escalonada. Para a gestão interna, a proposta oferece parâmetros nacionais para a promoção de um ambiente de trabalho seguro, saudável, inclusivo e acessível, com a prevenção e o enfrentamento de todas as formas de violência e de discriminação e o fortalecimento da saúde psicossocial de magistrados, magistradas, servidores e servidoras, em resposta aos achados do diagnóstico. Para a cadeia de valor, orienta a incorporação de critérios e procedimentos de devida diligência em direitos humanos e meio ambiente nos contratos e licitações, com benefícios diretos para os trabalhadores e as trabalhadoras terceirizados. Para as pessoas que recorrem ao Poder Judiciário e para a prestação jurisdicional, a Política estimula práticas e políticas judiciárias que assegurem um processo judicial democrático, especialmente nos conflitos coletivos de trabalho de elevada complexidade ",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "tema_servidor_remuneracao"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 5
+}

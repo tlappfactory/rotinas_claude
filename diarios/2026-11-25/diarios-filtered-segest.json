@@ -1,0 +1,181 @@
+{
+  "run_utc": "2026-11-25T00:05:58Z",
+  "lookback_days": 4,
+  "desde": "2026-11-21",
+  "ate": "2026-11-25",
+  "fontes": {
+    "djen_csjt": {
+      "status": "error",
+      "endpoint": "https://comunicaapi.pje.jus.br/api/v1/comunicacao",
+      "itens_vistos": 0,
+      "fora_da_janela": 0,
+      "selecionados": 0,
+      "probe": [
+        {
+          "url": "https://comunicaapi.pje.jus.br/api/v1/comunicacao?siglaTribunal=CSJT&dataDisponibilizacaoInicio=2026-11-21&dataDisponibilizacaoFim=2026-11-25&pagina=1&itensPorPagina=100",
+          "http": 403,
+          "content_type": "text/html",
+          "bytes": 986,
+          "inicio": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"> <HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\"> <TITLE>ERROR"
+        }
+      ]
+    },
+    "dje_cnj": {
+      "status": "ok",
+      "endpoint": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+      "itens_vistos": 15,
+      "fora_da_janela": 0,
+      "selecionados": 6,
+      "probe": [
+        {
+          "url": "https://www.cnj.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData",
+          "http": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "bytes": 13737,
+          "inicio": "                   <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">   <html lang=\"pt\"> <head> \t<title>CNJ - Conselho Nacional d"
+        },
+        {
+          "edicao": {
+            "ano": "2026",
+            "numero": "279",
+            "data": "2026-11-24",
+            "pdf": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO"
+          }
+        },
+        {
+          "pdf_http": 200,
+          "bytes": 717749
+        },
+        {
+          "chars_texto": 239045,
+          "blocos_tematicos": 15
+        }
+      ],
+      "edicao": "279/2026",
+      "data_edicao": "2026-11-24"
+    }
+  },
+  "articles": [
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#1",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "CONSELHO NACIONAL DE JUSTIÇA - CNJ Ementa: ATO NORMATIVO. PROPOSTA DE RESOLUÇÃO. POLÍTICA NACIONAL DE DIREITOS HUMANOS DO PODER JUDICIÁRIO (PNDH-JUD). REGULAMENTAÇÃO DO DEPARTAMENTO DE MONITORAMENTO E FISCALIZAÇÃO DAS DECISÕES DOS SISTEMAS INTERNACIONAIS DE DIREITOS HUMANOS (DDH). INSTITUIÇÃO DA REDE DH JUD. CONSOLIDAÇÃO DO PACTO NACIONAL DO JUDICIÁRIO PELOS DIREITOS HUMANOS. FORTALECIMENTO DA GOVERNANÇA INSTITUCIONAL E DO CUMPRIMENTO DAS OBRIGAÇÕES INTERNACIONAIS DE DIREITOS HUMANOS. APROVAÇÃO DA PROPOSTA. I. CASO EM EXAME 1. Proposta de resolução destinada a instituir a Política Nacional de Direitos Humanos do Poder Judiciário (PNDH-Jud), regulamentar a estruturação e o funcionamento do Departamento de Monitoramento e Fiscalização das Decisões dos Sistemas Internacionais de Direitos Humanos (DDH), criado pela Lei nº 15.434/2026, instituir a Rede de Unidades de Monitoramento e Fiscalização das Decisões dos Sistemas Internacionais de Direitos Humanos do Poder Judiciário (Rede DH Jud) e consolidar o Pacto Nacional do Judiciário pelos Direitos Humanos como instrumento permanente de planejamento e gestão da política judiciária. II. QUESTÃO EM DISCUSSÃO 2. A questão em discussão consiste em definir a pertinência da instituição de uma política judiciária nacional, estruturada e permanente, destinada a integrar e coordenar as iniciativas do Poder Judiciário de promoção e proteção dos direitos humanos, mediante a regulamentação do DDH, a organização da Rede DH Jud e a institucionali",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "governanca",
+        "governanca_geral",
+        "orcamento_estrategia"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#2",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "técnicas e metodologias atualizadas. Sob a ótica axiológica, o artigo 4º da minuta estabelece os princípios orientadores da política. O dispositivo reafirma a dignidade da pessoa humana como fundamento e associa-a à universalidade, à indivisibilidade e à interdependência dos direitos fundamentais. Com o intuito de direcionar a aplicação material da política, o artigo 5º delineia as diretrizes da PNDH-Jud, orientadas à superação das desigualdades estruturais e à consolidação de uma jurisdição inclusiva. O normativo especifica os grupos e as populações em situação de vulnerabilidade agravada que devem receber garantia de pleno acesso à Justiça. Ao regulamentar o funcionamento do DDH, concebido pelo legislador como mecanismo de conformidade internacional e gestão de riscos apto a mitigar ônus financeiros por descumprimento de decisões, a Resolução posiciona-o como o órgão central da política. Caberá ao Departamento coordenar a PNDH-Jud no âmbito do Conselho Nacional de Justiça, assumir as demais competências estabelecidas em lei e exercer as atribuições correlatas definidas administrativamente na presente Resolução. Para assegurar a efetividade da PNDH-Jud e impedir que permaneça adstrita à cúpula do sistema de justiça, a Resolução estabelece um desenho descentralizado. A normativa consolida, a partir do artigo 11, a Rede de Unidades de Monitoramento e Fiscalização (Rede DH Jud), de forma alinhada à nova legislação e regulamentação do CNJ, e permite a descentralização da execuçã",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "gestao_riscos",
+        "riscos_projetos"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#6",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "3. Política judiciária nacional que preserva a independência judicial e a autonomia dos tribunais, aproveita bases de dados existentes, admite implementação progressiva e não cria despesa obrigatória de caráter continuado atende às diretrizes do art. 5º da Instrução Normativa CNJ nº 112/2026. 4. A consulta pública prévia sobre a matéria de fundo de uma política judiciária pode ser aproveitada para satisfazer a exigência de participação social quando o detalhamento posterior da proposta não alterar a essência do objeto consultado. Dispositivos relevantes citados: CF/1988, arts. 1º, III e IV; 6º a 9º; 39, § 3º; 103-B, § 4º, I; 170, caput, VI e VIII; 186, III e IV; e 243. CLT. IN CNJ nº 112/2026, arts. 5º, II e III, e § 1º, e 6º. IN CNJ nº 113/2026. Resolução CNJ nº 655/2025, art. 9º. Resoluções CNJ nº 194/2014, nº 207/2015, nº 212/2015, nº 219/2016, nº 543/2024 e nº 547/2024. Portaria Presidência CNJ nº 412/2025. Acordo de Cooperação Técnica CNJ/TST/CSJT nº 73/2025. Constituição da OIT (Tratado de Versalhes) e Declaração de Filadélfia. Declaração da OIT sobre os Princípios e Direitos Fundamentais no Trabalho (1998). Convenções da OIT nº 29, 87, 98, 100, 105, 111, 138, 155, 182 e 187, e Protocolo de 2014. Convenção Americana sobre Direitos Humanos. Convenção Interamericana contra o Racismo, a Discriminação Racial e Formas Correlatas de Intolerância. CEDAW. Convenção sobre os Direitos das Pessoas com Deficiência. Agenda 2030 da ONU, ODS 5, 8, 10 e 16. Jurisprudência relevante cit",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "acessibilidade_inclusao",
+        "inclusao_diversidade",
+        "selos_premios",
+        "sustentabilidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#10",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "pontos percentuais desde 2012. Os indicadores revelam, ainda, heterogeneidade regional relevante, como a taxa de desocupação de 7,1% no Nordeste, frente a 3,1% no Sul, e a concentração do trabalho infantil na região Norte, o que orienta prioridades territoriais de atuação. O trabalho decente é, além de direito humano, vetor de desenvolvimento econômico sustentável, como reconhece o ODS nº 8 da Agenda 2030 (aplicável, aliás, a vínculo laboral, privado ou público). O mesmo diagnóstico evidencia que, entre o 4º trimestre de 2019 e o 4º trimestre de 2025, o aumento real acumulado do salário-mínimo foi de 9,5%, o que contribuiu para o fortalecimento do mercado interno de consumo e para a aceleração do Produto Interno Bruto, com variação real de 3,0% em 2022, 3,2% em 2023 e 3,4% em 2024, e que o rendimento do trabalho corresponde a 75,1% de todo o rendimento domiciliar. A formalização das relações de trabalho tende a ampliar a arrecadação tributária e previdenciária, reduzir custos de rotatividade e litigiosidade trabalhista e aumentar a produtividade e a competitividade das empresas brasileiras, inclusive no comércio internacional, no qual cláusulas sociais e critérios ESG relacionados ao trabalho decente vêm se tornando condicionantes de acesso a mercados e cadeias globais de valor. Para o Poder Judiciário, a promoção do trabalho decente repercute, ainda, na eficiência institucional, pois o cumprimento das obrigações trabalhistas tende a reduzir a judicialização de demandas evitá",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "estatistica_pesquisa",
+        "selos_premios",
+        "sustentabilidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#11",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "cenário, o Poder Judiciário tem o dever ético e institucional de adotar a perspectiva do trabalho decente para além dos vínculos privados, promovendo também a integridade e a dignidade nas relações de trabalho do serviço público. II. DOS FUNDAMENTOS JURÍDICOS Registra- se, preliminarmente, que o texto da minuta de Resolução não conterá enunciados iniciados por \"considerando\", em acolhimento à revisão da Divisão de Governança Normativa (Informação 2814280), segundo a qual, nos termos do art. 4º, § 3º, do Decreto nº 12.002/2024, as explicações e justificativas da edição do ato devem constar da exposição de motivos, exigida para a proposta pelo art. 7º, I e II, da Resolução CNJ nº 655/2025. Por essa razão, passam a constar integralmente desta exposição de motivos os fundamentos que a minuta enunciava nos considerandos, relativos ao marco constitucional, às normas internacionais do trabalho e de direitos humanos, à Agenda 2030, à Portaria Presidência CNJ nº 412/2025 e ao Acordo de Cooperação Técnica nº 73/2025, bem como à necessidade de o Poder Judiciário aplicar e, também, promover ativamente o trabalho decente. A proposição ampara-se, em primeiro lugar, nos preceitos fundamentais estabelecidos na Constituição da OIT pelo Tratado de Versalhes e reafirmados na Declaração de Filadélfia, segundo os quais o trabalho não é uma mercadoria e a paz duradoura só pode ser baseada na justiça social. Fundamenta-se, ainda, na Declaração da OIT sobre os Princípios e Direitos Fundamentais no T",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "governanca_geral",
+        "sustentabilidade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    },
+    {
+      "origem": "dje_cnj",
+      "fonte": "DJE_CNJ",
+      "id": "DJ279_2026#15",
+      "data": "2026-11-24",
+      "tipo": "Diário da Justiça Eletrônico do CNJ",
+      "classe": "",
+      "orgao": "CNJ",
+      "numero_processo": "",
+      "titulo": "DJe CNJ nº 279/2026",
+      "resumo": "Ato Objeto Resolução CNJ nº 615, de 11 de março Diretrizes para o desenvolvimento, a utilização e a governança de soluções com recursos de 2025 de inteligência artificial no Poder Judiciário Diretrizes de ética, transparência e governança de IA — **revogada** pela Resolução Resolução CNJ nº 332/2020 nº 615/2025; as obrigações deste Termo reportam-se à Resolução vigente Mitigação de riscos de injeção de comandos (*prompt injection*) em sistemas judiciais Manifestação Técnica CNIAJ nº 1/2026 de IA Nota Técnica CNJ nº 2635739, de 9 de Orientação técnica aos tribunais sobre comandos ocultos e segurança adversarial (SEI/ junho de 2026 CNJ nº 09953/2026) Portaria Presidência CNJ nº 290, de 30 Política de Desenvolvimento Seguro de Aplicações — padrão de referência para de junho de 2026 soluções que pretendam integrar o portfólio nacional Resolução CNJ nº 335/2020 Instituição da PDPJ-Br Portaria CNJ nº 252/2020 Governança da PDPJ-Br Portaria CNJ nº 253/2020 Critérios e diretrizes técnicas da PDPJ-Br Portaria CNJ nº 036/2023 Guia de alinhamento estratégico da PDPJ-Br Portaria CNJ nº 041/2023 e Portaria Liberação de versões CNJ nº 047/2024 Resolução CNJ nº 363/2021 Adequação dos órgãos do Poder Judiciário à LGPD Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário Resolução CNJ nº 370/2021 (ENTIC-JUD) Resolução CNJ nº 396/2021 Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) Resolução CNJ nº 446/2022 Plataforma Codex — extração of",
+      "texto_truncated": true,
+      "url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ279_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+      "temas": [
+        "governanca_geral",
+        "riscos_projetos",
+        "selos_premios",
+        "transparencia_integridade"
+      ],
+      "aviso": "tese não extraída: carece de leitura humana do texto integral"
+    }
+  ],
+  "total_matched": 6
+}

@@ -2,39 +2,16 @@
   "date": "2026-11-24",
   "sources": {
     "trt17": {
-      "status": "ok",
-      "pdf_size_kb": 122,
-      "pdf_text_chars": 12240,
-      "total_atos_detectados": 2,
-      "matched_atos": 2,
-      "headers_sample": [
-        "Ato SECOR N° 102/2026",
-        "ATO PRESI SECOR Nº 90/2026"
-      ]
+      "status": "no_pdf"
     },
     "csjt": {
-      "status": "ok",
-      "pdf_size_kb": 103,
-      "pdf_text_chars": 3835,
-      "total_atos_detectados": 1,
-      "matched_atos": 1,
-      "headers_sample": [
-        "ATO CSJT.GP.SG N.º 157, de 23 de novembro de 2026."
-      ]
+      "status": "no_pdf"
     },
     "tst": {
-      "status": "ok",
-      "pdf_size_kb": 101,
-      "pdf_text_chars": 3540,
-      "total_atos_detectados": 2,
-      "matched_atos": 0,
-      "headers_sample": [
-        "ATO GDGSET.GP N.º 707, DE 19 DE NOVEMBRO DE 2026",
-        "ATO GDGSET.GP N.º 706, DE 19 DE NOVEMBRO DE 2026"
-      ]
+      "status": "no_pdf"
     }
   },
-  "total_matched": 3,
+  "total_matched": 0,
   "strong_keyword_tags": [
     "planejamento_estrategico",
     "metas_nacionais",
@@ -57,41 +34,5 @@
     "inclusao_diversidade",
     "orcamento_estrategia"
   ],
-  "articles": [
-    {
-      "source": "csjt",
-      "orgao": "Conselho Superior da Justiça do Trabalho",
-      "identifica": "ATO CSJT.GP.SG N.º 157, de 23 de novembro de 2026.",
-      "text_resumo": "ATO CSJT.GP.SG N.º 157, de 23 de novembro de 2026.\n\n                                                                                         Autoriza a emissão de bilhetes de passagem aérea e o\n                                                                                         pagamento de diárias de viagem.\n\n\n\n  O PRESIDENTE DO CONSELHO SUPERIOR DA JUSTIÇA DO TRABALHO, no uso de suas atribuições legais e regimentais,\n\n  considerando a realização da reunião do Observatório Nacional da Integridade e Transparência do Poder Judiciário – ONIT, a ser realizada no dia\n  11 de dezembro de 2026, às 10 horas, na Faculdade de Direito da Universidade de São Paulo – FDUSP, Largo São Francisco; e\n\n  considerando o teor do Processo Administrativo n.º 6024843/2026-00,\n\n\n\n  RESOLVE\n\n\n\n  Art. 1º Autorizar a emissão de bilhetes de passagem aérea para o trecho Brasília/São Paulo/Brasília e o pagamento de duas diárias e meia de\n  viagem, referente ao período de 10 a 12 de dezembro de 2026, em favor da Excelentíssima Senhora FRANCISCA BRENNA VIEIRA\n  NEPOMUCENO, Juíza Auxiliar da Presidência do Conselho Superior da Justiça do Trabalho.\n\n  Art. 2º Autorizar a emissão de bilhetes de passagem aérea para o trecho Brasília/São Paulo/Brasília e o pagamento de duas diárias e meia de\n  viagem, referente ao período de 10 a 12 de dezembro de 2026, em favor da Senhora INÊS DA FONSECA PORTO, Secretária Executiva do\n  Conselho Superior da Justiça do Trabalho.\n\n  Art. 3º Este Ato entra em vigor na data de sua publicação.\n\n\n\n                                                             VIEIRA DE MELLO FILHO\n                                          Ministro Presidente do Conselho Superior da Justiça do Trabalho\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242665\n\f    4591/2026                                               Conselho Superior da Justiça do Trabalho   2\n    Data da Disponibilização: Segunda-feira, 23 de Novembro de 2026\n\n\n\n\n                                                                          ÍNDICE\n\n\n   Conselho Superior da Justiça do Trabalho                           1\n    Ato                                                               1\n     Ato da Presidência CSJT                                          1\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242665",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "governanca_geral",
-        "selos_premios"
-      ],
-      "score": 12
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "ATO PRESI SECOR Nº 90/2026",
-      "text_resumo": "ATO PRESI SECOR Nº 90/2026\n\n\n\n\n                           A DESEMBARGADORA-PRESIDENTE E CORREGEDORA DO TRIBUNAL REGIONAL DO TRABALHO DA 17.ª\n                       REGIÃO, no uso de suas atribuições legais e regimentais,\n\n\n\n\n                            CONSIDERANDO a participação do Juiz Substituto José Alexandre Cid Pinto Filho no Encontro Nacional do Poder\n                       Judiciário, que ocorrerá na cidade de Fortaleza no período de 30/11 a 02/12/2026, na condição de Juiz Gestor de Metas deste\n                       Tribunal e\n\n\n\n\n                            CONSIDERANDO os termos do ATO PRESI SECOR Nº 88/2026, que designou os Juízes Substitutos Ivy D”lourdes\n                       Malacarne e José Alexandre Cid Pinto Filho para atuarem na 11ª e 12ª Vara do Trabalho de Vitória, respectivamente, a partir\n                       de 30/11/2026, resolve\n\n\n\n\n                                                                                 DESIGNAR\n\n\n\n\n                       IVY D’LOURDES MALACARNE e JOSÉ ALEXANDRE CID PINTO FILHO, Juízes do Trabalho Substitutos, para auxiliarem na\n                       11ª e 12ª Varas do Trabalho de Vitória conforme tabela abaixo, fazendo-se cessar, no período, os efeitos do ATO PRESI\n                       SECOR Nº 88/2026:\n\n\n\n\n                       JUIZ(A)                                                   VARA DO TRABALHO            PERÍODO\n\n\n                       Ivy D’ Lourdes Malacarne                                  12ª de Vitória              30/11 a 06/12/2026\n\n\n                       José Alexandre Cid Pinto Filho                            11ª de Vitória              30/11 a 06/12/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242657\n\f    4591/2026                                             Tribunal Regional do Trabalho da 17ª Região                                               3\n    Data da Disponibilização: Segunda-feira, 23 de Novembro de 2026\n\n\n\n\n                            Publique-se.\n\n                                                                        Alzenir Bollesi de Plá Loeffler\n\n                                                                 Desembargadora-Presidente e Corregedora\n\n\n\n\n                         Documento assinado eletronicamente por Alzenir Bollesi De Plá Loeffler, Desembargadora Presidente, em 19/11/2026,\n                         às 19:42, conforme art. 1º, III, \"b\", da Lei 11.419/2006.\n\n\n\n\n                         A autenticidade do documento pode ser conferida no site https://www.trt17.jus.br/principal/documentos/autenticidade\n                         informando o código verificador 1359348 e o código CRC 840815F1.\n\n\n\n\n                                                          DIRETORIA GERAL\n                                                               Extrato\n                                                  EXTRATO DE CONCESSÃO DE DIÁRIAS\n                                                         Concessão de Diárias\n  A Desembargadora-Presidente Alzenir Bollesi de Plá Loeffler, do Tribunal Regional do Trabalho da 17.ª, no uso de suas atribuições legais e\n  regimentais, e com amparo no ATO TRT 17.ª PRESI N.o 106/2023, resolve conceder e autorizar o pagamento ao beneficiário indicado diária nos\n  seguintes termos:\n\n\n\n  Processo nº 882/2026\n  - VALÉRIO SOARES HERINGER, DESEMBARGADOR DO TRABALHO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de 20º\n  Encontro Nacional do Poder Judiciário e Oficinas de Politica Nacional de Atenção Prioritária ao 1º Grau. Fortaleza-CE, 30/11 ( a partir das 9 horas)\n  a 01/12, referente ao(s) seguinte(s) período(s):\n  #2: Vitória/ES - Fortaleza/CE no período de 30/11/2026 a 01/12/2026, totalizando 1,50 diária(s).\n                                                              Concessão de Diárias\n  A Desembargadora-Presidente Alzenir Bollesi de Plá Loeffler, do Tribunal Regional do Trabalho da 17.ª, no uso de suas atribuições legais e\n  regimentais, e com amparo no ATO TRT 17.ª PRESI N.o 106/2023, resolve conceder e autorizar o pagamento ao beneficiário indicado diárias nos\n  seguintes termos:\n\n\n\n  Processo nº 881/2026\n\n\nCódigo para aferir autenticidade deste caderno: 242657\n\f    4591/2026                                             Tribunal Regional do Trabalho da 17ª Região                                       4\n    Data da Disponibilização: Segunda-feira, 23 de Novembro de 2026\n\n\n\n  - VALÉRIO SOARES HERINGER, DESEMBARGADOR DO TRABALHO do Tribunal Regional do Trabalho da 17ª Região, com a finalidade de\n  Participação na 9ª Reunião do COLEPRECOR em Brasília-DF, em 24 e 25 de novembro de 2026., referente ao(s) seguinte(s) período(s):\n  #1: Vitória/ES - Brasília/DF no período de 23/11/2026 a 25/11/2026, totalizando 2,50 diária(s).\n                                                              Concessão de Diárias\n  O Desembargador do Tribunal Regional do Trabalho da 17.ª Região Claudio Armando Couce de Menezes, no uso de suas atribuições legais e\n  regimentais, e com amparo no ATO TRT 17.ª PRESI N.º 106/2023,, resolve conceder e autorizar o pagamento à Desembargadora-Presidente,\n  Alzenir Bollesi de Plá Loeffler, diárias nos seguintes termos:\n\n\n  Processo nº 848/2026 (Retificação 1)\n  - ALZENIR BOLLESI DE PLÁ LOEFFLER, DESEMBARGADOR DO TRABALHO do Tribunal Regional do Trabalho da 17ª Região, com a\n  finalidade de Participação na inauguração do terreno onde será construída a sede da Vara do Trabalho de Venda Nova do Imigrante (10/11/2026,\n  às 10h30min) e na Correição Ordinária na Vara do Trabalho de Venda Nova do Imigrante (10/11/2026, às 12h), referente ao(s) seguinte(s)\n  período(s):\n  #2: Vitória/ES - Venda Nova do Imigrante/ES no período de 09/11/2026 a 11/11/2026, totalizando 2,50 diária(s).\n\n\n                                            SEÇÃO DE INGRESSO, LOTAÇÃO E REMOÇÃO\n                                                             Portaria\n                                                             Portaria\n                                                     Portaria de Substituição\n\n                                                  PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 88/2026\n\n\n\n                                                                    SUBSTITUIÇÃO\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  RESOLVE,\n\n  Designar, para substituir ANIELO SESSA NETO no Cargo em Comissão de ASSESSOR-CHEFE - CJ-3, do(a) Gabinete do Desembargador Valdir\n  Donizetti Caixeta - GDVDC, em seus afastamentos e impedimentos legais ou regulamentares, os(as) servidores(as) ALEXANDRE DE SOUZA\n  GAVA o, fazendo jus ao pagamento pelos dias de efetiva substituição.\n\n  Ficam revogadas as portarias anteriores de indicação do(s) substituto(s) do(a) servidor(a) ANIELO SESSA NETO.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                            Desembargadora-Presidente\n\n\n                                                             Portaria de Substituição\n\n                                                  PORTARIA TRT 17ª SELIR/SGP/PRESI N.º 87/2026\n\n\n\n                                                                    SUBSTITUIÇÃO\n\n\n\n  A DESEMBARGADORA-PRESIDENTE DO TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO, no uso de suas atribuições legais e\n  regimentais,\n\n  RESOLVE,\n\n  Designar, para substituir RAPHAEL GASPARINI BATISTA na Função Comissionada de CHEFE DE SEÇÃO - FC-05, do(a) Seção de Informações\n  Funcionais - SEINFO, em seus afastamentos e impedimentos legais ou regulamentares, os(as) servidores(as) LUCAS OLIVEIRA DO CARMO,\n  RAFAEL DE CARVALHO OLIVEIRA ou HELENA CRISTINA BERNARDES MENDES, fazendo jus ao pagamento pelos dias de efetiva\n\n\nCódigo para aferir autenticidade deste caderno: 242657\n\f    4591/2026                                             Tribunal Regional do Trabalho da 17ª Região                                       5\n    Data da Disponibilização: Segunda-feira, 23 de Novembro de 2026\n\n\n\n  substituição.\n\n  Ficam revogadas as portarias anteriores de indicação do(s) substituto(s) do(a) servidor(a) RAPHAEL GASPARINI BATISTA.\n\n  Publique-se no Diário Eletrônico da Justiça do Trabalho (DEJT) - Caderno Administrativo do Tribunal Regional do Trabalho da 17ª Região.\n\n\n\n                                                        ALZENIR BOLLESI DE PLÁ LOEFFLER\n                                                            Desembargadora-Presidente\n\n\n\n\n                                                                         ÍNDICE\n\n\n   SECRETARIA DE CORREGEDORIA                                        1\n   REGIONAL\n    Ata                                                              1\n     Ata Correição Ordinária SECOR                                   1\n    Ato                                                              1\n     Ato                                                             1\n   DIRETORIA GERAL                                                   3\n    Extrato                                                          3\n     EXTRATO DE CONCESSÃO DE DIÁRIAS                                 3\n   SEÇÃO DE INGRESSO, LOTAÇÃO E                                      4\n   REMOÇÃO\n    Portaria                                                         4\n     Portaria                                                        4\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242657",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [
-        "orcamento_estrategia"
-      ],
-      "score": 11
-    },
-    {
-      "source": "trt17",
-      "orgao": "Tribunal Regional do Trabalho da 17ª Região",
-      "identifica": "Ato SECOR N° 102/2026",
-      "text_resumo": "Ato SECOR N° 102/2026\n\n\n\n\nCódigo para aferir autenticidade deste caderno: 242657\n\f    4591/2026                                             Tribunal Regional do Trabalho da 17ª Região                                           2\n    Data da Disponibilização: Segunda-feira, 23 de Novembro de 2026\n\n\n\n\n                                                          TRIBUNAL REGIONAL DO TRABALHO DA 17ª REGIÃO\n\n                                                               SECOR – Secretaria da Corregedoria Regional\n\n\n\n\n                       Processo: 0000029-98.2026.5.17.0500\n\n                       Assunto(s): Normatização. Regulamentação\n\n                       Especificação: ATOS PRESI SECOR 2026\n\n                       Interessado(s):",
-      "text_truncated": false,
-      "strong_keywords": [],
-      "weak_keywords": [],
-      "score": 10
-    }
-  ]
+  "articles": []
 }
