@@ -1,0 +1,73 @@
+BOLETIM NORMATIVO DIÁRIO - SGP — 26 de novembro de 2026
+
+Prezado(a) servidor(a), segue o Boletim Normativo Diário - SGP.
+
+1. ALTO IMPACTO
+
+Sem novidades pertinentes nesta data.
+
+2. MÉDIO IMPACTO (ciência)
+
+* TRT-17 – Portaria PRESI/DIGER/SGP/CODOP/SELIR nº 664/2026: vacância de cargo de Técnico Judiciário por posse em cargo inacumulável
+  Ementa: Declara a vacância do cargo de Técnico Judiciário, área Administrativa, ocupado por Arthur Vescovi Salles, em razão de posse em outro cargo inacumulável, a partir de 16/11/2026. Publicação também no DOU.
+  Unidade(s): SELIR, SELEP, DIPROF
+  Ação sugerida: Providenciar baixa funcional e acertos de folha decorrentes da vacância.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 26/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+3. INFORMATIVO (arquivo)
+
+* TRT-17 – Ato PRESI nº 95/2026: providências em razão das fortes chuvas em Mimoso do Sul
+  Ementa: Suspende as atividades presenciais do Posto de Atendimento de Mimoso do Sul entre 24 e 27/11/2026 e suspende prazos processuais e audiências na 1ª Vara do Trabalho de Cachoeiro de Itapemirim para partes e advogados do município. [carece de leitura humana do texto integral — conferir no DEJT]
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 26/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Ato PRESI nº 96/2026: desembargadores redatores designados e fornecedores de voto condutor em dezembro/2026
+  Ementa: Indica, por órgão julgador (Pleno e três Turmas), os redatores designados e fornecedores de voto condutor de dezembro de 2026. Matéria de magistratura, sem reflexo direto na SGP.
+  Unidade(s): SGP-direção — ciência
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 26/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Portarias SELIR/SGP/PRESI nº 89 e 90/2026: designação de substitutos em cargos em comissão
+  Ementa: Lote de duas portarias de substituição.
+  Unidade(s): SELEP, DIPROF
+    - Portaria nº 89/2026: substitutos de Enzo Magliano Queiroz (Coordenador – CJ-2, NUPEMEC): Denise Lima Faria Francischeto ou Lara Forattini Gomes Salim.
+    - Portaria nº 90/2026: substitutos de João Gustavo Ferreira Ribeiro (Diretor de Secretaria – CJ-3, 2ª Vara do Trabalho de Vitória): Kaio de Oliveira Alves, Raphaela Stein Mauro ou Maurício Bronzato dos Santos.
+  Fonte: DEJT Caderno Administrativo TRT-17, publicação de 26/11/2026 — https://diario.jt.jus.br/cadernos/Diario_A_17.pdf
+
+* TRT-17 – Portarias da Presidência de 24/11/2026 (nº 660 e 662): movimentação de funções comissionadas
+  Ementa: Dispensa e designação simultânea, a partir de 30/11/2026, de duas servidoras em funções FC-04 e FC-05 da 10ª para a 12ª Vara do Trabalho de Vitória.
+  Unidade(s): SELEP, DIPROF
+  Fonte: DOU Seção 2, p. 61 (25/11/2026) — https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2
+
+* ANS – Resolução Administrativa nº 90/2026: avaliação de desempenho em estágio probatório
+  Ementa: Dispõe sobre critérios e procedimentos de avaliação de desempenho de servidores em estágio probatório na ANS e sobre a Comissão de Avaliação Especial de Desempenho. Referência de boas práticas; sem efeito direto no TRT-17.
+  Unidade(s): SEGEDE, SEGECOP
+  Fonte: DOU Seção 1, p. 170 (25/11/2026) — https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do1
+
+4. EM MONITORAMENTO (TCU / STF / STJ)
+
+* TCU – acórdãos de 17 e 24/11/2026 sobre cumulação de “opção” com quintos/décimos e cálculo de proventos (EC 103/2019, art. 20)
+  Status: Diversos acórdãos das Câmaras (ex.: 5961, 5958, 5943, 5481/2026, relativos a opção cumulada com quintos; 5463, 5465, 5571 e 5572/2026, sobre proventos pela média x integralidade) e o Acórdão 5564/2026 (TRT-3: GAJ na base de ATS e AQ).
+  Possível reflexo: Possível reflexo em análises de aposentadoria e revisão de proventos (SESES/SELEP). [carece de leitura humana do texto integral]
+  Fonte: Acórdãos do TCU, sessões de 17 a 24/11/2026 — https://pesquisa.apps.tcu.gov.br/
+
+* STF – repercussão geral sobre divisor mínimo na aposentadoria
+  Status: Tribunal reconheceu repercussão geral e determinou a suspensão nacional dos processos sobre a regra (notícia de 19/11/2026).
+  Possível reflexo: Possível reflexo em cálculo de proventos (SESES). [carece de leitura humana do texto integral]
+  Fonte: Notícias do STF, 19/11/2026 — https://noticias.stf.jus.br/postsnoticias/stf-vai-julgar-validade-do-divisor-minimo-na-aposentadoria/
+
+* CNJ – DJe nº 281/2026: atos sobre política de cuidado/saúde no trabalho e estrutura previdenciária (Fonaprev/PJ-Prev)
+  Status: Trechos do DJe indicam texto normativo com diretrizes de gestão de pessoas, saúde ocupacional e comitês previdenciários; número e natureza dos atos [verificar nº na fonte].
+  Possível reflexo: Pode demandar ajustes em rotinas de gestão de pessoas e saúde. [carece de leitura humana do texto integral]
+  Fonte: DJe do CNJ nº 281/2026 — https://www.cnj.jus.br/dje/djeletronico
+
+RESUMO ESTATÍSTICO
+- Alto Impacto: 0
+- Médio Impacto: 1
+- Informativos: 5
+- Em Monitoramento: 3
+- Fontes consultadas: DOU Seções 1 e 2 (edição de 25/11/2026); DEJT Caderno Administrativo TRT-17 (3 atos, todos triados); DEJT TST (3 atos detectados, nenhum pertinente à SGP segundo o filtro temático); acórdãos do TCU (sessões de 17 a 24/11/2026); DJe do CNJ; jurisprudência do STF e do STJ. DEJT CSJT: sem publicação no Caderno Administrativo nesta data.
+- Sem retorno relevante: DJEN (CSJT): edição não consultada pela rotina automatizada — conferência manual em comunica.pje.jus.br. Edição de 26/11/2026 do DOU, TCU, CNJ e jurisprudência: ainda não disponível.
+
+CONFORMIDADE: RA TRT-17 nº 4/2025, Resolução CNJ nº 615/2025, Ato CSJT nº 41/2025 e LGPD. Nenhum processo sigiloso ou sob segredo de justiça foi consultado. Itens marcados [carece de leitura humana do texto integral] ou [verificar nº na fonte] exigem conferência na fonte.
+
+Boletim gerado pela rotina do Boletim Normativo Diário - SGP (Claude AI) em 26/11/2026, 11h50 (Brasília). Conteúdo sujeito a revisão humana antes de distribuição oficial.
