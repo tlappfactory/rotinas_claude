@@ -1,0 +1,177 @@
+{
+ "data": "2026-11-27",
+ "timestamp": "27/11/2026, 11h45 (Brasília)",
+ "aviso": {
+  "destaque": true,
+  "texto": "Edição de 27/11 das fontes oficiais indisponível; utilizadas DOU 25/11, DEJT publicação 26/11 (disponibilização 25/11), TCU sessões até 25/11."
+ },
+ "alto": [],
+ "medio": [
+  {
+   "titulo": "TRT-17 — Portaria PRESI/DIGER/SGP/CODOP/SELIR nº 664/2026: vacância de cargo de Técnico Judiciário por posse em cargo inacumulável",
+   "ementa": "Declara a vacância do cargo de Técnico Judiciário, área Administrativa, do quadro permanente do TRT-17, em virtude de posse em outro cargo inacumulável, a partir de 16/11/2026. Publicada também no DOU.",
+   "unidades": "SELIR, SELEP, CODOP",
+   "acao": "Registrar vacância, atualizar lotação e quadro de cargos vagos.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (disponibilização 25/11/2026)"
+  },
+  {
+   "titulo": "TRT-17 — Portarias SELIR/SGP/PRESI nº 89/2026 e nº 90/2026: designação de substitutos em CJ-2 (NUPEMEC) e CJ-3 (2ª VT de Vitória)",
+   "ementa": "Designam substitutos para Coordenador do NUPEMEC (CJ-2) e Diretor de Secretaria da 2ª Vara do Trabalho de Vitória (CJ-3), com pagamento pelos dias de efetiva substituição; revogam portarias anteriores de indicação dos substitutos.",
+   "unidades": "SELEP, SELIR",
+   "acao": "Registrar substituições e conferir pagamento por efetiva substituição.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (disponibilização 25/11/2026)"
+  },
+  {
+   "titulo": "TRT-17 — Portarias da Presidência de 24/11/2026 (nº 660, 662 e seguintes): dispensa e designação de funções comissionadas",
+   "ementa": "Entre outros atos, a Portaria nº 660 dispensa servidora da FC-04 de Assistente de Gabinete na 10ª VT de Vitória e a designa para a mesma função na 12ª VT de Vitória, a partir de 30/11/2026. Demais portarias do lote constam do DOU Seção 2, p. 61. [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "SELEP, SELIR",
+   "acao": "Atualizar registros de funções comissionadas e folha a partir de 30/11.",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 61"
+  },
+  {
+   "titulo": "TRT-17 — Ato PRESI nº 95/2026: suspensão de atividades e prazos em Mimoso do Sul por chuvas (24 a 27/11/2026)",
+   "ementa": "Suspende as atividades presenciais do Posto de Atendimento em Mimoso do Sul e os prazos processuais/audiências da 1ª VT de Cachoeiro de Itapemirim para partes e advogados do município, de 24 a 27/11/2026, em razão de calamidade por fortes chuvas.",
+   "unidades": "SELIR, SGP-direção",
+   "acao": "Dar ciência; verificar impactos em escala, jornada e servidores atingidos.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17 (disponibilização 25/11/2026)"
+  },
+  {
+   "titulo": "CNJ — DJe nº 281/2026: texto de resolução com Política de gestão de pessoas e GRH; prazo de 180 dias para os tribunais",
+   "ementa": "Trechos do DJe indicam resolução que prevê manual do CNJ e plano de implementação dos 'GRH' (ou adequação às diretrizes) pelos tribunais em 180 dias da publicação, alterações na Res. CNJ nº 254/2018 e ajustes na Res. CNJ nº 240/2016 (Política de gestão de pessoas), com temas de saúde, assédio e gestão de pessoas. Número e escopo exatos: [verificar nº na fonte]. [carece de leitura humana do texto integral]",
+   "unidades": "SGP-direção, SEGECOP, SEGEDE, SECOBE",
+   "acao": "Ler íntegra no DJe; avaliar prazo de 180 dias e adequações.",
+   "fonte_url": "https://www.cnj.jus.br/dje/jsp/dje/DownloadDeDiario.jsp?dj=DJ281_2026-ASSINADO.PDF&statusDoDiario=ASSINADO",
+   "fonte_titulo": "DJe CNJ nº 281/2026"
+  }
+ ],
+ "informativo": [
+  {
+   "titulo": "TRT-17 — Ato PRESI nº 96/2026: redatores designados e fornecedores de voto condutor em dezembro/2026",
+   "ementa": "Indica Desembargadores redatores designados do Tribunal Pleno e das 1ª a 3ª Turmas para dezembro de 2026. Matéria de magistratura, sem reflexo direto em rotinas da SGP.",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "TRT-17 — Extratos de concessão de diárias (Diretoria-Geral)",
+   "ementa": "Diversos extratos de concessão, complementação e devolução de diárias a servidores e magistrado do TRT-17 (incl. deslocamentos a Brasília, Mimoso do Sul e perícias médicas no Núcleo de Saúde).",
+   "unidades": "SGP-direção (ciência), COREP",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_17.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TRT-17"
+  },
+  {
+   "titulo": "CNJ — Portaria SGP nº 372/2026: designação para FC-2 (Assistente II da Assessoria de Correição e Inspeção)",
+   "ementa": "A Secretária de Gestão de Pessoas do CNJ designa Técnico Judiciário do quadro do próprio Conselho para a função comissionada FC-2.",
+   "unidades": "SELEP (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 58"
+  },
+  {
+   "titulo": "CNJ — Portaria CN nº 106/2026: requisição de servidor do TJRR para a Corregedoria Nacional",
+   "ementa": "Requisita analista judiciário do TJ de Roraima para a Corregedoria Nacional de Justiça, sem ônus para o CNJ.",
+   "unidades": "SELIR (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 58"
+  },
+  {
+   "titulo": "CJF — Resolução nº 1.005/2026 (altera o Manual de Cálculos da Justiça Federal) e Portaria CJF nº 763/2026 (cronograma de desembolso)",
+   "ementa": "A Resolução altera o Manual de Orientação de Procedimentos para os Cálculos na Justiça Federal (texto do Manual não reproduzido no ato). A Portaria divulga o Cronograma Anual de Desembolso Mensal da Justiça Federal de 2026.",
+   "unidades": "SGP-direção (ciência), DIPROF",
+   "acao": "",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 237"
+  },
+  {
+   "titulo": "MGI/SGP — Portaria Conjunta SGP-MGI/SGA-MEC nº 66/2026 e Portaria SGP/MGI nº 14.118/2026",
+   "ementa": "A primeira redistribui cargos efetivos vagos entre institutos federais (IFMG e IFTO); a segunda dispensa servidor de encargo de substituto eventual de FCE na Secretaria de Gestão de Pessoas do MGI. Relevância apenas de acompanhamento da prática da SGP federal.",
+   "unidades": "SELIR (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do1",
+   "fonte_titulo": "DOU Seção 1, p. 143 / Seção 2, p. 35"
+  },
+  {
+   "titulo": "STJ/TST/TRF1/TCU — atos de pessoal em outros órgãos (cessão de servidora prorrogada, designações e dispensas de FC/CJ)",
+   "ementa": "Portaria STJ/GP nº 987/2026 prorroga cessão de servidora até 31/01/2027; Atos TST nº 717, 718, 719, 747, 748, 752/2026 e Portaria-DIADI nº 208/2026 (TCU) tratam de designações/dispensas de funções. Sem reflexo direto no TRT-17.",
+   "unidades": "SELEP (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 55 e 58"
+  },
+  {
+   "titulo": "TRT-16 — Resolução Administrativa nº 200/2026 (20/08/2026)",
+   "ementa": "Resolução administrativa do TRT-16 publicada no DOU; matéria não detalhada nesta triagem. [carece de leitura humana do texto integral — conferir no DOU]",
+   "unidades": "SGP-direção (ciência)",
+   "fonte_url": "https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do2",
+   "fonte_titulo": "DOU Seção 2, p. 61"
+  }
+ ],
+ "monitoramento": [
+  {
+   "titulo": "STF — Divisor mínimo na aposentadoria: repercussão geral reconhecida e suspensão nacional dos processos",
+   "status": "Notícia de 19/11/2026: o STF vai julgar a validade do divisor mínimo na aposentadoria; reconhecida repercussão geral, com suspensão nacional dos processos sobre a regra. [carece de leitura humana do texto integral]",
+   "reflexo": "Possível reflexo no cálculo de proventos (SESES); acompanhar o julgamento.",
+   "fonte_url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-julgar-validade-do-divisor-minimo-na-aposentadoria/",
+   "fonte_titulo": "Notícias do STF, 19/11/2026"
+  },
+  {
+   "titulo": "TCU — Acórdão 5460/2026 (Segunda Câmara, sessão 17/11/2026)",
+   "status": "Julgado; aposentadoria pela regra de transição do art. 20 da EC 103/2019: servidor anterior a 31/12/2003 sem opção por previdência complementar — integralidade e paridade, não cálculo pela média. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES: conferir cálculo de proventos em casos análogos.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2784556%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5460/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — Acórdão 5961/2026 (Primeira Câmara, sessão 17/11/2026)",
+   "status": "Julgado; aposentadoria com vantagem 'opção' cumulada com quintos; menção à Súmula TCU 290. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES/SELEP: atenção à vedação de cumulação 'opção' + quintos.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2779765%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5961/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — Acórdão 5564/2026 (Segunda Câmara, sessão 24/11/2026)",
+   "status": "Julgado; aposentadoria (TRT-3): inclusão da GAJ na base de cálculo de ATS e AQ com amparo em decisão judicial sem trânsito em julgado. [carece de leitura humana do texto integral]",
+   "reflexo": "SELEP/SESES/DIPROF: reflexo para parcelas da Justiça do Trabalho (GAJ, ATS, AQ).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2784564%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5564/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — Acórdão 5481/2026 (Segunda Câmara, sessão 17/11/2026)",
+   "status": "Julgado; pedido de reexame em aposentadoria do TRT-10: vantagens 'opção' e 'quintos/décimos' na base de cálculo. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES: precedente envolvendo TRT; cotejar com casos do TRT-17.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783975%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5481/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — Acórdão 3141/2026 (Plenário, sessão 17/11/2026)",
+   "status": "Julgado; recurso administrativo em aposentadoria por invalidez; pedido de reversão sem laudo de junta médica oficial (art. 25, I, Lei 8.112/1990). [carece de leitura humana do texto integral]",
+   "reflexo": "SESES/SECOBE: instrução de reversão exige laudo de junta médica oficial.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2783540%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 3141/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — Acórdão 5959/2026 (Primeira Câmara, sessão 17/11/2026)",
+   "status": "Julgado; aposentadoria com quintos amparados por decisão judicial transitada em julgado; menção ao Tema 445 do STF e prazo quinquenal. [carece de leitura humana do texto integral]",
+   "reflexo": "SESES: acompanhar tratamento de quintos (funções exercidas entre 1998 e 2001).",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2782310%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5959/2026 — TCU"
+  },
+  {
+   "titulo": "TCU — demais acórdãos de aposentadoria/pensão (sessões de 17 e 24/11/2026)",
+   "status": "Outros acórdãos filtrados, sobre quintos/décimos, EC 103/2019 art. 20 e pensões: 5478, 5463, 5465, 5466, 5468, 5471, 5477, 5462, 5571, 5572, 5568, 5570, 5557 (2ª Câmara); 5943, 5948, 5952, 5953, 5954, 5957, 5958, 5960, 5963, 5951 (1ª Câmara). [carece de leitura humana do texto integral]",
+   "reflexo": "SESES: consulta para instrução de atos de aposentadoria e pensão.",
+   "fonte_url": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/detalhamento/11/*/KEY:%22ACORDAO-COMPLETO-2780325%22/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/false/1/false",
+   "fonte_titulo": "Acórdão 5478/2026 — TCU (exemplo)"
+  },
+  {
+   "titulo": "CSJT / TST — DEJT Caderno Administrativo",
+   "status": "CSJT sem publicação no Caderno Administrativo nesta edição; TST: 3 atos detectados (Atos GDGSET.GP nº 720 e 716 e Ato nº 07/CGJT.CITRT16), nenhum pertinente à SGP segundo o filtro temático.",
+   "reflexo": "Sem reflexo identificado.",
+   "fonte_url": "https://diario.jt.jus.br/cadernos/Diario_A_TST.pdf",
+   "fonte_titulo": "DEJT Caderno Administrativo TST"
+  }
+ ],
+ "fontes_ok": "DOU Seções 1 e 2 (edição de 25/11/2026: 118 atos selecionados; 58 atos individuais de pessoal de outros órgãos descartados); DEJT Caderno Administrativo TRT-17 (3 atos, todos triados), TST (3 atos, nenhum pertinente) e CSJT (sem publicação); acórdãos do TCU (sessões de 17 a 24/11/2026, 29 selecionados); DJe do CNJ nº 281/2026; STF (notícias).",
+ "fontes_sem_retorno": "Edição de 27/11/2026 e de 26/11/2026 do DOU não consultadas; DEJT disponibilizado em 26/11 (publicação 27/11) não consultado — conferência manual em diario.jt.jus.br. Acórdãos do CSJT (DJEN) não consultados — conferência manual em comunica.pje.jus.br. STJ: edição sem itens selecionados; sem leitura de repetitivos nesta rotina."
+}
